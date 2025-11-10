@@ -46,8 +46,9 @@ from m5.util import (
 
 class MyCacheSystem(RubySystem):
     def __init__(self):
-        if not "RUBY_PROTOCOL_MyMSI" in buildEnv:
-            fatal("This system assumes MSI from learning gem5!")
+        #if not "RUBY_PROTOCOL_MyMSI" in buildEnv:
+        if not "RUBY_PROTOCOL_MESI_Two_Level" in buildEnv:
+            fatal("This system assumes MESI_Two_Level from learning gem5!")
 
         super().__init__()
 
@@ -60,7 +61,7 @@ class MyCacheSystem(RubySystem):
         # Ruby's global network.
         self.network = MyNetwork(self)
 
-        # MSI uses 3 virtual networks. One for requests (lowest priority), one
+        # MESI_Two_Level uses 3 virtual networks. One for requests (lowest priority), one
         # for responses (highest priority), and one for "forwards" or
         # cache-to-cache requests. See *.sm files for details.
         self.number_of_virtual_networks = 3
@@ -111,7 +112,7 @@ class MyCacheSystem(RubySystem):
             self.sequencers[i].connectCpuPorts(cpu)
 
 
-class L1Cache(MSI_L1Cache_Controller):
+class L1Cache(MESI_Two_Level_L1Cache_Controller):
 
     _version = 0
 
@@ -177,7 +178,7 @@ class L1Cache(MSI_L1Cache_Controller):
         self.responseFromDirOrSibling.in_port = ruby_system.network.out_port
 
 
-class DirController(MSI_Directory_Controller):
+class DirController(MESI_Two_Level_Directory_Controller):
 
     _version = 0
 

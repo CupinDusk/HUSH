@@ -59,4 +59,8 @@ config RUBY_PROTOCOL_MyMSI
     bool "MyMSI"
     default n
 
+config RUBY_PROTOCOL_HUSH
+    bool "HUSH"
+    default n
+
 rsource "chi/Kconfig"
