@@ -1,0 +1,6 @@
+protocol "HUSH" use_secondary_load_linked;
+include "HUSH-msg.sm";
+include "HUSH-L1cache.sm";
+include "HUSH-L2cache.sm";
+include "HUSH-dir.sm";
+include "HUSH-dma.sm";
