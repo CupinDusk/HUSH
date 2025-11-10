@@ -47,8 +47,8 @@ from m5.util import (
 class MyCacheSystem(RubySystem):
     def __init__(self):
         #if not "RUBY_PROTOCOL_MyMSI" in buildEnv:
-        if not "RUBY_PROTOCOL_HUSH" in buildEnv:
-            fatal("This system assumes HUSH from learning gem5!")
+        if not "RUBY_PROTOCOL_MyMSI" in buildEnv:
+            fatal("This system assumes MyMSI from learning gem5!")
 
         super().__init__()
 
@@ -112,7 +112,7 @@ class MyCacheSystem(RubySystem):
             self.sequencers[i].connectCpuPorts(cpu)
 
 
-class L1Cache(HUSH_L1Cache_Controller):
+class L1Cache(MyMSI_L1Cache_Controller):
 
     _version = 0
 
@@ -178,7 +178,7 @@ class L1Cache(HUSH_L1Cache_Controller):
         self.responseFromDirOrSibling.in_port = ruby_system.network.out_port
 
 
-class DirController(HUSH_Directory_Controller):
+class DirController(MyMSI_Directory_Controller):
 
     _version = 0
 
