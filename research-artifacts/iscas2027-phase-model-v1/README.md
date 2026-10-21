@@ -1,0 +1,9 @@
+# Author-approved reproducibility package, 2026-10-21
+
+The repository owner authorized public release of the exact `hush-public-model-v1.zip` package. The archive is preserved byte for byte: SHA-256 `1f3d9d714e1bb5d5ced4a2124eb11bb2c0005e90fe2a226005edd645be121499`. Unzip it to obtain `hush-public-model-v1/`; its `MANIFEST.json` records input hashes. Historical README/manifest statements that publication had not yet been authorized describe preparation time and are superseded by this release note.
+
+This is an early public-source/behavioral-model subset, not the complete artifact for the current manuscript. It contains public gem5 source with original notices and new model/check code; it contains no private native HUSH overlay or manuscript. Run `run_checks.py --zig /absolute/path/to/zig` from the extracted folder with Python 3.12 and Zig 0.14.1.
+
+Semantic limitation: the early local interval models permit an arm at the left service boundary after their initialization. They must not be interpreted as complete sequential read intervals in a receiver whose same-tick order is WU, decrement, then read/cancellation. Under that order a successful read cancels a same-tick surviving arm; a subsequent surviving arm must satisfy r >= s + 1. Later local work corrects that boundary and withdraws the interpretation that K=4, P=4, phase=1, WU at tick 9 expires before read 21: read 9 cancels it. This archive is immutable historical evidence; it does not reproduce the newer corrected theorem audits, client loop checks, or their counts. No native-cache or application result is established by publishing this package.
+
+Upstream notices and applicable repository licenses continue to apply. No new license grant is asserted by this release metadata. OpenAI Codex assisted preparation and analysis.
