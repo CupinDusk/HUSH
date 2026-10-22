@@ -18,7 +18,9 @@ def main():
   if p.returncode:print(p.stderr,file=sys.stderr);raise RuntimeError(f'{script.name} failed with {p.returncode}')
   commands.append({'script':script.name,'returncode':p.returncode})
  with tempfile.TemporaryDirectory(prefix='period-reuse-r03-') as tmp:
-  temp=Path(tmp);fresh=temp/'hush-shared-controller';fresh.mkdir()
+  # Retained historical relative-import code accesses HERE.parents[3]. Keep
+  # enough directory depth even when the system temp root is simply /tmp.
+  temp=Path(tmp);fresh=temp/'rebuild/r03/hush-shared-controller';fresh.mkdir(parents=True)
   for name in ('PROTOCOL.json','extract_shared.py','analyze_policies.py','independent_validate.py','ARGUMENT.md','PAPER_READY.md'):
    shutil.copyfile(shared/name,fresh/name)
   for name in ('extract_shared.py','analyze_policies.py','independent_validate.py'):run(fresh/name)
@@ -30,7 +32,7 @@ def main():
   for name in ('TRACES.jsonl.gz','ALL_PHASE_BASES.jsonl.gz','ALL_NEGATIVE_FIRST_FAILURES.jsonl.gz'):
    a=gzip.decompress((fresh/name).read_bytes());b=gzip.decompress((shared/name).read_bytes());assert a==b,name
    decoded[name]={'decoded_sha256':hashlib.sha256(a).hexdigest(),'decoded_bytes':len(a)}
-  fresh_work=temp/'hush-workflow-cost';fresh_work.mkdir()
+  fresh_work=fresh.parent/'hush-workflow-cost';fresh_work.mkdir()
   for name in ('PROTOCOL.json','producer.py','workflow.py'):shutil.copyfile(workflow/name,fresh_work/name)
   run(fresh_work/'workflow.py','prepare','--inputs',fresh)
   run(fresh_work/'workflow.py','validate','--inputs',fresh)
