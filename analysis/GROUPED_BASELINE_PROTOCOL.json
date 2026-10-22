@@ -1,0 +1,9 @@
+{
+  "status": "specified_before_execution",
+  "date": "2026-10-23",
+  "question": "How much query work is saved by ordinary gcd-residue grouping alone, versus subsequent canonical dominance removal?",
+  "domain": "All1622 admitted existing family entries; same P=1..4p,K=1..5,all phases expanded grid",
+  "baseline": "Group the original service events by s mod m=gcd(P,d), retaining maximum span per residue, but do not remove dominated residues. Cache each target m exactly like the canonical route.",
+  "counts": "For independent policy calls count one modular-minimum term per cached grouped or canonical term. No result memoization across K/phase. No runtime or byte inference.",
+  "validation": "Compare group minimum with canonical minimum at every target physical phase; totals must match the original cost study. Keep all ties, no-gain and adverse results."
+}

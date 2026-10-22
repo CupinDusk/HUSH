@@ -26,7 +26,8 @@ def main():
           ('sparse_canonical_check.py','R32_SPARSE_RESULTS.json','R32_SPARSE_RESULTS.json'),
           ('multiphase_endpoint_check.py','R34_MULTIPHASE_RESULTS.json','R34_MULTIPHASE_RESULTS.json'),
           ('family_aggregate_check.py','R35_FAMILY_AGGREGATE_RESULTS.json','R35_FAMILY_AGGREGATE_RESULTS.json'),
-          ('query_cost_study.py','QUERY_COST_RESULTS.json','QUERY_COST_RESULTS.json')]
+          ('query_cost_study.py','QUERY_COST_RESULTS.json','QUERY_COST_RESULTS.json'),
+          ('grouped_baseline.py','GROUPED_BASELINE_RESULTS.json','GROUPED_BASELINE_RESULTS.json')]
     for script,report,expected in jobs:
         flags=['--zig',a.zig] if script in ['serial_source_only.py','periodic_poll.py','mixed_poll.py','variable_latency.py','endpoint_check.py','endpoint_family_check.py','branch_endpoint_check.py','multiphase_endpoint_check.py'] else []
         r=subprocess.run([sys.executable,'-B','-X','utf8',str(HERE/'analysis'/script),*flags],capture_output=True,text=True,timeout=600)

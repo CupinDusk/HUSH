@@ -1,8 +1,9 @@
 {
-  "scope": "review_snapshot_code_protocols_expected_results_and_operation_counts_only",
+  "scope": "review_snapshot_code_protocols_expected_results_with_grouped_and_canonical_operation_counts",
   "files": {
-    "README.md": "f3e3e059ee09adde9b6aecb31f96a6ca4bea894e15179d8a44cd0d9b3455457f",
+    "README.md": "f1b9b7e19217aec7a7df2628b82cedfbc66ef95ab662890fe7f724e364d1210d",
     "analysis/COVERAGE_WORDING_ERRATUM.md": "f54109e6483e1171778c2252bf9da0b2d9c1f7f85bbf5f17a7bcafd338290cd6",
+    "analysis/GROUPED_BASELINE_PROTOCOL.json": "1e7d3887c71aca3ec8081555f3838fac147a3530f4fb3af19cce4b7382d4a20a",
     "analysis/INTERFACE_LEDGER.json": "68bb2642f23c9ac0c6f920a9c3a652f9a8ad4efde937fb2f1893d058a4ff6295",
     "analysis/JOINT_TIMING_ARGUMENT.md": "9af2609d6cb20fa2dea55f1dce1fd2778d5b61c96ce3e879d4b4865a8065c77b",
     "analysis/JOINT_WITNESS_PROTOCOL.json": "7bab43964cdfef7ea6a78a59d28d11202da686182914ffd4530c26b87573bc53",
@@ -51,6 +52,7 @@
     "analysis/endpoint_main.cpp": "edb67541c3aa0d4fe369be81be55a5124a6abbaccf49d7230a0f0dfc68285041",
     "analysis/endpoint_port.cpp": "c4c20811d8f4efcbb4d452018b9bdd7381563237b9f21753aea00968832ee32f",
     "analysis/family_aggregate_check.py": "41dd3a5345a55984c15e06bee7d6dd2cf01b18cc7aa0ee18d9343920c7251cbe",
+    "analysis/grouped_baseline.py": "c1eb4cebf963582dbb2d59814c20848002ca1fca50a922ff8f1ffec432b020ce",
     "analysis/handoff_consumer.py": "9a493f16a705e4e09de1296b2fec1d3620635c72389f7a3420e2d496cd43cea6",
     "analysis/joint_witness.py": "942dcd945475abe88f75597c6261c21eb65be1edbefb7f054749294a3a3d5238",
     "analysis/mixed_poll.main.cpp": "73ae866d1481013b41029759b4cb17d18dbe75a1d642628c4aca60ba80390745",
@@ -80,6 +82,7 @@
     "analysis/upstream-packet-queue.cc": "b19eea4a28d1b9bbd34e04c38a4845caf8d4750def78d124e2787ee4b47d9f6a",
     "analysis/variable_latency.main.cpp": "006ca73e3de7b76538a93aef87a7b359edc60536083ce80b9c2cd3eb47fae4ff",
     "analysis/variable_latency.py": "9baa6f5cb4289007538f16a12857af94fa322b25c129822913d662e2c295b35c",
+    "expected/GROUPED_BASELINE_RESULTS.json": "72d42935e375aeb2af1a8a6c67b57abca3b81f3df0a5e45f0db6e271386a11bf",
     "expected/JOINT_WITNESS_RESULTS.json": "82811d1bb97e3c97656f0d1a328058a61a77215bf8c8a527b5cccff6809a2773",
     "expected/MIXED_POLL_RESULTS.json": "946fac6a099084ae9c7043c3bf1a626910188cfd3e14d6ec01be86fd6ed18a72",
     "expected/NEW_COMPARISONS.json": "055cc5009ce414650a9df837c97bd5e7027af71ad3c3f1cd932bc31c0788a67c",
@@ -100,6 +103,6 @@
     "expected/READ_BOUNDARY_RESULTS.json": "2670db12bd6d0f253fc051ed718247a374d35d2d888728eb28fea16c140f1d6c",
     "expected/SERIAL_SOURCE_CHECK.json": "7b245a21d0f3b9eddb245e4da7639f5501f7342beac9f781903cc6678701b755",
     "expected/VARIABLE_LATENCY_RESULTS.json": "1e0f075579efd96b51ac8fc7f937215f3b1b2eb914ecf5dafc52329f888dccc9",
-    "run_checks.py": "3bf25226bc0f70bfd9f8b3b2e4feff5edfa500425d636756e9a14bef89bc0a1c"
+    "run_checks.py": "a0c8ada269f2a890e9140e118365f3f6f52cad38528b924195bf7458c4d439c2"
   }
 }

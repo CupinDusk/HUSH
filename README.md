@@ -31,3 +31,11 @@ The additional query_cost_study.py check evaluates the fixed expanded grid of
 6,277,660 policies. It reports query-term evaluations, projection input visits,
 and stored terms separately. These are exact mathematical operation counts,
 not measured runtime, CPU instructions, memory bytes, or hardware speedup.
+
+## Grouped residue comparator
+
+`grouped_baseline.py` separates the term savings from ordinary gcd-residue
+grouping and subsequent canonical dominance removal on every admitted family
+entry and the same expanded policy grid. It verifies every target phase,
+retains ties and no-gain cases, and reports exact modular-minimum term counts.
+These counts do not establish hardware runtime or memory savings.
