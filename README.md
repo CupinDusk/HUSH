@@ -77,3 +77,40 @@ byte-for-byte after decompression. `NATIVE_RECORDED_RESULTS.json` preserves all
 numerical records; only the private installation path/command executable was
 generalized. Timing reproduction is checked by correctness and protocol, not
 by demanding identical elapsed times on a different host.
+
+## Shared-controller and complete offline workflow extension
+
+The `r03/` extension specifies and independently checks all forty predeclared
+two-line bounded shared-response controllers. It retains all 37,000 correlated
+policy queries, all 19,613 negative first-failure executions, all no-gain cases,
+the fourteen cases without a ready-off stall, and every finite prefix edge.
+Prospective per-line records retain 765 pairs versus 961 full-master pairs and
+support every portfolio query. Separate line identities are never quotiented.
+
+Run the new standard-library-only correctness and recorded-evidence audit:
+
+    python -B -X utf8 run_r03_checks.py
+
+The runner refuses an existing `R03_REPLAY_RESULTS.json`, uses a fresh temporary
+directory, independently regenerates every trace and negative execution, runs
+all four complete workflow correctness routes, and checks all 36 recorded
+timings, seeded orders, output hashes and numeric summaries. It performs no new
+timing experiment. The older suites remain separately available through
+`run_checks.py` and `run_r02_checks.py`; they are not silently rerun by this
+extension. Retained original scripts find existing public mathematical helpers
+through a child-process PYTHONPATH supplied by the runner.
+
+The complete local Python prototype charges fresh extraction, physical-prefix
+and binding work, representations, projection/cache construction, all queries
+and output consumption. Median total milliseconds are 178.580 cached raw,
+139.146 ordinary grouped, 137.271 prospective canonical and 133.451 dense.
+Dense wins 8/9 complete paired blocks; canonical loses to ordinary grouped in
+3/9. These are one local offline prototype's timings, not native HUSH, cache
+hardware, application, throughput or coherence measurements. Full ranges,
+adverse outcomes and nine block orders are retained.
+
+`r03/PUBLICATION_PROVENANCE.json` declares the removed private interpreter path
+and updated derived file hash. Every scientific/timing number is unchanged;
+the old public research tree and third-party licenses/headers remain exact.
+No manuscript, figure, private overlay, executable, remote configuration,
+credential or third-party raw acquisition data is included.

@@ -1,0 +1,50 @@
+{
+  "status": "PROSPECTIVE_FROZEN_BEFORE_NEW_WORKFLOW_COST_RESULTS",
+  "created_local_date": "2026-10-23",
+  "question": "For the fixed forty independently verified bounded shared-response controller cases, what does the complete offline Python workflow cost under four exact service representations?",
+  "scope": "One local Python 3.12 prototype and the fixed controller family. No native HUSH, cache hardware, application, throughput, coherence or statistical population performance claim. No manuscript, figure, review, publishing, remote, installation, process termination, affinity or frequency-control operation.",
+  "input_directory": "../hush-shared-controller",
+  "inputs": ["PROTOCOL.json", "extract_shared.py", "RELATIONS.json", "POLICY_RESULTS.json", "ALL_PHASE_BASES.jsonl.gz", "INDEPENDENT_VALIDATION.json", "ARGUMENT.md", "PAPER_READY.md"],
+  "case_domain": "All predeclared p=2..6, b=0..p-1, ready period r in [3,5], two line identities retained; exactly 40 cases. No selection or substitution.",
+  "policy_domain": "All physical P=1..4p, phi=0..P-1 and K=1..5 on both dedicated line counters: exactly 37000 correlated queries. Actual joint source/controller translation d; initial per-line service cutpoints and all finite prefix edges retained.",
+  "routes": {
+    "cached_raw": "Cache each line's raw (service,span) relation once. For each distinct target m=gcd(P,d), cache every raw residue/span term, preserving duplicate residues. Query scans those cached terms and takes the minimum across the two lines.",
+    "ordinary_grouped": "Cache the same raw relations. For each distinct m, group each line's service residue to maximum span. Query scans the ordinary grouped terms and takes the minimum across the two lines.",
+    "prospective_canonical": "From each freshly extracted line relation construct g*=lcm_{P=1..4p} gcd(P,d) and its canonical residue/span record, without reading frozen favorable canonical inputs. For each distinct m project, regroup and canonicalize once; cache sorted reset arrays. Query uses bisect predecessor and wrapped sawtooth value on each line, then takes their minimum.",
+    "dense_phase": "Cache the same raw relations and construct the same per-line ordinary grouped target profile as ordinary_grouped. Explicitly compute and retain the complete per-line envelope value at every phase 0..m-1. Query uses two direct phase lookups and takes their minimum. Dense construction is charged; repeated K and physical phases reuse this cache."
+  },
+  "common_work": {
+    "producer": "Fresh extraction of all forty complete bounded producers separately for each route/block, using the already verified Producer semantics and extraction closure checks. Detect first repeated full control key, continue two cycles, form matching per-line prefix/cycle triples, and compute trace digest. Do not build any route-specific profile in this common extraction.",
+    "prefix": "For every case and physical P, precompute the exact minimum finite-prefix base for every physical phi once, shared across all five K values and identically computed by all routes. Empty prefix is represented by null/infinity. Physical P is never replaced by gcd in this stage.",
+    "gcd": "Precompute gcd(P,d), distinct m values and prospective g* outside every route's query loop; charged in common prefix/bind stage. All target profiles are cached by distinct m, never rebuilt for repeated P/K/phi queries.",
+    "query": "Same saved shuffled 37000-query stream for every invocation, same physical B=(K-1)*P and same exact prefix minimum. Return exact service slack and positive iff slack>0. The completion observer is a correctness reference only and is not timed as an exact service route."
+  },
+  "stages": ["producer_extraction", "prefix_and_bind", "representation_construction", "target_projection_and_cache", "queries", "consume_hash"],
+  "timing": {
+    "timer": "time.perf_counter_ns",
+    "execution": "Existing bundled Python 3.12, flags -B -X utf8, standard library only; no new dependencies/software. Same process, serial route invocations, ordinary garbage collector enabled, no affinity/frequency control.",
+    "warmup": "Exactly one complete untimed block containing all four routes in the saved seeded order, after correctness validation.",
+    "blocks": 9,
+    "route_order_seed": 2026102303,
+    "query_stream_seed": 2026102304,
+    "route_order_generation": "random.Random(route_order_seed).shuffle a fresh list [cached_raw,ordinary_grouped,prospective_canonical,dense_phase] for warmup and then each of nine paired blocks; save all ten orders before validation/timing.",
+    "query_stream_generation": "Enumerate cases in producer.cases order, then P increasing, phi increasing, K increasing; random.Random(query_stream_seed).shuffle once; save stream before validation/timing.",
+    "included": "Every stage above including fresh common producer extraction, actual finite-prefix/bind cost, representation and dense construction, target projection, all queries, sum/status consumption and ordered hash. Stage raw times plus whole-invocation elapsed nanoseconds are saved for every route/block.",
+    "excluded": "Input parsing/imports, initial frozen stream/expected-output construction, independent untimed validation, report serialization and process startup. No extraction or prefix result is reused between routes/blocks.",
+    "end_to_end": "Timer begins before fresh extraction and ends after consuming every output. Sum of separately timed stages may differ because invocation/control overhead is included in end_to_end; report both.",
+    "retained_output": "Query loop retains all integer slacks, running sum and positive count. Consume stage hashes ordered struct.pack('<q?',slack,slack>0) bytes. The saved query stream digest binds each output position to its query identity. All route hashes and sums must equal the prospectively frozen expected values.",
+    "summary": "Raw nine paired block times, per-stage and end-to-end median/min/max; paired per-block speed ratios. No confidence interval or independent-sample interpretation.",
+    "failure_rule": "Stop on correctness mismatch and preserve every failed attempt. No selective stop, replacement, trimming, rerun or removal of unfavorable cases. A failed timing attempt remains recorded; any correction needs a separate documented protocol amendment and new run identity.",
+    "scheduling": "After protocol and untimed validation, obtain root timing-lane confirmation before warmup or timed blocks. No user approval required."
+  },
+  "validation_before_timing": [
+    "Re-extracted configuration, entry, repeat, translation, trace digest, cutpoints and every per-line prefix/cycle triple match frozen RELATIONS.json.",
+    "All four routes reproduce every exact slack and status in the frozen ALL_PHASE_BASES stream, hence POLICY_RESULTS counts 37000 queries, 17387 service-positive, 19613 service-unknown and 16948 completion-positive. Keep all negatives and no-gain cases.",
+    "Independently check every query status from periodic decrement-event counts on literal prefix plus translated cycle orbit, without calling any route's envelope/projection/expiry routine.",
+    "Prospective canonical pairs match frozen per-line payloads only as an untimed validation check. Report summed per-line counts 765 versus full-master 961 without forming a cross-line quotient.",
+    "Save frozen expected stream/hash/sum/count, full query schedule and all route orders before timing."
+  ],
+  "representation_reporting": "Report per-line term counts, per-distinct-m target cache terms, dense phase values, prefix cached values and other prototype capacities as counts. They are not minimum encodings, byte memory measurements, or hardware storage.",
+  "interpretation": "Report raw/dense/ordinary wins as well as canonical wins; retain extraction/prefix domination, no gain and amortization-negative outcomes. A faster query stage does not imply a faster complete job. No modeled reuse analysis is planned.",
+  "outputs": ["PROTOCOL.json", "workflow.py", "producer.py", "QUERY_STREAM.json.gz", "SCHEDULE.json", "EXPECTED.json", "VALIDATION.json", "ALL_TIMINGS.json", "RESULTS.json", "README.md"]
+}

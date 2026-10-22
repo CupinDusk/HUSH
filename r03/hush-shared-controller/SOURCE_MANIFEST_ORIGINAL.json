@@ -1,0 +1,67 @@
+{
+  "status": "PASS_SOURCE_AND_POLICY_INDEPENDENT_VALIDATION_COMPLETE",
+  "inputs_and_outputs": [
+    {
+      "path": "ALL_NEGATIVE_FIRST_FAILURES.jsonl.gz",
+      "bytes": 104846,
+      "sha256": "629a4c8b278486577a58dd4f2ffd3aa73673883a8b8ed829ad115621e0d32bd3"
+    },
+    {
+      "path": "ALL_PHASE_BASES.jsonl.gz",
+      "bytes": 32414,
+      "sha256": "d280587e4c5f270992d57ec4925429f03dda66a1ab137a1ce047511dd3cf1c94"
+    },
+    {
+      "path": "analyze_policies.py",
+      "bytes": 8247,
+      "sha256": "3c7ab05abf5082efe81580bdcbfe8c341caf8b22da69d82dfef54de1c6540dd1"
+    },
+    {
+      "path": "ARGUMENT.md",
+      "bytes": 14078,
+      "sha256": "e537b69a2aa7ace958612025e92f8cd67ba1c37b4842e69c637fc971608eb848"
+    },
+    {
+      "path": "extract_shared.py",
+      "bytes": 7682,
+      "sha256": "1d0812128dfd65586f473a138f5137983974473a2fb9100949d5be749e4c7e1a"
+    },
+    {
+      "path": "independent_validate.py",
+      "bytes": 9521,
+      "sha256": "5f594b6733e041bdc16e24f5111406b20dd286917614b74098ec853cda7bd998"
+    },
+    {
+      "path": "INDEPENDENT_VALIDATION.json",
+      "bytes": 1619,
+      "sha256": "d018b47d5dec68e2b02484ac3dd22ff7688ef599da21e0acbd2444940bba9fef"
+    },
+    {
+      "path": "PAPER_READY.md",
+      "bytes": 5550,
+      "sha256": "4166c15cef8cd8de45039ccf7d6da0caae90454b23b8f85e8f912fb69a5137c6"
+    },
+    {
+      "path": "POLICY_RESULTS.json",
+      "bytes": 43777,
+      "sha256": "5615abd57e638d9435be823e69c5a1f76615b347a9afdb4f6ceff0ec5764521d"
+    },
+    {
+      "path": "PROTOCOL.json",
+      "bytes": 5923,
+      "sha256": "536a35c9d37ca727028609c8a742fb9454b6942fb64d5b1d8e2640de807dcaba"
+    },
+    {
+      "path": "RELATIONS.json",
+      "bytes": 438727,
+      "sha256": "f77704f0329c79babe82afbe56dbfce7e2ea7bd219e8299ae3332a9017487a47"
+    },
+    {
+      "path": "TRACES.jsonl.gz",
+      "bytes": 151926,
+      "sha256": "a065d52d29ac59d892a5f2bf8f90b43b6c4b35eb653dea2bb4ad3fd5520d1c76"
+    }
+  ],
+  "publication_note": "Current extraction/analysis import own existing r23_canonical.py/r26_remod.py from editor-analysis. A public standalone packaging must preserve those algorithm sources/provenance or supply reviewed self-contained copies and independently replay again; no manuscript, private overlays, server materials or credentials needed.",
+  "no_runtime_benchmark": true
+}

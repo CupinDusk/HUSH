@@ -1,0 +1,28 @@
+{
+  "status": "FROZEN_FROM_EXISTING_INDEPENDENTLY_VALIDATED_PHASE_BASES",
+  "source_bindings": {
+    "PROTOCOL.json": "4bd448629b84e82a6be2df311aff8fdb585f4cd88677ba6d0ca8260289454b71",
+    "producer.py": "76f5faf3686c1bc7780646f26f4da0335fd0c8d6d24be98fcda5094815a5597c",
+    "workflow.py": "5b892c908477c9b323e01fa09899b1e1d1d859622190f61402244db713e43838"
+  },
+  "input_sha256": {
+    "PROTOCOL.json": "536a35c9d37ca727028609c8a742fb9454b6942fb64d5b1d8e2640de807dcaba",
+    "extract_shared.py": "1d0812128dfd65586f473a138f5137983974473a2fb9100949d5be749e4c7e1a",
+    "RELATIONS.json": "f77704f0329c79babe82afbe56dbfce7e2ea7bd219e8299ae3332a9017487a47",
+    "POLICY_RESULTS.json": "5615abd57e638d9435be823e69c5a1f76615b347a9afdb4f6ceff0ec5764521d",
+    "ALL_PHASE_BASES.jsonl.gz": "d280587e4c5f270992d57ec4925429f03dda66a1ab137a1ce047511dd3cf1c94",
+    "INDEPENDENT_VALIDATION.json": "d018b47d5dec68e2b02484ac3dd22ff7688ef599da21e0acbd2444940bba9fef",
+    "ARGUMENT.md": "e537b69a2aa7ace958612025e92f8cd67ba1c37b4842e69c637fc971608eb848",
+    "PAPER_READY.md": "4166c15cef8cd8de45039ccf7d6da0caae90454b23b8f85e8f912fb69a5137c6"
+  },
+  "query_stream_sha256": "c205fd6303814ba6ac5e57b1609f53548613a9f5f06a93e6cadd05067e16c541",
+  "schedule_sha256": "d5be9daba0b36079b416ccba4b09caf752e7f1eb2ae7ad64c113628465240469",
+  "queries": 37000,
+  "phase_rows": 7400,
+  "slack_sum": 94695,
+  "positive": 17387,
+  "unknown": 19613,
+  "completion_positive": 16948,
+  "output_sha256": "cc127f21521f9daf0782c2f026d5b23366a3e529b8daf1531248c9db906d4674",
+  "hash_encoding": "ordered struct.pack('<q?',slack,slack>0)"
+}

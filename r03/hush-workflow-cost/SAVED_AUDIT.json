@@ -1,0 +1,10 @@
+{
+  "status": "PASS_FROZEN_BINDINGS_COMPLETE_GRID_SCHEDULE_ALL36_OUTPUTS_AND_REPORTED_SUMMARIES",
+  "script_sha256": "4a7e68b8b34449162c8da78c6d5bbd192ebf53a9651bd04190b6acd088e1a042",
+  "all_timings_sha256": "d140d1ce0ef213233ca20f703232e9dafe659d55de93ab3416bdd86e4d4d373e",
+  "results_sha256": "5189c5c8397b2eb1a0bc8ee80c5a38c9f612d4a196ea951b48bb2cdb8c38f7f6",
+  "queries": 37000,
+  "measurements": 36,
+  "independent_timing_run": false,
+  "repeated_timing_run": false
+}

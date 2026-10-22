@@ -1,0 +1,95 @@
+{
+  "warmup": [
+    "cached_raw",
+    "dense_phase",
+    "ordinary_grouped",
+    "prospective_canonical"
+  ],
+  "paired_blocks": [
+    {
+      "block": 1,
+      "order": [
+        "prospective_canonical",
+        "dense_phase",
+        "cached_raw",
+        "ordinary_grouped"
+      ]
+    },
+    {
+      "block": 2,
+      "order": [
+        "dense_phase",
+        "ordinary_grouped",
+        "prospective_canonical",
+        "cached_raw"
+      ]
+    },
+    {
+      "block": 3,
+      "order": [
+        "dense_phase",
+        "ordinary_grouped",
+        "prospective_canonical",
+        "cached_raw"
+      ]
+    },
+    {
+      "block": 4,
+      "order": [
+        "cached_raw",
+        "dense_phase",
+        "prospective_canonical",
+        "ordinary_grouped"
+      ]
+    },
+    {
+      "block": 5,
+      "order": [
+        "dense_phase",
+        "cached_raw",
+        "prospective_canonical",
+        "ordinary_grouped"
+      ]
+    },
+    {
+      "block": 6,
+      "order": [
+        "prospective_canonical",
+        "ordinary_grouped",
+        "cached_raw",
+        "dense_phase"
+      ]
+    },
+    {
+      "block": 7,
+      "order": [
+        "ordinary_grouped",
+        "prospective_canonical",
+        "cached_raw",
+        "dense_phase"
+      ]
+    },
+    {
+      "block": 8,
+      "order": [
+        "ordinary_grouped",
+        "cached_raw",
+        "prospective_canonical",
+        "dense_phase"
+      ]
+    },
+    {
+      "block": 9,
+      "order": [
+        "prospective_canonical",
+        "dense_phase",
+        "cached_raw",
+        "ordinary_grouped"
+      ]
+    }
+  ],
+  "query_stream_uncompressed_sha256": "1d58377db1f9d4522d120074af18bae614f39a8d16a04e4e572bc7c7a558215a",
+  "query_stream_compressed_sha256": "c205fd6303814ba6ac5e57b1609f53548613a9f5f06a93e6cadd05067e16c541",
+  "query_stream_seed": 2026102304,
+  "route_order_seed": 2026102303
+}

@@ -1,0 +1,16 @@
+{
+  "status": "PASS_EXACT_CASES_AND_PRODUCER_SOURCE_SEGMENTS",
+  "original_extract_shared_sha256": "1d0812128dfd65586f473a138f5137983974473a2fb9100949d5be749e4c7e1a",
+  "portable_producer_sha256": "76f5faf3686c1bc7780646f26f4da0335fd0c8d6d24be98fcda5094815a5597c",
+  "checks": {
+    "cases": {
+      "byte_equal_source_segment": true,
+      "sha256": "badcb544ef6291016da777e470b844b332be5c548246740daa14c668e3e2edc9"
+    },
+    "Producer": {
+      "byte_equal_source_segment": true,
+      "sha256": "ed6e888552d7d43af9418eae51fc744de1d2b8fe028ebfb431d79a907c79cf4b"
+    }
+  },
+  "relation_only_extraction_difference": "Same first-repeat, two-cycle continuation, schedule-translation checks and per-line triple construction; excludes original route-specific profile/canonical/posthoc constructions from common producer cost."
+}

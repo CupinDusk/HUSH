@@ -1,0 +1,2932 @@
+{
+  "status": "PASS_ALL_FOUR_ROUTES_COMPLETE_EXACT_SLACKS_AND_INDEPENDENT_EVENT_COUNTS",
+  "source_bindings": {
+    "PROTOCOL.json": "4bd448629b84e82a6be2df311aff8fdb585f4cd88677ba6d0ca8260289454b71",
+    "producer.py": "76f5faf3686c1bc7780646f26f4da0335fd0c8d6d24be98fcda5094815a5597c",
+    "workflow.py": "5b892c908477c9b323e01fa09899b1e1d1d859622190f61402244db713e43838"
+  },
+  "expected_sha256": "ed8f7ea19d87e6101bd5330f258fe7088948564a721148675512294fc9b4a10d",
+  "route_checks": {
+    "cached_raw": {
+      "exact_slacks_matched": 37000,
+      "source_cases_matched": 40,
+      "per_line_relations_matched": 80,
+      "output_sha256": "cc127f21521f9daf0782c2f026d5b23366a3e529b8daf1531248c9db906d4674",
+      "slack_sum": 94695,
+      "service_positive": 17387,
+      "unknown": 19613
+    },
+    "ordinary_grouped": {
+      "exact_slacks_matched": 37000,
+      "source_cases_matched": 40,
+      "per_line_relations_matched": 80,
+      "output_sha256": "cc127f21521f9daf0782c2f026d5b23366a3e529b8daf1531248c9db906d4674",
+      "slack_sum": 94695,
+      "service_positive": 17387,
+      "unknown": 19613
+    },
+    "prospective_canonical": {
+      "exact_slacks_matched": 37000,
+      "source_cases_matched": 40,
+      "per_line_relations_matched": 80,
+      "output_sha256": "cc127f21521f9daf0782c2f026d5b23366a3e529b8daf1531248c9db906d4674",
+      "slack_sum": 94695,
+      "service_positive": 17387,
+      "unknown": 19613
+    },
+    "dense_phase": {
+      "exact_slacks_matched": 37000,
+      "source_cases_matched": 40,
+      "per_line_relations_matched": 80,
+      "output_sha256": "cc127f21521f9daf0782c2f026d5b23366a3e529b8daf1531248c9db906d4674",
+      "slack_sum": 94695,
+      "service_positive": 17387,
+      "unknown": 19613
+    }
+  },
+  "independent_event_count_checks": {
+    "queries": 37000,
+    "service_positive": 17387,
+    "service_unknown": 19613,
+    "completion_positive": 16948,
+    "service_only": 439
+  },
+  "per_case_counts": {
+    "p2_b0_r3": {
+      "queries": 180,
+      "service_positive": 84,
+      "completion_positive": 84,
+      "service_only": 0
+    },
+    "p2_b0_r5": {
+      "queries": 180,
+      "service_positive": 90,
+      "completion_positive": 84,
+      "service_only": 6
+    },
+    "p2_b1_r3": {
+      "queries": 180,
+      "service_positive": 84,
+      "completion_positive": 84,
+      "service_only": 0
+    },
+    "p2_b1_r5": {
+      "queries": 180,
+      "service_positive": 90,
+      "completion_positive": 84,
+      "service_only": 6
+    },
+    "p3_b0_r3": {
+      "queries": 390,
+      "service_positive": 208,
+      "completion_positive": 191,
+      "service_only": 17
+    },
+    "p3_b0_r5": {
+      "queries": 390,
+      "service_positive": 190,
+      "completion_positive": 190,
+      "service_only": 0
+    },
+    "p3_b1_r3": {
+      "queries": 390,
+      "service_positive": 208,
+      "completion_positive": 191,
+      "service_only": 17
+    },
+    "p3_b1_r5": {
+      "queries": 390,
+      "service_positive": 202,
+      "completion_positive": 190,
+      "service_only": 12
+    },
+    "p3_b2_r3": {
+      "queries": 390,
+      "service_positive": 208,
+      "completion_positive": 191,
+      "service_only": 17
+    },
+    "p3_b2_r5": {
+      "queries": 390,
+      "service_positive": 202,
+      "completion_positive": 190,
+      "service_only": 12
+    },
+    "p4_b0_r3": {
+      "queries": 680,
+      "service_positive": 270,
+      "completion_positive": 258,
+      "service_only": 12
+    },
+    "p4_b0_r5": {
+      "queries": 680,
+      "service_positive": 306,
+      "completion_positive": 306,
+      "service_only": 0
+    },
+    "p4_b1_r3": {
+      "queries": 680,
+      "service_positive": 270,
+      "completion_positive": 258,
+      "service_only": 12
+    },
+    "p4_b1_r5": {
+      "queries": 680,
+      "service_positive": 306,
+      "completion_positive": 306,
+      "service_only": 0
+    },
+    "p4_b2_r3": {
+      "queries": 680,
+      "service_positive": 270,
+      "completion_positive": 258,
+      "service_only": 12
+    },
+    "p4_b2_r5": {
+      "queries": 680,
+      "service_positive": 306,
+      "completion_positive": 306,
+      "service_only": 0
+    },
+    "p4_b3_r3": {
+      "queries": 680,
+      "service_positive": 270,
+      "completion_positive": 258,
+      "service_only": 12
+    },
+    "p4_b3_r5": {
+      "queries": 680,
+      "service_positive": 306,
+      "completion_positive": 306,
+      "service_only": 0
+    },
+    "p5_b0_r3": {
+      "queries": 1050,
+      "service_positive": 394,
+      "completion_positive": 380,
+      "service_only": 14
+    },
+    "p5_b0_r5": {
+      "queries": 1050,
+      "service_positive": 537,
+      "completion_positive": 495,
+      "service_only": 42
+    },
+    "p5_b1_r3": {
+      "queries": 1050,
+      "service_positive": 394,
+      "completion_positive": 380,
+      "service_only": 14
+    },
+    "p5_b1_r5": {
+      "queries": 1050,
+      "service_positive": 537,
+      "completion_positive": 495,
+      "service_only": 42
+    },
+    "p5_b2_r3": {
+      "queries": 1050,
+      "service_positive": 394,
+      "completion_positive": 380,
+      "service_only": 14
+    },
+    "p5_b2_r5": {
+      "queries": 1050,
+      "service_positive": 537,
+      "completion_positive": 495,
+      "service_only": 42
+    },
+    "p5_b3_r3": {
+      "queries": 1050,
+      "service_positive": 394,
+      "completion_positive": 380,
+      "service_only": 14
+    },
+    "p5_b3_r5": {
+      "queries": 1050,
+      "service_positive": 537,
+      "completion_positive": 495,
+      "service_only": 42
+    },
+    "p5_b4_r3": {
+      "queries": 1050,
+      "service_positive": 394,
+      "completion_positive": 380,
+      "service_only": 14
+    },
+    "p5_b4_r5": {
+      "queries": 1050,
+      "service_positive": 537,
+      "completion_positive": 495,
+      "service_only": 42
+    },
+    "p6_b0_r3": {
+      "queries": 1500,
+      "service_positive": 819,
+      "completion_positive": 815,
+      "service_only": 4
+    },
+    "p6_b0_r5": {
+      "queries": 1500,
+      "service_positive": 658,
+      "completion_positive": 658,
+      "service_only": 0
+    },
+    "p6_b1_r3": {
+      "queries": 1500,
+      "service_positive": 819,
+      "completion_positive": 815,
+      "service_only": 4
+    },
+    "p6_b1_r5": {
+      "queries": 1500,
+      "service_positive": 658,
+      "completion_positive": 658,
+      "service_only": 0
+    },
+    "p6_b2_r3": {
+      "queries": 1500,
+      "service_positive": 819,
+      "completion_positive": 815,
+      "service_only": 4
+    },
+    "p6_b2_r5": {
+      "queries": 1500,
+      "service_positive": 658,
+      "completion_positive": 658,
+      "service_only": 0
+    },
+    "p6_b3_r3": {
+      "queries": 1500,
+      "service_positive": 819,
+      "completion_positive": 815,
+      "service_only": 4
+    },
+    "p6_b3_r5": {
+      "queries": 1500,
+      "service_positive": 658,
+      "completion_positive": 658,
+      "service_only": 0
+    },
+    "p6_b4_r3": {
+      "queries": 1500,
+      "service_positive": 819,
+      "completion_positive": 815,
+      "service_only": 4
+    },
+    "p6_b4_r5": {
+      "queries": 1500,
+      "service_positive": 658,
+      "completion_positive": 658,
+      "service_only": 0
+    },
+    "p6_b5_r3": {
+      "queries": 1500,
+      "service_positive": 819,
+      "completion_positive": 815,
+      "service_only": 4
+    },
+    "p6_b5_r5": {
+      "queries": 1500,
+      "service_positive": 658,
+      "completion_positive": 658,
+      "service_only": 0
+    }
+  },
+  "capacities": {
+    "cached_raw": {
+      "line_records": 80,
+      "source_cases": 40,
+      "prefix_triples": 416,
+      "cycle_triples": 961,
+      "representation_pairs": 961,
+      "distinct_case_target_m": 276,
+      "physical_case_P_interfaces": 720,
+      "gcd_cached_values": 720,
+      "prefix_cached_physical_phase_values": 7400,
+      "query_output_slacks": 37000,
+      "target_cached_pairs": 6559,
+      "target_cached_scalar_values": 13118,
+      "target_cache_encoding": "One residue/span tuple sequence per line and distinct m",
+      "per_line_representation_pairs": [
+        {
+          "case_id": "p2_b0_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 126,
+          "gstar": 42,
+          "pairs": 19
+        },
+        {
+          "case_id": "p2_b0_r3",
+          "line": 1,
+          "initial_service_cutpoint": 2,
+          "d": 126,
+          "gstar": 42,
+          "pairs": 16
+        },
+        {
+          "case_id": "p2_b0_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 70,
+          "gstar": 70,
+          "pairs": 12
+        },
+        {
+          "case_id": "p2_b0_r5",
+          "line": 1,
+          "initial_service_cutpoint": 2,
+          "d": 70,
+          "gstar": 70,
+          "pairs": 10
+        },
+        {
+          "case_id": "p2_b1_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 126,
+          "gstar": 42,
+          "pairs": 19
+        },
+        {
+          "case_id": "p2_b1_r3",
+          "line": 1,
+          "initial_service_cutpoint": 2,
+          "d": 126,
+          "gstar": 42,
+          "pairs": 16
+        },
+        {
+          "case_id": "p2_b1_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 70,
+          "gstar": 70,
+          "pairs": 12
+        },
+        {
+          "case_id": "p2_b1_r5",
+          "line": 1,
+          "initial_service_cutpoint": 2,
+          "d": 70,
+          "gstar": 70,
+          "pairs": 10
+        },
+        {
+          "case_id": "p3_b0_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 210,
+          "gstar": 210,
+          "pairs": 29
+        },
+        {
+          "case_id": "p3_b0_r3",
+          "line": 1,
+          "initial_service_cutpoint": 3,
+          "d": 210,
+          "gstar": 210,
+          "pairs": 21
+        },
+        {
+          "case_id": "p3_b0_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 30,
+          "gstar": 30,
+          "pairs": 2
+        },
+        {
+          "case_id": "p3_b0_r5",
+          "line": 1,
+          "initial_service_cutpoint": 3,
+          "d": 30,
+          "gstar": 30,
+          "pairs": 3
+        },
+        {
+          "case_id": "p3_b1_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 210,
+          "gstar": 210,
+          "pairs": 29
+        },
+        {
+          "case_id": "p3_b1_r3",
+          "line": 1,
+          "initial_service_cutpoint": 3,
+          "d": 210,
+          "gstar": 210,
+          "pairs": 21
+        },
+        {
+          "case_id": "p3_b1_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 30,
+          "gstar": 30,
+          "pairs": 3
+        },
+        {
+          "case_id": "p3_b1_r5",
+          "line": 1,
+          "initial_service_cutpoint": 3,
+          "d": 30,
+          "gstar": 30,
+          "pairs": 3
+        },
+        {
+          "case_id": "p3_b2_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 210,
+          "gstar": 210,
+          "pairs": 29
+        },
+        {
+          "case_id": "p3_b2_r3",
+          "line": 1,
+          "initial_service_cutpoint": 3,
+          "d": 210,
+          "gstar": 210,
+          "pairs": 21
+        },
+        {
+          "case_id": "p3_b2_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 30,
+          "gstar": 30,
+          "pairs": 3
+        },
+        {
+          "case_id": "p3_b2_r5",
+          "line": 1,
+          "initial_service_cutpoint": 3,
+          "d": 30,
+          "gstar": 30,
+          "pairs": 3
+        },
+        {
+          "case_id": "p4_b0_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 132,
+          "gstar": 132,
+          "pairs": 9
+        },
+        {
+          "case_id": "p4_b0_r3",
+          "line": 1,
+          "initial_service_cutpoint": 4,
+          "d": 132,
+          "gstar": 132,
+          "pairs": 8
+        },
+        {
+          "case_id": "p4_b0_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 40,
+          "gstar": 40,
+          "pairs": 2
+        },
+        {
+          "case_id": "p4_b0_r5",
+          "line": 1,
+          "initial_service_cutpoint": 4,
+          "d": 40,
+          "gstar": 40,
+          "pairs": 2
+        },
+        {
+          "case_id": "p4_b1_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 132,
+          "gstar": 132,
+          "pairs": 9
+        },
+        {
+          "case_id": "p4_b1_r3",
+          "line": 1,
+          "initial_service_cutpoint": 4,
+          "d": 132,
+          "gstar": 132,
+          "pairs": 8
+        },
+        {
+          "case_id": "p4_b1_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 40,
+          "gstar": 40,
+          "pairs": 2
+        },
+        {
+          "case_id": "p4_b1_r5",
+          "line": 1,
+          "initial_service_cutpoint": 4,
+          "d": 40,
+          "gstar": 40,
+          "pairs": 2
+        },
+        {
+          "case_id": "p4_b2_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 132,
+          "gstar": 132,
+          "pairs": 9
+        },
+        {
+          "case_id": "p4_b2_r3",
+          "line": 1,
+          "initial_service_cutpoint": 4,
+          "d": 132,
+          "gstar": 132,
+          "pairs": 8
+        },
+        {
+          "case_id": "p4_b2_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 40,
+          "gstar": 40,
+          "pairs": 2
+        },
+        {
+          "case_id": "p4_b2_r5",
+          "line": 1,
+          "initial_service_cutpoint": 4,
+          "d": 40,
+          "gstar": 40,
+          "pairs": 2
+        },
+        {
+          "case_id": "p4_b3_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 132,
+          "gstar": 132,
+          "pairs": 9
+        },
+        {
+          "case_id": "p4_b3_r3",
+          "line": 1,
+          "initial_service_cutpoint": 4,
+          "d": 132,
+          "gstar": 132,
+          "pairs": 8
+        },
+        {
+          "case_id": "p4_b3_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 40,
+          "gstar": 40,
+          "pairs": 2
+        },
+        {
+          "case_id": "p4_b3_r5",
+          "line": 1,
+          "initial_service_cutpoint": 4,
+          "d": 40,
+          "gstar": 40,
+          "pairs": 2
+        },
+        {
+          "case_id": "p5_b0_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 165,
+          "gstar": 165,
+          "pairs": 9
+        },
+        {
+          "case_id": "p5_b0_r3",
+          "line": 1,
+          "initial_service_cutpoint": 5,
+          "d": 165,
+          "gstar": 165,
+          "pairs": 8
+        },
+        {
+          "case_id": "p5_b0_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 320,
+          "gstar": 80,
+          "pairs": 27
+        },
+        {
+          "case_id": "p5_b0_r5",
+          "line": 1,
+          "initial_service_cutpoint": 5,
+          "d": 320,
+          "gstar": 80,
+          "pairs": 20
+        },
+        {
+          "case_id": "p5_b1_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 165,
+          "gstar": 165,
+          "pairs": 9
+        },
+        {
+          "case_id": "p5_b1_r3",
+          "line": 1,
+          "initial_service_cutpoint": 5,
+          "d": 165,
+          "gstar": 165,
+          "pairs": 8
+        },
+        {
+          "case_id": "p5_b1_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 320,
+          "gstar": 80,
+          "pairs": 27
+        },
+        {
+          "case_id": "p5_b1_r5",
+          "line": 1,
+          "initial_service_cutpoint": 5,
+          "d": 320,
+          "gstar": 80,
+          "pairs": 20
+        },
+        {
+          "case_id": "p5_b2_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 165,
+          "gstar": 165,
+          "pairs": 9
+        },
+        {
+          "case_id": "p5_b2_r3",
+          "line": 1,
+          "initial_service_cutpoint": 5,
+          "d": 165,
+          "gstar": 165,
+          "pairs": 8
+        },
+        {
+          "case_id": "p5_b2_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 320,
+          "gstar": 80,
+          "pairs": 27
+        },
+        {
+          "case_id": "p5_b2_r5",
+          "line": 1,
+          "initial_service_cutpoint": 5,
+          "d": 320,
+          "gstar": 80,
+          "pairs": 20
+        },
+        {
+          "case_id": "p5_b3_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 165,
+          "gstar": 165,
+          "pairs": 9
+        },
+        {
+          "case_id": "p5_b3_r3",
+          "line": 1,
+          "initial_service_cutpoint": 5,
+          "d": 165,
+          "gstar": 165,
+          "pairs": 8
+        },
+        {
+          "case_id": "p5_b3_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 320,
+          "gstar": 80,
+          "pairs": 27
+        },
+        {
+          "case_id": "p5_b3_r5",
+          "line": 1,
+          "initial_service_cutpoint": 5,
+          "d": 320,
+          "gstar": 80,
+          "pairs": 20
+        },
+        {
+          "case_id": "p5_b4_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 165,
+          "gstar": 165,
+          "pairs": 9
+        },
+        {
+          "case_id": "p5_b4_r3",
+          "line": 1,
+          "initial_service_cutpoint": 5,
+          "d": 165,
+          "gstar": 165,
+          "pairs": 8
+        },
+        {
+          "case_id": "p5_b4_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 320,
+          "gstar": 80,
+          "pairs": 27
+        },
+        {
+          "case_id": "p5_b4_r5",
+          "line": 1,
+          "initial_service_cutpoint": 5,
+          "d": 320,
+          "gstar": 80,
+          "pairs": 20
+        },
+        {
+          "case_id": "p6_b0_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 342,
+          "gstar": 342,
+          "pairs": 24
+        },
+        {
+          "case_id": "p6_b0_r3",
+          "line": 1,
+          "initial_service_cutpoint": 6,
+          "d": 342,
+          "gstar": 342,
+          "pairs": 18
+        },
+        {
+          "case_id": "p6_b0_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 60,
+          "gstar": 60,
+          "pairs": 2
+        },
+        {
+          "case_id": "p6_b0_r5",
+          "line": 1,
+          "initial_service_cutpoint": 6,
+          "d": 60,
+          "gstar": 60,
+          "pairs": 2
+        },
+        {
+          "case_id": "p6_b1_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 342,
+          "gstar": 342,
+          "pairs": 24
+        },
+        {
+          "case_id": "p6_b1_r3",
+          "line": 1,
+          "initial_service_cutpoint": 6,
+          "d": 342,
+          "gstar": 342,
+          "pairs": 18
+        },
+        {
+          "case_id": "p6_b1_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 60,
+          "gstar": 60,
+          "pairs": 2
+        },
+        {
+          "case_id": "p6_b1_r5",
+          "line": 1,
+          "initial_service_cutpoint": 6,
+          "d": 60,
+          "gstar": 60,
+          "pairs": 2
+        },
+        {
+          "case_id": "p6_b2_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 342,
+          "gstar": 342,
+          "pairs": 24
+        },
+        {
+          "case_id": "p6_b2_r3",
+          "line": 1,
+          "initial_service_cutpoint": 6,
+          "d": 342,
+          "gstar": 342,
+          "pairs": 18
+        },
+        {
+          "case_id": "p6_b2_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 60,
+          "gstar": 60,
+          "pairs": 2
+        },
+        {
+          "case_id": "p6_b2_r5",
+          "line": 1,
+          "initial_service_cutpoint": 6,
+          "d": 60,
+          "gstar": 60,
+          "pairs": 2
+        },
+        {
+          "case_id": "p6_b3_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 342,
+          "gstar": 342,
+          "pairs": 24
+        },
+        {
+          "case_id": "p6_b3_r3",
+          "line": 1,
+          "initial_service_cutpoint": 6,
+          "d": 342,
+          "gstar": 342,
+          "pairs": 18
+        },
+        {
+          "case_id": "p6_b3_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 60,
+          "gstar": 60,
+          "pairs": 2
+        },
+        {
+          "case_id": "p6_b3_r5",
+          "line": 1,
+          "initial_service_cutpoint": 6,
+          "d": 60,
+          "gstar": 60,
+          "pairs": 2
+        },
+        {
+          "case_id": "p6_b4_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 342,
+          "gstar": 342,
+          "pairs": 24
+        },
+        {
+          "case_id": "p6_b4_r3",
+          "line": 1,
+          "initial_service_cutpoint": 6,
+          "d": 342,
+          "gstar": 342,
+          "pairs": 18
+        },
+        {
+          "case_id": "p6_b4_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 60,
+          "gstar": 60,
+          "pairs": 2
+        },
+        {
+          "case_id": "p6_b4_r5",
+          "line": 1,
+          "initial_service_cutpoint": 6,
+          "d": 60,
+          "gstar": 60,
+          "pairs": 2
+        },
+        {
+          "case_id": "p6_b5_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 342,
+          "gstar": 342,
+          "pairs": 24
+        },
+        {
+          "case_id": "p6_b5_r3",
+          "line": 1,
+          "initial_service_cutpoint": 6,
+          "d": 342,
+          "gstar": 342,
+          "pairs": 18
+        },
+        {
+          "case_id": "p6_b5_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 60,
+          "gstar": 60,
+          "pairs": 2
+        },
+        {
+          "case_id": "p6_b5_r5",
+          "line": 1,
+          "initial_service_cutpoint": 6,
+          "d": 60,
+          "gstar": 60,
+          "pairs": 2
+        }
+      ],
+      "boundary": "Prototype capacities and construction terms; not minimum encoded bytes or live/peak memory measurements"
+    },
+    "ordinary_grouped": {
+      "line_records": 80,
+      "source_cases": 40,
+      "prefix_triples": 416,
+      "cycle_triples": 961,
+      "representation_pairs": 961,
+      "distinct_case_target_m": 276,
+      "physical_case_P_interfaces": 720,
+      "gcd_cached_values": 720,
+      "prefix_cached_physical_phase_values": 7400,
+      "query_output_slacks": 37000,
+      "target_cached_pairs": 1459,
+      "target_cached_scalar_values": 2918,
+      "target_cache_encoding": "One residue/span tuple sequence per line and distinct m",
+      "per_line_representation_pairs": [
+        {
+          "case_id": "p2_b0_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 126,
+          "gstar": 42,
+          "pairs": 19
+        },
+        {
+          "case_id": "p2_b0_r3",
+          "line": 1,
+          "initial_service_cutpoint": 2,
+          "d": 126,
+          "gstar": 42,
+          "pairs": 16
+        },
+        {
+          "case_id": "p2_b0_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 70,
+          "gstar": 70,
+          "pairs": 12
+        },
+        {
+          "case_id": "p2_b0_r5",
+          "line": 1,
+          "initial_service_cutpoint": 2,
+          "d": 70,
+          "gstar": 70,
+          "pairs": 10
+        },
+        {
+          "case_id": "p2_b1_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 126,
+          "gstar": 42,
+          "pairs": 19
+        },
+        {
+          "case_id": "p2_b1_r3",
+          "line": 1,
+          "initial_service_cutpoint": 2,
+          "d": 126,
+          "gstar": 42,
+          "pairs": 16
+        },
+        {
+          "case_id": "p2_b1_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 70,
+          "gstar": 70,
+          "pairs": 12
+        },
+        {
+          "case_id": "p2_b1_r5",
+          "line": 1,
+          "initial_service_cutpoint": 2,
+          "d": 70,
+          "gstar": 70,
+          "pairs": 10
+        },
+        {
+          "case_id": "p3_b0_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 210,
+          "gstar": 210,
+          "pairs": 29
+        },
+        {
+          "case_id": "p3_b0_r3",
+          "line": 1,
+          "initial_service_cutpoint": 3,
+          "d": 210,
+          "gstar": 210,
+          "pairs": 21
+        },
+        {
+          "case_id": "p3_b0_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 30,
+          "gstar": 30,
+          "pairs": 2
+        },
+        {
+          "case_id": "p3_b0_r5",
+          "line": 1,
+          "initial_service_cutpoint": 3,
+          "d": 30,
+          "gstar": 30,
+          "pairs": 3
+        },
+        {
+          "case_id": "p3_b1_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 210,
+          "gstar": 210,
+          "pairs": 29
+        },
+        {
+          "case_id": "p3_b1_r3",
+          "line": 1,
+          "initial_service_cutpoint": 3,
+          "d": 210,
+          "gstar": 210,
+          "pairs": 21
+        },
+        {
+          "case_id": "p3_b1_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 30,
+          "gstar": 30,
+          "pairs": 3
+        },
+        {
+          "case_id": "p3_b1_r5",
+          "line": 1,
+          "initial_service_cutpoint": 3,
+          "d": 30,
+          "gstar": 30,
+          "pairs": 3
+        },
+        {
+          "case_id": "p3_b2_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 210,
+          "gstar": 210,
+          "pairs": 29
+        },
+        {
+          "case_id": "p3_b2_r3",
+          "line": 1,
+          "initial_service_cutpoint": 3,
+          "d": 210,
+          "gstar": 210,
+          "pairs": 21
+        },
+        {
+          "case_id": "p3_b2_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 30,
+          "gstar": 30,
+          "pairs": 3
+        },
+        {
+          "case_id": "p3_b2_r5",
+          "line": 1,
+          "initial_service_cutpoint": 3,
+          "d": 30,
+          "gstar": 30,
+          "pairs": 3
+        },
+        {
+          "case_id": "p4_b0_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 132,
+          "gstar": 132,
+          "pairs": 9
+        },
+        {
+          "case_id": "p4_b0_r3",
+          "line": 1,
+          "initial_service_cutpoint": 4,
+          "d": 132,
+          "gstar": 132,
+          "pairs": 8
+        },
+        {
+          "case_id": "p4_b0_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 40,
+          "gstar": 40,
+          "pairs": 2
+        },
+        {
+          "case_id": "p4_b0_r5",
+          "line": 1,
+          "initial_service_cutpoint": 4,
+          "d": 40,
+          "gstar": 40,
+          "pairs": 2
+        },
+        {
+          "case_id": "p4_b1_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 132,
+          "gstar": 132,
+          "pairs": 9
+        },
+        {
+          "case_id": "p4_b1_r3",
+          "line": 1,
+          "initial_service_cutpoint": 4,
+          "d": 132,
+          "gstar": 132,
+          "pairs": 8
+        },
+        {
+          "case_id": "p4_b1_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 40,
+          "gstar": 40,
+          "pairs": 2
+        },
+        {
+          "case_id": "p4_b1_r5",
+          "line": 1,
+          "initial_service_cutpoint": 4,
+          "d": 40,
+          "gstar": 40,
+          "pairs": 2
+        },
+        {
+          "case_id": "p4_b2_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 132,
+          "gstar": 132,
+          "pairs": 9
+        },
+        {
+          "case_id": "p4_b2_r3",
+          "line": 1,
+          "initial_service_cutpoint": 4,
+          "d": 132,
+          "gstar": 132,
+          "pairs": 8
+        },
+        {
+          "case_id": "p4_b2_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 40,
+          "gstar": 40,
+          "pairs": 2
+        },
+        {
+          "case_id": "p4_b2_r5",
+          "line": 1,
+          "initial_service_cutpoint": 4,
+          "d": 40,
+          "gstar": 40,
+          "pairs": 2
+        },
+        {
+          "case_id": "p4_b3_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 132,
+          "gstar": 132,
+          "pairs": 9
+        },
+        {
+          "case_id": "p4_b3_r3",
+          "line": 1,
+          "initial_service_cutpoint": 4,
+          "d": 132,
+          "gstar": 132,
+          "pairs": 8
+        },
+        {
+          "case_id": "p4_b3_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 40,
+          "gstar": 40,
+          "pairs": 2
+        },
+        {
+          "case_id": "p4_b3_r5",
+          "line": 1,
+          "initial_service_cutpoint": 4,
+          "d": 40,
+          "gstar": 40,
+          "pairs": 2
+        },
+        {
+          "case_id": "p5_b0_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 165,
+          "gstar": 165,
+          "pairs": 9
+        },
+        {
+          "case_id": "p5_b0_r3",
+          "line": 1,
+          "initial_service_cutpoint": 5,
+          "d": 165,
+          "gstar": 165,
+          "pairs": 8
+        },
+        {
+          "case_id": "p5_b0_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 320,
+          "gstar": 80,
+          "pairs": 27
+        },
+        {
+          "case_id": "p5_b0_r5",
+          "line": 1,
+          "initial_service_cutpoint": 5,
+          "d": 320,
+          "gstar": 80,
+          "pairs": 20
+        },
+        {
+          "case_id": "p5_b1_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 165,
+          "gstar": 165,
+          "pairs": 9
+        },
+        {
+          "case_id": "p5_b1_r3",
+          "line": 1,
+          "initial_service_cutpoint": 5,
+          "d": 165,
+          "gstar": 165,
+          "pairs": 8
+        },
+        {
+          "case_id": "p5_b1_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 320,
+          "gstar": 80,
+          "pairs": 27
+        },
+        {
+          "case_id": "p5_b1_r5",
+          "line": 1,
+          "initial_service_cutpoint": 5,
+          "d": 320,
+          "gstar": 80,
+          "pairs": 20
+        },
+        {
+          "case_id": "p5_b2_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 165,
+          "gstar": 165,
+          "pairs": 9
+        },
+        {
+          "case_id": "p5_b2_r3",
+          "line": 1,
+          "initial_service_cutpoint": 5,
+          "d": 165,
+          "gstar": 165,
+          "pairs": 8
+        },
+        {
+          "case_id": "p5_b2_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 320,
+          "gstar": 80,
+          "pairs": 27
+        },
+        {
+          "case_id": "p5_b2_r5",
+          "line": 1,
+          "initial_service_cutpoint": 5,
+          "d": 320,
+          "gstar": 80,
+          "pairs": 20
+        },
+        {
+          "case_id": "p5_b3_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 165,
+          "gstar": 165,
+          "pairs": 9
+        },
+        {
+          "case_id": "p5_b3_r3",
+          "line": 1,
+          "initial_service_cutpoint": 5,
+          "d": 165,
+          "gstar": 165,
+          "pairs": 8
+        },
+        {
+          "case_id": "p5_b3_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 320,
+          "gstar": 80,
+          "pairs": 27
+        },
+        {
+          "case_id": "p5_b3_r5",
+          "line": 1,
+          "initial_service_cutpoint": 5,
+          "d": 320,
+          "gstar": 80,
+          "pairs": 20
+        },
+        {
+          "case_id": "p5_b4_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 165,
+          "gstar": 165,
+          "pairs": 9
+        },
+        {
+          "case_id": "p5_b4_r3",
+          "line": 1,
+          "initial_service_cutpoint": 5,
+          "d": 165,
+          "gstar": 165,
+          "pairs": 8
+        },
+        {
+          "case_id": "p5_b4_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 320,
+          "gstar": 80,
+          "pairs": 27
+        },
+        {
+          "case_id": "p5_b4_r5",
+          "line": 1,
+          "initial_service_cutpoint": 5,
+          "d": 320,
+          "gstar": 80,
+          "pairs": 20
+        },
+        {
+          "case_id": "p6_b0_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 342,
+          "gstar": 342,
+          "pairs": 24
+        },
+        {
+          "case_id": "p6_b0_r3",
+          "line": 1,
+          "initial_service_cutpoint": 6,
+          "d": 342,
+          "gstar": 342,
+          "pairs": 18
+        },
+        {
+          "case_id": "p6_b0_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 60,
+          "gstar": 60,
+          "pairs": 2
+        },
+        {
+          "case_id": "p6_b0_r5",
+          "line": 1,
+          "initial_service_cutpoint": 6,
+          "d": 60,
+          "gstar": 60,
+          "pairs": 2
+        },
+        {
+          "case_id": "p6_b1_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 342,
+          "gstar": 342,
+          "pairs": 24
+        },
+        {
+          "case_id": "p6_b1_r3",
+          "line": 1,
+          "initial_service_cutpoint": 6,
+          "d": 342,
+          "gstar": 342,
+          "pairs": 18
+        },
+        {
+          "case_id": "p6_b1_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 60,
+          "gstar": 60,
+          "pairs": 2
+        },
+        {
+          "case_id": "p6_b1_r5",
+          "line": 1,
+          "initial_service_cutpoint": 6,
+          "d": 60,
+          "gstar": 60,
+          "pairs": 2
+        },
+        {
+          "case_id": "p6_b2_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 342,
+          "gstar": 342,
+          "pairs": 24
+        },
+        {
+          "case_id": "p6_b2_r3",
+          "line": 1,
+          "initial_service_cutpoint": 6,
+          "d": 342,
+          "gstar": 342,
+          "pairs": 18
+        },
+        {
+          "case_id": "p6_b2_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 60,
+          "gstar": 60,
+          "pairs": 2
+        },
+        {
+          "case_id": "p6_b2_r5",
+          "line": 1,
+          "initial_service_cutpoint": 6,
+          "d": 60,
+          "gstar": 60,
+          "pairs": 2
+        },
+        {
+          "case_id": "p6_b3_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 342,
+          "gstar": 342,
+          "pairs": 24
+        },
+        {
+          "case_id": "p6_b3_r3",
+          "line": 1,
+          "initial_service_cutpoint": 6,
+          "d": 342,
+          "gstar": 342,
+          "pairs": 18
+        },
+        {
+          "case_id": "p6_b3_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 60,
+          "gstar": 60,
+          "pairs": 2
+        },
+        {
+          "case_id": "p6_b3_r5",
+          "line": 1,
+          "initial_service_cutpoint": 6,
+          "d": 60,
+          "gstar": 60,
+          "pairs": 2
+        },
+        {
+          "case_id": "p6_b4_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 342,
+          "gstar": 342,
+          "pairs": 24
+        },
+        {
+          "case_id": "p6_b4_r3",
+          "line": 1,
+          "initial_service_cutpoint": 6,
+          "d": 342,
+          "gstar": 342,
+          "pairs": 18
+        },
+        {
+          "case_id": "p6_b4_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 60,
+          "gstar": 60,
+          "pairs": 2
+        },
+        {
+          "case_id": "p6_b4_r5",
+          "line": 1,
+          "initial_service_cutpoint": 6,
+          "d": 60,
+          "gstar": 60,
+          "pairs": 2
+        },
+        {
+          "case_id": "p6_b5_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 342,
+          "gstar": 342,
+          "pairs": 24
+        },
+        {
+          "case_id": "p6_b5_r3",
+          "line": 1,
+          "initial_service_cutpoint": 6,
+          "d": 342,
+          "gstar": 342,
+          "pairs": 18
+        },
+        {
+          "case_id": "p6_b5_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 60,
+          "gstar": 60,
+          "pairs": 2
+        },
+        {
+          "case_id": "p6_b5_r5",
+          "line": 1,
+          "initial_service_cutpoint": 6,
+          "d": 60,
+          "gstar": 60,
+          "pairs": 2
+        }
+      ],
+      "boundary": "Prototype capacities and construction terms; not minimum encoded bytes or live/peak memory measurements"
+    },
+    "prospective_canonical": {
+      "line_records": 80,
+      "source_cases": 40,
+      "prefix_triples": 416,
+      "cycle_triples": 961,
+      "representation_pairs": 765,
+      "distinct_case_target_m": 276,
+      "physical_case_P_interfaces": 720,
+      "gcd_cached_values": 720,
+      "prefix_cached_physical_phase_values": 7400,
+      "query_output_slacks": 37000,
+      "target_cached_pairs": 812,
+      "target_cached_scalar_values": 1624,
+      "target_cache_encoding": "Two tuple arrays (residue and span) per line and distinct m",
+      "per_line_representation_pairs": [
+        {
+          "case_id": "p2_b0_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 126,
+          "gstar": 42,
+          "pairs": 10
+        },
+        {
+          "case_id": "p2_b0_r3",
+          "line": 1,
+          "initial_service_cutpoint": 2,
+          "d": 126,
+          "gstar": 42,
+          "pairs": 7
+        },
+        {
+          "case_id": "p2_b0_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 70,
+          "gstar": 70,
+          "pairs": 12
+        },
+        {
+          "case_id": "p2_b0_r5",
+          "line": 1,
+          "initial_service_cutpoint": 2,
+          "d": 70,
+          "gstar": 70,
+          "pairs": 10
+        },
+        {
+          "case_id": "p2_b1_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 126,
+          "gstar": 42,
+          "pairs": 10
+        },
+        {
+          "case_id": "p2_b1_r3",
+          "line": 1,
+          "initial_service_cutpoint": 2,
+          "d": 126,
+          "gstar": 42,
+          "pairs": 7
+        },
+        {
+          "case_id": "p2_b1_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 70,
+          "gstar": 70,
+          "pairs": 12
+        },
+        {
+          "case_id": "p2_b1_r5",
+          "line": 1,
+          "initial_service_cutpoint": 2,
+          "d": 70,
+          "gstar": 70,
+          "pairs": 10
+        },
+        {
+          "case_id": "p3_b0_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 210,
+          "gstar": 210,
+          "pairs": 29
+        },
+        {
+          "case_id": "p3_b0_r3",
+          "line": 1,
+          "initial_service_cutpoint": 3,
+          "d": 210,
+          "gstar": 210,
+          "pairs": 21
+        },
+        {
+          "case_id": "p3_b0_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 30,
+          "gstar": 30,
+          "pairs": 2
+        },
+        {
+          "case_id": "p3_b0_r5",
+          "line": 1,
+          "initial_service_cutpoint": 3,
+          "d": 30,
+          "gstar": 30,
+          "pairs": 3
+        },
+        {
+          "case_id": "p3_b1_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 210,
+          "gstar": 210,
+          "pairs": 29
+        },
+        {
+          "case_id": "p3_b1_r3",
+          "line": 1,
+          "initial_service_cutpoint": 3,
+          "d": 210,
+          "gstar": 210,
+          "pairs": 21
+        },
+        {
+          "case_id": "p3_b1_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 30,
+          "gstar": 30,
+          "pairs": 3
+        },
+        {
+          "case_id": "p3_b1_r5",
+          "line": 1,
+          "initial_service_cutpoint": 3,
+          "d": 30,
+          "gstar": 30,
+          "pairs": 3
+        },
+        {
+          "case_id": "p3_b2_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 210,
+          "gstar": 210,
+          "pairs": 29
+        },
+        {
+          "case_id": "p3_b2_r3",
+          "line": 1,
+          "initial_service_cutpoint": 3,
+          "d": 210,
+          "gstar": 210,
+          "pairs": 21
+        },
+        {
+          "case_id": "p3_b2_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 30,
+          "gstar": 30,
+          "pairs": 3
+        },
+        {
+          "case_id": "p3_b2_r5",
+          "line": 1,
+          "initial_service_cutpoint": 3,
+          "d": 30,
+          "gstar": 30,
+          "pairs": 3
+        },
+        {
+          "case_id": "p4_b0_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 132,
+          "gstar": 132,
+          "pairs": 9
+        },
+        {
+          "case_id": "p4_b0_r3",
+          "line": 1,
+          "initial_service_cutpoint": 4,
+          "d": 132,
+          "gstar": 132,
+          "pairs": 8
+        },
+        {
+          "case_id": "p4_b0_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 40,
+          "gstar": 40,
+          "pairs": 2
+        },
+        {
+          "case_id": "p4_b0_r5",
+          "line": 1,
+          "initial_service_cutpoint": 4,
+          "d": 40,
+          "gstar": 40,
+          "pairs": 2
+        },
+        {
+          "case_id": "p4_b1_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 132,
+          "gstar": 132,
+          "pairs": 9
+        },
+        {
+          "case_id": "p4_b1_r3",
+          "line": 1,
+          "initial_service_cutpoint": 4,
+          "d": 132,
+          "gstar": 132,
+          "pairs": 8
+        },
+        {
+          "case_id": "p4_b1_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 40,
+          "gstar": 40,
+          "pairs": 2
+        },
+        {
+          "case_id": "p4_b1_r5",
+          "line": 1,
+          "initial_service_cutpoint": 4,
+          "d": 40,
+          "gstar": 40,
+          "pairs": 2
+        },
+        {
+          "case_id": "p4_b2_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 132,
+          "gstar": 132,
+          "pairs": 9
+        },
+        {
+          "case_id": "p4_b2_r3",
+          "line": 1,
+          "initial_service_cutpoint": 4,
+          "d": 132,
+          "gstar": 132,
+          "pairs": 8
+        },
+        {
+          "case_id": "p4_b2_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 40,
+          "gstar": 40,
+          "pairs": 2
+        },
+        {
+          "case_id": "p4_b2_r5",
+          "line": 1,
+          "initial_service_cutpoint": 4,
+          "d": 40,
+          "gstar": 40,
+          "pairs": 2
+        },
+        {
+          "case_id": "p4_b3_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 132,
+          "gstar": 132,
+          "pairs": 9
+        },
+        {
+          "case_id": "p4_b3_r3",
+          "line": 1,
+          "initial_service_cutpoint": 4,
+          "d": 132,
+          "gstar": 132,
+          "pairs": 8
+        },
+        {
+          "case_id": "p4_b3_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 40,
+          "gstar": 40,
+          "pairs": 2
+        },
+        {
+          "case_id": "p4_b3_r5",
+          "line": 1,
+          "initial_service_cutpoint": 4,
+          "d": 40,
+          "gstar": 40,
+          "pairs": 2
+        },
+        {
+          "case_id": "p5_b0_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 165,
+          "gstar": 165,
+          "pairs": 9
+        },
+        {
+          "case_id": "p5_b0_r3",
+          "line": 1,
+          "initial_service_cutpoint": 5,
+          "d": 165,
+          "gstar": 165,
+          "pairs": 8
+        },
+        {
+          "case_id": "p5_b0_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 320,
+          "gstar": 80,
+          "pairs": 10
+        },
+        {
+          "case_id": "p5_b0_r5",
+          "line": 1,
+          "initial_service_cutpoint": 5,
+          "d": 320,
+          "gstar": 80,
+          "pairs": 5
+        },
+        {
+          "case_id": "p5_b1_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 165,
+          "gstar": 165,
+          "pairs": 9
+        },
+        {
+          "case_id": "p5_b1_r3",
+          "line": 1,
+          "initial_service_cutpoint": 5,
+          "d": 165,
+          "gstar": 165,
+          "pairs": 8
+        },
+        {
+          "case_id": "p5_b1_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 320,
+          "gstar": 80,
+          "pairs": 10
+        },
+        {
+          "case_id": "p5_b1_r5",
+          "line": 1,
+          "initial_service_cutpoint": 5,
+          "d": 320,
+          "gstar": 80,
+          "pairs": 5
+        },
+        {
+          "case_id": "p5_b2_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 165,
+          "gstar": 165,
+          "pairs": 9
+        },
+        {
+          "case_id": "p5_b2_r3",
+          "line": 1,
+          "initial_service_cutpoint": 5,
+          "d": 165,
+          "gstar": 165,
+          "pairs": 8
+        },
+        {
+          "case_id": "p5_b2_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 320,
+          "gstar": 80,
+          "pairs": 10
+        },
+        {
+          "case_id": "p5_b2_r5",
+          "line": 1,
+          "initial_service_cutpoint": 5,
+          "d": 320,
+          "gstar": 80,
+          "pairs": 5
+        },
+        {
+          "case_id": "p5_b3_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 165,
+          "gstar": 165,
+          "pairs": 9
+        },
+        {
+          "case_id": "p5_b3_r3",
+          "line": 1,
+          "initial_service_cutpoint": 5,
+          "d": 165,
+          "gstar": 165,
+          "pairs": 8
+        },
+        {
+          "case_id": "p5_b3_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 320,
+          "gstar": 80,
+          "pairs": 10
+        },
+        {
+          "case_id": "p5_b3_r5",
+          "line": 1,
+          "initial_service_cutpoint": 5,
+          "d": 320,
+          "gstar": 80,
+          "pairs": 5
+        },
+        {
+          "case_id": "p5_b4_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 165,
+          "gstar": 165,
+          "pairs": 9
+        },
+        {
+          "case_id": "p5_b4_r3",
+          "line": 1,
+          "initial_service_cutpoint": 5,
+          "d": 165,
+          "gstar": 165,
+          "pairs": 8
+        },
+        {
+          "case_id": "p5_b4_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 320,
+          "gstar": 80,
+          "pairs": 10
+        },
+        {
+          "case_id": "p5_b4_r5",
+          "line": 1,
+          "initial_service_cutpoint": 5,
+          "d": 320,
+          "gstar": 80,
+          "pairs": 5
+        },
+        {
+          "case_id": "p6_b0_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 342,
+          "gstar": 342,
+          "pairs": 24
+        },
+        {
+          "case_id": "p6_b0_r3",
+          "line": 1,
+          "initial_service_cutpoint": 6,
+          "d": 342,
+          "gstar": 342,
+          "pairs": 18
+        },
+        {
+          "case_id": "p6_b0_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 60,
+          "gstar": 60,
+          "pairs": 2
+        },
+        {
+          "case_id": "p6_b0_r5",
+          "line": 1,
+          "initial_service_cutpoint": 6,
+          "d": 60,
+          "gstar": 60,
+          "pairs": 2
+        },
+        {
+          "case_id": "p6_b1_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 342,
+          "gstar": 342,
+          "pairs": 24
+        },
+        {
+          "case_id": "p6_b1_r3",
+          "line": 1,
+          "initial_service_cutpoint": 6,
+          "d": 342,
+          "gstar": 342,
+          "pairs": 18
+        },
+        {
+          "case_id": "p6_b1_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 60,
+          "gstar": 60,
+          "pairs": 2
+        },
+        {
+          "case_id": "p6_b1_r5",
+          "line": 1,
+          "initial_service_cutpoint": 6,
+          "d": 60,
+          "gstar": 60,
+          "pairs": 2
+        },
+        {
+          "case_id": "p6_b2_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 342,
+          "gstar": 342,
+          "pairs": 24
+        },
+        {
+          "case_id": "p6_b2_r3",
+          "line": 1,
+          "initial_service_cutpoint": 6,
+          "d": 342,
+          "gstar": 342,
+          "pairs": 18
+        },
+        {
+          "case_id": "p6_b2_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 60,
+          "gstar": 60,
+          "pairs": 2
+        },
+        {
+          "case_id": "p6_b2_r5",
+          "line": 1,
+          "initial_service_cutpoint": 6,
+          "d": 60,
+          "gstar": 60,
+          "pairs": 2
+        },
+        {
+          "case_id": "p6_b3_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 342,
+          "gstar": 342,
+          "pairs": 24
+        },
+        {
+          "case_id": "p6_b3_r3",
+          "line": 1,
+          "initial_service_cutpoint": 6,
+          "d": 342,
+          "gstar": 342,
+          "pairs": 18
+        },
+        {
+          "case_id": "p6_b3_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 60,
+          "gstar": 60,
+          "pairs": 2
+        },
+        {
+          "case_id": "p6_b3_r5",
+          "line": 1,
+          "initial_service_cutpoint": 6,
+          "d": 60,
+          "gstar": 60,
+          "pairs": 2
+        },
+        {
+          "case_id": "p6_b4_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 342,
+          "gstar": 342,
+          "pairs": 24
+        },
+        {
+          "case_id": "p6_b4_r3",
+          "line": 1,
+          "initial_service_cutpoint": 6,
+          "d": 342,
+          "gstar": 342,
+          "pairs": 18
+        },
+        {
+          "case_id": "p6_b4_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 60,
+          "gstar": 60,
+          "pairs": 2
+        },
+        {
+          "case_id": "p6_b4_r5",
+          "line": 1,
+          "initial_service_cutpoint": 6,
+          "d": 60,
+          "gstar": 60,
+          "pairs": 2
+        },
+        {
+          "case_id": "p6_b5_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 342,
+          "gstar": 342,
+          "pairs": 24
+        },
+        {
+          "case_id": "p6_b5_r3",
+          "line": 1,
+          "initial_service_cutpoint": 6,
+          "d": 342,
+          "gstar": 342,
+          "pairs": 18
+        },
+        {
+          "case_id": "p6_b5_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 60,
+          "gstar": 60,
+          "pairs": 2
+        },
+        {
+          "case_id": "p6_b5_r5",
+          "line": 1,
+          "initial_service_cutpoint": 6,
+          "d": 60,
+          "gstar": 60,
+          "pairs": 2
+        }
+      ],
+      "boundary": "Prototype capacities and construction terms; not minimum encoded bytes or live/peak memory measurements"
+    },
+    "dense_phase": {
+      "line_records": 80,
+      "source_cases": 40,
+      "prefix_triples": 416,
+      "cycle_triples": 961,
+      "representation_pairs": 961,
+      "distinct_case_target_m": 276,
+      "physical_case_P_interfaces": 720,
+      "gcd_cached_values": 720,
+      "prefix_cached_physical_phase_values": 7400,
+      "query_output_slacks": 37000,
+      "target_dense_phase_values": 3696,
+      "ordinary_grouped_construction_pairs": 1459,
+      "target_cache_encoding": "One complete envelope-value tuple per line and distinct m; grouped construction profiles temporary",
+      "per_line_representation_pairs": [
+        {
+          "case_id": "p2_b0_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 126,
+          "gstar": 42,
+          "pairs": 19
+        },
+        {
+          "case_id": "p2_b0_r3",
+          "line": 1,
+          "initial_service_cutpoint": 2,
+          "d": 126,
+          "gstar": 42,
+          "pairs": 16
+        },
+        {
+          "case_id": "p2_b0_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 70,
+          "gstar": 70,
+          "pairs": 12
+        },
+        {
+          "case_id": "p2_b0_r5",
+          "line": 1,
+          "initial_service_cutpoint": 2,
+          "d": 70,
+          "gstar": 70,
+          "pairs": 10
+        },
+        {
+          "case_id": "p2_b1_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 126,
+          "gstar": 42,
+          "pairs": 19
+        },
+        {
+          "case_id": "p2_b1_r3",
+          "line": 1,
+          "initial_service_cutpoint": 2,
+          "d": 126,
+          "gstar": 42,
+          "pairs": 16
+        },
+        {
+          "case_id": "p2_b1_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 70,
+          "gstar": 70,
+          "pairs": 12
+        },
+        {
+          "case_id": "p2_b1_r5",
+          "line": 1,
+          "initial_service_cutpoint": 2,
+          "d": 70,
+          "gstar": 70,
+          "pairs": 10
+        },
+        {
+          "case_id": "p3_b0_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 210,
+          "gstar": 210,
+          "pairs": 29
+        },
+        {
+          "case_id": "p3_b0_r3",
+          "line": 1,
+          "initial_service_cutpoint": 3,
+          "d": 210,
+          "gstar": 210,
+          "pairs": 21
+        },
+        {
+          "case_id": "p3_b0_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 30,
+          "gstar": 30,
+          "pairs": 2
+        },
+        {
+          "case_id": "p3_b0_r5",
+          "line": 1,
+          "initial_service_cutpoint": 3,
+          "d": 30,
+          "gstar": 30,
+          "pairs": 3
+        },
+        {
+          "case_id": "p3_b1_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 210,
+          "gstar": 210,
+          "pairs": 29
+        },
+        {
+          "case_id": "p3_b1_r3",
+          "line": 1,
+          "initial_service_cutpoint": 3,
+          "d": 210,
+          "gstar": 210,
+          "pairs": 21
+        },
+        {
+          "case_id": "p3_b1_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 30,
+          "gstar": 30,
+          "pairs": 3
+        },
+        {
+          "case_id": "p3_b1_r5",
+          "line": 1,
+          "initial_service_cutpoint": 3,
+          "d": 30,
+          "gstar": 30,
+          "pairs": 3
+        },
+        {
+          "case_id": "p3_b2_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 210,
+          "gstar": 210,
+          "pairs": 29
+        },
+        {
+          "case_id": "p3_b2_r3",
+          "line": 1,
+          "initial_service_cutpoint": 3,
+          "d": 210,
+          "gstar": 210,
+          "pairs": 21
+        },
+        {
+          "case_id": "p3_b2_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 30,
+          "gstar": 30,
+          "pairs": 3
+        },
+        {
+          "case_id": "p3_b2_r5",
+          "line": 1,
+          "initial_service_cutpoint": 3,
+          "d": 30,
+          "gstar": 30,
+          "pairs": 3
+        },
+        {
+          "case_id": "p4_b0_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 132,
+          "gstar": 132,
+          "pairs": 9
+        },
+        {
+          "case_id": "p4_b0_r3",
+          "line": 1,
+          "initial_service_cutpoint": 4,
+          "d": 132,
+          "gstar": 132,
+          "pairs": 8
+        },
+        {
+          "case_id": "p4_b0_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 40,
+          "gstar": 40,
+          "pairs": 2
+        },
+        {
+          "case_id": "p4_b0_r5",
+          "line": 1,
+          "initial_service_cutpoint": 4,
+          "d": 40,
+          "gstar": 40,
+          "pairs": 2
+        },
+        {
+          "case_id": "p4_b1_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 132,
+          "gstar": 132,
+          "pairs": 9
+        },
+        {
+          "case_id": "p4_b1_r3",
+          "line": 1,
+          "initial_service_cutpoint": 4,
+          "d": 132,
+          "gstar": 132,
+          "pairs": 8
+        },
+        {
+          "case_id": "p4_b1_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 40,
+          "gstar": 40,
+          "pairs": 2
+        },
+        {
+          "case_id": "p4_b1_r5",
+          "line": 1,
+          "initial_service_cutpoint": 4,
+          "d": 40,
+          "gstar": 40,
+          "pairs": 2
+        },
+        {
+          "case_id": "p4_b2_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 132,
+          "gstar": 132,
+          "pairs": 9
+        },
+        {
+          "case_id": "p4_b2_r3",
+          "line": 1,
+          "initial_service_cutpoint": 4,
+          "d": 132,
+          "gstar": 132,
+          "pairs": 8
+        },
+        {
+          "case_id": "p4_b2_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 40,
+          "gstar": 40,
+          "pairs": 2
+        },
+        {
+          "case_id": "p4_b2_r5",
+          "line": 1,
+          "initial_service_cutpoint": 4,
+          "d": 40,
+          "gstar": 40,
+          "pairs": 2
+        },
+        {
+          "case_id": "p4_b3_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 132,
+          "gstar": 132,
+          "pairs": 9
+        },
+        {
+          "case_id": "p4_b3_r3",
+          "line": 1,
+          "initial_service_cutpoint": 4,
+          "d": 132,
+          "gstar": 132,
+          "pairs": 8
+        },
+        {
+          "case_id": "p4_b3_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 40,
+          "gstar": 40,
+          "pairs": 2
+        },
+        {
+          "case_id": "p4_b3_r5",
+          "line": 1,
+          "initial_service_cutpoint": 4,
+          "d": 40,
+          "gstar": 40,
+          "pairs": 2
+        },
+        {
+          "case_id": "p5_b0_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 165,
+          "gstar": 165,
+          "pairs": 9
+        },
+        {
+          "case_id": "p5_b0_r3",
+          "line": 1,
+          "initial_service_cutpoint": 5,
+          "d": 165,
+          "gstar": 165,
+          "pairs": 8
+        },
+        {
+          "case_id": "p5_b0_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 320,
+          "gstar": 80,
+          "pairs": 27
+        },
+        {
+          "case_id": "p5_b0_r5",
+          "line": 1,
+          "initial_service_cutpoint": 5,
+          "d": 320,
+          "gstar": 80,
+          "pairs": 20
+        },
+        {
+          "case_id": "p5_b1_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 165,
+          "gstar": 165,
+          "pairs": 9
+        },
+        {
+          "case_id": "p5_b1_r3",
+          "line": 1,
+          "initial_service_cutpoint": 5,
+          "d": 165,
+          "gstar": 165,
+          "pairs": 8
+        },
+        {
+          "case_id": "p5_b1_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 320,
+          "gstar": 80,
+          "pairs": 27
+        },
+        {
+          "case_id": "p5_b1_r5",
+          "line": 1,
+          "initial_service_cutpoint": 5,
+          "d": 320,
+          "gstar": 80,
+          "pairs": 20
+        },
+        {
+          "case_id": "p5_b2_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 165,
+          "gstar": 165,
+          "pairs": 9
+        },
+        {
+          "case_id": "p5_b2_r3",
+          "line": 1,
+          "initial_service_cutpoint": 5,
+          "d": 165,
+          "gstar": 165,
+          "pairs": 8
+        },
+        {
+          "case_id": "p5_b2_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 320,
+          "gstar": 80,
+          "pairs": 27
+        },
+        {
+          "case_id": "p5_b2_r5",
+          "line": 1,
+          "initial_service_cutpoint": 5,
+          "d": 320,
+          "gstar": 80,
+          "pairs": 20
+        },
+        {
+          "case_id": "p5_b3_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 165,
+          "gstar": 165,
+          "pairs": 9
+        },
+        {
+          "case_id": "p5_b3_r3",
+          "line": 1,
+          "initial_service_cutpoint": 5,
+          "d": 165,
+          "gstar": 165,
+          "pairs": 8
+        },
+        {
+          "case_id": "p5_b3_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 320,
+          "gstar": 80,
+          "pairs": 27
+        },
+        {
+          "case_id": "p5_b3_r5",
+          "line": 1,
+          "initial_service_cutpoint": 5,
+          "d": 320,
+          "gstar": 80,
+          "pairs": 20
+        },
+        {
+          "case_id": "p5_b4_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 165,
+          "gstar": 165,
+          "pairs": 9
+        },
+        {
+          "case_id": "p5_b4_r3",
+          "line": 1,
+          "initial_service_cutpoint": 5,
+          "d": 165,
+          "gstar": 165,
+          "pairs": 8
+        },
+        {
+          "case_id": "p5_b4_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 320,
+          "gstar": 80,
+          "pairs": 27
+        },
+        {
+          "case_id": "p5_b4_r5",
+          "line": 1,
+          "initial_service_cutpoint": 5,
+          "d": 320,
+          "gstar": 80,
+          "pairs": 20
+        },
+        {
+          "case_id": "p6_b0_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 342,
+          "gstar": 342,
+          "pairs": 24
+        },
+        {
+          "case_id": "p6_b0_r3",
+          "line": 1,
+          "initial_service_cutpoint": 6,
+          "d": 342,
+          "gstar": 342,
+          "pairs": 18
+        },
+        {
+          "case_id": "p6_b0_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 60,
+          "gstar": 60,
+          "pairs": 2
+        },
+        {
+          "case_id": "p6_b0_r5",
+          "line": 1,
+          "initial_service_cutpoint": 6,
+          "d": 60,
+          "gstar": 60,
+          "pairs": 2
+        },
+        {
+          "case_id": "p6_b1_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 342,
+          "gstar": 342,
+          "pairs": 24
+        },
+        {
+          "case_id": "p6_b1_r3",
+          "line": 1,
+          "initial_service_cutpoint": 6,
+          "d": 342,
+          "gstar": 342,
+          "pairs": 18
+        },
+        {
+          "case_id": "p6_b1_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 60,
+          "gstar": 60,
+          "pairs": 2
+        },
+        {
+          "case_id": "p6_b1_r5",
+          "line": 1,
+          "initial_service_cutpoint": 6,
+          "d": 60,
+          "gstar": 60,
+          "pairs": 2
+        },
+        {
+          "case_id": "p6_b2_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 342,
+          "gstar": 342,
+          "pairs": 24
+        },
+        {
+          "case_id": "p6_b2_r3",
+          "line": 1,
+          "initial_service_cutpoint": 6,
+          "d": 342,
+          "gstar": 342,
+          "pairs": 18
+        },
+        {
+          "case_id": "p6_b2_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 60,
+          "gstar": 60,
+          "pairs": 2
+        },
+        {
+          "case_id": "p6_b2_r5",
+          "line": 1,
+          "initial_service_cutpoint": 6,
+          "d": 60,
+          "gstar": 60,
+          "pairs": 2
+        },
+        {
+          "case_id": "p6_b3_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 342,
+          "gstar": 342,
+          "pairs": 24
+        },
+        {
+          "case_id": "p6_b3_r3",
+          "line": 1,
+          "initial_service_cutpoint": 6,
+          "d": 342,
+          "gstar": 342,
+          "pairs": 18
+        },
+        {
+          "case_id": "p6_b3_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 60,
+          "gstar": 60,
+          "pairs": 2
+        },
+        {
+          "case_id": "p6_b3_r5",
+          "line": 1,
+          "initial_service_cutpoint": 6,
+          "d": 60,
+          "gstar": 60,
+          "pairs": 2
+        },
+        {
+          "case_id": "p6_b4_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 342,
+          "gstar": 342,
+          "pairs": 24
+        },
+        {
+          "case_id": "p6_b4_r3",
+          "line": 1,
+          "initial_service_cutpoint": 6,
+          "d": 342,
+          "gstar": 342,
+          "pairs": 18
+        },
+        {
+          "case_id": "p6_b4_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 60,
+          "gstar": 60,
+          "pairs": 2
+        },
+        {
+          "case_id": "p6_b4_r5",
+          "line": 1,
+          "initial_service_cutpoint": 6,
+          "d": 60,
+          "gstar": 60,
+          "pairs": 2
+        },
+        {
+          "case_id": "p6_b5_r3",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 342,
+          "gstar": 342,
+          "pairs": 24
+        },
+        {
+          "case_id": "p6_b5_r3",
+          "line": 1,
+          "initial_service_cutpoint": 6,
+          "d": 342,
+          "gstar": 342,
+          "pairs": 18
+        },
+        {
+          "case_id": "p6_b5_r5",
+          "line": 0,
+          "initial_service_cutpoint": 0,
+          "d": 60,
+          "gstar": 60,
+          "pairs": 2
+        },
+        {
+          "case_id": "p6_b5_r5",
+          "line": 1,
+          "initial_service_cutpoint": 6,
+          "d": 60,
+          "gstar": 60,
+          "pairs": 2
+        }
+      ],
+      "boundary": "Prototype capacities and construction terms; not minimum encoded bytes or live/peak memory measurements"
+    }
+  },
+  "timing_started": false,
+  "timing_lane_confirmation_required": true
+}

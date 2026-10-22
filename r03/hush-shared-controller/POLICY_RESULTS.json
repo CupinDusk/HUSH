@@ -1,0 +1,1569 @@
+{
+  "status": "PASS_ALL_40_DECLARED_CONTROLLER_POLICY_GRIDS",
+  "protocol_sha256": "536a35c9d37ca727028609c8a742fb9454b6942fb64d5b1d8e2640de807dcaba",
+  "relations_sha256": "f77704f0329c79babe82afbe56dbfce7e2ea7bd219e8299ae3332a9017487a47",
+  "script_sha256": "3c7ab05abf5082efe81580bdcbfe8c341caf8b22da69d82dfef54de1c6540dd1",
+  "phase_file_sha256": "d280587e4c5f270992d57ec4925429f03dda66a1ab137a1ce047511dd3cf1c94",
+  "study": {
+    "source_cases": 40,
+    "cycle_cases": 40,
+    "cap_failures": 0,
+    "backpressure_exercised_cases": 26,
+    "two_queued_exercised_cases": 40,
+    "nonempty_prefix_cases": 36,
+    "prefix_edges": 416,
+    "cycle_edges": 961,
+    "raw_master_pairs": 961,
+    "canonical_master_pairs": 961,
+    "posthoc_pairs": 636,
+    "prospective_all_grid_pairs": 765,
+    "total_detection_ticks": 9549,
+    "max_detection_ticks": 575,
+    "translation_min_max": [
+      30,
+      342
+    ],
+    "source_case_service_only_positive": 27,
+    "source_case_service_only_zero": 13
+  },
+  "counts": {
+    "policy_queries": 37000,
+    "full_service_positive": 17387,
+    "full_service_unknown": 19613,
+    "full_completion_positive": 16948,
+    "full_service_only": 439,
+    "recurrent_positive_but_prefix_rejects": 0,
+    "posthoc_supported_queries": 29575,
+    "posthoc_unsupported_queries": 7425,
+    "posthoc_supported_full_positive": 13883,
+    "posthoc_supported_full_unknown": 15692,
+    "posthoc_supported_service_only": 333
+  },
+  "checks": {
+    "projected_canonical_pairs": 1758,
+    "projection_group_input_pairs": 17284,
+    "prefix_edges_per_interface": 7632,
+    "literal_countdown_load_checks": 37000,
+    "phase_rows": 7400,
+    "controller_policy_interfaces": 720
+  },
+  "examples": {
+    "negative": {
+      "case_id": "p2_b0_r3",
+      "P": 1,
+      "phi": 0,
+      "K": 1,
+      "full_slack": -11,
+      "completion_slack": -11,
+      "witness": [
+        1,
+        38,
+        42,
+        50
+      ],
+      "decrements": 12,
+      "WU_tick": 39,
+      "supported": true
+    },
+    "service_only": {
+      "case_id": "p2_b0_r5",
+      "P": 5,
+      "phi": 0,
+      "K": 3,
+      "full_slack": 2,
+      "completion_slack": -1,
+      "witness": [
+        1,
+        28,
+        30,
+        38
+      ],
+      "decrements": 2,
+      "WU_tick": 29,
+      "supported": true
+    }
+  },
+  "records": [
+    {
+      "case_id": "p2_b0_r3",
+      "status": "ALL_GRID_QUERIES_RETAINED",
+      "counts": {
+        "policy_queries": 180,
+        "full_service_positive": 84,
+        "full_service_unknown": 96,
+        "full_completion_positive": 84,
+        "full_service_only": 0,
+        "recurrent_positive_but_prefix_rejects": 0,
+        "posthoc_supported_queries": 180,
+        "posthoc_unsupported_queries": 0,
+        "posthoc_supported_full_positive": 84,
+        "posthoc_supported_full_unknown": 96,
+        "posthoc_supported_service_only": 0
+      },
+      "lines": [
+        {
+          "line": 0,
+          "tag": 64,
+          "initial_service_cutpoint": 0,
+          "posthoc_g": 42,
+          "prospective_g": 42,
+          "J": 4,
+          "A": 6
+        },
+        {
+          "line": 1,
+          "tag": 128,
+          "initial_service_cutpoint": 2,
+          "posthoc_g": 42,
+          "prospective_g": 42,
+          "J": 4,
+          "A": 8
+        }
+      ]
+    },
+    {
+      "case_id": "p2_b0_r5",
+      "status": "ALL_GRID_QUERIES_RETAINED",
+      "counts": {
+        "policy_queries": 180,
+        "full_service_positive": 90,
+        "full_service_unknown": 90,
+        "full_completion_positive": 84,
+        "full_service_only": 6,
+        "recurrent_positive_but_prefix_rejects": 0,
+        "posthoc_supported_queries": 180,
+        "posthoc_unsupported_queries": 0,
+        "posthoc_supported_full_positive": 90,
+        "posthoc_supported_full_unknown": 90,
+        "posthoc_supported_service_only": 6
+      },
+      "lines": [
+        {
+          "line": 0,
+          "tag": 64,
+          "initial_service_cutpoint": 0,
+          "posthoc_g": 70,
+          "prospective_g": 70,
+          "J": 4,
+          "A": 6
+        },
+        {
+          "line": 1,
+          "tag": 128,
+          "initial_service_cutpoint": 2,
+          "posthoc_g": 70,
+          "prospective_g": 70,
+          "J": 4,
+          "A": 8
+        }
+      ]
+    },
+    {
+      "case_id": "p2_b1_r3",
+      "status": "ALL_GRID_QUERIES_RETAINED",
+      "counts": {
+        "policy_queries": 180,
+        "full_service_positive": 84,
+        "full_service_unknown": 96,
+        "full_completion_positive": 84,
+        "full_service_only": 0,
+        "recurrent_positive_but_prefix_rejects": 0,
+        "posthoc_supported_queries": 180,
+        "posthoc_unsupported_queries": 0,
+        "posthoc_supported_full_positive": 84,
+        "posthoc_supported_full_unknown": 96,
+        "posthoc_supported_service_only": 0
+      },
+      "lines": [
+        {
+          "line": 0,
+          "tag": 64,
+          "initial_service_cutpoint": 0,
+          "posthoc_g": 42,
+          "prospective_g": 42,
+          "J": 4,
+          "A": 6
+        },
+        {
+          "line": 1,
+          "tag": 128,
+          "initial_service_cutpoint": 2,
+          "posthoc_g": 42,
+          "prospective_g": 42,
+          "J": 4,
+          "A": 8
+        }
+      ]
+    },
+    {
+      "case_id": "p2_b1_r5",
+      "status": "ALL_GRID_QUERIES_RETAINED",
+      "counts": {
+        "policy_queries": 180,
+        "full_service_positive": 90,
+        "full_service_unknown": 90,
+        "full_completion_positive": 84,
+        "full_service_only": 6,
+        "recurrent_positive_but_prefix_rejects": 0,
+        "posthoc_supported_queries": 180,
+        "posthoc_unsupported_queries": 0,
+        "posthoc_supported_full_positive": 90,
+        "posthoc_supported_full_unknown": 90,
+        "posthoc_supported_service_only": 6
+      },
+      "lines": [
+        {
+          "line": 0,
+          "tag": 64,
+          "initial_service_cutpoint": 0,
+          "posthoc_g": 70,
+          "prospective_g": 70,
+          "J": 4,
+          "A": 6
+        },
+        {
+          "line": 1,
+          "tag": 128,
+          "initial_service_cutpoint": 2,
+          "posthoc_g": 70,
+          "prospective_g": 70,
+          "J": 4,
+          "A": 8
+        }
+      ]
+    },
+    {
+      "case_id": "p3_b0_r3",
+      "status": "ALL_GRID_QUERIES_RETAINED",
+      "counts": {
+        "policy_queries": 390,
+        "full_service_positive": 208,
+        "full_service_unknown": 182,
+        "full_completion_positive": 191,
+        "full_service_only": 17,
+        "recurrent_positive_but_prefix_rejects": 0,
+        "posthoc_supported_queries": 240,
+        "posthoc_unsupported_queries": 150,
+        "posthoc_supported_full_positive": 124,
+        "posthoc_supported_full_unknown": 116,
+        "posthoc_supported_service_only": 8
+      },
+      "lines": [
+        {
+          "line": 0,
+          "tag": 64,
+          "initial_service_cutpoint": 0,
+          "posthoc_g": 70,
+          "prospective_g": 210,
+          "J": 3,
+          "A": 9
+        },
+        {
+          "line": 1,
+          "tag": 128,
+          "initial_service_cutpoint": 3,
+          "posthoc_g": 70,
+          "prospective_g": 210,
+          "J": 3,
+          "A": 12
+        }
+      ]
+    },
+    {
+      "case_id": "p3_b0_r5",
+      "status": "ALL_GRID_QUERIES_RETAINED",
+      "counts": {
+        "policy_queries": 390,
+        "full_service_positive": 190,
+        "full_service_unknown": 200,
+        "full_completion_positive": 190,
+        "full_service_only": 0,
+        "recurrent_positive_but_prefix_rejects": 0,
+        "posthoc_supported_queries": 240,
+        "posthoc_unsupported_queries": 150,
+        "posthoc_supported_full_positive": 115,
+        "posthoc_supported_full_unknown": 125,
+        "posthoc_supported_service_only": 0
+      },
+      "lines": [
+        {
+          "line": 0,
+          "tag": 64,
+          "initial_service_cutpoint": 0,
+          "posthoc_g": 10,
+          "prospective_g": 30,
+          "J": 6,
+          "A": 9
+        },
+        {
+          "line": 1,
+          "tag": 128,
+          "initial_service_cutpoint": 3,
+          "posthoc_g": 10,
+          "prospective_g": 30,
+          "J": 6,
+          "A": 9
+        }
+      ]
+    },
+    {
+      "case_id": "p3_b1_r3",
+      "status": "ALL_GRID_QUERIES_RETAINED",
+      "counts": {
+        "policy_queries": 390,
+        "full_service_positive": 208,
+        "full_service_unknown": 182,
+        "full_completion_positive": 191,
+        "full_service_only": 17,
+        "recurrent_positive_but_prefix_rejects": 0,
+        "posthoc_supported_queries": 240,
+        "posthoc_unsupported_queries": 150,
+        "posthoc_supported_full_positive": 124,
+        "posthoc_supported_full_unknown": 116,
+        "posthoc_supported_service_only": 8
+      },
+      "lines": [
+        {
+          "line": 0,
+          "tag": 64,
+          "initial_service_cutpoint": 0,
+          "posthoc_g": 70,
+          "prospective_g": 210,
+          "J": 3,
+          "A": 9
+        },
+        {
+          "line": 1,
+          "tag": 128,
+          "initial_service_cutpoint": 3,
+          "posthoc_g": 70,
+          "prospective_g": 210,
+          "J": 3,
+          "A": 12
+        }
+      ]
+    },
+    {
+      "case_id": "p3_b1_r5",
+      "status": "ALL_GRID_QUERIES_RETAINED",
+      "counts": {
+        "policy_queries": 390,
+        "full_service_positive": 202,
+        "full_service_unknown": 188,
+        "full_completion_positive": 190,
+        "full_service_only": 12,
+        "recurrent_positive_but_prefix_rejects": 0,
+        "posthoc_supported_queries": 240,
+        "posthoc_unsupported_queries": 150,
+        "posthoc_supported_full_positive": 118,
+        "posthoc_supported_full_unknown": 122,
+        "posthoc_supported_service_only": 3
+      },
+      "lines": [
+        {
+          "line": 0,
+          "tag": 64,
+          "initial_service_cutpoint": 0,
+          "posthoc_g": 10,
+          "prospective_g": 30,
+          "J": 6,
+          "A": 9
+        },
+        {
+          "line": 1,
+          "tag": 128,
+          "initial_service_cutpoint": 3,
+          "posthoc_g": 10,
+          "prospective_g": 30,
+          "J": 6,
+          "A": 9
+        }
+      ]
+    },
+    {
+      "case_id": "p3_b2_r3",
+      "status": "ALL_GRID_QUERIES_RETAINED",
+      "counts": {
+        "policy_queries": 390,
+        "full_service_positive": 208,
+        "full_service_unknown": 182,
+        "full_completion_positive": 191,
+        "full_service_only": 17,
+        "recurrent_positive_but_prefix_rejects": 0,
+        "posthoc_supported_queries": 240,
+        "posthoc_unsupported_queries": 150,
+        "posthoc_supported_full_positive": 124,
+        "posthoc_supported_full_unknown": 116,
+        "posthoc_supported_service_only": 8
+      },
+      "lines": [
+        {
+          "line": 0,
+          "tag": 64,
+          "initial_service_cutpoint": 0,
+          "posthoc_g": 70,
+          "prospective_g": 210,
+          "J": 3,
+          "A": 9
+        },
+        {
+          "line": 1,
+          "tag": 128,
+          "initial_service_cutpoint": 3,
+          "posthoc_g": 70,
+          "prospective_g": 210,
+          "J": 3,
+          "A": 12
+        }
+      ]
+    },
+    {
+      "case_id": "p3_b2_r5",
+      "status": "ALL_GRID_QUERIES_RETAINED",
+      "counts": {
+        "policy_queries": 390,
+        "full_service_positive": 202,
+        "full_service_unknown": 188,
+        "full_completion_positive": 190,
+        "full_service_only": 12,
+        "recurrent_positive_but_prefix_rejects": 0,
+        "posthoc_supported_queries": 240,
+        "posthoc_unsupported_queries": 150,
+        "posthoc_supported_full_positive": 118,
+        "posthoc_supported_full_unknown": 122,
+        "posthoc_supported_service_only": 3
+      },
+      "lines": [
+        {
+          "line": 0,
+          "tag": 64,
+          "initial_service_cutpoint": 0,
+          "posthoc_g": 10,
+          "prospective_g": 30,
+          "J": 6,
+          "A": 9
+        },
+        {
+          "line": 1,
+          "tag": 128,
+          "initial_service_cutpoint": 3,
+          "posthoc_g": 10,
+          "prospective_g": 30,
+          "J": 6,
+          "A": 9
+        }
+      ]
+    },
+    {
+      "case_id": "p4_b0_r3",
+      "status": "ALL_GRID_QUERIES_RETAINED",
+      "counts": {
+        "policy_queries": 680,
+        "full_service_positive": 270,
+        "full_service_unknown": 410,
+        "full_completion_positive": 258,
+        "full_service_only": 12,
+        "recurrent_positive_but_prefix_rejects": 0,
+        "posthoc_supported_queries": 455,
+        "posthoc_unsupported_queries": 225,
+        "posthoc_supported_full_positive": 176,
+        "posthoc_supported_full_unknown": 279,
+        "posthoc_supported_service_only": 3
+      },
+      "lines": [
+        {
+          "line": 0,
+          "tag": 64,
+          "initial_service_cutpoint": 0,
+          "posthoc_g": 44,
+          "prospective_g": 132,
+          "J": 8,
+          "A": 12
+        },
+        {
+          "line": 1,
+          "tag": 128,
+          "initial_service_cutpoint": 4,
+          "posthoc_g": 44,
+          "prospective_g": 132,
+          "J": 8,
+          "A": 20
+        }
+      ]
+    },
+    {
+      "case_id": "p4_b0_r5",
+      "status": "ALL_GRID_QUERIES_RETAINED",
+      "counts": {
+        "policy_queries": 680,
+        "full_service_positive": 306,
+        "full_service_unknown": 374,
+        "full_completion_positive": 306,
+        "full_service_only": 0,
+        "recurrent_positive_but_prefix_rejects": 0,
+        "posthoc_supported_queries": 680,
+        "posthoc_unsupported_queries": 0,
+        "posthoc_supported_full_positive": 306,
+        "posthoc_supported_full_unknown": 374,
+        "posthoc_supported_service_only": 0
+      },
+      "lines": [
+        {
+          "line": 0,
+          "tag": 64,
+          "initial_service_cutpoint": 0,
+          "posthoc_g": 40,
+          "prospective_g": 40,
+          "J": 8,
+          "A": 12
+        },
+        {
+          "line": 1,
+          "tag": 128,
+          "initial_service_cutpoint": 4,
+          "posthoc_g": 40,
+          "prospective_g": 40,
+          "J": 8,
+          "A": 16
+        }
+      ]
+    },
+    {
+      "case_id": "p4_b1_r3",
+      "status": "ALL_GRID_QUERIES_RETAINED",
+      "counts": {
+        "policy_queries": 680,
+        "full_service_positive": 270,
+        "full_service_unknown": 410,
+        "full_completion_positive": 258,
+        "full_service_only": 12,
+        "recurrent_positive_but_prefix_rejects": 0,
+        "posthoc_supported_queries": 455,
+        "posthoc_unsupported_queries": 225,
+        "posthoc_supported_full_positive": 176,
+        "posthoc_supported_full_unknown": 279,
+        "posthoc_supported_service_only": 3
+      },
+      "lines": [
+        {
+          "line": 0,
+          "tag": 64,
+          "initial_service_cutpoint": 0,
+          "posthoc_g": 44,
+          "prospective_g": 132,
+          "J": 8,
+          "A": 12
+        },
+        {
+          "line": 1,
+          "tag": 128,
+          "initial_service_cutpoint": 4,
+          "posthoc_g": 44,
+          "prospective_g": 132,
+          "J": 8,
+          "A": 20
+        }
+      ]
+    },
+    {
+      "case_id": "p4_b1_r5",
+      "status": "ALL_GRID_QUERIES_RETAINED",
+      "counts": {
+        "policy_queries": 680,
+        "full_service_positive": 306,
+        "full_service_unknown": 374,
+        "full_completion_positive": 306,
+        "full_service_only": 0,
+        "recurrent_positive_but_prefix_rejects": 0,
+        "posthoc_supported_queries": 680,
+        "posthoc_unsupported_queries": 0,
+        "posthoc_supported_full_positive": 306,
+        "posthoc_supported_full_unknown": 374,
+        "posthoc_supported_service_only": 0
+      },
+      "lines": [
+        {
+          "line": 0,
+          "tag": 64,
+          "initial_service_cutpoint": 0,
+          "posthoc_g": 40,
+          "prospective_g": 40,
+          "J": 8,
+          "A": 12
+        },
+        {
+          "line": 1,
+          "tag": 128,
+          "initial_service_cutpoint": 4,
+          "posthoc_g": 40,
+          "prospective_g": 40,
+          "J": 8,
+          "A": 16
+        }
+      ]
+    },
+    {
+      "case_id": "p4_b2_r3",
+      "status": "ALL_GRID_QUERIES_RETAINED",
+      "counts": {
+        "policy_queries": 680,
+        "full_service_positive": 270,
+        "full_service_unknown": 410,
+        "full_completion_positive": 258,
+        "full_service_only": 12,
+        "recurrent_positive_but_prefix_rejects": 0,
+        "posthoc_supported_queries": 455,
+        "posthoc_unsupported_queries": 225,
+        "posthoc_supported_full_positive": 176,
+        "posthoc_supported_full_unknown": 279,
+        "posthoc_supported_service_only": 3
+      },
+      "lines": [
+        {
+          "line": 0,
+          "tag": 64,
+          "initial_service_cutpoint": 0,
+          "posthoc_g": 44,
+          "prospective_g": 132,
+          "J": 8,
+          "A": 12
+        },
+        {
+          "line": 1,
+          "tag": 128,
+          "initial_service_cutpoint": 4,
+          "posthoc_g": 44,
+          "prospective_g": 132,
+          "J": 8,
+          "A": 20
+        }
+      ]
+    },
+    {
+      "case_id": "p4_b2_r5",
+      "status": "ALL_GRID_QUERIES_RETAINED",
+      "counts": {
+        "policy_queries": 680,
+        "full_service_positive": 306,
+        "full_service_unknown": 374,
+        "full_completion_positive": 306,
+        "full_service_only": 0,
+        "recurrent_positive_but_prefix_rejects": 0,
+        "posthoc_supported_queries": 680,
+        "posthoc_unsupported_queries": 0,
+        "posthoc_supported_full_positive": 306,
+        "posthoc_supported_full_unknown": 374,
+        "posthoc_supported_service_only": 0
+      },
+      "lines": [
+        {
+          "line": 0,
+          "tag": 64,
+          "initial_service_cutpoint": 0,
+          "posthoc_g": 40,
+          "prospective_g": 40,
+          "J": 8,
+          "A": 12
+        },
+        {
+          "line": 1,
+          "tag": 128,
+          "initial_service_cutpoint": 4,
+          "posthoc_g": 40,
+          "prospective_g": 40,
+          "J": 8,
+          "A": 16
+        }
+      ]
+    },
+    {
+      "case_id": "p4_b3_r3",
+      "status": "ALL_GRID_QUERIES_RETAINED",
+      "counts": {
+        "policy_queries": 680,
+        "full_service_positive": 270,
+        "full_service_unknown": 410,
+        "full_completion_positive": 258,
+        "full_service_only": 12,
+        "recurrent_positive_but_prefix_rejects": 0,
+        "posthoc_supported_queries": 455,
+        "posthoc_unsupported_queries": 225,
+        "posthoc_supported_full_positive": 176,
+        "posthoc_supported_full_unknown": 279,
+        "posthoc_supported_service_only": 3
+      },
+      "lines": [
+        {
+          "line": 0,
+          "tag": 64,
+          "initial_service_cutpoint": 0,
+          "posthoc_g": 44,
+          "prospective_g": 132,
+          "J": 8,
+          "A": 12
+        },
+        {
+          "line": 1,
+          "tag": 128,
+          "initial_service_cutpoint": 4,
+          "posthoc_g": 44,
+          "prospective_g": 132,
+          "J": 8,
+          "A": 20
+        }
+      ]
+    },
+    {
+      "case_id": "p4_b3_r5",
+      "status": "ALL_GRID_QUERIES_RETAINED",
+      "counts": {
+        "policy_queries": 680,
+        "full_service_positive": 306,
+        "full_service_unknown": 374,
+        "full_completion_positive": 306,
+        "full_service_only": 0,
+        "recurrent_positive_but_prefix_rejects": 0,
+        "posthoc_supported_queries": 680,
+        "posthoc_unsupported_queries": 0,
+        "posthoc_supported_full_positive": 306,
+        "posthoc_supported_full_unknown": 374,
+        "posthoc_supported_service_only": 0
+      },
+      "lines": [
+        {
+          "line": 0,
+          "tag": 64,
+          "initial_service_cutpoint": 0,
+          "posthoc_g": 40,
+          "prospective_g": 40,
+          "J": 8,
+          "A": 12
+        },
+        {
+          "line": 1,
+          "tag": 128,
+          "initial_service_cutpoint": 4,
+          "posthoc_g": 40,
+          "prospective_g": 40,
+          "J": 8,
+          "A": 16
+        }
+      ]
+    },
+    {
+      "case_id": "p5_b0_r3",
+      "status": "ALL_GRID_QUERIES_RETAINED",
+      "counts": {
+        "policy_queries": 1050,
+        "full_service_positive": 394,
+        "full_service_unknown": 656,
+        "full_completion_positive": 380,
+        "full_service_only": 14,
+        "recurrent_positive_but_prefix_rejects": 0,
+        "posthoc_supported_queries": 735,
+        "posthoc_unsupported_queries": 315,
+        "posthoc_supported_full_positive": 267,
+        "posthoc_supported_full_unknown": 468,
+        "posthoc_supported_service_only": 9
+      },
+      "lines": [
+        {
+          "line": 0,
+          "tag": 64,
+          "initial_service_cutpoint": 0,
+          "posthoc_g": 55,
+          "prospective_g": 165,
+          "J": 10,
+          "A": 15
+        },
+        {
+          "line": 1,
+          "tag": 128,
+          "initial_service_cutpoint": 5,
+          "posthoc_g": 55,
+          "prospective_g": 165,
+          "J": 10,
+          "A": 25
+        }
+      ]
+    },
+    {
+      "case_id": "p5_b0_r5",
+      "status": "ALL_GRID_QUERIES_RETAINED",
+      "counts": {
+        "policy_queries": 1050,
+        "full_service_positive": 537,
+        "full_service_unknown": 513,
+        "full_completion_positive": 495,
+        "full_service_only": 42,
+        "recurrent_positive_but_prefix_rejects": 0,
+        "posthoc_supported_queries": 1050,
+        "posthoc_unsupported_queries": 0,
+        "posthoc_supported_full_positive": 537,
+        "posthoc_supported_full_unknown": 513,
+        "posthoc_supported_service_only": 42
+      },
+      "lines": [
+        {
+          "line": 0,
+          "tag": 64,
+          "initial_service_cutpoint": 0,
+          "posthoc_g": 320,
+          "prospective_g": 80,
+          "J": 5,
+          "A": 15
+        },
+        {
+          "line": 1,
+          "tag": 128,
+          "initial_service_cutpoint": 5,
+          "posthoc_g": 320,
+          "prospective_g": 80,
+          "J": 5,
+          "A": 20
+        }
+      ]
+    },
+    {
+      "case_id": "p5_b1_r3",
+      "status": "ALL_GRID_QUERIES_RETAINED",
+      "counts": {
+        "policy_queries": 1050,
+        "full_service_positive": 394,
+        "full_service_unknown": 656,
+        "full_completion_positive": 380,
+        "full_service_only": 14,
+        "recurrent_positive_but_prefix_rejects": 0,
+        "posthoc_supported_queries": 735,
+        "posthoc_unsupported_queries": 315,
+        "posthoc_supported_full_positive": 267,
+        "posthoc_supported_full_unknown": 468,
+        "posthoc_supported_service_only": 9
+      },
+      "lines": [
+        {
+          "line": 0,
+          "tag": 64,
+          "initial_service_cutpoint": 0,
+          "posthoc_g": 55,
+          "prospective_g": 165,
+          "J": 10,
+          "A": 15
+        },
+        {
+          "line": 1,
+          "tag": 128,
+          "initial_service_cutpoint": 5,
+          "posthoc_g": 55,
+          "prospective_g": 165,
+          "J": 10,
+          "A": 25
+        }
+      ]
+    },
+    {
+      "case_id": "p5_b1_r5",
+      "status": "ALL_GRID_QUERIES_RETAINED",
+      "counts": {
+        "policy_queries": 1050,
+        "full_service_positive": 537,
+        "full_service_unknown": 513,
+        "full_completion_positive": 495,
+        "full_service_only": 42,
+        "recurrent_positive_but_prefix_rejects": 0,
+        "posthoc_supported_queries": 1050,
+        "posthoc_unsupported_queries": 0,
+        "posthoc_supported_full_positive": 537,
+        "posthoc_supported_full_unknown": 513,
+        "posthoc_supported_service_only": 42
+      },
+      "lines": [
+        {
+          "line": 0,
+          "tag": 64,
+          "initial_service_cutpoint": 0,
+          "posthoc_g": 320,
+          "prospective_g": 80,
+          "J": 5,
+          "A": 15
+        },
+        {
+          "line": 1,
+          "tag": 128,
+          "initial_service_cutpoint": 5,
+          "posthoc_g": 320,
+          "prospective_g": 80,
+          "J": 5,
+          "A": 20
+        }
+      ]
+    },
+    {
+      "case_id": "p5_b2_r3",
+      "status": "ALL_GRID_QUERIES_RETAINED",
+      "counts": {
+        "policy_queries": 1050,
+        "full_service_positive": 394,
+        "full_service_unknown": 656,
+        "full_completion_positive": 380,
+        "full_service_only": 14,
+        "recurrent_positive_but_prefix_rejects": 0,
+        "posthoc_supported_queries": 735,
+        "posthoc_unsupported_queries": 315,
+        "posthoc_supported_full_positive": 267,
+        "posthoc_supported_full_unknown": 468,
+        "posthoc_supported_service_only": 9
+      },
+      "lines": [
+        {
+          "line": 0,
+          "tag": 64,
+          "initial_service_cutpoint": 0,
+          "posthoc_g": 55,
+          "prospective_g": 165,
+          "J": 10,
+          "A": 15
+        },
+        {
+          "line": 1,
+          "tag": 128,
+          "initial_service_cutpoint": 5,
+          "posthoc_g": 55,
+          "prospective_g": 165,
+          "J": 10,
+          "A": 25
+        }
+      ]
+    },
+    {
+      "case_id": "p5_b2_r5",
+      "status": "ALL_GRID_QUERIES_RETAINED",
+      "counts": {
+        "policy_queries": 1050,
+        "full_service_positive": 537,
+        "full_service_unknown": 513,
+        "full_completion_positive": 495,
+        "full_service_only": 42,
+        "recurrent_positive_but_prefix_rejects": 0,
+        "posthoc_supported_queries": 1050,
+        "posthoc_unsupported_queries": 0,
+        "posthoc_supported_full_positive": 537,
+        "posthoc_supported_full_unknown": 513,
+        "posthoc_supported_service_only": 42
+      },
+      "lines": [
+        {
+          "line": 0,
+          "tag": 64,
+          "initial_service_cutpoint": 0,
+          "posthoc_g": 320,
+          "prospective_g": 80,
+          "J": 5,
+          "A": 15
+        },
+        {
+          "line": 1,
+          "tag": 128,
+          "initial_service_cutpoint": 5,
+          "posthoc_g": 320,
+          "prospective_g": 80,
+          "J": 5,
+          "A": 20
+        }
+      ]
+    },
+    {
+      "case_id": "p5_b3_r3",
+      "status": "ALL_GRID_QUERIES_RETAINED",
+      "counts": {
+        "policy_queries": 1050,
+        "full_service_positive": 394,
+        "full_service_unknown": 656,
+        "full_completion_positive": 380,
+        "full_service_only": 14,
+        "recurrent_positive_but_prefix_rejects": 0,
+        "posthoc_supported_queries": 735,
+        "posthoc_unsupported_queries": 315,
+        "posthoc_supported_full_positive": 267,
+        "posthoc_supported_full_unknown": 468,
+        "posthoc_supported_service_only": 9
+      },
+      "lines": [
+        {
+          "line": 0,
+          "tag": 64,
+          "initial_service_cutpoint": 0,
+          "posthoc_g": 55,
+          "prospective_g": 165,
+          "J": 10,
+          "A": 15
+        },
+        {
+          "line": 1,
+          "tag": 128,
+          "initial_service_cutpoint": 5,
+          "posthoc_g": 55,
+          "prospective_g": 165,
+          "J": 10,
+          "A": 25
+        }
+      ]
+    },
+    {
+      "case_id": "p5_b3_r5",
+      "status": "ALL_GRID_QUERIES_RETAINED",
+      "counts": {
+        "policy_queries": 1050,
+        "full_service_positive": 537,
+        "full_service_unknown": 513,
+        "full_completion_positive": 495,
+        "full_service_only": 42,
+        "recurrent_positive_but_prefix_rejects": 0,
+        "posthoc_supported_queries": 1050,
+        "posthoc_unsupported_queries": 0,
+        "posthoc_supported_full_positive": 537,
+        "posthoc_supported_full_unknown": 513,
+        "posthoc_supported_service_only": 42
+      },
+      "lines": [
+        {
+          "line": 0,
+          "tag": 64,
+          "initial_service_cutpoint": 0,
+          "posthoc_g": 320,
+          "prospective_g": 80,
+          "J": 5,
+          "A": 15
+        },
+        {
+          "line": 1,
+          "tag": 128,
+          "initial_service_cutpoint": 5,
+          "posthoc_g": 320,
+          "prospective_g": 80,
+          "J": 5,
+          "A": 20
+        }
+      ]
+    },
+    {
+      "case_id": "p5_b4_r3",
+      "status": "ALL_GRID_QUERIES_RETAINED",
+      "counts": {
+        "policy_queries": 1050,
+        "full_service_positive": 394,
+        "full_service_unknown": 656,
+        "full_completion_positive": 380,
+        "full_service_only": 14,
+        "recurrent_positive_but_prefix_rejects": 0,
+        "posthoc_supported_queries": 735,
+        "posthoc_unsupported_queries": 315,
+        "posthoc_supported_full_positive": 267,
+        "posthoc_supported_full_unknown": 468,
+        "posthoc_supported_service_only": 9
+      },
+      "lines": [
+        {
+          "line": 0,
+          "tag": 64,
+          "initial_service_cutpoint": 0,
+          "posthoc_g": 55,
+          "prospective_g": 165,
+          "J": 10,
+          "A": 15
+        },
+        {
+          "line": 1,
+          "tag": 128,
+          "initial_service_cutpoint": 5,
+          "posthoc_g": 55,
+          "prospective_g": 165,
+          "J": 10,
+          "A": 25
+        }
+      ]
+    },
+    {
+      "case_id": "p5_b4_r5",
+      "status": "ALL_GRID_QUERIES_RETAINED",
+      "counts": {
+        "policy_queries": 1050,
+        "full_service_positive": 537,
+        "full_service_unknown": 513,
+        "full_completion_positive": 495,
+        "full_service_only": 42,
+        "recurrent_positive_but_prefix_rejects": 0,
+        "posthoc_supported_queries": 1050,
+        "posthoc_unsupported_queries": 0,
+        "posthoc_supported_full_positive": 537,
+        "posthoc_supported_full_unknown": 513,
+        "posthoc_supported_service_only": 42
+      },
+      "lines": [
+        {
+          "line": 0,
+          "tag": 64,
+          "initial_service_cutpoint": 0,
+          "posthoc_g": 320,
+          "prospective_g": 80,
+          "J": 5,
+          "A": 15
+        },
+        {
+          "line": 1,
+          "tag": 128,
+          "initial_service_cutpoint": 5,
+          "posthoc_g": 320,
+          "prospective_g": 80,
+          "J": 5,
+          "A": 20
+        }
+      ]
+    },
+    {
+      "case_id": "p6_b0_r3",
+      "status": "ALL_GRID_QUERIES_RETAINED",
+      "counts": {
+        "policy_queries": 1500,
+        "full_service_positive": 819,
+        "full_service_unknown": 681,
+        "full_completion_positive": 815,
+        "full_service_only": 4,
+        "recurrent_positive_but_prefix_rejects": 0,
+        "posthoc_supported_queries": 1365,
+        "posthoc_unsupported_queries": 135,
+        "posthoc_supported_full_positive": 747,
+        "posthoc_supported_full_unknown": 618,
+        "posthoc_supported_service_only": 4
+      },
+      "lines": [
+        {
+          "line": 0,
+          "tag": 64,
+          "initial_service_cutpoint": 0,
+          "posthoc_g": 114,
+          "prospective_g": 342,
+          "J": 6,
+          "A": 18
+        },
+        {
+          "line": 1,
+          "tag": 128,
+          "initial_service_cutpoint": 6,
+          "posthoc_g": 114,
+          "prospective_g": 342,
+          "J": 6,
+          "A": 18
+        }
+      ]
+    },
+    {
+      "case_id": "p6_b0_r5",
+      "status": "ALL_GRID_QUERIES_RETAINED",
+      "counts": {
+        "policy_queries": 1500,
+        "full_service_positive": 658,
+        "full_service_unknown": 842,
+        "full_completion_positive": 658,
+        "full_service_only": 0,
+        "recurrent_positive_but_prefix_rejects": 0,
+        "posthoc_supported_queries": 960,
+        "posthoc_unsupported_queries": 540,
+        "posthoc_supported_full_positive": 397,
+        "posthoc_supported_full_unknown": 563,
+        "posthoc_supported_service_only": 0
+      },
+      "lines": [
+        {
+          "line": 0,
+          "tag": 64,
+          "initial_service_cutpoint": 0,
+          "posthoc_g": 20,
+          "prospective_g": 60,
+          "J": 12,
+          "A": 18
+        },
+        {
+          "line": 1,
+          "tag": 128,
+          "initial_service_cutpoint": 6,
+          "posthoc_g": 20,
+          "prospective_g": 60,
+          "J": 12,
+          "A": 24
+        }
+      ]
+    },
+    {
+      "case_id": "p6_b1_r3",
+      "status": "ALL_GRID_QUERIES_RETAINED",
+      "counts": {
+        "policy_queries": 1500,
+        "full_service_positive": 819,
+        "full_service_unknown": 681,
+        "full_completion_positive": 815,
+        "full_service_only": 4,
+        "recurrent_positive_but_prefix_rejects": 0,
+        "posthoc_supported_queries": 1365,
+        "posthoc_unsupported_queries": 135,
+        "posthoc_supported_full_positive": 747,
+        "posthoc_supported_full_unknown": 618,
+        "posthoc_supported_service_only": 4
+      },
+      "lines": [
+        {
+          "line": 0,
+          "tag": 64,
+          "initial_service_cutpoint": 0,
+          "posthoc_g": 114,
+          "prospective_g": 342,
+          "J": 6,
+          "A": 18
+        },
+        {
+          "line": 1,
+          "tag": 128,
+          "initial_service_cutpoint": 6,
+          "posthoc_g": 114,
+          "prospective_g": 342,
+          "J": 6,
+          "A": 18
+        }
+      ]
+    },
+    {
+      "case_id": "p6_b1_r5",
+      "status": "ALL_GRID_QUERIES_RETAINED",
+      "counts": {
+        "policy_queries": 1500,
+        "full_service_positive": 658,
+        "full_service_unknown": 842,
+        "full_completion_positive": 658,
+        "full_service_only": 0,
+        "recurrent_positive_but_prefix_rejects": 0,
+        "posthoc_supported_queries": 960,
+        "posthoc_unsupported_queries": 540,
+        "posthoc_supported_full_positive": 397,
+        "posthoc_supported_full_unknown": 563,
+        "posthoc_supported_service_only": 0
+      },
+      "lines": [
+        {
+          "line": 0,
+          "tag": 64,
+          "initial_service_cutpoint": 0,
+          "posthoc_g": 20,
+          "prospective_g": 60,
+          "J": 12,
+          "A": 18
+        },
+        {
+          "line": 1,
+          "tag": 128,
+          "initial_service_cutpoint": 6,
+          "posthoc_g": 20,
+          "prospective_g": 60,
+          "J": 12,
+          "A": 24
+        }
+      ]
+    },
+    {
+      "case_id": "p6_b2_r3",
+      "status": "ALL_GRID_QUERIES_RETAINED",
+      "counts": {
+        "policy_queries": 1500,
+        "full_service_positive": 819,
+        "full_service_unknown": 681,
+        "full_completion_positive": 815,
+        "full_service_only": 4,
+        "recurrent_positive_but_prefix_rejects": 0,
+        "posthoc_supported_queries": 1365,
+        "posthoc_unsupported_queries": 135,
+        "posthoc_supported_full_positive": 747,
+        "posthoc_supported_full_unknown": 618,
+        "posthoc_supported_service_only": 4
+      },
+      "lines": [
+        {
+          "line": 0,
+          "tag": 64,
+          "initial_service_cutpoint": 0,
+          "posthoc_g": 114,
+          "prospective_g": 342,
+          "J": 6,
+          "A": 18
+        },
+        {
+          "line": 1,
+          "tag": 128,
+          "initial_service_cutpoint": 6,
+          "posthoc_g": 114,
+          "prospective_g": 342,
+          "J": 6,
+          "A": 18
+        }
+      ]
+    },
+    {
+      "case_id": "p6_b2_r5",
+      "status": "ALL_GRID_QUERIES_RETAINED",
+      "counts": {
+        "policy_queries": 1500,
+        "full_service_positive": 658,
+        "full_service_unknown": 842,
+        "full_completion_positive": 658,
+        "full_service_only": 0,
+        "recurrent_positive_but_prefix_rejects": 0,
+        "posthoc_supported_queries": 960,
+        "posthoc_unsupported_queries": 540,
+        "posthoc_supported_full_positive": 397,
+        "posthoc_supported_full_unknown": 563,
+        "posthoc_supported_service_only": 0
+      },
+      "lines": [
+        {
+          "line": 0,
+          "tag": 64,
+          "initial_service_cutpoint": 0,
+          "posthoc_g": 20,
+          "prospective_g": 60,
+          "J": 12,
+          "A": 18
+        },
+        {
+          "line": 1,
+          "tag": 128,
+          "initial_service_cutpoint": 6,
+          "posthoc_g": 20,
+          "prospective_g": 60,
+          "J": 12,
+          "A": 24
+        }
+      ]
+    },
+    {
+      "case_id": "p6_b3_r3",
+      "status": "ALL_GRID_QUERIES_RETAINED",
+      "counts": {
+        "policy_queries": 1500,
+        "full_service_positive": 819,
+        "full_service_unknown": 681,
+        "full_completion_positive": 815,
+        "full_service_only": 4,
+        "recurrent_positive_but_prefix_rejects": 0,
+        "posthoc_supported_queries": 1365,
+        "posthoc_unsupported_queries": 135,
+        "posthoc_supported_full_positive": 747,
+        "posthoc_supported_full_unknown": 618,
+        "posthoc_supported_service_only": 4
+      },
+      "lines": [
+        {
+          "line": 0,
+          "tag": 64,
+          "initial_service_cutpoint": 0,
+          "posthoc_g": 114,
+          "prospective_g": 342,
+          "J": 6,
+          "A": 18
+        },
+        {
+          "line": 1,
+          "tag": 128,
+          "initial_service_cutpoint": 6,
+          "posthoc_g": 114,
+          "prospective_g": 342,
+          "J": 6,
+          "A": 18
+        }
+      ]
+    },
+    {
+      "case_id": "p6_b3_r5",
+      "status": "ALL_GRID_QUERIES_RETAINED",
+      "counts": {
+        "policy_queries": 1500,
+        "full_service_positive": 658,
+        "full_service_unknown": 842,
+        "full_completion_positive": 658,
+        "full_service_only": 0,
+        "recurrent_positive_but_prefix_rejects": 0,
+        "posthoc_supported_queries": 960,
+        "posthoc_unsupported_queries": 540,
+        "posthoc_supported_full_positive": 397,
+        "posthoc_supported_full_unknown": 563,
+        "posthoc_supported_service_only": 0
+      },
+      "lines": [
+        {
+          "line": 0,
+          "tag": 64,
+          "initial_service_cutpoint": 0,
+          "posthoc_g": 20,
+          "prospective_g": 60,
+          "J": 12,
+          "A": 18
+        },
+        {
+          "line": 1,
+          "tag": 128,
+          "initial_service_cutpoint": 6,
+          "posthoc_g": 20,
+          "prospective_g": 60,
+          "J": 12,
+          "A": 24
+        }
+      ]
+    },
+    {
+      "case_id": "p6_b4_r3",
+      "status": "ALL_GRID_QUERIES_RETAINED",
+      "counts": {
+        "policy_queries": 1500,
+        "full_service_positive": 819,
+        "full_service_unknown": 681,
+        "full_completion_positive": 815,
+        "full_service_only": 4,
+        "recurrent_positive_but_prefix_rejects": 0,
+        "posthoc_supported_queries": 1365,
+        "posthoc_unsupported_queries": 135,
+        "posthoc_supported_full_positive": 747,
+        "posthoc_supported_full_unknown": 618,
+        "posthoc_supported_service_only": 4
+      },
+      "lines": [
+        {
+          "line": 0,
+          "tag": 64,
+          "initial_service_cutpoint": 0,
+          "posthoc_g": 114,
+          "prospective_g": 342,
+          "J": 6,
+          "A": 18
+        },
+        {
+          "line": 1,
+          "tag": 128,
+          "initial_service_cutpoint": 6,
+          "posthoc_g": 114,
+          "prospective_g": 342,
+          "J": 6,
+          "A": 18
+        }
+      ]
+    },
+    {
+      "case_id": "p6_b4_r5",
+      "status": "ALL_GRID_QUERIES_RETAINED",
+      "counts": {
+        "policy_queries": 1500,
+        "full_service_positive": 658,
+        "full_service_unknown": 842,
+        "full_completion_positive": 658,
+        "full_service_only": 0,
+        "recurrent_positive_but_prefix_rejects": 0,
+        "posthoc_supported_queries": 960,
+        "posthoc_unsupported_queries": 540,
+        "posthoc_supported_full_positive": 397,
+        "posthoc_supported_full_unknown": 563,
+        "posthoc_supported_service_only": 0
+      },
+      "lines": [
+        {
+          "line": 0,
+          "tag": 64,
+          "initial_service_cutpoint": 0,
+          "posthoc_g": 20,
+          "prospective_g": 60,
+          "J": 12,
+          "A": 18
+        },
+        {
+          "line": 1,
+          "tag": 128,
+          "initial_service_cutpoint": 6,
+          "posthoc_g": 20,
+          "prospective_g": 60,
+          "J": 12,
+          "A": 24
+        }
+      ]
+    },
+    {
+      "case_id": "p6_b5_r3",
+      "status": "ALL_GRID_QUERIES_RETAINED",
+      "counts": {
+        "policy_queries": 1500,
+        "full_service_positive": 819,
+        "full_service_unknown": 681,
+        "full_completion_positive": 815,
+        "full_service_only": 4,
+        "recurrent_positive_but_prefix_rejects": 0,
+        "posthoc_supported_queries": 1365,
+        "posthoc_unsupported_queries": 135,
+        "posthoc_supported_full_positive": 747,
+        "posthoc_supported_full_unknown": 618,
+        "posthoc_supported_service_only": 4
+      },
+      "lines": [
+        {
+          "line": 0,
+          "tag": 64,
+          "initial_service_cutpoint": 0,
+          "posthoc_g": 114,
+          "prospective_g": 342,
+          "J": 6,
+          "A": 18
+        },
+        {
+          "line": 1,
+          "tag": 128,
+          "initial_service_cutpoint": 6,
+          "posthoc_g": 114,
+          "prospective_g": 342,
+          "J": 6,
+          "A": 18
+        }
+      ]
+    },
+    {
+      "case_id": "p6_b5_r5",
+      "status": "ALL_GRID_QUERIES_RETAINED",
+      "counts": {
+        "policy_queries": 1500,
+        "full_service_positive": 658,
+        "full_service_unknown": 842,
+        "full_completion_positive": 658,
+        "full_service_only": 0,
+        "recurrent_positive_but_prefix_rejects": 0,
+        "posthoc_supported_queries": 960,
+        "posthoc_unsupported_queries": 540,
+        "posthoc_supported_full_positive": 397,
+        "posthoc_supported_full_unknown": 563,
+        "posthoc_supported_service_only": 0
+      },
+      "lines": [
+        {
+          "line": 0,
+          "tag": 64,
+          "initial_service_cutpoint": 0,
+          "posthoc_g": 20,
+          "prospective_g": 60,
+          "J": 12,
+          "A": 18
+        },
+        {
+          "line": 1,
+          "tag": 128,
+          "initial_service_cutpoint": 6,
+          "posthoc_g": 20,
+          "prospective_g": 60,
+          "J": 12,
+          "A": 24
+        }
+      ]
+    }
+  ],
+  "boundary": "Specified bounded two-line controller, not native HUSH/coherence/hardware or independent workload observations. No wallclock timing result."
+}
