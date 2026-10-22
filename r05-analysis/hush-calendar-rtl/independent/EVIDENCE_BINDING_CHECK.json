@@ -1,0 +1,102 @@
+{
+  "status": "PASS_STABLE_RTL_AND_REVIEWED_FINALIZATION_SCRIPTS",
+  "source_stability": {
+    "AMENDMENT_01_PRE_EXECUTION.md": true,
+    "AMENDMENT_02_FULL_KEY_EXTENSION.md": true,
+    "analyze.py": true,
+    "check_transitions.py": true,
+    "COMPOSITION_ARGUMENT.md": true,
+    "CORRECTION_02_PRESERVE_FRAME_FAILURE.md": true,
+    "decode_trace.py": true,
+    "derive_peaks.py": false,
+    "driver.cpp": true,
+    "PROTOCOL.json": true,
+    "PROTOCOL_INITIAL_LITERAL.json": true,
+    "receiver.v": true,
+    "replay_portable.py": false,
+    "run_build.py": true,
+    "SCHEMA.md": true,
+    "verify_policy.py": false
+  },
+  "reviewed_nonRTL_finalization_changes": {
+    "derive_peaks.py": {
+      "original_frozen_sha256": "d338d2b01c45375aca2e97e8df75da5c02ec2d282a2f290cd1785f661461e951",
+      "reviewed_finalization_sha256": "ed7096b20d90294a12f06d1db96a4719757bce54e17d68000050366c43a1a0a7"
+    },
+    "verify_policy.py": {
+      "original_frozen_sha256": "dab51d2bf6a46eaa792e2544f7affa841dc085e4618400df0a8cf8a485565a77",
+      "reviewed_finalization_sha256": "775eaa3799cff55a05de25c577850cc3bab00200d7195a8212433457d25d88ef"
+    },
+    "replay_portable.py": {
+      "original_frozen_sha256": "264d5e7c37aa680871f1d4ee059be4124b7334512cd67837516b2bba5c81b86c",
+      "reviewed_finalization_sha256": "627e290da219b17b0076e96cd3aeee69cb43d7b3be457914b9c4e8d7fbcc58fd"
+    }
+  },
+  "semantic_streams": {
+    "INDEPENDENT_POLICY_TICKS.delta": {
+      "independent_sha256": "81e302f4cf47988abe7981c64922cef37ccc0a77ab047c35adc6fe9cda93382d",
+      "producer_sha256": "81e302f4cf47988abe7981c64922cef37ccc0a77ab047c35adc6fe9cda93382d",
+      "bytes": 191473772
+    },
+    "INDEPENDENT_POLICY_RESULTS.csv": {
+      "independent_sha256": "b21694d00a345cf8dda6a29992f32fb87d548220e35dfd4c403c545ceda8f78a",
+      "producer_sha256": "b21694d00a345cf8dda6a29992f32fb87d548220e35dfd4c403c545ceda8f78a",
+      "bytes": 12709732
+    },
+    "INDEPENDENT_policies.txt": {
+      "independent_sha256": "e3e237a7e306a76bb6c1b0e63a4c0c32bc8a44cbed8dec9c3352dd9ff754ef76",
+      "producer_sha256": "e3e237a7e306a76bb6c1b0e63a4c0c32bc8a44cbed8dec9c3352dd9ff754ef76",
+      "bytes": 6700504
+    }
+  },
+  "peak_sidecars": true,
+  "counts": {
+    "policies": {
+      "ticks": 84379472,
+      "enqueues": 1531520,
+      "captures": 1229561,
+      "emissions": 1206724,
+      "transfers": 1229421,
+      "backpressure": 1682300,
+      "cancels": 21257,
+      "expiries": 108855,
+      "WUs": 130112,
+      "heldExpired": 9428,
+      "heldExpiredBlock": 9356
+    },
+    "data": {
+      "ticks": 34416,
+      "enqueues": 864,
+      "captures": 858,
+      "emissions": 858,
+      "transfers": 858,
+      "backpressure": 1116,
+      "cancels": 714,
+      "expiries": 0,
+      "WUs": 135792,
+      "heldExpired": 0,
+      "heldExpiredBlock": 0
+    },
+    "independent_control_5F": {
+      "ticks": 19120,
+      "enqueues": 480,
+      "captures": 478,
+      "emissions": 478,
+      "transfers": 478,
+      "backpressure": 620,
+      "cancels": 0,
+      "expiries": 0,
+      "WUs": 0,
+      "heldExpired": 0,
+      "heldExpiredBlock": 0
+    }
+  },
+  "coverage": {
+    "multi_enqueues": 52,
+    "enqueue_and_grant": 325,
+    "grant_and_callback": 91,
+    "emit_and_transfer": 195,
+    "expiry_equals_next_grant_first_miss": 137,
+    "first_miss": 108855
+  }
+}

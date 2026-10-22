@@ -1,0 +1,1429 @@
+{
+  "status": "PASS",
+  "role": "AUTHOR_SIDE_INDEPENDENT_MATHEMATICAL_AND_ENCODING_AUDIT",
+  "blind_review": false,
+  "score_requested": false,
+  "scope": "Conditional exact integer unit-slope cyclic observer with trusted expected registry",
+  "mathematical_conclusion": "Canonical reset/span translation iff exact H period; primitive decorated gap word gives fundamental e; checked exact lift yields recurrent h=gcd(P,e) and physical (K-1)P, unchanged prefixes.",
+  "independent_implementation": {
+    "science_imports_from_producer": false,
+    "canonicalization": "Direct envelope strict-reset inverse",
+    "periods": "Exhaustive function/translation/dividing word-block tests, not producer KMP",
+    "size_envelope": "Independent event sweep with equal-span proof",
+    "codec": "Independent parse and byte regeneration; producer actual decoder loaded separately solely for adversarial codec testing"
+  },
+  "small_census": {
+    "counts": {
+      "target_divisor_profiles": 70916,
+      "physical_policy_slacks": 4247436,
+      "profiles": 19524,
+      "reduced_profiles": 1012,
+      "original_pairs": 55532,
+      "period_reduced_pairs": 54103
+    },
+    "modulus_period_counts": {
+      "1:1": 4,
+      "2:2": 20,
+      "2:1": 4,
+      "3:3": 120,
+      "3:1": 4,
+      "4:4": 560,
+      "4:2": 60,
+      "4:1": 4,
+      "5:5": 3120,
+      "5:1": 4,
+      "6:6": 14688,
+      "6:3": 732,
+      "6:2": 200,
+      "6:1": 4
+    },
+    "canonical_case_digest": "4932a5b1562d163394dd60e004e617ecfa449a532b4f858d8e76090c4330ea2f",
+    "edge_counts": {
+      "raw_has_zero_span": 14070,
+      "canonical_has_zero_span": 3276,
+      "no_reduction": 18512,
+      "modulus_one": 4
+    }
+  },
+  "old_controller_results": {
+    "counts": {
+      "lines": 80,
+      "reduced_lines": 11,
+      "full_pairs": 961,
+      "new_pairs": 950,
+      "per_line_slacks": 74000,
+      "complete_policy_slacks": 37000,
+      "old_full_bytes": 36560,
+      "old_portfolio_bytes": 33424,
+      "new_bytes": 39584,
+      "net_smaller_than_full_cases": 0,
+      "net_equal_full_cases": 0,
+      "net_larger_than_full_cases": 40
+    },
+    "cases": [
+      {
+        "case_id": "p2_b0_r3",
+        "lines": [
+          {
+            "owner": 0,
+            "d": 126,
+            "e": 126,
+            "full_pairs": 19,
+            "reduced_pairs": 19
+          },
+          {
+            "owner": 1,
+            "d": 126,
+            "e": 126,
+            "full_pairs": 16,
+            "reduced_pairs": 16
+          }
+        ],
+        "old_full_bytes": 912,
+        "old_portfolio_bytes": 624,
+        "new_bytes": 992,
+        "sha256": "6d634e50819354d1a75aa86925af6e231f4737fdf43170b837812a431da2c0b6"
+      },
+      {
+        "case_id": "p2_b0_r5",
+        "lines": [
+          {
+            "owner": 0,
+            "d": 70,
+            "e": 70,
+            "full_pairs": 12,
+            "reduced_pairs": 12
+          },
+          {
+            "owner": 1,
+            "d": 70,
+            "e": 70,
+            "full_pairs": 10,
+            "reduced_pairs": 10
+          }
+        ],
+        "old_full_bytes": 680,
+        "old_portfolio_bytes": 680,
+        "new_bytes": 760,
+        "sha256": "907963159b2bdddfb77ab3f9576f4430193346e666248a17bec3130e29748c4d"
+      },
+      {
+        "case_id": "p2_b1_r3",
+        "lines": [
+          {
+            "owner": 0,
+            "d": 126,
+            "e": 126,
+            "full_pairs": 19,
+            "reduced_pairs": 19
+          },
+          {
+            "owner": 1,
+            "d": 126,
+            "e": 126,
+            "full_pairs": 16,
+            "reduced_pairs": 16
+          }
+        ],
+        "old_full_bytes": 1248,
+        "old_portfolio_bytes": 960,
+        "new_bytes": 1328,
+        "sha256": "622fe31417d2f6f32fa6094e953f02f268d3322ebdb5c109f0e07d1361979612"
+      },
+      {
+        "case_id": "p2_b1_r5",
+        "lines": [
+          {
+            "owner": 0,
+            "d": 70,
+            "e": 70,
+            "full_pairs": 12,
+            "reduced_pairs": 12
+          },
+          {
+            "owner": 1,
+            "d": 70,
+            "e": 70,
+            "full_pairs": 10,
+            "reduced_pairs": 10
+          }
+        ],
+        "old_full_bytes": 680,
+        "old_portfolio_bytes": 680,
+        "new_bytes": 760,
+        "sha256": "38a560c9141f412f2af6e8fddd77ef6651603fb5455f412ece7aa9a7539811b1"
+      },
+      {
+        "case_id": "p3_b0_r3",
+        "lines": [
+          {
+            "owner": 0,
+            "d": 210,
+            "e": 210,
+            "full_pairs": 29,
+            "reduced_pairs": 29
+          },
+          {
+            "owner": 1,
+            "d": 210,
+            "e": 210,
+            "full_pairs": 21,
+            "reduced_pairs": 21
+          }
+        ],
+        "old_full_bytes": 1080,
+        "old_portfolio_bytes": 1080,
+        "new_bytes": 1160,
+        "sha256": "d4ea55841ee67970ae915642889c795427a9db9a3cb638145adaccd98c75f3c7"
+      },
+      {
+        "case_id": "p3_b0_r5",
+        "lines": [
+          {
+            "owner": 0,
+            "d": 30,
+            "e": 15,
+            "full_pairs": 2,
+            "reduced_pairs": 1
+          },
+          {
+            "owner": 1,
+            "d": 30,
+            "e": 30,
+            "full_pairs": 3,
+            "reduced_pairs": 3
+          }
+        ],
+        "old_full_bytes": 840,
+        "old_portfolio_bytes": 840,
+        "new_bytes": 904,
+        "sha256": "8599c4450fe3b9f9ffd10a9f771da3e98a02ddeb69d9416543c4c7bdcc79dd41"
+      },
+      {
+        "case_id": "p3_b1_r3",
+        "lines": [
+          {
+            "owner": 0,
+            "d": 210,
+            "e": 210,
+            "full_pairs": 29,
+            "reduced_pairs": 29
+          },
+          {
+            "owner": 1,
+            "d": 210,
+            "e": 210,
+            "full_pairs": 21,
+            "reduced_pairs": 21
+          }
+        ],
+        "old_full_bytes": 1080,
+        "old_portfolio_bytes": 1080,
+        "new_bytes": 1160,
+        "sha256": "2816309bb28bfeefe8ac1c243ef6646f3e91b34c9e3a0922acea1746946dadc2"
+      },
+      {
+        "case_id": "p3_b1_r5",
+        "lines": [
+          {
+            "owner": 0,
+            "d": 30,
+            "e": 30,
+            "full_pairs": 3,
+            "reduced_pairs": 3
+          },
+          {
+            "owner": 1,
+            "d": 30,
+            "e": 30,
+            "full_pairs": 3,
+            "reduced_pairs": 3
+          }
+        ],
+        "old_full_bytes": 640,
+        "old_portfolio_bytes": 640,
+        "new_bytes": 720,
+        "sha256": "25a9e982348d2e2b8dab94b8de9129be83a5ab7d4879dd9a41306d5896891db3"
+      },
+      {
+        "case_id": "p3_b2_r3",
+        "lines": [
+          {
+            "owner": 0,
+            "d": 210,
+            "e": 210,
+            "full_pairs": 29,
+            "reduced_pairs": 29
+          },
+          {
+            "owner": 1,
+            "d": 210,
+            "e": 210,
+            "full_pairs": 21,
+            "reduced_pairs": 21
+          }
+        ],
+        "old_full_bytes": 1128,
+        "old_portfolio_bytes": 1128,
+        "new_bytes": 1208,
+        "sha256": "cc627a587ddebd359e4194a1889a6c496f99eec6d111a7136b4d859d5062f8b6"
+      },
+      {
+        "case_id": "p3_b2_r5",
+        "lines": [
+          {
+            "owner": 0,
+            "d": 30,
+            "e": 30,
+            "full_pairs": 3,
+            "reduced_pairs": 3
+          },
+          {
+            "owner": 1,
+            "d": 30,
+            "e": 30,
+            "full_pairs": 3,
+            "reduced_pairs": 3
+          }
+        ],
+        "old_full_bytes": 640,
+        "old_portfolio_bytes": 640,
+        "new_bytes": 720,
+        "sha256": "a09215b7988ccd32b27d7870f08e9be5b9bd8f9b2f1edbc78973ed4219e92e9e"
+      },
+      {
+        "case_id": "p4_b0_r3",
+        "lines": [
+          {
+            "owner": 0,
+            "d": 132,
+            "e": 132,
+            "full_pairs": 9,
+            "reduced_pairs": 9
+          },
+          {
+            "owner": 1,
+            "d": 132,
+            "e": 132,
+            "full_pairs": 8,
+            "reduced_pairs": 8
+          }
+        ],
+        "old_full_bytes": 864,
+        "old_portfolio_bytes": 864,
+        "new_bytes": 944,
+        "sha256": "ddd9aba81ff44000a4f8899fc87faf8bb416687e7f723942fa53d5ad70ea9ed3"
+      },
+      {
+        "case_id": "p4_b0_r5",
+        "lines": [
+          {
+            "owner": 0,
+            "d": 40,
+            "e": 20,
+            "full_pairs": 2,
+            "reduced_pairs": 1
+          },
+          {
+            "owner": 1,
+            "d": 40,
+            "e": 40,
+            "full_pairs": 2,
+            "reduced_pairs": 2
+          }
+        ],
+        "old_full_bytes": 680,
+        "old_portfolio_bytes": 680,
+        "new_bytes": 744,
+        "sha256": "06caa29dde5659af85867d06b0102178ae51d5e5dde72c65e674d5eaa3611a40"
+      },
+      {
+        "case_id": "p4_b1_r3",
+        "lines": [
+          {
+            "owner": 0,
+            "d": 132,
+            "e": 132,
+            "full_pairs": 9,
+            "reduced_pairs": 9
+          },
+          {
+            "owner": 1,
+            "d": 132,
+            "e": 132,
+            "full_pairs": 8,
+            "reduced_pairs": 8
+          }
+        ],
+        "old_full_bytes": 864,
+        "old_portfolio_bytes": 864,
+        "new_bytes": 944,
+        "sha256": "6cc17e19ad4a65cb9d68894c7cbe99cdaab58a27c616c71e0b014a4ef64f6cce"
+      },
+      {
+        "case_id": "p4_b1_r5",
+        "lines": [
+          {
+            "owner": 0,
+            "d": 40,
+            "e": 20,
+            "full_pairs": 2,
+            "reduced_pairs": 1
+          },
+          {
+            "owner": 1,
+            "d": 40,
+            "e": 40,
+            "full_pairs": 2,
+            "reduced_pairs": 2
+          }
+        ],
+        "old_full_bytes": 800,
+        "old_portfolio_bytes": 800,
+        "new_bytes": 864,
+        "sha256": "aea8ad482479d8799ebb707250931caeee32e11d4789a206ba083f9805ac8371"
+      },
+      {
+        "case_id": "p4_b2_r3",
+        "lines": [
+          {
+            "owner": 0,
+            "d": 132,
+            "e": 132,
+            "full_pairs": 9,
+            "reduced_pairs": 9
+          },
+          {
+            "owner": 1,
+            "d": 132,
+            "e": 132,
+            "full_pairs": 8,
+            "reduced_pairs": 8
+          }
+        ],
+        "old_full_bytes": 624,
+        "old_portfolio_bytes": 624,
+        "new_bytes": 704,
+        "sha256": "b26127bf4f4675dc5ca8fa36273a642af77f6442b595a2127848c02706f235f9"
+      },
+      {
+        "case_id": "p4_b2_r5",
+        "lines": [
+          {
+            "owner": 0,
+            "d": 40,
+            "e": 20,
+            "full_pairs": 2,
+            "reduced_pairs": 1
+          },
+          {
+            "owner": 1,
+            "d": 40,
+            "e": 40,
+            "full_pairs": 2,
+            "reduced_pairs": 2
+          }
+        ],
+        "old_full_bytes": 920,
+        "old_portfolio_bytes": 920,
+        "new_bytes": 984,
+        "sha256": "3341750b975eab4da9bf4bfe39784c187e4213d61fc3ffc877b47a9478fac7ad"
+      },
+      {
+        "case_id": "p4_b3_r3",
+        "lines": [
+          {
+            "owner": 0,
+            "d": 132,
+            "e": 132,
+            "full_pairs": 9,
+            "reduced_pairs": 9
+          },
+          {
+            "owner": 1,
+            "d": 132,
+            "e": 132,
+            "full_pairs": 8,
+            "reduced_pairs": 8
+          }
+        ],
+        "old_full_bytes": 720,
+        "old_portfolio_bytes": 720,
+        "new_bytes": 800,
+        "sha256": "cba10045e9b691cca7564b40682f1e368146fbdb5db5ce506a45671bc583eb83"
+      },
+      {
+        "case_id": "p4_b3_r5",
+        "lines": [
+          {
+            "owner": 0,
+            "d": 40,
+            "e": 20,
+            "full_pairs": 2,
+            "reduced_pairs": 1
+          },
+          {
+            "owner": 1,
+            "d": 40,
+            "e": 40,
+            "full_pairs": 2,
+            "reduced_pairs": 2
+          }
+        ],
+        "old_full_bytes": 488,
+        "old_portfolio_bytes": 488,
+        "new_bytes": 552,
+        "sha256": "c996f71bb81fdde9ae688744ea2b44acfcbc4632df28ad9c92caeed87c027c09"
+      },
+      {
+        "case_id": "p5_b0_r3",
+        "lines": [
+          {
+            "owner": 0,
+            "d": 165,
+            "e": 165,
+            "full_pairs": 9,
+            "reduced_pairs": 9
+          },
+          {
+            "owner": 1,
+            "d": 165,
+            "e": 165,
+            "full_pairs": 8,
+            "reduced_pairs": 8
+          }
+        ],
+        "old_full_bytes": 744,
+        "old_portfolio_bytes": 744,
+        "new_bytes": 824,
+        "sha256": "bfde5c181f06d2ca83ef8ef520ec81c0634f8cded281e1b876bf14d4273fa7cb"
+      },
+      {
+        "case_id": "p5_b0_r5",
+        "lines": [
+          {
+            "owner": 0,
+            "d": 320,
+            "e": 320,
+            "full_pairs": 27,
+            "reduced_pairs": 27
+          },
+          {
+            "owner": 1,
+            "d": 320,
+            "e": 320,
+            "full_pairs": 20,
+            "reduced_pairs": 20
+          }
+        ],
+        "old_full_bytes": 1704,
+        "old_portfolio_bytes": 1192,
+        "new_bytes": 1784,
+        "sha256": "8aa1ff2c09fac0908fdfe8beb962dee307434dc46401185c4de28ebd3f1a5810"
+      },
+      {
+        "case_id": "p5_b1_r3",
+        "lines": [
+          {
+            "owner": 0,
+            "d": 165,
+            "e": 165,
+            "full_pairs": 9,
+            "reduced_pairs": 9
+          },
+          {
+            "owner": 1,
+            "d": 165,
+            "e": 165,
+            "full_pairs": 8,
+            "reduced_pairs": 8
+          }
+        ],
+        "old_full_bytes": 744,
+        "old_portfolio_bytes": 744,
+        "new_bytes": 824,
+        "sha256": "f9164e7aafd5d65d7efafef513ba82330e03264f591c4ca2c9bbd4033a1c5c80"
+      },
+      {
+        "case_id": "p5_b1_r5",
+        "lines": [
+          {
+            "owner": 0,
+            "d": 320,
+            "e": 320,
+            "full_pairs": 27,
+            "reduced_pairs": 27
+          },
+          {
+            "owner": 1,
+            "d": 320,
+            "e": 320,
+            "full_pairs": 20,
+            "reduced_pairs": 20
+          }
+        ],
+        "old_full_bytes": 1944,
+        "old_portfolio_bytes": 1432,
+        "new_bytes": 2024,
+        "sha256": "9dbe665c8555c8022a1ef458b84f87ffe18423ba23292dfad29ed013462da8f7"
+      },
+      {
+        "case_id": "p5_b2_r3",
+        "lines": [
+          {
+            "owner": 0,
+            "d": 165,
+            "e": 165,
+            "full_pairs": 9,
+            "reduced_pairs": 9
+          },
+          {
+            "owner": 1,
+            "d": 165,
+            "e": 165,
+            "full_pairs": 8,
+            "reduced_pairs": 8
+          }
+        ],
+        "old_full_bytes": 888,
+        "old_portfolio_bytes": 888,
+        "new_bytes": 968,
+        "sha256": "05e9165185b57a2fa7c12cb091a5c0d9a9ea8dd5a4df2a48b0bda1bbc6598fcc"
+      },
+      {
+        "case_id": "p5_b2_r5",
+        "lines": [
+          {
+            "owner": 0,
+            "d": 320,
+            "e": 320,
+            "full_pairs": 27,
+            "reduced_pairs": 27
+          },
+          {
+            "owner": 1,
+            "d": 320,
+            "e": 320,
+            "full_pairs": 20,
+            "reduced_pairs": 20
+          }
+        ],
+        "old_full_bytes": 1080,
+        "old_portfolio_bytes": 568,
+        "new_bytes": 1160,
+        "sha256": "4997088cb66bd4bfcc9176e2a458ac3f30a085efff7e2ca2e5b79f85bb6a5a8b"
+      },
+      {
+        "case_id": "p5_b3_r3",
+        "lines": [
+          {
+            "owner": 0,
+            "d": 165,
+            "e": 165,
+            "full_pairs": 9,
+            "reduced_pairs": 9
+          },
+          {
+            "owner": 1,
+            "d": 165,
+            "e": 165,
+            "full_pairs": 8,
+            "reduced_pairs": 8
+          }
+        ],
+        "old_full_bytes": 1104,
+        "old_portfolio_bytes": 1104,
+        "new_bytes": 1184,
+        "sha256": "0e7b255c65bcad9c4ae99af0f30e64e07743739dbd93d63679e835efe2267de8"
+      },
+      {
+        "case_id": "p5_b3_r5",
+        "lines": [
+          {
+            "owner": 0,
+            "d": 320,
+            "e": 320,
+            "full_pairs": 27,
+            "reduced_pairs": 27
+          },
+          {
+            "owner": 1,
+            "d": 320,
+            "e": 320,
+            "full_pairs": 20,
+            "reduced_pairs": 20
+          }
+        ],
+        "old_full_bytes": 1560,
+        "old_portfolio_bytes": 1048,
+        "new_bytes": 1640,
+        "sha256": "d0e32af2c1b0c84f7a102699121a5da4a34ae98f2cf78149b5b500065f65eabd"
+      },
+      {
+        "case_id": "p5_b4_r3",
+        "lines": [
+          {
+            "owner": 0,
+            "d": 165,
+            "e": 165,
+            "full_pairs": 9,
+            "reduced_pairs": 9
+          },
+          {
+            "owner": 1,
+            "d": 165,
+            "e": 165,
+            "full_pairs": 8,
+            "reduced_pairs": 8
+          }
+        ],
+        "old_full_bytes": 960,
+        "old_portfolio_bytes": 960,
+        "new_bytes": 1040,
+        "sha256": "79d4918a4ec78576a28a967831d65ae93ef5bc6685060ed82bfa395aa6538cb4"
+      },
+      {
+        "case_id": "p5_b4_r5",
+        "lines": [
+          {
+            "owner": 0,
+            "d": 320,
+            "e": 320,
+            "full_pairs": 27,
+            "reduced_pairs": 27
+          },
+          {
+            "owner": 1,
+            "d": 320,
+            "e": 320,
+            "full_pairs": 20,
+            "reduced_pairs": 20
+          }
+        ],
+        "old_full_bytes": 1080,
+        "old_portfolio_bytes": 568,
+        "new_bytes": 1160,
+        "sha256": "0ce54a36bfacd669b2e7fc69db3190e77f10678130bce5cf58f53daa2284d650"
+      },
+      {
+        "case_id": "p6_b0_r3",
+        "lines": [
+          {
+            "owner": 0,
+            "d": 342,
+            "e": 342,
+            "full_pairs": 24,
+            "reduced_pairs": 24
+          },
+          {
+            "owner": 1,
+            "d": 342,
+            "e": 342,
+            "full_pairs": 18,
+            "reduced_pairs": 18
+          }
+        ],
+        "old_full_bytes": 952,
+        "old_portfolio_bytes": 952,
+        "new_bytes": 1032,
+        "sha256": "b3820ee19786e7a49a37d369d3162b5621b60fc3ce100438bc0f7d4b74d4ebce"
+      },
+      {
+        "case_id": "p6_b0_r5",
+        "lines": [
+          {
+            "owner": 0,
+            "d": 60,
+            "e": 30,
+            "full_pairs": 2,
+            "reduced_pairs": 1
+          },
+          {
+            "owner": 1,
+            "d": 60,
+            "e": 60,
+            "full_pairs": 2,
+            "reduced_pairs": 2
+          }
+        ],
+        "old_full_bytes": 536,
+        "old_portfolio_bytes": 536,
+        "new_bytes": 600,
+        "sha256": "26997ffa41d8289e1352abfe92d88c86baa7981e55f03aa4f21c0cf1eb19cb0a"
+      },
+      {
+        "case_id": "p6_b1_r3",
+        "lines": [
+          {
+            "owner": 0,
+            "d": 342,
+            "e": 342,
+            "full_pairs": 24,
+            "reduced_pairs": 24
+          },
+          {
+            "owner": 1,
+            "d": 342,
+            "e": 342,
+            "full_pairs": 18,
+            "reduced_pairs": 18
+          }
+        ],
+        "old_full_bytes": 952,
+        "old_portfolio_bytes": 952,
+        "new_bytes": 1032,
+        "sha256": "85a0d7d5454af75f0a0bb93f1296fb5f8fff95d0586f63a99ab4f9985b206dc2"
+      },
+      {
+        "case_id": "p6_b1_r5",
+        "lines": [
+          {
+            "owner": 0,
+            "d": 60,
+            "e": 30,
+            "full_pairs": 2,
+            "reduced_pairs": 1
+          },
+          {
+            "owner": 1,
+            "d": 60,
+            "e": 60,
+            "full_pairs": 2,
+            "reduced_pairs": 2
+          }
+        ],
+        "old_full_bytes": 536,
+        "old_portfolio_bytes": 536,
+        "new_bytes": 600,
+        "sha256": "95fa96a14c94c880b0509d48bec3fc8c46f8a3a2301622a087446b87e5c55efb"
+      },
+      {
+        "case_id": "p6_b2_r3",
+        "lines": [
+          {
+            "owner": 0,
+            "d": 342,
+            "e": 342,
+            "full_pairs": 24,
+            "reduced_pairs": 24
+          },
+          {
+            "owner": 1,
+            "d": 342,
+            "e": 342,
+            "full_pairs": 18,
+            "reduced_pairs": 18
+          }
+        ],
+        "old_full_bytes": 1000,
+        "old_portfolio_bytes": 1000,
+        "new_bytes": 1080,
+        "sha256": "9d6ee9bb59cb3f44812064b501072c209eeb1b84816512ae47d29e0026ec36bf"
+      },
+      {
+        "case_id": "p6_b2_r5",
+        "lines": [
+          {
+            "owner": 0,
+            "d": 60,
+            "e": 30,
+            "full_pairs": 2,
+            "reduced_pairs": 1
+          },
+          {
+            "owner": 1,
+            "d": 60,
+            "e": 60,
+            "full_pairs": 2,
+            "reduced_pairs": 2
+          }
+        ],
+        "old_full_bytes": 536,
+        "old_portfolio_bytes": 536,
+        "new_bytes": 600,
+        "sha256": "6e193c58e1be135bea380e2033ef74333db46d181f1138df114d98a511ea4787"
+      },
+      {
+        "case_id": "p6_b3_r3",
+        "lines": [
+          {
+            "owner": 0,
+            "d": 342,
+            "e": 342,
+            "full_pairs": 24,
+            "reduced_pairs": 24
+          },
+          {
+            "owner": 1,
+            "d": 342,
+            "e": 342,
+            "full_pairs": 18,
+            "reduced_pairs": 18
+          }
+        ],
+        "old_full_bytes": 1000,
+        "old_portfolio_bytes": 1000,
+        "new_bytes": 1080,
+        "sha256": "690483ea018ac74a177a8931d05576a2e68e42f79f2a632f9c6dd1dd75309cf3"
+      },
+      {
+        "case_id": "p6_b3_r5",
+        "lines": [
+          {
+            "owner": 0,
+            "d": 60,
+            "e": 30,
+            "full_pairs": 2,
+            "reduced_pairs": 1
+          },
+          {
+            "owner": 1,
+            "d": 60,
+            "e": 60,
+            "full_pairs": 2,
+            "reduced_pairs": 2
+          }
+        ],
+        "old_full_bytes": 656,
+        "old_portfolio_bytes": 656,
+        "new_bytes": 720,
+        "sha256": "698331a8db6dd12ab147abb45927c42670ceddec3f6c1f77748cb7f4129c2b74"
+      },
+      {
+        "case_id": "p6_b4_r3",
+        "lines": [
+          {
+            "owner": 0,
+            "d": 342,
+            "e": 342,
+            "full_pairs": 24,
+            "reduced_pairs": 24
+          },
+          {
+            "owner": 1,
+            "d": 342,
+            "e": 342,
+            "full_pairs": 18,
+            "reduced_pairs": 18
+          }
+        ],
+        "old_full_bytes": 1192,
+        "old_portfolio_bytes": 1192,
+        "new_bytes": 1272,
+        "sha256": "04a9b7f40b3ae054a1194b0ea2eede810d8522e6d11f50637bbfe6da987d1b90"
+      },
+      {
+        "case_id": "p6_b4_r5",
+        "lines": [
+          {
+            "owner": 0,
+            "d": 60,
+            "e": 30,
+            "full_pairs": 2,
+            "reduced_pairs": 1
+          },
+          {
+            "owner": 1,
+            "d": 60,
+            "e": 60,
+            "full_pairs": 2,
+            "reduced_pairs": 2
+          }
+        ],
+        "old_full_bytes": 656,
+        "old_portfolio_bytes": 656,
+        "new_bytes": 720,
+        "sha256": "7683f4e9968ef99abc72415c1db12affb78bf357e0e7847ecaabf5f6111164ac"
+      },
+      {
+        "case_id": "p6_b5_r3",
+        "lines": [
+          {
+            "owner": 0,
+            "d": 342,
+            "e": 342,
+            "full_pairs": 24,
+            "reduced_pairs": 24
+          },
+          {
+            "owner": 1,
+            "d": 342,
+            "e": 342,
+            "full_pairs": 18,
+            "reduced_pairs": 18
+          }
+        ],
+        "old_full_bytes": 1192,
+        "old_portfolio_bytes": 1192,
+        "new_bytes": 1272,
+        "sha256": "bd7a404548d59d6fb33851f64fdffd2238b6bb0a1df76122d903df1058f17f96"
+      },
+      {
+        "case_id": "p6_b5_r5",
+        "lines": [
+          {
+            "owner": 0,
+            "d": 60,
+            "e": 30,
+            "full_pairs": 2,
+            "reduced_pairs": 1
+          },
+          {
+            "owner": 1,
+            "d": 60,
+            "e": 60,
+            "full_pairs": 2,
+            "reduced_pairs": 2
+          }
+        ],
+        "old_full_bytes": 656,
+        "old_portfolio_bytes": 656,
+        "new_bytes": 720,
+        "sha256": "b212d92eb35591a1417fb22e75548f481db79da329928a8602e530321d01e523"
+      }
+    ],
+    "unchanged_lines": 69,
+    "original_binary_roundtrips": 80,
+    "new_binary_roundtrips": 40,
+    "adaptive_full_fallback_bytes": 36560
+  },
+  "size_results": {
+    "counts": {
+      "original_phases_checked": 2798064,
+      "physical_sample_slacks": 378
+    },
+    "cases": [
+      {
+        "p": 16,
+        "d": 528,
+        "e": 33,
+        "full_pairs": 16,
+        "reduced_pairs": 1,
+        "baseline_bytes": 488,
+        "period_bytes": 288,
+        "full_sha256": "4a74c67928791e6a10f9a50e585b57aa3c2a75178d3389f3b8c43d5dcfcaf4c6",
+        "period_sha256": "38e4645a44cb6ad4fe3492c6c30a55d55bc5b7cc8c974ec2a18e1217b1810ba8"
+      },
+      {
+        "p": 32,
+        "d": 2080,
+        "e": 65,
+        "full_pairs": 32,
+        "reduced_pairs": 1,
+        "baseline_bytes": 744,
+        "period_bytes": 288,
+        "full_sha256": "c627981aad5d915e2a2465f244e698b50bd37b465d092337945291c8b764c2f5",
+        "period_sha256": "57318889e065d9e97d12f721b7475eb32b97f1bd5f42563ec1ac3f74b3c4d5dc"
+      },
+      {
+        "p": 64,
+        "d": 8256,
+        "e": 129,
+        "full_pairs": 64,
+        "reduced_pairs": 1,
+        "baseline_bytes": 1256,
+        "period_bytes": 288,
+        "full_sha256": "abcedfe81aaa487525e1c17646c6982ca36e5e972541a762979fa6ae8c94a987",
+        "period_sha256": "9d5fccb2b120bf286b39cd36d87fa156f5dd732cb15c394a97541d96a1ea470d"
+      },
+      {
+        "p": 128,
+        "d": 32896,
+        "e": 257,
+        "full_pairs": 128,
+        "reduced_pairs": 1,
+        "baseline_bytes": 2280,
+        "period_bytes": 288,
+        "full_sha256": "decfbb6d2ba62f4927194b3b664fd02c6038ed8b68d8782c6959047ade21705d",
+        "period_sha256": "ea7fdcdd467df3cd146fbb549d5dd34cf4cfa41a2409088973aeb6d626003cde"
+      },
+      {
+        "p": 256,
+        "d": 131328,
+        "e": 513,
+        "full_pairs": 256,
+        "reduced_pairs": 1,
+        "baseline_bytes": 4328,
+        "period_bytes": 288,
+        "full_sha256": "c983be4d931a9ebbf70dff2af905e4d4c5356c43a2310ce74cd047f56aab8472",
+        "period_sha256": "a689f999f3708794b89c94c07585978c3443720df7d9d538c201bfeea1d96f5f"
+      },
+      {
+        "p": 512,
+        "d": 524800,
+        "e": 1025,
+        "full_pairs": 512,
+        "reduced_pairs": 1,
+        "baseline_bytes": 8424,
+        "period_bytes": 288,
+        "full_sha256": "6e5d524730eecd0cd5120a183e579d3c3e006dbd6ee79174f6379b2732676503",
+        "period_sha256": "88987fba6a418a11c61b266bb43beb9aa95d379830b4536edb9393b2a08649dc"
+      },
+      {
+        "p": 1024,
+        "d": 2098176,
+        "e": 2049,
+        "full_pairs": 1024,
+        "reduced_pairs": 1,
+        "baseline_bytes": 16616,
+        "period_bytes": 288,
+        "full_sha256": "2bfd15ef0df89b31c65b04e9150643a76bd0d2899d10bc26724608b33a0dec6c",
+        "period_sha256": "262bdb65e6bf99cd012a10cdb5767eea1d9be46646f35e5a5bce4c1ab8e40049"
+      }
+    ],
+    "all_four_bindings_retained": true,
+    "original_simple_period_format_bytes": 48,
+    "original_simple_header_bytes": 32
+  },
+  "mutation_controls": {
+    "actual_mutant_branches": 4,
+    "counterexamples": [
+      {
+        "mutant": "span_blind_period_actual_branch",
+        "d": 4,
+        "canonical_pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "true_e": 4,
+        "mutant_e": 2,
+        "phi": 1,
+        "true": 0,
+        "mutant_value": -1
+      },
+      {
+        "mutant": "physical_load_uses_e_actual_branch",
+        "P": 6,
+        "K": 3,
+        "e": 2,
+        "pairs": [
+          [
+            0,
+            1
+          ]
+        ],
+        "phi": 1,
+        "true": 12,
+        "mutant_value": 4
+      },
+      {
+        "mutant": "no_lift_gate_actual_query_branch",
+        "d": 12,
+        "projected_g": 4,
+        "target_m": 6,
+        "source1": [
+          [
+            0,
+            12
+          ]
+        ],
+        "source2": [
+          [
+            4,
+            12
+          ]
+        ],
+        "projected_pairs": [
+          [
+            0,
+            12
+          ]
+        ],
+        "phi": 1,
+        "true_source1": -12,
+        "true_source2": -10,
+        "mutant_value": -12
+      },
+      {
+        "mutant": "physical_prefix_uses_e_actual_branch",
+        "P": 7,
+        "K": 3,
+        "e": 1,
+        "prefix": [
+          0,
+          1,
+          10
+        ],
+        "phi": 0,
+        "true": 11,
+        "mutant_value": 5,
+        "recurrent_pairs": [
+          [
+            0,
+            1
+          ]
+        ],
+        "recurrent_slack": 14,
+        "true_complete": 11,
+        "mutant_complete": 5,
+        "initial_capture": 0,
+        "cycle_entry": 10
+      }
+    ],
+    "coverage": "Four named errors only; not generic mutation coverage. Producer controls provide wrong-formula witnesses but do not execute a complete mutant audit suite."
+  },
+  "actual_decoder_probes": {
+    "status": "PASS_ACTUAL_PRODUCER_DECODER_PROBES",
+    "accepted_valid_records": {
+      "HUPERD05": 47,
+      "HUFULL05": 7
+    },
+    "rejected_mutant_counts": {
+      "truncation": 1242,
+      "trailing_byte": 54,
+      "wrong_magic": 54,
+      "wrong_version": 54,
+      "header_registry_mismatch": 270,
+      "source_binding_mismatch": 54,
+      "receiver_binding_mismatch": 54,
+      "relation_binding_mismatch": 54,
+      "epoch_binding_mismatch": 54,
+      "line_count_mismatch": 54,
+      "line_metadata_registry_mismatch": 270,
+      "prefix_count_huge": 54,
+      "pair_count_zero": 54,
+      "pair_count_huge": 54,
+      "changed_physical_prefix": 36,
+      "residue_out_of_range": 54,
+      "span_changed": 54,
+      "duplicate_residue": 36,
+      "zero_e": 47,
+      "e_not_divisor": 47,
+      "expanded_digest_changed": 47,
+      "self_consistent_untrusted_digest": 47,
+      "nonfundamental_exact_lift": 18
+    },
+    "rejected_total": 2762,
+    "examples": [
+      {
+        "mutation": "truncation",
+        "case_id": "p2_b0_r3",
+        "error_type": "ValueError",
+        "error": "truncated",
+        "mutant_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "mutation": "trailing_byte",
+        "case_id": "p2_b0_r3",
+        "error_type": "ValueError",
+        "error": "trailing",
+        "mutant_sha256": "7b78e148ee4d13fb7adc282031f0c3e3ee459481a3d40b998093c667feac68a3"
+      },
+      {
+        "mutation": "wrong_magic",
+        "case_id": "p2_b0_r3",
+        "error_type": "ValueError",
+        "error": "schema",
+        "mutant_sha256": "74ca09bfb5ef042e7e7c062d51e64bfa682c06750c123b36134095ac507dfe2e"
+      },
+      {
+        "mutation": "wrong_version",
+        "case_id": "p2_b0_r3",
+        "error_type": "ValueError",
+        "error": "schema",
+        "mutant_sha256": "d7ca8feeebc1a44ad1e32d92192f5aa7ce5ed73de1da71efc67aed46f6174c3a"
+      },
+      {
+        "mutation": "header_registry_mismatch",
+        "case_id": "p2_b0_r3",
+        "error_type": "AssertionError",
+        "error": "",
+        "mutant_sha256": "475ad9aefe00b1122cf55c89e18c49864608838fb3926c42826a136e93f3e969"
+      },
+      {
+        "mutation": "source_binding_mismatch",
+        "case_id": "p2_b0_r3",
+        "error_type": "ValueError",
+        "error": "binding",
+        "mutant_sha256": "dd01f9395ce049f331d479f77b327a40bfc308dc0beb19492b5a95d37d617e92"
+      },
+      {
+        "mutation": "receiver_binding_mismatch",
+        "case_id": "p2_b0_r3",
+        "error_type": "ValueError",
+        "error": "binding",
+        "mutant_sha256": "9d744457490ec3d4599465c47b66314ee1e6663d5ed17d40e5f44b5a3534f807"
+      },
+      {
+        "mutation": "relation_binding_mismatch",
+        "case_id": "p2_b0_r3",
+        "error_type": "ValueError",
+        "error": "binding",
+        "mutant_sha256": "66928da5537796219635a1683702007588d54e17739336868ad1db60d06e866d"
+      },
+      {
+        "mutation": "epoch_binding_mismatch",
+        "case_id": "p2_b0_r3",
+        "error_type": "ValueError",
+        "error": "binding",
+        "mutant_sha256": "a5706889d5c2537fbecef5d87f501c7ac599c598fa9021cf4906f81ea5b77fe4"
+      },
+      {
+        "mutation": "line_count_mismatch",
+        "case_id": "p2_b0_r3",
+        "error_type": "AssertionError",
+        "error": "",
+        "mutant_sha256": "1909438a3e13ebbf1e061bde84474d51aa63d2912457304e52bb459cf89b15ab"
+      },
+      {
+        "mutation": "line_metadata_registry_mismatch",
+        "case_id": "p2_b0_r3",
+        "error_type": "AssertionError",
+        "error": "",
+        "mutant_sha256": "8e7c86bbb49eae84c483362a57d2a6be4b211861a12d77d00389607fb70005e3"
+      },
+      {
+        "mutation": "prefix_count_huge",
+        "case_id": "p2_b0_r3",
+        "error_type": "ValueError",
+        "error": "support/count",
+        "mutant_sha256": "c7f98eafeb05fbe9b255b0e30bbe5a66540c73d6f70a90686159cff9722276e5"
+      },
+      {
+        "mutation": "pair_count_zero",
+        "case_id": "p2_b0_r3",
+        "error_type": "ValueError",
+        "error": "support/count",
+        "mutant_sha256": "d31affd1cbd4e9ce0173f44be929a8d9c9c8820c9e517216a1e268e5151defa6"
+      },
+      {
+        "mutation": "pair_count_huge",
+        "case_id": "p2_b0_r3",
+        "error_type": "ValueError",
+        "error": "support/count",
+        "mutant_sha256": "d6ef577dcaed3364aceb431229f5eb3326a2ec363d6b7b1f4034339e6b5a0419"
+      },
+      {
+        "mutation": "changed_physical_prefix",
+        "case_id": "p2_b0_r3",
+        "error_type": "ValueError",
+        "error": "prefix/canonical",
+        "mutant_sha256": "1cfcedb12cb666da3baea6a78cf648fc82b31e365e12501b8e64d879cc632b59"
+      },
+      {
+        "mutation": "residue_out_of_range",
+        "case_id": "p2_b0_r3",
+        "error_type": "ValueError",
+        "error": "prefix/canonical",
+        "mutant_sha256": "d274a8d9cb28aa7fb6c4a1156d5db6c3b3ff762f28fd1301a5985b3e46be06b0"
+      },
+      {
+        "mutation": "span_changed",
+        "case_id": "p2_b0_r3",
+        "error_type": "ValueError",
+        "error": "period-lift binding",
+        "mutant_sha256": "75be22c23588be8968b17e2a18cb29eca4fead63e993155266e7368ed88a9ab5"
+      },
+      {
+        "mutation": "duplicate_residue",
+        "case_id": "p2_b0_r3",
+        "error_type": "ValueError",
+        "error": "prefix/canonical",
+        "mutant_sha256": "f9be62beaab7de464539b005cf33c4c035bab13d5866a92c9684591d3b5cf967"
+      },
+      {
+        "mutation": "zero_e",
+        "case_id": "p2_b0_r3",
+        "error_type": "ValueError",
+        "error": "support/count",
+        "mutant_sha256": "53bcb4e1b282623a96e87d24b3457f248569cacc80394e9e3ec96e132b4dd74c"
+      },
+      {
+        "mutation": "e_not_divisor",
+        "case_id": "p2_b0_r3",
+        "error_type": "ValueError",
+        "error": "support/count",
+        "mutant_sha256": "0b41b5dd77e6921f7643961cd1a8c476bb079bb1e8131983423bb06035c02bb6"
+      },
+      {
+        "mutation": "expanded_digest_changed",
+        "case_id": "p2_b0_r3",
+        "error_type": "ValueError",
+        "error": "period-lift binding",
+        "mutant_sha256": "98bd572bcdc7de164f7e5367f52252b19d5e2f0585cb99acf66c1a0a592c6559"
+      },
+      {
+        "mutation": "self_consistent_untrusted_digest",
+        "case_id": "p2_b0_r3",
+        "error_type": "ValueError",
+        "error": "period-lift binding",
+        "mutant_sha256": "47621d42b043d80509fd241e1b4a34afdb7a666bfcd0b53f0b762675fe428b48"
+      },
+      {
+        "mutation": "nonfundamental_exact_lift",
+        "case_id": "p3_b0_r5",
+        "error_type": "ValueError",
+        "error": "nonfundamental encoding",
+        "mutant_sha256": "7e644311765c0634f93c3f1f5ebc7897898d4bdf45891494a0f655d9d41319f5"
+      }
+    ],
+    "compromised_registry_acceptance_controls": 47,
+    "scope": "Executed only actual decode_new under normal Python matching requested runtime. Expected full profiles/bindings are independently read from bound source registry. Header/metadata/count guards partly use assert; no optimized-Python hardening claim. Matching forged expected registries accept fabricated profiles, as expected: a digest is not source authentication."
+  },
+  "source_receipts": {
+    "status": "PASS",
+    "old_input_count": 82,
+    "size_input_count": 9,
+    "first_source_sha256": "b9afea4d053c6da441296f51e35b58a8cff957a8d657603776cfa77d78673f2e",
+    "current_source_sha256": "208978c36876e32ae2ee64a4a29310d5422b690bb2928af026a4c825b2e05fae",
+    "current_protocol_sha256": "79ed15115133f71dc6b538e2573064d5ac7780424e18bec4936c50267228e403",
+    "first_protocol_sha256": "78593ddc6f3abdc9f5952af5b96d3802797357b584f3c1d203aca4b0b9fcd709",
+    "preparse_protocol_sha256": "78593ddc6f3abdc9f5952af5b96d3802797357b584f3c1d203aca4b0b9fcd709",
+    "size_preparse_protocol_sha256": "79ed15115133f71dc6b538e2573064d5ac7780424e18bec4936c50267228e403",
+    "preserved_syntax_failure": {
+      "type": "SyntaxError",
+      "line": 158,
+      "message": "keyword argument repeated: mutant"
+    },
+    "first_source_recovered_by_only_three_renames": true,
+    "protocol_hash_changes_preserved_not_retroactively_equated": true
+  },
+  "established_primary_sources": [
+    {
+      "title": "Knuth, Morris, Pratt (1977), Fast Pattern Matching in Strings",
+      "url": "https://epubs.siam.org/doi/10.1137/0206024",
+      "use": "Standard string period/prefix-function computation; no new generic algorithm claimed."
+    },
+    {
+      "title": "Zippo and Stea (2023), Computationally Efficient Worst-Case Analysis of Flow-Controlled Networks With Network Calculus",
+      "url": "https://arxiv.org/pdf/2203.02497",
+      "doi": "10.1109/TIT.2023.3244276",
+      "locations": "Section IV-A1 Definition 5 and Lemma 1, printed p2673; Appendix B Theorem 9",
+      "use": "Prior periodic-function representation minimization by repeated breakpoint parts and period-multiple structure; scope differs from integer cyclic observer."
+    }
+  ],
+  "scope_limits": [
+    "New posthoc conditional extension. Original fixed-modulus and nondivisor results remain intact.",
+    "19,524 counts nonempty raw assignments, not distinct canonical functions.",
+    "Mathematical identity applies to any positive integer P and K under checked exact lift; finite checks do not prove universal quantifiers.",
+    "Minimum pair count is confined to the exact period-lift family for the same exact H, not arbitrary encodings or sign-only queries.",
+    "Expanded-profile digest is not self-authenticating; trusted registry and actual source-period proof remain necessary.",
+    "Source triples/profile lift are checked for declared exact relations; native source closure/refinement and hardware behavior are not established.",
+    "Initialization/capture/cycle-entry, physical prefixes and epoch obligations are retained, not derived from the compressed record.",
+    "Actual decoder probes are targeted normal-Python checks; assert-based guards are not optimized-Python hardening.",
+    "Large size-family phases use independent reset-event envelope sweep with a mathematical equal-span proof, not p-term brute minimum at every phase.",
+    "Four actual mutant branches are witnessed; no generic mutation coverage claimed.",
+    "No generic novelty claim for period minimization/KMP, and no hardware, memory, runtime, application or performance claim."
+  ],
+  "history": {
+    "producer_first_syntax_failure_preserved": true,
+    "producer_first_correct_source_reconstructed_byte_exact": true,
+    "old_protocol_hash_distinct_from_amended_protocol": true,
+    "independent_first_invocation_compile_failure_preserved": "failure-001-syntax/",
+    "original_reports_and_binaries_unchanged": true
+  },
+  "artifacts": {
+    "full_proof": "INDEPENDENT_AUDIT.md",
+    "paper_ready_facts": "PAPER_READY_FACTS.md",
+    "checker": "check_independent.py",
+    "producer_codec_probes": "parser_probe.py",
+    "input_hash_manifest": "READ_INPUT_MANIFEST.json",
+    "audit_manifest": "AUDIT_FILE_MANIFEST.json"
+  }
+}

@@ -1,3 +1,76 @@
+# R05 own reference calendar and intrinsic-period research supplement
+
+This fixed source tree preserves all 416 earlier research/license files from
+the R04 fixed parent byte-for-byte. Its research README and root manifest are
+the only replaced parent files. R05 contains own/public sources, complete
+scientific inputs/results and author independent audits. No manuscript,
+figure, peer review, private HUSH overlay, native simulator, server settings,
+credential, compiler/tool runtime, executable or debug binary is included.
+
+Use normal Python 3 with the standard library:
+
+```
+python -I -S -B -X utf8 run_r05_checks.py --out /new/external/replay-output
+```
+
+The output must be a new directory outside this immutable tree. Exact large
+streams materialize there from deterministic gzip, with both compressed and
+uncompressed hashes checked separately. The runner checks all new model,
+record, byte, physical-prefix/cycle and complete timer-stream data, then runs
+the independent checkers and actual producer parser probes. Preserved syntax
+failures are inspected as historical evidence, never executed. Old R04 and
+earlier suites remain available under their original entrypoints; their nine
+timing blocks are unchanged and are not rerun by this command. No SciPy or
+fresh timing/performance claim follows from the stdlib replay.
+
+For fresh synthesis and execution, use installed external Yosys/CXXRTL and
+Zig; no tools are distributed. The separate runner accepts explicit paths:
+
+```
+python -I -S -B -X utf8 run_r05_rtl.py --out /new/external/rtl-output --yosys-python-wrapper /tools/run_yosys.py --zig /tools/zig.exe --include /tools/yosys/share/include
+```
+
+It generates a fresh netlist, compiles the original driver and independent
+typed oracle, executes the complete primary and separate cycle supplement,
+and freshly compiles and detects five semantic RTL mutants. Build/cache
+outputs stay in the new output directory. No timing mode is used.
+
+The four-line/FIFO8/two-snapshot calendar reference has 130,112 primary
+policies and a separate 6,496-policy supplement: 84,725,776 actually executed
+policy ticks. Omitted prehistory is not counted as execution. The original
+empty-frame p7/r7 gate stays UNKNOWN; its distinct full-key experiment has
+entry37/repeat93, period56, with all four literal prefix crossings retained.
+An independent 5F sidecar closes the translated endpoint checks. There are
+271 cycle-local positives rejected by the fresh physical prefix. WUs must
+occur STRICTLY after each line's guaranteed first capture cutpoint. After-
+tick and within-tick ownership peaks are separately named and bound. The
+conditional arbitrary-WU argument requires the stated fixed epoch, source,
+ready behavior, initial validity, immutable snapshots, width guards, and no
+other invalidation; finite one-WU tests do not exhaust arbitrary WU words.
+
+The intrinsic-period work is a posthoc conditional EXACT-LIFT consequence
+checked against an externally trusted producer/source registry. Generic
+period minimization and word-period algorithms are established prior work
+(Zippo/Stea and KMP), as acknowledged in PRIMARY_SOURCE_CHECKS.md. Across all
+40 original complete records, 961 pairs become950 but bytes worsen from
+36,560 to39,584; the old33,424-byte portfolio remains better. Seven predeclared
+one-line mathematical size models have 2.8million phase checks plus378
+physical sample slacks; actual complete records shrink from488..16,616 to288
+bytes. The earlier48-byte payload is an unbound alternative and is included
+with its own source/inputs/results. The small census includes19,524 raw
+assignments and4.247million exact model checks. These are mathematical model
+results, not native HUSH, generic minimum encoding, coherent-memory, PPA,
+silicon, runtime or application benefit. The v5 parser uses normal Python
+assertions; it is not hardened for optimized Python or untrusted-certificate
+security. Self-consistent digests do not authenticate an untrusted registry.
+
+R05_PUBLIC_ADAPTATIONS.json gives original and public hashes for explicit
+absolute-path metadata changes and omitted local build artifacts. Nested
+historical manifests keep their original evidence identities; MANIFEST.json
+binds every byte actually shipped. All initial failures and amendments are
+preserved within the minimal scientific scope.
+
+
 # R04 review supplement: new receiver RTL and existing-grid tuning/bytes
 
 Start with Python 3.12 or later and a fresh extraction:

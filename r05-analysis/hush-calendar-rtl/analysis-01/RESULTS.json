@@ -1,0 +1,44 @@
+{
+  "status": "PRODUCER_ARITHMETIC_PENDING_RTL_POLICY_RUN_AND_INDEPENDENT_GATE",
+  "study": {
+    "cases": 12,
+    "original_empty_frame_pass": 11,
+    "original_empty_frame_unknown": 1,
+    "full_key_cycles": 12,
+    "prefix_edges": 4,
+    "cycle_edges": 96
+  },
+  "counts": {
+    "policy_queries": 130112,
+    "service_positive": 21257,
+    "completion_positive": 21019,
+    "service_only": 238,
+    "original5_queries": 40660,
+    "original5_service_positive": 1269,
+    "original5_completion_positive": 1264
+  },
+  "policy_queries": 130112,
+  "all_ties_preserved": true,
+  "no_gain_cases": [
+    0,
+    2,
+    3,
+    4,
+    7,
+    9
+  ],
+  "gains_by_case": [
+    0,
+    4,
+    0,
+    0,
+    0,
+    4,
+    1,
+    0,
+    9,
+    0,
+    16,
+    8
+  ]
+}

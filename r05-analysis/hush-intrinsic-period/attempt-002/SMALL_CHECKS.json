@@ -1,0 +1,27 @@
+{
+  "counts": {
+    "target_divisor_profiles": 70916,
+    "physical_policy_slacks": 4247436,
+    "profiles": 19524,
+    "reduced_profiles": 1012,
+    "original_pairs": 55532,
+    "period_reduced_pairs": 54103
+  },
+  "modulus_period_counts": {
+    "1:1": 4,
+    "2:2": 20,
+    "2:1": 4,
+    "3:3": 120,
+    "3:1": 4,
+    "4:4": 560,
+    "4:2": 60,
+    "4:1": 4,
+    "5:5": 3120,
+    "5:1": 4,
+    "6:6": 14688,
+    "6:3": 732,
+    "6:2": 200,
+    "6:1": 4
+  },
+  "canonical_case_digest": "4932a5b1562d163394dd60e004e617ecfa449a532b4f858d8e76090c4330ea2f"
+}

@@ -1,0 +1,17 @@
+{
+  "primary_preserved": {
+    "analysis-01/policies.txt": "e3e237a7e306a76bb6c1b0e63a4c0c32bc8a44cbed8dec9c3352dd9ff754ef76",
+    "analysis-01/TUNING.json": "edc18afb9cff5ac8e7913209c6064bbdeca578d5d6c93bbebee15b5f74beacb9",
+    "analysis-01/ALL_PHASES.jsonl.gz": "28aa1e635c507bb234ae2141b3581e94f20962dda013b6505813c38cf81da36f",
+    "build-05-policy/POLICY_RESULTS.csv": "b21694d00a345cf8dda6a29992f32fb87d548220e35dfd4c403c545ceda8f78a",
+    "build-05-policy/POLICY_TICKS.delta": "81e302f4cf47988abe7981c64922cef37ccc0a77ab047c35adc6fe9cda93382d"
+  },
+  "supplement_inputs": {
+    "derive_peaks.py": "ed7096b20d90294a12f06d1db96a4719757bce54e17d68000050366c43a1a0a7",
+    "generate_cycle_supplement.py": "5696c0cbfa58e859f1610ab1e3ad33acc30d2bad7e674e9e995cb08b30f805a6",
+    "replay_portable.py": "627e290da219b17b0076e96cd3aeee69cb43d7b3be457914b9c4e8d7fbcc58fd",
+    "SUPPLEMENT_03_CYCLE_WITNESS_COVERAGE.md": "1db828414ccc7100cc151c0603278bb599de67dd002830782122d4a066293bb6",
+    "verify_policy.py": "775eaa3799cff55a05de25c577850cc3bab00200d7195a8212433457d25d88ef"
+  },
+  "oracle_sha256": "ff9084d68d48cb4d40fa45dd03a4a26170a463a9b90053812ae94ba21bee0e02"
+}

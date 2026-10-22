@@ -1,0 +1,28 @@
+{
+  "status": "PASS_PRODUCER_SEPARATE_REPRESENTATION",
+  "counts": {
+    "CONTROL_TICKS.csv": {
+      "ticks": 15296,
+      "enqueues": 384,
+      "captures": 382,
+      "emissions": 382,
+      "backpressure": 496,
+      "transfers": 382,
+      "WUs": 0,
+      "cancels": 0,
+      "expiries": 0
+    },
+    "DATA_TICKS.csv": {
+      "ticks": 34416,
+      "enqueues": 864,
+      "captures": 858,
+      "emissions": 858,
+      "backpressure": 1116,
+      "transfers": 858,
+      "WUs": 135792,
+      "cancels": 714,
+      "expiries": 0
+    }
+  },
+  "independent_validation": false
+}

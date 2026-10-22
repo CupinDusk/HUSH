@@ -1,0 +1,44 @@
+{
+  "actual_yosys_version": "Yosys 0.70 (git sha1 28ba3cb92, Release, Clang /workspace/YoWASP/yosys/wasi-sdk-33.0-x86_64-linux/share/cmake/../..//bin/clang++ 22.1.0)",
+  "actual_tools": [
+    {
+      "path": "<BUNDLED_RUNTIME>\\python\\python.exe",
+      "bytes": 107312,
+      "sha256": "7c4ee3011932a75b30db176f35fb91b28f0b299e608eaf643fb1bf36ed5ace99"
+    },
+    {
+      "path": "<BUNDLED_RUNTIME>\\python\\python312.dll",
+      "bytes": 6985520,
+      "sha256": "2987445b1405431f9f396d492a039176930ee0298c573dd672bbac67c681f11c"
+    },
+    {
+      "path": "<WORKSPACE>\\.tools\\run_iscas_yosys.py",
+      "bytes": 275,
+      "sha256": "30a9a408af8d9b5f2df60b6c961db42a1a0c861ad9fbdb90bd727fb1142d3ff9"
+    },
+    {
+      "path": "<WORKSPACE>\\.tools\\zig-0.14.1\\zig-x86_64-windows-0.14.1\\zig.exe",
+      "bytes": 168132608,
+      "sha256": "1ddf230367e07738c4a769eae66c1db7469e37bd520e81c86356453d0db2b9fd"
+    },
+    {
+      "path": "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\backends\\cxxrtl\\runtime\\cxxrtl\\cxxrtl.h",
+      "bytes": 73300,
+      "sha256": "f0b10970e58343d4992b0838c6729357e8c6c299ef26eaa36a344f1a741e0dcf"
+    },
+    {
+      "path": "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\yosys.wasm",
+      "bytes": 68860682,
+      "sha256": "a35c25e046acdccbbebe315d93fff65fd64747141a540ecc7e602549d154eb4f"
+    }
+  ],
+  "include_roots": [
+    "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include",
+    "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\backends\\cxxrtl\\runtime"
+  ],
+  "build_flags": [
+    "-std=c++17",
+    "-O3",
+    "-UNDEBUG"
+  ]
+}

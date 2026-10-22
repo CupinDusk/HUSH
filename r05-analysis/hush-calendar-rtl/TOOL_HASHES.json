@@ -1,0 +1,280 @@
+{
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "yosys_version": "Yosys 0.70 (git sha1 28ba3cb92, Release, Clang /workspace/YoWASP/yosys/wasi-sdk-33.0-x86_64-linux/share/cmake/../..//bin/clang++ 22.1.0)",
+  "two_include_roots": [
+    "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include",
+    "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\backends\\cxxrtl\\runtime"
+  ],
+  "files": [
+    {
+      "path": "<BUNDLED_RUNTIME>\\python\\python.exe",
+      "bytes": 107312,
+      "sha256": "7c4ee3011932a75b30db176f35fb91b28f0b299e608eaf643fb1bf36ed5ace99"
+    },
+    {
+      "path": "<WORKSPACE>\\.tools\\run_iscas_yosys.py",
+      "bytes": 275,
+      "sha256": "30a9a408af8d9b5f2df60b6c961db42a1a0c861ad9fbdb90bd727fb1142d3ff9"
+    },
+    {
+      "path": "<WORKSPACE>\\.tools\\zig-0.14.1\\zig-x86_64-windows-0.14.1\\zig.exe",
+      "bytes": 168132608,
+      "sha256": "1ddf230367e07738c4a769eae66c1db7469e37bd520e81c86356453d0db2b9fd"
+    },
+    {
+      "path": "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\yosys.wasm",
+      "bytes": 68860682,
+      "sha256": "a35c25e046acdccbbebe315d93fff65fd64747141a540ecc7e602549d154eb4f"
+    },
+    {
+      "path": "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\__init__.py",
+      "bytes": 1189,
+      "sha256": "731bba6cc959eb34690b32a9db0745b3b2cdb79f9bb67243ea086f7640ece98d"
+    },
+    {
+      "path": "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\backends\\cxxrtl\\runtime\\cxxrtl\\capi\\cxxrtl_capi.h",
+      "bytes": 16719,
+      "sha256": "2e53569e39b12aa50725e68939a5d3f4e30062af86d062e057342fb189026ff5"
+    },
+    {
+      "path": "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\backends\\cxxrtl\\runtime\\cxxrtl\\capi\\cxxrtl_capi_vcd.h",
+      "bytes": 4286,
+      "sha256": "3fa28112cfbbe882b82f02818576e3bbd9f0907deb9a6a949b8b92ba2692f3c3"
+    },
+    {
+      "path": "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\backends\\cxxrtl\\runtime\\cxxrtl\\cxxrtl.h",
+      "bytes": 73300,
+      "sha256": "f0b10970e58343d4992b0838c6729357e8c6c299ef26eaa36a344f1a741e0dcf"
+    },
+    {
+      "path": "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\backends\\cxxrtl\\runtime\\cxxrtl\\cxxrtl_replay.h",
+      "bytes": 30008,
+      "sha256": "ddb140cb79d8b5a1f832c2c8f4abdff3c2ba0583a430bf2994333198fb4f76cb"
+    },
+    {
+      "path": "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\backends\\cxxrtl\\runtime\\cxxrtl\\cxxrtl_time.h",
+      "bytes": 6174,
+      "sha256": "eb3231b971bb6d7cb95167bb5ae03f2901e2c15ed55af72c35e73038f00bfdb5"
+    },
+    {
+      "path": "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\backends\\cxxrtl\\runtime\\cxxrtl\\cxxrtl_vcd.h",
+      "bytes": 8637,
+      "sha256": "2f854e3b1edcf6b1a4c53162f158e184d1846eecf17ff8fa3f90f4ff49f45a30"
+    },
+    {
+      "path": "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\backends\\rtlil\\rtlil_backend.h",
+      "bytes": 2497,
+      "sha256": "321b8cf5c015565fb0c652a39f0990e503bdaf64bcbed728ea7ad18753b377e7"
+    },
+    {
+      "path": "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\frontends\\blif\\blifparse.h",
+      "bytes": 1157,
+      "sha256": "428dd4bf556afc4565dbda19c3a4aa4eb66fdbed3b8280177310a215fd51ef97"
+    },
+    {
+      "path": "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\kernel\\bitpattern.h",
+      "bytes": 5949,
+      "sha256": "dfa1051ea018a40b8516afc611c9205e3e31f15d81d1477aa2b1a9b0a26f0307"
+    },
+    {
+      "path": "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\kernel\\cellaigs.h",
+      "bytes": 1391,
+      "sha256": "09d628b3aec8a660202ef05b27c102de15a0e96841201cbd8e685da19dfa1d51"
+    },
+    {
+      "path": "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\kernel\\celledges.h",
+      "bytes": 2216,
+      "sha256": "7c5fec1c93a937fa90d4fd31f0a2a8244f6e94332eb1f8e4174741a5332cd7d1"
+    },
+    {
+      "path": "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\kernel\\celltypes.h",
+      "bytes": 19230,
+      "sha256": "cf32bd14594428d9fd12073dc2778e8a00c852b3b85b3946392ba7377cd01ce2"
+    },
+    {
+      "path": "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\kernel\\consteval.h",
+      "bytes": 11512,
+      "sha256": "03338e33b03556168fc221abeb2b2bb9c50db99c749e3b8b8e63578ee05bf0af"
+    },
+    {
+      "path": "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\kernel\\cost.h",
+      "bytes": 2921,
+      "sha256": "4d15b72863d52efe4cc4098d6d28759a7cf04dcf901ef6574a1f567dcea6c375"
+    },
+    {
+      "path": "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\kernel\\drivertools.h",
+      "bytes": 33535,
+      "sha256": "8ada435c40ae44b1fd85106a3dc71d35bb85f9e984205ebd0ddd1510ebc4e684"
+    },
+    {
+      "path": "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\kernel\\ff.h",
+      "bytes": 7805,
+      "sha256": "0d94daa4ea6701aeb29070b73413fa271c120e7bf420232b598c18490412adc3"
+    },
+    {
+      "path": "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\kernel\\ffinit.h",
+      "bytes": 6236,
+      "sha256": "cd79bdfcd3b3e4346b54ee4500633cfcb49c0bcb85306af71f3483aeb3173fb8"
+    },
+    {
+      "path": "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\kernel\\ffmerge.h",
+      "bytes": 6309,
+      "sha256": "c65d7f87cf1998b231a658bbbe98a2537e51fd8e1c66aef6f3e03bd9a6eeccc8"
+    },
+    {
+      "path": "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\kernel\\fmt.h",
+      "bytes": 2769,
+      "sha256": "b8e973f0354f27b684febf064af3ab6cc70ff877d7d401983844cc99d4159af5"
+    },
+    {
+      "path": "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\kernel\\gzip.h",
+      "bytes": 1847,
+      "sha256": "c29019f61035dc71295a0667b61e3a247bd52d203fa9d4be259079821f37f900"
+    },
+    {
+      "path": "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\kernel\\hashlib.h",
+      "bytes": 40283,
+      "sha256": "eb5bb822ae14652ca94d780eb7189e9e8643c1fd6d49cb5107a83d39cd5725c7"
+    },
+    {
+      "path": "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\kernel\\io.h",
+      "bytes": 17641,
+      "sha256": "781d2df92f4ae196d631301b8a2daa89ef8b749a7a7d054ea3ba06eeeee8369c"
+    },
+    {
+      "path": "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\kernel\\json.h",
+      "bytes": 2849,
+      "sha256": "8b6c2620c676482139cdce8820854bc785d9dbe1d08991052746a8fdc3089cad"
+    },
+    {
+      "path": "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\kernel\\log.h",
+      "bytes": 24091,
+      "sha256": "e80792f027efe0a5580df25cf5f9bc4bdf644b1ed7cbc11537476353e368d703"
+    },
+    {
+      "path": "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\kernel\\macc.h",
+      "bytes": 8918,
+      "sha256": "a41752a3db678e9382efb514a850f38103336428e2c5d8663ab2e74a2f5051e2"
+    },
+    {
+      "path": "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\kernel\\mem.h",
+      "bytes": 15498,
+      "sha256": "da608f63c432815a03235342f9c1b46b4c5a3304a28697237da184c840cdeefb"
+    },
+    {
+      "path": "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\kernel\\modtools.h",
+      "bytes": 15062,
+      "sha256": "2523905d04a0da8b8a6b904597b433ebf7a6bad7769a5ae3d2e37a4b323859e6"
+    },
+    {
+      "path": "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\kernel\\newcelltypes.h",
+      "bytes": 30172,
+      "sha256": "3f9d3c14a4c2058b776759a5f2cc4929791e93e4270ad127e3c493c37588e591"
+    },
+    {
+      "path": "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\kernel\\qcsat.h",
+      "bytes": 4398,
+      "sha256": "4e4c2ae6e311971a4567cff7c0ec85a2a46ba8f8a34b6f76fdee1b6a36735d15"
+    },
+    {
+      "path": "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\kernel\\register.h",
+      "bytes": 7583,
+      "sha256": "8b7ec879324d2772cea7f24a4b7f347204f07f18d3546f5eabe5c3e38fbeb374"
+    },
+    {
+      "path": "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\kernel\\rtlil.h",
+      "bytes": 117852,
+      "sha256": "3f72b6ddab8c00c0668699a56cce9ae8f6c5c3d9b2661d5db604d1d00d9d9666"
+    },
+    {
+      "path": "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\kernel\\satgen.h",
+      "bytes": 10728,
+      "sha256": "17b25ad49fcdd1cad5cea981503a6fae48d21191c8879b6db4bb82a853182299"
+    },
+    {
+      "path": "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\kernel\\scopeinfo.h",
+      "bytes": 11786,
+      "sha256": "aa983fe1cc6e45c36ddc6af402f5d5b5849c69e91ae13b29b9d02b0c0c8b410d"
+    },
+    {
+      "path": "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\kernel\\sexpr.h",
+      "bytes": 4720,
+      "sha256": "0940ca15e855a0699a9180582e910a52d94cd03777a08e93356fdc2b3faa7b48"
+    },
+    {
+      "path": "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\kernel\\sigtools.h",
+      "bytes": 10652,
+      "sha256": "e6cd6a91e1a3576a5bc2b59135a3606b2f2a1df2b393b4e02b58d033e0b60dca"
+    },
+    {
+      "path": "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\kernel\\threading.h",
+      "bytes": 25799,
+      "sha256": "e438cd16a2d25f3b9621fcfd0c22879500ef2f5ade73003d8cd00cf051f46a88"
+    },
+    {
+      "path": "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\kernel\\timinginfo.h",
+      "bytes": 7207,
+      "sha256": "ddaead125f4e809f56b2e3710e6da2838e267375609f1dba89cf89e114d65a28"
+    },
+    {
+      "path": "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\kernel\\unused_bits.h",
+      "bytes": 1064,
+      "sha256": "958131762610537e1ebcdbb354d43493b413f595ebf04c6171dfa974fc4e173d"
+    },
+    {
+      "path": "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\kernel\\utils.h",
+      "bytes": 8815,
+      "sha256": "effe4f12fe418267470870da3a89fa67f565df46ac38f189c3e213a9256dc4a0"
+    },
+    {
+      "path": "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\kernel\\yosys.h",
+      "bytes": 3559,
+      "sha256": "9942f081175551ee5cd05df864c1333636e08e1c394526b133e1c279b0ab399f"
+    },
+    {
+      "path": "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\kernel\\yosys_common.h",
+      "bytes": 8776,
+      "sha256": "516e44a426ac30edd92438eb3166423ee1ae093bd9b19d0de09673627c9adc69"
+    },
+    {
+      "path": "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\kernel\\yosys_config.h",
+      "bytes": 565,
+      "sha256": "14cedc9cfea3a22f9238974f081d049f1c3c55dff6a69dc280432942c426d532"
+    },
+    {
+      "path": "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\kernel\\yw.h",
+      "bytes": 5470,
+      "sha256": "1abe73a8135448a5ce2a1770eed97df8a702899837c4570af4cb23ecb31ac1d2"
+    },
+    {
+      "path": "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\libs\\ezsat\\ezcmdline.h",
+      "bytes": 1240,
+      "sha256": "17b7cc8ea513d75613a01a970388a480f5996d8b09dbfd1fd65922bb80d01bbd"
+    },
+    {
+      "path": "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\libs\\ezsat\\ezminisat.h",
+      "bytes": 2098,
+      "sha256": "6d2ac32fa5518a7a577542e847c3fd950693d43cb89001197d370a8d128e7638"
+    },
+    {
+      "path": "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\libs\\ezsat\\ezsat.h",
+      "bytes": 14955,
+      "sha256": "f75718aa34461e178089a26bfeb1e342eea7a07b631f0e64408149c31721c193"
+    },
+    {
+      "path": "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\libs\\sha1\\sha1.h",
+      "bytes": 1382,
+      "sha256": "fc18584559e2293010622f0a6414e883a3e9930c0931258a5418299f2921c82b"
+    },
+    {
+      "path": "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\passes\\fsm\\fsmdata.h",
+      "bytes": 5855,
+      "sha256": "13d825e5d9c87b20667d5e083ca9a7f51c276d5357002a8f520b87c9c546d295"
+    },
+    {
+      "path": "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\passes\\techmap\\libparse.h",
+      "bytes": 10430,
+      "sha256": "ec7907c85d833127ebfe031a365340f828558a11942b1c118c036a96e214e0bd"
+    }
+  ]
+}

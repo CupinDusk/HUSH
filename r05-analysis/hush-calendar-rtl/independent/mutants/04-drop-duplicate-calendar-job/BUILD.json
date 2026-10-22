@@ -1,0 +1,55 @@
+{
+  "name": "drop-duplicate-calendar-job",
+  "input_sha256": "08fc647ddadef018a806cf32ff6b2d29b220f4f4f8bbd6b2c6723c85e4bfea53",
+  "oracle_sha256": "ff9084d68d48cb4d40fa45dd03a4a26170a463a9b90053812ae94ba21bee0e02",
+  "commands": [
+    {
+      "stage": "synthesis",
+      "argv": [
+        "<BUNDLED_RUNTIME>\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "<WORKSPACE>\\.tools\\run_iscas_yosys.py",
+        "-p",
+        "read_verilog receiver.v; hierarchy -check -top receiver; prep -top receiver; check -assert; write_cxxrtl netlist.cpp"
+      ],
+      "returncode": 0
+    },
+    {
+      "stage": "compile",
+      "argv": [
+        "<WORKSPACE>\\.tools\\zig-0.14.1\\zig-x86_64-windows-0.14.1\\zig.exe",
+        "c++",
+        "-std=c++17",
+        "-O3",
+        "-UNDEBUG",
+        "-I",
+        "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include",
+        "-I",
+        "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\backends\\cxxrtl\\runtime",
+        "-I",
+        "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\mutants\\04-drop-duplicate-calendar-job",
+        "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\independent.cpp",
+        "-o",
+        "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\mutants\\04-drop-duplicate-calendar-job\\check.exe"
+      ],
+      "returncode": 0
+    },
+    {
+      "stage": "execution",
+      "argv": [
+        "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\mutants\\04-drop-duplicate-calendar-job\\check.exe",
+        "control",
+        "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\mutants\\04-drop-duplicate-calendar-job"
+      ],
+      "returncode": 1
+    }
+  ],
+  "first_detection": "control case=4 mode=-1 t=0 state[5] got=2 expected=3",
+  "generated_sha256": {
+    "netlist.cpp": "e300294dbfa1dd5d9510415926519c18f83d7dd409c02175e2a24a01ec6e35f0",
+    "check.exe": "0a547b913c3b6d26fd0cfff2da7e834534b86f4643487d8faf65042644347ecd"
+  },
+  "status": "DETECTED_BY_INDEPENDENT_ORACLE_AFTER_ACTUAL_COMPILE_EXECUTION"
+}

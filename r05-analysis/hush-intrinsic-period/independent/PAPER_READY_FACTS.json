@@ -1,0 +1,179 @@
+{
+  "status": "PASS_WITH_STATED_SCOPE",
+  "role": "AUTHOR_SIDE_INDEPENDENT_MATHEMATICAL_AND_ENCODING_AUDIT",
+  "theorem": {
+    "statement": "Canonical reset/span translation iff exact H period; primitive decorated gap word gives fundamental e; checked exact lift yields recurrent h=gcd(P,e) and physical (K-1)P, unchanged prefixes.",
+    "mandatory_conditions": [
+      "Nonempty canonical unit-slope integer profile",
+      "Exact residue AND span translation/lift checked from source profile",
+      "Trusted expected expanded-profile and four-binding registry",
+      "Valid initialization and unchanged physical prefix/epoch semantics"
+    ],
+    "optimality": "Minimum pair count only among exact period lifts of same H"
+  },
+  "census": {
+    "raw_assignments": 19524,
+    "divisor_profile_checks": 70916,
+    "physical_slacks": 4247436,
+    "semantic_sha256": "4932a5b1562d163394dd60e004e617ecfa449a532b4f858d8e76090c4330ea2f"
+  },
+  "original_census": {
+    "controllers": 40,
+    "lines": 80,
+    "reduced_lines": 11,
+    "unchanged_lines": 69,
+    "pairs_before": 961,
+    "pairs_after": 950,
+    "full_bytes_before": 36560,
+    "period_bytes_after": 39584,
+    "all_controllers_larger": true,
+    "old_portfolio_bytes": 33424,
+    "adaptive_full_fallback_bytes": 36560,
+    "per_line_slacks": 74000,
+    "complete_slacks": 37000,
+    "added_metadata_bytes": 3200,
+    "saved_pair_bytes": 176,
+    "net_byte_increase": 3024
+  },
+  "size_family": {
+    "cases": [
+      {
+        "p": 16,
+        "d": 528,
+        "e": 33,
+        "full_pairs": 16,
+        "reduced_pairs": 1,
+        "baseline_bytes": 488,
+        "period_bytes": 288,
+        "full_sha256": "4a74c67928791e6a10f9a50e585b57aa3c2a75178d3389f3b8c43d5dcfcaf4c6",
+        "period_sha256": "38e4645a44cb6ad4fe3492c6c30a55d55bc5b7cc8c974ec2a18e1217b1810ba8"
+      },
+      {
+        "p": 32,
+        "d": 2080,
+        "e": 65,
+        "full_pairs": 32,
+        "reduced_pairs": 1,
+        "baseline_bytes": 744,
+        "period_bytes": 288,
+        "full_sha256": "c627981aad5d915e2a2465f244e698b50bd37b465d092337945291c8b764c2f5",
+        "period_sha256": "57318889e065d9e97d12f721b7475eb32b97f1bd5f42563ec1ac3f74b3c4d5dc"
+      },
+      {
+        "p": 64,
+        "d": 8256,
+        "e": 129,
+        "full_pairs": 64,
+        "reduced_pairs": 1,
+        "baseline_bytes": 1256,
+        "period_bytes": 288,
+        "full_sha256": "abcedfe81aaa487525e1c17646c6982ca36e5e972541a762979fa6ae8c94a987",
+        "period_sha256": "9d5fccb2b120bf286b39cd36d87fa156f5dd732cb15c394a97541d96a1ea470d"
+      },
+      {
+        "p": 128,
+        "d": 32896,
+        "e": 257,
+        "full_pairs": 128,
+        "reduced_pairs": 1,
+        "baseline_bytes": 2280,
+        "period_bytes": 288,
+        "full_sha256": "decfbb6d2ba62f4927194b3b664fd02c6038ed8b68d8782c6959047ade21705d",
+        "period_sha256": "ea7fdcdd467df3cd146fbb549d5dd34cf4cfa41a2409088973aeb6d626003cde"
+      },
+      {
+        "p": 256,
+        "d": 131328,
+        "e": 513,
+        "full_pairs": 256,
+        "reduced_pairs": 1,
+        "baseline_bytes": 4328,
+        "period_bytes": 288,
+        "full_sha256": "c983be4d931a9ebbf70dff2af905e4d4c5356c43a2310ce74cd047f56aab8472",
+        "period_sha256": "a689f999f3708794b89c94c07585978c3443720df7d9d538c201bfeea1d96f5f"
+      },
+      {
+        "p": 512,
+        "d": 524800,
+        "e": 1025,
+        "full_pairs": 512,
+        "reduced_pairs": 1,
+        "baseline_bytes": 8424,
+        "period_bytes": 288,
+        "full_sha256": "6e5d524730eecd0cd5120a183e579d3c3e006dbd6ee79174f6379b2732676503",
+        "period_sha256": "88987fba6a418a11c61b266bb43beb9aa95d379830b4536edb9393b2a08649dc"
+      },
+      {
+        "p": 1024,
+        "d": 2098176,
+        "e": 2049,
+        "full_pairs": 1024,
+        "reduced_pairs": 1,
+        "baseline_bytes": 16616,
+        "period_bytes": 288,
+        "full_sha256": "2bfd15ef0df89b31c65b04e9150643a76bd0d2899d10bc26724608b33a0dec6c",
+        "period_sha256": "262bdb65e6bf99cd012a10cdb5767eea1d9be46646f35e5a5bce4c1ab8e40049"
+      }
+    ],
+    "all_phases": 2798064,
+    "sampled_physical_slacks": 378,
+    "one_line_baseline_magic": "HUFULL05",
+    "period_record_magic": "HUPERD05",
+    "previous_simple_header_bytes": 32,
+    "previous_simple_period_bytes": 48,
+    "favorable_size_result_does_not_replace_original_regressions": true
+  },
+  "codec": {
+    "valid_artifacts": 54,
+    "rejected_targeted_mutants": 2762,
+    "matching_forged_registry_acceptance_controls": 47,
+    "trust_requirement": "Digest plus untrusted registry is not source authentication",
+    "normal_python_only": true
+  },
+  "actual_named_mutant_branches": 4,
+  "source_receipts": {
+    "status": "PASS",
+    "old_input_count": 82,
+    "size_input_count": 9,
+    "first_source_sha256": "b9afea4d053c6da441296f51e35b58a8cff957a8d657603776cfa77d78673f2e",
+    "current_source_sha256": "208978c36876e32ae2ee64a4a29310d5422b690bb2928af026a4c825b2e05fae",
+    "current_protocol_sha256": "79ed15115133f71dc6b538e2573064d5ac7780424e18bec4936c50267228e403",
+    "first_protocol_sha256": "78593ddc6f3abdc9f5952af5b96d3802797357b584f3c1d203aca4b0b9fcd709",
+    "preparse_protocol_sha256": "78593ddc6f3abdc9f5952af5b96d3802797357b584f3c1d203aca4b0b9fcd709",
+    "size_preparse_protocol_sha256": "79ed15115133f71dc6b538e2573064d5ac7780424e18bec4936c50267228e403",
+    "preserved_syntax_failure": {
+      "type": "SyntaxError",
+      "line": 158,
+      "message": "keyword argument repeated: mutant"
+    },
+    "first_source_recovered_by_only_three_renames": true,
+    "protocol_hash_changes_preserved_not_retroactively_equated": true
+  },
+  "primary_sources": [
+    {
+      "title": "Knuth, Morris, Pratt (1977), Fast Pattern Matching in Strings",
+      "url": "https://epubs.siam.org/doi/10.1137/0206024",
+      "use": "Standard string period/prefix-function computation; no new generic algorithm claimed."
+    },
+    {
+      "title": "Zippo and Stea (2023), Computationally Efficient Worst-Case Analysis of Flow-Controlled Networks With Network Calculus",
+      "url": "https://arxiv.org/pdf/2203.02497",
+      "doi": "10.1109/TIT.2023.3244276",
+      "locations": "Section IV-A1 Definition 5 and Lemma 1, printed p2673; Appendix B Theorem 9",
+      "use": "Prior periodic-function representation minimization by repeated breakpoint parts and period-multiple structure; scope differs from integer cyclic observer."
+    }
+  ],
+  "prohibited_inferences": [
+    "New posthoc conditional extension. Original fixed-modulus and nondivisor results remain intact.",
+    "19,524 counts nonempty raw assignments, not distinct canonical functions.",
+    "Mathematical identity applies to any positive integer P and K under checked exact lift; finite checks do not prove universal quantifiers.",
+    "Minimum pair count is confined to the exact period-lift family for the same exact H, not arbitrary encodings or sign-only queries.",
+    "Expanded-profile digest is not self-authenticating; trusted registry and actual source-period proof remain necessary.",
+    "Source triples/profile lift are checked for declared exact relations; native source closure/refinement and hardware behavior are not established.",
+    "Initialization/capture/cycle-entry, physical prefixes and epoch obligations are retained, not derived from the compressed record.",
+    "Actual decoder probes are targeted normal-Python checks; assert-based guards are not optimized-Python hardening.",
+    "Large size-family phases use independent reset-event envelope sweep with a mathematical equal-span proof, not p-term brute minimum at every phase.",
+    "Four actual mutant branches are witnessed; no generic mutation coverage claimed.",
+    "No generic novelty claim for period minimization/KMP, and no hardware, memory, runtime, application or performance claim."
+  ]
+}

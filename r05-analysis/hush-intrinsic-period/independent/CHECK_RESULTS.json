@@ -1,0 +1,48 @@
+{
+  "status": "PASS_INDEPENDENT_EXACT_MODEL_AUDIT",
+  "small": {
+    "target_divisor_profiles": 70916,
+    "physical_policy_slacks": 4247436,
+    "profiles": 19524,
+    "reduced_profiles": 1012,
+    "original_pairs": 55532,
+    "period_reduced_pairs": 54103
+  },
+  "old": {
+    "lines": 80,
+    "reduced_lines": 11,
+    "full_pairs": 961,
+    "new_pairs": 950,
+    "per_line_slacks": 74000,
+    "complete_policy_slacks": 37000,
+    "old_full_bytes": 36560,
+    "old_portfolio_bytes": 33424,
+    "new_bytes": 39584,
+    "net_smaller_than_full_cases": 0,
+    "net_equal_full_cases": 0,
+    "net_larger_than_full_cases": 40
+  },
+  "size": {
+    "original_phases_checked": 2798064,
+    "physical_sample_slacks": 378
+  },
+  "actual_mutant_branches": 4,
+  "source_receipt": {
+    "status": "PASS",
+    "old_input_count": 82,
+    "size_input_count": 9,
+    "first_source_sha256": "b9afea4d053c6da441296f51e35b58a8cff957a8d657603776cfa77d78673f2e",
+    "current_source_sha256": "208978c36876e32ae2ee64a4a29310d5422b690bb2928af026a4c825b2e05fae",
+    "current_protocol_sha256": "79ed15115133f71dc6b538e2573064d5ac7780424e18bec4936c50267228e403",
+    "first_protocol_sha256": "78593ddc6f3abdc9f5952af5b96d3802797357b584f3c1d203aca4b0b9fcd709",
+    "preparse_protocol_sha256": "78593ddc6f3abdc9f5952af5b96d3802797357b584f3c1d203aca4b0b9fcd709",
+    "size_preparse_protocol_sha256": "79ed15115133f71dc6b538e2573064d5ac7780424e18bec4936c50267228e403",
+    "preserved_syntax_failure": {
+      "type": "SyntaxError",
+      "line": 158,
+      "message": "keyword argument repeated: mutant"
+    },
+    "first_source_recovered_by_only_three_renames": true,
+    "protocol_hash_changes_preserved_not_retroactively_equated": true
+  }
+}

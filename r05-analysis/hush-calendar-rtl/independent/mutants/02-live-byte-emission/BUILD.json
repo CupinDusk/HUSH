@@ -1,0 +1,55 @@
+{
+  "name": "live-byte-emission",
+  "input_sha256": "98ffc1930683750b753bfc95fb01601efa044d07298d5674ef1ea27ff979df93",
+  "oracle_sha256": "ff9084d68d48cb4d40fa45dd03a4a26170a463a9b90053812ae94ba21bee0e02",
+  "commands": [
+    {
+      "stage": "synthesis",
+      "argv": [
+        "<BUNDLED_RUNTIME>\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "<WORKSPACE>\\.tools\\run_iscas_yosys.py",
+        "-p",
+        "read_verilog receiver.v; hierarchy -check -top receiver; prep -top receiver; check -assert; write_cxxrtl netlist.cpp"
+      ],
+      "returncode": 0
+    },
+    {
+      "stage": "compile",
+      "argv": [
+        "<WORKSPACE>\\.tools\\zig-0.14.1\\zig-x86_64-windows-0.14.1\\zig.exe",
+        "c++",
+        "-std=c++17",
+        "-O3",
+        "-UNDEBUG",
+        "-I",
+        "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include",
+        "-I",
+        "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\backends\\cxxrtl\\runtime",
+        "-I",
+        "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\mutants\\02-live-byte-emission",
+        "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\independent.cpp",
+        "-o",
+        "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\mutants\\02-live-byte-emission\\check.exe"
+      ],
+      "returncode": 0
+    },
+    {
+      "stage": "execution",
+      "argv": [
+        "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\mutants\\02-live-byte-emission\\check.exe",
+        "control",
+        "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\mutants\\02-live-byte-emission"
+      ],
+      "returncode": 1
+    }
+  ],
+  "first_detection": "control case=0 mode=1 t=1 event[18] got=255 expected=0",
+  "generated_sha256": {
+    "netlist.cpp": "3599bfbd4c2aa442cb009e18bd37784a92026c4c73ac0da5c471549e76b1bd34",
+    "check.exe": "d2434e1b9240b59ac4cf6507ece2e0e1dbf92df0e14ed0cbf39eac69d1d19900"
+  },
+  "status": "DETECTED_BY_INDEPENDENT_ORACLE_AFTER_ACTUAL_COMPILE_EXECUTION"
+}

@@ -1,0 +1,112 @@
+{
+  "status": "EXACT_WITHIN_TICK_PEAKS_DERIVED_FROM_ACTUAL_RAW_TRANSCRIPTS",
+  "original_maxima_are": "after-tick samples; retained unchanged",
+  "formula": "FIFO peak=after qlen+successful grant; line outstanding peak=after line count+callback token for that owner. Enqueue precedes both; callback is last.",
+  "policy_maxima_by_case": {
+    "0": [
+      2,
+      3,
+      1,
+      1,
+      1,
+      1
+    ],
+    "1": [
+      2,
+      4,
+      1,
+      1,
+      1,
+      1
+    ],
+    "2": [
+      3,
+      4,
+      1,
+      1,
+      1,
+      1
+    ],
+    "3": [
+      3,
+      4,
+      1,
+      1,
+      1,
+      1
+    ],
+    "4": [
+      7,
+      7,
+      2,
+      2,
+      2,
+      2
+    ],
+    "5": [
+      3,
+      4,
+      1,
+      1,
+      1,
+      1
+    ],
+    "6": [
+      3,
+      4,
+      1,
+      1,
+      1,
+      1
+    ],
+    "7": [
+      5,
+      5,
+      1,
+      1,
+      1,
+      2
+    ],
+    "8": [
+      4,
+      4,
+      1,
+      1,
+      1,
+      1
+    ],
+    "9": [
+      4,
+      4,
+      1,
+      1,
+      1,
+      1
+    ],
+    "10": [
+      5,
+      5,
+      1,
+      1,
+      1,
+      2
+    ],
+    "11": [
+      5,
+      5,
+      1,
+      1,
+      1,
+      2
+    ]
+  },
+  "fields": [
+    "peakFIFO",
+    "peakGlobal",
+    "peakLine0",
+    "peakLine1",
+    "peakLine2",
+    "peakLine3"
+  ],
+  "scope": "Producer derived, not independent checker."
+}

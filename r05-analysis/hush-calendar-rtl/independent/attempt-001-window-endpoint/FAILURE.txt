@@ -1,0 +1,1 @@
+FAIL: stronger two-translation crossing-edge endpoint check. Producer 4F window for p7/r7 ends t223; edge (91,92,119)+112 requires h231. Original trace remains unchanged. Independent 5F sidecar will extend validation.

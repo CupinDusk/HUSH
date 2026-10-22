@@ -1,0 +1,59 @@
+{
+  "status": "FAILED_compile",
+  "tool_hashes": {
+    "zig": "1ddf230367e07738c4a769eae66c1db7469e37bd520e81c86356453d0db2b9fd",
+    "yosys_wrapper": "30a9a408af8d9b5f2df60b6c961db42a1a0c861ad9fbdb90bd727fb1142d3ff9"
+  },
+  "input_sha256": {
+    "receiver.v": "3b7b1ff0a74a82d8816fa710cc4f138c32961f8e481f5a98333f9e6062c3cc9a",
+    "driver.cpp": "dd84f71e7d300235189b6ce68bb68f3d5b5d3f28cba85f4c6a4155836e4a9876",
+    "PROTOCOL.json": "e88e4823e4121f7405db0d513b9bdb77b957c0cb9877c836f0ee199e4eee40af",
+    "run_build.py": "a82ee8ec02168771843a2d1904a7fb67f20f5f19e6ab69e3717d8c1944bd2c56"
+  },
+  "commands": [
+    {
+      "name": "yosys_version",
+      "argv": [
+        "<BUNDLED_RUNTIME>\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "<WORKSPACE>\\.tools\\run_iscas_yosys.py",
+        "-V"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "synthesis",
+      "argv": [
+        "<BUNDLED_RUNTIME>\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "<WORKSPACE>\\.tools\\run_iscas_yosys.py",
+        "-p",
+        "read_verilog receiver.v; hierarchy -check -top receiver; prep -top receiver; check -assert; write_cxxrtl netlist.cpp"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "compile",
+      "argv": [
+        "<WORKSPACE>\\.tools\\zig-0.14.1\\zig-x86_64-windows-0.14.1\\zig.exe",
+        "c++",
+        "-std=c++17",
+        "-O3",
+        "-UNDEBUG",
+        "-I",
+        "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include",
+        "-I",
+        "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\backends\\cxxrtl\\runtime",
+        "driver.cpp",
+        "-o",
+        "simulate.exe"
+      ],
+      "returncode": 1
+    }
+  ],
+  "scope": "Build durations are not measured or used as performance evidence."
+}

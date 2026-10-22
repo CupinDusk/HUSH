@@ -1,0 +1,816 @@
+{
+  "status": "PRODUCER_EVIDENCE_INVENTORY_PENDING_INDEPENDENT_GATE",
+  "files": [
+    {
+      "path": "AMENDMENT_01_PRE_EXECUTION.md",
+      "bytes": 1551,
+      "sha256": "83e8b1a23f928851f96c7bf766fa14c25802415c4509cb284e426fcd11a542c0"
+    },
+    {
+      "path": "AMENDMENT_02_FULL_KEY_EXTENSION.md",
+      "bytes": 2254,
+      "sha256": "7a2ade2d290a739d2a9611f4843b66cf4e5fd424c88d28904b2067cfa2739fe4"
+    },
+    {
+      "path": "analysis-01\\ALL_PHASES.jsonl.gz",
+      "bytes": 128307,
+      "sha256": "28aa1e635c507bb234ae2141b3581e94f20962dda013b6505813c38cf81da36f"
+    },
+    {
+      "path": "analysis-01\\ORIGINAL_EMPTY_FRAME_GRID_RESULTS.json",
+      "bytes": 663,
+      "sha256": "dad52009864b6c71779f470800e8dbd10edd593cb2e8cd7d1c0c004285778eff"
+    },
+    {
+      "path": "analysis-01\\policies.txt",
+      "bytes": 6700504,
+      "sha256": "e3e237a7e306a76bb6c1b0e63a4c0c32bc8a44cbed8dec9c3352dd9ff754ef76"
+    },
+    {
+      "path": "analysis-01\\POLICY_INITIALIZATION.csv",
+      "bytes": 5479309,
+      "sha256": "d2756125bb199d3ce1d1699ad9e9af3d2e3c514cb19bcbf50afdfd3a1d16be8f"
+    },
+    {
+      "path": "analysis-01\\PRECOMPUTATION_BINDING.json",
+      "bytes": 1052,
+      "sha256": "899e1981915320d859198be400143132244ae5977b8d78451527542a3df47d9f"
+    },
+    {
+      "path": "analysis-01\\RELATIONS.json",
+      "bytes": 40065,
+      "sha256": "22359dbea61c06af257ecb11d4d0163f3305279e0cfb763ca7012360494cd4cb"
+    },
+    {
+      "path": "analysis-01\\RESULTS.json",
+      "bytes": 797,
+      "sha256": "dc7104670a6895d74b2b55cd97eaca291fa74c8cb159dcfb17a0b390936b1c46"
+    },
+    {
+      "path": "analysis-01\\TUNING.json",
+      "bytes": 50971,
+      "sha256": "edc18afb9cff5ac8e7913209c6064bbdeca578d5d6c93bbebee15b5f74beacb9"
+    },
+    {
+      "path": "analyze.py",
+      "bytes": 9896,
+      "sha256": "0fa523c69f0c4b553bab0dffe8f11a6163c8ceb3a23676a44af392d59807945b"
+    },
+    {
+      "path": "AUDIT_READY_FACTS.md",
+      "bytes": 3064,
+      "sha256": "3647c6bc23b903512ef69613c9fae26f5d8413ff8f3d0f1018568876466fde91"
+    },
+    {
+      "path": "build-01\\BUILD.json",
+      "bytes": 2189,
+      "sha256": "d8e4cd715ba753f1ff0542f412dfa1cb563ef2481cb2e5b99d19522af73c2f32"
+    },
+    {
+      "path": "build-01\\compile.stderr.log",
+      "bytes": 215403,
+      "sha256": "66186d9686ae1a3955ba4dc4536efc401daf12e6be8babb81f26cd26dba3d0b7"
+    },
+    {
+      "path": "build-01\\compile.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build-01\\driver.cpp",
+      "bytes": 9839,
+      "sha256": "dd84f71e7d300235189b6ce68bb68f3d5b5d3f28cba85f4c6a4155836e4a9876"
+    },
+    {
+      "path": "build-01\\netlist.cpp",
+      "bytes": 142742,
+      "sha256": "eca91698e6f557af1367131ba9f8754971a8627786987540d56d2f4903f2e542"
+    },
+    {
+      "path": "build-01\\PROTOCOL.json",
+      "bytes": 6946,
+      "sha256": "e88e4823e4121f7405db0d513b9bdb77b957c0cb9877c836f0ee199e4eee40af"
+    },
+    {
+      "path": "build-01\\receiver.v",
+      "bytes": 5378,
+      "sha256": "3b7b1ff0a74a82d8816fa710cc4f138c32961f8e481f5a98333f9e6062c3cc9a"
+    },
+    {
+      "path": "build-01\\run_build.py",
+      "bytes": 2530,
+      "sha256": "a82ee8ec02168771843a2d1904a7fb67f20f5f19e6ab69e3717d8c1944bd2c56"
+    },
+    {
+      "path": "build-01\\synthesis.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build-01\\synthesis.stdout.log",
+      "bytes": 111623,
+      "sha256": "a22410eb6d9d53dbf04aacae4493b7bc877cf5ed67a11f1a674a74b831b30f33"
+    },
+    {
+      "path": "build-01\\yosys_version.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build-01\\yosys_version.stdout.log",
+      "bytes": 138,
+      "sha256": "38a532d8df1ce48a5f73839ee4209517c168ea959ffd07c7b793f315a016430c"
+    },
+    {
+      "path": "build-02\\AMENDMENT_01_PRE_EXECUTION.md",
+      "bytes": 1551,
+      "sha256": "83e8b1a23f928851f96c7bf766fa14c25802415c4509cb284e426fcd11a542c0"
+    },
+    {
+      "path": "build-02\\BUILD.json",
+      "bytes": 2615,
+      "sha256": "214bdfb34c8c7300681b44727a006f17147ab655225bcc700cb27a8c58f77141"
+    },
+    {
+      "path": "build-02\\compile.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build-02\\compile.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build-02\\CONTROL_TICKS.csv",
+      "bytes": 853757,
+      "sha256": "d3fa6f7f70509f5ed75b50550be83b29b7fdf988c408a005457db72004644e16"
+    },
+    {
+      "path": "build-02\\DATA_TICKS.csv",
+      "bytes": 2846507,
+      "sha256": "2f86adc94bf58eb194c6d81bce0bea654d5543ef42d0201bbdb9aebbae7e633a"
+    },
+    {
+      "path": "build-02\\driver.cpp",
+      "bytes": 9933,
+      "sha256": "0ca4e14a8aaf067acc9e2d7409b2bfda01e793e98f5cb055826037a49bc634d3"
+    },
+    {
+      "path": "build-02\\execution.stderr.log",
+      "bytes": 55,
+      "sha256": "f2e901003d72d915591fc682bd1e13c20d2e7ac1a6394eab42826a35e1b72c59"
+    },
+    {
+      "path": "build-02\\execution.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build-02\\FAILURE.txt",
+      "bytes": 55,
+      "sha256": "f2e901003d72d915591fc682bd1e13c20d2e7ac1a6394eab42826a35e1b72c59"
+    },
+    {
+      "path": "build-02\\netlist.cpp",
+      "bytes": 166425,
+      "sha256": "cc39f1a1ffa5629a697a01e077ccee012d3e31541743a6e837e3020ea6780ec6"
+    },
+    {
+      "path": "build-02\\PROTOCOL.json",
+      "bytes": 6946,
+      "sha256": "e88e4823e4121f7405db0d513b9bdb77b957c0cb9877c836f0ee199e4eee40af"
+    },
+    {
+      "path": "build-02\\receiver.v",
+      "bytes": 5788,
+      "sha256": "a787f08e1ed0f4e284d11f436f371632358c85fcedcc00586394d8967a69e987"
+    },
+    {
+      "path": "build-02\\run_build.py",
+      "bytes": 2562,
+      "sha256": "dc6978accd99c1dbd634ee01b3c158c7cb750b57a2a45f91c54e578d8fc53bed"
+    },
+    {
+      "path": "build-02\\RUN_COUNTERS.csv",
+      "bytes": 2207,
+      "sha256": "1ab5ef5eb2d41178a15509174659310fcaa2cecfa1d8257c031c6efbd7aa2b06"
+    },
+    {
+      "path": "build-02\\simulate.exe",
+      "bytes": 899584,
+      "sha256": "a4a08ac2ba96afa9d59fe8606482c2e54eca5c8e6f9ed017a9500bb4bc1661c0"
+    },
+    {
+      "path": "build-02\\simulate.pdb",
+      "bytes": 7143424,
+      "sha256": "63f8798b6fc045a3e5ccc92f4d9b7fb9159d214271f211628b96c80b5682374c"
+    },
+    {
+      "path": "build-02\\synthesis.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build-02\\synthesis.stdout.log",
+      "bytes": 132636,
+      "sha256": "f006de6f3036fdd008a557c2a29f33c018faa61c8c412d9c7eb19de707fc038a"
+    },
+    {
+      "path": "build-02\\yosys_version.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build-02\\yosys_version.stdout.log",
+      "bytes": 138,
+      "sha256": "38a532d8df1ce48a5f73839ee4209517c168ea959ffd07c7b793f315a016430c"
+    },
+    {
+      "path": "build-03\\AMENDMENT_01_PRE_EXECUTION.md",
+      "bytes": 1551,
+      "sha256": "83e8b1a23f928851f96c7bf766fa14c25802415c4509cb284e426fcd11a542c0"
+    },
+    {
+      "path": "build-03\\BUILD.json",
+      "bytes": 2828,
+      "sha256": "3de156d8e4cbc1281346531e36a213af8acd4d69b8cbe383f8455023d78c60a2"
+    },
+    {
+      "path": "build-03\\compile.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build-03\\compile.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build-03\\CONTROL_TICKS.csv",
+      "bytes": 2912630,
+      "sha256": "cb6de8f26384ef37d8e0035ea4557e4591a6d2fe3140dfce3238294e5699b487"
+    },
+    {
+      "path": "build-03\\DATA_TICKS.csv",
+      "bytes": 10249533,
+      "sha256": "030d58fbfa035e542695161f804ad41f6d7a5c0623122a8cc7184e55347c0873"
+    },
+    {
+      "path": "build-03\\driver.cpp",
+      "bytes": 9925,
+      "sha256": "a6b29ca06350b430ecb360b82065edb72df0a42835796d6e2a88829349e57f97"
+    },
+    {
+      "path": "build-03\\execution.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build-03\\execution.stdout.log",
+      "bytes": 74,
+      "sha256": "4e962e744c91fe414f6f5f884317cfa8ca57d5a4621ad96fd46245d19e5e99ec"
+    },
+    {
+      "path": "build-03\\netlist.cpp",
+      "bytes": 166425,
+      "sha256": "cc39f1a1ffa5629a697a01e077ccee012d3e31541743a6e837e3020ea6780ec6"
+    },
+    {
+      "path": "build-03\\PROTOCOL.json",
+      "bytes": 6946,
+      "sha256": "e88e4823e4121f7405db0d513b9bdb77b957c0cb9877c836f0ee199e4eee40af"
+    },
+    {
+      "path": "build-03\\receiver.v",
+      "bytes": 5788,
+      "sha256": "a787f08e1ed0f4e284d11f436f371632358c85fcedcc00586394d8967a69e987"
+    },
+    {
+      "path": "build-03\\run_build.py",
+      "bytes": 2562,
+      "sha256": "dc6978accd99c1dbd634ee01b3c158c7cb750b57a2a45f91c54e578d8fc53bed"
+    },
+    {
+      "path": "build-03\\RUN_COUNTERS.csv",
+      "bytes": 3695,
+      "sha256": "63ba78b48cce0a1b55e1e40dcb661c9317c5126b62c0cd499cfc8961dc4c2d95"
+    },
+    {
+      "path": "build-03\\simulate.exe",
+      "bytes": 899584,
+      "sha256": "1f055a3b2d855941cbdb076e5c73a3c0071eacf6ea5d6d88642930ea77a87109"
+    },
+    {
+      "path": "build-03\\simulate.pdb",
+      "bytes": 7143424,
+      "sha256": "ec09badf370f4bc3477f2cc8f335d1fba08052f16011243a2be88cd2f20df84a"
+    },
+    {
+      "path": "build-03\\synthesis.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build-03\\synthesis.stdout.log",
+      "bytes": 132636,
+      "sha256": "be3a9e5891ecfe8c5c6b7a33aa2d152734eca905cb877c99b22bdbcdb2aa76e3"
+    },
+    {
+      "path": "build-03\\yosys_version.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build-03\\yosys_version.stdout.log",
+      "bytes": 138,
+      "sha256": "38a532d8df1ce48a5f73839ee4209517c168ea959ffd07c7b793f315a016430c"
+    },
+    {
+      "path": "build-04\\AMENDMENT_01_PRE_EXECUTION.md",
+      "bytes": 1551,
+      "sha256": "83e8b1a23f928851f96c7bf766fa14c25802415c4509cb284e426fcd11a542c0"
+    },
+    {
+      "path": "build-04\\BUILD.json",
+      "bytes": 2828,
+      "sha256": "654ccee2a858d5f148d92bc7aaefad98c728a6b3b6ffd2aead8e82e38361da3d"
+    },
+    {
+      "path": "build-04\\compile.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build-04\\compile.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build-04\\CONTROL_TICKS.csv",
+      "bytes": 3907062,
+      "sha256": "02cf468a53f3a35626692f0cfb94db93bf1a27fb9f81a6aeaa59f3cff59081c8"
+    },
+    {
+      "path": "build-04\\DATA_TICKS.csv",
+      "bytes": 10249533,
+      "sha256": "030d58fbfa035e542695161f804ad41f6d7a5c0623122a8cc7184e55347c0873"
+    },
+    {
+      "path": "build-04\\driver.cpp",
+      "bytes": 10568,
+      "sha256": "e76f96933561a31e1c6e7544f480eb91a393833d22c2d4ee59fbc4d8d2781004"
+    },
+    {
+      "path": "build-04\\execution.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build-04\\execution.stdout.log",
+      "bytes": 74,
+      "sha256": "4e962e744c91fe414f6f5f884317cfa8ca57d5a4621ad96fd46245d19e5e99ec"
+    },
+    {
+      "path": "build-04\\netlist.cpp",
+      "bytes": 166425,
+      "sha256": "cc39f1a1ffa5629a697a01e077ccee012d3e31541743a6e837e3020ea6780ec6"
+    },
+    {
+      "path": "build-04\\PRODUCER_TRANSITION_CHECK.json",
+      "bytes": 608,
+      "sha256": "d3aacbe14b72d90bc57354e5ee5a671629049b46fb53cb47d509fe7fba27f87d"
+    },
+    {
+      "path": "build-04\\PROTOCOL.json",
+      "bytes": 6946,
+      "sha256": "e88e4823e4121f7405db0d513b9bdb77b957c0cb9877c836f0ee199e4eee40af"
+    },
+    {
+      "path": "build-04\\receiver.v",
+      "bytes": 5788,
+      "sha256": "a787f08e1ed0f4e284d11f436f371632358c85fcedcc00586394d8967a69e987"
+    },
+    {
+      "path": "build-04\\run_build.py",
+      "bytes": 2562,
+      "sha256": "dc6978accd99c1dbd634ee01b3c158c7cb750b57a2a45f91c54e578d8fc53bed"
+    },
+    {
+      "path": "build-04\\RUN_COUNTERS.csv",
+      "bytes": 3697,
+      "sha256": "32a0b01a9af80c32d107debaa47a0c4ff2a3103e7b787add5ba8c6f895f5032b"
+    },
+    {
+      "path": "build-04\\simulate.exe",
+      "bytes": 903168,
+      "sha256": "38f93e731f8940b01c7c827b64ae0213b68655cfb2f82601d106969ccadab125"
+    },
+    {
+      "path": "build-04\\simulate.pdb",
+      "bytes": 7180288,
+      "sha256": "137a7f464b4847b984ddc98bbe7f03f7b9d6d6bff9f9bc7ca9c60edc13258343"
+    },
+    {
+      "path": "build-04\\synthesis.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build-04\\synthesis.stdout.log",
+      "bytes": 132636,
+      "sha256": "be3a9e5891ecfe8c5c6b7a33aa2d152734eca905cb877c99b22bdbcdb2aa76e3"
+    },
+    {
+      "path": "build-04\\yosys_version.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build-04\\yosys_version.stdout.log",
+      "bytes": 138,
+      "sha256": "38a532d8df1ce48a5f73839ee4209517c168ea959ffd07c7b793f315a016430c"
+    },
+    {
+      "path": "build-05-policy\\AMENDMENT_01_PRE_EXECUTION.md",
+      "bytes": 1551,
+      "sha256": "83e8b1a23f928851f96c7bf766fa14c25802415c4509cb284e426fcd11a542c0"
+    },
+    {
+      "path": "build-05-policy\\BUILD.json",
+      "bytes": 2988,
+      "sha256": "6eed0d66394df2540cede2a14fa9a2b989b5eba7cacfc45e820b5748c1937854"
+    },
+    {
+      "path": "build-05-policy\\compile.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build-05-policy\\compile.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build-05-policy\\driver.cpp",
+      "bytes": 10568,
+      "sha256": "e76f96933561a31e1c6e7544f480eb91a393833d22c2d4ee59fbc4d8d2781004"
+    },
+    {
+      "path": "build-05-policy\\execution.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build-05-policy\\execution.stdout.log",
+      "bytes": 49,
+      "sha256": "606f30eaa2f29163b5cb2758db7f0f1cbc945bd8b23aa1ae0942adea654395c1"
+    },
+    {
+      "path": "build-05-policy\\netlist.cpp",
+      "bytes": 166425,
+      "sha256": "cc39f1a1ffa5629a697a01e077ccee012d3e31541743a6e837e3020ea6780ec6"
+    },
+    {
+      "path": "build-05-policy\\POLICY_RESULTS.csv",
+      "bytes": 12709732,
+      "sha256": "b21694d00a345cf8dda6a29992f32fb87d548220e35dfd4c403c545ceda8f78a"
+    },
+    {
+      "path": "build-05-policy\\POLICY_TICKS.delta",
+      "bytes": 191473772,
+      "sha256": "81e302f4cf47988abe7981c64922cef37ccc0a77ab047c35adc6fe9cda93382d"
+    },
+    {
+      "path": "build-05-policy\\PRODUCER_POLICY_CHECK.json",
+      "bytes": 873,
+      "sha256": "39ed02ef02216bfc66c8fd10c5c14ac6af9d5ac5cfce27d5e53110f98952bfe8"
+    },
+    {
+      "path": "build-05-policy\\PROTOCOL.json",
+      "bytes": 6946,
+      "sha256": "e88e4823e4121f7405db0d513b9bdb77b957c0cb9877c836f0ee199e4eee40af"
+    },
+    {
+      "path": "build-05-policy\\receiver.v",
+      "bytes": 5788,
+      "sha256": "a787f08e1ed0f4e284d11f436f371632358c85fcedcc00586394d8967a69e987"
+    },
+    {
+      "path": "build-05-policy\\run_build.py",
+      "bytes": 2562,
+      "sha256": "dc6978accd99c1dbd634ee01b3c158c7cb750b57a2a45f91c54e578d8fc53bed"
+    },
+    {
+      "path": "build-05-policy\\simulate.exe",
+      "bytes": 903168,
+      "sha256": "b1da6b08bbf0af27822285af9645e7cb3d1c0744f2040714e4e999af52c5b19b"
+    },
+    {
+      "path": "build-05-policy\\simulate.pdb",
+      "bytes": 7180288,
+      "sha256": "c374f79875e9d46e1b945d65d344c5c48a51dfa7778db42000f45d85cd76acc5"
+    },
+    {
+      "path": "build-05-policy\\synthesis.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build-05-policy\\synthesis.stdout.log",
+      "bytes": 132640,
+      "sha256": "a91b7c5755cd56d9b127b2c6308cea6f4052f9edef671c63a36c61a184ef14a4"
+    },
+    {
+      "path": "build-05-policy\\yosys_version.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build-05-policy\\yosys_version.stdout.log",
+      "bytes": 138,
+      "sha256": "38a532d8df1ce48a5f73839ee4209517c168ea959ffd07c7b793f315a016430c"
+    },
+    {
+      "path": "build-06-cycle-supplement\\AMENDMENT_01_PRE_EXECUTION.md",
+      "bytes": 1551,
+      "sha256": "83e8b1a23f928851f96c7bf766fa14c25802415c4509cb284e426fcd11a542c0"
+    },
+    {
+      "path": "build-06-cycle-supplement\\AMENDMENT_02_FULL_KEY_EXTENSION.md",
+      "bytes": 2254,
+      "sha256": "7a2ade2d290a739d2a9611f4843b66cf4e5fd424c88d28904b2067cfa2739fe4"
+    },
+    {
+      "path": "build-06-cycle-supplement\\BUILD.json",
+      "bytes": 3344,
+      "sha256": "b11bab03b3e2e4500db2bf12316b0543ae1c3c6095d2d56786eb5b9fe79dadc9"
+    },
+    {
+      "path": "build-06-cycle-supplement\\compile.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build-06-cycle-supplement\\compile.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build-06-cycle-supplement\\driver.cpp",
+      "bytes": 10568,
+      "sha256": "e76f96933561a31e1c6e7544f480eb91a393833d22c2d4ee59fbc4d8d2781004"
+    },
+    {
+      "path": "build-06-cycle-supplement\\execution.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build-06-cycle-supplement\\execution.stdout.log",
+      "bytes": 47,
+      "sha256": "11eef01cea6271aea366ef2620b98cad2b1ae60418dad0cc8ea9e7def0edd8ed"
+    },
+    {
+      "path": "build-06-cycle-supplement\\netlist.cpp",
+      "bytes": 166425,
+      "sha256": "cc39f1a1ffa5629a697a01e077ccee012d3e31541743a6e837e3020ea6780ec6"
+    },
+    {
+      "path": "build-06-cycle-supplement\\POLICY_RESULTS.csv",
+      "bytes": 556336,
+      "sha256": "054fded19827b7a57b67ebbae1eb8a47bccec102d6ad316091a4f925d74a6717"
+    },
+    {
+      "path": "build-06-cycle-supplement\\POLICY_TICKS.delta",
+      "bytes": 4312616,
+      "sha256": "9f40bbd99295db605f04118831e8ff161ada8ab968eb8fbdbe2fa833313d52c7"
+    },
+    {
+      "path": "build-06-cycle-supplement\\PRODUCER_POLICY_CHECK.json",
+      "bytes": 844,
+      "sha256": "bc0d4172ecd6e1be251b2a3702fda0504e2a99501a2a7864bc1a16ea34a087df"
+    },
+    {
+      "path": "build-06-cycle-supplement\\PROTOCOL.json",
+      "bytes": 6946,
+      "sha256": "e88e4823e4121f7405db0d513b9bdb77b957c0cb9877c836f0ee199e4eee40af"
+    },
+    {
+      "path": "build-06-cycle-supplement\\receiver.v",
+      "bytes": 5788,
+      "sha256": "a787f08e1ed0f4e284d11f436f371632358c85fcedcc00586394d8967a69e987"
+    },
+    {
+      "path": "build-06-cycle-supplement\\run_build.py",
+      "bytes": 2751,
+      "sha256": "41ef7e8a79f726fa6dfa382ed340c2142f21c2dcfd301db11cbb07ee1a56fd39"
+    },
+    {
+      "path": "build-06-cycle-supplement\\simulate.exe",
+      "bytes": 903168,
+      "sha256": "784571026480267dbbf0e4dcd3e29cce44892db87d22cac5ddbc3e4cd5b67c71"
+    },
+    {
+      "path": "build-06-cycle-supplement\\simulate.pdb",
+      "bytes": 7180288,
+      "sha256": "f587c55b5c7c0d2f4bb565d359192cd57f8a074a1b055e87c15d98f78caecfb0"
+    },
+    {
+      "path": "build-06-cycle-supplement\\synthesis.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build-06-cycle-supplement\\synthesis.stdout.log",
+      "bytes": 132636,
+      "sha256": "58f09db610f995d72312f1fd7536e14b255a928063dedac2c7999f7fcd121b2a"
+    },
+    {
+      "path": "build-06-cycle-supplement\\yosys_version.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build-06-cycle-supplement\\yosys_version.stdout.log",
+      "bytes": 138,
+      "sha256": "38a532d8df1ce48a5f73839ee4209517c168ea959ffd07c7b793f315a016430c"
+    },
+    {
+      "path": "check_transitions.py",
+      "bytes": 4525,
+      "sha256": "2ff0c3c9465e617065125fb560e34ef350563d3fa27936b300c6ff166ebefe37"
+    },
+    {
+      "path": "COMPOSITION_ARGUMENT.md",
+      "bytes": 5508,
+      "sha256": "2d51d4e8f877b9afd69536b89b5b017e6f0cb666aa1c8febf9713a39e85e7ccf"
+    },
+    {
+      "path": "CORRECTION_02_PRESERVE_FRAME_FAILURE.md",
+      "bytes": 827,
+      "sha256": "947d4d1ae2a69d8166c4805f94eac73ee2f6995ab70154ca6d8a44e77d6e48e7"
+    },
+    {
+      "path": "cycle-supplement-01\\policies.txt",
+      "bytes": 278326,
+      "sha256": "7d2ad9e77ed9e7d9c1b185e5d84ac352ade9acd6a3c1d05149754c436847eae5"
+    },
+    {
+      "path": "cycle-supplement-01\\POLICY_INITIALIZATION.csv",
+      "bytes": 256477,
+      "sha256": "a0bfdd49b923d085d590f74b7f2194cf503f6c42fa3a3f33cc2fa158cfb79ef2"
+    },
+    {
+      "path": "cycle-supplement-01\\PREGENERATION_BINDING.json",
+      "bytes": 324,
+      "sha256": "bc45517ebf045918d87ab3e3c33c3960f53fabca4098d7350a1ec572ff84c5a6"
+    },
+    {
+      "path": "cycle-supplement-01\\RELATIONS.json",
+      "bytes": 40065,
+      "sha256": "22359dbea61c06af257ecb11d4d0163f3305279e0cfb763ca7012360494cd4cb"
+    },
+    {
+      "path": "cycle-supplement-01\\SCOPE.json",
+      "bytes": 323,
+      "sha256": "63e7ac3c4635544663321069b12c3cfd86686455aafa124189ee1fc0deee6f2b"
+    },
+    {
+      "path": "decode_trace.py",
+      "bytes": 2795,
+      "sha256": "a907046c2b1ffe2b29283869c0261897dd40f1ee32fde9beb5a57856451ecc1e"
+    },
+    {
+      "path": "derive_peaks.py",
+      "bytes": 3232,
+      "sha256": "ed7096b20d90294a12f06d1db96a4719757bce54e17d68000050366c43a1a0a7"
+    },
+    {
+      "path": "driver.cpp",
+      "bytes": 10568,
+      "sha256": "e76f96933561a31e1c6e7544f480eb91a393833d22c2d4ee59fbc4d8d2781004"
+    },
+    {
+      "path": "EVIDENCE_SUMMARY.json",
+      "bytes": 9549,
+      "sha256": "16159bfcf29e0a9d7599de956eae778c2358eda252ab336a38be55c882e4e256"
+    },
+    {
+      "path": "finalize_evidence.py",
+      "bytes": 11005,
+      "sha256": "1894f466c16173951de1c03bcbce4a3a3900a8fbdb38d954528f75ab5a45c166"
+    },
+    {
+      "path": "generate_cycle_supplement.py",
+      "bytes": 1749,
+      "sha256": "5696c0cbfa58e859f1610ab1e3ad33acc30d2bad7e674e9e995cb08b30f805a6"
+    },
+    {
+      "path": "PEAK_CONTROL_DATA_COUNTERS.csv",
+      "bytes": 1668,
+      "sha256": "8302f827cf723bd64b2d8b992d0a252b63e6a324d074ead1bf715b5e8c52c882"
+    },
+    {
+      "path": "PEAK_COUNTERS.json",
+      "bytes": 1487,
+      "sha256": "2a0184511354c3bd7ecd9f2e5396f335e899125a917d22f89ab5c344d4e536b6"
+    },
+    {
+      "path": "PEAK_POLICY_COUNTERS.csv",
+      "bytes": 2826498,
+      "sha256": "a62f93ed601800685d95d87f3b658895c3ea7b03c70ab513a8144195474a782f"
+    },
+    {
+      "path": "PROTOCOL.json",
+      "bytes": 6946,
+      "sha256": "e88e4823e4121f7405db0d513b9bdb77b957c0cb9877c836f0ee199e4eee40af"
+    },
+    {
+      "path": "PROTOCOL_INITIAL_LITERAL.json",
+      "bytes": 6946,
+      "sha256": "e88e4823e4121f7405db0d513b9bdb77b957c0cb9877c836f0ee199e4eee40af"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4698,
+      "sha256": "595dede94199c033ae57738823c87fc67ac55df2ad4c3273b4a7bfc081800429"
+    },
+    {
+      "path": "receiver.v",
+      "bytes": 5788,
+      "sha256": "a787f08e1ed0f4e284d11f436f371632358c85fcedcc00586394d8967a69e987"
+    },
+    {
+      "path": "replay_portable.py",
+      "bytes": 2590,
+      "sha256": "627e290da219b17b0076e96cd3aeee69cb43d7b3be457914b9c4e8d7fbcc58fd"
+    },
+    {
+      "path": "run_build.py",
+      "bytes": 2751,
+      "sha256": "41ef7e8a79f726fa6dfa382ed340c2142f21c2dcfd301db11cbb07ee1a56fd39"
+    },
+    {
+      "path": "SCHEMA.md",
+      "bytes": 4404,
+      "sha256": "756586f370c0db63ab5d42544f967162e1dc448b86c912882e55592bbb495b60"
+    },
+    {
+      "path": "SUPPLEMENT_03_CYCLE_WITNESS_COVERAGE.md",
+      "bytes": 1328,
+      "sha256": "1db828414ccc7100cc151c0603278bb599de67dd002830782122d4a066293bb6"
+    },
+    {
+      "path": "TOOL_HASHES.json",
+      "bytes": 14675,
+      "sha256": "b5216de27f18f30e3abb80d68de51628e6ecc53392f08348836f4c08c7d4dddb"
+    },
+    {
+      "path": "trace-archives\\build-03-CONTROL_TICKS.csv.gz",
+      "bytes": 148215,
+      "sha256": "ed9d879537bf509c84a2af699cecef23335ed78a0920250b06511dc99d4dd037"
+    },
+    {
+      "path": "trace-archives\\build-03-DATA_TICKS.csv.gz",
+      "bytes": 598864,
+      "sha256": "e12ff26234eecec94f07412a73565caf5fab712e230eb48be410a915f5f1d442"
+    },
+    {
+      "path": "trace-archives\\build-04-CONTROL_TICKS.csv.gz",
+      "bytes": 199160,
+      "sha256": "73a115891cbb260f74a2ca920bc6b9ed7ba396506da6a69edbbc4e9428dc96af"
+    },
+    {
+      "path": "trace-archives\\build-04-DATA_TICKS.csv.gz",
+      "bytes": 598864,
+      "sha256": "e12ff26234eecec94f07412a73565caf5fab712e230eb48be410a915f5f1d442"
+    },
+    {
+      "path": "trace-archives\\build-05-policy-POLICY_TICKS.delta.gz",
+      "bytes": 2799376,
+      "sha256": "a5c0fb99aa2dce0acfbb68d301997467573aba5eb1ecdfa993f83cab7f28f9c0"
+    },
+    {
+      "path": "trace-archives\\build-06-cycle-supplement-POLICY_TICKS.delta.gz",
+      "bytes": 106544,
+      "sha256": "8aceabbd0636f4661e79e1477d4a4716377faffd82b9732310e156802389188e"
+    },
+    {
+      "path": "TRACE_ARCHIVES.json",
+      "bytes": 2592,
+      "sha256": "1d9372cf773ceb0a458f1e64d546dba7005a2b01cf2d416e7d72c637269490e9"
+    },
+    {
+      "path": "verify_policy.py",
+      "bytes": 5048,
+      "sha256": "775eaa3799cff55a05de25c577850cc3bab00200d7195a8212433457d25d88ef"
+    }
+  ],
+  "all_files_within_designated_directory": true,
+  "excluded": [
+    "MANIFEST.json itself",
+    "__pycache__",
+    "independent/ is separately authored/in progress and owns its own inventory"
+  ]
+}

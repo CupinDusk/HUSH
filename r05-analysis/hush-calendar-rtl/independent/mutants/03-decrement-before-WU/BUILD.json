@@ -1,0 +1,55 @@
+{
+  "name": "decrement-before-WU",
+  "input_sha256": "166af71bfe2f49f5450c45c58a16238b249331a79c9dbca613f266eb6146fbfd",
+  "oracle_sha256": "ff9084d68d48cb4d40fa45dd03a4a26170a463a9b90053812ae94ba21bee0e02",
+  "commands": [
+    {
+      "stage": "synthesis",
+      "argv": [
+        "<BUNDLED_RUNTIME>\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "<WORKSPACE>\\.tools\\run_iscas_yosys.py",
+        "-p",
+        "read_verilog receiver.v; hierarchy -check -top receiver; prep -top receiver; check -assert; write_cxxrtl netlist.cpp"
+      ],
+      "returncode": 0
+    },
+    {
+      "stage": "compile",
+      "argv": [
+        "<WORKSPACE>\\.tools\\zig-0.14.1\\zig-x86_64-windows-0.14.1\\zig.exe",
+        "c++",
+        "-std=c++17",
+        "-O3",
+        "-UNDEBUG",
+        "-I",
+        "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include",
+        "-I",
+        "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\backends\\cxxrtl\\runtime",
+        "-I",
+        "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\mutants\\03-decrement-before-WU",
+        "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\independent.cpp",
+        "-o",
+        "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\mutants\\03-decrement-before-WU\\check.exe"
+      ],
+      "returncode": 0
+    },
+    {
+      "stage": "execution",
+      "argv": [
+        "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\mutants\\03-decrement-before-WU\\check.exe",
+        "control",
+        "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\mutants\\03-decrement-before-WU"
+      ],
+      "returncode": 1
+    }
+  ],
+  "first_detection": "control case=0 mode=0 t=1 state[28] got=81 expected=80",
+  "generated_sha256": {
+    "netlist.cpp": "54b5e571f9a9cf2896f13b7cbdde6c199ee287a48edf62d1622f1c2fd2b9435d",
+    "check.exe": "366a9666284df3caa67585dc6a6ab616568daafb6c52e99985169c6f9c5e717d"
+  },
+  "status": "DETECTED_BY_INDEPENDENT_ORACLE_AFTER_ACTUAL_COMPILE_EXECUTION"
+}

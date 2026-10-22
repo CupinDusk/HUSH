@@ -1,0 +1,55 @@
+{
+  "name": "wrong-FIFO-grant-ID",
+  "input_sha256": "e0f6421c302f7edec6ac05c34a6a2d61e1d967e9a4017cb1389268e3a852d9f1",
+  "oracle_sha256": "ff9084d68d48cb4d40fa45dd03a4a26170a463a9b90053812ae94ba21bee0e02",
+  "commands": [
+    {
+      "stage": "synthesis",
+      "argv": [
+        "<BUNDLED_RUNTIME>\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "<WORKSPACE>\\.tools\\run_iscas_yosys.py",
+        "-p",
+        "read_verilog receiver.v; hierarchy -check -top receiver; prep -top receiver; check -assert; write_cxxrtl netlist.cpp"
+      ],
+      "returncode": 0
+    },
+    {
+      "stage": "compile",
+      "argv": [
+        "<WORKSPACE>\\.tools\\zig-0.14.1\\zig-x86_64-windows-0.14.1\\zig.exe",
+        "c++",
+        "-std=c++17",
+        "-O3",
+        "-UNDEBUG",
+        "-I",
+        "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include",
+        "-I",
+        "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\backends\\cxxrtl\\runtime",
+        "-I",
+        "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\mutants\\05-wrong-FIFO-grant-ID",
+        "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\independent.cpp",
+        "-o",
+        "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\mutants\\05-wrong-FIFO-grant-ID\\check.exe"
+      ],
+      "returncode": 0
+    },
+    {
+      "stage": "execution",
+      "argv": [
+        "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\mutants\\05-wrong-FIFO-grant-ID\\check.exe",
+        "control",
+        "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\mutants\\05-wrong-FIFO-grant-ID"
+      ],
+      "returncode": 1
+    }
+  ],
+  "first_detection": "control case=0 mode=-1 t=0 event[13] got=0 expected=1",
+  "generated_sha256": {
+    "netlist.cpp": "93a2f942a5e2703324676da9c7657d3e5cb7f5e0094ab526fa204ae2cfe74f87",
+    "check.exe": "04674cacc0af29418ca933f45d24ab26ced7760ad9234264fd56ce61b3d41525"
+  },
+  "status": "DETECTED_BY_INDEPENDENT_ORACLE_AFTER_ACTUAL_COMPILE_EXECUTION"
+}

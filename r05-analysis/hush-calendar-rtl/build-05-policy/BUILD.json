@@ -1,0 +1,73 @@
+{
+  "status": "EXECUTED_GENERATED_RTL",
+  "tool_hashes": {
+    "zig": "1ddf230367e07738c4a769eae66c1db7469e37bd520e81c86356453d0db2b9fd",
+    "yosys_wrapper": "30a9a408af8d9b5f2df60b6c961db42a1a0c861ad9fbdb90bd727fb1142d3ff9"
+  },
+  "input_sha256": {
+    "receiver.v": "a787f08e1ed0f4e284d11f436f371632358c85fcedcc00586394d8967a69e987",
+    "driver.cpp": "e76f96933561a31e1c6e7544f480eb91a393833d22c2d4ee59fbc4d8d2781004",
+    "PROTOCOL.json": "e88e4823e4121f7405db0d513b9bdb77b957c0cb9877c836f0ee199e4eee40af",
+    "run_build.py": "dc6978accd99c1dbd634ee01b3c158c7cb750b57a2a45f91c54e578d8fc53bed"
+  },
+  "commands": [
+    {
+      "name": "yosys_version",
+      "argv": [
+        "<BUNDLED_RUNTIME>\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "<WORKSPACE>\\.tools\\run_iscas_yosys.py",
+        "-V"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "synthesis",
+      "argv": [
+        "<BUNDLED_RUNTIME>\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "<WORKSPACE>\\.tools\\run_iscas_yosys.py",
+        "-p",
+        "read_verilog receiver.v; hierarchy -check -top receiver; prep -top receiver; check -assert; write_cxxrtl netlist.cpp"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "compile",
+      "argv": [
+        "<WORKSPACE>\\.tools\\zig-0.14.1\\zig-x86_64-windows-0.14.1\\zig.exe",
+        "c++",
+        "-std=c++17",
+        "-O3",
+        "-UNDEBUG",
+        "-I",
+        "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include",
+        "-I",
+        "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\backends\\cxxrtl\\runtime",
+        "driver.cpp",
+        "-o",
+        "simulate.exe"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "execution",
+      "argv": [
+        "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\build-05-policy\\simulate.exe",
+        "policies",
+        "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\build-05-policy",
+        "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\analysis-01\\policies.txt"
+      ],
+      "returncode": 0
+    }
+  ],
+  "scope": "Build durations are not measured or used as performance evidence.",
+  "generated_sha256": {
+    "netlist.cpp": "cc39f1a1ffa5629a697a01e077ccee012d3e31541743a6e837e3020ea6780ec6",
+    "simulate.exe": "b1da6b08bbf0af27822285af9645e7cb3d1c0744f2040714e4e999af52c5b19b"
+  }
+}

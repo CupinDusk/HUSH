@@ -1,0 +1,1 @@
+First independent invocation stopped at compile time before input parsing: line 257 SyntaxError keyword argument repeated: mutant. Fix: rename four numeric dict keys mutant_value, retain mutant as label.

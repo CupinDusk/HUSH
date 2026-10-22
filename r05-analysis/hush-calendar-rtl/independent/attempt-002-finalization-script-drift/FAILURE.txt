@@ -1,0 +1,1 @@
+FAIL initial all-files stability assertion: derive_peaks.py, replay_portable.py, verify_policy.py changed during producer finalization. Inspected changes are path/count parameters and separate cycle-supplement replay additions; receiver, driver, oracle input cases, arithmetic, protocol and original semantic streams unchanged. Original frozen copies preserved.

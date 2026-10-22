@@ -1,0 +1,66 @@
+[
+  {
+    "Path": "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\frozen-input\\AMENDMENT_01_PRE_EXECUTION.md",
+    "Hash": "83E8B1A23F928851F96C7BF766FA14C25802415C4509CB284E426FCD11A542C0"
+  },
+  {
+    "Path": "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\frozen-input\\AMENDMENT_02_FULL_KEY_EXTENSION.md",
+    "Hash": "7A2ADE2D290A739D2A9611F4843B66CF4E5FD424C88D28904B2067CFA2739FE4"
+  },
+  {
+    "Path": "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\frozen-input\\analyze.py",
+    "Hash": "0FA523C69F0C4B553BAB0DFFE8F11A6163C8CEB3A23676A44AF392D59807945B"
+  },
+  {
+    "Path": "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\frozen-input\\check_transitions.py",
+    "Hash": "2FF0C3C9465E617065125FB560E34EF350563D3FA27936B300C6FF166EBEFE37"
+  },
+  {
+    "Path": "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\frozen-input\\COMPOSITION_ARGUMENT.md",
+    "Hash": "2D51D4E8F877B9AFD69536B89B5B017E6F0CB666AA1C8FEBF9713A39E85E7CCF"
+  },
+  {
+    "Path": "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\frozen-input\\CORRECTION_02_PRESERVE_FRAME_FAILURE.md",
+    "Hash": "947D4D1AE2A69D8166C4805F94EAC73EE2F6995AB70154CA6D8A44E77D6E48E7"
+  },
+  {
+    "Path": "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\frozen-input\\decode_trace.py",
+    "Hash": "A907046C2B1FFE2B29283869C0261897DD40F1EE32FDE9BEB5A57856451ECC1E"
+  },
+  {
+    "Path": "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\frozen-input\\derive_peaks.py",
+    "Hash": "D338D2B01C45375ACA2E97E8DF75DA5C02EC2D282A2F290CD1785F661461E951"
+  },
+  {
+    "Path": "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\frozen-input\\driver.cpp",
+    "Hash": "E76F96933561A31E1C6E7544F480EB91A393833D22C2D4EE59FBC4D8D2781004"
+  },
+  {
+    "Path": "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\frozen-input\\PROTOCOL_INITIAL_LITERAL.json",
+    "Hash": "E88E4823E4121F7405DB0D513B9BDB77B957C0CB9877C836F0EE199E4EEE40AF"
+  },
+  {
+    "Path": "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\frozen-input\\PROTOCOL.json",
+    "Hash": "E88E4823E4121F7405DB0D513B9BDB77B957C0CB9877C836F0EE199E4EEE40AF"
+  },
+  {
+    "Path": "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\frozen-input\\receiver.v",
+    "Hash": "A787F08E1ED0F4E284D11F436F371632358C85FCEDCC00586394D8967A69E987"
+  },
+  {
+    "Path": "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\frozen-input\\replay_portable.py",
+    "Hash": "264D5E7C37AA680871F1D4EE059BE4124B7334512CD67837516B2BBA5C81B86C"
+  },
+  {
+    "Path": "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\frozen-input\\run_build.py",
+    "Hash": "41EF7E8A79F726FA6DFA382ED340C2142F21C2DCFD301DB11CBB07EE1A56FD39"
+  },
+  {
+    "Path": "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\frozen-input\\SCHEMA.md",
+    "Hash": "756586F370C0DB63AB5D42544F967162E1DC448B86C912882E55592BBB495B60"
+  },
+  {
+    "Path": "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\frozen-input\\verify_policy.py",
+    "Hash": "DAB51D2BF6A46EAA792E2544F7AFFA841DC085E4618400DF0A8CF8A485565A77"
+  }
+]

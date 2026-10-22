@@ -1,0 +1,113 @@
+{
+  "status": "PASS_AUTHOR_NEW_INTRINSIC_PERIOD_GATE_PENDING_INDEPENDENT_AUDIT",
+  "small": {
+    "target_divisor_profiles": 70916,
+    "physical_policy_slacks": 4247436,
+    "profiles": 19524,
+    "reduced_profiles": 1012,
+    "original_pairs": 55532,
+    "period_reduced_pairs": 54103
+  },
+  "old": {
+    "lines": 80,
+    "reduced_lines": 11,
+    "full_pairs": 961,
+    "new_pairs": 950,
+    "per_line_slacks": 74000,
+    "complete_policy_slacks": 37000,
+    "old_full_bytes": 36560,
+    "old_portfolio_bytes": 33424,
+    "new_bytes": 39584,
+    "net_smaller_than_full_cases": 0,
+    "net_equal_full_cases": 0,
+    "net_larger_than_full_cases": 40
+  },
+  "size_cases": {
+    "counts": {
+      "original_phases_checked": 2798064,
+      "physical_sample_slacks": 378
+    },
+    "cases": [
+      {
+        "p": 16,
+        "d": 528,
+        "e": 33,
+        "full_pairs": 16,
+        "reduced_pairs": 1,
+        "baseline_bytes": 488,
+        "period_bytes": 288,
+        "full_sha256": "4a74c67928791e6a10f9a50e585b57aa3c2a75178d3389f3b8c43d5dcfcaf4c6",
+        "period_sha256": "38e4645a44cb6ad4fe3492c6c30a55d55bc5b7cc8c974ec2a18e1217b1810ba8"
+      },
+      {
+        "p": 32,
+        "d": 2080,
+        "e": 65,
+        "full_pairs": 32,
+        "reduced_pairs": 1,
+        "baseline_bytes": 744,
+        "period_bytes": 288,
+        "full_sha256": "c627981aad5d915e2a2465f244e698b50bd37b465d092337945291c8b764c2f5",
+        "period_sha256": "57318889e065d9e97d12f721b7475eb32b97f1bd5f42563ec1ac3f74b3c4d5dc"
+      },
+      {
+        "p": 64,
+        "d": 8256,
+        "e": 129,
+        "full_pairs": 64,
+        "reduced_pairs": 1,
+        "baseline_bytes": 1256,
+        "period_bytes": 288,
+        "full_sha256": "abcedfe81aaa487525e1c17646c6982ca36e5e972541a762979fa6ae8c94a987",
+        "period_sha256": "9d5fccb2b120bf286b39cd36d87fa156f5dd732cb15c394a97541d96a1ea470d"
+      },
+      {
+        "p": 128,
+        "d": 32896,
+        "e": 257,
+        "full_pairs": 128,
+        "reduced_pairs": 1,
+        "baseline_bytes": 2280,
+        "period_bytes": 288,
+        "full_sha256": "decfbb6d2ba62f4927194b3b664fd02c6038ed8b68d8782c6959047ade21705d",
+        "period_sha256": "ea7fdcdd467df3cd146fbb549d5dd34cf4cfa41a2409088973aeb6d626003cde"
+      },
+      {
+        "p": 256,
+        "d": 131328,
+        "e": 513,
+        "full_pairs": 256,
+        "reduced_pairs": 1,
+        "baseline_bytes": 4328,
+        "period_bytes": 288,
+        "full_sha256": "c983be4d931a9ebbf70dff2af905e4d4c5356c43a2310ce74cd047f56aab8472",
+        "period_sha256": "a689f999f3708794b89c94c07585978c3443720df7d9d538c201bfeea1d96f5f"
+      },
+      {
+        "p": 512,
+        "d": 524800,
+        "e": 1025,
+        "full_pairs": 512,
+        "reduced_pairs": 1,
+        "baseline_bytes": 8424,
+        "period_bytes": 288,
+        "full_sha256": "6e5d524730eecd0cd5120a183e579d3c3e006dbd6ee79174f6379b2732676503",
+        "period_sha256": "88987fba6a418a11c61b266bb43beb9aa95d379830b4536edb9393b2a08649dc"
+      },
+      {
+        "p": 1024,
+        "d": 2098176,
+        "e": 2049,
+        "full_pairs": 1024,
+        "reduced_pairs": 1,
+        "baseline_bytes": 16616,
+        "period_bytes": 288,
+        "full_sha256": "2bfd15ef0df89b31c65b04e9150643a76bd0d2899d10bc26724608b33a0dec6c",
+        "period_sha256": "262bdb65e6bf99cd012a10cdb5767eea1d9be46646f35e5a5bce4c1ab8e40049"
+      }
+    ],
+    "scope": "Seven predeclared mathematical source models, generalized one-line complete format with all bindings; no native/physical/memory/runtime claim."
+  },
+  "mutation_controls": 4,
+  "scope": "Posthoc new conditional exact-period lift. Extra source evidence, all prefixes/bindings retained; not arbitrary projected master support, native refinement, generic minimum encoding or runtime/hardware benefit."
+}

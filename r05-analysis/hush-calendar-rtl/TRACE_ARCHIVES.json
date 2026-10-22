@@ -1,0 +1,59 @@
+{
+  "encoding": "gzip mtime0; policy payload retains every executed tick in lossless delta format",
+  "files": [
+    {
+      "raw_path": "build-03\\CONTROL_TICKS.csv",
+      "raw_bytes": 2912630,
+      "raw_sha256": "cb6de8f26384ef37d8e0035ea4557e4591a6d2fe3140dfce3238294e5699b487",
+      "gzip_path": "trace-archives\\build-03-CONTROL_TICKS.csv.gz",
+      "gzip_bytes": 148215,
+      "gzip_sha256": "ed9d879537bf509c84a2af699cecef23335ed78a0920250b06511dc99d4dd037",
+      "roundtrip": "BYTE_EXACT"
+    },
+    {
+      "raw_path": "build-03\\DATA_TICKS.csv",
+      "raw_bytes": 10249533,
+      "raw_sha256": "030d58fbfa035e542695161f804ad41f6d7a5c0623122a8cc7184e55347c0873",
+      "gzip_path": "trace-archives\\build-03-DATA_TICKS.csv.gz",
+      "gzip_bytes": 598864,
+      "gzip_sha256": "e12ff26234eecec94f07412a73565caf5fab712e230eb48be410a915f5f1d442",
+      "roundtrip": "BYTE_EXACT"
+    },
+    {
+      "raw_path": "build-04\\CONTROL_TICKS.csv",
+      "raw_bytes": 3907062,
+      "raw_sha256": "02cf468a53f3a35626692f0cfb94db93bf1a27fb9f81a6aeaa59f3cff59081c8",
+      "gzip_path": "trace-archives\\build-04-CONTROL_TICKS.csv.gz",
+      "gzip_bytes": 199160,
+      "gzip_sha256": "73a115891cbb260f74a2ca920bc6b9ed7ba396506da6a69edbbc4e9428dc96af",
+      "roundtrip": "BYTE_EXACT"
+    },
+    {
+      "raw_path": "build-04\\DATA_TICKS.csv",
+      "raw_bytes": 10249533,
+      "raw_sha256": "030d58fbfa035e542695161f804ad41f6d7a5c0623122a8cc7184e55347c0873",
+      "gzip_path": "trace-archives\\build-04-DATA_TICKS.csv.gz",
+      "gzip_bytes": 598864,
+      "gzip_sha256": "e12ff26234eecec94f07412a73565caf5fab712e230eb48be410a915f5f1d442",
+      "roundtrip": "BYTE_EXACT"
+    },
+    {
+      "raw_path": "build-05-policy\\POLICY_TICKS.delta",
+      "raw_bytes": 191473772,
+      "raw_sha256": "81e302f4cf47988abe7981c64922cef37ccc0a77ab047c35adc6fe9cda93382d",
+      "gzip_path": "trace-archives\\build-05-policy-POLICY_TICKS.delta.gz",
+      "gzip_bytes": 2799376,
+      "gzip_sha256": "a5c0fb99aa2dce0acfbb68d301997467573aba5eb1ecdfa993f83cab7f28f9c0",
+      "roundtrip": "BYTE_EXACT"
+    },
+    {
+      "raw_path": "build-06-cycle-supplement\\POLICY_TICKS.delta",
+      "raw_bytes": 4312616,
+      "raw_sha256": "9f40bbd99295db605f04118831e8ff161ada8ab968eb8fbdbe2fa833313d52c7",
+      "gzip_path": "trace-archives\\build-06-cycle-supplement-POLICY_TICKS.delta.gz",
+      "gzip_bytes": 106544,
+      "gzip_sha256": "8aceabbd0636f4661e79e1477d4a4716377faffd82b9732310e156802389188e",
+      "roundtrip": "BYTE_EXACT"
+    }
+  ]
+}

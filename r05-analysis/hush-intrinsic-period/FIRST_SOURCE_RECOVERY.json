@@ -1,0 +1,9 @@
+{
+  "status": "EXACT_FIRST_SUCCESSFUL_SOURCE_RECOVERED",
+  "source": "failure-001-syntax/research.py",
+  "source_sha256": "20d7b5cf071bb0e5e9ac83e2ab671c4724380582aaa84ef8865fb9c617391f0b",
+  "changes": "Only the three repeated dict keyword numeric fields mutant renamed mutant_value; no other byte changes.",
+  "recovered": "research-version-001.py",
+  "recovered_sha256": "b9afea4d053c6da441296f51e35b58a8cff957a8d657603776cfa77d78673f2e",
+  "expected_first_run_sha256": "b9afea4d053c6da441296f51e35b58a8cff957a8d657603776cfa77d78673f2e"
+}

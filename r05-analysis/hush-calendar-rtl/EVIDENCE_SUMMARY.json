@@ -1,0 +1,408 @@
+{
+  "status": "AUDIT_READY_PRODUCER_EXECUTED_PENDING_INDEPENDENT_GATE",
+  "scope": "New own four-line multiset-calendar reference RTL, fixed epoch/source and no other invalidations. Not native/private HUSH, coherent memory, hardware/PPA/application/performance evidence.",
+  "case_count": 12,
+  "original_empty_frame_gate": {
+    "pass": 11,
+    "unknown": 1,
+    "failed_case": {
+      "case": 7,
+      "p": 7,
+      "r": 7,
+      "F": 56,
+      "outstanding_at_3F": 2
+    },
+    "known_policy_counts": {
+      "policy_queries": 123616,
+      "service_positive": 16030,
+      "completion_positive": 15792,
+      "service_only": 238,
+      "original5_queries": 38630,
+      "original5_service_positive": 380,
+      "original5_completion_positive": 375
+    },
+    "unknown_policy_cases": [
+      {
+        "case": 7,
+        "queries": 6496,
+        "original5_queries": 2030,
+        "status": "UNKNOWN_ORIGINAL_EMPTY_FRAME_GATE_FAILED"
+      }
+    ]
+  },
+  "post_observation_full_key_extension": {
+    "cycles": 12,
+    "entries": [
+      [
+        0,
+        0,
+        80
+      ],
+      [
+        1,
+        0,
+        112
+      ],
+      [
+        2,
+        0,
+        120
+      ],
+      [
+        3,
+        0,
+        168
+      ],
+      [
+        4,
+        0,
+        40
+      ],
+      [
+        5,
+        0,
+        280
+      ],
+      [
+        6,
+        0,
+        280
+      ],
+      [
+        7,
+        37,
+        93
+      ],
+      [
+        8,
+        0,
+        440
+      ],
+      [
+        9,
+        0,
+        616
+      ],
+      [
+        10,
+        0,
+        680
+      ],
+      [
+        11,
+        0,
+        952
+      ]
+    ],
+    "prefix_edges": 4,
+    "cycle_edges": 96,
+    "completion_domain_all_c_le_h": true,
+    "all_cycle_entries_verified_empty": true,
+    "policy_counts": {
+      "policy_queries": 130112,
+      "service_positive": 21257,
+      "completion_positive": 21019,
+      "service_only": 238,
+      "original5_queries": 40660,
+      "original5_service_positive": 1269,
+      "original5_completion_positive": 1264
+    },
+    "gains_by_case": [
+      0,
+      4,
+      0,
+      0,
+      0,
+      4,
+      1,
+      0,
+      9,
+      0,
+      16,
+      8
+    ],
+    "no_gain_cases": [
+      0,
+      2,
+      3,
+      4,
+      7,
+      9
+    ]
+  },
+  "actual_policy_RTL": {
+    "status": "PASS_PRODUCER_POLICY_BINDINGS_AND_ARITHMETIC_ALL_TICK_TIMER_TRANSCRIPT",
+    "counts": {
+      "queries": 130112,
+      "positive": 21257,
+      "negative": 108855,
+      "executed_ticks": 84379472,
+      "omitted_physical_prehistory_ticks_NOT_executed": 440303104,
+      "captures": 1229561,
+      "emissions": 1206724,
+      "cancels": 21257,
+      "expiries": 108855,
+      "WUs": 130112
+    },
+    "tick_counts": {
+      "strictly_decoded_timer_checked_ticks": 84379472,
+      "snapshot_held_after_tag_expiry_ticks": 9428,
+      "backpressure_with_expired_tag_snapshot_ticks": 9356
+    },
+    "input_hashes": {
+      "policies": "e3e237a7e306a76bb6c1b0e63a4c0c32bc8a44cbed8dec9c3352dd9ff754ef76",
+      "results": "b21694d00a345cf8dda6a29992f32fb87d548220e35dfd4c403c545ceda8f78a"
+    },
+    "scope": "Same producer; no independent gate claim; finite one-WU words only."
+  },
+  "actual_control_data_transition_checks": {
+    "status": "PASS_PRODUCER_SEPARATE_REPRESENTATION",
+    "counts": {
+      "CONTROL_TICKS.csv": {
+        "ticks": 15296,
+        "enqueues": 384,
+        "captures": 382,
+        "emissions": 382,
+        "backpressure": 496,
+        "transfers": 382,
+        "WUs": 0,
+        "cancels": 0,
+        "expiries": 0
+      },
+      "DATA_TICKS.csv": {
+        "ticks": 34416,
+        "enqueues": 864,
+        "captures": 858,
+        "emissions": 858,
+        "backpressure": 1116,
+        "transfers": 858,
+        "WUs": 135792,
+        "cancels": 714,
+        "expiries": 0
+      }
+    },
+    "independent_validation": false
+  },
+  "fixed_data_runs": 36,
+  "fixed_data_pattern_count": 3,
+  "multi_pending_exercised_cases": [
+    {
+      "case": 4,
+      "p": 5,
+      "r": 5,
+      "maxGlobal": 7,
+      "maxFIFO": 7,
+      "maxPerLine": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "case": 7,
+      "p": 7,
+      "r": 7,
+      "maxGlobal": 5,
+      "maxFIFO": 5,
+      "maxPerLine": [
+        1,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "case": 10,
+      "p": 17,
+      "r": 5,
+      "maxGlobal": 5,
+      "maxFIFO": 5,
+      "maxPerLine": [
+        1,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "case": 11,
+      "p": 17,
+      "r": 7,
+      "maxGlobal": 5,
+      "maxFIFO": 5,
+      "maxPerLine": [
+        1,
+        1,
+        1,
+        2
+      ]
+    }
+  ],
+  "source_hashes": {
+    "receiver.v": "a787f08e1ed0f4e284d11f436f371632358c85fcedcc00586394d8967a69e987",
+    "driver.cpp": "e76f96933561a31e1c6e7544f480eb91a393833d22c2d4ee59fbc4d8d2781004",
+    "analyze.py": "0fa523c69f0c4b553bab0dffe8f11a6163c8ceb3a23676a44af392d59807945b",
+    "check_transitions.py": "2ff0c3c9465e617065125fb560e34ef350563d3fa27936b300c6ff166ebefe37",
+    "verify_policy.py": "775eaa3799cff55a05de25c577850cc3bab00200d7195a8212433457d25d88ef",
+    "decode_trace.py": "a907046c2b1ffe2b29283869c0261897dd40f1ee32fde9beb5a57856451ecc1e",
+    "PROTOCOL.json": "e88e4823e4121f7405db0d513b9bdb77b957c0cb9877c836f0ee199e4eee40af",
+    "AMENDMENT_01_PRE_EXECUTION.md": "83e8b1a23f928851f96c7bf766fa14c25802415c4509cb284e426fcd11a542c0",
+    "AMENDMENT_02_FULL_KEY_EXTENSION.md": "7a2ade2d290a739d2a9611f4843b66cf4e5fd424c88d28904b2067cfa2739fe4",
+    "COMPOSITION_ARGUMENT.md": "2d51d4e8f877b9afd69536b89b5b017e6f0cb666aa1c8febf9713a39e85e7ccf",
+    "SCHEMA.md": "756586f370c0db63ab5d42544f967162e1dc448b86c912882e55592bbb495b60"
+  },
+  "failed_attempts_preserved": [
+    {
+      "attempt": "build-01",
+      "failure": "CXXRTL wire64 .data compile interface; no execution"
+    },
+    {
+      "attempt": "build-02",
+      "failure": "p7/r7 frame does not clear; actual trace preserved, no controller change"
+    }
+  ],
+  "pre_execution_clarification": "F40 releases are eight-job multiset moduloF, duplicate jobs retained in original offset order; original literal-domain finding preserved.",
+  "universal_WU_claim": "Conditional composition proof in COMPOSITION_ARGUMENT.md; actual finite words do not exhaust arbitrary WUs.",
+  "gate": {
+    "independent_fresh_synth_compile_execute": "PENDING",
+    "independent_transition_arithmetic": "PENDING",
+    "meaningful_actually_compiled_mutants": "PENDING",
+    "publication": "NOT_AUTHORIZED_BY_THIS_PRODUCER_GATE"
+  },
+  "additional_cycle_only_RTL_coverage": {
+    "purpose": "Explicit earliest cycle-minimum witness for every case7 policy, where original full witness may be in the exact prefix. Full admissions/tuning unchanged; cycle-only survival is not full admission.",
+    "counts": {
+      "queries": 6496,
+      "positive": 5498,
+      "negative": 998,
+      "executed_ticks": 346304,
+      "omitted_physical_prehistory_ticks_NOT_executed": 453600,
+      "captures": 49402,
+      "emissions": 43904,
+      "cancels": 5498,
+      "expiries": 998,
+      "WUs": 6496
+    },
+    "tick_counts": {
+      "strictly_decoded_timer_checked_ticks": 346304,
+      "snapshot_held_after_tag_expiry_ticks": 0,
+      "backpressure_with_expired_tag_snapshot_ticks": 0
+    },
+    "complete_cycle_witness_coverage_queries": 130112,
+    "total_actual_policy_executions_including_supplement": 136608,
+    "total_actual_policy_ticks_including_supplement": 84725776
+  },
+  "exact_within_tick_ownership_peaks": {
+    "status": "EXACT_WITHIN_TICK_PEAKS_DERIVED_FROM_ACTUAL_RAW_TRANSCRIPTS",
+    "original_maxima_are": "after-tick samples; retained unchanged",
+    "formula": "FIFO peak=after qlen+successful grant; line outstanding peak=after line count+callback token for that owner. Enqueue precedes both; callback is last.",
+    "policy_maxima_by_case": {
+      "0": [
+        2,
+        3,
+        1,
+        1,
+        1,
+        1
+      ],
+      "1": [
+        2,
+        4,
+        1,
+        1,
+        1,
+        1
+      ],
+      "2": [
+        3,
+        4,
+        1,
+        1,
+        1,
+        1
+      ],
+      "3": [
+        3,
+        4,
+        1,
+        1,
+        1,
+        1
+      ],
+      "4": [
+        7,
+        7,
+        2,
+        2,
+        2,
+        2
+      ],
+      "5": [
+        3,
+        4,
+        1,
+        1,
+        1,
+        1
+      ],
+      "6": [
+        3,
+        4,
+        1,
+        1,
+        1,
+        1
+      ],
+      "7": [
+        5,
+        5,
+        1,
+        1,
+        1,
+        2
+      ],
+      "8": [
+        4,
+        4,
+        1,
+        1,
+        1,
+        1
+      ],
+      "9": [
+        4,
+        4,
+        1,
+        1,
+        1,
+        1
+      ],
+      "10": [
+        5,
+        5,
+        1,
+        1,
+        1,
+        2
+      ],
+      "11": [
+        5,
+        5,
+        1,
+        1,
+        1,
+        2
+      ]
+    },
+    "fields": [
+      "peakFIFO",
+      "peakGlobal",
+      "peakLine0",
+      "peakLine1",
+      "peakLine2",
+      "peakLine3"
+    ],
+    "scope": "Producer derived, not independent checker."
+  }
+}

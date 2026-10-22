@@ -1,0 +1,27 @@
+{
+  "status": "PASS_AUTHOR_NEW_INTRINSIC_PERIOD_GATE_PENDING_INDEPENDENT_AUDIT",
+  "small": {
+    "target_divisor_profiles": 70916,
+    "physical_policy_slacks": 4247436,
+    "profiles": 19524,
+    "reduced_profiles": 1012,
+    "original_pairs": 55532,
+    "period_reduced_pairs": 54103
+  },
+  "old": {
+    "lines": 80,
+    "reduced_lines": 11,
+    "full_pairs": 961,
+    "new_pairs": 950,
+    "per_line_slacks": 74000,
+    "complete_policy_slacks": 37000,
+    "old_full_bytes": 36560,
+    "old_portfolio_bytes": 33424,
+    "new_bytes": 39584,
+    "net_smaller_than_full_cases": 0,
+    "net_equal_full_cases": 0,
+    "net_larger_than_full_cases": 40
+  },
+  "mutation_controls": 4,
+  "scope": "Posthoc new conditional exact-period lift. Extra source evidence, all prefixes/bindings retained; not arbitrary projected master support, native refinement, generic minimum encoding or runtime/hardware benefit."
+}

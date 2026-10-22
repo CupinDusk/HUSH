@@ -1,0 +1,2675 @@
+
+ /----------------------------------------------------------------------------\
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |  Copyright (C) 2012 - 2026  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |  Distributed under an ISC-like license, type "license" to see terms        |
+ \----------------------------------------------------------------------------/
+ Yosys 0.70 (git sha1 28ba3cb92, Release, Clang /workspace/YoWASP/yosys/wasi-sdk-33.0-x86_64-linux/share/cmake/../..//bin/clang++ 22.1.0)
+
+-- Running command `read_verilog receiver.v; hierarchy -check -top receiver; prep -top receiver; check -assert; write_cxxrtl netlist.cpp' --
+
+1. Executing Verilog-2005 frontend: receiver.v
+Parsing Verilog input from `receiver.v' to AST representation.
+Generating RTLIL representation for module `\receiver'.
+Warning: Replacing memory \qi with list of registers. See receiver.v:88, receiver.v:46
+Warning: Replacing memory \qo with list of registers. See receiver.v:88, receiver.v:46
+Successfully finished Verilog frontend.
+
+2. Executing HIERARCHY pass (managing design hierarchy).
+
+2.1. Analyzing design hierarchy..
+Top module:  \receiver
+
+2.2. Analyzing design hierarchy..
+Top module:  \receiver
+Removed 0 unused modules.
+
+3. Executing PREP pass.
+
+3.1. Executing HIERARCHY pass (managing design hierarchy).
+
+3.1.1. Analyzing design hierarchy..
+Top module:  \receiver
+
+3.1.2. Analyzing design hierarchy..
+Top module:  \receiver
+Removed 0 unused modules.
+
+3.2. Executing PROC pass (convert processes to netlists).
+
+3.2.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+3.2.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Removed 14 dead cases from process $proc$receiver.v:42$15 in module receiver.
+Marked 72 switch rules as full_case in process $proc$receiver.v:42$15 in module receiver.
+Removed a total of 14 dead cases.
+
+3.2.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 0 redundant assignments.
+Promoted 91 assignments to connections.
+
+3.2.4. Executing PROC_INIT pass (extract init attributes).
+
+3.2.5. Executing PROC_ARST pass (detect async resets in processes).
+
+3.2.6. Executing PROC_ROM pass (convert switches to ROMs).
+Converted 0 switches.
+<suppressed ~72 debug messages>
+
+3.2.7. Executing PROC_MUX pass (convert decision trees to multiplexers).
+Creating decoders for process `\receiver.$proc$receiver.v:42$15'.
+     1/658: $2\evwu[3:0] [3]
+     2/658: $3\fp[15:0]
+     3/658: $3\rp[15:0]
+     4/658: $3\cp[15:0]
+     5/658: $23\fault[31:0]
+     6/658: $22\fault[31:0]
+     7/658: $22\tokens0[3:0]
+     8/658: $22\tokens3[3:0]
+     9/658: $22\tokens2[3:0]
+    10/658: $22\tokens1[3:0]
+    11/658: $21\tokens3[3:0]
+    12/658: $21\tokens2[3:0]
+    13/658: $21\tokens1[3:0]
+    14/658: $21\tokens0[3:0]
+    15/658: $20\tokens0[3:0]
+    16/658: $20\tokens3[3:0]
+    17/658: $20\tokens2[3:0]
+    18/658: $20\tokens1[3:0]
+    19/658: $19\tokens3[3:0]
+    20/658: $19\tokens2[3:0]
+    21/658: $19\tokens1[3:0]
+    22/658: $19\tokens0[3:0]
+    23/658: $18\tokens0[3:0]
+    24/658: $18\tokens3[3:0]
+    25/658: $18\tokens2[3:0]
+    26/658: $18\tokens1[3:0]
+    27/658: $17\tokens3[3:0]
+    28/658: $17\tokens2[3:0]
+    29/658: $17\tokens1[3:0]
+    30/658: $17\tokens0[3:0]
+    31/658: $16\tokens0[3:0]
+    32/658: $16\tokens3[3:0]
+    33/658: $16\tokens2[3:0]
+    34/658: $16\tokens1[3:0]
+    35/658: $15\tokens3[3:0]
+    36/658: $15\tokens2[3:0]
+    37/658: $15\tokens1[3:0]
+    38/658: $15\tokens0[3:0]
+    39/658: $14\tokens0[3:0]
+    40/658: $14\tokens3[3:0]
+    41/658: $14\tokens2[3:0]
+    42/658: $14\tokens1[3:0]
+    43/658: $13\tokens3[3:0]
+    44/658: $13\tokens2[3:0]
+    45/658: $13\tokens1[3:0]
+    46/658: $13\tokens0[3:0]
+    47/658: $12\tokens0[3:0]
+    48/658: $12\tokens3[3:0]
+    49/658: $12\tokens2[3:0]
+    50/658: $12\tokens1[3:0]
+    51/658: $11\tokens3[3:0]
+    52/658: $11\tokens2[3:0]
+    53/658: $11\tokens1[3:0]
+    54/658: $11\tokens0[3:0]
+    55/658: $10\tokens0[3:0]
+    56/658: $10\tokens3[3:0]
+    57/658: $10\tokens2[3:0]
+    58/658: $10\tokens1[3:0]
+    59/658: $9\tokens3[3:0]
+    60/658: $9\tokens2[3:0]
+    61/658: $9\tokens1[3:0]
+    62/658: $9\tokens0[3:0]
+    63/658: $8\tokens0[3:0]
+    64/658: $8\tokens3[3:0]
+    65/658: $8\tokens2[3:0]
+    66/658: $8\tokens1[3:0]
+    67/658: $7\tokens3[3:0]
+    68/658: $7\tokens2[3:0]
+    69/658: $7\tokens1[3:0]
+    70/658: $7\tokens0[3:0]
+    71/658: $6\tokens0[3:0]
+    72/658: $6\tokens3[3:0]
+    73/658: $6\tokens2[3:0]
+    74/658: $6\tokens1[3:0]
+    75/658: $5\tokens3[3:0]
+    76/658: $5\tokens2[3:0]
+    77/658: $5\tokens1[3:0]
+    78/658: $5\tokens0[3:0]
+    79/658: $4\tokens0[3:0]
+    80/658: $4\tokens3[3:0]
+    81/658: $4\tokens2[3:0]
+    82/658: $4\tokens1[3:0]
+    83/658: $3\tokens3[3:0]
+    84/658: $3\tokens2[3:0]
+    85/658: $3\tokens1[3:0]
+    86/658: $3\tokens0[3:0]
+    87/658: $21\fault[31:0]
+    88/658: $5$bitselwrite$pos$receiver.v:110$10[31:0]$230
+    89/658: $9\outstanding[15:0]
+    90/658: $4$bitselwrite$pos$receiver.v:110$10[31:0]$225
+    91/658: $20\fault[31:0]
+    92/658: $8\outstanding[15:0]
+    93/658: $4\callbackid[31:0]
+    94/658: $4\callbackowner[1:0]
+    95/658: $4\evcallback[0:0]
+    96/658: $6\rzero[0:0]
+    97/658: $4\byteone[7:0]
+    98/658: $4\idone[31:0]
+    99/658: $4\ownerone[1:0]
+   100/658: $6\rone[0:0]
+   101/658: $4\transferbyte[7:0]
+   102/658: $4\transferid[31:0]
+   103/658: $4\transferowner[1:0]
+   104/658: $4\evtransfer[0:0]
+   105/658: $5\rone[0:0]
+   106/658: $5\emitbyte[7:0]
+   107/658: $5\emitid[31:0]
+   108/658: $5\emitowner[1:0]
+   109/658: $5\evemit[0:0]
+   110/658: $5\blockid[31:0]
+   111/658: $5\blockowner[1:0]
+   112/658: $5\evblock[0:0]
+   113/658: $4\emitbyte[7:0]
+   114/658: $4\blockid[31:0]
+   115/658: $4\emitid[31:0]
+   116/658: $4\blockowner[1:0]
+   117/658: $4\emitowner[1:0]
+   118/658: $4\evblock[0:0]
+   119/658: $4\evemit[0:0]
+   120/658: $4\rone[0:0]
+   121/658: $3$bitselwrite$pos$receiver.v:110$10[31:0]$219
+   122/658: $3\callbackid[31:0]
+   123/658: $3\callbackowner[1:0]
+   124/658: $3\evcallback[0:0]
+   125/658: $19\fault[31:0]
+   126/658: $7\outstanding[15:0]
+   127/658: $3\transferbyte[7:0]
+   128/658: $3\transferid[31:0]
+   129/658: $3\transferowner[1:0]
+   130/658: $3\evtransfer[0:0]
+   131/658: $3\byteone[7:0]
+   132/658: $3\idone[31:0]
+   133/658: $3\ownerone[1:0]
+   134/658: $3\rone[0:0]
+   135/658: $5\rzero[0:0]
+   136/658: $3\emitbyte[7:0]
+   137/658: $3\blockid[31:0]
+   138/658: $3\emitid[31:0]
+   139/658: $3\blockowner[1:0]
+   140/658: $3\emitowner[1:0]
+   141/658: $3\evblock[0:0]
+   142/658: $3\evemit[0:0]
+   143/658: $4\failid[31:0]
+   144/658: $4\failowner[1:0]
+   145/658: $4\failtick[31:0]
+   146/658: $4\failed[0:0]
+   147/658: $10\qi[7][31:0]
+   148/658: $10\qi[6][31:0]
+   149/658: $10\qi[5][31:0]
+   150/658: $10\qi[4][31:0]
+   151/658: $10\qi[3][31:0]
+   152/658: $10\qi[2][31:0]
+   153/658: $10\qi[1][31:0]
+   154/658: $10\qi[0][31:0]
+   155/658: $10\qo[7][1:0]
+   156/658: $10\qo[6][1:0]
+   157/658: $10\qo[5][1:0]
+   158/658: $10\qo[4][1:0]
+   159/658: $10\qo[3][1:0]
+   160/658: $10\qo[2][1:0]
+   161/658: $10\qo[1][1:0]
+   162/658: $10\qo[0][1:0]
+   163/658: $4$bitselwrite$pos$receiver.v:93$9[1:0]$205
+   164/658: $5\j[31:0]
+   165/658: $4\grantbyte[7:0]
+   166/658: $4\grantid[31:0]
+   167/658: $4\grantowner[1:0]
+   168/658: $4\evgrant[0:0]
+   169/658: $4\evcancel[3:0]
+   170/658: $4\bytezero[7:0]
+   171/658: $4\idzero[31:0]
+   172/658: $4\ownerzero[1:0]
+   173/658: $4\rzero[0:0]
+   174/658: $8\qlen[3:0]
+   175/658: $9\qi[7][31:0]
+   176/658: $9\qi[6][31:0]
+   177/658: $9\qi[5][31:0]
+   178/658: $9\qi[4][31:0]
+   179/658: $9\qi[3][31:0]
+   180/658: $9\qi[2][31:0]
+   181/658: $9\qi[1][31:0]
+   182/658: $9\qi[0][31:0]
+   183/658: $9\qo[7][1:0]
+   184/658: $9\qo[6][1:0]
+   185/658: $9\qo[5][1:0]
+   186/658: $9\qo[4][1:0]
+   187/658: $9\qo[3][1:0]
+   188/658: $9\qo[2][1:0]
+   189/658: $9\qo[1][1:0]
+   190/658: $9\qo[0][1:0]
+   191/658: $3$bitselwrite$pos$receiver.v:93$9[1:0]$202
+   192/658: $4\j[31:0]
+   193/658: $3\grantbyte[7:0]
+   194/658: $3\grantid[31:0]
+   195/658: $3\grantowner[1:0]
+   196/658: $3\evgrant[0:0]
+   197/658: $3\evcancel[3:0]
+   198/658: $3\failowner[1:0]
+   199/658: $3\failid[31:0]
+   200/658: $3\failtick[31:0]
+   201/658: $3\failed[0:0]
+   202/658: $3\bytezero[7:0]
+   203/658: $3\idzero[31:0]
+   204/658: $3\ownerzero[1:0]
+   205/658: $3\rzero[0:0]
+   206/658: $7\qlen[3:0]
+   207/658: $3\attemptid[31:0]
+   208/658: $3\attemptowner[1:0]
+   209/658: $3\evattempt[0:0]
+   210/658: $18\fault[31:0]
+   211/658: $8\qi[0][31:0]
+   212/658: $8\qi[7][31:0]
+   213/658: $8\qi[6][31:0]
+   214/658: $8\qi[5][31:0]
+   215/658: $8\qi[4][31:0]
+   216/658: $8\qi[3][31:0]
+   217/658: $8\qi[2][31:0]
+   218/658: $8\qi[1][31:0]
+   219/658: $8\qo[0][1:0]
+   220/658: $8\qo[7][1:0]
+   221/658: $8\qo[6][1:0]
+   222/658: $8\qo[5][1:0]
+   223/658: $8\qo[4][1:0]
+   224/658: $8\qo[3][1:0]
+   225/658: $8\qo[2][1:0]
+   226/658: $8\qo[1][1:0]
+   227/658: $8\enqid[31:0]
+   228/658: $8\enqowner[1:0]
+   229/658: $8\enqid2[31:0]
+   230/658: $8\enqowner2[1:0]
+   231/658: $17\fault[31:0]
+   232/658: $4$mem2reg_wr$\qi$receiver.v:81$14_DATA[31:0]$173
+   233/658: $4$mem2reg_wr$\qi$receiver.v:81$14_ADDR[2:0]$172
+   234/658: $4$mem2reg_wr$\qo$receiver.v:81$13_DATA[1:0]$171
+   235/658: $4$mem2reg_wr$\qo$receiver.v:81$13_ADDR[2:0]$170
+   236/658: $7\qi[7][31:0]
+   237/658: $7\qi[6][31:0]
+   238/658: $7\qi[5][31:0]
+   239/658: $7\qi[4][31:0]
+   240/658: $7\qi[3][31:0]
+   241/658: $7\qi[2][31:0]
+   242/658: $7\qi[1][31:0]
+   243/658: $7\qi[0][31:0]
+   244/658: $7\qo[7][1:0]
+   245/658: $7\qo[6][1:0]
+   246/658: $7\qo[5][1:0]
+   247/658: $7\qo[4][1:0]
+   248/658: $7\qo[3][1:0]
+   249/658: $7\qo[2][1:0]
+   250/658: $7\qo[1][1:0]
+   251/658: $7\qo[0][1:0]
+   252/658: $4$bitselwrite$pos$receiver.v:83$8[31:0]$169
+   253/658: $7\enqid2[31:0]
+   254/658: $7\enqowner2[1:0]
+   255/658: $7\enqid[31:0]
+   256/658: $7\enqowner[1:0]
+   257/658: $6\evenq[1:0]
+   258/658: $6\outstanding[15:0]
+   259/658: $6\qlen[3:0]
+   260/658: $6\nextid[31:0]
+   261/658: $3$mem2reg_wr$\qi$receiver.v:81$14_DATA[31:0]$167
+   262/658: $3$mem2reg_wr$\qi$receiver.v:81$14_ADDR[2:0]$166
+   263/658: $3$mem2reg_wr$\qo$receiver.v:81$13_DATA[1:0]$165
+   264/658: $3$mem2reg_wr$\qo$receiver.v:81$13_ADDR[2:0]$164
+   265/658: $6\qi[7][31:0]
+   266/658: $6\qi[6][31:0]
+   267/658: $6\qi[5][31:0]
+   268/658: $6\qi[4][31:0]
+   269/658: $6\qi[3][31:0]
+   270/658: $6\qi[2][31:0]
+   271/658: $6\qi[1][31:0]
+   272/658: $6\qi[0][31:0]
+   273/658: $6\qo[7][1:0]
+   274/658: $6\qo[6][1:0]
+   275/658: $6\qo[5][1:0]
+   276/658: $6\qo[4][1:0]
+   277/658: $6\qo[3][1:0]
+   278/658: $6\qo[2][1:0]
+   279/658: $6\qo[1][1:0]
+   280/658: $6\qo[0][1:0]
+   281/658: $3$bitselwrite$pos$receiver.v:83$8[31:0]$163
+   282/658: $6\enqid2[31:0]
+   283/658: $6\enqowner2[1:0]
+   284/658: $6\enqid[31:0]
+   285/658: $6\enqowner[1:0]
+   286/658: $5\evenq[1:0]
+   287/658: $16\fault[31:0]
+   288/658: $5\outstanding[15:0]
+   289/658: $5\qlen[3:0]
+   290/658: $5\nextid[31:0]
+   291/658: $8\releaseowner[1:0]
+   292/658: $8\releasevalid[0:0]
+   293/658: $7\releaseowner[1:0]
+   294/658: $7\releasevalid[0:0]
+   295/658: $6\releaseowner[1:0]
+   296/658: $6\releasevalid[0:0]
+   297/658: $15\fault[31:0]
+   298/658: $5\qi[0][31:0]
+   299/658: $5\qi[7][31:0]
+   300/658: $5\qi[6][31:0]
+   301/658: $5\qi[5][31:0]
+   302/658: $5\qi[4][31:0]
+   303/658: $5\qi[3][31:0]
+   304/658: $5\qi[2][31:0]
+   305/658: $5\qi[1][31:0]
+   306/658: $5\qo[0][1:0]
+   307/658: $5\qo[7][1:0]
+   308/658: $5\qo[6][1:0]
+   309/658: $5\qo[5][1:0]
+   310/658: $5\qo[4][1:0]
+   311/658: $5\qo[3][1:0]
+   312/658: $5\qo[2][1:0]
+   313/658: $5\qo[1][1:0]
+   314/658: $5\enqid[31:0]
+   315/658: $5\enqowner[1:0]
+   316/658: $5\enqid2[31:0]
+   317/658: $5\enqowner2[1:0]
+   318/658: $14\fault[31:0]
+   319/658: $4$mem2reg_wr$\qi$receiver.v:81$12_DATA[31:0]$126
+   320/658: $4$mem2reg_wr$\qi$receiver.v:81$12_ADDR[2:0]$125
+   321/658: $4$mem2reg_wr$\qo$receiver.v:81$11_DATA[1:0]$124
+   322/658: $4$mem2reg_wr$\qo$receiver.v:81$11_ADDR[2:0]$123
+   323/658: $4\qi[7][31:0]
+   324/658: $4\qi[6][31:0]
+   325/658: $4\qi[5][31:0]
+   326/658: $4\qi[4][31:0]
+   327/658: $4\qi[3][31:0]
+   328/658: $4\qi[2][31:0]
+   329/658: $4\qi[1][31:0]
+   330/658: $4\qi[0][31:0]
+   331/658: $4\qo[7][1:0]
+   332/658: $4\qo[6][1:0]
+   333/658: $4\qo[5][1:0]
+   334/658: $4\qo[4][1:0]
+   335/658: $4\qo[3][1:0]
+   336/658: $4\qo[2][1:0]
+   337/658: $4\qo[1][1:0]
+   338/658: $4\qo[0][1:0]
+   339/658: $4$bitselwrite$pos$receiver.v:83$7[31:0]$122
+   340/658: $4\enqid2[31:0]
+   341/658: $4\enqowner2[1:0]
+   342/658: $4\enqid[31:0]
+   343/658: $4\enqowner[1:0]
+   344/658: $4\evenq[1:0]
+   345/658: $4\outstanding[15:0]
+   346/658: $4\qlen[3:0]
+   347/658: $4\nextid[31:0]
+   348/658: $3$mem2reg_wr$\qi$receiver.v:81$12_DATA[31:0]$120
+   349/658: $3$mem2reg_wr$\qi$receiver.v:81$12_ADDR[2:0]$119
+   350/658: $3$mem2reg_wr$\qo$receiver.v:81$11_DATA[1:0]$118
+   351/658: $3$mem2reg_wr$\qo$receiver.v:81$11_ADDR[2:0]$117
+   352/658: $3\qi[7][31:0]
+   353/658: $3\qi[6][31:0]
+   354/658: $3\qi[5][31:0]
+   355/658: $3\qi[4][31:0]
+   356/658: $3\qi[3][31:0]
+   357/658: $3\qi[2][31:0]
+   358/658: $3\qi[1][31:0]
+   359/658: $3\qi[0][31:0]
+   360/658: $3\qo[7][1:0]
+   361/658: $3\qo[6][1:0]
+   362/658: $3\qo[5][1:0]
+   363/658: $3\qo[4][1:0]
+   364/658: $3\qo[3][1:0]
+   365/658: $3\qo[2][1:0]
+   366/658: $3\qo[1][1:0]
+   367/658: $3\qo[0][1:0]
+   368/658: $3$bitselwrite$pos$receiver.v:83$7[31:0]$116
+   369/658: $3\enqid2[31:0]
+   370/658: $3\enqowner2[1:0]
+   371/658: $3\enqid[31:0]
+   372/658: $3\enqowner[1:0]
+   373/658: $3\evenq[1:0]
+   374/658: $13\fault[31:0]
+   375/658: $3\outstanding[15:0]
+   376/658: $3\qlen[3:0]
+   377/658: $3\nextid[31:0]
+   378/658: $5\releaseowner[1:0]
+   379/658: $5\releasevalid[0:0]
+   380/658: $4\releaseowner[1:0]
+   381/658: $4\releasevalid[0:0]
+   382/658: $3\releaseowner[1:0]
+   383/658: $3\releasevalid[0:0]
+   384/658: $3\evexpire[3:0] [3]
+   385/658: $19\enabled[3:3]
+   386/658: $15\valid[3:3]
+   387/658: $12\fault[31:0]
+   388/658: $14\evexpire[3:3]
+   389/658: $15\counts[63:48]
+   390/658: $18\enabled[3:3]
+   391/658: $14\valid[3:3]
+   392/658: $13\evexpire[3:3]
+   393/658: $11\fault[31:0]
+   394/658: $14\counts[63:48]
+   395/658: $17\enabled[3:3]
+   396/658: $13\valid[3:3]
+   397/658: $12\evexpire[2:2]
+   398/658: $16\enabled[2:2]
+   399/658: $12\valid[2:2]
+   400/658: $10\fault[31:0]
+   401/658: $11\evexpire[2:2]
+   402/658: $13\counts[47:32]
+   403/658: $15\enabled[2:2]
+   404/658: $11\valid[2:2]
+   405/658: $10\evexpire[2:2]
+   406/658: $9\fault[31:0]
+   407/658: $12\counts[47:32]
+   408/658: $14\enabled[2:2]
+   409/658: $10\valid[2:2]
+   410/658: $9\evexpire[1:1]
+   411/658: $13\enabled[1:1]
+   412/658: $9\valid[1:1]
+   413/658: $8\fault[31:0]
+   414/658: $8\evexpire[1:1]
+   415/658: $11\counts[31:16]
+   416/658: $12\enabled[1:1]
+   417/658: $8\valid[1:1]
+   418/658: $7\evexpire[1:1]
+   419/658: $7\fault[31:0]
+   420/658: $10\counts[31:16]
+   421/658: $11\enabled[1:1]
+   422/658: $7\valid[1:1]
+   423/658: $6\evexpire[0:0]
+   424/658: $10\enabled[0:0]
+   425/658: $6\valid[0:0]
+   426/658: $6\fault[31:0]
+   427/658: $5\evexpire[0:0]
+   428/658: $9\counts[15:0]
+   429/658: $9\enabled[0:0]
+   430/658: $5\valid[0:0]
+   431/658: $4\evexpire[0:0]
+   432/658: $5\fault[31:0]
+   433/658: $8\counts[15:0]
+   434/658: $8\enabled[0:0]
+   435/658: $4\valid[0:0]
+   436/658: $3\j[31:0]
+   437/658: $3\evexpire[3:0] [2]
+   438/658: $4\fault[31:0]
+   439/658: $7\counts[63:0] [47:32]
+   440/658: $7\enabled[3:0] [2]
+   441/658: $3\valid[3:0] [2]
+   442/658: $3\evexpire[3:0] [1]
+   443/658: $7\counts[63:0] [31:16]
+   444/658: $7\enabled[3:0] [1]
+   445/658: $3\valid[3:0] [1]
+   446/658: $3\evexpire[3:0] [0]
+   447/658: $7\counts[63:0] [15:0]
+   448/658: $7\enabled[3:0] [0]
+   449/658: $3\valid[3:0] [0]
+   450/658: $7\counts[63:0] [63:48]
+   451/658: $7\enabled[3:0] [3]
+   452/658: $3\valid[3:0] [3]
+   453/658: $15\evexpire[3:3]
+   454/658: $6\evwu[3:3]
+   455/658: $6\counts[63:48]
+   456/658: $6\enabled[3:3]
+   457/658: $6\bytes[31:24]
+   458/658: $5\evwu[2:2]
+   459/658: $5\counts[47:32]
+   460/658: $5\enabled[2:2]
+   461/658: $5\bytes[23:16]
+   462/658: $4\evwu[1:1]
+   463/658: $4\counts[31:16]
+   464/658: $4\enabled[1:1]
+   465/658: $4\bytes[15:8]
+   466/658: $3\evwu[0:0]
+   467/658: $3\counts[15:0]
+   468/658: $3\enabled[0:0]
+   469/658: $3\bytes[7:0]
+   470/658: $2\pp[15:0]
+   471/658: $2\fp[15:0]
+   472/658: $2\rp[15:0]
+   473/658: $2\cp[15:0]
+   474/658: $2\tick[31:0]
+   475/658: $3\fault[31:0]
+   476/658: $2\tokens3[3:0]
+   477/658: $2\tokens2[3:0]
+   478/658: $2\tokens1[3:0]
+   479/658: $2\tokens0[3:0]
+   480/658: $2\j[31:0]
+   481/658: $2$bitselwrite$pos$receiver.v:110$10[31:0]$73
+   482/658: $2\transferbyte[7:0]
+   483/658: $2\emitbyte[7:0]
+   484/658: $2\blockid[31:0]
+   485/658: $2\callbackid[31:0]
+   486/658: $2\transferid[31:0]
+   487/658: $2\emitid[31:0]
+   488/658: $2\blockowner[1:0]
+   489/658: $2\callbackowner[1:0]
+   490/658: $2\transferowner[1:0]
+   491/658: $2\emitowner[1:0]
+   492/658: $2\evblock[0:0]
+   493/658: $2\evcallback[0:0]
+   494/658: $2\evtransfer[0:0]
+   495/658: $2\evemit[0:0]
+   496/658: $2\byteone[7:0]
+   497/658: $2\idone[31:0]
+   498/658: $2\ownerone[1:0]
+   499/658: $2\rone[0:0]
+   500/658: $2\rzero[0:0]
+   501/658: $2\outstanding[15:0]
+   502/658: $2\qi[7][31:0]
+   503/658: $2\qi[6][31:0]
+   504/658: $2\qi[5][31:0]
+   505/658: $2\qi[4][31:0]
+   506/658: $2\qi[3][31:0]
+   507/658: $2\qi[2][31:0]
+   508/658: $2\qi[1][31:0]
+   509/658: $2\qi[0][31:0]
+   510/658: $2\qo[7][1:0]
+   511/658: $2\qo[6][1:0]
+   512/658: $2\qo[5][1:0]
+   513/658: $2\qo[4][1:0]
+   514/658: $2\qo[3][1:0]
+   515/658: $2\qo[2][1:0]
+   516/658: $2\qo[1][1:0]
+   517/658: $2\qo[0][1:0]
+   518/658: $2$bitselwrite$pos$receiver.v:93$9[1:0]$72
+   519/658: $2\grantbyte[7:0]
+   520/658: $2\grantid[31:0]
+   521/658: $2\attemptid[31:0]
+   522/658: $2\grantowner[1:0]
+   523/658: $2\attemptowner[1:0]
+   524/658: $2\evgrant[0:0]
+   525/658: $2\evattempt[0:0]
+   526/658: $2\evcancel[3:0]
+   527/658: $2\failowner[1:0]
+   528/658: $2\failid[31:0]
+   529/658: $2\failtick[31:0]
+   530/658: $2\failed[0:0]
+   531/658: $2\bytezero[7:0]
+   532/658: $2\idzero[31:0]
+   533/658: $2\ownerzero[1:0]
+   534/658: $2\qlen[3:0]
+   535/658: $2\k[31:0]
+   536/658: $2$mem2reg_wr$\qi$receiver.v:81$14_DATA[31:0]$81
+   537/658: $2$mem2reg_wr$\qi$receiver.v:81$14_ADDR[2:0]$80
+   538/658: $2$mem2reg_wr$\qo$receiver.v:81$13_DATA[1:0]$79
+   539/658: $2$mem2reg_wr$\qo$receiver.v:81$13_ADDR[2:0]$78
+   540/658: $2$bitselwrite$pos$receiver.v:83$8[31:0]$71
+   541/658: $2\enqid2[31:0]
+   542/658: $2\enqowner2[1:0]
+   543/658: $2\enqid[31:0]
+   544/658: $2\enqowner[1:0]
+   545/658: $2\evenq[1:0]
+   546/658: $2\nextid[31:0]
+   547/658: $2\releasevalid[0:0]
+   548/658: $2\releaseowner[1:0]
+   549/658: $2$mem2reg_wr$\qi$receiver.v:81$12_DATA[31:0]$77
+   550/658: $2$mem2reg_wr$\qi$receiver.v:81$12_ADDR[2:0]$76
+   551/658: $2$mem2reg_wr$\qo$receiver.v:81$11_DATA[1:0]$75
+   552/658: $2$mem2reg_wr$\qo$receiver.v:81$11_ADDR[2:0]$74
+   553/658: $2$bitselwrite$pos$receiver.v:83$7[31:0]$70
+   554/658: $2\evexpire[3:0]
+   555/658: $2\counts[63:0]
+   556/658: $2\enabled[3:0]
+   557/658: $2\valid[3:0]
+   558/658: $2\evwu[3:0] [2]
+   559/658: $2\bytes[31:0] [23:16]
+   560/658: $2\evwu[3:0] [1]
+   561/658: $2\bytes[31:0] [15:8]
+   562/658: $2\evwu[3:0] [0]
+   563/658: $2\bytes[31:0] [7:0]
+   564/658: $2\bytes[31:0] [31:24]
+   565/658: $3\pp[15:0]
+   566/658: $2\entryzero[0:0]
+   567/658: $2\fault[31:0]
+   568/658: $1\fault[31:0]
+   569/658: $1\tokens3[3:0]
+   570/658: $1\tokens2[3:0]
+   571/658: $1\tokens1[3:0]
+   572/658: $1\tokens0[3:0]
+   573/658: $1\releasevalid[0:0]
+   574/658: $1\releaseowner[1:0]
+   575/658: $1\entryzero[0:0]
+   576/658: $1\enqid2[31:0]
+   577/658: $1\enqowner2[1:0]
+   578/658: $1\transferbyte[7:0]
+   579/658: $1\emitbyte[7:0]
+   580/658: $1\grantbyte[7:0]
+   581/658: $1\blockid[31:0]
+   582/658: $1\callbackid[31:0]
+   583/658: $1\transferid[31:0]
+   584/658: $1\emitid[31:0]
+   585/658: $1\grantid[31:0]
+   586/658: $1\attemptid[31:0]
+   587/658: $1\enqid[31:0]
+   588/658: $1\blockowner[1:0]
+   589/658: $1\callbackowner[1:0]
+   590/658: $1\transferowner[1:0]
+   591/658: $1\emitowner[1:0]
+   592/658: $1\grantowner[1:0]
+   593/658: $1\attemptowner[1:0]
+   594/658: $1\enqowner[1:0]
+   595/658: $1\evblock[0:0]
+   596/658: $1\evcallback[0:0]
+   597/658: $1\evtransfer[0:0]
+   598/658: $1\evemit[0:0]
+   599/658: $1\evgrant[0:0]
+   600/658: $1\evattempt[0:0]
+   601/658: $1\evenq[1:0]
+   602/658: $1\evcancel[3:0]
+   603/658: $1\evexpire[3:0]
+   604/658: $1\evwu[3:0]
+   605/658: $1\failowner[1:0]
+   606/658: $1\failid[31:0]
+   607/658: $1\failtick[31:0]
+   608/658: $1\failed[0:0]
+   609/658: $1\byteone[7:0]
+   610/658: $1\bytezero[7:0]
+   611/658: $1\idone[31:0]
+   612/658: $1\idzero[31:0]
+   613/658: $1\ownerone[1:0]
+   614/658: $1\ownerzero[1:0]
+   615/658: $1\rone[0:0]
+   616/658: $1\rzero[0:0]
+   617/658: $1\j[31:0]
+   618/658: $1\qi[7][31:0]
+   619/658: $1\qo[7][1:0]
+   620/658: $1\qi[6][31:0]
+   621/658: $1\qo[6][1:0]
+   622/658: $1\qi[5][31:0]
+   623/658: $1\qo[5][1:0]
+   624/658: $1\qi[4][31:0]
+   625/658: $1\qo[4][1:0]
+   626/658: $1\qi[3][31:0]
+   627/658: $1\qo[3][1:0]
+   628/658: $1\qi[2][31:0]
+   629/658: $1\qo[2][1:0]
+   630/658: $1\qi[1][31:0]
+   631/658: $1\qo[1][1:0]
+   632/658: $1\qi[0][31:0]
+   633/658: $1\qo[0][1:0]
+   634/658: $1\outstanding[15:0]
+   635/658: $1\qlen[3:0]
+   636/658: $1\bytes[31:0]
+   637/658: $1\counts[63:0]
+   638/658: $1\enabled[3:0]
+   639/658: $1\valid[3:0]
+   640/658: $1\pp[15:0]
+   641/658: $1\fp[15:0]
+   642/658: $1\rp[15:0]
+   643/658: $1\cp[15:0]
+   644/658: $1\nextid[31:0]
+   645/658: $1\tick[31:0]
+   646/658: $1$mem2reg_wr$\qi$receiver.v:81$14_DATA[31:0]$39
+   647/658: $1$mem2reg_wr$\qi$receiver.v:81$14_ADDR[2:0]$38
+   648/658: $1$mem2reg_wr$\qo$receiver.v:81$13_DATA[1:0]$37
+   649/658: $1$mem2reg_wr$\qo$receiver.v:81$13_ADDR[2:0]$36
+   650/658: $1$mem2reg_wr$\qi$receiver.v:81$12_DATA[31:0]$35
+   651/658: $1$mem2reg_wr$\qi$receiver.v:81$12_ADDR[2:0]$34
+   652/658: $1$mem2reg_wr$\qo$receiver.v:81$11_DATA[1:0]$33
+   653/658: $1$mem2reg_wr$\qo$receiver.v:81$11_ADDR[2:0]$32
+   654/658: $1$bitselwrite$pos$receiver.v:110$10[31:0]$31
+   655/658: $1$bitselwrite$pos$receiver.v:93$9[1:0]$30
+   656/658: $1$bitselwrite$pos$receiver.v:83$8[31:0]$29
+   657/658: $1$bitselwrite$pos$receiver.v:83$7[31:0]$28
+   658/658: $1\k[31:0]
+
+3.2.8. Executing PROC_DLATCH pass (convert process syncs to latches).
+
+3.2.9. Executing PROC_DFF pass (convert process syncs to FFs).
+Creating register for signal `\receiver.\tick' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6738' with positive edge clock.
+Creating register for signal `\receiver.\nextid' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6739' with positive edge clock.
+Creating register for signal `\receiver.\cp' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6740' with positive edge clock.
+Creating register for signal `\receiver.\rp' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6741' with positive edge clock.
+Creating register for signal `\receiver.\fp' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6742' with positive edge clock.
+Creating register for signal `\receiver.\pp' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6743' with positive edge clock.
+Creating register for signal `\receiver.\valid' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6744' with positive edge clock.
+Creating register for signal `\receiver.\enabled' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6745' with positive edge clock.
+Creating register for signal `\receiver.\counts' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6746' with positive edge clock.
+Creating register for signal `\receiver.\bytes' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6747' with positive edge clock.
+Creating register for signal `\receiver.\qlen' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6748' with positive edge clock.
+Creating register for signal `\receiver.\outstanding' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6749' with positive edge clock.
+Creating register for signal `\receiver.\rzero' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6750' with positive edge clock.
+Creating register for signal `\receiver.\rone' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6751' with positive edge clock.
+Creating register for signal `\receiver.\ownerzero' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6752' with positive edge clock.
+Creating register for signal `\receiver.\ownerone' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6753' with positive edge clock.
+Creating register for signal `\receiver.\idzero' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6754' with positive edge clock.
+Creating register for signal `\receiver.\idone' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6755' with positive edge clock.
+Creating register for signal `\receiver.\bytezero' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6756' with positive edge clock.
+Creating register for signal `\receiver.\byteone' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6757' with positive edge clock.
+Creating register for signal `\receiver.\failed' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6758' with positive edge clock.
+Creating register for signal `\receiver.\failtick' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6759' with positive edge clock.
+Creating register for signal `\receiver.\failid' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6760' with positive edge clock.
+Creating register for signal `\receiver.\fault' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6761' with positive edge clock.
+Creating register for signal `\receiver.\failowner' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6762' with positive edge clock.
+Creating register for signal `\receiver.\evwu' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6763' with positive edge clock.
+Creating register for signal `\receiver.\evexpire' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6764' with positive edge clock.
+Creating register for signal `\receiver.\evcancel' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6765' with positive edge clock.
+Creating register for signal `\receiver.\evenq' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6766' with positive edge clock.
+Creating register for signal `\receiver.\evattempt' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6767' with positive edge clock.
+Creating register for signal `\receiver.\evgrant' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6768' with positive edge clock.
+Creating register for signal `\receiver.\evemit' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6769' with positive edge clock.
+Creating register for signal `\receiver.\evtransfer' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6770' with positive edge clock.
+Creating register for signal `\receiver.\evcallback' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6771' with positive edge clock.
+Creating register for signal `\receiver.\evblock' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6772' with positive edge clock.
+Creating register for signal `\receiver.\enqowner' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6773' with positive edge clock.
+Creating register for signal `\receiver.\attemptowner' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6774' with positive edge clock.
+Creating register for signal `\receiver.\grantowner' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6775' with positive edge clock.
+Creating register for signal `\receiver.\emitowner' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6776' with positive edge clock.
+Creating register for signal `\receiver.\transferowner' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6777' with positive edge clock.
+Creating register for signal `\receiver.\callbackowner' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6778' with positive edge clock.
+Creating register for signal `\receiver.\blockowner' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6779' with positive edge clock.
+Creating register for signal `\receiver.\enqid' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6780' with positive edge clock.
+Creating register for signal `\receiver.\attemptid' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6781' with positive edge clock.
+Creating register for signal `\receiver.\grantid' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6782' with positive edge clock.
+Creating register for signal `\receiver.\emitid' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6783' with positive edge clock.
+Creating register for signal `\receiver.\transferid' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6784' with positive edge clock.
+Creating register for signal `\receiver.\callbackid' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6785' with positive edge clock.
+Creating register for signal `\receiver.\blockid' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6786' with positive edge clock.
+Creating register for signal `\receiver.\enqowner2' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6787' with positive edge clock.
+Creating register for signal `\receiver.\enqid2' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6788' with positive edge clock.
+Creating register for signal `\receiver.\grantbyte' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6789' with positive edge clock.
+Creating register for signal `\receiver.\emitbyte' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6790' with positive edge clock.
+Creating register for signal `\receiver.\transferbyte' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6791' with positive edge clock.
+Creating register for signal `\receiver.\entryzero' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6792' with positive edge clock.
+Creating register for signal `\receiver.\releaseowner' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6793' with positive edge clock.
+Creating register for signal `\receiver.\releasevalid' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6794' with positive edge clock.
+Creating register for signal `\receiver.\j' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6795' with positive edge clock.
+Creating register for signal `\receiver.\k' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6796' with positive edge clock.
+Creating register for signal `\receiver.\tokens0' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6797' with positive edge clock.
+Creating register for signal `\receiver.\tokens1' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6798' with positive edge clock.
+Creating register for signal `\receiver.\tokens2' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6799' with positive edge clock.
+Creating register for signal `\receiver.\tokens3' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6800' with positive edge clock.
+Creating register for signal `\receiver.$bitselwrite$pos$receiver.v:83$7' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6801' with positive edge clock.
+Creating register for signal `\receiver.$bitselwrite$pos$receiver.v:83$8' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6802' with positive edge clock.
+Creating register for signal `\receiver.$bitselwrite$pos$receiver.v:93$9' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6803' with positive edge clock.
+Creating register for signal `\receiver.$bitselwrite$pos$receiver.v:110$10' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6804' with positive edge clock.
+Creating register for signal `\receiver.\qo[0]' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6805' with positive edge clock.
+Creating register for signal `\receiver.\qo[1]' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6806' with positive edge clock.
+Creating register for signal `\receiver.\qo[2]' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6807' with positive edge clock.
+Creating register for signal `\receiver.\qo[3]' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6808' with positive edge clock.
+Creating register for signal `\receiver.\qo[4]' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6809' with positive edge clock.
+Creating register for signal `\receiver.\qo[5]' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6810' with positive edge clock.
+Creating register for signal `\receiver.\qo[6]' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6811' with positive edge clock.
+Creating register for signal `\receiver.\qo[7]' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6812' with positive edge clock.
+Creating register for signal `\receiver.\qi[0]' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6813' with positive edge clock.
+Creating register for signal `\receiver.\qi[1]' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6814' with positive edge clock.
+Creating register for signal `\receiver.\qi[2]' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6815' with positive edge clock.
+Creating register for signal `\receiver.\qi[3]' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6816' with positive edge clock.
+Creating register for signal `\receiver.\qi[4]' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6817' with positive edge clock.
+Creating register for signal `\receiver.\qi[5]' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6818' with positive edge clock.
+Creating register for signal `\receiver.\qi[6]' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6819' with positive edge clock.
+Creating register for signal `\receiver.\qi[7]' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6820' with positive edge clock.
+Creating register for signal `\receiver.$mem2reg_wr$\qo$receiver.v:81$11_ADDR' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6821' with positive edge clock.
+Creating register for signal `\receiver.$mem2reg_wr$\qo$receiver.v:81$11_DATA' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6822' with positive edge clock.
+Creating register for signal `\receiver.$mem2reg_wr$\qi$receiver.v:81$12_ADDR' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6823' with positive edge clock.
+Creating register for signal `\receiver.$mem2reg_wr$\qi$receiver.v:81$12_DATA' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6824' with positive edge clock.
+Creating register for signal `\receiver.$mem2reg_wr$\qo$receiver.v:81$13_ADDR' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6825' with positive edge clock.
+Creating register for signal `\receiver.$mem2reg_wr$\qo$receiver.v:81$13_DATA' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6826' with positive edge clock.
+Creating register for signal `\receiver.$mem2reg_wr$\qi$receiver.v:81$14_ADDR' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6827' with positive edge clock.
+Creating register for signal `\receiver.$mem2reg_wr$\qi$receiver.v:81$14_DATA' using process `\receiver.$proc$receiver.v:42$15'.
+  created $dff cell `$procdff$6828' with positive edge clock.
+
+3.2.10. Executing PROC_MEMWR pass (convert process memory writes to cells).
+
+3.2.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Found and cleaned up 72 empty switches in `\receiver.$proc$receiver.v:42$15'.
+Removing empty process `receiver.$proc$receiver.v:42$15'.
+Cleaned up 72 empty switches.
+
+3.2.12. Executing OPT_EXPR pass (perform const folding).
+Optimizing module receiver.
+<suppressed ~213 debug messages>
+
+3.3. Executing FUTURE pass.
+
+3.4. Executing OPT_EXPR pass (perform const folding).
+Optimizing module receiver.
+
+3.5. Executing CHECK pass (checking for obvious problems).
+Checking module receiver...
+Found and reported 0 problems.
+
+3.6. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \receiver..
+Removed 194 unused cells and 2959 unused wires.
+<suppressed ~204 debug messages>
+
+3.7. Executing OPT pass (performing simple optimizations).
+
+3.7.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module receiver.
+
+3.7.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\receiver'.
+Computing hashes of 2562 cells of `\receiver'.
+Finding duplicate cells in `\receiver'.
+Computing hashes of 2188 cells of `\receiver'.
+Finding duplicate cells in `\receiver'.
+Computing hashes of 2182 cells of `\receiver'.
+Finding duplicate cells in `\receiver'.
+Computing hashes of 2179 cells of `\receiver'.
+Finding duplicate cells in `\receiver'.
+<suppressed ~1149 debug messages>
+Removed a total of 383 cells.
+
+3.7.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \receiver..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+      Replacing known input bits on port A of cell $procmux$4972: $6\enabled[3:3] -> 1'0
+      Replacing known input bits on port B of cell $procmux$4907: $6\enabled[3:3] -> 1'1
+      Replacing known input bits on port A of cell $procmux$4826: $6\enabled[3:3] -> 1'1
+      Replacing known input bits on port A of cell $procmux$5539: $3\enabled[0:0] -> 1'0
+      Replacing known input bits on port B of cell $procmux$5474: $3\enabled[0:0] -> 1'1
+      Replacing known input bits on port A of cell $procmux$5393: $3\enabled[0:0] -> 1'1
+      Replacing known input bits on port A of cell $procmux$5350: $4\enabled[1:1] -> 1'0
+      Replacing known input bits on port B of cell $procmux$5285: $4\enabled[1:1] -> 1'1
+      Replacing known input bits on port A of cell $procmux$5204: $4\enabled[1:1] -> 1'1
+      Replacing known input bits on port A of cell $procmux$5161: $5\enabled[2:2] -> 1'0
+      Replacing known input bits on port B of cell $procmux$5096: $5\enabled[2:2] -> 1'1
+      Replacing known input bits on port A of cell $procmux$5015: $5\enabled[2:2] -> 1'1
+      Replacing known input bits on port A of cell $procmux$1717: \rone -> 1'0
+      Replacing known input bits on port A of cell $procmux$1514: \rone -> 1'1
+  Analyzing evaluation results.
+    dead port 2/2 on $mux $procmux$5163.
+    dead port 1/2 on $mux $procmux$5156.
+    dead port 2/2 on $mux $procmux$5153.
+    dead port 2/2 on $mux $procmux$5151.
+    dead port 1/2 on $mux $procmux$5132.
+    dead port 2/2 on $mux $procmux$5129.
+    dead port 2/2 on $mux $procmux$5127.
+    dead port 1/2 on $mux $procmux$5120.
+    dead port 2/2 on $mux $procmux$5117.
+    dead port 2/2 on $mux $procmux$5115.
+    dead port 2/2 on $mux $procmux$5113.
+    dead port 1/2 on $mux $procmux$5105.
+    dead port 2/2 on $mux $procmux$5102.
+    dead port 2/2 on $mux $procmux$5100.
+    dead port 2/2 on $mux $procmux$5098.
+    dead port 1/2 on $mux $procmux$5090.
+    dead port 2/2 on $mux $procmux$5087.
+    dead port 2/2 on $mux $procmux$5085.
+    dead port 2/2 on $mux $procmux$5083.
+    dead port 1/2 on $mux $procmux$5075.
+    dead port 2/2 on $mux $procmux$5072.
+    dead port 2/2 on $mux $procmux$5070.
+    dead port 2/2 on $mux $procmux$5068.
+    dead port 1/2 on $mux $procmux$5060.
+    dead port 2/2 on $mux $procmux$5057.
+    dead port 2/2 on $mux $procmux$5055.
+    dead port 2/2 on $mux $procmux$5053.
+    dead port 1/2 on $mux $procmux$5045.
+    dead port 2/2 on $mux $procmux$5042.
+    dead port 2/2 on $mux $procmux$5040.
+    dead port 2/2 on $mux $procmux$5038.
+    dead port 1/2 on $mux $procmux$5036.
+    dead port 1/2 on $mux $procmux$5027.
+    dead port 2/2 on $mux $procmux$5024.
+    dead port 2/2 on $mux $procmux$5022.
+    dead port 2/2 on $mux $procmux$5020.
+    dead port 1/2 on $mux $procmux$5018.
+    dead port 1/2 on $mux $procmux$5009.
+    dead port 2/2 on $mux $procmux$5006.
+    dead port 2/2 on $mux $procmux$5004.
+    dead port 2/2 on $mux $procmux$5002.
+    dead port 1/2 on $mux $procmux$5000.
+    dead port 1/2 on $mux $procmux$4991.
+    dead port 2/2 on $mux $procmux$4988.
+    dead port 2/2 on $mux $procmux$4986.
+    dead port 1/2 on $mux $procmux$4979.
+    dead port 2/2 on $mux $procmux$4976.
+    dead port 2/2 on $mux $procmux$4974.
+    dead port 1/2 on $mux $procmux$4967.
+    dead port 2/2 on $mux $procmux$4964.
+    dead port 2/2 on $mux $procmux$4962.
+    dead port 1/2 on $mux $procmux$4955.
+    dead port 2/2 on $mux $procmux$4952.
+    dead port 2/2 on $mux $procmux$4950.
+    dead port 1/2 on $mux $procmux$4943.
+    dead port 2/2 on $mux $procmux$4940.
+    dead port 2/2 on $mux $procmux$4938.
+    dead port 1/2 on $mux $procmux$4931.
+    dead port 2/2 on $mux $procmux$4928.
+    dead port 2/2 on $mux $procmux$4926.
+    dead port 2/2 on $mux $procmux$4924.
+    dead port 1/2 on $mux $procmux$4916.
+    dead port 2/2 on $mux $procmux$4913.
+    dead port 2/2 on $mux $procmux$4911.
+    dead port 2/2 on $mux $procmux$4909.
+    dead port 1/2 on $mux $procmux$4901.
+    dead port 2/2 on $mux $procmux$4898.
+    dead port 2/2 on $mux $procmux$4896.
+    dead port 2/2 on $mux $procmux$4894.
+    dead port 1/2 on $mux $procmux$4886.
+    dead port 2/2 on $mux $procmux$4883.
+    dead port 2/2 on $mux $procmux$4881.
+    dead port 2/2 on $mux $procmux$4879.
+    dead port 1/2 on $mux $procmux$4871.
+    dead port 2/2 on $mux $procmux$4868.
+    dead port 2/2 on $mux $procmux$4866.
+    dead port 2/2 on $mux $procmux$4864.
+    dead port 1/2 on $mux $procmux$4856.
+    dead port 2/2 on $mux $procmux$4853.
+    dead port 2/2 on $mux $procmux$4851.
+    dead port 2/2 on $mux $procmux$4849.
+    dead port 1/2 on $mux $procmux$4847.
+    dead port 1/2 on $mux $procmux$4838.
+    dead port 2/2 on $mux $procmux$4835.
+    dead port 2/2 on $mux $procmux$4833.
+    dead port 2/2 on $mux $procmux$4831.
+    dead port 1/2 on $mux $procmux$4829.
+    dead port 1/2 on $mux $procmux$4820.
+    dead port 2/2 on $mux $procmux$4817.
+    dead port 1/2 on $mux $procmux$4811.
+    dead port 2/2 on $mux $procmux$4808.
+    dead port 1/2 on $mux $procmux$4802.
+    dead port 2/2 on $mux $procmux$4799.
+    dead port 1/2 on $mux $procmux$4793.
+    dead port 2/2 on $mux $procmux$4790.
+    dead port 1/2 on $mux $procmux$4784.
+    dead port 2/2 on $mux $procmux$4781.
+    dead port 1/2 on $mux $procmux$4712.
+    dead port 2/2 on $mux $procmux$4709.
+    dead port 1/2 on $mux $procmux$4703.
+    dead port 2/2 on $mux $procmux$4700.
+    dead port 1/2 on $mux $procmux$4694.
+    dead port 2/2 on $mux $procmux$4691.
+    dead port 1/2 on $mux $procmux$4685.
+    dead port 2/2 on $mux $procmux$4682.
+    dead port 1/2 on $mux $procmux$4667.
+    dead port 2/2 on $mux $procmux$4664.
+    dead port 1/2 on $mux $procmux$4658.
+    dead port 2/2 on $mux $procmux$4655.
+    dead port 1/2 on $mux $procmux$4649.
+    dead port 2/2 on $mux $procmux$4646.
+    dead port 1/2 on $mux $procmux$4640.
+    dead port 2/2 on $mux $procmux$4637.
+    dead port 1/2 on $mux $procmux$4631.
+    dead port 2/2 on $mux $procmux$4628.
+    dead port 1/2 on $mux $procmux$4622.
+    dead port 2/2 on $mux $procmux$4619.
+    dead port 1/2 on $mux $procmux$4613.
+    dead port 2/2 on $mux $procmux$4610.
+    dead port 1/2 on $mux $procmux$4604.
+    dead port 2/2 on $mux $procmux$4601.
+    dead port 1/2 on $mux $procmux$4595.
+    dead port 2/2 on $mux $procmux$4592.
+    dead port 1/2 on $mux $procmux$4586.
+    dead port 2/2 on $mux $procmux$4583.
+    dead port 1/2 on $mux $procmux$4577.
+    dead port 2/2 on $mux $procmux$4574.
+    dead port 1/2 on $mux $procmux$4568.
+    dead port 2/2 on $mux $procmux$4565.
+    dead port 1/2 on $mux $procmux$4559.
+    dead port 2/2 on $mux $procmux$4556.
+    dead port 1/2 on $mux $procmux$4550.
+    dead port 2/2 on $mux $procmux$4547.
+    dead port 1/2 on $mux $procmux$4541.
+    dead port 2/2 on $mux $procmux$4538.
+    dead port 1/2 on $mux $procmux$4532.
+    dead port 2/2 on $mux $procmux$4529.
+    dead port 1/2 on $mux $procmux$6418.
+    dead port 1/2 on $mux $procmux$4487.
+    dead port 2/2 on $mux $procmux$4484.
+    dead port 2/2 on $mux $procmux$4482.
+    dead port 1/2 on $mux $procmux$4475.
+    dead port 2/2 on $mux $procmux$4472.
+    dead port 2/2 on $mux $procmux$4470.
+    dead port 1/2 on $mux $procmux$4463.
+    dead port 2/2 on $mux $procmux$4460.
+    dead port 2/2 on $mux $procmux$4458.
+    dead port 1/2 on $mux $procmux$4451.
+    dead port 2/2 on $mux $procmux$4448.
+    dead port 2/2 on $mux $procmux$4446.
+    dead port 1/2 on $mux $procmux$4439.
+    dead port 2/2 on $mux $procmux$4436.
+    dead port 2/2 on $mux $procmux$4434.
+    dead port 1/2 on $mux $procmux$4427.
+    dead port 2/2 on $mux $procmux$4424.
+    dead port 2/2 on $mux $procmux$4422.
+    dead port 1/2 on $mux $procmux$4415.
+    dead port 2/2 on $mux $procmux$4412.
+    dead port 2/2 on $mux $procmux$4410.
+    dead port 1/2 on $mux $procmux$4403.
+    dead port 2/2 on $mux $procmux$4400.
+    dead port 2/2 on $mux $procmux$4398.
+    dead port 1/2 on $mux $procmux$4379.
+    dead port 2/2 on $mux $procmux$4376.
+    dead port 2/2 on $mux $procmux$4374.
+    dead port 1/2 on $mux $procmux$4367.
+    dead port 2/2 on $mux $procmux$4364.
+    dead port 2/2 on $mux $procmux$4362.
+    dead port 1/2 on $mux $procmux$4355.
+    dead port 2/2 on $mux $procmux$4352.
+    dead port 2/2 on $mux $procmux$4350.
+    dead port 1/2 on $mux $procmux$4343.
+    dead port 2/2 on $mux $procmux$4340.
+    dead port 2/2 on $mux $procmux$4338.
+    dead port 1/2 on $mux $procmux$4331.
+    dead port 2/2 on $mux $procmux$4328.
+    dead port 2/2 on $mux $procmux$4326.
+    dead port 1/2 on $mux $procmux$4319.
+    dead port 2/2 on $mux $procmux$4316.
+    dead port 2/2 on $mux $procmux$4314.
+    dead port 1/2 on $mux $procmux$4307.
+    dead port 2/2 on $mux $procmux$4304.
+    dead port 2/2 on $mux $procmux$4302.
+    dead port 1/2 on $mux $procmux$4295.
+    dead port 2/2 on $mux $procmux$4292.
+    dead port 2/2 on $mux $procmux$4290.
+    dead port 1/2 on $mux $procmux$4283.
+    dead port 2/2 on $mux $procmux$4280.
+    dead port 2/2 on $mux $procmux$4278.
+    dead port 1/2 on $mux $procmux$4271.
+    dead port 2/2 on $mux $procmux$4268.
+    dead port 2/2 on $mux $procmux$4266.
+    dead port 1/2 on $mux $procmux$4259.
+    dead port 2/2 on $mux $procmux$4256.
+    dead port 2/2 on $mux $procmux$4254.
+    dead port 1/2 on $mux $procmux$4247.
+    dead port 2/2 on $mux $procmux$4244.
+    dead port 2/2 on $mux $procmux$4242.
+    dead port 1/2 on $mux $procmux$4235.
+    dead port 2/2 on $mux $procmux$4232.
+    dead port 2/2 on $mux $procmux$4230.
+    dead port 1/2 on $mux $procmux$4223.
+    dead port 2/2 on $mux $procmux$4220.
+    dead port 2/2 on $mux $procmux$4218.
+    dead port 1/2 on $mux $procmux$4211.
+    dead port 2/2 on $mux $procmux$4208.
+    dead port 2/2 on $mux $procmux$4206.
+    dead port 1/2 on $mux $procmux$4199.
+    dead port 2/2 on $mux $procmux$4196.
+    dead port 2/2 on $mux $procmux$4194.
+    dead port 1/2 on $mux $procmux$4139.
+    dead port 2/2 on $mux $procmux$4136.
+    dead port 2/2 on $mux $procmux$4134.
+    dead port 1/2 on $mux $procmux$4127.
+    dead port 2/2 on $mux $procmux$4124.
+    dead port 2/2 on $mux $procmux$4122.
+    dead port 1/2 on $mux $procmux$4120.
+    dead port 1/2 on $mux $procmux$4112.
+    dead port 2/2 on $mux $procmux$4109.
+    dead port 2/2 on $mux $procmux$4107.
+    dead port 1/2 on $mux $procmux$4105.
+    dead port 2/2 on $mux $procmux$6448.
+    dead port 1/2 on $mux $procmux$4097.
+    dead port 2/2 on $mux $procmux$4094.
+    dead port 2/2 on $mux $procmux$4092.
+    dead port 1/2 on $mux $procmux$4090.
+    dead port 1/2 on $mux $procmux$6451.
+    dead port 1/2 on $mux $procmux$4082.
+    dead port 2/2 on $mux $procmux$4079.
+    dead port 2/2 on $mux $procmux$4077.
+    dead port 1/2 on $mux $procmux$4075.
+    dead port 1/2 on $mux $procmux$4067.
+    dead port 2/2 on $mux $procmux$4064.
+    dead port 2/2 on $mux $procmux$4062.
+    dead port 1/2 on $mux $procmux$4060.
+    dead port 1/2 on $mux $procmux$4046.
+    dead port 2/2 on $mux $procmux$4043.
+    dead port 2/2 on $mux $procmux$4041.
+    dead port 1/2 on $mux $procmux$4039.
+    dead port 1/2 on $mux $procmux$6310.
+    dead port 1/2 on $mux $procmux$6304.
+    dead port 1/2 on $mux $procmux$4025.
+    dead port 2/2 on $mux $procmux$4022.
+    dead port 2/2 on $mux $procmux$4020.
+    dead port 1/2 on $mux $procmux$4018.
+    dead port 1/2 on $mux $procmux$4004.
+    dead port 2/2 on $mux $procmux$4001.
+    dead port 2/2 on $mux $procmux$3999.
+    dead port 1/2 on $mux $procmux$3997.
+    dead port 1/2 on $mux $procmux$6262.
+    dead port 1/2 on $mux $procmux$6256.
+    dead port 1/2 on $mux $procmux$6250.
+    dead port 1/2 on $mux $procmux$6244.
+    dead port 1/2 on $mux $procmux$3983.
+    dead port 2/2 on $mux $procmux$3980.
+    dead port 2/2 on $mux $procmux$3978.
+    dead port 1/2 on $mux $procmux$3976.
+    dead port 1/2 on $mux $procmux$6238.
+    dead port 1/2 on $mux $procmux$6232.
+    dead port 1/2 on $mux $procmux$6226.
+    dead port 1/2 on $mux $procmux$6220.
+    dead port 1/2 on $mux $procmux$3962.
+    dead port 2/2 on $mux $procmux$3959.
+    dead port 2/2 on $mux $procmux$3957.
+    dead port 1/2 on $mux $procmux$3955.
+    dead port 1/2 on $mux $procmux$6214.
+    dead port 1/2 on $mux $procmux$6208.
+    dead port 1/2 on $mux $procmux$6202.
+    dead port 1/2 on $mux $procmux$6196.
+    dead port 1/2 on $mux $procmux$3941.
+    dead port 2/2 on $mux $procmux$3938.
+    dead port 2/2 on $mux $procmux$3936.
+    dead port 1/2 on $mux $procmux$3934.
+    dead port 1/2 on $mux $procmux$6190.
+    dead port 1/2 on $mux $procmux$6184.
+    dead port 1/2 on $mux $procmux$6178.
+    dead port 1/2 on $mux $procmux$6172.
+    dead port 1/2 on $mux $procmux$3920.
+    dead port 2/2 on $mux $procmux$3917.
+    dead port 2/2 on $mux $procmux$3915.
+    dead port 1/2 on $mux $procmux$3913.
+    dead port 1/2 on $mux $procmux$6160.
+    dead port 1/2 on $mux $procmux$6154.
+    dead port 1/2 on $mux $procmux$6148.
+    dead port 1/2 on $mux $procmux$3899.
+    dead port 2/2 on $mux $procmux$3896.
+    dead port 2/2 on $mux $procmux$3894.
+    dead port 1/2 on $mux $procmux$3892.
+    dead port 1/2 on $mux $procmux$6142.
+    dead port 1/2 on $mux $procmux$6136.
+    dead port 1/2 on $mux $procmux$6130.
+    dead port 1/2 on $mux $procmux$6124.
+    dead port 1/2 on $mux $procmux$3878.
+    dead port 2/2 on $mux $procmux$3875.
+    dead port 2/2 on $mux $procmux$3873.
+    dead port 1/2 on $mux $procmux$3871.
+    dead port 1/2 on $mux $procmux$6118.
+    dead port 1/2 on $mux $procmux$6112.
+    dead port 1/2 on $mux $procmux$6106.
+    dead port 1/2 on $mux $procmux$6100.
+    dead port 1/2 on $mux $procmux$3857.
+    dead port 2/2 on $mux $procmux$3854.
+    dead port 2/2 on $mux $procmux$3852.
+    dead port 1/2 on $mux $procmux$3850.
+    dead port 1/2 on $mux $procmux$6094.
+    dead port 1/2 on $mux $procmux$6088.
+    dead port 1/2 on $mux $procmux$6082.
+    dead port 1/2 on $mux $procmux$6076.
+    dead port 1/2 on $mux $procmux$3836.
+    dead port 2/2 on $mux $procmux$3833.
+    dead port 2/2 on $mux $procmux$3831.
+    dead port 1/2 on $mux $procmux$3829.
+    dead port 1/2 on $mux $procmux$6070.
+    dead port 1/2 on $mux $procmux$6064.
+    dead port 1/2 on $mux $procmux$6058.
+    dead port 1/2 on $mux $procmux$6052.
+    dead port 1/2 on $mux $procmux$3815.
+    dead port 2/2 on $mux $procmux$3812.
+    dead port 2/2 on $mux $procmux$3810.
+    dead port 1/2 on $mux $procmux$3808.
+    dead port 1/2 on $mux $procmux$6046.
+    dead port 1/2 on $mux $procmux$6040.
+    dead port 1/2 on $mux $procmux$6034.
+    dead port 1/2 on $mux $procmux$6028.
+    dead port 1/2 on $mux $procmux$3794.
+    dead port 2/2 on $mux $procmux$3791.
+    dead port 2/2 on $mux $procmux$3789.
+    dead port 1/2 on $mux $procmux$3787.
+    dead port 1/2 on $mux $procmux$6022.
+    dead port 1/2 on $mux $procmux$6016.
+    dead port 1/2 on $mux $procmux$6010.
+    dead port 1/2 on $mux $procmux$6004.
+    dead port 1/2 on $mux $procmux$3773.
+    dead port 2/2 on $mux $procmux$3770.
+    dead port 2/2 on $mux $procmux$3768.
+    dead port 1/2 on $mux $procmux$3766.
+    dead port 1/2 on $mux $procmux$5998.
+    dead port 1/2 on $mux $procmux$5992.
+    dead port 1/2 on $mux $procmux$5986.
+    dead port 1/2 on $mux $procmux$5980.
+    dead port 1/2 on $mux $procmux$3752.
+    dead port 2/2 on $mux $procmux$3749.
+    dead port 2/2 on $mux $procmux$3747.
+    dead port 1/2 on $mux $procmux$3745.
+    dead port 1/2 on $mux $procmux$5974.
+    dead port 1/2 on $mux $procmux$5968.
+    dead port 1/2 on $mux $procmux$5962.
+    dead port 1/2 on $mux $procmux$5956.
+    dead port 1/2 on $mux $procmux$3731.
+    dead port 2/2 on $mux $procmux$3728.
+    dead port 2/2 on $mux $procmux$3726.
+    dead port 1/2 on $mux $procmux$3724.
+    dead port 1/2 on $mux $procmux$3716.
+    dead port 2/2 on $mux $procmux$3713.
+    dead port 1/2 on $mux $procmux$6424.
+    dead port 1/2 on $mux $procmux$3707.
+    dead port 2/2 on $mux $procmux$3704.
+    dead port 1/2 on $mux $procmux$3698.
+    dead port 2/2 on $mux $procmux$3695.
+    dead port 1/2 on $mux $procmux$3689.
+    dead port 2/2 on $mux $procmux$3686.
+    dead port 1/2 on $mux $procmux$3635.
+    dead port 2/2 on $mux $procmux$3632.
+    dead port 1/2 on $mux $procmux$3626.
+    dead port 2/2 on $mux $procmux$3623.
+    dead port 1/2 on $mux $procmux$3617.
+    dead port 2/2 on $mux $procmux$3614.
+    dead port 1/2 on $mux $procmux$3608.
+    dead port 2/2 on $mux $procmux$3605.
+    dead port 1/2 on $mux $procmux$3599.
+    dead port 2/2 on $mux $procmux$3596.
+    dead port 1/2 on $mux $procmux$3590.
+    dead port 2/2 on $mux $procmux$3587.
+    dead port 1/2 on $mux $procmux$3563.
+    dead port 2/2 on $mux $procmux$3560.
+    dead port 1/2 on $mux $procmux$3554.
+    dead port 2/2 on $mux $procmux$3551.
+    dead port 1/2 on $mux $procmux$3545.
+    dead port 2/2 on $mux $procmux$3542.
+    dead port 1/2 on $mux $procmux$3536.
+    dead port 2/2 on $mux $procmux$3533.
+    dead port 1/2 on $mux $procmux$3527.
+    dead port 2/2 on $mux $procmux$3524.
+    dead port 1/2 on $mux $procmux$3518.
+    dead port 2/2 on $mux $procmux$3515.
+    dead port 1/2 on $mux $procmux$3509.
+    dead port 2/2 on $mux $procmux$3506.
+    dead port 1/2 on $mux $procmux$3500.
+    dead port 2/2 on $mux $procmux$3497.
+    dead port 1/2 on $mux $procmux$3491.
+    dead port 2/2 on $mux $procmux$3488.
+    dead port 1/2 on $mux $procmux$3482.
+    dead port 2/2 on $mux $procmux$3479.
+    dead port 1/2 on $mux $procmux$3473.
+    dead port 2/2 on $mux $procmux$3470.
+    dead port 1/2 on $mux $procmux$3464.
+    dead port 2/2 on $mux $procmux$3461.
+    dead port 1/2 on $mux $procmux$3455.
+    dead port 2/2 on $mux $procmux$3452.
+    dead port 1/2 on $mux $procmux$3446.
+    dead port 2/2 on $mux $procmux$3443.
+    dead port 1/2 on $mux $procmux$3437.
+    dead port 2/2 on $mux $procmux$3434.
+    dead port 1/2 on $mux $procmux$6412.
+    dead port 1/2 on $mux $procmux$6406.
+    dead port 1/2 on $mux $procmux$6400.
+    dead port 1/2 on $mux $procmux$6394.
+    dead port 1/2 on $mux $procmux$3392.
+    dead port 2/2 on $mux $procmux$3389.
+    dead port 2/2 on $mux $procmux$3387.
+    dead port 1/2 on $mux $procmux$3380.
+    dead port 2/2 on $mux $procmux$3377.
+    dead port 2/2 on $mux $procmux$3375.
+    dead port 1/2 on $mux $procmux$3368.
+    dead port 2/2 on $mux $procmux$3365.
+    dead port 2/2 on $mux $procmux$3363.
+    dead port 1/2 on $mux $procmux$3356.
+    dead port 2/2 on $mux $procmux$3353.
+    dead port 2/2 on $mux $procmux$3351.
+    dead port 1/2 on $mux $procmux$3344.
+    dead port 2/2 on $mux $procmux$3341.
+    dead port 2/2 on $mux $procmux$3339.
+    dead port 1/2 on $mux $procmux$3332.
+    dead port 2/2 on $mux $procmux$3329.
+    dead port 2/2 on $mux $procmux$3327.
+    dead port 1/2 on $mux $procmux$3320.
+    dead port 2/2 on $mux $procmux$3317.
+    dead port 2/2 on $mux $procmux$3315.
+    dead port 1/2 on $mux $procmux$3308.
+    dead port 2/2 on $mux $procmux$3305.
+    dead port 2/2 on $mux $procmux$3303.
+    dead port 1/2 on $mux $procmux$6388.
+    dead port 1/2 on $mux $procmux$6382.
+    dead port 1/2 on $mux $procmux$3284.
+    dead port 2/2 on $mux $procmux$3281.
+    dead port 2/2 on $mux $procmux$3279.
+    dead port 1/2 on $mux $procmux$3272.
+    dead port 2/2 on $mux $procmux$3269.
+    dead port 2/2 on $mux $procmux$3267.
+    dead port 1/2 on $mux $procmux$3260.
+    dead port 2/2 on $mux $procmux$3257.
+    dead port 2/2 on $mux $procmux$3255.
+    dead port 1/2 on $mux $procmux$3248.
+    dead port 2/2 on $mux $procmux$3245.
+    dead port 2/2 on $mux $procmux$3243.
+    dead port 1/2 on $mux $procmux$3236.
+    dead port 2/2 on $mux $procmux$3233.
+    dead port 2/2 on $mux $procmux$3231.
+    dead port 1/2 on $mux $procmux$3224.
+    dead port 2/2 on $mux $procmux$3221.
+    dead port 2/2 on $mux $procmux$3219.
+    dead port 1/2 on $mux $procmux$3212.
+    dead port 2/2 on $mux $procmux$3209.
+    dead port 2/2 on $mux $procmux$3207.
+    dead port 1/2 on $mux $procmux$3200.
+    dead port 2/2 on $mux $procmux$3197.
+    dead port 2/2 on $mux $procmux$3195.
+    dead port 1/2 on $mux $procmux$3188.
+    dead port 2/2 on $mux $procmux$3185.
+    dead port 2/2 on $mux $procmux$3183.
+    dead port 1/2 on $mux $procmux$3176.
+    dead port 2/2 on $mux $procmux$3173.
+    dead port 2/2 on $mux $procmux$3171.
+    dead port 1/2 on $mux $procmux$3164.
+    dead port 2/2 on $mux $procmux$3161.
+    dead port 2/2 on $mux $procmux$3159.
+    dead port 1/2 on $mux $procmux$3152.
+    dead port 2/2 on $mux $procmux$3149.
+    dead port 2/2 on $mux $procmux$3147.
+    dead port 1/2 on $mux $procmux$3140.
+    dead port 2/2 on $mux $procmux$3137.
+    dead port 2/2 on $mux $procmux$3135.
+    dead port 1/2 on $mux $procmux$3128.
+    dead port 2/2 on $mux $procmux$3125.
+    dead port 2/2 on $mux $procmux$3123.
+    dead port 1/2 on $mux $procmux$3116.
+    dead port 2/2 on $mux $procmux$3113.
+    dead port 2/2 on $mux $procmux$3111.
+    dead port 1/2 on $mux $procmux$3104.
+    dead port 2/2 on $mux $procmux$3101.
+    dead port 2/2 on $mux $procmux$3099.
+    dead port 1/2 on $mux $procmux$3044.
+    dead port 2/2 on $mux $procmux$3041.
+    dead port 2/2 on $mux $procmux$3039.
+    dead port 1/2 on $mux $procmux$3032.
+    dead port 2/2 on $mux $procmux$3029.
+    dead port 2/2 on $mux $procmux$3027.
+    dead port 1/2 on $mux $procmux$3025.
+    dead port 1/2 on $mux $procmux$3017.
+    dead port 2/2 on $mux $procmux$3014.
+    dead port 2/2 on $mux $procmux$3012.
+    dead port 1/2 on $mux $procmux$3010.
+    dead port 1/2 on $mux $procmux$3002.
+    dead port 2/2 on $mux $procmux$2999.
+    dead port 2/2 on $mux $procmux$2997.
+    dead port 1/2 on $mux $procmux$2995.
+    dead port 1/2 on $mux $procmux$2987.
+    dead port 2/2 on $mux $procmux$2984.
+    dead port 2/2 on $mux $procmux$2982.
+    dead port 1/2 on $mux $procmux$2980.
+    dead port 1/2 on $mux $procmux$2972.
+    dead port 2/2 on $mux $procmux$2969.
+    dead port 2/2 on $mux $procmux$2967.
+    dead port 1/2 on $mux $procmux$2965.
+    dead port 1/2 on $mux $procmux$2951.
+    dead port 2/2 on $mux $procmux$2948.
+    dead port 2/2 on $mux $procmux$2946.
+    dead port 1/2 on $mux $procmux$2944.
+    dead port 1/2 on $mux $procmux$5950.
+    dead port 1/2 on $mux $procmux$2930.
+    dead port 2/2 on $mux $procmux$2927.
+    dead port 2/2 on $mux $procmux$2925.
+    dead port 1/2 on $mux $procmux$2923.
+    dead port 1/2 on $mux $procmux$5908.
+    dead port 1/2 on $mux $procmux$2909.
+    dead port 2/2 on $mux $procmux$2906.
+    dead port 2/2 on $mux $procmux$2904.
+    dead port 1/2 on $mux $procmux$2902.
+    dead port 1/2 on $mux $procmux$5902.
+    dead port 1/2 on $mux $procmux$5896.
+    dead port 1/2 on $mux $procmux$5890.
+    dead port 1/2 on $mux $procmux$5884.
+    dead port 1/2 on $mux $procmux$2888.
+    dead port 2/2 on $mux $procmux$2885.
+    dead port 2/2 on $mux $procmux$2883.
+    dead port 1/2 on $mux $procmux$2881.
+    dead port 1/2 on $mux $procmux$5878.
+    dead port 1/2 on $mux $procmux$2867.
+    dead port 2/2 on $mux $procmux$2864.
+    dead port 2/2 on $mux $procmux$2862.
+    dead port 1/2 on $mux $procmux$2860.
+    dead port 1/2 on $mux $procmux$5845.
+    dead port 2/2 on $mux $procmux$5842.
+    dead port 1/2 on $mux $procmux$2846.
+    dead port 2/2 on $mux $procmux$2843.
+    dead port 2/2 on $mux $procmux$2841.
+    dead port 1/2 on $mux $procmux$2839.
+    dead port 1/2 on $mux $procmux$2825.
+    dead port 2/2 on $mux $procmux$2822.
+    dead port 2/2 on $mux $procmux$2820.
+    dead port 1/2 on $mux $procmux$2818.
+    dead port 1/2 on $mux $procmux$5809.
+    dead port 2/2 on $mux $procmux$5806.
+    dead port 1/2 on $mux $procmux$2804.
+    dead port 2/2 on $mux $procmux$2801.
+    dead port 2/2 on $mux $procmux$2799.
+    dead port 1/2 on $mux $procmux$2797.
+    dead port 1/2 on $mux $procmux$5773.
+    dead port 2/2 on $mux $procmux$5770.
+    dead port 1/2 on $mux $procmux$2783.
+    dead port 2/2 on $mux $procmux$2780.
+    dead port 2/2 on $mux $procmux$2778.
+    dead port 1/2 on $mux $procmux$2776.
+    dead port 1/2 on $mux $procmux$2762.
+    dead port 2/2 on $mux $procmux$2759.
+    dead port 2/2 on $mux $procmux$2757.
+    dead port 1/2 on $mux $procmux$2755.
+    dead port 1/2 on $mux $procmux$5737.
+    dead port 2/2 on $mux $procmux$5734.
+    dead port 1/2 on $mux $procmux$5728.
+    dead port 2/2 on $mux $procmux$5725.
+    dead port 2/2 on $mux $procmux$5723.
+    dead port 2/2 on $mux $procmux$5721.
+    dead port 1/2 on $mux $procmux$5719.
+    dead port 1/2 on $mux $procmux$2741.
+    dead port 2/2 on $mux $procmux$2738.
+    dead port 2/2 on $mux $procmux$2736.
+    dead port 1/2 on $mux $procmux$2734.
+    dead port 1/2 on $mux $procmux$5692.
+    dead port 1/2 on $mux $procmux$2720.
+    dead port 2/2 on $mux $procmux$2717.
+    dead port 2/2 on $mux $procmux$2715.
+    dead port 1/2 on $mux $procmux$2713.
+    dead port 2/2 on $mux $procmux$5689.
+    dead port 1/2 on $mux $procmux$2699.
+    dead port 2/2 on $mux $procmux$2696.
+    dead port 2/2 on $mux $procmux$2694.
+    dead port 1/2 on $mux $procmux$2692.
+    dead port 1/2 on $mux $procmux$5665.
+    dead port 2/2 on $mux $procmux$5662.
+    dead port 1/2 on $mux $procmux$5656.
+    dead port 2/2 on $mux $procmux$5653.
+    dead port 1/2 on $mux $procmux$2678.
+    dead port 2/2 on $mux $procmux$2675.
+    dead port 2/2 on $mux $procmux$2673.
+    dead port 1/2 on $mux $procmux$2671.
+    dead port 1/2 on $mux $procmux$5629.
+    dead port 2/2 on $mux $procmux$5626.
+    dead port 1/2 on $mux $procmux$5620.
+    dead port 1/2 on $mux $procmux$2657.
+    dead port 2/2 on $mux $procmux$2654.
+    dead port 2/2 on $mux $procmux$2652.
+    dead port 1/2 on $mux $procmux$2650.
+    dead port 2/2 on $mux $procmux$5617.
+    dead port 1/2 on $mux $procmux$2636.
+    dead port 2/2 on $mux $procmux$2633.
+    dead port 2/2 on $mux $procmux$2631.
+    dead port 1/2 on $mux $procmux$2629.
+    dead port 1/2 on $mux $procmux$2621.
+    dead port 2/2 on $mux $procmux$2618.
+    dead port 1/2 on $mux $procmux$2612.
+    dead port 2/2 on $mux $procmux$2609.
+    dead port 1/2 on $mux $procmux$2603.
+    dead port 2/2 on $mux $procmux$2600.
+    dead port 1/2 on $mux $procmux$2567.
+    dead port 2/2 on $mux $procmux$2564.
+    dead port 1/2 on $mux $procmux$2558.
+    dead port 2/2 on $mux $procmux$2555.
+    dead port 1/2 on $mux $procmux$2540.
+    dead port 2/2 on $mux $procmux$2537.
+    dead port 1/2 on $mux $procmux$2531.
+    dead port 2/2 on $mux $procmux$2528.
+    dead port 1/2 on $mux $procmux$2522.
+    dead port 2/2 on $mux $procmux$2519.
+    dead port 1/2 on $mux $procmux$2513.
+    dead port 2/2 on $mux $procmux$2510.
+    dead port 1/2 on $mux $procmux$2504.
+    dead port 2/2 on $mux $procmux$2501.
+    dead port 1/2 on $mux $procmux$2495.
+    dead port 2/2 on $mux $procmux$2492.
+    dead port 1/2 on $mux $procmux$2486.
+    dead port 2/2 on $mux $procmux$2483.
+    dead port 1/2 on $mux $procmux$2477.
+    dead port 2/2 on $mux $procmux$2474.
+    dead port 1/2 on $mux $procmux$2378.
+    dead port 2/2 on $mux $procmux$2375.
+    dead port 1/2 on $mux $procmux$2369.
+    dead port 2/2 on $mux $procmux$2366.
+    dead port 1/2 on $mux $procmux$2360.
+    dead port 2/2 on $mux $procmux$2357.
+    dead port 1/2 on $mux $procmux$2351.
+    dead port 2/2 on $mux $procmux$2348.
+    dead port 1/2 on $mux $procmux$2342.
+    dead port 2/2 on $mux $procmux$2339.
+    dead port 1/2 on $mux $procmux$2333.
+    dead port 2/2 on $mux $procmux$2330.
+    dead port 1/2 on $mux $procmux$2324.
+    dead port 2/2 on $mux $procmux$2321.
+    dead port 1/2 on $mux $procmux$2315.
+    dead port 2/2 on $mux $procmux$2312.
+    dead port 1/2 on $mux $procmux$2306.
+    dead port 2/2 on $mux $procmux$2303.
+    dead port 2/2 on $mux $procmux$2301.
+    dead port 1/2 on $mux $procmux$2294.
+    dead port 2/2 on $mux $procmux$2291.
+    dead port 2/2 on $mux $procmux$2289.
+    dead port 1/2 on $mux $procmux$2282.
+    dead port 2/2 on $mux $procmux$2279.
+    dead port 2/2 on $mux $procmux$2277.
+    dead port 1/2 on $mux $procmux$2270.
+    dead port 2/2 on $mux $procmux$2267.
+    dead port 2/2 on $mux $procmux$2265.
+    dead port 1/2 on $mux $procmux$2258.
+    dead port 2/2 on $mux $procmux$2255.
+    dead port 2/2 on $mux $procmux$2253.
+    dead port 1/2 on $mux $procmux$2246.
+    dead port 2/2 on $mux $procmux$2243.
+    dead port 2/2 on $mux $procmux$2241.
+    dead port 1/2 on $mux $procmux$2234.
+    dead port 2/2 on $mux $procmux$2231.
+    dead port 2/2 on $mux $procmux$2229.
+    dead port 1/2 on $mux $procmux$2222.
+    dead port 2/2 on $mux $procmux$2219.
+    dead port 2/2 on $mux $procmux$2217.
+    dead port 1/2 on $mux $procmux$2210.
+    dead port 2/2 on $mux $procmux$2207.
+    dead port 2/2 on $mux $procmux$2205.
+    dead port 1/2 on $mux $procmux$2198.
+    dead port 2/2 on $mux $procmux$2195.
+    dead port 2/2 on $mux $procmux$2193.
+    dead port 1/2 on $mux $procmux$2162.
+    dead port 2/2 on $mux $procmux$2159.
+    dead port 2/2 on $mux $procmux$2157.
+    dead port 1/2 on $mux $procmux$2150.
+    dead port 2/2 on $mux $procmux$2147.
+    dead port 2/2 on $mux $procmux$2145.
+    dead port 1/2 on $mux $procmux$2138.
+    dead port 2/2 on $mux $procmux$2135.
+    dead port 2/2 on $mux $procmux$2133.
+    dead port 1/2 on $mux $procmux$2126.
+    dead port 2/2 on $mux $procmux$2123.
+    dead port 2/2 on $mux $procmux$2121.
+    dead port 1/2 on $mux $procmux$2114.
+    dead port 2/2 on $mux $procmux$2111.
+    dead port 2/2 on $mux $procmux$2109.
+    dead port 1/2 on $mux $procmux$2102.
+    dead port 2/2 on $mux $procmux$2099.
+    dead port 2/2 on $mux $procmux$2097.
+    dead port 1/2 on $mux $procmux$2090.
+    dead port 2/2 on $mux $procmux$2087.
+    dead port 2/2 on $mux $procmux$2085.
+    dead port 1/2 on $mux $procmux$2078.
+    dead port 2/2 on $mux $procmux$2075.
+    dead port 2/2 on $mux $procmux$2073.
+    dead port 1/2 on $mux $procmux$2066.
+    dead port 2/2 on $mux $procmux$2063.
+    dead port 2/2 on $mux $procmux$2061.
+    dead port 1/2 on $mux $procmux$2054.
+    dead port 2/2 on $mux $procmux$2051.
+    dead port 2/2 on $mux $procmux$2049.
+    dead port 1/2 on $mux $procmux$2042.
+    dead port 2/2 on $mux $procmux$2039.
+    dead port 2/2 on $mux $procmux$2037.
+    dead port 1/2 on $mux $procmux$2030.
+    dead port 2/2 on $mux $procmux$2027.
+    dead port 2/2 on $mux $procmux$2025.
+    dead port 1/2 on $mux $procmux$2018.
+    dead port 2/2 on $mux $procmux$2015.
+    dead port 2/2 on $mux $procmux$2013.
+    dead port 1/2 on $mux $procmux$2006.
+    dead port 2/2 on $mux $procmux$2003.
+    dead port 2/2 on $mux $procmux$2001.
+    dead port 1/2 on $mux $procmux$1994.
+    dead port 2/2 on $mux $procmux$1991.
+    dead port 2/2 on $mux $procmux$1989.
+    dead port 1/2 on $mux $procmux$1982.
+    dead port 2/2 on $mux $procmux$1979.
+    dead port 2/2 on $mux $procmux$1977.
+    dead port 1/2 on $mux $procmux$1970.
+    dead port 2/2 on $mux $procmux$1967.
+    dead port 2/2 on $mux $procmux$1965.
+    dead port 1/2 on $mux $procmux$1958.
+    dead port 2/2 on $mux $procmux$1955.
+    dead port 2/2 on $mux $procmux$1953.
+    dead port 1/2 on $mux $procmux$1946.
+    dead port 2/2 on $mux $procmux$1943.
+    dead port 2/2 on $mux $procmux$1941.
+    dead port 1/2 on $mux $procmux$1934.
+    dead port 2/2 on $mux $procmux$1931.
+    dead port 2/2 on $mux $procmux$1929.
+    dead port 1/2 on $mux $procmux$1922.
+    dead port 2/2 on $mux $procmux$1919.
+    dead port 1/2 on $mux $procmux$1913.
+    dead port 2/2 on $mux $procmux$1910.
+    dead port 1/2 on $mux $procmux$1904.
+    dead port 2/2 on $mux $procmux$1901.
+    dead port 1/2 on $mux $procmux$1895.
+    dead port 2/2 on $mux $procmux$1892.
+    dead port 1/2 on $mux $procmux$1886.
+    dead port 2/2 on $mux $procmux$1883.
+    dead port 1/2 on $mux $procmux$1877.
+    dead port 2/2 on $mux $procmux$1874.
+    dead port 1/2 on $mux $procmux$1868.
+    dead port 2/2 on $mux $procmux$1865.
+    dead port 1/2 on $mux $procmux$1832.
+    dead port 2/2 on $mux $procmux$1829.
+    dead port 1/2 on $mux $procmux$1823.
+    dead port 2/2 on $mux $procmux$1820.
+    dead port 1/2 on $mux $procmux$1814.
+    dead port 2/2 on $mux $procmux$1811.
+    dead port 1/2 on $mux $procmux$1805.
+    dead port 2/2 on $mux $procmux$1802.
+    dead port 1/2 on $mux $procmux$1796.
+    dead port 2/2 on $mux $procmux$1793.
+    dead port 1/2 on $mux $procmux$1787.
+    dead port 2/2 on $mux $procmux$1784.
+    dead port 1/2 on $mux $procmux$1769.
+    dead port 2/2 on $mux $procmux$1766.
+    dead port 1/2 on $mux $procmux$1760.
+    dead port 2/2 on $mux $procmux$1757.
+    dead port 1/2 on $mux $procmux$1751.
+    dead port 2/2 on $mux $procmux$1748.
+    dead port 1/2 on $mux $procmux$1742.
+    dead port 2/2 on $mux $procmux$1739.
+    dead port 1/2 on $mux $procmux$1700.
+    dead port 2/2 on $mux $procmux$1697.
+    dead port 1/2 on $mux $procmux$1695.
+    dead port 1/2 on $mux $procmux$1676.
+    dead port 2/2 on $mux $procmux$1673.
+    dead port 1/2 on $mux $procmux$1671.
+    dead port 1/2 on $mux $procmux$1664.
+    dead port 2/2 on $mux $procmux$1661.
+    dead port 1/2 on $mux $procmux$1659.
+    dead port 1/2 on $mux $procmux$1652.
+    dead port 2/2 on $mux $procmux$1649.
+    dead port 1/2 on $mux $procmux$1647.
+    dead port 1/2 on $mux $procmux$1640.
+    dead port 2/2 on $mux $procmux$1637.
+    dead port 1/2 on $mux $procmux$1635.
+    dead port 1/2 on $mux $procmux$1628.
+    dead port 2/2 on $mux $procmux$1625.
+    dead port 1/2 on $mux $procmux$1623.
+    dead port 2/2 on $mux $procmux$1621.
+    dead port 1/2 on $mux $procmux$1613.
+    dead port 2/2 on $mux $procmux$1610.
+    dead port 1/2 on $mux $procmux$1608.
+    dead port 2/2 on $mux $procmux$1606.
+    dead port 1/2 on $mux $procmux$1598.
+    dead port 2/2 on $mux $procmux$1595.
+    dead port 1/2 on $mux $procmux$1593.
+    dead port 2/2 on $mux $procmux$1591.
+    dead port 1/2 on $mux $procmux$1583.
+    dead port 2/2 on $mux $procmux$1580.
+    dead port 1/2 on $mux $procmux$1578.
+    dead port 2/2 on $mux $procmux$1576.
+    dead port 1/2 on $mux $procmux$1568.
+    dead port 2/2 on $mux $procmux$1565.
+    dead port 1/2 on $mux $procmux$1563.
+    dead port 2/2 on $mux $procmux$1561.
+    dead port 1/2 on $mux $procmux$1553.
+    dead port 2/2 on $mux $procmux$1550.
+    dead port 1/2 on $mux $procmux$1548.
+    dead port 2/2 on $mux $procmux$1546.
+    dead port 1/2 on $mux $procmux$1538.
+    dead port 2/2 on $mux $procmux$1535.
+    dead port 1/2 on $mux $procmux$1533.
+    dead port 2/2 on $mux $procmux$1531.
+    dead port 1/2 on $mux $procmux$1523.
+    dead port 2/2 on $mux $procmux$1520.
+    dead port 1/2 on $mux $procmux$1518.
+    dead port 2/2 on $mux $procmux$1516.
+    dead port 1/2 on $mux $procmux$1508.
+    dead port 2/2 on $mux $procmux$1505.
+    dead port 1/2 on $mux $procmux$1503.
+    dead port 1/2 on $mux $procmux$1496.
+    dead port 2/2 on $mux $procmux$1493.
+    dead port 1/2 on $mux $procmux$1491.
+    dead port 1/2 on $mux $procmux$1484.
+    dead port 2/2 on $mux $procmux$1481.
+    dead port 1/2 on $mux $procmux$1479.
+    dead port 1/2 on $mux $procmux$1472.
+    dead port 2/2 on $mux $procmux$1469.
+    dead port 1/2 on $mux $procmux$1467.
+    dead port 1/2 on $mux $procmux$1460.
+    dead port 2/2 on $mux $procmux$1457.
+    dead port 1/2 on $mux $procmux$1455.
+    dead port 1/2 on $mux $procmux$1448.
+    dead port 2/2 on $mux $procmux$1445.
+    dead port 1/2 on $mux $procmux$1443.
+    dead port 1/2 on $mux $procmux$1436.
+    dead port 2/2 on $mux $procmux$1433.
+    dead port 1/2 on $mux $procmux$1431.
+    dead port 1/2 on $mux $procmux$1424.
+    dead port 2/2 on $mux $procmux$1421.
+    dead port 1/2 on $mux $procmux$1419.
+    dead port 1/2 on $mux $procmux$1412.
+    dead port 2/2 on $mux $procmux$1409.
+    dead port 1/2 on $mux $procmux$1407.
+    dead port 1/2 on $mux $procmux$1400.
+    dead port 2/2 on $mux $procmux$1397.
+    dead port 1/2 on $mux $procmux$1395.
+    dead port 1/2 on $mux $procmux$1388.
+    dead port 2/2 on $mux $procmux$1385.
+    dead port 1/2 on $mux $procmux$1383.
+    dead port 1/2 on $mux $procmux$1376.
+    dead port 2/2 on $mux $procmux$1373.
+    dead port 1/2 on $mux $procmux$1371.
+    dead port 1/2 on $mux $procmux$1364.
+    dead port 2/2 on $mux $procmux$1361.
+    dead port 1/2 on $mux $procmux$1359.
+    dead port 1/2 on $mux $procmux$1352.
+    dead port 2/2 on $mux $procmux$1349.
+    dead port 1/2 on $mux $procmux$1347.
+    dead port 1/2 on $mux $procmux$1328.
+    dead port 2/2 on $mux $procmux$1325.
+    dead port 1/2 on $mux $procmux$1323.
+    dead port 2/2 on $mux $procmux$1321.
+    dead port 1/2 on $mux $procmux$1298.
+    dead port 2/2 on $mux $procmux$1295.
+    dead port 1/2 on $mux $procmux$1293.
+    dead port 2/2 on $mux $procmux$1291.
+    dead port 1/2 on $mux $procmux$1247.
+    dead port 2/2 on $mux $procmux$1244.
+    dead port 2/2 on $mux $procmux$1242.
+    dead port 1/2 on $mux $procmux$1233.
+    dead port 2/2 on $mux $procmux$1230.
+    dead port 2/2 on $mux $procmux$1228.
+    dead port 1/2 on $mux $procmux$5593.
+    dead port 2/2 on $mux $procmux$5590.
+    dead port 1/2 on $mux $procmux$1219.
+    dead port 2/2 on $mux $procmux$1216.
+    dead port 2/2 on $mux $procmux$1214.
+    dead port 1/2 on $mux $procmux$5575.
+    dead port 2/2 on $mux $procmux$5572.
+    dead port 1/2 on $mux $procmux$1205.
+    dead port 2/2 on $mux $procmux$1202.
+    dead port 2/2 on $mux $procmux$1200.
+    dead port 1/2 on $mux $procmux$5558.
+    dead port 1/2 on $mux $procmux$1155.
+    dead port 2/2 on $mux $procmux$1152.
+    dead port 2/2 on $mux $procmux$1150.
+    dead port 1/2 on $mux $procmux$1141.
+    dead port 2/2 on $mux $procmux$1138.
+    dead port 2/2 on $mux $procmux$1136.
+    dead port 2/2 on $mux $procmux$5555.
+    dead port 2/2 on $mux $procmux$5553.
+    dead port 1/2 on $mux $procmux$5546.
+    dead port 1/2 on $mux $procmux$1127.
+    dead port 2/2 on $mux $procmux$1124.
+    dead port 2/2 on $mux $procmux$1122.
+    dead port 2/2 on $mux $procmux$5543.
+    dead port 2/2 on $mux $procmux$5541.
+    dead port 1/2 on $mux $procmux$5534.
+    dead port 1/2 on $mux $procmux$1113.
+    dead port 2/2 on $mux $procmux$1110.
+    dead port 2/2 on $mux $procmux$1108.
+    dead port 2/2 on $mux $procmux$5531.
+    dead port 2/2 on $mux $procmux$5529.
+    dead port 1/2 on $mux $procmux$1063.
+    dead port 2/2 on $mux $procmux$1060.
+    dead port 2/2 on $mux $procmux$1058.
+    dead port 1/2 on $mux $procmux$1049.
+    dead port 2/2 on $mux $procmux$1046.
+    dead port 2/2 on $mux $procmux$1044.
+    dead port 1/2 on $mux $procmux$5510.
+    dead port 1/2 on $mux $procmux$1035.
+    dead port 2/2 on $mux $procmux$1032.
+    dead port 2/2 on $mux $procmux$1030.
+    dead port 2/2 on $mux $procmux$5507.
+    dead port 2/2 on $mux $procmux$5505.
+    dead port 1/2 on $mux $procmux$5498.
+    dead port 1/2 on $mux $procmux$1021.
+    dead port 2/2 on $mux $procmux$1018.
+    dead port 2/2 on $mux $procmux$1016.
+    dead port 2/2 on $mux $procmux$5495.
+    dead port 2/2 on $mux $procmux$5493.
+    dead port 2/2 on $mux $procmux$5491.
+    dead port 1/2 on $mux $procmux$971.
+    dead port 2/2 on $mux $procmux$968.
+    dead port 2/2 on $mux $procmux$966.
+    dead port 1/2 on $mux $procmux$957.
+    dead port 2/2 on $mux $procmux$954.
+    dead port 2/2 on $mux $procmux$952.
+    dead port 1/2 on $mux $procmux$5483.
+    dead port 2/2 on $mux $procmux$5480.
+    dead port 2/2 on $mux $procmux$5478.
+    dead port 2/2 on $mux $procmux$5476.
+    dead port 1/2 on $mux $procmux$943.
+    dead port 2/2 on $mux $procmux$940.
+    dead port 2/2 on $mux $procmux$938.
+    dead port 1/2 on $mux $procmux$5468.
+    dead port 2/2 on $mux $procmux$5465.
+    dead port 2/2 on $mux $procmux$5463.
+    dead port 1/2 on $mux $procmux$929.
+    dead port 2/2 on $mux $procmux$926.
+    dead port 2/2 on $mux $procmux$924.
+    dead port 2/2 on $mux $procmux$5461.
+    dead port 1/2 on $mux $procmux$5453.
+    dead port 2/2 on $mux $procmux$5450.
+    dead port 1/2 on $mux $procmux$879.
+    dead port 2/2 on $mux $procmux$876.
+    dead port 2/2 on $mux $procmux$874.
+    dead port 1/2 on $mux $procmux$865.
+    dead port 2/2 on $mux $procmux$862.
+    dead port 2/2 on $mux $procmux$860.
+    dead port 2/2 on $mux $procmux$5448.
+    dead port 2/2 on $mux $procmux$5446.
+    dead port 1/2 on $mux $procmux$5438.
+    dead port 1/2 on $mux $procmux$851.
+    dead port 2/2 on $mux $procmux$848.
+    dead port 2/2 on $mux $procmux$846.
+    dead port 2/2 on $mux $procmux$5435.
+    dead port 2/2 on $mux $procmux$5433.
+    dead port 2/2 on $mux $procmux$5431.
+    dead port 1/2 on $mux $procmux$837.
+    dead port 2/2 on $mux $procmux$834.
+    dead port 2/2 on $mux $procmux$832.
+    dead port 1/2 on $mux $procmux$5423.
+    dead port 2/2 on $mux $procmux$5420.
+    dead port 2/2 on $mux $procmux$5418.
+    dead port 2/2 on $mux $procmux$5416.
+    dead port 1/2 on $mux $procmux$787.
+    dead port 2/2 on $mux $procmux$784.
+    dead port 2/2 on $mux $procmux$782.
+    dead port 1/2 on $mux $procmux$773.
+    dead port 2/2 on $mux $procmux$770.
+    dead port 2/2 on $mux $procmux$768.
+    dead port 1/2 on $mux $procmux$5414.
+    dead port 1/2 on $mux $procmux$5405.
+    dead port 2/2 on $mux $procmux$5402.
+    dead port 1/2 on $mux $procmux$759.
+    dead port 2/2 on $mux $procmux$756.
+    dead port 2/2 on $mux $procmux$754.
+    dead port 2/2 on $mux $procmux$5400.
+    dead port 2/2 on $mux $procmux$5398.
+    dead port 1/2 on $mux $procmux$5396.
+    dead port 1/2 on $mux $procmux$745.
+    dead port 2/2 on $mux $procmux$742.
+    dead port 2/2 on $mux $procmux$740.
+    dead port 1/2 on $mux $procmux$5387.
+    dead port 2/2 on $mux $procmux$5384.
+    dead port 2/2 on $mux $procmux$5382.
+    dead port 2/2 on $mux $procmux$5380.
+    dead port 1/2 on $mux $procmux$695.
+    dead port 2/2 on $mux $procmux$692.
+    dead port 2/2 on $mux $procmux$690.
+    dead port 1/2 on $mux $procmux$681.
+    dead port 2/2 on $mux $procmux$678.
+    dead port 2/2 on $mux $procmux$676.
+    dead port 1/2 on $mux $procmux$5378.
+    dead port 1/2 on $mux $procmux$5369.
+    dead port 2/2 on $mux $procmux$5366.
+    dead port 1/2 on $mux $procmux$667.
+    dead port 2/2 on $mux $procmux$664.
+    dead port 2/2 on $mux $procmux$662.
+    dead port 2/2 on $mux $procmux$5364.
+    dead port 1/2 on $mux $procmux$5357.
+    dead port 2/2 on $mux $procmux$5354.
+    dead port 1/2 on $mux $procmux$653.
+    dead port 2/2 on $mux $procmux$650.
+    dead port 2/2 on $mux $procmux$648.
+    dead port 2/2 on $mux $procmux$5352.
+    dead port 1/2 on $mux $procmux$5345.
+    dead port 2/2 on $mux $procmux$5342.
+    dead port 1/2 on $mux $procmux$603.
+    dead port 2/2 on $mux $procmux$600.
+    dead port 2/2 on $mux $procmux$598.
+    dead port 1/2 on $mux $procmux$589.
+    dead port 2/2 on $mux $procmux$586.
+    dead port 2/2 on $mux $procmux$584.
+    dead port 2/2 on $mux $procmux$5340.
+    dead port 1/2 on $mux $procmux$575.
+    dead port 2/2 on $mux $procmux$572.
+    dead port 2/2 on $mux $procmux$570.
+    dead port 1/2 on $mux $procmux$5321.
+    dead port 2/2 on $mux $procmux$5318.
+    dead port 1/2 on $mux $procmux$561.
+    dead port 2/2 on $mux $procmux$558.
+    dead port 2/2 on $mux $procmux$556.
+    dead port 2/2 on $mux $procmux$5316.
+    dead port 1/2 on $mux $procmux$5309.
+    dead port 2/2 on $mux $procmux$5306.
+    dead port 1/2 on $mux $procmux$511.
+    dead port 2/2 on $mux $procmux$508.
+    dead port 2/2 on $mux $procmux$506.
+    dead port 1/2 on $mux $procmux$497.
+    dead port 2/2 on $mux $procmux$494.
+    dead port 2/2 on $mux $procmux$492.
+    dead port 2/2 on $mux $procmux$5304.
+    dead port 2/2 on $mux $procmux$5302.
+    dead port 1/2 on $mux $procmux$5294.
+    dead port 1/2 on $mux $procmux$483.
+    dead port 2/2 on $mux $procmux$480.
+    dead port 2/2 on $mux $procmux$478.
+    dead port 2/2 on $mux $procmux$5291.
+    dead port 2/2 on $mux $procmux$5289.
+    dead port 2/2 on $mux $procmux$5287.
+    dead port 1/2 on $mux $procmux$469.
+    dead port 2/2 on $mux $procmux$466.
+    dead port 2/2 on $mux $procmux$464.
+    dead port 1/2 on $mux $procmux$5279.
+    dead port 2/2 on $mux $procmux$5276.
+    dead port 2/2 on $mux $procmux$5274.
+    dead port 2/2 on $mux $procmux$5272.
+    dead port 1/2 on $mux $procmux$419.
+    dead port 2/2 on $mux $procmux$416.
+    dead port 2/2 on $mux $procmux$414.
+    dead port 1/2 on $mux $procmux$405.
+    dead port 2/2 on $mux $procmux$402.
+    dead port 2/2 on $mux $procmux$400.
+    dead port 1/2 on $mux $procmux$5264.
+    dead port 2/2 on $mux $procmux$5261.
+    dead port 2/2 on $mux $procmux$5259.
+    dead port 1/2 on $mux $procmux$391.
+    dead port 2/2 on $mux $procmux$388.
+    dead port 2/2 on $mux $procmux$386.
+    dead port 2/2 on $mux $procmux$5257.
+    dead port 1/2 on $mux $procmux$5249.
+    dead port 2/2 on $mux $procmux$5246.
+    dead port 1/2 on $mux $procmux$377.
+    dead port 2/2 on $mux $procmux$374.
+    dead port 2/2 on $mux $procmux$372.
+    dead port 2/2 on $mux $procmux$5244.
+    dead port 2/2 on $mux $procmux$5242.
+    dead port 1/2 on $mux $procmux$5234.
+    dead port 1/2 on $mux $procmux$363.
+    dead port 2/2 on $mux $procmux$360.
+    dead port 1/2 on $mux $procmux$354.
+    dead port 2/2 on $mux $procmux$351.
+    dead port 1/2 on $mux $procmux$345.
+    dead port 2/2 on $mux $procmux$342.
+    dead port 1/2 on $mux $procmux$336.
+    dead port 2/2 on $mux $procmux$333.
+    dead port 1/2 on $mux $procmux$327.
+    dead port 2/2 on $mux $procmux$324.
+    dead port 1/2 on $mux $procmux$318.
+    dead port 2/2 on $mux $procmux$5231.
+    dead port 2/2 on $mux $procmux$5229.
+    dead port 2/2 on $mux $procmux$5227.
+    dead port 1/2 on $mux $procmux$5225.
+    dead port 1/2 on $mux $procmux$6442.
+    dead port 2/2 on $mux $procmux$6463.
+    dead port 1/2 on $mux $procmux$6436.
+    dead port 2/2 on $mux $procmux$5191.
+    dead port 1/2 on $mux $procmux$5216.
+    dead port 1/2 on $mux $procmux$5189.
+    dead port 2/2 on $mux $procmux$5213.
+    dead port 1/2 on $mux $procmux$6430.
+    dead port 2/2 on $mux $procmux$5211.
+    dead port 2/2 on $mux $procmux$5209.
+    dead port 1/2 on $mux $procmux$5168.
+    dead port 1/2 on $mux $procmux$5180.
+    dead port 1/2 on $mux $procmux$5207.
+    dead port 2/2 on $mux $procmux$5177.
+    dead port 1/2 on $mux $procmux$5198.
+    dead port 2/2 on $mux $procmux$5165.
+    dead port 2/2 on $mux $procmux$5175.
+    dead port 2/2 on $mux $procmux$5195.
+    dead port 1/2 on $mux $procmux$6334.
+    dead port 1/2 on $mux $procmux$6328.
+    dead port 2/2 on $mux $procmux$5193.
+    dead port 1/2 on $mux $procmux$6322.
+    dead port 1/2 on $mux $procmux$6316.
+Removed 1103 multiplexer ports.
+<suppressed ~13185 debug messages>
+
+3.7.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \receiver.
+    New ctrl vector for $pmux cell $procmux$4050: { $auto$opt_reduce.cc:137:opt_pmux$6830 $procmux$4057_CMP }
+    New ctrl vector for $pmux cell $procmux$4029: { $auto$opt_reduce.cc:137:opt_pmux$6832 $procmux$4056_CMP }
+    New ctrl vector for $pmux cell $procmux$4008: { $auto$opt_reduce.cc:137:opt_pmux$6834 $procmux$4055_CMP }
+    New ctrl vector for $pmux cell $procmux$3987: { $auto$opt_reduce.cc:137:opt_pmux$6836 $procmux$4054_CMP }
+    New ctrl vector for $pmux cell $procmux$3966: { $auto$opt_reduce.cc:137:opt_pmux$6838 $procmux$4053_CMP }
+    New ctrl vector for $pmux cell $procmux$3945: { $auto$opt_reduce.cc:137:opt_pmux$6840 $procmux$4052_CMP }
+    New ctrl vector for $pmux cell $procmux$3924: { $procmux$4051_CMP $auto$opt_reduce.cc:137:opt_pmux$6842 }
+    New ctrl vector for $pmux cell $procmux$3903: { $auto$opt_reduce.cc:137:opt_pmux$6844 $procmux$4058_CMP }
+    New ctrl vector for $pmux cell $procmux$3882: { $auto$opt_reduce.cc:137:opt_pmux$6846 $procmux$4057_CMP }
+    New ctrl vector for $pmux cell $procmux$3861: { $auto$opt_reduce.cc:137:opt_pmux$6848 $procmux$4056_CMP }
+    New ctrl vector for $pmux cell $procmux$2955: { $auto$opt_reduce.cc:137:opt_pmux$6850 $procmux$2962_CMP }
+    New ctrl vector for $pmux cell $procmux$3840: { $auto$opt_reduce.cc:137:opt_pmux$6852 $procmux$4055_CMP }
+    New ctrl vector for $pmux cell $procmux$2934: { $auto$opt_reduce.cc:137:opt_pmux$6854 $procmux$2961_CMP }
+    New ctrl vector for $pmux cell $procmux$2913: { $auto$opt_reduce.cc:137:opt_pmux$6856 $procmux$2960_CMP }
+    New ctrl vector for $pmux cell $procmux$1237: { $auto$opt_reduce.cc:137:opt_pmux$6858 $procmux$1240_CMP }
+    New ctrl vector for $pmux cell $procmux$1223: { $auto$opt_reduce.cc:137:opt_pmux$6860 $procmux$1239_CMP }
+    New ctrl vector for $pmux cell $procmux$3819: { $auto$opt_reduce.cc:137:opt_pmux$6862 $procmux$4054_CMP }
+    New ctrl vector for $pmux cell $procmux$1209: { $procmux$1238_CMP $auto$opt_reduce.cc:137:opt_pmux$6864 }
+    New ctrl vector for $pmux cell $procmux$2892: { $auto$opt_reduce.cc:137:opt_pmux$6866 $procmux$2959_CMP }
+    New ctrl vector for $pmux cell $procmux$1195: { $auto$opt_reduce.cc:137:opt_pmux$6868 $procmux$1241_CMP }
+    New ctrl vector for $pmux cell $procmux$1145: { $auto$opt_reduce.cc:137:opt_pmux$6870 $procmux$1148_CMP }
+    New ctrl vector for $pmux cell $procmux$1131: { $auto$opt_reduce.cc:137:opt_pmux$6872 $procmux$1147_CMP }
+    New ctrl vector for $pmux cell $procmux$2871: { $auto$opt_reduce.cc:137:opt_pmux$6874 $procmux$2958_CMP }
+    New ctrl vector for $pmux cell $procmux$1117: { $procmux$1146_CMP $auto$opt_reduce.cc:137:opt_pmux$6876 }
+    New ctrl vector for $pmux cell $procmux$1103: { $auto$opt_reduce.cc:137:opt_pmux$6878 $procmux$1149_CMP }
+    New ctrl vector for $pmux cell $procmux$3798: { $auto$opt_reduce.cc:137:opt_pmux$6880 $procmux$4053_CMP }
+    New ctrl vector for $pmux cell $procmux$1053: { $auto$opt_reduce.cc:137:opt_pmux$6882 $procmux$1056_CMP }
+    New ctrl vector for $pmux cell $procmux$2850: { $auto$opt_reduce.cc:137:opt_pmux$6884 $procmux$2957_CMP }
+    New ctrl vector for $pmux cell $procmux$1039: { $auto$opt_reduce.cc:137:opt_pmux$6886 $procmux$1055_CMP }
+    New ctrl vector for $pmux cell $procmux$1025: { $procmux$1054_CMP $auto$opt_reduce.cc:137:opt_pmux$6888 }
+    New ctrl vector for $pmux cell $procmux$2829: { $procmux$2956_CMP $auto$opt_reduce.cc:137:opt_pmux$6890 }
+    New ctrl vector for $pmux cell $procmux$1011: { $auto$opt_reduce.cc:137:opt_pmux$6892 $procmux$1057_CMP }
+    New ctrl vector for $pmux cell $procmux$961: { $auto$opt_reduce.cc:137:opt_pmux$6894 $procmux$964_CMP }
+    New ctrl vector for $pmux cell $procmux$947: { $auto$opt_reduce.cc:137:opt_pmux$6896 $procmux$963_CMP }
+    New ctrl vector for $pmux cell $procmux$2808: { $auto$opt_reduce.cc:137:opt_pmux$6898 $procmux$2963_CMP }
+    New ctrl vector for $pmux cell $procmux$933: { $procmux$962_CMP $auto$opt_reduce.cc:137:opt_pmux$6900 }
+    New ctrl vector for $pmux cell $procmux$3777: { $auto$opt_reduce.cc:137:opt_pmux$6902 $procmux$4052_CMP }
+    New ctrl vector for $pmux cell $procmux$919: { $auto$opt_reduce.cc:137:opt_pmux$6904 $procmux$965_CMP }
+    New ctrl vector for $pmux cell $procmux$2787: { $auto$opt_reduce.cc:137:opt_pmux$6906 $procmux$2962_CMP }
+    New ctrl vector for $pmux cell $procmux$869: { $auto$opt_reduce.cc:137:opt_pmux$6908 $procmux$872_CMP }
+    New ctrl vector for $pmux cell $procmux$855: { $auto$opt_reduce.cc:137:opt_pmux$6910 $procmux$871_CMP }
+    New ctrl vector for $pmux cell $procmux$841: { $procmux$870_CMP $auto$opt_reduce.cc:137:opt_pmux$6912 }
+    New ctrl vector for $pmux cell $procmux$2766: { $auto$opt_reduce.cc:137:opt_pmux$6914 $procmux$2961_CMP }
+    New ctrl vector for $pmux cell $procmux$827: { $auto$opt_reduce.cc:137:opt_pmux$6916 $procmux$873_CMP }
+    New ctrl vector for $pmux cell $procmux$3756: { $procmux$4051_CMP $auto$opt_reduce.cc:137:opt_pmux$6918 }
+    New ctrl vector for $pmux cell $procmux$777: { $auto$opt_reduce.cc:137:opt_pmux$6920 $procmux$780_CMP }
+    New ctrl vector for $pmux cell $procmux$2745: { $auto$opt_reduce.cc:137:opt_pmux$6922 $procmux$2960_CMP }
+    New ctrl vector for $pmux cell $procmux$763: { $auto$opt_reduce.cc:137:opt_pmux$6924 $procmux$779_CMP }
+    New ctrl vector for $pmux cell $procmux$749: { $procmux$778_CMP $auto$opt_reduce.cc:137:opt_pmux$6926 }
+    New ctrl vector for $pmux cell $procmux$2724: { $auto$opt_reduce.cc:137:opt_pmux$6928 $procmux$2959_CMP }
+    New ctrl vector for $pmux cell $procmux$735: { $auto$opt_reduce.cc:137:opt_pmux$6930 $procmux$781_CMP }
+    New ctrl vector for $pmux cell $procmux$3735: { $auto$opt_reduce.cc:137:opt_pmux$6932 $procmux$4058_CMP }
+    New ctrl vector for $pmux cell $procmux$685: { $auto$opt_reduce.cc:137:opt_pmux$6934 $procmux$688_CMP }
+    New ctrl vector for $pmux cell $procmux$671: { $auto$opt_reduce.cc:137:opt_pmux$6936 $procmux$687_CMP }
+    New ctrl vector for $pmux cell $procmux$2703: { $auto$opt_reduce.cc:137:opt_pmux$6938 $procmux$2958_CMP }
+    New ctrl vector for $pmux cell $procmux$657: { $procmux$686_CMP $auto$opt_reduce.cc:137:opt_pmux$6940 }
+    New ctrl vector for $pmux cell $procmux$643: { $auto$opt_reduce.cc:137:opt_pmux$6942 $procmux$689_CMP }
+    New ctrl vector for $pmux cell $procmux$2682: { $auto$opt_reduce.cc:137:opt_pmux$6944 $procmux$2957_CMP }
+    New ctrl vector for $pmux cell $procmux$593: { $auto$opt_reduce.cc:137:opt_pmux$6946 $procmux$596_CMP }
+    New ctrl vector for $pmux cell $procmux$579: { $auto$opt_reduce.cc:137:opt_pmux$6948 $procmux$595_CMP }
+    New ctrl vector for $pmux cell $procmux$565: { $procmux$594_CMP $auto$opt_reduce.cc:137:opt_pmux$6950 }
+    New ctrl vector for $pmux cell $procmux$2661: { $procmux$2956_CMP $auto$opt_reduce.cc:137:opt_pmux$6952 }
+    New ctrl vector for $pmux cell $procmux$551: { $auto$opt_reduce.cc:137:opt_pmux$6954 $procmux$597_CMP }
+    New ctrl vector for $pmux cell $procmux$501: { $auto$opt_reduce.cc:137:opt_pmux$6956 $procmux$504_CMP }
+    New ctrl vector for $pmux cell $procmux$487: { $auto$opt_reduce.cc:137:opt_pmux$6958 $procmux$503_CMP }
+    New ctrl vector for $pmux cell $procmux$2640: { $auto$opt_reduce.cc:137:opt_pmux$6960 $procmux$2963_CMP }
+    New ctrl vector for $pmux cell $procmux$473: { $procmux$502_CMP $auto$opt_reduce.cc:137:opt_pmux$6962 }
+    New ctrl vector for $pmux cell $procmux$459: { $auto$opt_reduce.cc:137:opt_pmux$6964 $procmux$505_CMP }
+    New ctrl vector for $pmux cell $procmux$409: { $auto$opt_reduce.cc:137:opt_pmux$6966 $procmux$412_CMP }
+    New ctrl vector for $pmux cell $procmux$395: { $auto$opt_reduce.cc:137:opt_pmux$6968 $procmux$411_CMP }
+    New ctrl vector for $pmux cell $procmux$381: { $procmux$410_CMP $auto$opt_reduce.cc:137:opt_pmux$6970 }
+    New ctrl vector for $pmux cell $procmux$367: { $auto$opt_reduce.cc:137:opt_pmux$6972 $procmux$413_CMP }
+  Optimizing cells in module \receiver.
+Performed a total of 76 changes.
+
+3.7.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\receiver'.
+Computing hashes of 1144 cells of `\receiver'.
+Finding duplicate cells in `\receiver'.
+Computing hashes of 1127 cells of `\receiver'.
+Finding duplicate cells in `\receiver'.
+Computing hashes of 1126 cells of `\receiver'.
+Finding duplicate cells in `\receiver'.
+<suppressed ~54 debug messages>
+Removed a total of 18 cells.
+
+3.7.6. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \receiver..
+Removed 0 unused cells and 1508 unused wires.
+<suppressed ~1 debug messages>
+
+3.7.7. Executing OPT_EXPR pass (perform const folding).
+Optimizing module receiver.
+
+3.7.8. Rerunning OPT passes. (Maybe there is more to do..)
+
+3.7.9. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \receiver..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+    dead port 1/2 on $mux $procmux$5522.
+    dead port 2/2 on $mux $procmux$5519.
+    dead port 2/2 on $mux $procmux$5517.
+    dead port 1/2 on $mux $procmux$5333.
+    dead port 2/2 on $mux $procmux$5330.
+    dead port 2/2 on $mux $procmux$5328.
+Removed 6 multiplexer ports.
+<suppressed ~2684 debug messages>
+
+3.7.10. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \receiver.
+Performed a total of 0 changes.
+
+3.7.11. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\receiver'.
+Computing hashes of 1120 cells of `\receiver'.
+Finding duplicate cells in `\receiver'.
+Removed a total of 0 cells.
+
+3.7.12. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \receiver..
+Removed 0 unused cells and 6 unused wires.
+<suppressed ~1 debug messages>
+
+3.7.13. Executing OPT_EXPR pass (perform const folding).
+Optimizing module receiver.
+
+3.7.14. Rerunning OPT passes. (Maybe there is more to do..)
+
+3.7.15. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \receiver..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~2597 debug messages>
+
+3.7.16. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \receiver.
+Performed a total of 0 changes.
+
+3.7.17. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\receiver'.
+Computing hashes of 1120 cells of `\receiver'.
+Finding duplicate cells in `\receiver'.
+Removed a total of 0 cells.
+
+3.7.18. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \receiver..
+
+3.7.19. Executing OPT_EXPR pass (perform const folding).
+Optimizing module receiver.
+
+3.7.20. Finished fast OPT passes. (There is nothing left to do.)
+
+3.8. Executing WREDUCE pass (reducing word size of cells).
+Removed top 30 bits (of 32) from port B of cell receiver.$lt$receiver.v:54$40 ($lt).
+Removed top 27 bits (of 32) from port B of cell receiver.$gt$receiver.v:54$41 ($gt).
+Removed top 13 bits (of 16) from port B of cell receiver.$ne$receiver.v:54$43 ($ne).
+Removed top 13 bits (of 16) from port B of cell receiver.$ne$receiver.v:54$44 ($ne).
+Removed top 26 bits (of 32) from port B of cell receiver.$lt$receiver.v:54$47 ($lt).
+Removed top 22 bits (of 32) from port B of cell receiver.$gt$receiver.v:54$49 ($gt).
+Removed top 25 bits (of 32) from port B of cell receiver.$gt$receiver.v:54$55 ($gt).
+Removed top 31 bits (of 32) from port B of cell receiver.$sub$receiver.v:65$89 ($sub).
+Removed top 16 bits (of 32) from port Y of cell receiver.$sub$receiver.v:65$89 ($sub).
+Removed top 31 bits (of 32) from port B of cell receiver.$sub$receiver.v:65$93 ($sub).
+Removed top 16 bits (of 32) from port Y of cell receiver.$sub$receiver.v:65$93 ($sub).
+Removed top 31 bits (of 32) from port B of cell receiver.$sub$receiver.v:65$97 ($sub).
+Removed top 16 bits (of 32) from port Y of cell receiver.$sub$receiver.v:65$97 ($sub).
+Removed top 31 bits (of 32) from port B of cell receiver.$sub$receiver.v:65$101 ($sub).
+Removed top 16 bits (of 32) from port Y of cell receiver.$sub$receiver.v:65$101 ($sub).
+Removed top 28 bits (of 32) from port B of cell receiver.$ge$receiver.v:76$121 ($ge).
+Removed top 31 bits (of 32) from port B of cell receiver.$add$receiver.v:81$130 ($add).
+Removed top 28 bits (of 32) from port Y of cell receiver.$add$receiver.v:81$130 ($add).
+Removed top 31 bits (of 32) from port B of cell receiver.$add$receiver.v:81$131 ($add).
+Removed top 29 bits (of 32) from port A of cell receiver.$mul$receiver.v:83$143 ($mul).
+Removed top 27 bits (of 32) from port Y of cell receiver.$mul$receiver.v:83$143 ($mul).
+Removed top 27 bits (of 32) from port A of cell receiver.$add$receiver.v:83$144 ($add).
+Removed top 31 bits (of 32) from port B of cell receiver.$add$receiver.v:83$144 ($add).
+Removed top 26 bits (of 32) from port Y of cell receiver.$add$receiver.v:83$144 ($add).
+Removed top 25 bits (of 32) from port B of cell receiver.$shiftx$receiver.v:83$145 ($shiftx).
+Removed top 31 bits (of 32) from port B of cell receiver.$add$receiver.v:83$146 ($add).
+Removed top 28 bits (of 32) from port Y of cell receiver.$add$receiver.v:83$146 ($add).
+Removed top 26 bits (of 33) from port A of cell receiver.$neg$receiver.v:83$147 ($neg).
+Converting cell receiver.$neg$receiver.v:83$147 ($neg) from signed to unsigned.
+Removed top 1 bits (of 7) from port A of cell receiver.$neg$receiver.v:83$147 ($neg).
+Removed top 16 bits (of 32) from port Y of cell receiver.$or$receiver.v:83$149 ($or).
+Removed top 16 bits (of 32) from port A of cell receiver.$or$receiver.v:83$149 ($or).
+Removed top 16 bits (of 32) from port B of cell receiver.$or$receiver.v:83$149 ($or).
+Removed top 10 bits (of 16) from port B of cell receiver.$eq$receiver.v:73$152 ($eq).
+Removed top 29 bits (of 32) from port B of cell receiver.$lt$receiver.v:73$154 ($lt).
+Removed top 10 bits (of 16) from port B of cell receiver.$ne$receiver.v:74$156 ($ne).
+Removed top 26 bits (of 32) from port B of cell receiver.$ge$receiver.v:74$158 ($ge).
+Removed top 26 bits (of 32) from port B of cell receiver.$lt$receiver.v:74$160 ($lt).
+Removed top 26 bits (of 32) from port B of cell receiver.$sub$receiver.v:74$162 ($sub).
+Removed top 30 bits (of 32) from port Y of cell receiver.$sub$receiver.v:74$162 ($sub).
+Removed top 14 bits (of 16) from port A of cell receiver.$sub$receiver.v:74$162 ($sub).
+Removed top 5 bits (of 6) from port B of cell receiver.$sub$receiver.v:74$162 ($sub).
+Removed top 28 bits (of 32) from port B of cell receiver.$ge$receiver.v:76$168 ($ge).
+Removed top 31 bits (of 32) from port B of cell receiver.$add$receiver.v:80$176 ($add).
+Removed top 30 bits (of 32) from port Y of cell receiver.$add$receiver.v:80$176 ($add).
+Removed top 31 bits (of 32) from port B of cell receiver.$add$receiver.v:81$177 ($add).
+Removed top 28 bits (of 32) from port Y of cell receiver.$add$receiver.v:81$177 ($add).
+Removed top 31 bits (of 32) from port B of cell receiver.$add$receiver.v:81$178 ($add).
+Removed top 29 bits (of 32) from port A of cell receiver.$mul$receiver.v:83$190 ($mul).
+Removed top 27 bits (of 32) from port Y of cell receiver.$mul$receiver.v:83$190 ($mul).
+Removed top 27 bits (of 32) from port A of cell receiver.$add$receiver.v:83$191 ($add).
+Removed top 31 bits (of 32) from port B of cell receiver.$add$receiver.v:83$191 ($add).
+Removed top 26 bits (of 32) from port Y of cell receiver.$add$receiver.v:83$191 ($add).
+Removed top 25 bits (of 32) from port B of cell receiver.$shiftx$receiver.v:83$192 ($shiftx).
+Removed top 31 bits (of 32) from port B of cell receiver.$add$receiver.v:83$193 ($add).
+Removed top 28 bits (of 32) from port Y of cell receiver.$add$receiver.v:83$193 ($add).
+Removed top 26 bits (of 33) from port A of cell receiver.$neg$receiver.v:83$194 ($neg).
+Converting cell receiver.$neg$receiver.v:83$194 ($neg) from signed to unsigned.
+Removed top 1 bits (of 7) from port A of cell receiver.$neg$receiver.v:83$194 ($neg).
+Removed top 16 bits (of 32) from port Y of cell receiver.$or$receiver.v:83$196 ($or).
+Removed top 16 bits (of 32) from port A of cell receiver.$or$receiver.v:83$196 ($or).
+Removed top 16 bits (of 32) from port B of cell receiver.$or$receiver.v:83$196 ($or).
+Removed top 28 bits (of 32) from port A of cell receiver.$mul$receiver.v:91$206 ($mul).
+Removed top 26 bits (of 32) from port Y of cell receiver.$mul$receiver.v:91$206 ($mul).
+Removed top 26 bits (of 32) from port A of cell receiver.$add$receiver.v:91$207 ($add).
+Removed top 31 bits (of 32) from port B of cell receiver.$add$receiver.v:91$207 ($add).
+Removed top 25 bits (of 32) from port Y of cell receiver.$add$receiver.v:91$207 ($add).
+Removed top 24 bits (of 32) from port B of cell receiver.$shiftx$receiver.v:91$208 ($shiftx).
+Converting cell receiver.$neg$receiver.v:93$214 ($neg) from signed to unsigned.
+Removed top 1 bits (of 3) from port A of cell receiver.$neg$receiver.v:93$214 ($neg).
+Removed top 31 bits (of 32) from port B of cell receiver.$sub$receiver.v:95$217 ($sub).
+Removed top 28 bits (of 32) from port Y of cell receiver.$sub$receiver.v:95$217 ($sub).
+Removed top 15 bits (of 16) from port B of cell receiver.$eq$receiver.v:100$220 ($eq).
+Removed top 14 bits (of 16) from port B of cell receiver.$eq$receiver.v:100$221 ($eq).
+Removed top 29 bits (of 32) from port A of cell receiver.$mul$receiver.v:110$238 ($mul).
+Removed top 27 bits (of 32) from port Y of cell receiver.$mul$receiver.v:110$238 ($mul).
+Removed top 27 bits (of 32) from port A of cell receiver.$add$receiver.v:110$239 ($add).
+Removed top 31 bits (of 32) from port B of cell receiver.$add$receiver.v:110$239 ($add).
+Removed top 26 bits (of 32) from port Y of cell receiver.$add$receiver.v:110$239 ($add).
+Removed top 25 bits (of 32) from port B of cell receiver.$shiftx$receiver.v:110$240 ($shiftx).
+Removed top 31 bits (of 32) from port B of cell receiver.$sub$receiver.v:110$241 ($sub).
+Removed top 28 bits (of 32) from port Y of cell receiver.$sub$receiver.v:110$241 ($sub).
+Removed top 26 bits (of 33) from port A of cell receiver.$neg$receiver.v:110$242 ($neg).
+Converting cell receiver.$neg$receiver.v:110$242 ($neg) from signed to unsigned.
+Removed top 1 bits (of 7) from port A of cell receiver.$neg$receiver.v:110$242 ($neg).
+Removed top 16 bits (of 32) from port Y of cell receiver.$or$receiver.v:110$244 ($or).
+Removed top 16 bits (of 32) from port A of cell receiver.$or$receiver.v:110$244 ($or).
+Removed top 16 bits (of 32) from port B of cell receiver.$or$receiver.v:110$244 ($or).
+Removed top 31 bits (of 32) from port A of cell receiver.$lt$receiver.v:115$245 ($lt).
+Removed top 31 bits (of 32) from port A of cell receiver.$lt$receiver.v:115$250 ($lt).
+Removed top 31 bits (of 32) from port B of cell receiver.$add$receiver.v:116$251 ($add).
+Removed top 28 bits (of 32) from port Y of cell receiver.$add$receiver.v:116$251 ($add).
+Removed top 31 bits (of 32) from port B of cell receiver.$add$receiver.v:116$252 ($add).
+Removed top 28 bits (of 32) from port Y of cell receiver.$add$receiver.v:116$252 ($add).
+Removed top 31 bits (of 32) from port B of cell receiver.$add$receiver.v:116$253 ($add).
+Removed top 28 bits (of 32) from port Y of cell receiver.$add$receiver.v:116$253 ($add).
+Removed top 31 bits (of 32) from port B of cell receiver.$add$receiver.v:116$254 ($add).
+Removed top 28 bits (of 32) from port Y of cell receiver.$add$receiver.v:116$254 ($add).
+Removed top 30 bits (of 32) from port A of cell receiver.$lt$receiver.v:115$255 ($lt).
+Removed top 31 bits (of 32) from port B of cell receiver.$add$receiver.v:116$256 ($add).
+Removed top 28 bits (of 32) from port Y of cell receiver.$add$receiver.v:116$256 ($add).
+Removed top 31 bits (of 32) from port B of cell receiver.$add$receiver.v:116$257 ($add).
+Removed top 28 bits (of 32) from port Y of cell receiver.$add$receiver.v:116$257 ($add).
+Removed top 31 bits (of 32) from port B of cell receiver.$add$receiver.v:116$258 ($add).
+Removed top 28 bits (of 32) from port Y of cell receiver.$add$receiver.v:116$258 ($add).
+Removed top 31 bits (of 32) from port B of cell receiver.$add$receiver.v:116$259 ($add).
+Removed top 28 bits (of 32) from port Y of cell receiver.$add$receiver.v:116$259 ($add).
+Removed top 30 bits (of 32) from port A of cell receiver.$lt$receiver.v:115$260 ($lt).
+Removed top 31 bits (of 32) from port B of cell receiver.$add$receiver.v:116$261 ($add).
+Removed top 28 bits (of 32) from port Y of cell receiver.$add$receiver.v:116$261 ($add).
+Removed top 31 bits (of 32) from port B of cell receiver.$add$receiver.v:116$262 ($add).
+Removed top 28 bits (of 32) from port Y of cell receiver.$add$receiver.v:116$262 ($add).
+Removed top 31 bits (of 32) from port B of cell receiver.$add$receiver.v:116$263 ($add).
+Removed top 28 bits (of 32) from port Y of cell receiver.$add$receiver.v:116$263 ($add).
+Removed top 31 bits (of 32) from port B of cell receiver.$add$receiver.v:116$264 ($add).
+Removed top 28 bits (of 32) from port Y of cell receiver.$add$receiver.v:116$264 ($add).
+Removed top 29 bits (of 32) from port A of cell receiver.$lt$receiver.v:115$265 ($lt).
+Removed top 31 bits (of 32) from port B of cell receiver.$add$receiver.v:116$266 ($add).
+Removed top 28 bits (of 32) from port Y of cell receiver.$add$receiver.v:116$266 ($add).
+Removed top 31 bits (of 32) from port B of cell receiver.$add$receiver.v:116$267 ($add).
+Removed top 28 bits (of 32) from port Y of cell receiver.$add$receiver.v:116$267 ($add).
+Removed top 31 bits (of 32) from port B of cell receiver.$add$receiver.v:116$268 ($add).
+Removed top 28 bits (of 32) from port Y of cell receiver.$add$receiver.v:116$268 ($add).
+Removed top 31 bits (of 32) from port B of cell receiver.$add$receiver.v:116$269 ($add).
+Removed top 28 bits (of 32) from port Y of cell receiver.$add$receiver.v:116$269 ($add).
+Removed top 29 bits (of 32) from port A of cell receiver.$lt$receiver.v:115$270 ($lt).
+Removed top 31 bits (of 32) from port B of cell receiver.$add$receiver.v:116$271 ($add).
+Removed top 28 bits (of 32) from port Y of cell receiver.$add$receiver.v:116$271 ($add).
+Removed top 31 bits (of 32) from port B of cell receiver.$add$receiver.v:116$272 ($add).
+Removed top 28 bits (of 32) from port Y of cell receiver.$add$receiver.v:116$272 ($add).
+Removed top 31 bits (of 32) from port B of cell receiver.$add$receiver.v:116$273 ($add).
+Removed top 28 bits (of 32) from port Y of cell receiver.$add$receiver.v:116$273 ($add).
+Removed top 31 bits (of 32) from port B of cell receiver.$add$receiver.v:116$274 ($add).
+Removed top 28 bits (of 32) from port Y of cell receiver.$add$receiver.v:116$274 ($add).
+Removed top 29 bits (of 32) from port A of cell receiver.$lt$receiver.v:115$275 ($lt).
+Removed top 31 bits (of 32) from port B of cell receiver.$add$receiver.v:116$276 ($add).
+Removed top 28 bits (of 32) from port Y of cell receiver.$add$receiver.v:116$276 ($add).
+Removed top 31 bits (of 32) from port B of cell receiver.$add$receiver.v:116$277 ($add).
+Removed top 28 bits (of 32) from port Y of cell receiver.$add$receiver.v:116$277 ($add).
+Removed top 31 bits (of 32) from port B of cell receiver.$add$receiver.v:116$278 ($add).
+Removed top 28 bits (of 32) from port Y of cell receiver.$add$receiver.v:116$278 ($add).
+Removed top 31 bits (of 32) from port B of cell receiver.$add$receiver.v:116$279 ($add).
+Removed top 28 bits (of 32) from port Y of cell receiver.$add$receiver.v:116$279 ($add).
+Removed top 29 bits (of 32) from port A of cell receiver.$lt$receiver.v:115$280 ($lt).
+Removed top 31 bits (of 32) from port B of cell receiver.$add$receiver.v:116$281 ($add).
+Removed top 28 bits (of 32) from port Y of cell receiver.$add$receiver.v:116$281 ($add).
+Removed top 31 bits (of 32) from port B of cell receiver.$add$receiver.v:116$282 ($add).
+Removed top 28 bits (of 32) from port Y of cell receiver.$add$receiver.v:116$282 ($add).
+Removed top 31 bits (of 32) from port B of cell receiver.$add$receiver.v:116$283 ($add).
+Removed top 28 bits (of 32) from port Y of cell receiver.$add$receiver.v:116$283 ($add).
+Removed top 31 bits (of 32) from port B of cell receiver.$add$receiver.v:116$284 ($add).
+Removed top 28 bits (of 32) from port Y of cell receiver.$add$receiver.v:116$284 ($add).
+Removed top 31 bits (of 32) from port B of cell receiver.$add$receiver.v:119$285 ($add).
+Removed top 28 bits (of 32) from port Y of cell receiver.$add$receiver.v:119$285 ($add).
+Removed top 31 bits (of 32) from port B of cell receiver.$add$receiver.v:119$286 ($add).
+Removed top 28 bits (of 32) from port Y of cell receiver.$add$receiver.v:119$286 ($add).
+Removed top 31 bits (of 32) from port B of cell receiver.$add$receiver.v:119$287 ($add).
+Removed top 28 bits (of 32) from port Y of cell receiver.$add$receiver.v:119$287 ($add).
+Removed top 31 bits (of 32) from port B of cell receiver.$add$receiver.v:119$288 ($add).
+Removed top 28 bits (of 32) from port Y of cell receiver.$add$receiver.v:119$288 ($add).
+Removed top 31 bits (of 32) from port B of cell receiver.$add$receiver.v:120$289 ($add).
+Removed top 28 bits (of 32) from port Y of cell receiver.$add$receiver.v:120$289 ($add).
+Removed top 31 bits (of 32) from port B of cell receiver.$add$receiver.v:120$290 ($add).
+Removed top 28 bits (of 32) from port Y of cell receiver.$add$receiver.v:120$290 ($add).
+Removed top 31 bits (of 32) from port B of cell receiver.$add$receiver.v:120$291 ($add).
+Removed top 28 bits (of 32) from port Y of cell receiver.$add$receiver.v:120$291 ($add).
+Removed top 31 bits (of 32) from port B of cell receiver.$add$receiver.v:120$292 ($add).
+Removed top 28 bits (of 32) from port Y of cell receiver.$add$receiver.v:120$292 ($add).
+Removed top 28 bits (of 32) from port B of cell receiver.$gt$receiver.v:121$293 ($gt).
+Removed top 1 bits (of 32) from port B of cell receiver.$ge$receiver.v:122$297 ($ge).
+Removed top 1 bits (of 32) from port B of cell receiver.$ge$receiver.v:122$298 ($ge).
+Removed top 31 bits (of 32) from port B of cell receiver.$add$receiver.v:123$301 ($add).
+Removed top 31 bits (of 32) from port B of cell receiver.$add$receiver.v:124$304 ($add).
+Removed top 15 bits (of 32) from port Y of cell receiver.$add$receiver.v:124$304 ($add).
+Removed top 31 bits (of 32) from port B of cell receiver.$add$receiver.v:125$307 ($add).
+Removed top 15 bits (of 32) from port Y of cell receiver.$add$receiver.v:125$307 ($add).
+Removed top 31 bits (of 32) from port B of cell receiver.$add$receiver.v:126$310 ($add).
+Removed top 15 bits (of 32) from port Y of cell receiver.$add$receiver.v:126$310 ($add).
+Removed top 31 bits (of 32) from port B of cell receiver.$add$receiver.v:127$313 ($add).
+Removed top 15 bits (of 32) from port Y of cell receiver.$add$receiver.v:127$313 ($add).
+Removed top 25 bits (of 32) from mux cell receiver.$procmux$349 ($mux).
+Removed top 26 bits (of 32) from mux cell receiver.$procmux$358 ($mux).
+Removed top 1 bits (of 2) from port B of cell receiver.$procmux$412_CMP0 ($eq).
+Removed top 1 bits (of 2) from port B of cell receiver.$procmux$504_CMP0 ($eq).
+Removed top 1 bits (of 2) from port B of cell receiver.$procmux$596_CMP0 ($eq).
+Removed top 1 bits (of 2) from port B of cell receiver.$procmux$688_CMP0 ($eq).
+Removed top 1 bits (of 2) from port B of cell receiver.$procmux$780_CMP0 ($eq).
+Removed top 1 bits (of 2) from port B of cell receiver.$procmux$872_CMP0 ($eq).
+Removed top 1 bits (of 2) from port B of cell receiver.$procmux$964_CMP0 ($eq).
+Removed top 1 bits (of 2) from port B of cell receiver.$procmux$1056_CMP0 ($eq).
+Removed top 1 bits (of 2) from port B of cell receiver.$procmux$1148_CMP0 ($eq).
+Removed top 1 bits (of 2) from port B of cell receiver.$procmux$1240_CMP0 ($eq).
+Removed top 27 bits (of 32) from mux cell receiver.$procmux$1289 ($mux).
+Removed top 27 bits (of 32) from mux cell receiver.$procmux$1345 ($mux).
+Removed top 27 bits (of 32) from mux cell receiver.$procmux$1764 ($mux).
+Removed top 28 bits (of 32) from mux cell receiver.$procmux$2626 ($mux).
+Removed top 1 bits (of 3) from port B of cell receiver.$procmux$2960_CMP0 ($eq).
+Removed top 1 bits (of 3) from port B of cell receiver.$procmux$2961_CMP0 ($eq).
+Removed top 2 bits (of 3) from port B of cell receiver.$procmux$2962_CMP0 ($eq).
+Removed top 28 bits (of 32) from mux cell receiver.$procmux$3037 ($mux).
+Removed top 28 bits (of 32) from mux cell receiver.$procmux$3630 ($mux).
+Removed top 28 bits (of 32) from mux cell receiver.$procmux$3721 ($mux).
+Removed top 1 bits (of 3) from port B of cell receiver.$procmux$4055_CMP0 ($eq).
+Removed top 1 bits (of 3) from port B of cell receiver.$procmux$4056_CMP0 ($eq).
+Removed top 2 bits (of 3) from port B of cell receiver.$procmux$4057_CMP0 ($eq).
+Removed top 28 bits (of 32) from mux cell receiver.$procmux$4132 ($mux).
+Removed top 1 bits (of 2) from mux cell receiver.$procmux$4444 ($mux).
+Removed top 1 bits (of 2) from mux cell receiver.$procmux$4716 ($mux).
+Removed top 28 bits (of 32) from mux cell receiver.$procmux$4725 ($mux).
+Removed top 30 bits (of 32) from mux cell receiver.$procmux$4862 ($mux).
+Removed top 30 bits (of 32) from mux cell receiver.$procmux$4948 ($mux).
+Removed top 30 bits (of 32) from mux cell receiver.$procmux$5051 ($mux).
+Removed top 30 bits (of 32) from mux cell receiver.$procmux$5137 ($mux).
+Removed top 30 bits (of 32) from mux cell receiver.$procmux$5240 ($mux).
+Removed top 30 bits (of 32) from mux cell receiver.$procmux$5326 ($mux).
+Removed top 30 bits (of 32) from mux cell receiver.$procmux$5429 ($mux).
+Removed top 30 bits (of 32) from mux cell receiver.$procmux$5515 ($mux).
+Removed top 31 bits (of 32) from mux cell receiver.$procmux$6461 ($mux).
+Removed top 16 bits (of 32) from port Y of cell receiver.$and$receiver.v:83$142 ($and).
+Removed top 16 bits (of 32) from port B of cell receiver.$and$receiver.v:83$142 ($and).
+Removed top 16 bits (of 32) from port Y of cell receiver.$shift$receiver.v:83$148 ($shift).
+Removed top 16 bits (of 32) from port Y of cell receiver.$and$receiver.v:83$189 ($and).
+Removed top 16 bits (of 32) from port B of cell receiver.$and$receiver.v:83$189 ($and).
+Removed top 16 bits (of 32) from port Y of cell receiver.$shift$receiver.v:83$195 ($shift).
+Removed top 16 bits (of 32) from port Y of cell receiver.$and$receiver.v:110$237 ($and).
+Removed top 16 bits (of 32) from port B of cell receiver.$and$receiver.v:110$237 ($and).
+Removed top 16 bits (of 32) from port Y of cell receiver.$shift$receiver.v:110$243 ($shift).
+Removed top 16 bits (of 32) from port Y of cell receiver.$not$receiver.v:83$141 ($not).
+Removed top 16 bits (of 32) from port A of cell receiver.$not$receiver.v:83$141 ($not).
+Removed top 16 bits (of 32) from port Y of cell receiver.$not$receiver.v:83$188 ($not).
+Removed top 16 bits (of 32) from port A of cell receiver.$not$receiver.v:83$188 ($not).
+Removed top 16 bits (of 32) from port Y of cell receiver.$not$receiver.v:110$236 ($not).
+Removed top 16 bits (of 32) from port A of cell receiver.$not$receiver.v:110$236 ($not).
+Removed top 16 bits (of 32) from port Y of cell receiver.$shift$receiver.v:83$140 ($shift).
+Removed top 16 bits (of 32) from port Y of cell receiver.$shift$receiver.v:83$187 ($shift).
+Removed top 16 bits (of 32) from port Y of cell receiver.$shift$receiver.v:110$235 ($shift).
+Removed top 15 bits (of 32) from wire receiver.$add$receiver.v:127$311_Y.
+Removed top 15 bits (of 32) from wire receiver.$add$receiver.v:126$308_Y.
+Removed top 15 bits (of 32) from wire receiver.$add$receiver.v:125$305_Y.
+Removed top 15 bits (of 32) from wire receiver.$add$receiver.v:124$302_Y.
+Removed top 28 bits (of 32) from wire receiver.$add$receiver.v:120$292_Y.
+Removed top 28 bits (of 32) from wire receiver.$add$receiver.v:120$291_Y.
+Removed top 28 bits (of 32) from wire receiver.$add$receiver.v:120$290_Y.
+Removed top 28 bits (of 32) from wire receiver.$add$receiver.v:120$289_Y.
+Removed top 28 bits (of 32) from wire receiver.$add$receiver.v:119$288_Y.
+Removed top 28 bits (of 32) from wire receiver.$add$receiver.v:119$287_Y.
+Removed top 28 bits (of 32) from wire receiver.$add$receiver.v:119$286_Y.
+Removed top 28 bits (of 32) from wire receiver.$add$receiver.v:119$285_Y.
+Removed top 28 bits (of 32) from wire receiver.$add$receiver.v:116$284_Y.
+Removed top 28 bits (of 32) from wire receiver.$add$receiver.v:116$283_Y.
+Removed top 28 bits (of 32) from wire receiver.$add$receiver.v:116$282_Y.
+Removed top 28 bits (of 32) from wire receiver.$add$receiver.v:116$281_Y.
+Removed top 28 bits (of 32) from wire receiver.$add$receiver.v:116$279_Y.
+Removed top 28 bits (of 32) from wire receiver.$add$receiver.v:116$278_Y.
+Removed top 28 bits (of 32) from wire receiver.$add$receiver.v:116$277_Y.
+Removed top 28 bits (of 32) from wire receiver.$add$receiver.v:116$276_Y.
+Removed top 28 bits (of 32) from wire receiver.$add$receiver.v:116$274_Y.
+Removed top 28 bits (of 32) from wire receiver.$add$receiver.v:116$273_Y.
+Removed top 28 bits (of 32) from wire receiver.$add$receiver.v:116$272_Y.
+Removed top 28 bits (of 32) from wire receiver.$add$receiver.v:116$271_Y.
+Removed top 28 bits (of 32) from wire receiver.$add$receiver.v:116$269_Y.
+Removed top 28 bits (of 32) from wire receiver.$add$receiver.v:116$268_Y.
+Removed top 28 bits (of 32) from wire receiver.$add$receiver.v:116$267_Y.
+Removed top 28 bits (of 32) from wire receiver.$add$receiver.v:116$266_Y.
+Removed top 28 bits (of 32) from wire receiver.$add$receiver.v:116$264_Y.
+Removed top 28 bits (of 32) from wire receiver.$add$receiver.v:116$263_Y.
+Removed top 28 bits (of 32) from wire receiver.$add$receiver.v:116$262_Y.
+Removed top 28 bits (of 32) from wire receiver.$add$receiver.v:116$261_Y.
+Removed top 28 bits (of 32) from wire receiver.$add$receiver.v:116$259_Y.
+Removed top 28 bits (of 32) from wire receiver.$add$receiver.v:116$258_Y.
+Removed top 28 bits (of 32) from wire receiver.$add$receiver.v:116$257_Y.
+Removed top 28 bits (of 32) from wire receiver.$add$receiver.v:116$256_Y.
+Removed top 28 bits (of 32) from wire receiver.$add$receiver.v:116$254_Y.
+Removed top 28 bits (of 32) from wire receiver.$add$receiver.v:116$253_Y.
+Removed top 28 bits (of 32) from wire receiver.$add$receiver.v:116$252_Y.
+Removed top 28 bits (of 32) from wire receiver.$add$receiver.v:116$251_Y.
+Removed top 16 bits (of 32) from wire receiver.$or$receiver.v:110$244_Y.
+Removed top 16 bits (of 32) from wire receiver.$shift$receiver.v:110$243_Y.
+Removed top 28 bits (of 32) from wire receiver.$sub$receiver.v:110$241_Y.
+Removed top 16 bits (of 32) from wire receiver.$and$receiver.v:110$237_Y.
+Removed top 16 bits (of 32) from wire receiver.$not$receiver.v:110$236_Y.
+Removed top 16 bits (of 32) from wire receiver.$shift$receiver.v:110$235_Y.
+Removed top 26 bits (of 32) from wire receiver.$add$receiver.v:109$227_Y.
+Removed top 27 bits (of 32) from wire receiver.$mul$receiver.v:109$226_Y.
+Removed top 28 bits (of 32) from wire receiver.$sub$receiver.v:95$217_Y.
+Removed top 25 bits (of 32) from wire receiver.$add$receiver.v:91$207_Y.
+Removed top 26 bits (of 32) from wire receiver.$mul$receiver.v:91$206_Y.
+Removed top 16 bits (of 32) from wire receiver.$or$receiver.v:83$196_Y.
+Removed top 16 bits (of 32) from wire receiver.$shift$receiver.v:83$195_Y.
+Removed top 28 bits (of 32) from wire receiver.$add$receiver.v:83$193_Y.
+Removed top 16 bits (of 32) from wire receiver.$and$receiver.v:83$189_Y.
+Removed top 16 bits (of 32) from wire receiver.$not$receiver.v:83$188_Y.
+Removed top 16 bits (of 32) from wire receiver.$shift$receiver.v:83$187_Y.
+Removed top 26 bits (of 32) from wire receiver.$add$receiver.v:82$180_Y.
+Removed top 27 bits (of 32) from wire receiver.$mul$receiver.v:82$179_Y.
+Removed top 28 bits (of 32) from wire receiver.$add$receiver.v:81$177_Y.
+Removed top 30 bits (of 32) from wire receiver.$add$receiver.v:80$176_Y.
+Removed top 30 bits (of 32) from wire receiver.$sub$receiver.v:74$162_Y.
+Removed top 16 bits (of 32) from wire receiver.$or$receiver.v:83$149_Y.
+Removed top 16 bits (of 32) from wire receiver.$shift$receiver.v:83$148_Y.
+Removed top 28 bits (of 32) from wire receiver.$add$receiver.v:83$146_Y.
+Removed top 16 bits (of 32) from wire receiver.$and$receiver.v:83$142_Y.
+Removed top 16 bits (of 32) from wire receiver.$not$receiver.v:83$141_Y.
+Removed top 16 bits (of 32) from wire receiver.$shift$receiver.v:83$140_Y.
+Removed top 1 bits (of 2) from wire receiver.$procmux$4716_Y.
+Removed top 26 bits (of 32) from wire receiver.$add$receiver.v:82$133_Y.
+Removed top 27 bits (of 32) from wire receiver.$mul$receiver.v:82$132_Y.
+Removed top 28 bits (of 32) from wire receiver.$add$receiver.v:81$130_Y.
+Removed top 1 bits (of 2) from wire receiver.$4\evenq[1:0].
+Removed top 16 bits (of 32) from wire receiver.$sub$receiver.v:65$101_Y.
+Removed top 16 bits (of 32) from wire receiver.$sub$receiver.v:65$97_Y.
+Removed top 16 bits (of 32) from wire receiver.$sub$receiver.v:65$93_Y.
+Removed top 16 bits (of 32) from wire receiver.$sub$receiver.v:65$89_Y.
+Removed top 31 bits (of 32) from wire receiver.$2\fault[31:0].
+
+3.9. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \receiver..
+Removed 0 unused cells and 78 unused wires.
+<suppressed ~1 debug messages>
+
+3.10. Executing MEMORY_COLLECT pass (generating $mem cells).
+
+3.11. Executing OPT pass (performing simple optimizations).
+
+3.11.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module receiver.
+
+3.11.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\receiver'.
+Computing hashes of 1120 cells of `\receiver'.
+Finding duplicate cells in `\receiver'.
+Removed a total of 0 cells.
+
+3.11.3. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \receiver..
+
+3.11.4. Finished fast OPT passes.
+
+3.12. Executing SORT pass.
+
+3.13. Printing statistics.
+
+=== receiver ===
+
+        +----------Local Count, excluding submodules.
+        | 
+     1119 wires
+    11049 wire bits
+       87 public wires
+     1527 public wire bits
+       71 ports
+     1255 port bits
+     1120 cells
+       52   $add
+        3   $and
+       70   $dff
+       54   $eq
+       10   $ge
+        4   $gt
+       12   $logic_and
+       29   $logic_not
+       15   $logic_or
+       12   $lt
+        4   $mul
+      692   $mux
+        4   $ne
+        4   $neg
+        3   $not
+        3   $or
+       72   $pmux
+        1   $reduce_bool
+       56   $reduce_or
+        7   $shift
+        6   $shiftx
+        7   $sub
+
+3.14. Executing CHECK pass (checking for obvious problems).
+Checking module receiver...
+Found and reported 0 problems.
+
+4. Executing CHECK pass (checking for obvious problems).
+Checking module receiver...
+Found and reported 0 problems.
+
+5. Executing CXXRTL backend.
+
+5.1. Executing HIERARCHY pass (managing design hierarchy).
+Attribute `top' found on module `receiver'. Setting top module to receiver.
+
+5.1.1. Analyzing design hierarchy..
+Top module:  \receiver
+
+5.1.2. Analyzing design hierarchy..
+Top module:  \receiver
+Removed 0 unused modules.
+
+5.2. Executing FLATTEN pass (flatten design).
+
+5.3. Executing PROC pass (convert processes to netlists).
+
+5.3.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+5.3.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Removed a total of 0 dead cases.
+
+5.3.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 0 redundant assignments.
+Promoted 0 assignments to connections.
+
+5.3.4. Executing PROC_INIT pass (extract init attributes).
+
+5.3.5. Executing PROC_ARST pass (detect async resets in processes).
+
+5.3.6. Executing PROC_ROM pass (convert switches to ROMs).
+Converted 0 switches.
+
+5.3.7. Executing PROC_MUX pass (convert decision trees to multiplexers).
+
+5.3.8. Executing PROC_DLATCH pass (convert process syncs to latches).
+
+5.3.9. Executing PROC_DFF pass (convert process syncs to FFs).
+
+5.3.10. Executing PROC_MEMWR pass (convert process memory writes to cells).
+
+5.3.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+5.3.12. Executing OPT_EXPR pass (perform const folding).
+Optimizing module receiver.
+
+Module `receiver' contains feedback arcs through wires:
+  $procmux$5581_Y
+  $11\fault[31:0]
+  $14\fault[31:0]
+Warning: Design contains feedback wires, which require delta cycles during evaluation.
+<suppressed ~12 debug messages>
+
+Warnings: 3 unique messages, 3 total
+End of script. Logfile hash: cf8956a9d7, time: 0.51s, user: 0.51s, system: 0.00s
+Yosys 0.70 (git sha1 28ba3cb92, Release, Clang /workspace/YoWASP/yosys/wasi-sdk-33.0-x86_64-linux/share/cmake/../..//bin/clang++ 22.1.0)
+Time spent: 35% 2x proc_mux (0 sec), 12% 6x opt_clean (0 sec), ...

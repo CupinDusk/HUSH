@@ -1,0 +1,280 @@
+{
+  "status": "PASS_ALL_FIVE_MEANINGFUL_COMPILED_RTL_MUTANTS_DETECTED",
+  "records": [
+    {
+      "name": "missing-capture-cancel",
+      "input_sha256": "453aa710b348a55922515815960c0edb0490bb5f410512f19ad91105c83a028e",
+      "oracle_sha256": "ff9084d68d48cb4d40fa45dd03a4a26170a463a9b90053812ae94ba21bee0e02",
+      "commands": [
+        {
+          "stage": "synthesis",
+          "argv": [
+            "<BUNDLED_RUNTIME>\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "<WORKSPACE>\\.tools\\run_iscas_yosys.py",
+            "-p",
+            "read_verilog receiver.v; hierarchy -check -top receiver; prep -top receiver; check -assert; write_cxxrtl netlist.cpp"
+          ],
+          "returncode": 0
+        },
+        {
+          "stage": "compile",
+          "argv": [
+            "<WORKSPACE>\\.tools\\zig-0.14.1\\zig-x86_64-windows-0.14.1\\zig.exe",
+            "c++",
+            "-std=c++17",
+            "-O3",
+            "-UNDEBUG",
+            "-I",
+            "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include",
+            "-I",
+            "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\backends\\cxxrtl\\runtime",
+            "-I",
+            "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\mutants\\01-missing-capture-cancel",
+            "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\independent.cpp",
+            "-o",
+            "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\mutants\\01-missing-capture-cancel\\check.exe"
+          ],
+          "returncode": 0
+        },
+        {
+          "stage": "execution",
+          "argv": [
+            "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\mutants\\01-missing-capture-cancel\\check.exe",
+            "control",
+            "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\mutants\\01-missing-capture-cancel"
+          ],
+          "returncode": 1
+        }
+      ],
+      "first_detection": "control case=0 mode=0 t=40 state[26] got=15 expected=14",
+      "generated_sha256": {
+        "netlist.cpp": "024cfeeea1fefd823bf077b5ca84a01f402b12751cfa1a0826b6511e17410fdd",
+        "check.exe": "70ea5b884bec77e911bc8c0f3857503a38505c1a7477066772c7306891fcb81e"
+      },
+      "status": "DETECTED_BY_INDEPENDENT_ORACLE_AFTER_ACTUAL_COMPILE_EXECUTION"
+    },
+    {
+      "name": "live-byte-emission",
+      "input_sha256": "98ffc1930683750b753bfc95fb01601efa044d07298d5674ef1ea27ff979df93",
+      "oracle_sha256": "ff9084d68d48cb4d40fa45dd03a4a26170a463a9b90053812ae94ba21bee0e02",
+      "commands": [
+        {
+          "stage": "synthesis",
+          "argv": [
+            "<BUNDLED_RUNTIME>\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "<WORKSPACE>\\.tools\\run_iscas_yosys.py",
+            "-p",
+            "read_verilog receiver.v; hierarchy -check -top receiver; prep -top receiver; check -assert; write_cxxrtl netlist.cpp"
+          ],
+          "returncode": 0
+        },
+        {
+          "stage": "compile",
+          "argv": [
+            "<WORKSPACE>\\.tools\\zig-0.14.1\\zig-x86_64-windows-0.14.1\\zig.exe",
+            "c++",
+            "-std=c++17",
+            "-O3",
+            "-UNDEBUG",
+            "-I",
+            "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include",
+            "-I",
+            "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\backends\\cxxrtl\\runtime",
+            "-I",
+            "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\mutants\\02-live-byte-emission",
+            "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\independent.cpp",
+            "-o",
+            "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\mutants\\02-live-byte-emission\\check.exe"
+          ],
+          "returncode": 0
+        },
+        {
+          "stage": "execution",
+          "argv": [
+            "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\mutants\\02-live-byte-emission\\check.exe",
+            "control",
+            "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\mutants\\02-live-byte-emission"
+          ],
+          "returncode": 1
+        }
+      ],
+      "first_detection": "control case=0 mode=1 t=1 event[18] got=255 expected=0",
+      "generated_sha256": {
+        "netlist.cpp": "3599bfbd4c2aa442cb009e18bd37784a92026c4c73ac0da5c471549e76b1bd34",
+        "check.exe": "d2434e1b9240b59ac4cf6507ece2e0e1dbf92df0e14ed0cbf39eac69d1d19900"
+      },
+      "status": "DETECTED_BY_INDEPENDENT_ORACLE_AFTER_ACTUAL_COMPILE_EXECUTION"
+    },
+    {
+      "name": "decrement-before-WU",
+      "input_sha256": "166af71bfe2f49f5450c45c58a16238b249331a79c9dbca613f266eb6146fbfd",
+      "oracle_sha256": "ff9084d68d48cb4d40fa45dd03a4a26170a463a9b90053812ae94ba21bee0e02",
+      "commands": [
+        {
+          "stage": "synthesis",
+          "argv": [
+            "<BUNDLED_RUNTIME>\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "<WORKSPACE>\\.tools\\run_iscas_yosys.py",
+            "-p",
+            "read_verilog receiver.v; hierarchy -check -top receiver; prep -top receiver; check -assert; write_cxxrtl netlist.cpp"
+          ],
+          "returncode": 0
+        },
+        {
+          "stage": "compile",
+          "argv": [
+            "<WORKSPACE>\\.tools\\zig-0.14.1\\zig-x86_64-windows-0.14.1\\zig.exe",
+            "c++",
+            "-std=c++17",
+            "-O3",
+            "-UNDEBUG",
+            "-I",
+            "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include",
+            "-I",
+            "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\backends\\cxxrtl\\runtime",
+            "-I",
+            "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\mutants\\03-decrement-before-WU",
+            "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\independent.cpp",
+            "-o",
+            "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\mutants\\03-decrement-before-WU\\check.exe"
+          ],
+          "returncode": 0
+        },
+        {
+          "stage": "execution",
+          "argv": [
+            "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\mutants\\03-decrement-before-WU\\check.exe",
+            "control",
+            "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\mutants\\03-decrement-before-WU"
+          ],
+          "returncode": 1
+        }
+      ],
+      "first_detection": "control case=0 mode=0 t=1 state[28] got=81 expected=80",
+      "generated_sha256": {
+        "netlist.cpp": "54b5e571f9a9cf2896f13b7cbdde6c199ee287a48edf62d1622f1c2fd2b9435d",
+        "check.exe": "366a9666284df3caa67585dc6a6ab616568daafb6c52e99985169c6f9c5e717d"
+      },
+      "status": "DETECTED_BY_INDEPENDENT_ORACLE_AFTER_ACTUAL_COMPILE_EXECUTION"
+    },
+    {
+      "name": "drop-duplicate-calendar-job",
+      "input_sha256": "08fc647ddadef018a806cf32ff6b2d29b220f4f4f8bbd6b2c6723c85e4bfea53",
+      "oracle_sha256": "ff9084d68d48cb4d40fa45dd03a4a26170a463a9b90053812ae94ba21bee0e02",
+      "commands": [
+        {
+          "stage": "synthesis",
+          "argv": [
+            "<BUNDLED_RUNTIME>\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "<WORKSPACE>\\.tools\\run_iscas_yosys.py",
+            "-p",
+            "read_verilog receiver.v; hierarchy -check -top receiver; prep -top receiver; check -assert; write_cxxrtl netlist.cpp"
+          ],
+          "returncode": 0
+        },
+        {
+          "stage": "compile",
+          "argv": [
+            "<WORKSPACE>\\.tools\\zig-0.14.1\\zig-x86_64-windows-0.14.1\\zig.exe",
+            "c++",
+            "-std=c++17",
+            "-O3",
+            "-UNDEBUG",
+            "-I",
+            "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include",
+            "-I",
+            "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\backends\\cxxrtl\\runtime",
+            "-I",
+            "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\mutants\\04-drop-duplicate-calendar-job",
+            "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\independent.cpp",
+            "-o",
+            "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\mutants\\04-drop-duplicate-calendar-job\\check.exe"
+          ],
+          "returncode": 0
+        },
+        {
+          "stage": "execution",
+          "argv": [
+            "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\mutants\\04-drop-duplicate-calendar-job\\check.exe",
+            "control",
+            "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\mutants\\04-drop-duplicate-calendar-job"
+          ],
+          "returncode": 1
+        }
+      ],
+      "first_detection": "control case=4 mode=-1 t=0 state[5] got=2 expected=3",
+      "generated_sha256": {
+        "netlist.cpp": "e300294dbfa1dd5d9510415926519c18f83d7dd409c02175e2a24a01ec6e35f0",
+        "check.exe": "0a547b913c3b6d26fd0cfff2da7e834534b86f4643487d8faf65042644347ecd"
+      },
+      "status": "DETECTED_BY_INDEPENDENT_ORACLE_AFTER_ACTUAL_COMPILE_EXECUTION"
+    },
+    {
+      "name": "wrong-FIFO-grant-ID",
+      "input_sha256": "e0f6421c302f7edec6ac05c34a6a2d61e1d967e9a4017cb1389268e3a852d9f1",
+      "oracle_sha256": "ff9084d68d48cb4d40fa45dd03a4a26170a463a9b90053812ae94ba21bee0e02",
+      "commands": [
+        {
+          "stage": "synthesis",
+          "argv": [
+            "<BUNDLED_RUNTIME>\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "<WORKSPACE>\\.tools\\run_iscas_yosys.py",
+            "-p",
+            "read_verilog receiver.v; hierarchy -check -top receiver; prep -top receiver; check -assert; write_cxxrtl netlist.cpp"
+          ],
+          "returncode": 0
+        },
+        {
+          "stage": "compile",
+          "argv": [
+            "<WORKSPACE>\\.tools\\zig-0.14.1\\zig-x86_64-windows-0.14.1\\zig.exe",
+            "c++",
+            "-std=c++17",
+            "-O3",
+            "-UNDEBUG",
+            "-I",
+            "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include",
+            "-I",
+            "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\backends\\cxxrtl\\runtime",
+            "-I",
+            "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\mutants\\05-wrong-FIFO-grant-ID",
+            "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\independent.cpp",
+            "-o",
+            "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\mutants\\05-wrong-FIFO-grant-ID\\check.exe"
+          ],
+          "returncode": 0
+        },
+        {
+          "stage": "execution",
+          "argv": [
+            "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\mutants\\05-wrong-FIFO-grant-ID\\check.exe",
+            "control",
+            "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\mutants\\05-wrong-FIFO-grant-ID"
+          ],
+          "returncode": 1
+        }
+      ],
+      "first_detection": "control case=0 mode=-1 t=0 event[13] got=0 expected=1",
+      "generated_sha256": {
+        "netlist.cpp": "93a2f942a5e2703324676da9c7657d3e5cb7f5e0094ab526fa204ae2cfe74f87",
+        "check.exe": "04674cacc0af29418ca933f45d24ab26ced7760ad9234264fd56ce61b3d41525"
+      },
+      "status": "DETECTED_BY_INDEPENDENT_ORACLE_AFTER_ACTUAL_COMPILE_EXECUTION"
+    }
+  ]
+}

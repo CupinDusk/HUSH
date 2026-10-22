@@ -1,0 +1,55 @@
+{
+  "name": "missing-capture-cancel",
+  "input_sha256": "453aa710b348a55922515815960c0edb0490bb5f410512f19ad91105c83a028e",
+  "oracle_sha256": "ff9084d68d48cb4d40fa45dd03a4a26170a463a9b90053812ae94ba21bee0e02",
+  "commands": [
+    {
+      "stage": "synthesis",
+      "argv": [
+        "<BUNDLED_RUNTIME>\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "<WORKSPACE>\\.tools\\run_iscas_yosys.py",
+        "-p",
+        "read_verilog receiver.v; hierarchy -check -top receiver; prep -top receiver; check -assert; write_cxxrtl netlist.cpp"
+      ],
+      "returncode": 0
+    },
+    {
+      "stage": "compile",
+      "argv": [
+        "<WORKSPACE>\\.tools\\zig-0.14.1\\zig-x86_64-windows-0.14.1\\zig.exe",
+        "c++",
+        "-std=c++17",
+        "-O3",
+        "-UNDEBUG",
+        "-I",
+        "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include",
+        "-I",
+        "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\backends\\cxxrtl\\runtime",
+        "-I",
+        "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\mutants\\01-missing-capture-cancel",
+        "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\independent.cpp",
+        "-o",
+        "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\mutants\\01-missing-capture-cancel\\check.exe"
+      ],
+      "returncode": 0
+    },
+    {
+      "stage": "execution",
+      "argv": [
+        "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\mutants\\01-missing-capture-cancel\\check.exe",
+        "control",
+        "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\mutants\\01-missing-capture-cancel"
+      ],
+      "returncode": 1
+    }
+  ],
+  "first_detection": "control case=0 mode=0 t=40 state[26] got=15 expected=14",
+  "generated_sha256": {
+    "netlist.cpp": "024cfeeea1fefd823bf077b5ca84a01f402b12751cfa1a0826b6511e17410fdd",
+    "check.exe": "70ea5b884bec77e911bc8c0f3857503a38505c1a7477066772c7306891fcb81e"
+  },
+  "status": "DETECTED_BY_INDEPENDENT_ORACLE_AFTER_ACTUAL_COMPILE_EXECUTION"
+}

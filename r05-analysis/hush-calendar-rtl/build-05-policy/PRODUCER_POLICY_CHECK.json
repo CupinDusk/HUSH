@@ -1,0 +1,25 @@
+{
+  "status": "PASS_PRODUCER_POLICY_BINDINGS_AND_ARITHMETIC_ALL_TICK_TIMER_TRANSCRIPT",
+  "counts": {
+    "queries": 130112,
+    "positive": 21257,
+    "negative": 108855,
+    "executed_ticks": 84379472,
+    "omitted_physical_prehistory_ticks_NOT_executed": 440303104,
+    "captures": 1229561,
+    "emissions": 1206724,
+    "cancels": 21257,
+    "expiries": 108855,
+    "WUs": 130112
+  },
+  "tick_counts": {
+    "strictly_decoded_timer_checked_ticks": 84379472,
+    "snapshot_held_after_tag_expiry_ticks": 9428,
+    "backpressure_with_expired_tag_snapshot_ticks": 9356
+  },
+  "input_hashes": {
+    "policies": "e3e237a7e306a76bb6c1b0e63a4c0c32bc8a44cbed8dec9c3352dd9ff754ef76",
+    "results": "b21694d00a345cf8dda6a29992f32fb87d548220e35dfd4c403c545ceda8f78a"
+  },
+  "scope": "Same producer; no independent gate claim; finite one-WU words only."
+}

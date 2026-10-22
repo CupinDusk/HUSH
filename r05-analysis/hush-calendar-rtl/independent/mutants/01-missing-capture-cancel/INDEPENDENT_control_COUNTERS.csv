@@ -1,0 +1,2 @@
+query,case,mode,ticks,enqueues,captures,emissions,transfers,backpressure,cancels,expiries,WUs,maxFIFO,maxGlobal,maxLine0,maxLine1,maxLine2,maxLine3,peakFIFO,peakGlobal,peakLine0,peakLine1,peakLine2,peakLine3,heldExpired,heldExpiredBlock
+-1,0,-1,400,40,40,40,40,50,0,0,0,2,3,1,1,1,1,2,3,1,1,1,1,0,0

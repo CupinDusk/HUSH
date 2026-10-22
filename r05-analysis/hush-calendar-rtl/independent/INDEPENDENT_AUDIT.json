@@ -1,0 +1,617 @@
+{
+  "status": "PASS_INDEPENDENT_AUTHOR_SIDE_FIXED_REFERENCE_COMPONENT",
+  "gates": {
+    "fresh_actual_Yosys_CXXRTL_Zig_execution": "PASS",
+    "independent_full_state_event_byte_timer_transition": "PASS",
+    "independent_prefix_fullkey_cycle_all_phases_optima_ties": "PASS",
+    "full_event_order_peaks_separate_from_after_tick_samples": "PASS",
+    "meaningful_synthesized_compiled_mutants": "PASS_5_OF_5_DETECTED",
+    "original_empty_frame_case7": "UNKNOWN_PRESERVED",
+    "post_observation_all12_fullkey_extension": "PASS_WITH_SEPARATE_5F_CROSSING_ENDPOINT_SIDECAR",
+    "separate_cycle_witness_supplement": "PASS_NOT_A_FULL_ADMISSION_EXTENSION"
+  },
+  "facts": {
+    "status": "PASS_INDEPENDENT_FIXED_REFERENCE_RTL_SCOPE",
+    "case_count": 12,
+    "primary_control_data_serialized_ticks": {
+      "CONTROL_TICKS.csv": 15296,
+      "DATA_TICKS.csv": 34416
+    },
+    "primary_control_data_total_ticks": 49712,
+    "separate_independent_control_5F_ticks": 19120,
+    "extra_control_ticks_beyond_4F": 3824,
+    "actual_counts": {
+      "policies": {
+        "ticks": 84379472,
+        "enqueues": 1531520,
+        "captures": 1229561,
+        "emissions": 1206724,
+        "transfers": 1229421,
+        "backpressure": 1682300,
+        "cancels": 21257,
+        "expiries": 108855,
+        "WUs": 130112,
+        "heldExpired": 9428,
+        "heldExpiredBlock": 9356
+      },
+      "data": {
+        "ticks": 34416,
+        "enqueues": 864,
+        "captures": 858,
+        "emissions": 858,
+        "transfers": 858,
+        "backpressure": 1116,
+        "cancels": 714,
+        "expiries": 0,
+        "WUs": 135792,
+        "heldExpired": 0,
+        "heldExpiredBlock": 0
+      },
+      "independent_control_5F": {
+        "ticks": 19120,
+        "enqueues": 480,
+        "captures": 478,
+        "emissions": 478,
+        "transfers": 478,
+        "backpressure": 620,
+        "cancels": 0,
+        "expiries": 0,
+        "WUs": 0,
+        "heldExpired": 0,
+        "heldExpiredBlock": 0
+      }
+    },
+    "policy_positive": 21257,
+    "policy_negative": 108855,
+    "omitted_prehistory_NOT_executed": 440303104,
+    "coverage": {
+      "multi_enqueues": 52,
+      "enqueue_and_grant": 325,
+      "grant_and_callback": 91,
+      "emit_and_transfer": 195,
+      "expiry_equals_next_grant_first_miss": 137,
+      "first_miss": 108855
+    },
+    "after_tick_maxima_by_case": {
+      "0": [
+        2,
+        3,
+        1,
+        1,
+        1,
+        1
+      ],
+      "1": [
+        2,
+        3,
+        1,
+        1,
+        1,
+        1
+      ],
+      "2": [
+        3,
+        4,
+        1,
+        1,
+        1,
+        1
+      ],
+      "3": [
+        3,
+        3,
+        1,
+        1,
+        1,
+        1
+      ],
+      "4": [
+        7,
+        7,
+        2,
+        2,
+        2,
+        2
+      ],
+      "5": [
+        3,
+        3,
+        1,
+        1,
+        1,
+        1
+      ],
+      "6": [
+        3,
+        4,
+        1,
+        1,
+        1,
+        1
+      ],
+      "7": [
+        5,
+        5,
+        1,
+        1,
+        1,
+        2
+      ],
+      "8": [
+        4,
+        4,
+        1,
+        1,
+        1,
+        1
+      ],
+      "9": [
+        4,
+        4,
+        1,
+        1,
+        1,
+        1
+      ],
+      "10": [
+        5,
+        5,
+        1,
+        1,
+        1,
+        2
+      ],
+      "11": [
+        5,
+        5,
+        1,
+        1,
+        1,
+        2
+      ]
+    },
+    "exact_event_order_peaks_by_case": {
+      "0": [
+        2,
+        3,
+        1,
+        1,
+        1,
+        1
+      ],
+      "1": [
+        2,
+        4,
+        1,
+        1,
+        1,
+        1
+      ],
+      "2": [
+        3,
+        4,
+        1,
+        1,
+        1,
+        1
+      ],
+      "3": [
+        3,
+        4,
+        1,
+        1,
+        1,
+        1
+      ],
+      "4": [
+        7,
+        7,
+        2,
+        2,
+        2,
+        2
+      ],
+      "5": [
+        3,
+        4,
+        1,
+        1,
+        1,
+        1
+      ],
+      "6": [
+        3,
+        4,
+        1,
+        1,
+        1,
+        1
+      ],
+      "7": [
+        5,
+        5,
+        1,
+        1,
+        1,
+        2
+      ],
+      "8": [
+        4,
+        4,
+        1,
+        1,
+        1,
+        1
+      ],
+      "9": [
+        4,
+        4,
+        1,
+        1,
+        1,
+        1
+      ],
+      "10": [
+        5,
+        5,
+        1,
+        1,
+        1,
+        2
+      ],
+      "11": [
+        5,
+        5,
+        1,
+        1,
+        1,
+        2
+      ]
+    },
+    "all_peak_sidecars_match": true,
+    "source_files_unchanged_since_copy": {
+      "AMENDMENT_01_PRE_EXECUTION.md": true,
+      "AMENDMENT_02_FULL_KEY_EXTENSION.md": true,
+      "analyze.py": true,
+      "check_transitions.py": true,
+      "COMPOSITION_ARGUMENT.md": true,
+      "CORRECTION_02_PRESERVE_FRAME_FAILURE.md": true,
+      "decode_trace.py": true,
+      "derive_peaks.py": false,
+      "driver.cpp": true,
+      "PROTOCOL.json": true,
+      "PROTOCOL_INITIAL_LITERAL.json": true,
+      "receiver.v": true,
+      "replay_portable.py": false,
+      "run_build.py": true,
+      "SCHEMA.md": true,
+      "verify_policy.py": false
+    },
+    "semantic_streams": {
+      "INDEPENDENT_POLICY_TICKS.delta": {
+        "independent_sha256": "81e302f4cf47988abe7981c64922cef37ccc0a77ab047c35adc6fe9cda93382d",
+        "producer_sha256": "81e302f4cf47988abe7981c64922cef37ccc0a77ab047c35adc6fe9cda93382d",
+        "bytes": 191473772
+      },
+      "INDEPENDENT_POLICY_RESULTS.csv": {
+        "independent_sha256": "b21694d00a345cf8dda6a29992f32fb87d548220e35dfd4c403c545ceda8f78a",
+        "producer_sha256": "b21694d00a345cf8dda6a29992f32fb87d548220e35dfd4c403c545ceda8f78a",
+        "bytes": 12709732
+      },
+      "INDEPENDENT_policies.txt": {
+        "independent_sha256": "e3e237a7e306a76bb6c1b0e63a4c0c32bc8a44cbed8dec9c3352dd9ff754ef76",
+        "producer_sha256": "e3e237a7e306a76bb6c1b0e63a4c0c32bc8a44cbed8dec9c3352dd9ff754ef76",
+        "bytes": 6700504
+      }
+    },
+    "original_empty_frame_gate": {
+      "pass_cases": 11,
+      "unknown_cases": [
+        7
+      ],
+      "p7_r7_end_3F_queued": 2
+    },
+    "extension": {
+      "entries": [
+        [
+          0,
+          0,
+          80
+        ],
+        [
+          1,
+          0,
+          112
+        ],
+        [
+          2,
+          0,
+          120
+        ],
+        [
+          3,
+          0,
+          168
+        ],
+        [
+          4,
+          0,
+          40
+        ],
+        [
+          5,
+          0,
+          280
+        ],
+        [
+          6,
+          0,
+          280
+        ],
+        [
+          7,
+          37,
+          93
+        ],
+        [
+          8,
+          0,
+          440
+        ],
+        [
+          9,
+          0,
+          616
+        ],
+        [
+          10,
+          0,
+          680
+        ],
+        [
+          11,
+          0,
+          952
+        ]
+      ],
+      "all_12_validated": true,
+      "extra_5F_endpoint_gate": true
+    },
+    "limits": [
+      "Own reference component only; no native HUSH/coherence/PPA/silicon/application/performance inference.",
+      "Finite one-WU executions do not exhaust arbitrary WU words. Conditional proof requires WU t>initial capture cutpoint, fixed epoch/source/ready schedule and no other invalidation.",
+      "Physical prefix is preserved; omitted prehistory is not executed.",
+      "Container bytes are independently hashed; executable timestamp/debug GUID/gzip mtime need not reproduce."
+    ],
+    "reviewed_nonRTL_finalization_changes": {
+      "derive_peaks.py": {
+        "original_frozen_sha256": "d338d2b01c45375aca2e97e8df75da5c02ec2d282a2f290cd1785f661461e951",
+        "reviewed_finalization_sha256": "ed7096b20d90294a12f06d1db96a4719757bce54e17d68000050366c43a1a0a7"
+      },
+      "verify_policy.py": {
+        "original_frozen_sha256": "dab51d2bf6a46eaa792e2544f7affa841dc085e4618400df0a8cf8a485565a77",
+        "reviewed_finalization_sha256": "775eaa3799cff55a05de25c577850cc3bab00200d7195a8212433457d25d88ef"
+      },
+      "replay_portable.py": {
+        "original_frozen_sha256": "264d5e7c37aa680871f1d4ee059be4124b7334512cd67837516b2bba5c81b86c",
+        "reviewed_finalization_sha256": "627e290da219b17b0076e96cd3aeee69cb43d7b3be457914b9c4e8d7fbcc58fd"
+      }
+    },
+    "separate_cycle_witness_supplement": {
+      "status": "PASS_SEPARATE_INDEPENDENT_CYCLE_WITNESS_EXTENSION",
+      "queries": 6496,
+      "actual_executed_ticks": 346304,
+      "cycle_local_positive": 5498,
+      "cycle_local_negative": 998,
+      "full_admitted_unchanged": 5227,
+      "cycle_local_positive_but_prefix_rejects": 271,
+      "omitted_prehistory_NOT_executed": 453600,
+      "scope": "Cycle-only local tests do not grant full admission when the exact physical prefix rejects. Original 130112 full decisions and original p7/r7 empty-frame UNKNOWN remain unchanged."
+    },
+    "prominent_prefix_counterexample": {
+      "selection": "Minimum KP-1, then K,P,phi among all271 cycle-local positives rejected by exact prefix",
+      "case": 7,
+      "p": 7,
+      "r": 7,
+      "F": 56,
+      "K": 15,
+      "P": 2,
+      "phi": 0,
+      "KP_minus1": 29,
+      "line": 1,
+      "strict_first_capture_cutpoint": 7,
+      "prefix": {
+        "query": 16894,
+        "start": 0,
+        "s": 7,
+        "c": 8,
+        "h": 49,
+        "WU": 8,
+        "expiry": 36,
+        "slack": -13,
+        "actual_first_miss": 49,
+        "actual_fail_owner": 1,
+        "actual_fail_ID": 6,
+        "actual_ticks": 50
+      },
+      "cycle": {
+        "query": 30,
+        "start": 37,
+        "cache_phase": 2,
+        "ready_phase": 2,
+        "calendar_phase": 37,
+        "physical_P_phase": 1,
+        "s": 49,
+        "c": 50,
+        "h": 77,
+        "WU": 50,
+        "expiry_if_not_cancelled": 78,
+        "slack": 1,
+        "actual_first_miss": null,
+        "actual_cancel_at": 77,
+        "actual_ticks": 41
+      },
+      "interpretation": "Two separate one-WU executions of the same policy. Cycle-local survival is not fresh-policy admission. All four prefix crossing edges remain required."
+    },
+    "strict_initial_WU_contract": "For each line j, every accepted/attempted WU word in the safety claim has t>its guaranteed first capture cutpoint. Data and one-WU tests obey this strict boundary."
+  },
+  "arithmetic": {
+    "status": "PASS_INDEPENDENT_ALL_CASES_PREFIX_CYCLE_GRID_OPTIMA_TIES",
+    "counts": {
+      "policy_queries": 130112,
+      "service_positive": 21257,
+      "completion_positive": 21019,
+      "service_only": 238,
+      "original5_queries": 40660,
+      "original5_service_positive": 1269,
+      "original5_completion_positive": 1264
+    },
+    "policy_queries": 130112,
+    "semantic_streams_identical": {
+      "CONTROL_TICKS.csv": true,
+      "DATA_TICKS.csv": true,
+      "RUN_COUNTERS.csv": true
+    },
+    "cycle_entries": [
+      [
+        0,
+        0,
+        80
+      ],
+      [
+        1,
+        0,
+        112
+      ],
+      [
+        2,
+        0,
+        120
+      ],
+      [
+        3,
+        0,
+        168
+      ],
+      [
+        4,
+        0,
+        40
+      ],
+      [
+        5,
+        0,
+        280
+      ],
+      [
+        6,
+        0,
+        280
+      ],
+      [
+        7,
+        37,
+        93
+      ],
+      [
+        8,
+        0,
+        440
+      ],
+      [
+        9,
+        0,
+        616
+      ],
+      [
+        10,
+        0,
+        680
+      ],
+      [
+        11,
+        0,
+        952
+      ]
+    ],
+    "prefix_edges": 4,
+    "cycle_edges": 96,
+    "gains": [
+      0,
+      4,
+      0,
+      0,
+      0,
+      4,
+      1,
+      0,
+      9,
+      0,
+      16,
+      8
+    ],
+    "no_gain_cases": [
+      0,
+      2,
+      3,
+      4,
+      7,
+      9
+    ],
+    "source_hashes": {
+      "AMENDMENT_01_PRE_EXECUTION.md": "83e8b1a23f928851f96c7bf766fa14c25802415c4509cb284e426fcd11a542c0",
+      "AMENDMENT_02_FULL_KEY_EXTENSION.md": "7a2ade2d290a739d2a9611f4843b66cf4e5fd424c88d28904b2067cfa2739fe4",
+      "analyze.py": "0fa523c69f0c4b553bab0dffe8f11a6163c8ceb3a23676a44af392d59807945b",
+      "check_transitions.py": "2ff0c3c9465e617065125fb560e34ef350563d3fa27936b300c6ff166ebefe37",
+      "COMPOSITION_ARGUMENT.md": "2d51d4e8f877b9afd69536b89b5b017e6f0cb666aa1c8febf9713a39e85e7ccf",
+      "CORRECTION_02_PRESERVE_FRAME_FAILURE.md": "947d4d1ae2a69d8166c4805f94eac73ee2f6995ab70154ca6d8a44e77d6e48e7",
+      "decode_trace.py": "a907046c2b1ffe2b29283869c0261897dd40f1ee32fde9beb5a57856451ecc1e",
+      "derive_peaks.py": "d338d2b01c45375aca2e97e8df75da5c02ec2d282a2f290cd1785f661461e951",
+      "driver.cpp": "e76f96933561a31e1c6e7544f480eb91a393833d22c2d4ee59fbc4d8d2781004",
+      "PROTOCOL.json": "e88e4823e4121f7405db0d513b9bdb77b957c0cb9877c836f0ee199e4eee40af",
+      "PROTOCOL_INITIAL_LITERAL.json": "e88e4823e4121f7405db0d513b9bdb77b957c0cb9877c836f0ee199e4eee40af",
+      "R05_HUSH_PROSPECTIVE_RESPONSE_PLAN.md": "1faff174e3d6d617004cd399b2dcf9173df3538cfa35b49f44a3fe23e16bd5bd",
+      "receiver.v": "a787f08e1ed0f4e284d11f436f371632358c85fcedcc00586394d8967a69e987",
+      "replay_portable.py": "264d5e7c37aa680871f1d4ee059be4124b7334512cd67837516b2bba5c81b86c",
+      "run_build.py": "41ef7e8a79f726fa6dfa382ed340c2142f21c2dcfd301db11cbb07ee1a56fd39",
+      "SCHEMA.md": "756586f370c0db63ab5d42544f967162e1dc448b86c912882e55592bbb495b60",
+      "verify_policy.py": "dab51d2bf6a46eaa792e2544f7affa841dc085e4618400df0a8cf8a485565a77"
+    }
+  },
+  "mutant_first_detections": [
+    {
+      "name": "missing-capture-cancel",
+      "first_detection": "control case=0 mode=0 t=40 state[26] got=15 expected=14"
+    },
+    {
+      "name": "live-byte-emission",
+      "first_detection": "control case=0 mode=1 t=1 event[18] got=255 expected=0"
+    },
+    {
+      "name": "decrement-before-WU",
+      "first_detection": "control case=0 mode=0 t=1 state[28] got=81 expected=80"
+    },
+    {
+      "name": "drop-duplicate-calendar-job",
+      "first_detection": "control case=4 mode=-1 t=0 state[5] got=2 expected=3"
+    },
+    {
+      "name": "wrong-FIFO-grant-ID",
+      "first_detection": "control case=0 mode=-1 t=0 event[13] got=0 expected=1"
+    }
+  ],
+  "preserved_independent_failures": [
+    "attempt-001-window-endpoint/FAILURE.txt",
+    "attempt-002-finalization-script-drift/FAILURE.txt"
+  ],
+  "strict_initial_WU_boundary": "t > each line initial capture cutpoint",
+  "independent_proof": "INDEPENDENT_AUDIT.md: first-failure control induction, immutable ID ownership, monotone periodic Kth decrement and rearm, exact physical prefix plus full timer-phase cycle orbit.",
+  "limitations": [
+    "Own reference component only; no native HUSH/coherence/PPA/silicon/application/performance inference.",
+    "Finite one-WU executions do not exhaust arbitrary WU words. Conditional proof requires WU t>initial capture cutpoint, fixed epoch/source/ready schedule and no other invalidation.",
+    "Physical prefix is preserved; omitted prehistory is not executed.",
+    "Container bytes are independently hashed; executable timestamp/debug GUID/gzip mtime need not reproduce."
+  ],
+  "scope": "No blind review/manuscript/private overlay/remote/push/publication/OS-setting/performance collection. No score target. All writes under independent/.",
+  "containers": "Actual PE/PDB/gzip hashes bound; no claim of whole-byte binary/container reproducibility. Independently checked semantic input/result/initialization/delta bytes match exactly."
+}

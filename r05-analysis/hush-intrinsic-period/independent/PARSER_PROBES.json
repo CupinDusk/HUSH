@@ -1,0 +1,198 @@
+{
+  "status": "PASS_ACTUAL_PRODUCER_DECODER_PROBES",
+  "accepted_valid_records": {
+    "HUPERD05": 47,
+    "HUFULL05": 7
+  },
+  "rejected_mutant_counts": {
+    "truncation": 1242,
+    "trailing_byte": 54,
+    "wrong_magic": 54,
+    "wrong_version": 54,
+    "header_registry_mismatch": 270,
+    "source_binding_mismatch": 54,
+    "receiver_binding_mismatch": 54,
+    "relation_binding_mismatch": 54,
+    "epoch_binding_mismatch": 54,
+    "line_count_mismatch": 54,
+    "line_metadata_registry_mismatch": 270,
+    "prefix_count_huge": 54,
+    "pair_count_zero": 54,
+    "pair_count_huge": 54,
+    "changed_physical_prefix": 36,
+    "residue_out_of_range": 54,
+    "span_changed": 54,
+    "duplicate_residue": 36,
+    "zero_e": 47,
+    "e_not_divisor": 47,
+    "expanded_digest_changed": 47,
+    "self_consistent_untrusted_digest": 47,
+    "nonfundamental_exact_lift": 18
+  },
+  "rejected_total": 2762,
+  "examples": [
+    {
+      "mutation": "truncation",
+      "case_id": "p2_b0_r3",
+      "error_type": "ValueError",
+      "error": "truncated",
+      "mutant_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "mutation": "trailing_byte",
+      "case_id": "p2_b0_r3",
+      "error_type": "ValueError",
+      "error": "trailing",
+      "mutant_sha256": "7b78e148ee4d13fb7adc282031f0c3e3ee459481a3d40b998093c667feac68a3"
+    },
+    {
+      "mutation": "wrong_magic",
+      "case_id": "p2_b0_r3",
+      "error_type": "ValueError",
+      "error": "schema",
+      "mutant_sha256": "74ca09bfb5ef042e7e7c062d51e64bfa682c06750c123b36134095ac507dfe2e"
+    },
+    {
+      "mutation": "wrong_version",
+      "case_id": "p2_b0_r3",
+      "error_type": "ValueError",
+      "error": "schema",
+      "mutant_sha256": "d7ca8feeebc1a44ad1e32d92192f5aa7ce5ed73de1da71efc67aed46f6174c3a"
+    },
+    {
+      "mutation": "header_registry_mismatch",
+      "case_id": "p2_b0_r3",
+      "error_type": "AssertionError",
+      "error": "",
+      "mutant_sha256": "475ad9aefe00b1122cf55c89e18c49864608838fb3926c42826a136e93f3e969"
+    },
+    {
+      "mutation": "source_binding_mismatch",
+      "case_id": "p2_b0_r3",
+      "error_type": "ValueError",
+      "error": "binding",
+      "mutant_sha256": "dd01f9395ce049f331d479f77b327a40bfc308dc0beb19492b5a95d37d617e92"
+    },
+    {
+      "mutation": "receiver_binding_mismatch",
+      "case_id": "p2_b0_r3",
+      "error_type": "ValueError",
+      "error": "binding",
+      "mutant_sha256": "9d744457490ec3d4599465c47b66314ee1e6663d5ed17d40e5f44b5a3534f807"
+    },
+    {
+      "mutation": "relation_binding_mismatch",
+      "case_id": "p2_b0_r3",
+      "error_type": "ValueError",
+      "error": "binding",
+      "mutant_sha256": "66928da5537796219635a1683702007588d54e17739336868ad1db60d06e866d"
+    },
+    {
+      "mutation": "epoch_binding_mismatch",
+      "case_id": "p2_b0_r3",
+      "error_type": "ValueError",
+      "error": "binding",
+      "mutant_sha256": "a5706889d5c2537fbecef5d87f501c7ac599c598fa9021cf4906f81ea5b77fe4"
+    },
+    {
+      "mutation": "line_count_mismatch",
+      "case_id": "p2_b0_r3",
+      "error_type": "AssertionError",
+      "error": "",
+      "mutant_sha256": "1909438a3e13ebbf1e061bde84474d51aa63d2912457304e52bb459cf89b15ab"
+    },
+    {
+      "mutation": "line_metadata_registry_mismatch",
+      "case_id": "p2_b0_r3",
+      "error_type": "AssertionError",
+      "error": "",
+      "mutant_sha256": "8e7c86bbb49eae84c483362a57d2a6be4b211861a12d77d00389607fb70005e3"
+    },
+    {
+      "mutation": "prefix_count_huge",
+      "case_id": "p2_b0_r3",
+      "error_type": "ValueError",
+      "error": "support/count",
+      "mutant_sha256": "c7f98eafeb05fbe9b255b0e30bbe5a66540c73d6f70a90686159cff9722276e5"
+    },
+    {
+      "mutation": "pair_count_zero",
+      "case_id": "p2_b0_r3",
+      "error_type": "ValueError",
+      "error": "support/count",
+      "mutant_sha256": "d31affd1cbd4e9ce0173f44be929a8d9c9c8820c9e517216a1e268e5151defa6"
+    },
+    {
+      "mutation": "pair_count_huge",
+      "case_id": "p2_b0_r3",
+      "error_type": "ValueError",
+      "error": "support/count",
+      "mutant_sha256": "d6ef577dcaed3364aceb431229f5eb3326a2ec363d6b7b1f4034339e6b5a0419"
+    },
+    {
+      "mutation": "changed_physical_prefix",
+      "case_id": "p2_b0_r3",
+      "error_type": "ValueError",
+      "error": "prefix/canonical",
+      "mutant_sha256": "1cfcedb12cb666da3baea6a78cf648fc82b31e365e12501b8e64d879cc632b59"
+    },
+    {
+      "mutation": "residue_out_of_range",
+      "case_id": "p2_b0_r3",
+      "error_type": "ValueError",
+      "error": "prefix/canonical",
+      "mutant_sha256": "d274a8d9cb28aa7fb6c4a1156d5db6c3b3ff762f28fd1301a5985b3e46be06b0"
+    },
+    {
+      "mutation": "span_changed",
+      "case_id": "p2_b0_r3",
+      "error_type": "ValueError",
+      "error": "period-lift binding",
+      "mutant_sha256": "75be22c23588be8968b17e2a18cb29eca4fead63e993155266e7368ed88a9ab5"
+    },
+    {
+      "mutation": "duplicate_residue",
+      "case_id": "p2_b0_r3",
+      "error_type": "ValueError",
+      "error": "prefix/canonical",
+      "mutant_sha256": "f9be62beaab7de464539b005cf33c4c035bab13d5866a92c9684591d3b5cf967"
+    },
+    {
+      "mutation": "zero_e",
+      "case_id": "p2_b0_r3",
+      "error_type": "ValueError",
+      "error": "support/count",
+      "mutant_sha256": "53bcb4e1b282623a96e87d24b3457f248569cacc80394e9e3ec96e132b4dd74c"
+    },
+    {
+      "mutation": "e_not_divisor",
+      "case_id": "p2_b0_r3",
+      "error_type": "ValueError",
+      "error": "support/count",
+      "mutant_sha256": "0b41b5dd77e6921f7643961cd1a8c476bb079bb1e8131983423bb06035c02bb6"
+    },
+    {
+      "mutation": "expanded_digest_changed",
+      "case_id": "p2_b0_r3",
+      "error_type": "ValueError",
+      "error": "period-lift binding",
+      "mutant_sha256": "98bd572bcdc7de164f7e5367f52252b19d5e2f0585cb99acf66c1a0a592c6559"
+    },
+    {
+      "mutation": "self_consistent_untrusted_digest",
+      "case_id": "p2_b0_r3",
+      "error_type": "ValueError",
+      "error": "period-lift binding",
+      "mutant_sha256": "47621d42b043d80509fd241e1b4a34afdb7a666bfcd0b53f0b762675fe428b48"
+    },
+    {
+      "mutation": "nonfundamental_exact_lift",
+      "case_id": "p3_b0_r5",
+      "error_type": "ValueError",
+      "error": "nonfundamental encoding",
+      "mutant_sha256": "7e644311765c0634f93c3f1f5ebc7897898d4bdf45891494a0f655d9d41319f5"
+    }
+  ],
+  "compromised_registry_acceptance_controls": 47,
+  "scope": "Executed only actual decode_new under normal Python matching requested runtime. Expected full profiles/bindings are independently read from bound source registry. Header/metadata/count guards partly use assert; no optimized-Python hardening claim. Matching forged expected registries accept fabricated profiles, as expected: a digest is not source authentication."
+}

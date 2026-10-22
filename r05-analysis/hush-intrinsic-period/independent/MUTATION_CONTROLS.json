@@ -1,0 +1,93 @@
+{
+  "actual_mutant_branches": 4,
+  "counterexamples": [
+    {
+      "mutant": "span_blind_period_actual_branch",
+      "d": 4,
+      "canonical_pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "true_e": 4,
+      "mutant_e": 2,
+      "phi": 1,
+      "true": 0,
+      "mutant_value": -1
+    },
+    {
+      "mutant": "physical_load_uses_e_actual_branch",
+      "P": 6,
+      "K": 3,
+      "e": 2,
+      "pairs": [
+        [
+          0,
+          1
+        ]
+      ],
+      "phi": 1,
+      "true": 12,
+      "mutant_value": 4
+    },
+    {
+      "mutant": "no_lift_gate_actual_query_branch",
+      "d": 12,
+      "projected_g": 4,
+      "target_m": 6,
+      "source1": [
+        [
+          0,
+          12
+        ]
+      ],
+      "source2": [
+        [
+          4,
+          12
+        ]
+      ],
+      "projected_pairs": [
+        [
+          0,
+          12
+        ]
+      ],
+      "phi": 1,
+      "true_source1": -12,
+      "true_source2": -10,
+      "mutant_value": -12
+    },
+    {
+      "mutant": "physical_prefix_uses_e_actual_branch",
+      "P": 7,
+      "K": 3,
+      "e": 1,
+      "prefix": [
+        0,
+        1,
+        10
+      ],
+      "phi": 0,
+      "true": 11,
+      "mutant_value": 5,
+      "recurrent_pairs": [
+        [
+          0,
+          1
+        ]
+      ],
+      "recurrent_slack": 14,
+      "true_complete": 11,
+      "mutant_complete": 5,
+      "initial_capture": 0,
+      "cycle_entry": 10
+    }
+  ],
+  "coverage": "Four named errors only; not generic mutation coverage. Producer controls provide wrong-formula witnesses but do not execute a complete mutant audit suite."
+}

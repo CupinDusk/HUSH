@@ -1,0 +1,58 @@
+{
+  "scope": "Expanded absolute equivalents of actually executed successful primary checker commands; original failed variants are preserved separately. Producer-driver fresh synth commands are in frozen-input/fresh-build/BUILD.json; actual mutant and supplement stage logs are retained in their BUILD/audit JSON files.",
+  "cwd": "<WORKSPACE>",
+  "commands": [
+    {
+      "name": "primary-independent-oracle-compile",
+      "argv": [
+        "<WORKSPACE>\\.tools\\zig-0.14.1\\zig-x86_64-windows-0.14.1\\zig.exe",
+        "c++",
+        "-std=c++17",
+        "-O3",
+        "-UNDEBUG",
+        "-I",
+        "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include",
+        "-I",
+        "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\backends\\cxxrtl\\runtime",
+        "-I",
+        "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\frozen-input\\fresh-build",
+        "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\independent.cpp",
+        "-o",
+        "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\independent.exe"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "primary-independent-control-5F-and-data",
+      "argv": [
+        "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\independent.exe",
+        "control",
+        "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "independent-arithmetic",
+      "argv": [
+        "<BUNDLED_RUNTIME>\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\independent_analysis.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "primary-independent-all-policy-ticks",
+      "argv": [
+        "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\independent.exe",
+        "policies",
+        "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent",
+        "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\INDEPENDENT_policies.txt"
+      ],
+      "returncode": 0
+    }
+  ],
+  "primary_source_hash": "ff9084d68d48cb4d40fa45dd03a4a26170a463a9b90053812ae94ba21bee0e02",
+  "primary_executable_hash": "a63eab61d86490435bf858f67f75d407db7c3ed54d8df67087e3b80bd9970f5b"
+}

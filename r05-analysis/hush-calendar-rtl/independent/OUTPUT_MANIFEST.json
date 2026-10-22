@@ -1,0 +1,694 @@
+{
+  "scope": "Every local independent evidence file, including source copies and failures; excludes this manifest itself.",
+  "file_count": 172,
+  "files": {
+    "audit_supplement.py": {
+      "bytes": 6394,
+      "sha256": "649c0c848b22235be06ea73dd9744e0b79940f58f7c0cc29f93e0bf2f308fd73"
+    },
+    "COMMANDS.json": {
+      "bytes": 3230,
+      "sha256": "8c1a226133fbf7b8ad6acdbf7379b4185a6c3957a67cc6ffea147f1655a143e3"
+    },
+    "COMMANDS.md": {
+      "bytes": 3285,
+      "sha256": "cdfb66c15d108384398dde4c71ddf5ee050454cadfe46ba3d0cbd2513ea21017"
+    },
+    "EVIDENCE_BINDING_CHECK.json": {
+      "bytes": 3437,
+      "sha256": "34ed1ab2f8f1fb2f33315f689da927636dfa50d9bb291e3e83cc48c43ed8d78b"
+    },
+    "finalize_independent.py": {
+      "bytes": 5235,
+      "sha256": "b28cf33382b0f326f5ce2520d9680dec7c829c1a40cbf5eebbeb69b3841e87bd"
+    },
+    "independent.cpp": {
+      "bytes": 11322,
+      "sha256": "ff9084d68d48cb4d40fa45dd03a4a26170a463a9b90053812ae94ba21bee0e02"
+    },
+    "independent.exe": {
+      "bytes": 899584,
+      "sha256": "a63eab61d86490435bf858f67f75d407db7c3ed54d8df67087e3b80bd9970f5b"
+    },
+    "independent.pdb": {
+      "bytes": 6905856,
+      "sha256": "fcb27ec732f8bbf290c427fde07056cb365f624d51a06c21201f825c1baa16d3"
+    },
+    "INDEPENDENT_ALL_PHASES.jsonl.gz": {
+      "bytes": 128010,
+      "sha256": "ad8e1913c93e4a7655476c3a4d455dc3505f0a3b1eaa38e9ea0c683cefcd24c4"
+    },
+    "independent_analysis.py": {
+      "bytes": 9386,
+      "sha256": "c06d1301fc9446ba944fa0b141550c2fb0e86770db1e14bdbd7eb7ff6071eab3"
+    },
+    "INDEPENDENT_ARITHMETIC.json": {
+      "bytes": 2990,
+      "sha256": "c59bfb1f97204b516376d1aca4a8e8628279c06346aaad17773592ced86e7325"
+    },
+    "INDEPENDENT_AUDIT.json": {
+      "bytes": 16064,
+      "sha256": "1f6b9021c1e766642ea7b9d381f1ec80c8c5568cd065ea3c0831ce0eb7877cd3"
+    },
+    "INDEPENDENT_AUDIT.md": {
+      "bytes": 11494,
+      "sha256": "26344c92e8406eeddd7cb27192283174ae90d101bc9a538d65b6c78124012bd9"
+    },
+    "INDEPENDENT_CONTROL_5F.csv": {
+      "bytes": 4902452,
+      "sha256": "6f3aa07d9d73340b44dcde1d3ce79d525b9a772df15f9d373f886d2969e5ec9c"
+    },
+    "INDEPENDENT_control_COUNTERS.csv": {
+      "bytes": 3334,
+      "sha256": "1b57915e857313977d15ca5e791b313f899ce19603a34090931a1b93791d759a"
+    },
+    "INDEPENDENT_INITIALIZATION.csv": {
+      "bytes": 5479309,
+      "sha256": "d2756125bb199d3ce1d1699ad9e9af3d2e3c514cb19bcbf50afdfd3a1d16be8f"
+    },
+    "INDEPENDENT_policies.txt": {
+      "bytes": 6700504,
+      "sha256": "e3e237a7e306a76bb6c1b0e63a4c0c32bc8a44cbed8dec9c3352dd9ff754ef76"
+    },
+    "INDEPENDENT_policies_COUNTERS.csv": {
+      "bytes": 8158648,
+      "sha256": "c31fd01a36d3ef07cf05542b89348be23478a3ec0233d24c55eb4112d424571a"
+    },
+    "INDEPENDENT_POLICY_RESULTS.csv": {
+      "bytes": 12709732,
+      "sha256": "b21694d00a345cf8dda6a29992f32fb87d548220e35dfd4c403c545ceda8f78a"
+    },
+    "INDEPENDENT_POLICY_TICKS.delta": {
+      "bytes": 191473772,
+      "sha256": "81e302f4cf47988abe7981c64922cef37ccc0a77ab047c35adc6fe9cda93382d"
+    },
+    "INDEPENDENT_RELATIONS.json": {
+      "bytes": 39920,
+      "sha256": "cbcfe067cb97c306b26983f6fb592d4b8a8b0eaa63029970007fb2356a76545d"
+    },
+    "INDEPENDENT_TUNING.json": {
+      "bytes": 50918,
+      "sha256": "e608dd6802217a0ed973d02f2243a7c44be11f0ae4acef7f93ba4d7437eba0c5"
+    },
+    "INPUT_HASHES_INITIAL.json": {
+      "bytes": 4307,
+      "sha256": "28d4260b639c22e602645b6eef918b80fdb5662088409d7b259559276cc888e6"
+    },
+    "MUTANTS.json": {
+      "bytes": 14735,
+      "sha256": "b7c816c04f10bb79901ab193ba28fc677419d35ad0ab02a43a0465dc149b4a64"
+    },
+    "PAPER_READY_FACTS.json": {
+      "bytes": 9216,
+      "sha256": "4e569afd694b5e7bc8b73971bac66e7f46c3532b245f24c1ac0e5b8f09bb7165"
+    },
+    "PAPER_READY_FACTS.md": {
+      "bytes": 3953,
+      "sha256": "44bfb9a0df55b8f5ed248bdc9f257fd5303ce22ce6004b43e6af3a673b125b8a"
+    },
+    "run_mutants.py": {
+      "bytes": 3049,
+      "sha256": "19235020f5ebf26e9badbd7cd305a8094602552a2d6160ced43008272a18ab7e"
+    },
+    "SOURCE_MANIFEST.json": {
+      "bytes": 12076,
+      "sha256": "6f98b4a9fc1ce5516b01c59b86f422658a33ef538debfb0a4e5f7bbb88f89b58"
+    },
+    "TOOLS.json": {
+      "bytes": 2035,
+      "sha256": "986583907290c639768acddcd5c5d4743baddc0e465a7edece5df27fe06ea291"
+    },
+    "verify_evidence.py": {
+      "bytes": 9607,
+      "sha256": "2b98e864da9f9c61448429e23638b7b00eb0088322eead42daa3e55dd961d66a"
+    },
+    "attempt-001-window-endpoint\\FAILURE.txt": {
+      "bytes": 219,
+      "sha256": "75887a276a3e66b4f357a622a88fb601672ad439f87bd79688941269bd1adfdb"
+    },
+    "attempt-001-window-endpoint\\INDEPENDENT_ALL_PHASES.jsonl.gz": {
+      "bytes": 15907,
+      "sha256": "5e9d18ec74ba8cc48ae5229eb8fa37143342d6902071e22b421c1bfc82b43219"
+    },
+    "attempt-001-window-endpoint\\independent_analysis.py": {
+      "bytes": 9378,
+      "sha256": "2417c3f3fe51e392bbb291c5b42bf1e563dd4d367ba23395195ec10ceadcc433"
+    },
+    "attempt-001-window-endpoint\\INDEPENDENT_policies.txt": {
+      "bytes": 732817,
+      "sha256": "af366ebc563409e3cf3423240d430a6d8251a73815969729b3bfef94c5ae6d66"
+    },
+    "attempt-002-finalization-script-drift\\FAILURE.txt": {
+      "bytes": 363,
+      "sha256": "d2e9231f0e75d3ba8ee8c4203e6c02850c683ac3971f3517d05128553e8b891a"
+    },
+    "attempt-002-finalization-script-drift\\verify_evidence.py": {
+      "bytes": 5935,
+      "sha256": "4a0e823735fc1a0442b7194e237cd019b09334007189b4a2d4e0dff16b79604f"
+    },
+    "cycle-supplement\\check.exe": {
+      "bytes": 899584,
+      "sha256": "34b91ac6172872ca9b925a16871d2b802bd5cac29306dee6122289a9e00d70e0"
+    },
+    "cycle-supplement\\check.pdb": {
+      "bytes": 6922240,
+      "sha256": "066b7a0812d45ecc419913e2b7709f0d67b7c9a4f035b801c8b6c90ed1f81d4e"
+    },
+    "cycle-supplement\\compile.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cycle-supplement\\compile.stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cycle-supplement\\derive_peaks.py": {
+      "bytes": 3232,
+      "sha256": "ed7096b20d90294a12f06d1db96a4719757bce54e17d68000050366c43a1a0a7"
+    },
+    "cycle-supplement\\execution.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cycle-supplement\\execution.stdout.log": {
+      "bytes": 65,
+      "sha256": "2d1e545f63a6affb7b02dd4d38fcd98a13a60d6340f2a3b2ff26b72553039b15"
+    },
+    "cycle-supplement\\generate_cycle_supplement.py": {
+      "bytes": 1749,
+      "sha256": "5696c0cbfa58e859f1610ab1e3ad33acc30d2bad7e674e9e995cb08b30f805a6"
+    },
+    "cycle-supplement\\INDEPENDENT_INITIALIZATION.csv": {
+      "bytes": 256477,
+      "sha256": "a0bfdd49b923d085d590f74b7f2194cf503f6c42fa3a3f33cc2fa158cfb79ef2"
+    },
+    "cycle-supplement\\INDEPENDENT_policies_COUNTERS.csv": {
+      "bytes": 375982,
+      "sha256": "296fad9893de472439dde368111e677f06cba753f380987f468f21e98993b398"
+    },
+    "cycle-supplement\\INDEPENDENT_POLICY_RESULTS.csv": {
+      "bytes": 556336,
+      "sha256": "054fded19827b7a57b67ebbae1eb8a47bccec102d6ad316091a4f925d74a6717"
+    },
+    "cycle-supplement\\INDEPENDENT_POLICY_TICKS.delta": {
+      "bytes": 4312616,
+      "sha256": "9f40bbd99295db605f04118831e8ff161ada8ab968eb8fbdbe2fa833313d52c7"
+    },
+    "cycle-supplement\\independent_supplement.cpp": {
+      "bytes": 11453,
+      "sha256": "f97e2c55a4aa14613c5d1e7a1c808a61da172da1de9a643a95b19a4b4016a3a6"
+    },
+    "cycle-supplement\\INDEPENDENT_SUPPLEMENT_AUDIT.json": {
+      "bytes": 4575,
+      "sha256": "052f31e4ac13ca8f012eab07782ad7e339ed575d0b284e7a6dedd0dc19f51123"
+    },
+    "cycle-supplement\\netlist.cpp": {
+      "bytes": 166425,
+      "sha256": "cc39f1a1ffa5629a697a01e077ccee012d3e31541743a6e837e3020ea6780ec6"
+    },
+    "cycle-supplement\\policies.txt": {
+      "bytes": 278326,
+      "sha256": "7d2ad9e77ed9e7d9c1b185e5d84ac352ade9acd6a3c1d05149754c436847eae5"
+    },
+    "cycle-supplement\\PRE_EXECUTION_BINDING.json": {
+      "bytes": 1187,
+      "sha256": "ccad559dd7f57ce881cbf1ad4f9a95a8831c88ac7c4cb01935c41afcfb74425a"
+    },
+    "cycle-supplement\\receiver.v": {
+      "bytes": 5788,
+      "sha256": "a787f08e1ed0f4e284d11f436f371632358c85fcedcc00586394d8967a69e987"
+    },
+    "cycle-supplement\\replay_portable.py": {
+      "bytes": 2590,
+      "sha256": "627e290da219b17b0076e96cd3aeee69cb43d7b3be457914b9c4e8d7fbcc58fd"
+    },
+    "cycle-supplement\\SUPPLEMENT_03_CYCLE_WITNESS_COVERAGE.md": {
+      "bytes": 1328,
+      "sha256": "1db828414ccc7100cc151c0603278bb599de67dd002830782122d4a066293bb6"
+    },
+    "cycle-supplement\\synthesis.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cycle-supplement\\synthesis.stdout.log": {
+      "bytes": 132640,
+      "sha256": "bfa630ab21fd2ea665df3014f9128a657b7a0a1b5ce44c6c6a8179cfee0d3e72"
+    },
+    "cycle-supplement\\verify_policy.py": {
+      "bytes": 5048,
+      "sha256": "775eaa3799cff55a05de25c577850cc3bab00200d7195a8212433457d25d88ef"
+    },
+    "cycle-supplement\\yosys_version.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cycle-supplement\\yosys_version.stdout.log": {
+      "bytes": 138,
+      "sha256": "38a532d8df1ce48a5f73839ee4209517c168ea959ffd07c7b793f315a016430c"
+    },
+    "finalization-snapshot\\derive_peaks.py": {
+      "bytes": 3232,
+      "sha256": "ed7096b20d90294a12f06d1db96a4719757bce54e17d68000050366c43a1a0a7"
+    },
+    "finalization-snapshot\\replay_portable.py": {
+      "bytes": 2590,
+      "sha256": "627e290da219b17b0076e96cd3aeee69cb43d7b3be457914b9c4e8d7fbcc58fd"
+    },
+    "finalization-snapshot\\verify_policy.py": {
+      "bytes": 5048,
+      "sha256": "775eaa3799cff55a05de25c577850cc3bab00200d7195a8212433457d25d88ef"
+    },
+    "frozen-input\\AMENDMENT_01_PRE_EXECUTION.md": {
+      "bytes": 1551,
+      "sha256": "83e8b1a23f928851f96c7bf766fa14c25802415c4509cb284e426fcd11a542c0"
+    },
+    "frozen-input\\AMENDMENT_02_FULL_KEY_EXTENSION.md": {
+      "bytes": 2254,
+      "sha256": "7a2ade2d290a739d2a9611f4843b66cf4e5fd424c88d28904b2067cfa2739fe4"
+    },
+    "frozen-input\\analyze.py": {
+      "bytes": 9896,
+      "sha256": "0fa523c69f0c4b553bab0dffe8f11a6163c8ceb3a23676a44af392d59807945b"
+    },
+    "frozen-input\\check_transitions.py": {
+      "bytes": 4525,
+      "sha256": "2ff0c3c9465e617065125fb560e34ef350563d3fa27936b300c6ff166ebefe37"
+    },
+    "frozen-input\\COMPOSITION_ARGUMENT.md": {
+      "bytes": 5508,
+      "sha256": "2d51d4e8f877b9afd69536b89b5b017e6f0cb666aa1c8febf9713a39e85e7ccf"
+    },
+    "frozen-input\\CORRECTION_02_PRESERVE_FRAME_FAILURE.md": {
+      "bytes": 827,
+      "sha256": "947d4d1ae2a69d8166c4805f94eac73ee2f6995ab70154ca6d8a44e77d6e48e7"
+    },
+    "frozen-input\\decode_trace.py": {
+      "bytes": 2795,
+      "sha256": "a907046c2b1ffe2b29283869c0261897dd40f1ee32fde9beb5a57856451ecc1e"
+    },
+    "frozen-input\\derive_peaks.py": {
+      "bytes": 3088,
+      "sha256": "d338d2b01c45375aca2e97e8df75da5c02ec2d282a2f290cd1785f661461e951"
+    },
+    "frozen-input\\driver.cpp": {
+      "bytes": 10568,
+      "sha256": "e76f96933561a31e1c6e7544f480eb91a393833d22c2d4ee59fbc4d8d2781004"
+    },
+    "frozen-input\\PROTOCOL.json": {
+      "bytes": 6946,
+      "sha256": "e88e4823e4121f7405db0d513b9bdb77b957c0cb9877c836f0ee199e4eee40af"
+    },
+    "frozen-input\\PROTOCOL_INITIAL_LITERAL.json": {
+      "bytes": 6946,
+      "sha256": "e88e4823e4121f7405db0d513b9bdb77b957c0cb9877c836f0ee199e4eee40af"
+    },
+    "frozen-input\\R05_HUSH_PROSPECTIVE_RESPONSE_PLAN.md": {
+      "bytes": 9361,
+      "sha256": "1faff174e3d6d617004cd399b2dcf9173df3538cfa35b49f44a3fe23e16bd5bd"
+    },
+    "frozen-input\\receiver.v": {
+      "bytes": 5788,
+      "sha256": "a787f08e1ed0f4e284d11f436f371632358c85fcedcc00586394d8967a69e987"
+    },
+    "frozen-input\\replay_portable.py": {
+      "bytes": 2066,
+      "sha256": "264d5e7c37aa680871f1d4ee059be4124b7334512cd67837516b2bba5c81b86c"
+    },
+    "frozen-input\\run_build.py": {
+      "bytes": 2751,
+      "sha256": "41ef7e8a79f726fa6dfa382ed340c2142f21c2dcfd301db11cbb07ee1a56fd39"
+    },
+    "frozen-input\\SCHEMA.md": {
+      "bytes": 4404,
+      "sha256": "756586f370c0db63ab5d42544f967162e1dc448b86c912882e55592bbb495b60"
+    },
+    "frozen-input\\verify_policy.py": {
+      "bytes": 4974,
+      "sha256": "dab51d2bf6a46eaa792e2544f7affa841dc085e4618400df0a8cf8a485565a77"
+    },
+    "frozen-input\\fresh-build\\AMENDMENT_01_PRE_EXECUTION.md": {
+      "bytes": 1551,
+      "sha256": "83e8b1a23f928851f96c7bf766fa14c25802415c4509cb284e426fcd11a542c0"
+    },
+    "frozen-input\\fresh-build\\AMENDMENT_02_FULL_KEY_EXTENSION.md": {
+      "bytes": 2254,
+      "sha256": "7a2ade2d290a739d2a9611f4843b66cf4e5fd424c88d28904b2067cfa2739fe4"
+    },
+    "frozen-input\\fresh-build\\BUILD.json": {
+      "bytes": 3154,
+      "sha256": "905bc44f2f6267621091be8153e7895bb6f6777f405bcaa7c7d11c90f214f840"
+    },
+    "frozen-input\\fresh-build\\compile.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "frozen-input\\fresh-build\\compile.stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "frozen-input\\fresh-build\\CONTROL_TICKS.csv": {
+      "bytes": 3907062,
+      "sha256": "02cf468a53f3a35626692f0cfb94db93bf1a27fb9f81a6aeaa59f3cff59081c8"
+    },
+    "frozen-input\\fresh-build\\DATA_TICKS.csv": {
+      "bytes": 10249533,
+      "sha256": "030d58fbfa035e542695161f804ad41f6d7a5c0623122a8cc7184e55347c0873"
+    },
+    "frozen-input\\fresh-build\\driver.cpp": {
+      "bytes": 10568,
+      "sha256": "e76f96933561a31e1c6e7544f480eb91a393833d22c2d4ee59fbc4d8d2781004"
+    },
+    "frozen-input\\fresh-build\\execution.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "frozen-input\\fresh-build\\execution.stdout.log": {
+      "bytes": 74,
+      "sha256": "4e962e744c91fe414f6f5f884317cfa8ca57d5a4621ad96fd46245d19e5e99ec"
+    },
+    "frozen-input\\fresh-build\\netlist.cpp": {
+      "bytes": 166425,
+      "sha256": "cc39f1a1ffa5629a697a01e077ccee012d3e31541743a6e837e3020ea6780ec6"
+    },
+    "frozen-input\\fresh-build\\PROTOCOL.json": {
+      "bytes": 6946,
+      "sha256": "e88e4823e4121f7405db0d513b9bdb77b957c0cb9877c836f0ee199e4eee40af"
+    },
+    "frozen-input\\fresh-build\\receiver.v": {
+      "bytes": 5788,
+      "sha256": "a787f08e1ed0f4e284d11f436f371632358c85fcedcc00586394d8967a69e987"
+    },
+    "frozen-input\\fresh-build\\run_build.py": {
+      "bytes": 2751,
+      "sha256": "41ef7e8a79f726fa6dfa382ed340c2142f21c2dcfd301db11cbb07ee1a56fd39"
+    },
+    "frozen-input\\fresh-build\\RUN_COUNTERS.csv": {
+      "bytes": 3697,
+      "sha256": "32a0b01a9af80c32d107debaa47a0c4ff2a3103e7b787add5ba8c6f895f5032b"
+    },
+    "frozen-input\\fresh-build\\simulate.exe": {
+      "bytes": 903168,
+      "sha256": "49b0b7ebe139a43f9d793e36ebb99919605b31931e28630947fbfdf0720d1585"
+    },
+    "frozen-input\\fresh-build\\simulate.pdb": {
+      "bytes": 7180288,
+      "sha256": "dd7239a854f210ae5d53f91f2b5a88f6baddbe865efbaea547c0683c1f419535"
+    },
+    "frozen-input\\fresh-build\\synthesis.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "frozen-input\\fresh-build\\synthesis.stdout.log": {
+      "bytes": 132636,
+      "sha256": "a400f82821ff1a97a5a7a53f19ae10565b21cb59ddfcb39208efa4f96bab285c"
+    },
+    "frozen-input\\fresh-build\\yosys_version.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "frozen-input\\fresh-build\\yosys_version.stdout.log": {
+      "bytes": 138,
+      "sha256": "38a532d8df1ce48a5f73839ee4209517c168ea959ffd07c7b793f315a016430c"
+    },
+    "mutants\\01-missing-capture-cancel\\BUILD.json": {
+      "bytes": 2713,
+      "sha256": "083962022874f3035588a678e829121583849bb7fd4258602761b1d84c14051e"
+    },
+    "mutants\\01-missing-capture-cancel\\check.exe": {
+      "bytes": 899584,
+      "sha256": "70ea5b884bec77e911bc8c0f3857503a38505c1a7477066772c7306891fcb81e"
+    },
+    "mutants\\01-missing-capture-cancel\\check.pdb": {
+      "bytes": 6922240,
+      "sha256": "a345839762d9b8d04666ea53506d16a89a96fbf7a7066c613d792f096cebc1dc"
+    },
+    "mutants\\01-missing-capture-cancel\\compile.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "mutants\\01-missing-capture-cancel\\compile.stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "mutants\\01-missing-capture-cancel\\execution.stderr.log": {
+      "bytes": 57,
+      "sha256": "6d18a537706224635201c9a9f0668d5d17b604e1a1033692e284f79953b667f6"
+    },
+    "mutants\\01-missing-capture-cancel\\execution.stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "mutants\\01-missing-capture-cancel\\INDEPENDENT_CONTROL_5F.csv": {
+      "bytes": 100776,
+      "sha256": "2c3d1a71585b915c2357f015c3de3c8874bca284f36c8dcc70a601b7a52b09b1"
+    },
+    "mutants\\01-missing-capture-cancel\\INDEPENDENT_control_COUNTERS.csv": {
+      "bytes": 300,
+      "sha256": "728c22e8a169b1dde2840e94faf59df93919598a6e24cd801b904c82596743eb"
+    },
+    "mutants\\01-missing-capture-cancel\\INDEPENDENT_FAILURE.txt": {
+      "bytes": 57,
+      "sha256": "6d18a537706224635201c9a9f0668d5d17b604e1a1033692e284f79953b667f6"
+    },
+    "mutants\\01-missing-capture-cancel\\netlist.cpp": {
+      "bytes": 163084,
+      "sha256": "024cfeeea1fefd823bf077b5ca84a01f402b12751cfa1a0826b6511e17410fdd"
+    },
+    "mutants\\01-missing-capture-cancel\\receiver.v": {
+      "bytes": 5878,
+      "sha256": "453aa710b348a55922515815960c0edb0490bb5f410512f19ad91105c83a028e"
+    },
+    "mutants\\01-missing-capture-cancel\\synthesis.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "mutants\\01-missing-capture-cancel\\synthesis.stdout.log": {
+      "bytes": 129562,
+      "sha256": "081aa23571ebf11800be7505861537e6ba8296d00dd07275a11595f68f87d0e7"
+    },
+    "mutants\\02-live-byte-emission\\BUILD.json": {
+      "bytes": 2692,
+      "sha256": "c20c7621a21022f92685212eb97b7a2ea4cbce0fb6d1b1a4db7fac750703a227"
+    },
+    "mutants\\02-live-byte-emission\\check.exe": {
+      "bytes": 900608,
+      "sha256": "d2434e1b9240b59ac4cf6507ece2e0e1dbf92df0e14ed0cbf39eac69d1d19900"
+    },
+    "mutants\\02-live-byte-emission\\check.pdb": {
+      "bytes": 6922240,
+      "sha256": "54313c7500b77b057aa1e3e9cc93a2118bca6f544af527d3e35e8b4782cf8efe"
+    },
+    "mutants\\02-live-byte-emission\\compile.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "mutants\\02-live-byte-emission\\compile.stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "mutants\\02-live-byte-emission\\execution.stderr.log": {
+      "bytes": 56,
+      "sha256": "c6fab42e42cc3e618840df58b4c6618626da1ac4cffa99ec20911ffc5c31bc19"
+    },
+    "mutants\\02-live-byte-emission\\execution.stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "mutants\\02-live-byte-emission\\INDEPENDENT_CONTROL_5F.csv": {
+      "bytes": 100776,
+      "sha256": "2c3d1a71585b915c2357f015c3de3c8874bca284f36c8dcc70a601b7a52b09b1"
+    },
+    "mutants\\02-live-byte-emission\\INDEPENDENT_control_COUNTERS.csv": {
+      "bytes": 364,
+      "sha256": "46ddc88f0197e1f02f2fe3ec5406dce6681bb629839679f4669bad29fc136d1b"
+    },
+    "mutants\\02-live-byte-emission\\INDEPENDENT_FAILURE.txt": {
+      "bytes": 56,
+      "sha256": "c6fab42e42cc3e618840df58b4c6618626da1ac4cffa99ec20911ffc5c31bc19"
+    },
+    "mutants\\02-live-byte-emission\\netlist.cpp": {
+      "bytes": 167096,
+      "sha256": "3599bfbd4c2aa442cb009e18bd37784a92026c4c73ac0da5c471549e76b1bd34"
+    },
+    "mutants\\02-live-byte-emission\\receiver.v": {
+      "bytes": 5931,
+      "sha256": "98ffc1930683750b753bfc95fb01601efa044d07298d5674ef1ea27ff979df93"
+    },
+    "mutants\\02-live-byte-emission\\synthesis.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "mutants\\02-live-byte-emission\\synthesis.stdout.log": {
+      "bytes": 133333,
+      "sha256": "9720565d1bbdde27d93a0d598cfe84d41add06fb811c90fa792b22940d096044"
+    },
+    "mutants\\03-decrement-before-WU\\BUILD.json": {
+      "bytes": 2697,
+      "sha256": "449e75a7f8873a18474d643567e4d083acee543091d0edcb353e37188ce97b36"
+    },
+    "mutants\\03-decrement-before-WU\\check.exe": {
+      "bytes": 900096,
+      "sha256": "366a9666284df3caa67585dc6a6ab616568daafb6c52e99985169c6f9c5e717d"
+    },
+    "mutants\\03-decrement-before-WU\\check.pdb": {
+      "bytes": 6926336,
+      "sha256": "133511542682c7a2bde1a53d0c71852ff376b02d017fb0dc324bd4fe018d2576"
+    },
+    "mutants\\03-decrement-before-WU\\compile.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "mutants\\03-decrement-before-WU\\compile.stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "mutants\\03-decrement-before-WU\\execution.stderr.log": {
+      "bytes": 56,
+      "sha256": "a2dc190d6c549384c1ff7606f205fcbee8b70c394de5a5296d7d290eca1b3061"
+    },
+    "mutants\\03-decrement-before-WU\\execution.stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "mutants\\03-decrement-before-WU\\INDEPENDENT_CONTROL_5F.csv": {
+      "bytes": 100776,
+      "sha256": "2c3d1a71585b915c2357f015c3de3c8874bca284f36c8dcc70a601b7a52b09b1"
+    },
+    "mutants\\03-decrement-before-WU\\INDEPENDENT_control_COUNTERS.csv": {
+      "bytes": 300,
+      "sha256": "728c22e8a169b1dde2840e94faf59df93919598a6e24cd801b904c82596743eb"
+    },
+    "mutants\\03-decrement-before-WU\\INDEPENDENT_FAILURE.txt": {
+      "bytes": 56,
+      "sha256": "a2dc190d6c549384c1ff7606f205fcbee8b70c394de5a5296d7d290eca1b3061"
+    },
+    "mutants\\03-decrement-before-WU\\netlist.cpp": {
+      "bytes": 166710,
+      "sha256": "54b5e571f9a9cf2896f13b7cbdde6c199ee287a48edf62d1622f1c2fd2b9435d"
+    },
+    "mutants\\03-decrement-before-WU\\receiver.v": {
+      "bytes": 5918,
+      "sha256": "166af71bfe2f49f5450c45c58a16238b249331a79c9dbca613f266eb6146fbfd"
+    },
+    "mutants\\03-decrement-before-WU\\synthesis.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "mutants\\03-decrement-before-WU\\synthesis.stdout.log": {
+      "bytes": 133273,
+      "sha256": "73a6374626d94e51ebbb50629fc202c4aae5e790a2687232a039e4f3ac8f4887"
+    },
+    "mutants\\04-drop-duplicate-calendar-job\\BUILD.json": {
+      "bytes": 2735,
+      "sha256": "de26c063d61be14b69920dc2a22fe6766a529b1464cc0b1035a88432d489cc15"
+    },
+    "mutants\\04-drop-duplicate-calendar-job\\check.exe": {
+      "bytes": 900096,
+      "sha256": "0a547b913c3b6d26fd0cfff2da7e834534b86f4643487d8faf65042644347ecd"
+    },
+    "mutants\\04-drop-duplicate-calendar-job\\check.pdb": {
+      "bytes": 6922240,
+      "sha256": "46954a94831c79ec12a120d68aee42e9e42167c0ddfa974c19c8d433c8ca5106"
+    },
+    "mutants\\04-drop-duplicate-calendar-job\\compile.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "mutants\\04-drop-duplicate-calendar-job\\compile.stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "mutants\\04-drop-duplicate-calendar-job\\execution.stderr.log": {
+      "bytes": 54,
+      "sha256": "4c8cdffd7643e02ab6e8c7aa691edc4155c52ad7018f06b24cfe2e1d9b8ee501"
+    },
+    "mutants\\04-drop-duplicate-calendar-job\\execution.stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "mutants\\04-drop-duplicate-calendar-job\\INDEPENDENT_CONTROL_5F.csv": {
+      "bytes": 604059,
+      "sha256": "fa37e7b5d0c65442b8d70ef0e1436d1dcb6756afbda727343371a504047af137"
+    },
+    "mutants\\04-drop-duplicate-calendar-job\\INDEPENDENT_control_COUNTERS.csv": {
+      "bytes": 1263,
+      "sha256": "c20ad8fdb93461b63df293571a9ec1753e516c7e6181384080c555b3f04197aa"
+    },
+    "mutants\\04-drop-duplicate-calendar-job\\INDEPENDENT_FAILURE.txt": {
+      "bytes": 54,
+      "sha256": "4c8cdffd7643e02ab6e8c7aa691edc4155c52ad7018f06b24cfe2e1d9b8ee501"
+    },
+    "mutants\\04-drop-duplicate-calendar-job\\netlist.cpp": {
+      "bytes": 166000,
+      "sha256": "e300294dbfa1dd5d9510415926519c18f83d7dd409c02175e2a24a01ec6e35f0"
+    },
+    "mutants\\04-drop-duplicate-calendar-job\\receiver.v": {
+      "bytes": 5898,
+      "sha256": "08fc647ddadef018a806cf32ff6b2d29b220f4f4f8bbd6b2c6723c85e4bfea53"
+    },
+    "mutants\\04-drop-duplicate-calendar-job\\synthesis.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "mutants\\04-drop-duplicate-calendar-job\\synthesis.stdout.log": {
+      "bytes": 132155,
+      "sha256": "5ac585be331d4bc2280c0424f9a500605b03b2376a3422be2cd6e59acb8969f3"
+    },
+    "mutants\\05-wrong-FIFO-grant-ID\\BUILD.json": {
+      "bytes": 2696,
+      "sha256": "6e92feee6151d84a6a664cf6f9a145dfc36ba71be039cff74a52deb2e4627e29"
+    },
+    "mutants\\05-wrong-FIFO-grant-ID\\check.exe": {
+      "bytes": 900096,
+      "sha256": "04674cacc0af29418ca933f45d24ab26ced7760ad9234264fd56ce61b3d41525"
+    },
+    "mutants\\05-wrong-FIFO-grant-ID\\check.pdb": {
+      "bytes": 6922240,
+      "sha256": "cab842cbd90e6032f7e0ba0aea4bd3e70f9e00836752aa3dfdca39db724bab28"
+    },
+    "mutants\\05-wrong-FIFO-grant-ID\\compile.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "mutants\\05-wrong-FIFO-grant-ID\\compile.stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "mutants\\05-wrong-FIFO-grant-ID\\execution.stderr.log": {
+      "bytes": 55,
+      "sha256": "387f630963e81cecf86bf7eebfbac684f19039772ed97df3e08619ce07080668"
+    },
+    "mutants\\05-wrong-FIFO-grant-ID\\execution.stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "mutants\\05-wrong-FIFO-grant-ID\\INDEPENDENT_CONTROL_5F.csv": {
+      "bytes": 1189,
+      "sha256": "f98cf59c35cef85de621d14119606feb2b10cb1b9293687af1220b8d73b36e86"
+    },
+    "mutants\\05-wrong-FIFO-grant-ID\\INDEPENDENT_control_COUNTERS.csv": {
+      "bytes": 238,
+      "sha256": "e47143dce025ad151b6136ded9bbd34875c7cc001b0b82b6808123469dd038cb"
+    },
+    "mutants\\05-wrong-FIFO-grant-ID\\INDEPENDENT_FAILURE.txt": {
+      "bytes": 55,
+      "sha256": "387f630963e81cecf86bf7eebfbac684f19039772ed97df3e08619ce07080668"
+    },
+    "mutants\\05-wrong-FIFO-grant-ID\\netlist.cpp": {
+      "bytes": 166425,
+      "sha256": "93a2f942a5e2703324676da9c7657d3e5cb7f5e0094ab526fa204ae2cfe74f87"
+    },
+    "mutants\\05-wrong-FIFO-grant-ID\\receiver.v": {
+      "bytes": 5918,
+      "sha256": "e0f6421c302f7edec6ac05c34a6a2d61e1d967e9a4017cb1389268e3a852d9f1"
+    },
+    "mutants\\05-wrong-FIFO-grant-ID\\synthesis.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "mutants\\05-wrong-FIFO-grant-ID\\synthesis.stdout.log": {
+      "bytes": 132640,
+      "sha256": "bfa630ab21fd2ea665df3014f9128a657b7a0a1b5ce44c6c6a8179cfee0d3e72"
+    }
+  }
+}

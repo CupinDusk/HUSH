@@ -1,0 +1,50 @@
+{
+  "protocol_sha256": "79ed15115133f71dc6b538e2573064d5ac7780424e18bec4936c50267228e403",
+  "inputs": [
+    {
+      "name": "size_source.py",
+      "sha256": "80c8641c52a3834287169e533748b7390c26e562e7950978a783c69af0f95e1d",
+      "bytes": 3586
+    },
+    {
+      "name": "size_protocol.md",
+      "sha256": "7020a6bd36b513a5121c91afe9746aafed007d89fba1f755183bf1347aa9c4c5",
+      "bytes": 1163
+    },
+    {
+      "name": "size-p16.json",
+      "sha256": "421bd2dc453bf4a57ae907274367b84dea089f01004d866185e1d851eb012a0a",
+      "bytes": 1522
+    },
+    {
+      "name": "size-p32.json",
+      "sha256": "1539099035b0ddaf909b9da18e580336a62a0e0cbd92cc68c3ee572925ea6201",
+      "bytes": 2989
+    },
+    {
+      "name": "size-p64.json",
+      "sha256": "6fab49c37decb96cd2cca2762a14da05f51fa063fcf0ff65f01ff3fcf03276aa",
+      "bytes": 6001
+    },
+    {
+      "name": "size-p128.json",
+      "sha256": "863d16d1b86e41677376253d0eb1e6b89b99d0884c5295012476b1f9ef393068",
+      "bytes": 12265
+    },
+    {
+      "name": "size-p256.json",
+      "sha256": "611febb6d2c91b5721bff607408d0db912206ab5dee95af5e1a0661b376651ef",
+      "bytes": 24884
+    },
+    {
+      "name": "size-p512.json",
+      "sha256": "37525d917c92460b5ba753322cd45fcde0e3e4be3064e8f35159adb0ed84fe95",
+      "bytes": 51429
+    },
+    {
+      "name": "size-p1024.json",
+      "sha256": "e5201188e61b7eb216bed9743a3e2ebdd5509284a2f85f44d310f902abe10463",
+      "bytes": 105502
+    }
+  ]
+}
