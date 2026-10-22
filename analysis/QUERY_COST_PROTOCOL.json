@@ -1,0 +1,17 @@
+{
+  "status": "specified_before_execution",
+  "date": "2026-10-22",
+  "question": "What work moves from repeated exact-slack queries to reusable profile construction in the complete admitted family?",
+  "inputs": ["R30_PRODUCER_FAMILY_RESULTS.json", "R35_FAMILY_AGGREGATE_RESULTS.json"],
+  "domain": "All 1622 previously admitted recurrent relations; for each entry P=1..4p, K=1..5, phi=0..P-1, identical to the already fixed expanded grid. Prefix admission is excluded.",
+  "routes": {
+    "direct": "For each policy evaluate the gcd-reduced exact formula over every original recurrent triple. This baseline already uses gcd reduction; never expand P/m copies.",
+    "master": "Construct the d-master once, project once per distinct target m=gcd(P,d), cache the target, and scan its canonical terms per query.",
+    "compact": "Construct g=d/gcd(d,3) once. Reuse only when m divides g. Otherwise fall back to the same full master; retain the fallback rate. Cache each target m once."
+  },
+  "construction": "Group equal residues with maximum span, sort, use sparse prefix/suffix dominance tests. Compare result byte-for-byte with the previously verified pairwise canonical oracle.",
+  "metrics": ["query term evaluations", "master and compact stored term counts", "distinct projection input visits", "distinct projection output terms", "supported and fallback policy counts", "per-entry exact ratios, including ties and adverse outcomes"],
+  "unit": "A query term evaluation computes one modular sawtooth term and participates in the minimum. Preprocessing input visits are reported separately and never equated with query evaluations, CPU instructions, wall time or bytes.",
+  "validation": "Check every target profile against direct grouping/canonicalization. For each P and phase compare direct-triple and cached-profile values, then apply each K. Check total query counts against R35.",
+  "nonclaims": "No measured runtime, hardware speedup, cache-performance result, byte saving, population frequency, or amortization break-even. Complete deterministic dependent grids are not statistical samples. The domain and g rule were chosen in earlier work, not prospectively preregistered. This cost protocol is written before its cost counters are executed."
+}

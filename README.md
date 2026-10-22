@@ -24,3 +24,10 @@ the default checks use only bundled numerical summaries.
 The authors intend to release the research code under an open-source license
 upon publication. This review snapshot is an accessible reproduction package;
 it does not claim that every private project component has been released.
+
+## Operation counts
+
+The additional query_cost_study.py check evaluates the fixed expanded grid of
+6,277,660 policies. It reports query-term evaluations, projection input visits,
+and stored terms separately. These are exact mathematical operation counts,
+not measured runtime, CPU instructions, memory bytes, or hardware speedup.
