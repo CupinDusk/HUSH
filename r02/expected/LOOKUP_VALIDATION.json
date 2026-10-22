@@ -1,0 +1,151 @@
+{
+  "result": "PASS_EXACT_PREDECESSOR_LOOKUP_ALL_DECLARED_DOMAINS",
+  "input_sha256": "81aece55f0514353639b99e028fce2c4ebe074cffa78c8bc6620cdac55e5c574",
+  "small_profiles": 15420,
+  "small_phase_checks": 60844,
+  "source_family_target_profiles": 10454,
+  "source_family_physical_phase_checks": 1255532,
+  "wide_profiles": 118,
+  "wide_checks": 32348,
+  "portfolios": {
+    "all_1_to4p": {
+      "entries": 1622,
+      "forced_full_modulus": 1604,
+      "smaller_modulus": 18,
+      "master_terms": 5378,
+      "selected_terms": 5333,
+      "term_reduced_entries": 18
+    },
+    "single2p": {
+      "entries": 1622,
+      "forced_full_modulus": 650,
+      "smaller_modulus": 972,
+      "master_terms": 5378,
+      "selected_terms": 5244,
+      "term_reduced_entries": 87
+    },
+    "pair2p3p": {
+      "entries": 1622,
+      "forced_full_modulus": 963,
+      "smaller_modulus": 659,
+      "master_terms": 5378,
+      "selected_terms": 5249,
+      "term_reduced_entries": 87
+    }
+  },
+  "worked_unequal_span": {
+    "triples": [
+      [
+        5,
+        18,
+        21
+      ],
+      [
+        21,
+        36,
+        37
+      ],
+      [
+        37,
+        54,
+        70
+      ],
+      [
+        70,
+        81,
+        86
+      ]
+    ],
+    "d": 81,
+    "master": [
+      [
+        5,
+        16
+      ],
+      [
+        21,
+        16
+      ],
+      [
+        37,
+        33
+      ],
+      [
+        70,
+        16
+      ]
+    ],
+    "stored_g27": [
+      [
+        5,
+        16
+      ],
+      [
+        10,
+        33
+      ]
+    ],
+    "queries": [
+      {
+        "K": 2,
+        "P": 27,
+        "phi": 2,
+        "m": 27,
+        "profile": [
+          [
+            5,
+            16
+          ],
+          [
+            10,
+            33
+          ]
+        ],
+        "slack": 13,
+        "completion_D": -5
+      },
+      {
+        "K": 3,
+        "P": 18,
+        "phi": 2,
+        "m": 9,
+        "profile": [
+          [
+            1,
+            33
+          ]
+        ],
+        "slack": 4,
+        "completion_D": 4
+      }
+    ],
+    "J": 17,
+    "A": 16,
+    "actual_completion_phases27": [
+      0,
+      0,
+      9,
+      18
+    ],
+    "joint_witness_phases27": [
+      0
+    ]
+  },
+  "corpora": {
+    "family": 10454,
+    "random_t1": 16,
+    "random_t2": 16,
+    "random_t3": 16,
+    "random_t8": 16,
+    "random_t32": 16,
+    "random_t128": 16,
+    "random_t512": 16,
+    "analytic_t1024_all_survive": 1,
+    "analytic_t1024_one_survives": 1,
+    "analytic_t4096_all_survive": 1,
+    "analytic_t4096_one_survives": 1,
+    "analytic_t16384_all_survive": 1,
+    "analytic_t16384_one_survives": 1
+  },
+  "scope": "Exact mathematical checks only; native benchmark has not yet executed. No timing/byte/application claim from this validation."
+}

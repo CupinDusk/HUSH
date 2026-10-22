@@ -1,0 +1,12 @@
+{
+  "result": "PASS_INDEPENDENT_DECREMENT_EVENT_COUNTS_AND_ALL_WU_STATE_DP",
+  "checks": {
+    "phase_load_statuses": 6277660,
+    "phase_rows": 1255532,
+    "physical_queries": 6920720
+  },
+  "interfaces": 61176,
+  "all_wu_dp_distinct_configs": 72795,
+  "all_wu_dp_cache_info": "CacheInfo(hits=6204865, misses=72795, maxsize=None, currsize=72795)",
+  "scope": "Independent event-count algorithm validates every exported admission status/aggregate. Finite successor-state DP covers every optional WU word in each distinct minimizing-edge configuration; source/control closure and general first-failure induction are separately stated in ARGUMENT.md. This is mathematical corroboration, not source/native execution or a performance comparison."
+}
