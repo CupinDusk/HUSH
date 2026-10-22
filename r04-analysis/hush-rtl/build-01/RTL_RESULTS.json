@@ -1,0 +1,19 @@
+{
+  "status": "PASS_EXECUTED_YOSYS_GENERATED_REFERENCE_RTL",
+  "control_cases": 40,
+  "control_ticks": 22823,
+  "backpressure_cases": 26,
+  "queue_two_cases": 40,
+  "policy_queries": 37000,
+  "policy_positive_survivals": 17387,
+  "policy_negative_first_failures": 19613,
+  "policy_simulated_ticks": 25137870,
+  "snapshot_runs": 120,
+  "snapshot_ticks": 68469,
+  "snapshot_captures": 9897,
+  "snapshot_emissions": 9807,
+  "snapshot_timer_cancels": 9657,
+  "snapshot_backpressure_ticks": 1071,
+  "mismatches": 0,
+  "scope": "New reference RTL, finite frozen tests; not native HUSH, coherence, hardware, PPA or universal WU-word exhaustion."
+}

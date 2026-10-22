@@ -1,0 +1,35 @@
+{
+  "kind": "byte_exact_copy_of_authorized_public_R03_inputs",
+  "inputs": {
+    "PROTOCOL.json": {
+      "source": "outputs/iscas-final-polish-20261022/r03-analysis/hush-shared-controller/PROTOCOL.json",
+      "sha256": "536a35c9d37ca727028609c8a742fb9454b6942fb64d5b1d8e2640de807dcaba",
+      "bytes": 5923
+    },
+    "RELATIONS.json": {
+      "source": "outputs/iscas-final-polish-20261022/r03-analysis/hush-shared-controller/RELATIONS.json",
+      "sha256": "f77704f0329c79babe82afbe56dbfce7e2ea7bd219e8299ae3332a9017487a47",
+      "bytes": 438727
+    },
+    "TRACES.jsonl.gz": {
+      "source": "outputs/iscas-final-polish-20261022/r03-analysis/hush-shared-controller/TRACES.jsonl.gz",
+      "sha256": "a065d52d29ac59d892a5f2bf8f90b43b6c4b35eb653dea2bb4ad3fd5520d1c76",
+      "bytes": 151926
+    },
+    "ALL_PHASE_BASES.jsonl.gz": {
+      "source": "outputs/iscas-final-polish-20261022/r03-analysis/hush-shared-controller/ALL_PHASE_BASES.jsonl.gz",
+      "sha256": "d280587e4c5f270992d57ec4925429f03dda66a1ab137a1ce047511dd3cf1c94",
+      "bytes": 32414
+    },
+    "ALL_NEGATIVE_FIRST_FAILURES.jsonl.gz": {
+      "source": "outputs/iscas-final-polish-20261022/r03-analysis/hush-shared-controller/ALL_NEGATIVE_FIRST_FAILURES.jsonl.gz",
+      "sha256": "629a4c8b278486577a58dd4f2ffd3aa73673883a8b8ed829ad115621e0d32bd3",
+      "bytes": 104846
+    },
+    "INDEPENDENT_VALIDATION.json": {
+      "source": "outputs/iscas-final-polish-20261022/r03-analysis/hush-shared-controller/INDEPENDENT_VALIDATION.json",
+      "sha256": "d018b47d5dec68e2b02484ac3dd22ff7688ef599da21e0acbd2444940bba9fef",
+      "bytes": 1619
+    }
+  }
+}

@@ -1,0 +1,15 @@
+# Bounded paper-ready facts after independent author-side RTL validation
+
+Gate: **PASS_INDEPENDENT_AUTHOR_SIDE_NEW_REFERENCE_RTL_GATE**. Actual fresh Yosys generation, Zig compilation and CXXRTL execution succeeded. The separate checker reconstructs every frozen phase decision, full control/data CSV field and policy witness/aggregate; this is not external peer review.
+
+Suggested bounded wording:
+
+> We implemented the specified two-client receiver as new synthesizable RTL. A fresh Yosys 0.70 CXXRTL build reproduced all 40 frozen schedules over 22,823 logical ticks and all 37,000 declared one-WU tests: 17,387 survivals and 19,613 first-failed-grant witnesses. A separate checker reconstructed every phase decision and observed control/data field. Across 120 fixed-pattern runs, 9,897 captures and 9,807 emissions preserved request identity and snapshot bytes, including 1,071 response-backpressure ticks and 9,657 timer cancellations. These finite constructed-component results do not establish native HUSH/gem5 refinement, arbitrary WU-word or coherent-data correctness, or hardware benefit.
+
+Exact evidence: `INDEPENDENT_AUDIT.json`, `check_independent.py`, `CHECKER_EXECUTION.json`, `INDEPENDENT_AUDIT.md`, `fresh-replay-01/PORTABLE_REPLAY.json`, the four raw CSVs and `RTL_RESULTS.json`. Hashes are in `MANIFEST_INDEPENDENT.json`; tool/runtime versions and hashes are in `ENVIRONMENT.json`. Generated netlist SHA256: `b41df947e115fbe3502773c81e9993e6dafeb07db3e459cea91f01a586beed2f`.
+
+Additional exact facts: 25,137,870 policy ticks; 68,469 snapshot ticks; 439 service-only physical admissions over the per-line tight completion observer (17,387 versus 16,948), zero completion-only outcomes; 13 no-gain cases. Compression has 7,425 unsupported queries, retained without replacement. All 40 cases reach FIFO occupancy two; actual response backpressure occurs in 26, leaving 14 without that stall. The distinct R0-occupied-with-queued-head grant-block state has **zero** observed occurrences and is not credited as tested. Maximum policy target is tick 7,332; all observed admitted runs report zero RTL fault flags.
+
+Preserve every negative and scope boundary. The 19,613 first failures remain failures. The 37,000 tests exercise their declared minimizing one-WU word, not all WU words; the conditional universal statement still depends on its proof. The snapshot study tests only zero, 255, and `(17*t+73*owner) mod 256`, at K=5/P=24/phi=0, with WUs after each initial capture. Invalid configuration, overflow, hot input changes, revocation, refill, replacement, coherence and physical/PPA/throughput/application behavior remain unverified. Four fresh-copy semantic mutants were rejected, providing sensitivity evidence for load/decrement order, source order, cancellation and immutable snapshots.
+
+The initial generator reference-path failure and original failed source are preserved; its fix only corrects path resolution. No scientific outcome was replaced. This gate neither publishes artifacts nor changes manuscript, figures, prior reviews or releases.

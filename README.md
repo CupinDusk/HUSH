@@ -1,3 +1,77 @@
+# R04 review supplement: new receiver RTL and existing-grid tuning/bytes
+
+Start with Python 3.12 or later and a fresh extraction:
+
+```text
+python -B -X utf8 run_r04_checks.py
+```
+
+This default standard-library runner independently audits every saved RTL case,
+raw semantic CSV field, policy witness and fixed-pattern snapshot result. It
+then runs the separate tuning/record decoder checker before executing the
+unchanged producer in a fresh temporary copy, reproducing all 80 binary DATA
+records and the complete numerical/encoding results byte-exact. It collects no
+timings and does not execute the older R02/R03 suites. The saved author execution
+records are historical execution evidence; this default command does not
+synthesize or execute a new native model. A report is written as
+`R04_REPLAY_RESULTS.json`; repeat from another fresh extraction.
+
+The optional functional RTL rebuild requires external Yosys 0.70 (git 28ba3cb92,
+YoWASP 0.70.0.0.post1259), a compatible C++17 compiler (recorded Zig 0.14.1), and
+the corresponding CXXRTL runtime include directory:
+
+```text
+python -B -X utf8 run_r04_rtl.py --out FRESH_OUTPUT --yosys yosys --cxx c++ --include PATH_TO_CXXRTL_RUNTIME
+```
+
+For an existing Python Yosys wrapper and Zig, replace `--yosys yosys --cxx c++`
+with `--yosys-python-wrapper PATH_TO_WRAPPER --cxx PATH_TO_ZIG --zig`.
+`PATH_TO_CXXRTL_RUNTIME` contains `cxxrtl/cxxrtl.h`. Tools and vendor headers are
+not bundled. This command generates vectors, actually synthesizes the new own
+RTL, compiles and executes the generated CXXRTL, checks the expected netlist
+hash `b41df947e115fbe3502773c81e9993e6dafeb07db3e459cea91f01a586beed2f`,
+requires all four semantic CSVs/results to match exactly, and runs the separate
+semantic auditor. This is finite functional validation, with no performance,
+hardware-rate, PPA, native historical HUSH/gem5 or coherent-memory claim.
+
+`r04-analysis/hush-rtl/` preserves the prospective protocol, original author
+scripts, complete reference inputs, build outputs, all 40/37,000/120 test
+outcomes, separate checker/source/width/guard audit, preserved initial path
+failure and four semantic-mutation sources/procedure/outcomes. Platform
+executables and PDBs are deliberately absent. Generated netlists are supplied
+as source. All negative and unexercised outcomes remain explicit. The four
+mutations all synthesized and compiled in the recorded study, then failed the
+unchanged semantic driver; rebuilding those optional mutation probes requires
+adapting the tool/output globals in the retained `mutation_sensitivity.py` to a
+fresh copy with external tools. Their exact altered RTL and raw rejection
+records are also supplied, so the mutation procedure is directly inspectable.
+
+`r04-analysis/hush-tuning-bytes/` preserves the frozen posthoc protocol/input
+binding, analysis/encoder/decoder/schema, all controller optimum ties,
+full/projected/grouped/canonical arrays, all 80 strict little-endian records,
+7,400 phase derivations and all 37,000 correlated policies. The independent
+checker reconstructs all optima and decodes 74,000 complete-query slacks.
+There are 19/40 controllers with no proxy gain and 33/40 with no byte gain;
+full canonical deletion is zero. Aggregate whole-record savings are 8.58%,
+whereas pair-array reduction is 20.40%. These are stipulated model/format
+calculations, without traffic, energy, hardware, application or minimum-size
+claims. Every adverse case remains.
+
+`R04_PUBLIC_ADAPTATIONS.json` explicitly records the original and public hashes
+of every path-only metadata adaptation, every excluded binary and every
+original author file. Frozen scientific source/protocols/data remain exact;
+the original RTL checker is preserved alongside a public provenance adapter.
+Its semantic reconstruction functions are unchanged. Local absolute roots
+were replaced with portable tokens in metadata only. Root `MANIFEST.json`
+binds the actual public bytes; historical author manifests retain hashes for
+the original local records, including deliberately absent executables.
+Original study READMEs preserve their historical pending-gate wording; both
+separate independent PASS audits and complete limits are retained beside them.
+Earlier research and license files remain byte-exact, except this root README
+and the extended root manifest. The older instructions follow for separately
+requested historical checks.
+
+
 # Reproduction artifact: Exact Period Reuse for Cache Expiry Certificates
 
 This snapshot supplies the analysis code, explicit model assumptions, retained

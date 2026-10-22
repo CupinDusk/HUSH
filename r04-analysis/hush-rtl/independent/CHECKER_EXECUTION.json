@@ -1,0 +1,11 @@
+{
+  "argv": [
+    "<BUNDLED_RUNTIME>\\python\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r04-analysis\\hush-rtl\\independent\\check_independent.py"
+  ],
+  "returncode": 0,
+  "checker_sha256": "ef59fe7d5f8c43c52216a0e374ac79f1db4a4221423d43a2d99e189ff17e77d2"
+}

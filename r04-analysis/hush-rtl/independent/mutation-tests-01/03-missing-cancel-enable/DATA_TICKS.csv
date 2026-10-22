@@ -1,0 +1,7 @@
+category,pattern,case,t,phase,pollDelayA,pollDelayB,pendingA,pendingB,waitA,waitB,queueLength,queueOwner0,queueOwner1,R0ownerBefore,R1ownerBefore,waitEvents,enqEvents,enqIdA,enqIdB,grantOwner,grantId,emitOwner,emitId,blockedOwner,blockedId,transferOwner,transferId,callbackOwner,callbackId,WUinput,WUaccepted,expired,cancelled,validAfter,enabledAfter,countA,countB,dataA,dataB,grantByte,emitByte,R0valid,R0owner,R0id,R0byte,R1valid,R1owner,R1id,R1byte,fault
+1,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,0,3,1,1,0,1,-1,0,-1,0,0,1,-1,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0
+1,0,0,1,1,4,6,1,1,0,0,1,1,-1,-1,0,0,0,0,0,-1,0,-1,0,-1,0,-1,0,-1,0,1,1,0,0,3,1,5,0,0,0,0,0,0,0,1,0,1,0,1,0,0
+1,0,0,2,2,3,5,1,1,0,0,1,1,-1,-1,0,0,0,0,0,1,1,0,1,-1,0,1,1,0,1,1,1,0,0,3,1,5,0,0,0,0,0,0,1,1,0,1,1,1,0,0
+1,0,0,3,3,2,4,0,1,0,0,0,-1,-1,-1,1,0,0,0,0,-1,0,-1,0,-1,0,-1,0,-1,0,3,3,0,0,3,3,5,5,0,0,0,0,0,1,1,0,1,1,1,0,0
+1,0,0,4,4,1,3,0,1,0,0,0,-1,-1,-1,1,0,0,0,0,-1,0,-1,0,1,1,-1,0,-1,0,3,3,0,0,3,3,5,5,0,0,0,0,0,1,1,0,1,1,1,0,0
+1,0,0,5,5,0,2,0,1,0,0,0,-1,-1,-1,1,0,1,2,0,-1,0,-1,0,-1,0,-1,0,-1,0,3,3,0,0,3,3,5,5,0,0,0,0,0,1,1,0,1,1,1,0,0

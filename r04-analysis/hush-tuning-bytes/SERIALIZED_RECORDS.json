@@ -1,0 +1,1171 @@
+{
+  "bindings": {
+    "source": "1d0812128dfd65586f473a138f5137983974473a2fb9100949d5be749e4c7e1a",
+    "receiver": "536a35c9d37ca727028609c8a742fb9454b6942fb64d5b1d8e2640de807dcaba",
+    "relation": "f77704f0329c79babe82afbe56dbfce7e2ea7bd219e8299ae3332a9017487a47",
+    "epoch": "532dbe306c54253676404a42c28df330d4a612663695ec92e25ab6b6b7e23f83"
+  },
+  "epoch_text": "R04 constructed two-client two-line component model; fixed initial entry immediately after each line's guaranteed first capture; no revocation, refill, payload mutation or other invalidation; frozen R03 relation epoch 1.",
+  "records": [
+    {
+      "case_id": "p2_b0_r3",
+      "full": {
+        "path": "records/p2_b0_r3.full.bin",
+        "bytes": 912,
+        "sha256": "999485d7ebd5b9385e0da0953bb395d630db1c1b56421444eca26b2f9b34d731",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 3,
+        "exact_prefix_bytes": 72,
+        "pairs": 35,
+        "profile_pair_bytes": 560,
+        "non_pair_overhead_bytes": 352
+      },
+      "prospective": {
+        "path": "records/p2_b0_r3.prospective.bin",
+        "bytes": 624,
+        "sha256": "59de37547296d384219dcd6e152bf3d16ddce7a11d495363f98729021a7312d1",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 3,
+        "exact_prefix_bytes": 72,
+        "pairs": 17,
+        "profile_pair_bytes": 272,
+        "non_pair_overhead_bytes": 352
+      },
+      "bytes_saved": 288,
+      "saved_fraction": 0.3157894736842105
+    },
+    {
+      "case_id": "p2_b0_r5",
+      "full": {
+        "path": "records/p2_b0_r5.full.bin",
+        "bytes": 680,
+        "sha256": "9705c8ad391f888c37b5d2e8b1678b6aa732682aef27f4de423f4fe9c4ba2011",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 2,
+        "exact_prefix_bytes": 48,
+        "pairs": 22,
+        "profile_pair_bytes": 352,
+        "non_pair_overhead_bytes": 328
+      },
+      "prospective": {
+        "path": "records/p2_b0_r5.prospective.bin",
+        "bytes": 680,
+        "sha256": "5f6028127ac8a4fbd6ecacdd51178708bb9dffe991f5ad3bb558ec9b7f44be9a",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 2,
+        "exact_prefix_bytes": 48,
+        "pairs": 22,
+        "profile_pair_bytes": 352,
+        "non_pair_overhead_bytes": 328
+      },
+      "bytes_saved": 0,
+      "saved_fraction": 0.0
+    },
+    {
+      "case_id": "p2_b1_r3",
+      "full": {
+        "path": "records/p2_b1_r3.full.bin",
+        "bytes": 1248,
+        "sha256": "e0aaa514ec43f9b5c64ee7ee99dbb168bb342a7ce415529d5e7472a389f12090",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 17,
+        "exact_prefix_bytes": 408,
+        "pairs": 35,
+        "profile_pair_bytes": 560,
+        "non_pair_overhead_bytes": 688
+      },
+      "prospective": {
+        "path": "records/p2_b1_r3.prospective.bin",
+        "bytes": 960,
+        "sha256": "1c779e6e4fc236f2070d9197844c0a57b1e5482542fd18ba39db52ebecc43d98",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 17,
+        "exact_prefix_bytes": 408,
+        "pairs": 17,
+        "profile_pair_bytes": 272,
+        "non_pair_overhead_bytes": 688
+      },
+      "bytes_saved": 288,
+      "saved_fraction": 0.23076923076923078
+    },
+    {
+      "case_id": "p2_b1_r5",
+      "full": {
+        "path": "records/p2_b1_r5.full.bin",
+        "bytes": 680,
+        "sha256": "c1ed8e905e02dc86227c717e8f0e1c7fc114508f0fa79173d108e34523559bd4",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 2,
+        "exact_prefix_bytes": 48,
+        "pairs": 22,
+        "profile_pair_bytes": 352,
+        "non_pair_overhead_bytes": 328
+      },
+      "prospective": {
+        "path": "records/p2_b1_r5.prospective.bin",
+        "bytes": 680,
+        "sha256": "cb52582e656fde77b2e1c90d7acdb279ab04c0b9fe1801962bc4cedc84f936c9",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 2,
+        "exact_prefix_bytes": 48,
+        "pairs": 22,
+        "profile_pair_bytes": 352,
+        "non_pair_overhead_bytes": 328
+      },
+      "bytes_saved": 0,
+      "saved_fraction": 0.0
+    },
+    {
+      "case_id": "p3_b0_r3",
+      "full": {
+        "path": "records/p3_b0_r3.full.bin",
+        "bytes": 1080,
+        "sha256": "dc899ad66029f4d9a3c54f76c29c0ac965cf31b3798780e43c59629a45ed010f",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 0,
+        "exact_prefix_bytes": 0,
+        "pairs": 50,
+        "profile_pair_bytes": 800,
+        "non_pair_overhead_bytes": 280
+      },
+      "prospective": {
+        "path": "records/p3_b0_r3.prospective.bin",
+        "bytes": 1080,
+        "sha256": "3e840ac328fa426e331af65a56537d7306772ae9d01d39c5627d907e5a507f82",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 0,
+        "exact_prefix_bytes": 0,
+        "pairs": 50,
+        "profile_pair_bytes": 800,
+        "non_pair_overhead_bytes": 280
+      },
+      "bytes_saved": 0,
+      "saved_fraction": 0.0
+    },
+    {
+      "case_id": "p3_b0_r5",
+      "full": {
+        "path": "records/p3_b0_r5.full.bin",
+        "bytes": 840,
+        "sha256": "1dae8a652abe99af2200f4a2ba4754bee309efa1d129de75d6698313c01bf769",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 20,
+        "exact_prefix_bytes": 480,
+        "pairs": 5,
+        "profile_pair_bytes": 80,
+        "non_pair_overhead_bytes": 760
+      },
+      "prospective": {
+        "path": "records/p3_b0_r5.prospective.bin",
+        "bytes": 840,
+        "sha256": "5efbf9c7320723207e2199545d5b78413d656480e98ed60d94537195d60980f0",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 20,
+        "exact_prefix_bytes": 480,
+        "pairs": 5,
+        "profile_pair_bytes": 80,
+        "non_pair_overhead_bytes": 760
+      },
+      "bytes_saved": 0,
+      "saved_fraction": 0.0
+    },
+    {
+      "case_id": "p3_b1_r3",
+      "full": {
+        "path": "records/p3_b1_r3.full.bin",
+        "bytes": 1080,
+        "sha256": "63540655854b7d9d417358c4dcf40f1c606a07332ae84a8bbc7bce3f15e01695",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 0,
+        "exact_prefix_bytes": 0,
+        "pairs": 50,
+        "profile_pair_bytes": 800,
+        "non_pair_overhead_bytes": 280
+      },
+      "prospective": {
+        "path": "records/p3_b1_r3.prospective.bin",
+        "bytes": 1080,
+        "sha256": "5c56fcd43091c92f0c51927f11a1331415d519a7ef064d8b6430af4c75a8268e",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 0,
+        "exact_prefix_bytes": 0,
+        "pairs": 50,
+        "profile_pair_bytes": 800,
+        "non_pair_overhead_bytes": 280
+      },
+      "bytes_saved": 0,
+      "saved_fraction": 0.0
+    },
+    {
+      "case_id": "p3_b1_r5",
+      "full": {
+        "path": "records/p3_b1_r5.full.bin",
+        "bytes": 640,
+        "sha256": "47e15eca05efe3276d2eed00bef6c03ac289950b8d6e30645c33d74cdd2f7d4a",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 11,
+        "exact_prefix_bytes": 264,
+        "pairs": 6,
+        "profile_pair_bytes": 96,
+        "non_pair_overhead_bytes": 544
+      },
+      "prospective": {
+        "path": "records/p3_b1_r5.prospective.bin",
+        "bytes": 640,
+        "sha256": "a75cc161566519249a34c3b09fb89ffd3b71cef265f51af2f07106dd34651fa3",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 11,
+        "exact_prefix_bytes": 264,
+        "pairs": 6,
+        "profile_pair_bytes": 96,
+        "non_pair_overhead_bytes": 544
+      },
+      "bytes_saved": 0,
+      "saved_fraction": 0.0
+    },
+    {
+      "case_id": "p3_b2_r3",
+      "full": {
+        "path": "records/p3_b2_r3.full.bin",
+        "bytes": 1128,
+        "sha256": "e3b04b15f4ae3b421cb62cb805a4b6f3814b5674c1df17f951241d8b4d63b6b1",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 2,
+        "exact_prefix_bytes": 48,
+        "pairs": 50,
+        "profile_pair_bytes": 800,
+        "non_pair_overhead_bytes": 328
+      },
+      "prospective": {
+        "path": "records/p3_b2_r3.prospective.bin",
+        "bytes": 1128,
+        "sha256": "97512181a5e48c660e59b75bc42a7d02be91cd04deddac9f161880fe3b132c72",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 2,
+        "exact_prefix_bytes": 48,
+        "pairs": 50,
+        "profile_pair_bytes": 800,
+        "non_pair_overhead_bytes": 328
+      },
+      "bytes_saved": 0,
+      "saved_fraction": 0.0
+    },
+    {
+      "case_id": "p3_b2_r5",
+      "full": {
+        "path": "records/p3_b2_r5.full.bin",
+        "bytes": 640,
+        "sha256": "19d74b19d0703d892e7b423ebc356b2f0d69e3206e7e610e287ea646ecc4b767",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 11,
+        "exact_prefix_bytes": 264,
+        "pairs": 6,
+        "profile_pair_bytes": 96,
+        "non_pair_overhead_bytes": 544
+      },
+      "prospective": {
+        "path": "records/p3_b2_r5.prospective.bin",
+        "bytes": 640,
+        "sha256": "dfd77578691e7b2055c1bd12403d76dbc63b724fe02533352694570a7f5a7e40",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 11,
+        "exact_prefix_bytes": 264,
+        "pairs": 6,
+        "profile_pair_bytes": 96,
+        "non_pair_overhead_bytes": 544
+      },
+      "bytes_saved": 0,
+      "saved_fraction": 0.0
+    },
+    {
+      "case_id": "p4_b0_r3",
+      "full": {
+        "path": "records/p4_b0_r3.full.bin",
+        "bytes": 864,
+        "sha256": "823fed8d111f4851dbadbdbf0fb15e7c3ea546dc033a2cc79e141c0d6a046a5d",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 13,
+        "exact_prefix_bytes": 312,
+        "pairs": 17,
+        "profile_pair_bytes": 272,
+        "non_pair_overhead_bytes": 592
+      },
+      "prospective": {
+        "path": "records/p4_b0_r3.prospective.bin",
+        "bytes": 864,
+        "sha256": "1e744d5797d832618bbd730f6717ca294ef002f031a591d035a269549af155f5",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 13,
+        "exact_prefix_bytes": 312,
+        "pairs": 17,
+        "profile_pair_bytes": 272,
+        "non_pair_overhead_bytes": 592
+      },
+      "bytes_saved": 0,
+      "saved_fraction": 0.0
+    },
+    {
+      "case_id": "p4_b0_r5",
+      "full": {
+        "path": "records/p4_b0_r5.full.bin",
+        "bytes": 680,
+        "sha256": "a086d69febea914a2d3a1acdab52ac8dc79ec981011f2911add004cdfaa1bd8d",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 14,
+        "exact_prefix_bytes": 336,
+        "pairs": 4,
+        "profile_pair_bytes": 64,
+        "non_pair_overhead_bytes": 616
+      },
+      "prospective": {
+        "path": "records/p4_b0_r5.prospective.bin",
+        "bytes": 680,
+        "sha256": "6039e137db63e03750c83addf43ba1680328de8ba5a532cf0388cbc33c9a74b7",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 14,
+        "exact_prefix_bytes": 336,
+        "pairs": 4,
+        "profile_pair_bytes": 64,
+        "non_pair_overhead_bytes": 616
+      },
+      "bytes_saved": 0,
+      "saved_fraction": 0.0
+    },
+    {
+      "case_id": "p4_b1_r3",
+      "full": {
+        "path": "records/p4_b1_r3.full.bin",
+        "bytes": 864,
+        "sha256": "023cf31dfa68aaaeb97129da6ff485d4e34df8b42c9fc97f8095563a213abf26",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 13,
+        "exact_prefix_bytes": 312,
+        "pairs": 17,
+        "profile_pair_bytes": 272,
+        "non_pair_overhead_bytes": 592
+      },
+      "prospective": {
+        "path": "records/p4_b1_r3.prospective.bin",
+        "bytes": 864,
+        "sha256": "7abb706b321dfbc1fbbeaa21e2295f22d42d58acbff4409b739f61eb60152f38",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 13,
+        "exact_prefix_bytes": 312,
+        "pairs": 17,
+        "profile_pair_bytes": 272,
+        "non_pair_overhead_bytes": 592
+      },
+      "bytes_saved": 0,
+      "saved_fraction": 0.0
+    },
+    {
+      "case_id": "p4_b1_r5",
+      "full": {
+        "path": "records/p4_b1_r5.full.bin",
+        "bytes": 800,
+        "sha256": "c9ab376e3bed57260353cf26e732d54081688a9f6c3c9defdaa7d7bac2ff82f8",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 19,
+        "exact_prefix_bytes": 456,
+        "pairs": 4,
+        "profile_pair_bytes": 64,
+        "non_pair_overhead_bytes": 736
+      },
+      "prospective": {
+        "path": "records/p4_b1_r5.prospective.bin",
+        "bytes": 800,
+        "sha256": "95a082e23949c0e37be772d8885c0ad841c1699117c6960aab408eb40eb8b6f2",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 19,
+        "exact_prefix_bytes": 456,
+        "pairs": 4,
+        "profile_pair_bytes": 64,
+        "non_pair_overhead_bytes": 736
+      },
+      "bytes_saved": 0,
+      "saved_fraction": 0.0
+    },
+    {
+      "case_id": "p4_b2_r3",
+      "full": {
+        "path": "records/p4_b2_r3.full.bin",
+        "bytes": 624,
+        "sha256": "15bb9c0a0fae9ab7b4ad3299867c08e32f515ba74588134352df5144579eb7ba",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 3,
+        "exact_prefix_bytes": 72,
+        "pairs": 17,
+        "profile_pair_bytes": 272,
+        "non_pair_overhead_bytes": 352
+      },
+      "prospective": {
+        "path": "records/p4_b2_r3.prospective.bin",
+        "bytes": 624,
+        "sha256": "bf4bc5eb935726a95eaa7356f251396bf01034ad824d65851d36cb46cbd02301",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 3,
+        "exact_prefix_bytes": 72,
+        "pairs": 17,
+        "profile_pair_bytes": 272,
+        "non_pair_overhead_bytes": 352
+      },
+      "bytes_saved": 0,
+      "saved_fraction": 0.0
+    },
+    {
+      "case_id": "p4_b2_r5",
+      "full": {
+        "path": "records/p4_b2_r5.full.bin",
+        "bytes": 920,
+        "sha256": "a992d36e7ac3fc10d6f0d564e4b16482f54fdcfae7c7a27dc397da3b914effda",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 24,
+        "exact_prefix_bytes": 576,
+        "pairs": 4,
+        "profile_pair_bytes": 64,
+        "non_pair_overhead_bytes": 856
+      },
+      "prospective": {
+        "path": "records/p4_b2_r5.prospective.bin",
+        "bytes": 920,
+        "sha256": "e7da880e555acb6268e089748f1aef00f503998ba7f0d14f9e0674be17d162ce",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 24,
+        "exact_prefix_bytes": 576,
+        "pairs": 4,
+        "profile_pair_bytes": 64,
+        "non_pair_overhead_bytes": 856
+      },
+      "bytes_saved": 0,
+      "saved_fraction": 0.0
+    },
+    {
+      "case_id": "p4_b3_r3",
+      "full": {
+        "path": "records/p4_b3_r3.full.bin",
+        "bytes": 720,
+        "sha256": "edd943feebdf391f756230c403e315668c0693a49c34b3919dcbca6043c76c82",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 7,
+        "exact_prefix_bytes": 168,
+        "pairs": 17,
+        "profile_pair_bytes": 272,
+        "non_pair_overhead_bytes": 448
+      },
+      "prospective": {
+        "path": "records/p4_b3_r3.prospective.bin",
+        "bytes": 720,
+        "sha256": "ad2591936896c469a83a66d68ec158eae13a3641ea76beb04e06e2facf967c4a",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 7,
+        "exact_prefix_bytes": 168,
+        "pairs": 17,
+        "profile_pair_bytes": 272,
+        "non_pair_overhead_bytes": 448
+      },
+      "bytes_saved": 0,
+      "saved_fraction": 0.0
+    },
+    {
+      "case_id": "p4_b3_r5",
+      "full": {
+        "path": "records/p4_b3_r5.full.bin",
+        "bytes": 488,
+        "sha256": "4493fbc1b6ee8e32f073c7d4fe8de0208009e65799e5bc8608886ccbcc6e98ff",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 6,
+        "exact_prefix_bytes": 144,
+        "pairs": 4,
+        "profile_pair_bytes": 64,
+        "non_pair_overhead_bytes": 424
+      },
+      "prospective": {
+        "path": "records/p4_b3_r5.prospective.bin",
+        "bytes": 488,
+        "sha256": "394b0e78147d09106fa951504506370e9899d08ba33633aec8634c7a73a12670",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 6,
+        "exact_prefix_bytes": 144,
+        "pairs": 4,
+        "profile_pair_bytes": 64,
+        "non_pair_overhead_bytes": 424
+      },
+      "bytes_saved": 0,
+      "saved_fraction": 0.0
+    },
+    {
+      "case_id": "p5_b0_r3",
+      "full": {
+        "path": "records/p5_b0_r3.full.bin",
+        "bytes": 744,
+        "sha256": "36ea3edced55db3af4772ade6a27256a6f160f9178cf8ff9a6f5e85f09d63021",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 8,
+        "exact_prefix_bytes": 192,
+        "pairs": 17,
+        "profile_pair_bytes": 272,
+        "non_pair_overhead_bytes": 472
+      },
+      "prospective": {
+        "path": "records/p5_b0_r3.prospective.bin",
+        "bytes": 744,
+        "sha256": "c8b3a48e60f7c6a7cf1d54e28e7bc56a2decb08cd4b78fce501ccf1b1291b971",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 8,
+        "exact_prefix_bytes": 192,
+        "pairs": 17,
+        "profile_pair_bytes": 272,
+        "non_pair_overhead_bytes": 472
+      },
+      "bytes_saved": 0,
+      "saved_fraction": 0.0
+    },
+    {
+      "case_id": "p5_b0_r5",
+      "full": {
+        "path": "records/p5_b0_r5.full.bin",
+        "bytes": 1704,
+        "sha256": "10bc338b64865b26c0f162c1c36f3a38b32108a4969c26e0cffc31e536370323",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 28,
+        "exact_prefix_bytes": 672,
+        "pairs": 47,
+        "profile_pair_bytes": 752,
+        "non_pair_overhead_bytes": 952
+      },
+      "prospective": {
+        "path": "records/p5_b0_r5.prospective.bin",
+        "bytes": 1192,
+        "sha256": "965daedb7b1dfa76455666ab3684ee5ec5e860220b021f844a15330e4e9bf241",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 28,
+        "exact_prefix_bytes": 672,
+        "pairs": 15,
+        "profile_pair_bytes": 240,
+        "non_pair_overhead_bytes": 952
+      },
+      "bytes_saved": 512,
+      "saved_fraction": 0.3004694835680751
+    },
+    {
+      "case_id": "p5_b1_r3",
+      "full": {
+        "path": "records/p5_b1_r3.full.bin",
+        "bytes": 744,
+        "sha256": "4873ac7746886cf802afa1dd84c0631f55fb1bf68ce2104d4adb361a769f23c9",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 8,
+        "exact_prefix_bytes": 192,
+        "pairs": 17,
+        "profile_pair_bytes": 272,
+        "non_pair_overhead_bytes": 472
+      },
+      "prospective": {
+        "path": "records/p5_b1_r3.prospective.bin",
+        "bytes": 744,
+        "sha256": "d63c8ff0cb4784ae1b9714f085be0ddbc3df7044878ccdaa9a632dcb7696f66c",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 8,
+        "exact_prefix_bytes": 192,
+        "pairs": 17,
+        "profile_pair_bytes": 272,
+        "non_pair_overhead_bytes": 472
+      },
+      "bytes_saved": 0,
+      "saved_fraction": 0.0
+    },
+    {
+      "case_id": "p5_b1_r5",
+      "full": {
+        "path": "records/p5_b1_r5.full.bin",
+        "bytes": 1944,
+        "sha256": "f4ed1a188aec8c70d0da3c912de19076972e4e03c061545493fd42f965099f62",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 38,
+        "exact_prefix_bytes": 912,
+        "pairs": 47,
+        "profile_pair_bytes": 752,
+        "non_pair_overhead_bytes": 1192
+      },
+      "prospective": {
+        "path": "records/p5_b1_r5.prospective.bin",
+        "bytes": 1432,
+        "sha256": "95c05cd472d322441fc66783d3df9bfb9d308f3f410d572fbceff46b4775c218",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 38,
+        "exact_prefix_bytes": 912,
+        "pairs": 15,
+        "profile_pair_bytes": 240,
+        "non_pair_overhead_bytes": 1192
+      },
+      "bytes_saved": 512,
+      "saved_fraction": 0.26337448559670784
+    },
+    {
+      "case_id": "p5_b2_r3",
+      "full": {
+        "path": "records/p5_b2_r3.full.bin",
+        "bytes": 888,
+        "sha256": "728a1771355c1c053e4171bbbbe581cab8b4602bb07d152dee6e5f277769ea92",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 14,
+        "exact_prefix_bytes": 336,
+        "pairs": 17,
+        "profile_pair_bytes": 272,
+        "non_pair_overhead_bytes": 616
+      },
+      "prospective": {
+        "path": "records/p5_b2_r3.prospective.bin",
+        "bytes": 888,
+        "sha256": "c786ee106c7565968a84fc88be8c88e535c77a5f0ca8bd8cb7aba93e1f08a770",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 14,
+        "exact_prefix_bytes": 336,
+        "pairs": 17,
+        "profile_pair_bytes": 272,
+        "non_pair_overhead_bytes": 616
+      },
+      "bytes_saved": 0,
+      "saved_fraction": 0.0
+    },
+    {
+      "case_id": "p5_b2_r5",
+      "full": {
+        "path": "records/p5_b2_r5.full.bin",
+        "bytes": 1080,
+        "sha256": "6a5e0622d3cc043f6a643290cb956ccf99bcd587013df9561af4ad1ae22aa015",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 2,
+        "exact_prefix_bytes": 48,
+        "pairs": 47,
+        "profile_pair_bytes": 752,
+        "non_pair_overhead_bytes": 328
+      },
+      "prospective": {
+        "path": "records/p5_b2_r5.prospective.bin",
+        "bytes": 568,
+        "sha256": "76b5aa4f7760ebe312c8790eddd148d67c6c6bf52eb9415d185db86c694bfa80",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 2,
+        "exact_prefix_bytes": 48,
+        "pairs": 15,
+        "profile_pair_bytes": 240,
+        "non_pair_overhead_bytes": 328
+      },
+      "bytes_saved": 512,
+      "saved_fraction": 0.4740740740740741
+    },
+    {
+      "case_id": "p5_b3_r3",
+      "full": {
+        "path": "records/p5_b3_r3.full.bin",
+        "bytes": 1104,
+        "sha256": "92dad5fa480f542a7512b27b873e65945ee4932f7bde15cf91a485130baa8fa2",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 23,
+        "exact_prefix_bytes": 552,
+        "pairs": 17,
+        "profile_pair_bytes": 272,
+        "non_pair_overhead_bytes": 832
+      },
+      "prospective": {
+        "path": "records/p5_b3_r3.prospective.bin",
+        "bytes": 1104,
+        "sha256": "8c9282952aa8412bc5d952fc8e415add7cc7d0594302b3cd0837dce5a6954269",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 23,
+        "exact_prefix_bytes": 552,
+        "pairs": 17,
+        "profile_pair_bytes": 272,
+        "non_pair_overhead_bytes": 832
+      },
+      "bytes_saved": 0,
+      "saved_fraction": 0.0
+    },
+    {
+      "case_id": "p5_b3_r5",
+      "full": {
+        "path": "records/p5_b3_r5.full.bin",
+        "bytes": 1560,
+        "sha256": "1ced6223969dad06a9c10dace1987f1f89ee82975af588789b8927b3b0fe64de",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 22,
+        "exact_prefix_bytes": 528,
+        "pairs": 47,
+        "profile_pair_bytes": 752,
+        "non_pair_overhead_bytes": 808
+      },
+      "prospective": {
+        "path": "records/p5_b3_r5.prospective.bin",
+        "bytes": 1048,
+        "sha256": "822f7934b29d3145d9aaa5c48227bf9369be61b6be43853836a95b3b9c531676",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 22,
+        "exact_prefix_bytes": 528,
+        "pairs": 15,
+        "profile_pair_bytes": 240,
+        "non_pair_overhead_bytes": 808
+      },
+      "bytes_saved": 512,
+      "saved_fraction": 0.3282051282051282
+    },
+    {
+      "case_id": "p5_b4_r3",
+      "full": {
+        "path": "records/p5_b4_r3.full.bin",
+        "bytes": 960,
+        "sha256": "62e078a0cfd642ca850f6b3ca23568a16242591eff6ab3f8baf087fa5ec2941e",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 17,
+        "exact_prefix_bytes": 408,
+        "pairs": 17,
+        "profile_pair_bytes": 272,
+        "non_pair_overhead_bytes": 688
+      },
+      "prospective": {
+        "path": "records/p5_b4_r3.prospective.bin",
+        "bytes": 960,
+        "sha256": "14c7a98d2a5675180fa5f124bc15708cf3adeac34f835ebfa1db5b868599bd48",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 17,
+        "exact_prefix_bytes": 408,
+        "pairs": 17,
+        "profile_pair_bytes": 272,
+        "non_pair_overhead_bytes": 688
+      },
+      "bytes_saved": 0,
+      "saved_fraction": 0.0
+    },
+    {
+      "case_id": "p5_b4_r5",
+      "full": {
+        "path": "records/p5_b4_r5.full.bin",
+        "bytes": 1080,
+        "sha256": "892ca60a9242083fef6c412e03e901cc0db64add0fea192b8cf8e00740c1f5a7",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 2,
+        "exact_prefix_bytes": 48,
+        "pairs": 47,
+        "profile_pair_bytes": 752,
+        "non_pair_overhead_bytes": 328
+      },
+      "prospective": {
+        "path": "records/p5_b4_r5.prospective.bin",
+        "bytes": 568,
+        "sha256": "bce9c31169e0e4d7e0d7e00b9d14241928fc91a06738a6a787439783fc41b0ab",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 2,
+        "exact_prefix_bytes": 48,
+        "pairs": 15,
+        "profile_pair_bytes": 240,
+        "non_pair_overhead_bytes": 328
+      },
+      "bytes_saved": 512,
+      "saved_fraction": 0.4740740740740741
+    },
+    {
+      "case_id": "p6_b0_r3",
+      "full": {
+        "path": "records/p6_b0_r3.full.bin",
+        "bytes": 952,
+        "sha256": "09f8f66d2d3f8d7e65db88293b3c994e3375a10e1b2626524e14a94eac86a10d",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 0,
+        "exact_prefix_bytes": 0,
+        "pairs": 42,
+        "profile_pair_bytes": 672,
+        "non_pair_overhead_bytes": 280
+      },
+      "prospective": {
+        "path": "records/p6_b0_r3.prospective.bin",
+        "bytes": 952,
+        "sha256": "10dc95766c2039da3cb92e1e639af2846fd33642226c21778aa547d7a3c388a6",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 0,
+        "exact_prefix_bytes": 0,
+        "pairs": 42,
+        "profile_pair_bytes": 672,
+        "non_pair_overhead_bytes": 280
+      },
+      "bytes_saved": 0,
+      "saved_fraction": 0.0
+    },
+    {
+      "case_id": "p6_b0_r5",
+      "full": {
+        "path": "records/p6_b0_r5.full.bin",
+        "bytes": 536,
+        "sha256": "6db8776dae50b743b5d7493b523439c76e8999512b31bfc6f598b65f1c23584f",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 8,
+        "exact_prefix_bytes": 192,
+        "pairs": 4,
+        "profile_pair_bytes": 64,
+        "non_pair_overhead_bytes": 472
+      },
+      "prospective": {
+        "path": "records/p6_b0_r5.prospective.bin",
+        "bytes": 536,
+        "sha256": "00adfa562e424c940afb02fc76004f3e845e5bfc3b665002b0037cf6933fbe92",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 8,
+        "exact_prefix_bytes": 192,
+        "pairs": 4,
+        "profile_pair_bytes": 64,
+        "non_pair_overhead_bytes": 472
+      },
+      "bytes_saved": 0,
+      "saved_fraction": 0.0
+    },
+    {
+      "case_id": "p6_b1_r3",
+      "full": {
+        "path": "records/p6_b1_r3.full.bin",
+        "bytes": 952,
+        "sha256": "980ed6ee4cbf8d1fd1f61fe60983aa6a780dfb7d9c329a82b016466a7041dbd0",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 0,
+        "exact_prefix_bytes": 0,
+        "pairs": 42,
+        "profile_pair_bytes": 672,
+        "non_pair_overhead_bytes": 280
+      },
+      "prospective": {
+        "path": "records/p6_b1_r3.prospective.bin",
+        "bytes": 952,
+        "sha256": "c4484ba3c08bb15c7e43fbd6b4a4f8fb414b097edf43d67425cf383f5f92f847",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 0,
+        "exact_prefix_bytes": 0,
+        "pairs": 42,
+        "profile_pair_bytes": 672,
+        "non_pair_overhead_bytes": 280
+      },
+      "bytes_saved": 0,
+      "saved_fraction": 0.0
+    },
+    {
+      "case_id": "p6_b1_r5",
+      "full": {
+        "path": "records/p6_b1_r5.full.bin",
+        "bytes": 536,
+        "sha256": "714d57c669baa98a37eb576e3aca4d3b9662bf6e449b33b1d53bc0090cc87ea3",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 8,
+        "exact_prefix_bytes": 192,
+        "pairs": 4,
+        "profile_pair_bytes": 64,
+        "non_pair_overhead_bytes": 472
+      },
+      "prospective": {
+        "path": "records/p6_b1_r5.prospective.bin",
+        "bytes": 536,
+        "sha256": "7fa93b8fabf9806f566d3e94d2100107b47a758cc672a5cb1cba928f170962e1",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 8,
+        "exact_prefix_bytes": 192,
+        "pairs": 4,
+        "profile_pair_bytes": 64,
+        "non_pair_overhead_bytes": 472
+      },
+      "bytes_saved": 0,
+      "saved_fraction": 0.0
+    },
+    {
+      "case_id": "p6_b2_r3",
+      "full": {
+        "path": "records/p6_b2_r3.full.bin",
+        "bytes": 1000,
+        "sha256": "7fd17e694ac4437db21e161fcffb1b7c406724ad9da5742a52b3c8fa52aa462a",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 2,
+        "exact_prefix_bytes": 48,
+        "pairs": 42,
+        "profile_pair_bytes": 672,
+        "non_pair_overhead_bytes": 328
+      },
+      "prospective": {
+        "path": "records/p6_b2_r3.prospective.bin",
+        "bytes": 1000,
+        "sha256": "eee3f10927b6a1de7e6583594ca6a4cf3f78bf1929c07656330be608de200363",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 2,
+        "exact_prefix_bytes": 48,
+        "pairs": 42,
+        "profile_pair_bytes": 672,
+        "non_pair_overhead_bytes": 328
+      },
+      "bytes_saved": 0,
+      "saved_fraction": 0.0
+    },
+    {
+      "case_id": "p6_b2_r5",
+      "full": {
+        "path": "records/p6_b2_r5.full.bin",
+        "bytes": 536,
+        "sha256": "af529405be05da7ce8f405189f1faa9a48c166ac3334f631a13c3119c4bb0857",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 8,
+        "exact_prefix_bytes": 192,
+        "pairs": 4,
+        "profile_pair_bytes": 64,
+        "non_pair_overhead_bytes": 472
+      },
+      "prospective": {
+        "path": "records/p6_b2_r5.prospective.bin",
+        "bytes": 536,
+        "sha256": "3570a0a48c4475c7f9f81a2863d625b85af8e16760955a78e6cd0d81a92076bb",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 8,
+        "exact_prefix_bytes": 192,
+        "pairs": 4,
+        "profile_pair_bytes": 64,
+        "non_pair_overhead_bytes": 472
+      },
+      "bytes_saved": 0,
+      "saved_fraction": 0.0
+    },
+    {
+      "case_id": "p6_b3_r3",
+      "full": {
+        "path": "records/p6_b3_r3.full.bin",
+        "bytes": 1000,
+        "sha256": "ae7b4710fea9fad6a24afe15ba2133bedb5d70514357079527a86002bde1c7f4",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 2,
+        "exact_prefix_bytes": 48,
+        "pairs": 42,
+        "profile_pair_bytes": 672,
+        "non_pair_overhead_bytes": 328
+      },
+      "prospective": {
+        "path": "records/p6_b3_r3.prospective.bin",
+        "bytes": 1000,
+        "sha256": "f027ca135e30c1381b702a8efc8e924ff8b4d38bd7287f7fd941cde05fbbae5d",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 2,
+        "exact_prefix_bytes": 48,
+        "pairs": 42,
+        "profile_pair_bytes": 672,
+        "non_pair_overhead_bytes": 328
+      },
+      "bytes_saved": 0,
+      "saved_fraction": 0.0
+    },
+    {
+      "case_id": "p6_b3_r5",
+      "full": {
+        "path": "records/p6_b3_r5.full.bin",
+        "bytes": 656,
+        "sha256": "9664539961d001a9031dcc393dbe0ee7dbaa648174b2ddbcf2918a1f7e03d059",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 13,
+        "exact_prefix_bytes": 312,
+        "pairs": 4,
+        "profile_pair_bytes": 64,
+        "non_pair_overhead_bytes": 592
+      },
+      "prospective": {
+        "path": "records/p6_b3_r5.prospective.bin",
+        "bytes": 656,
+        "sha256": "e2f49d18ef637dc824bdb5e114d2719ccb10d4e0173795651224f40ec3a12f78",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 13,
+        "exact_prefix_bytes": 312,
+        "pairs": 4,
+        "profile_pair_bytes": 64,
+        "non_pair_overhead_bytes": 592
+      },
+      "bytes_saved": 0,
+      "saved_fraction": 0.0
+    },
+    {
+      "case_id": "p6_b4_r3",
+      "full": {
+        "path": "records/p6_b4_r3.full.bin",
+        "bytes": 1192,
+        "sha256": "e91a09d9ce15f052207f7af40d443fe60d0b195c0d184b62a3b071520fb7efac",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 10,
+        "exact_prefix_bytes": 240,
+        "pairs": 42,
+        "profile_pair_bytes": 672,
+        "non_pair_overhead_bytes": 520
+      },
+      "prospective": {
+        "path": "records/p6_b4_r3.prospective.bin",
+        "bytes": 1192,
+        "sha256": "ec429fe68d76f5e19a3ae8cea0b1a931b91664232315d6119a871cfff2a728ae",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 10,
+        "exact_prefix_bytes": 240,
+        "pairs": 42,
+        "profile_pair_bytes": 672,
+        "non_pair_overhead_bytes": 520
+      },
+      "bytes_saved": 0,
+      "saved_fraction": 0.0
+    },
+    {
+      "case_id": "p6_b4_r5",
+      "full": {
+        "path": "records/p6_b4_r5.full.bin",
+        "bytes": 656,
+        "sha256": "7e325b8f1588b4c59bf1d8b65a0b7bfdcb3a7ea7ecb67b4a29a3e454d0a7bd30",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 13,
+        "exact_prefix_bytes": 312,
+        "pairs": 4,
+        "profile_pair_bytes": 64,
+        "non_pair_overhead_bytes": 592
+      },
+      "prospective": {
+        "path": "records/p6_b4_r5.prospective.bin",
+        "bytes": 656,
+        "sha256": "7c0a1fa664612403ea5daa8c3d911eca27a80efa8dc74bc1c768cfedaa2a770d",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 13,
+        "exact_prefix_bytes": 312,
+        "pairs": 4,
+        "profile_pair_bytes": 64,
+        "non_pair_overhead_bytes": 592
+      },
+      "bytes_saved": 0,
+      "saved_fraction": 0.0
+    },
+    {
+      "case_id": "p6_b5_r3",
+      "full": {
+        "path": "records/p6_b5_r3.full.bin",
+        "bytes": 1192,
+        "sha256": "15c0211f3fb57f20fce48a3c380277fad951944065523d5081856ebfdc11a4d8",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 10,
+        "exact_prefix_bytes": 240,
+        "pairs": 42,
+        "profile_pair_bytes": 672,
+        "non_pair_overhead_bytes": 520
+      },
+      "prospective": {
+        "path": "records/p6_b5_r3.prospective.bin",
+        "bytes": 1192,
+        "sha256": "e700154d793d70cb4384f851653f908084230cb873f075b1128f29bcc58bbf93",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 10,
+        "exact_prefix_bytes": 240,
+        "pairs": 42,
+        "profile_pair_bytes": 672,
+        "non_pair_overhead_bytes": 520
+      },
+      "bytes_saved": 0,
+      "saved_fraction": 0.0
+    },
+    {
+      "case_id": "p6_b5_r5",
+      "full": {
+        "path": "records/p6_b5_r5.full.bin",
+        "bytes": 656,
+        "sha256": "1195aa53dfe5b82d555794e90d0a18fa91d8c507e6700f6b8e45b18c326b618e",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 13,
+        "exact_prefix_bytes": 312,
+        "pairs": 4,
+        "profile_pair_bytes": 64,
+        "non_pair_overhead_bytes": 592
+      },
+      "prospective": {
+        "path": "records/p6_b5_r5.prospective.bin",
+        "bytes": 656,
+        "sha256": "b4546671b92247af33a04ccfd4244839a4618035bb1ab703b0a765c39c0db8bf",
+        "controller_header_bytes": 184,
+        "line_metadata_bytes": 96,
+        "exact_prefix_edges": 13,
+        "exact_prefix_bytes": 312,
+        "pairs": 4,
+        "profile_pair_bytes": 64,
+        "non_pair_overhead_bytes": 592
+      },
+      "bytes_saved": 0,
+      "saved_fraction": 0.0
+    }
+  ]
+}

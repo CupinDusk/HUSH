@@ -1,0 +1,199 @@
+{
+  "scope": "Sensitivity probes only, all changed RTL copies stay under independent/mutation-tests-01. No baseline result is replaced.",
+  "source_sha256": "378f441954505f614d17b9dab68596ef9284bbc1e62667843f8c09958436be53",
+  "mutants": [
+    {
+      "name": "01-decrement-before-WU",
+      "mutated_source_sha256": "23f8f339f0f3ac69183e013cbcc6a01f047d5519e276cdcaf77bc75740120d57",
+      "commands": [
+        {
+          "stage": "synthesis",
+          "argv": [
+            "<BUNDLED_RUNTIME>\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "<WORKSPACE>\\.tools\\run_iscas_yosys.py",
+            "-p",
+            "read_verilog receiver.v; hierarchy -check -top receiver; prep -top receiver; check -assert; write_cxxrtl netlist.cpp"
+          ],
+          "returncode": 0
+        },
+        {
+          "stage": "compile",
+          "argv": [
+            "<WORKSPACE>\\.tools\\zig-0.14.1\\zig-x86_64-windows-0.14.1\\zig.exe",
+            "c++",
+            "-std=c++17",
+            "-O3",
+            "-UNDEBUG",
+            "-I",
+            "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\backends\\cxxrtl\\runtime",
+            "driver.cpp",
+            "-o",
+            "simulate.exe"
+          ],
+          "returncode": 0
+        },
+        {
+          "stage": "simulation",
+          "argv": [
+            "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r04-analysis\\hush-rtl\\independent\\mutation-tests-01\\01-decrement-before-WU\\simulate.exe",
+            "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r04-analysis\\hush-rtl\\independent\\fresh-replay-01\\vectors",
+            "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r04-analysis\\hush-rtl\\independent\\mutation-tests-01\\01-decrement-before-WU"
+          ],
+          "returncode": 1
+        }
+      ],
+      "actual_rejection": "policy 0: negative first-failure/expiry witness mismatch",
+      "netlist_sha256": "2102a0664ada18b63541d13009fe2fad24d8a01f353b35f5de6bd8251ee6139c",
+      "executable_sha256": "b99b6afd3b899eb393b8590985a0da720d12eafea3f6c4a62b12c746078e6e53",
+      "status": "REJECTED_BY_UNCHANGED_FROZEN_DRIVER"
+    },
+    {
+      "name": "02-B-before-A",
+      "mutated_source_sha256": "bc46dfef046ca86e2d9e30b78a176a8cf4d3668acc01adf2ac06f69f345f453e",
+      "commands": [
+        {
+          "stage": "synthesis",
+          "argv": [
+            "<BUNDLED_RUNTIME>\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "<WORKSPACE>\\.tools\\run_iscas_yosys.py",
+            "-p",
+            "read_verilog receiver.v; hierarchy -check -top receiver; prep -top receiver; check -assert; write_cxxrtl netlist.cpp"
+          ],
+          "returncode": 0
+        },
+        {
+          "stage": "compile",
+          "argv": [
+            "<WORKSPACE>\\.tools\\zig-0.14.1\\zig-x86_64-windows-0.14.1\\zig.exe",
+            "c++",
+            "-std=c++17",
+            "-O3",
+            "-UNDEBUG",
+            "-I",
+            "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\backends\\cxxrtl\\runtime",
+            "driver.cpp",
+            "-o",
+            "simulate.exe"
+          ],
+          "returncode": 0
+        },
+        {
+          "stage": "simulation",
+          "argv": [
+            "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r04-analysis\\hush-rtl\\independent\\mutation-tests-01\\02-B-before-A\\simulate.exe",
+            "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r04-analysis\\hush-rtl\\independent\\fresh-replay-01\\vectors",
+            "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r04-analysis\\hush-rtl\\independent\\mutation-tests-01\\02-B-before-A"
+          ],
+          "returncode": 1
+        }
+      ],
+      "actual_rejection": "control case=0 category=0 pattern=0: frozen tick mismatch t=0 field=17 actual=1 expected=0",
+      "netlist_sha256": "41368a4e5e667af0830552eb9c8e071abad24f8df79a15a9cdd4d7c6480bb3ea",
+      "executable_sha256": "910e5dcb846358662dff222ec019c20ae99ec1d342f1aae72509e4137a62a184",
+      "status": "REJECTED_BY_UNCHANGED_FROZEN_DRIVER"
+    },
+    {
+      "name": "03-missing-cancel-enable",
+      "mutated_source_sha256": "28453dfaa017a66235728a7e0eaa0c436440b9f8e2381a2a879a9eca1a9c2a0f",
+      "commands": [
+        {
+          "stage": "synthesis",
+          "argv": [
+            "<BUNDLED_RUNTIME>\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "<WORKSPACE>\\.tools\\run_iscas_yosys.py",
+            "-p",
+            "read_verilog receiver.v; hierarchy -check -top receiver; prep -top receiver; check -assert; write_cxxrtl netlist.cpp"
+          ],
+          "returncode": 0
+        },
+        {
+          "stage": "compile",
+          "argv": [
+            "<WORKSPACE>\\.tools\\zig-0.14.1\\zig-x86_64-windows-0.14.1\\zig.exe",
+            "c++",
+            "-std=c++17",
+            "-O3",
+            "-UNDEBUG",
+            "-I",
+            "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\backends\\cxxrtl\\runtime",
+            "driver.cpp",
+            "-o",
+            "simulate.exe"
+          ],
+          "returncode": 0
+        },
+        {
+          "stage": "simulation",
+          "argv": [
+            "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r04-analysis\\hush-rtl\\independent\\mutation-tests-01\\03-missing-cancel-enable\\simulate.exe",
+            "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r04-analysis\\hush-rtl\\independent\\fresh-replay-01\\vectors",
+            "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r04-analysis\\hush-rtl\\independent\\mutation-tests-01\\03-missing-cancel-enable"
+          ],
+          "returncode": 1
+        }
+      ],
+      "actual_rejection": "control case=0 category=1 pattern=0: successful capture did not cancel timer",
+      "netlist_sha256": "f363ba08f1d210b49c7d11dccf4aa6bd5a08df2724c3cc70a6ac4edc303d8fad",
+      "executable_sha256": "3e93ece938bb61b36714d0636933b7cc0ff69f8d7812cd9c58d24a26e0c41f84",
+      "status": "REJECTED_BY_UNCHANGED_FROZEN_DRIVER"
+    },
+    {
+      "name": "04-live-data-emission",
+      "mutated_source_sha256": "06aeec821e4fd6c1cea4e6fe65b8da5cea3569700c84ea2ea9259e44017d2682",
+      "commands": [
+        {
+          "stage": "synthesis",
+          "argv": [
+            "<BUNDLED_RUNTIME>\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "<WORKSPACE>\\.tools\\run_iscas_yosys.py",
+            "-p",
+            "read_verilog receiver.v; hierarchy -check -top receiver; prep -top receiver; check -assert; write_cxxrtl netlist.cpp"
+          ],
+          "returncode": 0
+        },
+        {
+          "stage": "compile",
+          "argv": [
+            "<WORKSPACE>\\.tools\\zig-0.14.1\\zig-x86_64-windows-0.14.1\\zig.exe",
+            "c++",
+            "-std=c++17",
+            "-O3",
+            "-UNDEBUG",
+            "-I",
+            "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\backends\\cxxrtl\\runtime",
+            "driver.cpp",
+            "-o",
+            "simulate.exe"
+          ],
+          "returncode": 0
+        },
+        {
+          "stage": "simulation",
+          "argv": [
+            "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r04-analysis\\hush-rtl\\independent\\mutation-tests-01\\04-live-data-emission\\simulate.exe",
+            "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r04-analysis\\hush-rtl\\independent\\fresh-replay-01\\vectors",
+            "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r04-analysis\\hush-rtl\\independent\\mutation-tests-01\\04-live-data-emission"
+          ],
+          "returncode": 1
+        }
+      ],
+      "actual_rejection": "control case=0 category=1 pattern=1: emitted snapshot changed",
+      "netlist_sha256": "ca64d9f08a3f486a5185405e075c02ca5a69f06d35f424198a28ec2daa709b18",
+      "executable_sha256": "dd5a3b55eabea1bdc0f4a0cf46a28e380a196ab0922591df0fe5d690edce2faf",
+      "status": "REJECTED_BY_UNCHANGED_FROZEN_DRIVER"
+    }
+  ],
+  "status": "ALL_FOUR_SEMANTIC_MUTANTS_REJECTED"
+}

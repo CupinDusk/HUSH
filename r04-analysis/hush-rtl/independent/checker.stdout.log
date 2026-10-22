@@ -1,0 +1,41 @@
+{
+  "status": "PASS_INDEPENDENT_AUTHOR_SIDE_NEW_REFERENCE_RTL_GATE",
+  "counts": {
+    "control_cases": 40,
+    "control_ticks": 22823,
+    "backpressure_cases": 26,
+    "queue_two_cases": 40,
+    "snapshot_runs": 120,
+    "snapshot_ticks": 68469,
+    "snapshot_captures": 9897,
+    "snapshot_emissions": 9807,
+    "snapshot_timer_cancels": 9657,
+    "snapshot_backpressure_ticks": 1071,
+    "policy_queries": 37000,
+    "policy_negative_first_failures": 19613,
+    "policy_simulated_ticks": 25137870,
+    "policy_positive_survivals": 17387
+  },
+  "phase_counts": {
+    "negative": 19613,
+    "completion_admitted": 16948,
+    "service_extra_over_completion": 439,
+    "completion_extra_over_service": 0,
+    "unsupported_queries": 7425,
+    "posthoc_supported_queries": 29575,
+    "posthoc_supported_full_positive": 13883,
+    "posthoc_supported_full_unknown": 15692,
+    "posthoc_supported_service_only": 333,
+    "positive": 17387
+  },
+  "coverage": {
+    "grant_blocked_R0_occupied_queue_nonempty": 0,
+    "poll_callback_ties": 119,
+    "simultaneous_enqueue_ticks": 158,
+    "ready_off_boundaries": 666,
+    "WU_decrement_same_tick": 0,
+    "data_WU_decrement_same_tick": 2799,
+    "data_WU_capture_same_tick": 9777,
+    "data_block_with_WU": 1071
+  }
+}

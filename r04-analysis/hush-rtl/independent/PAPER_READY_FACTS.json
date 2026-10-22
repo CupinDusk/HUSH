@@ -1,0 +1,102 @@
+{
+  "status": "PASS_INDEPENDENT_AUTHOR_SIDE_NEW_REFERENCE_RTL_GATE",
+  "scope": "New constructed RTL, actual generated CXXRTL; not native HUSH/gem5, universal WU exhaustion, coherent memory, hardware throughput or PPA.",
+  "counts": {
+    "control_cases": 40,
+    "control_ticks": 22823,
+    "backpressure_cases": 26,
+    "queue_two_cases": 40,
+    "snapshot_runs": 120,
+    "snapshot_ticks": 68469,
+    "snapshot_captures": 9897,
+    "snapshot_emissions": 9807,
+    "snapshot_timer_cancels": 9657,
+    "snapshot_backpressure_ticks": 1071,
+    "policy_queries": 37000,
+    "policy_negative_first_failures": 19613,
+    "policy_simulated_ticks": 25137870,
+    "policy_positive_survivals": 17387
+  },
+  "phase_reconstruction": {
+    "negative": 19613,
+    "completion_admitted": 16948,
+    "service_extra_over_completion": 439,
+    "completion_extra_over_service": 0,
+    "unsupported_queries": 7425,
+    "posthoc_supported_queries": 29575,
+    "posthoc_supported_full_positive": 13883,
+    "posthoc_supported_full_unknown": 15692,
+    "posthoc_supported_service_only": 333,
+    "positive": 17387
+  },
+  "no_service_gain_cases": [
+    "p2_b0_r3",
+    "p2_b1_r3",
+    "p3_b0_r5",
+    "p4_b0_r5",
+    "p4_b1_r5",
+    "p4_b2_r5",
+    "p4_b3_r5",
+    "p6_b0_r5",
+    "p6_b1_r5",
+    "p6_b2_r5",
+    "p6_b3_r5",
+    "p6_b4_r5",
+    "p6_b5_r5"
+  ],
+  "exercised_coverage": {
+    "grant_blocked_R0_occupied_queue_nonempty": 0,
+    "poll_callback_ties": 119,
+    "simultaneous_enqueue_ticks": 158,
+    "ready_off_boundaries": 666,
+    "WU_decrement_same_tick": 0,
+    "data_WU_decrement_same_tick": 2799,
+    "data_WU_capture_same_tick": 9777,
+    "data_block_with_WU": 1071
+  },
+  "exact_evidence": {
+    "audit": "INDEPENDENT_AUDIT.json",
+    "checker": "check_independent.py",
+    "checker_execution": "CHECKER_EXECUTION.json",
+    "source_review": "INDEPENDENT_AUDIT.md",
+    "fresh_replay": "fresh-replay-01/PORTABLE_REPLAY.json",
+    "generated_netlist_sha256": "b41df947e115fbe3502773c81e9993e6dafeb07db3e459cea91f01a586beed2f",
+    "fresh_executable_sha256": "8def58078f5b1e01f875d1ac11dcb1681196a2a059ace7cd63701257f9af84c9",
+    "RTL_protocol_sha256": "2b01630e8cd2c70860dcd821052dc3a745a2d3b7ade8e2ec4745baf625ffcc33",
+    "frozen_reference_protocol_sha256": "536a35c9d37ca727028609c8a742fb9454b6942fb64d5b1d8e2640de807dcaba",
+    "semantic_mutants": "mutation-tests-01/MUTATION_RESULTS.json",
+    "environment": "ENVIRONMENT.json"
+  },
+  "mutation_sensitivity": {
+    "status": "ALL_FOUR_SEMANTIC_MUTANTS_REJECTED",
+    "mutants": [
+      {
+        "name": "01-decrement-before-WU",
+        "rejection": "policy 0: negative first-failure/expiry witness mismatch"
+      },
+      {
+        "name": "02-B-before-A",
+        "rejection": "control case=0 category=0 pattern=0: frozen tick mismatch t=0 field=17 actual=1 expected=0"
+      },
+      {
+        "name": "03-missing-cancel-enable",
+        "rejection": "control case=0 category=1 pattern=0: successful capture did not cancel timer"
+      },
+      {
+        "name": "04-live-data-emission",
+        "rejection": "control case=0 category=1 pattern=1: emitted snapshot changed"
+      }
+    ]
+  },
+  "limits": [
+    "No arbitrary WU-word exhaustion; positives exercise the declared minimizing one-WU word only.",
+    "Only three fixed byte patterns with K=5/P=24/phi=0, valid-only WUs after initial captures.",
+    "R0-occupied with a queued head at grant is unexercised and receives no coverage credit.",
+    "FIFO occupancy two and actual sink-ready backpressure are separately counted.",
+    "Fourteen cases have no response backpressure; all forty cases remain included.",
+    "Invalid configurations, overflow, epoch changes and revocation recovery are untested.",
+    "Synthesis structure and logical tick counts supply no area, timing, energy or hardware-rate claim."
+  ],
+  "publication_gate": "Independent author-side finite RTL gate passed; this is not external peer review or a manuscript/publication change.",
+  "suggested_statement": "We implemented the specified two-client receiver as new synthesizable RTL. A fresh Yosys 0.70 CXXRTL build reproduced all 40 frozen schedules over 22,823 ticks and all 37,000 declared one-WU tests (17,387 survivals; 19,613 first-failed-grant witnesses). A separate checker reconstructed every phase decision and observed control/data field. Across 120 fixed-pattern runs, 9,897 captures and 9,807 emissions preserve request identity and snapshot bytes, including 1,071 response-backpressure ticks and 9,657 timer cancellations. These finite constructed-component results do not establish native HUSH/gem5 refinement, arbitrary WU-word or coherent-data correctness, or hardware benefit."
+}

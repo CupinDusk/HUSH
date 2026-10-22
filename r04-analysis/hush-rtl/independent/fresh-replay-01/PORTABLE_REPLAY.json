@@ -1,0 +1,87 @@
+{
+  "kind": "fresh_portable_reference_RTL_rebuild",
+  "commands": [
+    {
+      "name": "vectors",
+      "argv": [
+        "<BUNDLED_RUNTIME>\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r04-analysis\\hush-rtl\\independent\\portable-source\\generate_vectors.py",
+        "--reference",
+        "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r04-analysis\\hush-rtl\\independent\\portable-source\\reference-inputs",
+        "--out",
+        "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r04-analysis\\hush-rtl\\independent\\fresh-replay-01\\vectors"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "yosys_version",
+      "argv": [
+        "<BUNDLED_RUNTIME>\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "<WORKSPACE>\\.tools\\run_iscas_yosys.py",
+        "-V"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "synthesis",
+      "argv": [
+        "<BUNDLED_RUNTIME>\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "<WORKSPACE>\\.tools\\run_iscas_yosys.py",
+        "-p",
+        "read_verilog receiver.v; hierarchy -check -top receiver; prep -top receiver; check -assert; write_cxxrtl netlist.cpp"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "compile",
+      "argv": [
+        "<WORKSPACE>/.tools/zig-0.14.1/zig-x86_64-windows-0.14.1/zig.exe",
+        "c++",
+        "-std=c++17",
+        "-O3",
+        "-UNDEBUG",
+        "-I",
+        "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\backends\\cxxrtl\\runtime",
+        "driver.cpp",
+        "-o",
+        "simulate.exe"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "simulation",
+      "argv": [
+        "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r04-analysis\\hush-rtl\\independent\\fresh-replay-01\\simulate.exe",
+        "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r04-analysis\\hush-rtl\\independent\\fresh-replay-01\\vectors",
+        "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r04-analysis\\hush-rtl\\independent\\fresh-replay-01"
+      ],
+      "returncode": 0
+    }
+  ],
+  "inputs": {
+    "receiver.v": "378f441954505f614d17b9dab68596ef9284bbc1e62667843f8c09958436be53",
+    "driver.cpp": "b065b70750a0fd5a834cfd60304ffb170bb1de16d0b46be07967dde3e1753d05",
+    "PROTOCOL.json": "2b01630e8cd2c70860dcd821052dc3a745a2d3b7ade8e2ec4745baf625ffcc33",
+    "generate_vectors.py": "0920478a7ec0d99bc2b4b1a33252d30bd1e8eafba1119189b57027a90518076f",
+    "replay_portable.py": "f035b87201f0da19eacb782b537eef978865eb4ac49ae68071dc1da809d012a6"
+  },
+  "status": "EXECUTED_GENERATED_REFERENCE_RTL",
+  "outputs": {
+    "netlist.cpp": "b41df947e115fbe3502773c81e9993e6dafeb07db3e459cea91f01a586beed2f",
+    "simulate.exe": "8def58078f5b1e01f875d1ac11dcb1681196a2a059ace7cd63701257f9af84c9",
+    "RTL_RESULTS.json": "314f49d0e41cbbe2357a8e3bd27f0d96e4553696b608a6ee230d4c251e8a8e5e",
+    "CONTROL_TICKS.csv": "01258890769680d3260fa9a8371b19387b7297803c018973ae5f6c503195129b",
+    "DATA_TICKS.csv": "2b19f1a050b6224fe89eec92dfc64c36d404b36af598a724f5945370c82f207d",
+    "CASE_CHECKS.csv": "e21c5a07a342ccf1a1ad9bf214d688c742d19a746e103ea37095b98c13290c47",
+    "POLICY_CHECKS.csv": "4bdeb599a28690077bf83b0815d1993c3269882f894ab2b072a70ab3b8c6bd0d"
+  }
+}

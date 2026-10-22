@@ -1,0 +1,82 @@
+{
+  "kind": "frozen_serialized_reference_vectors",
+  "reference_sha256": {
+    "PROTOCOL.json": "536a35c9d37ca727028609c8a742fb9454b6942fb64d5b1d8e2640de807dcaba",
+    "RELATIONS.json": "f77704f0329c79babe82afbe56dbfce7e2ea7bd219e8299ae3332a9017487a47",
+    "TRACES.jsonl.gz": "a065d52d29ac59d892a5f2bf8f90b43b6c4b35eb653dea2bb4ad3fd5520d1c76",
+    "ALL_PHASE_BASES.jsonl.gz": "d280587e4c5f270992d57ec4925429f03dda66a1ab137a1ce047511dd3cf1c94",
+    "ALL_NEGATIVE_FIRST_FAILURES.jsonl.gz": "629a4c8b278486577a58dd4f2ffd3aa73673883a8b8ed829ad115621e0d32bd3",
+    "INDEPENDENT_VALIDATION.json": "d018b47d5dec68e2b02484ac3dd22ff7688ef599da21e0acbd2444940bba9fef"
+  },
+  "case_order": [
+    "p2_b0_r3",
+    "p2_b0_r5",
+    "p2_b1_r3",
+    "p2_b1_r5",
+    "p3_b0_r3",
+    "p3_b0_r5",
+    "p3_b1_r3",
+    "p3_b1_r5",
+    "p3_b2_r3",
+    "p3_b2_r5",
+    "p4_b0_r3",
+    "p4_b0_r5",
+    "p4_b1_r3",
+    "p4_b1_r5",
+    "p4_b2_r3",
+    "p4_b2_r5",
+    "p4_b3_r3",
+    "p4_b3_r5",
+    "p5_b0_r3",
+    "p5_b0_r5",
+    "p5_b1_r3",
+    "p5_b1_r5",
+    "p5_b2_r3",
+    "p5_b2_r5",
+    "p5_b3_r3",
+    "p5_b3_r5",
+    "p5_b4_r3",
+    "p5_b4_r5",
+    "p6_b0_r3",
+    "p6_b0_r5",
+    "p6_b1_r3",
+    "p6_b1_r5",
+    "p6_b2_r3",
+    "p6_b2_r5",
+    "p6_b3_r3",
+    "p6_b3_r5",
+    "p6_b4_r3",
+    "p6_b4_r5",
+    "p6_b5_r3",
+    "p6_b5_r5"
+  ],
+  "control_ticks": 22823,
+  "policies": 37000,
+  "positive": 17387,
+  "negative": 19613,
+  "maximum_policy_target_tick": 7332,
+  "snapshot_runs": 120,
+  "snapshot_patterns": [
+    "0",
+    "255",
+    "(t*17+owner*73) mod 256"
+  ],
+  "snapshot_K_P_phi": [
+    5,
+    24,
+    0
+  ],
+  "width_contract": {
+    "tick_bits": 16,
+    "id_bits": 16,
+    "counter_bits": 3,
+    "data_bits": 8,
+    "maximum_simulation_tick_exclusive": 65001,
+    "configuration_stable_per_run": true
+  },
+  "files": {
+    "controls.txt": "6460d89f7c2cdd9b019d98c1e106c0cae319c0fb443eefebceb32ea743eee52e",
+    "policies.txt": "0b7f45cac8d88e75df3fd2454813299eedfe3e69a823fe24acaf66dee4428506"
+  },
+  "generator_sha256": "0920478a7ec0d99bc2b4b1a33252d30bd1e8eafba1119189b57027a90518076f"
+}

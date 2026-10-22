@@ -1,0 +1,46 @@
+{
+  "status": "INDEPENDENT_AUTHOR_SIDE_AUDIT_EVIDENCE_MANIFEST",
+  "scope": "Only independently authored checker evidence; producer 97-file manifest remains separate and unchanged.",
+  "producer_manifest": {
+    "bytes": 16287,
+    "sha256": "bdbd1c83cd026328da80bcec3447c432ea586bfcad9440cbb4da025ae4694b04"
+  },
+  "frozen_protocol": {
+    "bytes": 3008,
+    "sha256": "7faaefd70844803d59e784ddd697d9267309b81139283119c340538f05b8112d"
+  },
+  "precomputation_input_binding": {
+    "bytes": 1636,
+    "sha256": "bd2dc040338a26fab694af08328ac2f3d2c4659647a4dd41645d9967bac23c53"
+  },
+  "files": {
+    "check_independent.py": {
+      "bytes": 34555,
+      "sha256": "a83cd3e89948b007bf5cc0b83bf7840ff40d85654895a75b061d8c4c2fbf2121"
+    },
+    "INDEPENDENT_AUDIT.json": {
+      "bytes": 19828,
+      "sha256": "5f10afb320703903df844dae4df763fb487cf65e5549dccfeb9361600e46524e"
+    },
+    "INDEPENDENT_AUDIT.md": {
+      "bytes": 7226,
+      "sha256": "590fd35d96d37df05633497340da9efa731c21d22315b79bf677729a53cd7195"
+    },
+    "INDEPENDENT_PER_CONTROLLER.json": {
+      "bytes": 212042,
+      "sha256": "6cd32a32e2d6b2d7c4b336f3af6187042d46b2a8089751fdf191e385d5488c57"
+    },
+    "INITIAL_STRICT_FLOAT_COMPARISON.json": {
+      "bytes": 12441,
+      "sha256": "621899a0ad6a72fa7e79d4e4e387356799b84b09df677233c88bccc1c8b5fa30"
+    },
+    "make_independent_manifest.py": {
+      "bytes": 1031,
+      "sha256": "8c58a0326aac3b593bc2940dd966b730b47e4591d0918c7012432deeaaed1bf9"
+    },
+    "PAPER_READY_FACTS.md": {
+      "bytes": 4080,
+      "sha256": "eac49b577d208f9e13a09f57eb44a3047444acd9c51854c18ab6b7ac955353e0"
+    }
+  }
+}

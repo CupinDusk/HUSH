@@ -1,0 +1,36 @@
+{
+  "status": "BOUND_BEFORE_FIRST_DERIVED_COMPUTATION",
+  "bound_utc": "2026-10-22T21:04:49.411141+00:00",
+  "binding": {
+    "protocol_sha256": "7faaefd70844803d59e784ddd697d9267309b81139283119c340538f05b8112d",
+    "inputs": {
+      "RELATIONS.json": {
+        "sha256": "f77704f0329c79babe82afbe56dbfce7e2ea7bd219e8299ae3332a9017487a47",
+        "bytes": 438727
+      },
+      "ALL_PHASE_BASES.jsonl.gz": {
+        "sha256": "d280587e4c5f270992d57ec4925429f03dda66a1ab137a1ce047511dd3cf1c94",
+        "bytes": 32414
+      },
+      "POLICY_RESULTS.json": {
+        "sha256": "5615abd57e638d9435be823e69c5a1f76615b347a9afdb4f6ceff0ec5764521d",
+        "bytes": 43777
+      },
+      "PROTOCOL.json": {
+        "sha256": "536a35c9d37ca727028609c8a742fb9454b6942fb64d5b1d8e2640de807dcaba",
+        "bytes": 5923
+      },
+      "extract_shared.py": {
+        "sha256": "1d0812128dfd65586f473a138f5137983974473a2fb9100949d5be749e4c7e1a",
+        "bytes": 7682
+      }
+    },
+    "implementation": {
+      "analyze.py": "ec700fdc1472cb7d6224f36c37734ed4d8181ef80fbaebdbdea1bcd821b8e9b4",
+      "encoder.py": "bc5d4c649c7c8ee9a289960459109c00e2e63b3ca6f19b18cb23248700fe6905",
+      "decoder.py": "6388849e16a06f36d5505e2b4be86a721b210249157b1be6402a80c5e729daa1"
+    },
+    "epoch_text": "R04 constructed two-client two-line component model; fixed initial entry immediately after each line's guaranteed first capture; no revocation, refill, payload mutation or other invalidation; frozen R03 relation epoch 1.",
+    "epoch_sha256": "532dbe306c54253676404a42c28df330d4a612663695ec92e25ab6b6b7e23f83"
+  }
+}

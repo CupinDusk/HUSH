@@ -1,0 +1,1223 @@
+{
+  "status": "EXPLICIT_PORTABLE_PROVENANCE_ADAPTERS_ONLY",
+  "base_fixed_commit": "f83dc95b53963d1eea5ab53aaebcaed44f865f2c",
+  "prior_research_and_license_files_byte_exact": true,
+  "changes": [
+    {
+      "path": "r04-analysis/hush-rtl/build-01/BUILD.json",
+      "original_sha256": "6a6011188691596905cd03ae82284ed7e4895c3cd39321d586b020efd7e10b19",
+      "public_sha256": "199d08957a2b36facecbff0f6f90bcf4668583ef9420972fd9eee6f858bb5cd9",
+      "reason": "Only local absolute workspace/runtime roots replaced by explicit portable tokens."
+    },
+    {
+      "path": "r04-analysis/hush-rtl/independent/CHECKER_EXECUTION.json",
+      "original_sha256": "5abf98eead6581b2897e740dda8f2fa579d60f71b897daa9de8bdbd12a3810fc",
+      "public_sha256": "f934321d9edb2def4c64e75bd5cb0471087794e06665012659b220d3e2ab6fb4",
+      "reason": "Only local absolute workspace/runtime roots replaced by explicit portable tokens."
+    },
+    {
+      "path": "r04-analysis/hush-rtl/independent/ENVIRONMENT.json",
+      "original_sha256": "b4eb7a5830669178743fd1b5e6fde0e8d898408408f827ca3e2c7e110a487123",
+      "public_sha256": "7e7708c67f73c477415a1b8f3bf241f12c57cd2b9b39a3ad9530bf1eacfd858d",
+      "reason": "Only local absolute workspace/runtime roots replaced by explicit portable tokens."
+    },
+    {
+      "path": "r04-analysis/hush-rtl/independent/fresh-replay-01/PORTABLE_REPLAY.json",
+      "original_sha256": "9bcc59c748f6752b6706c16cdf85fc625f415106a69e1871f68bbc1a82fbdc69",
+      "public_sha256": "5f2be22f88f72d50685c06f347c2807fbd0a8df511ba65e7bc0f5711f91bec8c",
+      "reason": "Only local absolute workspace/runtime roots replaced by explicit portable tokens."
+    },
+    {
+      "path": "r04-analysis/hush-rtl/independent/INDEPENDENT_AUDIT.json",
+      "original_sha256": "525fa289893cf7b6b99036082bd6cdae0ad42cd0ce2b169d404c5f6dc34d8946",
+      "public_sha256": "bc7fde6acf48581758b69a154f2049d3401e24139d2d27e959dbc74517ac5439",
+      "reason": "Only local absolute workspace/runtime roots replaced by explicit portable tokens."
+    },
+    {
+      "path": "r04-analysis/hush-rtl/independent/mutation-tests-01/MUTATION_RESULTS.json",
+      "original_sha256": "34bb36a68173ccb6c132bf8cb6ae381b50a6486b97b3dd4ee6223e50983bec4f",
+      "public_sha256": "baa0303cea18a230ba6bd518ffdce6f44d0b08cf0c79f05283d334e7602e30da",
+      "reason": "Only local absolute workspace/runtime roots replaced by explicit portable tokens."
+    },
+    {
+      "path": "r04-analysis/hush-rtl/independent/check_public.py",
+      "original_source": "r04-analysis/hush-rtl/independent/check_independent.py",
+      "original_sha256": "ef59fe7d5f8c43c52216a0e374ac79f1db4a4221423d43a2d99e189ff17e77d2",
+      "public_sha256": "8b9592193f153f497206d218dca0b951f60da1e99cd69c8c54bf744753b2ea8e",
+      "reason": "New adapter replaces audit_provenance only; semantic reconstruction functions unchanged. Defaults use bundled references/saved replay; output provenance uses relative labels. Original checker preserved byte-exact."
+    }
+  ],
+  "omitted": [
+    {
+      "path": "r04-analysis/hush-rtl/build-01/simulate.exe",
+      "bytes": 887808,
+      "sha256": "8cab6b003e2938078a8481526f1076d8eeb6ed51573ffee2137b4de6f011acd8",
+      "reason": "Platform executable/debug build excluded; retained historical hashes are evidence, not shipped inputs."
+    },
+    {
+      "path": "r04-analysis/hush-rtl/build-01/simulate.pdb",
+      "bytes": 6840320,
+      "sha256": "33d7847f4ae39302cf3148f334645146d40d9e33884a1de05eec68650993de18",
+      "reason": "Platform executable/debug build excluded; retained historical hashes are evidence, not shipped inputs."
+    },
+    {
+      "path": "r04-analysis/hush-rtl/independent/fresh-replay-01/simulate.exe",
+      "bytes": 887808,
+      "sha256": "8def58078f5b1e01f875d1ac11dcb1681196a2a059ace7cd63701257f9af84c9",
+      "reason": "Platform executable/debug build excluded; retained historical hashes are evidence, not shipped inputs."
+    },
+    {
+      "path": "r04-analysis/hush-rtl/independent/fresh-replay-01/simulate.pdb",
+      "bytes": 6840320,
+      "sha256": "06482378fa811f29842c550e172ede0b1414c25bf6e7e0b8269258a9c45471c1",
+      "reason": "Platform executable/debug build excluded; retained historical hashes are evidence, not shipped inputs."
+    },
+    {
+      "path": "r04-analysis/hush-rtl/independent/mutation-tests-01/01-decrement-before-WU/simulate.exe",
+      "bytes": 887808,
+      "sha256": "b99b6afd3b899eb393b8590985a0da720d12eafea3f6c4a62b12c746078e6e53",
+      "reason": "Platform executable/debug build excluded; retained historical hashes are evidence, not shipped inputs."
+    },
+    {
+      "path": "r04-analysis/hush-rtl/independent/mutation-tests-01/01-decrement-before-WU/simulate.pdb",
+      "bytes": 6840320,
+      "sha256": "df860d1550690789ef0e73aa641056b13a76150faf43317a930c8e4e1c8d9c72",
+      "reason": "Platform executable/debug build excluded; retained historical hashes are evidence, not shipped inputs."
+    },
+    {
+      "path": "r04-analysis/hush-rtl/independent/mutation-tests-01/02-B-before-A/simulate.exe",
+      "bytes": 887808,
+      "sha256": "910e5dcb846358662dff222ec019c20ae99ec1d342f1aae72509e4137a62a184",
+      "reason": "Platform executable/debug build excluded; retained historical hashes are evidence, not shipped inputs."
+    },
+    {
+      "path": "r04-analysis/hush-rtl/independent/mutation-tests-01/02-B-before-A/simulate.pdb",
+      "bytes": 6840320,
+      "sha256": "64489ff0370bfef34946c4478822d76b3fdc2f56739179f233d6ae96971a4697",
+      "reason": "Platform executable/debug build excluded; retained historical hashes are evidence, not shipped inputs."
+    },
+    {
+      "path": "r04-analysis/hush-rtl/independent/mutation-tests-01/03-missing-cancel-enable/simulate.exe",
+      "bytes": 888320,
+      "sha256": "3e93ece938bb61b36714d0636933b7cc0ff69f8d7812cd9c58d24a26e0c41f84",
+      "reason": "Platform executable/debug build excluded; retained historical hashes are evidence, not shipped inputs."
+    },
+    {
+      "path": "r04-analysis/hush-rtl/independent/mutation-tests-01/03-missing-cancel-enable/simulate.pdb",
+      "bytes": 6856704,
+      "sha256": "e5a211f400f27e339958380e148de587872923b7ea4b817c56c47fa266f913b3",
+      "reason": "Platform executable/debug build excluded; retained historical hashes are evidence, not shipped inputs."
+    },
+    {
+      "path": "r04-analysis/hush-rtl/independent/mutation-tests-01/04-live-data-emission/simulate.exe",
+      "bytes": 887808,
+      "sha256": "dd5a3b55eabea1bdc0f4a0cf46a28e380a196ab0922591df0fe5d690edce2faf",
+      "reason": "Platform executable/debug build excluded; retained historical hashes are evidence, not shipped inputs."
+    },
+    {
+      "path": "r04-analysis/hush-rtl/independent/mutation-tests-01/04-live-data-emission/simulate.pdb",
+      "bytes": 6840320,
+      "sha256": "e40936630b40f1492e3160f2300fca66de7b29e55c448601d56cd22f4a514501",
+      "reason": "Platform executable/debug build excluded; retained historical hashes are evidence, not shipped inputs."
+    }
+  ],
+  "original_author_files": {
+    "r04-analysis/hush-rtl/build-01/BUILD.json": {
+      "bytes": 3315,
+      "sha256": "6a6011188691596905cd03ae82284ed7e4895c3cd39321d586b020efd7e10b19"
+    },
+    "r04-analysis/hush-rtl/build-01/CASE_CHECKS.csv": {
+      "bytes": 5552,
+      "sha256": "e21c5a07a342ccf1a1ad9bf214d688c742d19a746e103ea37095b98c13290c47"
+    },
+    "r04-analysis/hush-rtl/build-01/compile.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "r04-analysis/hush-rtl/build-01/compile.stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "r04-analysis/hush-rtl/build-01/CONTROL_TICKS.csv": {
+      "bytes": 2639435,
+      "sha256": "01258890769680d3260fa9a8371b19387b7297803c018973ae5f6c503195129b"
+    },
+    "r04-analysis/hush-rtl/build-01/DATA_TICKS.csv": {
+      "bytes": 8400475,
+      "sha256": "2b19f1a050b6224fe89eec92dfc64c36d404b36af598a724f5945370c82f207d"
+    },
+    "r04-analysis/hush-rtl/build-01/driver.cpp": {
+      "bytes": 10153,
+      "sha256": "b065b70750a0fd5a834cfd60304ffb170bb1de16d0b46be07967dde3e1753d05"
+    },
+    "r04-analysis/hush-rtl/build-01/netlist.cpp": {
+      "bytes": 96289,
+      "sha256": "b41df947e115fbe3502773c81e9993e6dafeb07db3e459cea91f01a586beed2f"
+    },
+    "r04-analysis/hush-rtl/build-01/POLICY_CHECKS.csv": {
+      "bytes": 2593183,
+      "sha256": "4bdeb599a28690077bf83b0815d1993c3269882f894ab2b072a70ab3b8c6bd0d"
+    },
+    "r04-analysis/hush-rtl/build-01/PROTOCOL.json": {
+      "bytes": 4433,
+      "sha256": "2b01630e8cd2c70860dcd821052dc3a745a2d3b7ade8e2ec4745baf625ffcc33"
+    },
+    "r04-analysis/hush-rtl/build-01/receiver.v": {
+      "bytes": 6269,
+      "sha256": "378f441954505f614d17b9dab68596ef9284bbc1e62667843f8c09958436be53"
+    },
+    "r04-analysis/hush-rtl/build-01/RTL_RESULTS.json": {
+      "bytes": 660,
+      "sha256": "314f49d0e41cbbe2357a8e3bd27f0d96e4553696b608a6ee230d4c251e8a8e5e"
+    },
+    "r04-analysis/hush-rtl/build-01/run_build.py": {
+      "bytes": 2554,
+      "sha256": "758ead9072899d5b92a62fb781e7a3570294c7a2c4cdb1e3214b97c851114114"
+    },
+    "r04-analysis/hush-rtl/build-01/simulate.exe": {
+      "bytes": 887808,
+      "sha256": "8cab6b003e2938078a8481526f1076d8eeb6ed51573ffee2137b4de6f011acd8"
+    },
+    "r04-analysis/hush-rtl/build-01/simulate.pdb": {
+      "bytes": 6840320,
+      "sha256": "33d7847f4ae39302cf3148f334645146d40d9e33884a1de05eec68650993de18"
+    },
+    "r04-analysis/hush-rtl/build-01/simulation.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "r04-analysis/hush-rtl/build-01/simulation.stdout.log": {
+      "bytes": 67,
+      "sha256": "59e0065a6dc1f4a20c71e48fa822fd75d70a18ee8ca93974b818366a3012e3fa"
+    },
+    "r04-analysis/hush-rtl/build-01/synthesis.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "r04-analysis/hush-rtl/build-01/synthesis.stdout.log": {
+      "bytes": 86134,
+      "sha256": "665682e515000533414b4695309e95ce509fc83bf4d94bd53427918343a6e541"
+    },
+    "r04-analysis/hush-rtl/build-01/yosys_version.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "r04-analysis/hush-rtl/build-01/yosys_version.stdout.log": {
+      "bytes": 138,
+      "sha256": "38a532d8df1ce48a5f73839ee4209517c168ea959ffd07c7b793f315a016430c"
+    },
+    "r04-analysis/hush-rtl/driver.cpp": {
+      "bytes": 10153,
+      "sha256": "b065b70750a0fd5a834cfd60304ffb170bb1de16d0b46be07967dde3e1753d05"
+    },
+    "r04-analysis/hush-rtl/failure-01-generator-path/FAILURE.md": {
+      "bytes": 586,
+      "sha256": "a2a517008656f46e7f097178c494315d747d97681263a7018b022c56db024678"
+    },
+    "r04-analysis/hush-rtl/failure-01-generator-path/generate_vectors.py": {
+      "bytes": 3843,
+      "sha256": "7387d9c6365385ddc8c4b2ee5554792395270e8725e97b9690618117cb7164a0"
+    },
+    "r04-analysis/hush-rtl/finalize_evidence.py": {
+      "bytes": 2496,
+      "sha256": "52b7c63d14fd753f5b85753dbfddd500c5146dbaa4d6043184ffacb653062acf"
+    },
+    "r04-analysis/hush-rtl/generate_vectors.py": {
+      "bytes": 3860,
+      "sha256": "0920478a7ec0d99bc2b4b1a33252d30bd1e8eafba1119189b57027a90518076f"
+    },
+    "r04-analysis/hush-rtl/independent/check_independent.py": {
+      "bytes": 31491,
+      "sha256": "ef59fe7d5f8c43c52216a0e374ac79f1db4a4221423d43a2d99e189ff17e77d2"
+    },
+    "r04-analysis/hush-rtl/independent/checker.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "r04-analysis/hush-rtl/independent/checker.stdout.log": {
+      "bytes": 1300,
+      "sha256": "9c88e181b4fb73e2ca04ca62329b181f6624860827d62adcd77899022646d480"
+    },
+    "r04-analysis/hush-rtl/independent/CHECKER_EXECUTION.json": {
+      "bytes": 425,
+      "sha256": "5abf98eead6581b2897e740dda8f2fa579d60f71b897daa9de8bdbd12a3810fc"
+    },
+    "r04-analysis/hush-rtl/independent/ENVIRONMENT.json": {
+      "bytes": 2350,
+      "sha256": "b4eb7a5830669178743fd1b5e6fde0e8d898408408f827ca3e2c7e110a487123"
+    },
+    "r04-analysis/hush-rtl/independent/finalize_independent.py": {
+      "bytes": 5234,
+      "sha256": "ab79911a1827dd4fbb04cc7badcae15f457205b8d94d2eed19e859aa3fcfda31"
+    },
+    "r04-analysis/hush-rtl/independent/fresh-replay-01/CASE_CHECKS.csv": {
+      "bytes": 5552,
+      "sha256": "e21c5a07a342ccf1a1ad9bf214d688c742d19a746e103ea37095b98c13290c47"
+    },
+    "r04-analysis/hush-rtl/independent/fresh-replay-01/compile.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "r04-analysis/hush-rtl/independent/fresh-replay-01/compile.stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "r04-analysis/hush-rtl/independent/fresh-replay-01/CONTROL_TICKS.csv": {
+      "bytes": 2639435,
+      "sha256": "01258890769680d3260fa9a8371b19387b7297803c018973ae5f6c503195129b"
+    },
+    "r04-analysis/hush-rtl/independent/fresh-replay-01/DATA_TICKS.csv": {
+      "bytes": 8400475,
+      "sha256": "2b19f1a050b6224fe89eec92dfc64c36d404b36af598a724f5945370c82f207d"
+    },
+    "r04-analysis/hush-rtl/independent/fresh-replay-01/driver.cpp": {
+      "bytes": 10153,
+      "sha256": "b065b70750a0fd5a834cfd60304ffb170bb1de16d0b46be07967dde3e1753d05"
+    },
+    "r04-analysis/hush-rtl/independent/fresh-replay-01/netlist.cpp": {
+      "bytes": 96289,
+      "sha256": "b41df947e115fbe3502773c81e9993e6dafeb07db3e459cea91f01a586beed2f"
+    },
+    "r04-analysis/hush-rtl/independent/fresh-replay-01/POLICY_CHECKS.csv": {
+      "bytes": 2593183,
+      "sha256": "4bdeb599a28690077bf83b0815d1993c3269882f894ab2b072a70ab3b8c6bd0d"
+    },
+    "r04-analysis/hush-rtl/independent/fresh-replay-01/PORTABLE_REPLAY.json": {
+      "bytes": 3971,
+      "sha256": "9bcc59c748f6752b6706c16cdf85fc625f415106a69e1871f68bbc1a82fbdc69"
+    },
+    "r04-analysis/hush-rtl/independent/fresh-replay-01/PROTOCOL.json": {
+      "bytes": 4433,
+      "sha256": "2b01630e8cd2c70860dcd821052dc3a745a2d3b7ade8e2ec4745baf625ffcc33"
+    },
+    "r04-analysis/hush-rtl/independent/fresh-replay-01/receiver.v": {
+      "bytes": 6269,
+      "sha256": "378f441954505f614d17b9dab68596ef9284bbc1e62667843f8c09958436be53"
+    },
+    "r04-analysis/hush-rtl/independent/fresh-replay-01/RTL_RESULTS.json": {
+      "bytes": 660,
+      "sha256": "314f49d0e41cbbe2357a8e3bd27f0d96e4553696b608a6ee230d4c251e8a8e5e"
+    },
+    "r04-analysis/hush-rtl/independent/fresh-replay-01/simulate.exe": {
+      "bytes": 887808,
+      "sha256": "8def58078f5b1e01f875d1ac11dcb1681196a2a059ace7cd63701257f9af84c9"
+    },
+    "r04-analysis/hush-rtl/independent/fresh-replay-01/simulate.pdb": {
+      "bytes": 6840320,
+      "sha256": "06482378fa811f29842c550e172ede0b1414c25bf6e7e0b8269258a9c45471c1"
+    },
+    "r04-analysis/hush-rtl/independent/fresh-replay-01/simulation.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "r04-analysis/hush-rtl/independent/fresh-replay-01/simulation.stdout.log": {
+      "bytes": 67,
+      "sha256": "59e0065a6dc1f4a20c71e48fa822fd75d70a18ee8ca93974b818366a3012e3fa"
+    },
+    "r04-analysis/hush-rtl/independent/fresh-replay-01/synthesis.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "r04-analysis/hush-rtl/independent/fresh-replay-01/synthesis.stdout.log": {
+      "bytes": 86134,
+      "sha256": "dc39a3248f888767eb50a28e7a2d8d6e384a07551dd232d121f6c0c12a92b755"
+    },
+    "r04-analysis/hush-rtl/independent/fresh-replay-01/vectors/controls.txt": {
+      "bytes": 1467281,
+      "sha256": "6460d89f7c2cdd9b019d98c1e106c0cae319c0fb443eefebceb32ea743eee52e"
+    },
+    "r04-analysis/hush-rtl/independent/fresh-replay-01/vectors/policies.txt": {
+      "bytes": 1672522,
+      "sha256": "0b7f45cac8d88e75df3fd2454813299eedfe3e69a823fe24acaf66dee4428506"
+    },
+    "r04-analysis/hush-rtl/independent/fresh-replay-01/vectors/VECTORS.json": {
+      "bytes": 2172,
+      "sha256": "7906e0508262755be28d804fbc906d33e165ab406ca15a2e9337d71b56824c24"
+    },
+    "r04-analysis/hush-rtl/independent/fresh-replay-01/vectors.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "r04-analysis/hush-rtl/independent/fresh-replay-01/vectors.stdout.log": {
+      "bytes": 2172,
+      "sha256": "7906e0508262755be28d804fbc906d33e165ab406ca15a2e9337d71b56824c24"
+    },
+    "r04-analysis/hush-rtl/independent/fresh-replay-01/yosys_version.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "r04-analysis/hush-rtl/independent/fresh-replay-01/yosys_version.stdout.log": {
+      "bytes": 138,
+      "sha256": "38a532d8df1ce48a5f73839ee4209517c168ea959ffd07c7b793f315a016430c"
+    },
+    "r04-analysis/hush-rtl/independent/INDEPENDENT_AUDIT.json": {
+      "bytes": 9083,
+      "sha256": "525fa289893cf7b6b99036082bd6cdae0ad42cd0ce2b169d404c5f6dc34d8946"
+    },
+    "r04-analysis/hush-rtl/independent/INDEPENDENT_AUDIT.md": {
+      "bytes": 11716,
+      "sha256": "166b3c17b4c3a35fde6da847b66109ee8446ae14cf9cc2d4522d0db68084d997"
+    },
+    "r04-analysis/hush-rtl/independent/MANIFEST_INDEPENDENT.json": {
+      "bytes": 20743,
+      "sha256": "b825eea513a33cc68d4c2bc064ffbf199eea431db3462a74ea98986d949467ea"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/01-decrement-before-WU/CASE_CHECKS.csv": {
+      "bytes": 5552,
+      "sha256": "e21c5a07a342ccf1a1ad9bf214d688c742d19a746e103ea37095b98c13290c47"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/01-decrement-before-WU/compile.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/01-decrement-before-WU/compile.stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/01-decrement-before-WU/CONTROL_TICKS.csv": {
+      "bytes": 2639435,
+      "sha256": "01258890769680d3260fa9a8371b19387b7297803c018973ae5f6c503195129b"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/01-decrement-before-WU/DATA_TICKS.csv": {
+      "bytes": 8400475,
+      "sha256": "c40b6cd984bf6d0b30e7cc4622120d68d3899dfc000318a3b232d3cf6fdbd9c3"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/01-decrement-before-WU/driver.cpp": {
+      "bytes": 10153,
+      "sha256": "b065b70750a0fd5a834cfd60304ffb170bb1de16d0b46be07967dde3e1753d05"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/01-decrement-before-WU/netlist.cpp": {
+      "bytes": 95748,
+      "sha256": "2102a0664ada18b63541d13009fe2fad24d8a01f353b35f5de6bd8251ee6139c"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/01-decrement-before-WU/POLICY_CHECKS.csv": {
+      "bytes": 219,
+      "sha256": "9158930e96a0949cd8e543f1e39a4f55363ae66523bad73ff77da466407df723"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/01-decrement-before-WU/receiver.v": {
+      "bytes": 6409,
+      "sha256": "23f8f339f0f3ac69183e013cbcc6a01f047d5519e276cdcaf77bc75740120d57"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/01-decrement-before-WU/simulate.exe": {
+      "bytes": 887808,
+      "sha256": "b99b6afd3b899eb393b8590985a0da720d12eafea3f6c4a62b12c746078e6e53"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/01-decrement-before-WU/simulate.pdb": {
+      "bytes": 6840320,
+      "sha256": "df860d1550690789ef0e73aa641056b13a76150faf43317a930c8e4e1c8d9c72"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/01-decrement-before-WU/simulation.stderr.log": {
+      "bytes": 58,
+      "sha256": "5fa25824af00eb92cd4d8e50a871f94ef87042df087fac1aff8ccfb46b7221b8"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/01-decrement-before-WU/simulation.stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/01-decrement-before-WU/SIMULATION_FAILURE.txt": {
+      "bytes": 58,
+      "sha256": "5fa25824af00eb92cd4d8e50a871f94ef87042df087fac1aff8ccfb46b7221b8"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/01-decrement-before-WU/synthesis.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/01-decrement-before-WU/synthesis.stdout.log": {
+      "bytes": 86452,
+      "sha256": "5e917d87572e2e6d16aed912f052a2bdb07d21c15f972e85acd42c90a42802d1"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/02-B-before-A/CASE_CHECKS.csv": {
+      "bytes": 91,
+      "sha256": "59a9cc0b5fad2018b6fcb970b9cad5c7662be4bc3d83799c109808742c96f123"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/02-B-before-A/compile.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/02-B-before-A/compile.stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/02-B-before-A/CONTROL_TICKS.csv": {
+      "bytes": 459,
+      "sha256": "5d0db19a28e4e3ee2cb45c5179c93ab7b5e5b9fcc71a09defdbee67c0f8f2893"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/02-B-before-A/DATA_TICKS.csv": {
+      "bytes": 459,
+      "sha256": "5d0db19a28e4e3ee2cb45c5179c93ab7b5e5b9fcc71a09defdbee67c0f8f2893"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/02-B-before-A/driver.cpp": {
+      "bytes": 10153,
+      "sha256": "b065b70750a0fd5a834cfd60304ffb170bb1de16d0b46be07967dde3e1753d05"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/02-B-before-A/netlist.cpp": {
+      "bytes": 96289,
+      "sha256": "41368a4e5e667af0830552eb9c8e071abad24f8df79a15a9cdd4d7c6480bb3ea"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/02-B-before-A/POLICY_CHECKS.csv": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/02-B-before-A/receiver.v": {
+      "bytes": 6409,
+      "sha256": "bc46dfef046ca86e2d9e30b78a176a8cf4d3668acc01adf2ac06f69f345f453e"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/02-B-before-A/simulate.exe": {
+      "bytes": 887808,
+      "sha256": "910e5dcb846358662dff222ec019c20ae99ec1d342f1aae72509e4137a62a184"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/02-B-before-A/simulate.pdb": {
+      "bytes": 6840320,
+      "sha256": "64489ff0370bfef34946c4478822d76b3fdc2f56739179f233d6ae96971a4697"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/02-B-before-A/simulation.stderr.log": {
+      "bytes": 92,
+      "sha256": "55c21eed66aded973de7f2f4434dec888f3369a8ecd92ec6036450650e821acd"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/02-B-before-A/simulation.stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/02-B-before-A/SIMULATION_FAILURE.txt": {
+      "bytes": 92,
+      "sha256": "55c21eed66aded973de7f2f4434dec888f3369a8ecd92ec6036450650e821acd"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/02-B-before-A/synthesis.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/02-B-before-A/synthesis.stdout.log": {
+      "bytes": 86134,
+      "sha256": "df43f787bd4f3841e47891d495be951e8bf37b55111f0507dcd528ac56ddce9f"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/03-missing-cancel-enable/CASE_CHECKS.csv": {
+      "bytes": 1340,
+      "sha256": "cb166c4483d56f8beb8954b62661d70b0817fd5f0da4834cb92e0e22606c68aa"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/03-missing-cancel-enable/compile.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/03-missing-cancel-enable/compile.stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/03-missing-cancel-enable/CONTROL_TICKS.csv": {
+      "bytes": 2639435,
+      "sha256": "01258890769680d3260fa9a8371b19387b7297803c018973ae5f6c503195129b"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/03-missing-cancel-enable/DATA_TICKS.csv": {
+      "bytes": 1117,
+      "sha256": "9d2c30be457397462b63d41ca12ee3fda053d378750043c5b477feed9a31bd80"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/03-missing-cancel-enable/driver.cpp": {
+      "bytes": 10153,
+      "sha256": "b065b70750a0fd5a834cfd60304ffb170bb1de16d0b46be07967dde3e1753d05"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/03-missing-cancel-enable/netlist.cpp": {
+      "bytes": 96355,
+      "sha256": "f363ba08f1d210b49c7d11dccf4aa6bd5a08df2724c3cc70a6ac4edc303d8fad"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/03-missing-cancel-enable/POLICY_CHECKS.csv": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/03-missing-cancel-enable/receiver.v": {
+      "bytes": 6390,
+      "sha256": "28453dfaa017a66235728a7e0eaa0c436440b9f8e2381a2a879a9eca1a9c2a0f"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/03-missing-cancel-enable/simulate.exe": {
+      "bytes": 888320,
+      "sha256": "3e93ece938bb61b36714d0636933b7cc0ff69f8d7812cd9c58d24a26e0c41f84"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/03-missing-cancel-enable/simulate.pdb": {
+      "bytes": 6856704,
+      "sha256": "e5a211f400f27e339958380e148de587872923b7ea4b817c56c47fa266f913b3"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/03-missing-cancel-enable/simulation.stderr.log": {
+      "bytes": 78,
+      "sha256": "dcb3f950b38554223c182f163873bf42604303739399716ef1b1fe371e1e8e2f"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/03-missing-cancel-enable/simulation.stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/03-missing-cancel-enable/SIMULATION_FAILURE.txt": {
+      "bytes": 78,
+      "sha256": "dcb3f950b38554223c182f163873bf42604303739399716ef1b1fe371e1e8e2f"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/03-missing-cancel-enable/synthesis.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/03-missing-cancel-enable/synthesis.stdout.log": {
+      "bytes": 85080,
+      "sha256": "fd2c65ec18b0f0632b6dbee3b5f4b01ae6cf52ff7c04223bc9175572b2ea3de7"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/04-live-data-emission/CASE_CHECKS.csv": {
+      "bytes": 2744,
+      "sha256": "e4f4ec96ff62f4cdf440627ac443cb4013d5c60062f2eb318fdc1e2c56268e0e"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/04-live-data-emission/compile.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/04-live-data-emission/compile.stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/04-live-data-emission/CONTROL_TICKS.csv": {
+      "bytes": 2639435,
+      "sha256": "01258890769680d3260fa9a8371b19387b7297803c018973ae5f6c503195129b"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/04-live-data-emission/DATA_TICKS.csv": {
+      "bytes": 2639657,
+      "sha256": "5c8d3a8cc70ba9dc32b7ab4685202dc3c9773ef6e43a4b303cd38832c228c68b"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/04-live-data-emission/driver.cpp": {
+      "bytes": 10153,
+      "sha256": "b065b70750a0fd5a834cfd60304ffb170bb1de16d0b46be07967dde3e1753d05"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/04-live-data-emission/netlist.cpp": {
+      "bytes": 96378,
+      "sha256": "ca64d9f08a3f486a5185405e075c02ca5a69f06d35f424198a28ec2daa709b18"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/04-live-data-emission/POLICY_CHECKS.csv": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/04-live-data-emission/receiver.v": {
+      "bytes": 6422,
+      "sha256": "06aeec821e4fd6c1cea4e6fe65b8da5cea3569700c84ea2ea9259e44017d2682"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/04-live-data-emission/simulate.exe": {
+      "bytes": 887808,
+      "sha256": "dd5a3b55eabea1bdc0f4a0cf46a28e380a196ab0922591df0fe5d690edce2faf"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/04-live-data-emission/simulate.pdb": {
+      "bytes": 6840320,
+      "sha256": "e40936630b40f1492e3160f2300fca66de7b29e55c448601d56cd22f4a514501"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/04-live-data-emission/simulation.stderr.log": {
+      "bytes": 63,
+      "sha256": "97d810e6cacbf6a0c41a5878997e07e03c9a29a913877cc488412f4abf18e1fb"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/04-live-data-emission/simulation.stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/04-live-data-emission/SIMULATION_FAILURE.txt": {
+      "bytes": 63,
+      "sha256": "97d810e6cacbf6a0c41a5878997e07e03c9a29a913877cc488412f4abf18e1fb"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/04-live-data-emission/synthesis.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/04-live-data-emission/synthesis.stdout.log": {
+      "bytes": 86134,
+      "sha256": "132b741d2a71cd0f992237113e9ce56cc174dc4bb28e952d19c83b38e09faa11"
+    },
+    "r04-analysis/hush-rtl/independent/mutation-tests-01/MUTATION_RESULTS.json": {
+      "bytes": 9481,
+      "sha256": "34bb36a68173ccb6c132bf8cb6ae381b50a6486b97b3dd4ee6223e50983bec4f"
+    },
+    "r04-analysis/hush-rtl/independent/mutation_sensitivity.py": {
+      "bytes": 3800,
+      "sha256": "e5cee48d99a87ba71fb079c83eef8b481891af16bab3adcdbf99eec733fd7b14"
+    },
+    "r04-analysis/hush-rtl/independent/PAPER_READY_FACTS.json": {
+      "bytes": 4792,
+      "sha256": "8dc34a598cf71d005050a9a05a5d54e6f4725f594635572e0f0a62a0a98ec96d"
+    },
+    "r04-analysis/hush-rtl/independent/PAPER_READY_FACTS.md": {
+      "bytes": 3070,
+      "sha256": "3c9c96169fb3ff036ff9506149b63483b26aade92f4d618a78bd441907453c18"
+    },
+    "r04-analysis/hush-rtl/independent/portable-source/driver.cpp": {
+      "bytes": 10153,
+      "sha256": "b065b70750a0fd5a834cfd60304ffb170bb1de16d0b46be07967dde3e1753d05"
+    },
+    "r04-analysis/hush-rtl/independent/portable-source/generate_vectors.py": {
+      "bytes": 3860,
+      "sha256": "0920478a7ec0d99bc2b4b1a33252d30bd1e8eafba1119189b57027a90518076f"
+    },
+    "r04-analysis/hush-rtl/independent/portable-source/MANIFEST.json": {
+      "bytes": 7151,
+      "sha256": "d001db0b4eb7c44cc82c8dd1fb9e10753b368225a5083b3794d2d748d68df7a4"
+    },
+    "r04-analysis/hush-rtl/independent/portable-source/PAPER_READY.md": {
+      "bytes": 2136,
+      "sha256": "abc520f45d12b693ab12f0facb3381e2b381a687f280aace89c68c30025856c8"
+    },
+    "r04-analysis/hush-rtl/independent/portable-source/PROTOCOL.json": {
+      "bytes": 4433,
+      "sha256": "2b01630e8cd2c70860dcd821052dc3a745a2d3b7ade8e2ec4745baf625ffcc33"
+    },
+    "r04-analysis/hush-rtl/independent/portable-source/README.md": {
+      "bytes": 6072,
+      "sha256": "2d101db9c1b38d4612fef1d80c7632d6a6f6b867218d03d08ccfa6da2773b339"
+    },
+    "r04-analysis/hush-rtl/independent/portable-source/receiver.v": {
+      "bytes": 6269,
+      "sha256": "378f441954505f614d17b9dab68596ef9284bbc1e62667843f8c09958436be53"
+    },
+    "r04-analysis/hush-rtl/independent/portable-source/reference-inputs/ALL_NEGATIVE_FIRST_FAILURES.jsonl.gz": {
+      "bytes": 104846,
+      "sha256": "629a4c8b278486577a58dd4f2ffd3aa73673883a8b8ed829ad115621e0d32bd3"
+    },
+    "r04-analysis/hush-rtl/independent/portable-source/reference-inputs/ALL_PHASE_BASES.jsonl.gz": {
+      "bytes": 32414,
+      "sha256": "d280587e4c5f270992d57ec4925429f03dda66a1ab137a1ce047511dd3cf1c94"
+    },
+    "r04-analysis/hush-rtl/independent/portable-source/reference-inputs/INDEPENDENT_VALIDATION.json": {
+      "bytes": 1619,
+      "sha256": "d018b47d5dec68e2b02484ac3dd22ff7688ef599da21e0acbd2444940bba9fef"
+    },
+    "r04-analysis/hush-rtl/independent/portable-source/reference-inputs/PROTOCOL.json": {
+      "bytes": 5923,
+      "sha256": "536a35c9d37ca727028609c8a742fb9454b6942fb64d5b1d8e2640de807dcaba"
+    },
+    "r04-analysis/hush-rtl/independent/portable-source/reference-inputs/RELATIONS.json": {
+      "bytes": 438727,
+      "sha256": "f77704f0329c79babe82afbe56dbfce7e2ea7bd219e8299ae3332a9017487a47"
+    },
+    "r04-analysis/hush-rtl/independent/portable-source/reference-inputs/TRACES.jsonl.gz": {
+      "bytes": 151926,
+      "sha256": "a065d52d29ac59d892a5f2bf8f90b43b6c4b35eb653dea2bb4ad3fd5520d1c76"
+    },
+    "r04-analysis/hush-rtl/independent/portable-source/REFERENCE_INPUTS.json": {
+      "bytes": 1660,
+      "sha256": "75dd96804f374b289797da03b69e94c8946a689ae24ec492f85c8058eeefef31"
+    },
+    "r04-analysis/hush-rtl/independent/portable-source/replay_portable.py": {
+      "bytes": 2639,
+      "sha256": "f035b87201f0da19eacb782b537eef978865eb4ac49ae68071dc1da809d012a6"
+    },
+    "r04-analysis/hush-rtl/independent/portable-source/TOOL_HASHES.json": {
+      "bytes": 1116,
+      "sha256": "e4eeacddce1250d377cd6eba58d9f86b571a2d7c59439cd9a0184142d1ad7a69"
+    },
+    "r04-analysis/hush-rtl/independent/portable-source/TOOLCHAIN_SOURCES.md": {
+      "bytes": 1405,
+      "sha256": "811ff5a52e44ae541063dbb5ea744535da890426fae76b02bbbd250d88024282"
+    },
+    "r04-analysis/hush-rtl/independent/zig-version.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "r04-analysis/hush-rtl/independent/zig-version.stdout.log": {
+      "bytes": 8,
+      "sha256": "21b8abaa6293c32a0e5d69083c162f77c1ee85671dcdfad8e90fd7e0cfa7de3f"
+    },
+    "r04-analysis/hush-rtl/MANIFEST.json": {
+      "bytes": 7151,
+      "sha256": "d001db0b4eb7c44cc82c8dd1fb9e10753b368225a5083b3794d2d748d68df7a4"
+    },
+    "r04-analysis/hush-rtl/PAPER_READY.md": {
+      "bytes": 2136,
+      "sha256": "abc520f45d12b693ab12f0facb3381e2b381a687f280aace89c68c30025856c8"
+    },
+    "r04-analysis/hush-rtl/PROTOCOL.json": {
+      "bytes": 4433,
+      "sha256": "2b01630e8cd2c70860dcd821052dc3a745a2d3b7ade8e2ec4745baf625ffcc33"
+    },
+    "r04-analysis/hush-rtl/README.md": {
+      "bytes": 6072,
+      "sha256": "2d101db9c1b38d4612fef1d80c7632d6a6f6b867218d03d08ccfa6da2773b339"
+    },
+    "r04-analysis/hush-rtl/receiver.v": {
+      "bytes": 6269,
+      "sha256": "378f441954505f614d17b9dab68596ef9284bbc1e62667843f8c09958436be53"
+    },
+    "r04-analysis/hush-rtl/reference-inputs/ALL_NEGATIVE_FIRST_FAILURES.jsonl.gz": {
+      "bytes": 104846,
+      "sha256": "629a4c8b278486577a58dd4f2ffd3aa73673883a8b8ed829ad115621e0d32bd3"
+    },
+    "r04-analysis/hush-rtl/reference-inputs/ALL_PHASE_BASES.jsonl.gz": {
+      "bytes": 32414,
+      "sha256": "d280587e4c5f270992d57ec4925429f03dda66a1ab137a1ce047511dd3cf1c94"
+    },
+    "r04-analysis/hush-rtl/reference-inputs/INDEPENDENT_VALIDATION.json": {
+      "bytes": 1619,
+      "sha256": "d018b47d5dec68e2b02484ac3dd22ff7688ef599da21e0acbd2444940bba9fef"
+    },
+    "r04-analysis/hush-rtl/reference-inputs/PROTOCOL.json": {
+      "bytes": 5923,
+      "sha256": "536a35c9d37ca727028609c8a742fb9454b6942fb64d5b1d8e2640de807dcaba"
+    },
+    "r04-analysis/hush-rtl/reference-inputs/RELATIONS.json": {
+      "bytes": 438727,
+      "sha256": "f77704f0329c79babe82afbe56dbfce7e2ea7bd219e8299ae3332a9017487a47"
+    },
+    "r04-analysis/hush-rtl/reference-inputs/TRACES.jsonl.gz": {
+      "bytes": 151926,
+      "sha256": "a065d52d29ac59d892a5f2bf8f90b43b6c4b35eb653dea2bb4ad3fd5520d1c76"
+    },
+    "r04-analysis/hush-rtl/REFERENCE_INPUTS.json": {
+      "bytes": 1660,
+      "sha256": "75dd96804f374b289797da03b69e94c8946a689ae24ec492f85c8058eeefef31"
+    },
+    "r04-analysis/hush-rtl/replay_portable.py": {
+      "bytes": 2639,
+      "sha256": "f035b87201f0da19eacb782b537eef978865eb4ac49ae68071dc1da809d012a6"
+    },
+    "r04-analysis/hush-rtl/run_build.py": {
+      "bytes": 2554,
+      "sha256": "758ead9072899d5b92a62fb781e7a3570294c7a2c4cdb1e3214b97c851114114"
+    },
+    "r04-analysis/hush-rtl/TOOL_HASHES.json": {
+      "bytes": 1116,
+      "sha256": "e4eeacddce1250d377cd6eba58d9f86b571a2d7c59439cd9a0184142d1ad7a69"
+    },
+    "r04-analysis/hush-rtl/TOOLCHAIN_SOURCES.md": {
+      "bytes": 1405,
+      "sha256": "811ff5a52e44ae541063dbb5ea744535da890426fae76b02bbbd250d88024282"
+    },
+    "r04-analysis/hush-rtl/vectors-v2/controls.txt": {
+      "bytes": 1467281,
+      "sha256": "6460d89f7c2cdd9b019d98c1e106c0cae319c0fb443eefebceb32ea743eee52e"
+    },
+    "r04-analysis/hush-rtl/vectors-v2/policies.txt": {
+      "bytes": 1672522,
+      "sha256": "0b7f45cac8d88e75df3fd2454813299eedfe3e69a823fe24acaf66dee4428506"
+    },
+    "r04-analysis/hush-rtl/vectors-v2/VECTORS.json": {
+      "bytes": 2172,
+      "sha256": "7906e0508262755be28d804fbc906d33e165ab406ca15a2e9337d71b56824c24"
+    },
+    "r04-analysis/hush-rtl/zig-version.log": {
+      "bytes": 8,
+      "sha256": "21b8abaa6293c32a0e5d69083c162f77c1ee85671dcdfad8e90fd7e0cfa7de3f"
+    },
+    "r04-analysis/hush-tuning-bytes/ALL_QUERY_DERIVATIONS.jsonl.gz": {
+      "bytes": 155237,
+      "sha256": "97d27b9faba985680baacbaea1b3a9e15e512982056a61ca5be20c5acabc842f"
+    },
+    "r04-analysis/hush-tuning-bytes/analyze.py": {
+      "bytes": 21082,
+      "sha256": "ec700fdc1472cb7d6224f36c37734ed4d8181ef80fbaebdbdea1bcd821b8e9b4"
+    },
+    "r04-analysis/hush-tuning-bytes/decoder.py": {
+      "bytes": 3403,
+      "sha256": "6388849e16a06f36d5505e2b4be86a721b210249157b1be6402a80c5e729daa1"
+    },
+    "r04-analysis/hush-tuning-bytes/encoder.py": {
+      "bytes": 1259,
+      "sha256": "bc5d4c649c7c8ee9a289960459109c00e2e63b3ca6f19b18cb23248700fe6905"
+    },
+    "r04-analysis/hush-tuning-bytes/independent/check_independent.py": {
+      "bytes": 34555,
+      "sha256": "a83cd3e89948b007bf5cc0b83bf7840ff40d85654895a75b061d8c4c2fbf2121"
+    },
+    "r04-analysis/hush-tuning-bytes/independent/INDEPENDENT_AUDIT.json": {
+      "bytes": 19828,
+      "sha256": "5f10afb320703903df844dae4df763fb487cf65e5549dccfeb9361600e46524e"
+    },
+    "r04-analysis/hush-tuning-bytes/independent/INDEPENDENT_AUDIT.md": {
+      "bytes": 7226,
+      "sha256": "590fd35d96d37df05633497340da9efa731c21d22315b79bf677729a53cd7195"
+    },
+    "r04-analysis/hush-tuning-bytes/independent/INDEPENDENT_PER_CONTROLLER.json": {
+      "bytes": 212042,
+      "sha256": "6cd32a32e2d6b2d7c4b336f3af6187042d46b2a8089751fdf191e385d5488c57"
+    },
+    "r04-analysis/hush-tuning-bytes/independent/INITIAL_STRICT_FLOAT_COMPARISON.json": {
+      "bytes": 12441,
+      "sha256": "621899a0ad6a72fa7e79d4e4e387356799b84b09df677233c88bccc1c8b5fa30"
+    },
+    "r04-analysis/hush-tuning-bytes/independent/make_independent_manifest.py": {
+      "bytes": 1031,
+      "sha256": "8c58a0326aac3b593bc2940dd966b730b47e4591d0918c7012432deeaaed1bf9"
+    },
+    "r04-analysis/hush-tuning-bytes/independent/MANIFEST.json": {
+      "bytes": 1676,
+      "sha256": "375f321d392fa2cac6275491c0d2da741722f8c957adcc18b256bc1852f05dfd"
+    },
+    "r04-analysis/hush-tuning-bytes/independent/PAPER_READY_FACTS.md": {
+      "bytes": 4080,
+      "sha256": "eac49b577d208f9e13a09f57eb44a3047444acd9c51854c18ab6b7ac955353e0"
+    },
+    "r04-analysis/hush-tuning-bytes/make_manifest.py": {
+      "bytes": 1783,
+      "sha256": "1aa871ae8cb8158e86a538f3f844c69fca21df356aa6e1a207de4c85942d7b23"
+    },
+    "r04-analysis/hush-tuning-bytes/MANIFEST.json": {
+      "bytes": 16287,
+      "sha256": "bdbd1c83cd026328da80bcec3447c432ea586bfcad9440cbb4da025ae4694b04"
+    },
+    "r04-analysis/hush-tuning-bytes/PAIR_DECOMPOSITION.json": {
+      "bytes": 284220,
+      "sha256": "43a591a4df47f385a3c2eed0e983c04ac6a4b3579345f35559f7b205b0293b6d"
+    },
+    "r04-analysis/hush-tuning-bytes/PAPER_READY.md": {
+      "bytes": 4553,
+      "sha256": "e6dbbe07b6b567b30eda5a9e7594339c171239b6e8130c48dbc3a9e9b5a4069e"
+    },
+    "r04-analysis/hush-tuning-bytes/PER_CONTROLLER_STATS.csv": {
+      "bytes": 2510,
+      "sha256": "010736dd9d11f055f42205a6a864d963af8fb7e279dddcab38bc6623ed6ded8f"
+    },
+    "r04-analysis/hush-tuning-bytes/PRECOMPUTATION_INPUT_BINDING.json": {
+      "bytes": 1636,
+      "sha256": "bd2dc040338a26fab694af08328ac2f3d2c4659647a4dd41645d9967bac23c53"
+    },
+    "r04-analysis/hush-tuning-bytes/PROTOCOL.json": {
+      "bytes": 3008,
+      "sha256": "7faaefd70844803d59e784ddd697d9267309b81139283119c340538f05b8112d"
+    },
+    "r04-analysis/hush-tuning-bytes/README.md": {
+      "bytes": 5748,
+      "sha256": "1df8dc769e25b183819e4b1e1c1911d0ae1bd6e1f9d2aa49a954d083f8a5e79b"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p2_b0_r3.full.bin": {
+      "bytes": 912,
+      "sha256": "999485d7ebd5b9385e0da0953bb395d630db1c1b56421444eca26b2f9b34d731"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p2_b0_r3.prospective.bin": {
+      "bytes": 624,
+      "sha256": "59de37547296d384219dcd6e152bf3d16ddce7a11d495363f98729021a7312d1"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p2_b0_r5.full.bin": {
+      "bytes": 680,
+      "sha256": "9705c8ad391f888c37b5d2e8b1678b6aa732682aef27f4de423f4fe9c4ba2011"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p2_b0_r5.prospective.bin": {
+      "bytes": 680,
+      "sha256": "5f6028127ac8a4fbd6ecacdd51178708bb9dffe991f5ad3bb558ec9b7f44be9a"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p2_b1_r3.full.bin": {
+      "bytes": 1248,
+      "sha256": "e0aaa514ec43f9b5c64ee7ee99dbb168bb342a7ce415529d5e7472a389f12090"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p2_b1_r3.prospective.bin": {
+      "bytes": 960,
+      "sha256": "1c779e6e4fc236f2070d9197844c0a57b1e5482542fd18ba39db52ebecc43d98"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p2_b1_r5.full.bin": {
+      "bytes": 680,
+      "sha256": "c1ed8e905e02dc86227c717e8f0e1c7fc114508f0fa79173d108e34523559bd4"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p2_b1_r5.prospective.bin": {
+      "bytes": 680,
+      "sha256": "cb52582e656fde77b2e1c90d7acdb279ab04c0b9fe1801962bc4cedc84f936c9"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p3_b0_r3.full.bin": {
+      "bytes": 1080,
+      "sha256": "dc899ad66029f4d9a3c54f76c29c0ac965cf31b3798780e43c59629a45ed010f"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p3_b0_r3.prospective.bin": {
+      "bytes": 1080,
+      "sha256": "3e840ac328fa426e331af65a56537d7306772ae9d01d39c5627d907e5a507f82"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p3_b0_r5.full.bin": {
+      "bytes": 840,
+      "sha256": "1dae8a652abe99af2200f4a2ba4754bee309efa1d129de75d6698313c01bf769"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p3_b0_r5.prospective.bin": {
+      "bytes": 840,
+      "sha256": "5efbf9c7320723207e2199545d5b78413d656480e98ed60d94537195d60980f0"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p3_b1_r3.full.bin": {
+      "bytes": 1080,
+      "sha256": "63540655854b7d9d417358c4dcf40f1c606a07332ae84a8bbc7bce3f15e01695"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p3_b1_r3.prospective.bin": {
+      "bytes": 1080,
+      "sha256": "5c56fcd43091c92f0c51927f11a1331415d519a7ef064d8b6430af4c75a8268e"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p3_b1_r5.full.bin": {
+      "bytes": 640,
+      "sha256": "47e15eca05efe3276d2eed00bef6c03ac289950b8d6e30645c33d74cdd2f7d4a"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p3_b1_r5.prospective.bin": {
+      "bytes": 640,
+      "sha256": "a75cc161566519249a34c3b09fb89ffd3b71cef265f51af2f07106dd34651fa3"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p3_b2_r3.full.bin": {
+      "bytes": 1128,
+      "sha256": "e3b04b15f4ae3b421cb62cb805a4b6f3814b5674c1df17f951241d8b4d63b6b1"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p3_b2_r3.prospective.bin": {
+      "bytes": 1128,
+      "sha256": "97512181a5e48c660e59b75bc42a7d02be91cd04deddac9f161880fe3b132c72"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p3_b2_r5.full.bin": {
+      "bytes": 640,
+      "sha256": "19d74b19d0703d892e7b423ebc356b2f0d69e3206e7e610e287ea646ecc4b767"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p3_b2_r5.prospective.bin": {
+      "bytes": 640,
+      "sha256": "dfd77578691e7b2055c1bd12403d76dbc63b724fe02533352694570a7f5a7e40"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p4_b0_r3.full.bin": {
+      "bytes": 864,
+      "sha256": "823fed8d111f4851dbadbdbf0fb15e7c3ea546dc033a2cc79e141c0d6a046a5d"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p4_b0_r3.prospective.bin": {
+      "bytes": 864,
+      "sha256": "1e744d5797d832618bbd730f6717ca294ef002f031a591d035a269549af155f5"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p4_b0_r5.full.bin": {
+      "bytes": 680,
+      "sha256": "a086d69febea914a2d3a1acdab52ac8dc79ec981011f2911add004cdfaa1bd8d"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p4_b0_r5.prospective.bin": {
+      "bytes": 680,
+      "sha256": "6039e137db63e03750c83addf43ba1680328de8ba5a532cf0388cbc33c9a74b7"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p4_b1_r3.full.bin": {
+      "bytes": 864,
+      "sha256": "023cf31dfa68aaaeb97129da6ff485d4e34df8b42c9fc97f8095563a213abf26"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p4_b1_r3.prospective.bin": {
+      "bytes": 864,
+      "sha256": "7abb706b321dfbc1fbbeaa21e2295f22d42d58acbff4409b739f61eb60152f38"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p4_b1_r5.full.bin": {
+      "bytes": 800,
+      "sha256": "c9ab376e3bed57260353cf26e732d54081688a9f6c3c9defdaa7d7bac2ff82f8"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p4_b1_r5.prospective.bin": {
+      "bytes": 800,
+      "sha256": "95a082e23949c0e37be772d8885c0ad841c1699117c6960aab408eb40eb8b6f2"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p4_b2_r3.full.bin": {
+      "bytes": 624,
+      "sha256": "15bb9c0a0fae9ab7b4ad3299867c08e32f515ba74588134352df5144579eb7ba"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p4_b2_r3.prospective.bin": {
+      "bytes": 624,
+      "sha256": "bf4bc5eb935726a95eaa7356f251396bf01034ad824d65851d36cb46cbd02301"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p4_b2_r5.full.bin": {
+      "bytes": 920,
+      "sha256": "a992d36e7ac3fc10d6f0d564e4b16482f54fdcfae7c7a27dc397da3b914effda"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p4_b2_r5.prospective.bin": {
+      "bytes": 920,
+      "sha256": "e7da880e555acb6268e089748f1aef00f503998ba7f0d14f9e0674be17d162ce"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p4_b3_r3.full.bin": {
+      "bytes": 720,
+      "sha256": "edd943feebdf391f756230c403e315668c0693a49c34b3919dcbca6043c76c82"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p4_b3_r3.prospective.bin": {
+      "bytes": 720,
+      "sha256": "ad2591936896c469a83a66d68ec158eae13a3641ea76beb04e06e2facf967c4a"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p4_b3_r5.full.bin": {
+      "bytes": 488,
+      "sha256": "4493fbc1b6ee8e32f073c7d4fe8de0208009e65799e5bc8608886ccbcc6e98ff"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p4_b3_r5.prospective.bin": {
+      "bytes": 488,
+      "sha256": "394b0e78147d09106fa951504506370e9899d08ba33633aec8634c7a73a12670"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p5_b0_r3.full.bin": {
+      "bytes": 744,
+      "sha256": "36ea3edced55db3af4772ade6a27256a6f160f9178cf8ff9a6f5e85f09d63021"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p5_b0_r3.prospective.bin": {
+      "bytes": 744,
+      "sha256": "c8b3a48e60f7c6a7cf1d54e28e7bc56a2decb08cd4b78fce501ccf1b1291b971"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p5_b0_r5.full.bin": {
+      "bytes": 1704,
+      "sha256": "10bc338b64865b26c0f162c1c36f3a38b32108a4969c26e0cffc31e536370323"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p5_b0_r5.prospective.bin": {
+      "bytes": 1192,
+      "sha256": "965daedb7b1dfa76455666ab3684ee5ec5e860220b021f844a15330e4e9bf241"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p5_b1_r3.full.bin": {
+      "bytes": 744,
+      "sha256": "4873ac7746886cf802afa1dd84c0631f55fb1bf68ce2104d4adb361a769f23c9"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p5_b1_r3.prospective.bin": {
+      "bytes": 744,
+      "sha256": "d63c8ff0cb4784ae1b9714f085be0ddbc3df7044878ccdaa9a632dcb7696f66c"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p5_b1_r5.full.bin": {
+      "bytes": 1944,
+      "sha256": "f4ed1a188aec8c70d0da3c912de19076972e4e03c061545493fd42f965099f62"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p5_b1_r5.prospective.bin": {
+      "bytes": 1432,
+      "sha256": "95c05cd472d322441fc66783d3df9bfb9d308f3f410d572fbceff46b4775c218"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p5_b2_r3.full.bin": {
+      "bytes": 888,
+      "sha256": "728a1771355c1c053e4171bbbbe581cab8b4602bb07d152dee6e5f277769ea92"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p5_b2_r3.prospective.bin": {
+      "bytes": 888,
+      "sha256": "c786ee106c7565968a84fc88be8c88e535c77a5f0ca8bd8cb7aba93e1f08a770"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p5_b2_r5.full.bin": {
+      "bytes": 1080,
+      "sha256": "6a5e0622d3cc043f6a643290cb956ccf99bcd587013df9561af4ad1ae22aa015"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p5_b2_r5.prospective.bin": {
+      "bytes": 568,
+      "sha256": "76b5aa4f7760ebe312c8790eddd148d67c6c6bf52eb9415d185db86c694bfa80"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p5_b3_r3.full.bin": {
+      "bytes": 1104,
+      "sha256": "92dad5fa480f542a7512b27b873e65945ee4932f7bde15cf91a485130baa8fa2"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p5_b3_r3.prospective.bin": {
+      "bytes": 1104,
+      "sha256": "8c9282952aa8412bc5d952fc8e415add7cc7d0594302b3cd0837dce5a6954269"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p5_b3_r5.full.bin": {
+      "bytes": 1560,
+      "sha256": "1ced6223969dad06a9c10dace1987f1f89ee82975af588789b8927b3b0fe64de"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p5_b3_r5.prospective.bin": {
+      "bytes": 1048,
+      "sha256": "822f7934b29d3145d9aaa5c48227bf9369be61b6be43853836a95b3b9c531676"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p5_b4_r3.full.bin": {
+      "bytes": 960,
+      "sha256": "62e078a0cfd642ca850f6b3ca23568a16242591eff6ab3f8baf087fa5ec2941e"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p5_b4_r3.prospective.bin": {
+      "bytes": 960,
+      "sha256": "14c7a98d2a5675180fa5f124bc15708cf3adeac34f835ebfa1db5b868599bd48"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p5_b4_r5.full.bin": {
+      "bytes": 1080,
+      "sha256": "892ca60a9242083fef6c412e03e901cc0db64add0fea192b8cf8e00740c1f5a7"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p5_b4_r5.prospective.bin": {
+      "bytes": 568,
+      "sha256": "bce9c31169e0e4d7e0d7e00b9d14241928fc91a06738a6a787439783fc41b0ab"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p6_b0_r3.full.bin": {
+      "bytes": 952,
+      "sha256": "09f8f66d2d3f8d7e65db88293b3c994e3375a10e1b2626524e14a94eac86a10d"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p6_b0_r3.prospective.bin": {
+      "bytes": 952,
+      "sha256": "10dc95766c2039da3cb92e1e639af2846fd33642226c21778aa547d7a3c388a6"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p6_b0_r5.full.bin": {
+      "bytes": 536,
+      "sha256": "6db8776dae50b743b5d7493b523439c76e8999512b31bfc6f598b65f1c23584f"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p6_b0_r5.prospective.bin": {
+      "bytes": 536,
+      "sha256": "00adfa562e424c940afb02fc76004f3e845e5bfc3b665002b0037cf6933fbe92"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p6_b1_r3.full.bin": {
+      "bytes": 952,
+      "sha256": "980ed6ee4cbf8d1fd1f61fe60983aa6a780dfb7d9c329a82b016466a7041dbd0"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p6_b1_r3.prospective.bin": {
+      "bytes": 952,
+      "sha256": "c4484ba3c08bb15c7e43fbd6b4a4f8fb414b097edf43d67425cf383f5f92f847"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p6_b1_r5.full.bin": {
+      "bytes": 536,
+      "sha256": "714d57c669baa98a37eb576e3aca4d3b9662bf6e449b33b1d53bc0090cc87ea3"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p6_b1_r5.prospective.bin": {
+      "bytes": 536,
+      "sha256": "7fa93b8fabf9806f566d3e94d2100107b47a758cc672a5cb1cba928f170962e1"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p6_b2_r3.full.bin": {
+      "bytes": 1000,
+      "sha256": "7fd17e694ac4437db21e161fcffb1b7c406724ad9da5742a52b3c8fa52aa462a"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p6_b2_r3.prospective.bin": {
+      "bytes": 1000,
+      "sha256": "eee3f10927b6a1de7e6583594ca6a4cf3f78bf1929c07656330be608de200363"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p6_b2_r5.full.bin": {
+      "bytes": 536,
+      "sha256": "af529405be05da7ce8f405189f1faa9a48c166ac3334f631a13c3119c4bb0857"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p6_b2_r5.prospective.bin": {
+      "bytes": 536,
+      "sha256": "3570a0a48c4475c7f9f81a2863d625b85af8e16760955a78e6cd0d81a92076bb"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p6_b3_r3.full.bin": {
+      "bytes": 1000,
+      "sha256": "ae7b4710fea9fad6a24afe15ba2133bedb5d70514357079527a86002bde1c7f4"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p6_b3_r3.prospective.bin": {
+      "bytes": 1000,
+      "sha256": "f027ca135e30c1381b702a8efc8e924ff8b4d38bd7287f7fd941cde05fbbae5d"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p6_b3_r5.full.bin": {
+      "bytes": 656,
+      "sha256": "9664539961d001a9031dcc393dbe0ee7dbaa648174b2ddbcf2918a1f7e03d059"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p6_b3_r5.prospective.bin": {
+      "bytes": 656,
+      "sha256": "e2f49d18ef637dc824bdb5e114d2719ccb10d4e0173795651224f40ec3a12f78"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p6_b4_r3.full.bin": {
+      "bytes": 1192,
+      "sha256": "e91a09d9ce15f052207f7af40d443fe60d0b195c0d184b62a3b071520fb7efac"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p6_b4_r3.prospective.bin": {
+      "bytes": 1192,
+      "sha256": "ec429fe68d76f5e19a3ae8cea0b1a931b91664232315d6119a871cfff2a728ae"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p6_b4_r5.full.bin": {
+      "bytes": 656,
+      "sha256": "7e325b8f1588b4c59bf1d8b65a0b7bfdcb3a7ea7ecb67b4a29a3e454d0a7bd30"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p6_b4_r5.prospective.bin": {
+      "bytes": 656,
+      "sha256": "7c0a1fa664612403ea5daa8c3d911eca27a80efa8dc74bc1c768cfedaa2a770d"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p6_b5_r3.full.bin": {
+      "bytes": 1192,
+      "sha256": "15c0211f3fb57f20fce48a3c380277fad951944065523d5081856ebfdc11a4d8"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p6_b5_r3.prospective.bin": {
+      "bytes": 1192,
+      "sha256": "e700154d793d70cb4384f851653f908084230cb873f075b1128f29bcc58bbf93"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p6_b5_r5.full.bin": {
+      "bytes": 656,
+      "sha256": "1195aa53dfe5b82d555794e90d0a18fa91d8c507e6700f6b8e45b18c326b618e"
+    },
+    "r04-analysis/hush-tuning-bytes/records/p6_b5_r5.prospective.bin": {
+      "bytes": 656,
+      "sha256": "b4546671b92247af33a04ccfd4244839a4618035bb1ab703b0a765c39c0db8bf"
+    },
+    "r04-analysis/hush-tuning-bytes/REPRODUCIBILITY_CHECK.json": {
+      "bytes": 9573,
+      "sha256": "8274991aaff06550e8444be924ac34c0100199ce2bfec3d54193583c61b32c79"
+    },
+    "r04-analysis/hush-tuning-bytes/RESULTS.json": {
+      "bytes": 11359,
+      "sha256": "ddea52acf57fc47cb415b4ca3b1ad4909d227fe8040698422129cd8d495879ce"
+    },
+    "r04-analysis/hush-tuning-bytes/SCHEMA.md": {
+      "bytes": 4080,
+      "sha256": "b3b0dfc18909490fc53972bb031b5231df7b1f798469bcd6b481d6d27886cd31"
+    },
+    "r04-analysis/hush-tuning-bytes/SERIALIZED_RECORDS.json": {
+      "bytes": 39486,
+      "sha256": "cac8e37084dbf382b9d18268cb8ad0ca246fa23bfab06b3ec12444bf9ef9ed7e"
+    },
+    "r04-analysis/hush-tuning-bytes/TUNING_PER_CONTROLLER.json": {
+      "bytes": 230239,
+      "sha256": "cc0d6020635df401353a9ee16afe4721d990bb947fb3d0fa5abee0d79d4294bf"
+    },
+    "r04-analysis/hush-tuning-bytes/verify_reproduction.py": {
+      "bytes": 1891,
+      "sha256": "ff5ddfefc85b5d617143b487b2067fb1f7876b2d1436d563320f739a4d87b2e8"
+    }
+  },
+  "scope": "Original frozen protocols, source scripts, all numerical/CSV/record results and old timing evidence remain byte-exact. Author metadata may retain original hashes for omitted local binaries or adapted path-only records; these are historical bindings, not assertions that files ship. Root MANIFEST.json binds every actual public byte.",
+  "layout": "Original tuning producer and independent checker sources are unchanged. Fresh copies are imported with INPUT/OLD explicitly redirected to bundled r03/hush-shared-controller. Original RTL checker remains unchanged; check_public.py replaces only local provenance auditing. vectors-v1 is empty/absent because the preserved first failure created no vectors.",
+  "no_installed_tools_headers_executables": true,
+  "no_historical_overlay": true,
+  "no_timing_collection": true
+}

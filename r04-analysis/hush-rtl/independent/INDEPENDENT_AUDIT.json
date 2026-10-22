@@ -1,0 +1,306 @@
+{
+  "status": "PASS_INDEPENDENT_AUTHOR_SIDE_NEW_REFERENCE_RTL_GATE",
+  "scope": "New constructed RTL, actual generated CXXRTL; not native HUSH/gem5, universal WU exhaustion, coherent memory, hardware throughput or PPA.",
+  "checker_sha256": "ef59fe7d5f8c43c52216a0e374ac79f1db4a4221423d43a2d99e189ff17e77d2",
+  "provenance": {
+    "public_input_files": 6,
+    "producer_manifest_files": 45,
+    "actual_tools_checked": 5,
+    "identical_fresh_artifacts": {
+      "netlist.cpp": "b41df947e115fbe3502773c81e9993e6dafeb07db3e459cea91f01a586beed2f",
+      "CONTROL_TICKS.csv": "01258890769680d3260fa9a8371b19387b7297803c018973ae5f6c503195129b",
+      "DATA_TICKS.csv": "2b19f1a050b6224fe89eec92dfc64c36d404b36af598a724f5945370c82f207d",
+      "CASE_CHECKS.csv": "e21c5a07a342ccf1a1ad9bf214d688c742d19a746e103ea37095b98c13290c47",
+      "POLICY_CHECKS.csv": "4bdeb599a28690077bf83b0815d1993c3269882f894ab2b072a70ab3b8c6bd0d",
+      "RTL_RESULTS.json": "314f49d0e41cbbe2357a8e3bd27f0d96e4553696b608a6ee230d4c251e8a8e5e"
+    },
+    "original_executable_sha256": "8cab6b003e2938078a8481526f1076d8eeb6ed51573ffee2137b4de6f011acd8",
+    "fresh_executable_sha256": "8def58078f5b1e01f875d1ac11dcb1681196a2a059ace7cd63701257f9af84c9",
+    "executable_identity_required": false,
+    "initial_generator_failure_preserved": true,
+    "executable_note": "Fresh binary differs; full commands and hashes retained. All semantic CSVs and generated netlist are byte-identical."
+  },
+  "counts": {
+    "control_cases": 40,
+    "control_ticks": 22823,
+    "backpressure_cases": 26,
+    "queue_two_cases": 40,
+    "snapshot_runs": 120,
+    "snapshot_ticks": 68469,
+    "snapshot_captures": 9897,
+    "snapshot_emissions": 9807,
+    "snapshot_timer_cancels": 9657,
+    "snapshot_backpressure_ticks": 1071,
+    "policy_queries": 37000,
+    "policy_negative_first_failures": 19613,
+    "policy_simulated_ticks": 25137870,
+    "policy_positive_survivals": 17387
+  },
+  "phase_reconstruction": {
+    "negative": 19613,
+    "completion_admitted": 16948,
+    "service_extra_over_completion": 439,
+    "completion_extra_over_service": 0,
+    "unsupported_queries": 7425,
+    "posthoc_supported_queries": 29575,
+    "posthoc_supported_full_positive": 13883,
+    "posthoc_supported_full_unknown": 15692,
+    "posthoc_supported_service_only": 333,
+    "positive": 17387
+  },
+  "per_case_phase_counts": {
+    "p2_b0_r3": {
+      "negative": 96,
+      "service_extra_over_completion": 0,
+      "positive": 84
+    },
+    "p2_b0_r5": {
+      "negative": 90,
+      "service_extra_over_completion": 6,
+      "positive": 90
+    },
+    "p2_b1_r3": {
+      "negative": 96,
+      "service_extra_over_completion": 0,
+      "positive": 84
+    },
+    "p2_b1_r5": {
+      "negative": 90,
+      "service_extra_over_completion": 6,
+      "positive": 90
+    },
+    "p3_b0_r3": {
+      "negative": 182,
+      "service_extra_over_completion": 17,
+      "positive": 208
+    },
+    "p3_b0_r5": {
+      "negative": 200,
+      "service_extra_over_completion": 0,
+      "positive": 190
+    },
+    "p3_b1_r3": {
+      "negative": 182,
+      "service_extra_over_completion": 17,
+      "positive": 208
+    },
+    "p3_b1_r5": {
+      "negative": 188,
+      "service_extra_over_completion": 12,
+      "positive": 202
+    },
+    "p3_b2_r3": {
+      "negative": 182,
+      "service_extra_over_completion": 17,
+      "positive": 208
+    },
+    "p3_b2_r5": {
+      "negative": 188,
+      "service_extra_over_completion": 12,
+      "positive": 202
+    },
+    "p4_b0_r3": {
+      "negative": 410,
+      "service_extra_over_completion": 12,
+      "positive": 270
+    },
+    "p4_b0_r5": {
+      "negative": 374,
+      "service_extra_over_completion": 0,
+      "positive": 306
+    },
+    "p4_b1_r3": {
+      "negative": 410,
+      "service_extra_over_completion": 12,
+      "positive": 270
+    },
+    "p4_b1_r5": {
+      "negative": 374,
+      "service_extra_over_completion": 0,
+      "positive": 306
+    },
+    "p4_b2_r3": {
+      "negative": 410,
+      "service_extra_over_completion": 12,
+      "positive": 270
+    },
+    "p4_b2_r5": {
+      "negative": 374,
+      "service_extra_over_completion": 0,
+      "positive": 306
+    },
+    "p4_b3_r3": {
+      "negative": 410,
+      "service_extra_over_completion": 12,
+      "positive": 270
+    },
+    "p4_b3_r5": {
+      "negative": 374,
+      "service_extra_over_completion": 0,
+      "positive": 306
+    },
+    "p5_b0_r3": {
+      "negative": 656,
+      "service_extra_over_completion": 14,
+      "positive": 394
+    },
+    "p5_b0_r5": {
+      "negative": 513,
+      "service_extra_over_completion": 42,
+      "positive": 537
+    },
+    "p5_b1_r3": {
+      "negative": 656,
+      "service_extra_over_completion": 14,
+      "positive": 394
+    },
+    "p5_b1_r5": {
+      "negative": 513,
+      "service_extra_over_completion": 42,
+      "positive": 537
+    },
+    "p5_b2_r3": {
+      "negative": 656,
+      "service_extra_over_completion": 14,
+      "positive": 394
+    },
+    "p5_b2_r5": {
+      "negative": 513,
+      "service_extra_over_completion": 42,
+      "positive": 537
+    },
+    "p5_b3_r3": {
+      "negative": 656,
+      "service_extra_over_completion": 14,
+      "positive": 394
+    },
+    "p5_b3_r5": {
+      "negative": 513,
+      "service_extra_over_completion": 42,
+      "positive": 537
+    },
+    "p5_b4_r3": {
+      "negative": 656,
+      "service_extra_over_completion": 14,
+      "positive": 394
+    },
+    "p5_b4_r5": {
+      "negative": 513,
+      "service_extra_over_completion": 42,
+      "positive": 537
+    },
+    "p6_b0_r3": {
+      "negative": 681,
+      "service_extra_over_completion": 4,
+      "positive": 819
+    },
+    "p6_b0_r5": {
+      "negative": 842,
+      "service_extra_over_completion": 0,
+      "positive": 658
+    },
+    "p6_b1_r3": {
+      "negative": 681,
+      "service_extra_over_completion": 4,
+      "positive": 819
+    },
+    "p6_b1_r5": {
+      "negative": 842,
+      "service_extra_over_completion": 0,
+      "positive": 658
+    },
+    "p6_b2_r3": {
+      "negative": 681,
+      "service_extra_over_completion": 4,
+      "positive": 819
+    },
+    "p6_b2_r5": {
+      "negative": 842,
+      "service_extra_over_completion": 0,
+      "positive": 658
+    },
+    "p6_b3_r3": {
+      "negative": 681,
+      "service_extra_over_completion": 4,
+      "positive": 819
+    },
+    "p6_b3_r5": {
+      "negative": 842,
+      "service_extra_over_completion": 0,
+      "positive": 658
+    },
+    "p6_b4_r3": {
+      "negative": 681,
+      "service_extra_over_completion": 4,
+      "positive": 819
+    },
+    "p6_b4_r5": {
+      "negative": 842,
+      "service_extra_over_completion": 0,
+      "positive": 658
+    },
+    "p6_b5_r3": {
+      "negative": 681,
+      "service_extra_over_completion": 4,
+      "positive": 819
+    },
+    "p6_b5_r5": {
+      "negative": 842,
+      "service_extra_over_completion": 0,
+      "positive": 658
+    }
+  },
+  "reextracted_relation_counts": {
+    "prefix_edges": 416,
+    "cycle_edges": 961
+  },
+  "no_service_gain_cases": [
+    "p2_b0_r3",
+    "p2_b1_r3",
+    "p3_b0_r5",
+    "p4_b0_r5",
+    "p4_b1_r5",
+    "p4_b2_r5",
+    "p4_b3_r5",
+    "p6_b0_r5",
+    "p6_b1_r5",
+    "p6_b2_r5",
+    "p6_b3_r5",
+    "p6_b4_r5",
+    "p6_b5_r5"
+  ],
+  "exercised_coverage": {
+    "grant_blocked_R0_occupied_queue_nonempty": 0,
+    "poll_callback_ties": 119,
+    "simultaneous_enqueue_ticks": 158,
+    "ready_off_boundaries": 666,
+    "WU_decrement_same_tick": 0,
+    "data_WU_decrement_same_tick": 2799,
+    "data_WU_capture_same_tick": 9777,
+    "data_block_with_WU": 1071
+  },
+  "width_observations": {
+    "control_and_data": {
+      "tick": 1214,
+      "request_id": 103,
+      "scheduled_poll": 1217,
+      "counter": 5
+    },
+    "policy": {
+      "h": 7332,
+      "s": 7308
+    }
+  },
+  "all_serialized_case_policy_and_tick_fields_checked": true,
+  "fresh_replay_root": "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r04-analysis\\hush-rtl\\independent\\fresh-replay-01",
+  "source_root": "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r04-analysis\\hush-rtl",
+  "limits": [
+    "No arbitrary WU-word exhaustion; positives exercise the declared minimizing one-WU word only.",
+    "Only three fixed byte patterns with K=5/P=24/phi=0, valid-only WUs after initial captures.",
+    "R0-occupied with a queued head at grant is unexercised and receives no coverage credit.",
+    "FIFO occupancy two and actual sink-ready backpressure are separately counted.",
+    "Fourteen cases have no response backpressure; all forty cases remain included.",
+    "Invalid configurations, overflow, epoch changes and revocation recovery are untested.",
+    "Synthesis structure and logical tick counts supply no area, timing, energy or hardware-rate claim."
+  ]
+}

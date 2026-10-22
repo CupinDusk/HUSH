@@ -1,0 +1,1 @@
+control case=0 category=1 pattern=0: successful capture did not cancel timer

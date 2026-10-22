@@ -1,0 +1,28 @@
+{
+  "yowasp_yosys_package": "0.70.0.0.post1259",
+  "actual_yosys": "Yosys 0.70 git 28ba3cb92",
+  "compiler": "Existing Zig 0.14.1 C++17 -O3 -UNDEBUG",
+  "tools_external_not_bundled": true,
+  "files": {
+    ".tools/run_iscas_yosys.py": {
+      "sha256": "30a9a408af8d9b5f2df60b6c961db42a1a0c861ad9fbdb90bd727fb1142d3ff9",
+      "bytes": 275
+    },
+    ".tools/iscas-rtl-20261023/yowasp_yosys/yosys.wasm": {
+      "sha256": "a35c25e046acdccbbebe315d93fff65fd64747141a540ecc7e602549d154eb4f",
+      "bytes": 68860682
+    },
+    ".tools/iscas-rtl-20261023/yowasp_yosys/__init__.py": {
+      "sha256": "731bba6cc959eb34690b32a9db0745b3b2cdb79f9bb67243ea086f7640ece98d",
+      "bytes": 1189
+    },
+    ".tools/iscas-rtl-20261023/yowasp_yosys/share/include/backends/cxxrtl/runtime/cxxrtl/cxxrtl.h": {
+      "sha256": "f0b10970e58343d4992b0838c6729357e8c6c299ef26eaa36a344f1a741e0dcf",
+      "bytes": 73300
+    },
+    ".tools/zig-0.14.1/zig-x86_64-windows-0.14.1/zig.exe": {
+      "sha256": "1ddf230367e07738c4a769eae66c1db7469e37bd520e81c86356453d0db2b9fd",
+      "bytes": 168132608
+    }
+  }
+}

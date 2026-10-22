@@ -1,0 +1,751 @@
+{
+  "status": "PASS_INDEPENDENT_AUTHOR_SIDE_ARITHMETIC_AND_ENCODING_CHECK",
+  "role": "Separate author-side semantic checker; not a reviewer, independent workload, controller rerun or native implementation.",
+  "method": [
+    "Only Python standard-library imports; producer analysis/encoder/decoder/replay functions never imported or executed.",
+    "Recomputed every phase base from R03 literal prefix/cycle triples by enumerating translated physical-period orbits; completion comparator uses per-line tight virtual intervals.",
+    "Canonical arrays rebuilt by exhaustive integer-phase unique-minimum essentiality and full envelope equality, not producer dominance code.",
+    "All 80 records independently parsed, fields checked against raw relations, re-encoded byte exactly, and evaluated for all frozen complete queries.",
+    "All optimum ties, K/P/phi selection, zero/negative outcomes, per-controller CSV, decompositions, index metadata and result distributions checked."
+  ],
+  "protocol_sha256": "7faaefd70844803d59e784ddd697d9267309b81139283119c340538f05b8112d",
+  "precomputation_binding_sha256": "bd2dc040338a26fab694af08328ac2f3d2c4659647a4dd41645d9967bac23c53",
+  "checker_sha256": "a83cd3e89948b007bf5cc0b83bf7840ff40d85654895a75b061d8c4c2fbf2121",
+  "producer_manifest_sha256": "bdbd1c83cd026328da80bcec3447c432ea586bfcad9440cbb4da025ae4694b04",
+  "frozen_input_hashes": {
+    "RELATIONS.json": {
+      "sha256": "f77704f0329c79babe82afbe56dbfce7e2ea7bd219e8299ae3332a9017487a47",
+      "bytes": 438727
+    },
+    "ALL_PHASE_BASES.jsonl.gz": {
+      "sha256": "d280587e4c5f270992d57ec4925429f03dda66a1ab137a1ce047511dd3cf1c94",
+      "bytes": 32414
+    },
+    "POLICY_RESULTS.json": {
+      "sha256": "5615abd57e638d9435be823e69c5a1f76615b347a9afdb4f6ceff0ec5764521d",
+      "bytes": 43777
+    },
+    "PROTOCOL.json": {
+      "sha256": "536a35c9d37ca727028609c8a742fb9454b6942fb64d5b1d8e2640de807dcaba",
+      "bytes": 5923
+    },
+    "extract_shared.py": {
+      "sha256": "1d0812128dfd65586f473a138f5137983974473a2fb9100949d5be749e4c7e1a",
+      "bytes": 7682
+    }
+  },
+  "producer_source_hashes": {
+    "analyze.py": "ec700fdc1472cb7d6224f36c37734ed4d8181ef80fbaebdbdea1bcd821b8e9b4",
+    "encoder.py": "bc5d4c649c7c8ee9a289960459109c00e2e63b3ca6f19b18cb23248700fe6905",
+    "decoder.py": "6388849e16a06f36d5505e2b4be86a721b210249157b1be6402a80c5e729daa1"
+  },
+  "manifest_payload_files_checked": 97,
+  "counts": {
+    "full_group_pairs": 961,
+    "full_canonical_pairs": 961,
+    "projected_group_pairs": 838,
+    "projected_canonical_pairs": 765,
+    "full_serialized_bytes": 36560,
+    "full_pair_bytes": 15376,
+    "full_overhead_bytes": 21184,
+    "prospective_serialized_bytes": 33424,
+    "prospective_pair_bytes": 12240,
+    "prospective_overhead_bytes": 21184,
+    "queries": 37000,
+    "service_positive": 17387,
+    "service_unknown": 19613,
+    "completion_positive": 16948,
+    "completion_unknown": 20052,
+    "service_only_admissions": 439,
+    "posthoc_unsupported_queries": 7425
+  },
+  "derived_selections": {
+    "cases_with_lower_service_optimum": 21,
+    "cases_with_no_proxy_gain": 19,
+    "cases_with_no_additional_admissions": 13,
+    "service_empty_feasible_sets": 0,
+    "completion_empty_feasible_sets": 0,
+    "cases_with_no_byte_saving": 33,
+    "full_canonical_deletions": 0,
+    "support_projection_group_reduction": 123,
+    "prospective_canonical_deletions": 73,
+    "pair_saving_fraction": 0.20395421436004157,
+    "serialized_total_saving_fraction": 0.08577680525164111
+  },
+  "run_environment": {
+    "python_version": "3.12.14",
+    "required_flags": [
+      "-B",
+      "-X",
+      "utf8"
+    ]
+  },
+  "additional_admissions_without_optimum_gain": 6,
+  "prefix_edges": 416,
+  "negative_outcomes": {
+    "no_additional_admissions_cases": [
+      "p2_b0_r3",
+      "p2_b1_r3",
+      "p3_b0_r5",
+      "p4_b0_r5",
+      "p4_b1_r5",
+      "p4_b2_r5",
+      "p4_b3_r5",
+      "p6_b0_r5",
+      "p6_b1_r5",
+      "p6_b2_r5",
+      "p6_b3_r5",
+      "p6_b4_r5",
+      "p6_b5_r5"
+    ],
+    "extra_admission_no_optimum_gain_cases": [
+      "p6_b0_r3",
+      "p6_b1_r3",
+      "p6_b2_r3",
+      "p6_b3_r3",
+      "p6_b4_r3",
+      "p6_b5_r3"
+    ],
+    "zero_byte_gain_cases": [
+      "p2_b0_r5",
+      "p2_b1_r5",
+      "p3_b0_r3",
+      "p3_b0_r5",
+      "p3_b1_r3",
+      "p3_b1_r5",
+      "p3_b2_r3",
+      "p3_b2_r5",
+      "p4_b0_r3",
+      "p4_b0_r5",
+      "p4_b1_r3",
+      "p4_b1_r5",
+      "p4_b2_r3",
+      "p4_b2_r5",
+      "p4_b3_r3",
+      "p4_b3_r5",
+      "p5_b0_r3",
+      "p5_b1_r3",
+      "p5_b2_r3",
+      "p5_b3_r3",
+      "p5_b4_r3",
+      "p6_b0_r3",
+      "p6_b0_r5",
+      "p6_b1_r3",
+      "p6_b1_r5",
+      "p6_b2_r3",
+      "p6_b2_r5",
+      "p6_b3_r3",
+      "p6_b3_r5",
+      "p6_b4_r3",
+      "p6_b4_r5",
+      "p6_b5_r3",
+      "p6_b5_r5"
+    ]
+  },
+  "distributions": {
+    "service_optimum_ticks": {
+      "count": 40,
+      "min": 13,
+      "max": 43,
+      "median": 29.0,
+      "mean": 28.45,
+      "histogram": [
+        {
+          "value": 13,
+          "controllers": 2
+        },
+        {
+          "value": 14,
+          "controllers": 2
+        },
+        {
+          "value": 17,
+          "controllers": 5
+        },
+        {
+          "value": 19,
+          "controllers": 1
+        },
+        {
+          "value": 24,
+          "controllers": 4
+        },
+        {
+          "value": 29,
+          "controllers": 15
+        },
+        {
+          "value": 39,
+          "controllers": 6
+        },
+        {
+          "value": 43,
+          "controllers": 5
+        }
+      ]
+    },
+    "completion_optimum_ticks": {
+      "count": 40,
+      "min": 14,
+      "max": 44,
+      "median": 31.5,
+      "mean": 30,
+      "histogram": [
+        {
+          "value": 14,
+          "controllers": 4
+        },
+        {
+          "value": 19,
+          "controllers": 6
+        },
+        {
+          "value": 24,
+          "controllers": 4
+        },
+        {
+          "value": 29,
+          "controllers": 6
+        },
+        {
+          "value": 34,
+          "controllers": 9
+        },
+        {
+          "value": 39,
+          "controllers": 6
+        },
+        {
+          "value": 44,
+          "controllers": 5
+        }
+      ]
+    },
+    "retention_proxy_gain_ticks": {
+      "count": 40,
+      "min": 0,
+      "max": 5,
+      "median": 1.0,
+      "mean": 1.55,
+      "histogram": [
+        {
+          "value": 0,
+          "controllers": 19
+        },
+        {
+          "value": 1,
+          "controllers": 7
+        },
+        {
+          "value": 2,
+          "controllers": 5
+        },
+        {
+          "value": 5,
+          "controllers": 9
+        }
+      ]
+    },
+    "service_optimum_tie_count": {
+      "count": 40,
+      "min": 1,
+      "max": 9,
+      "median": 4.0,
+      "mean": 4.725,
+      "histogram": [
+        {
+          "value": 1,
+          "controllers": 6
+        },
+        {
+          "value": 2,
+          "controllers": 4
+        },
+        {
+          "value": 3,
+          "controllers": 7
+        },
+        {
+          "value": 4,
+          "controllers": 6
+        },
+        {
+          "value": 6,
+          "controllers": 6
+        },
+        {
+          "value": 8,
+          "controllers": 5
+        },
+        {
+          "value": 9,
+          "controllers": 6
+        }
+      ]
+    },
+    "completion_optimum_tie_count": {
+      "count": 40,
+      "min": 1,
+      "max": 14,
+      "median": 6.5,
+      "mean": 6.575,
+      "histogram": [
+        {
+          "value": 1,
+          "controllers": 4
+        },
+        {
+          "value": 3,
+          "controllers": 4
+        },
+        {
+          "value": 4,
+          "controllers": 6
+        },
+        {
+          "value": 6,
+          "controllers": 6
+        },
+        {
+          "value": 7,
+          "controllers": 9
+        },
+        {
+          "value": 9,
+          "controllers": 6
+        },
+        {
+          "value": 14,
+          "controllers": 5
+        }
+      ]
+    },
+    "full_total_bytes": {
+      "count": 40,
+      "min": 488,
+      "max": 1944,
+      "median": 876.0,
+      "mean": 914,
+      "histogram": [
+        {
+          "value": 488,
+          "controllers": 1
+        },
+        {
+          "value": 536,
+          "controllers": 3
+        },
+        {
+          "value": 624,
+          "controllers": 1
+        },
+        {
+          "value": 640,
+          "controllers": 2
+        },
+        {
+          "value": 656,
+          "controllers": 3
+        },
+        {
+          "value": 680,
+          "controllers": 3
+        },
+        {
+          "value": 720,
+          "controllers": 1
+        },
+        {
+          "value": 744,
+          "controllers": 2
+        },
+        {
+          "value": 800,
+          "controllers": 1
+        },
+        {
+          "value": 840,
+          "controllers": 1
+        },
+        {
+          "value": 864,
+          "controllers": 2
+        },
+        {
+          "value": 888,
+          "controllers": 1
+        },
+        {
+          "value": 912,
+          "controllers": 1
+        },
+        {
+          "value": 920,
+          "controllers": 1
+        },
+        {
+          "value": 952,
+          "controllers": 2
+        },
+        {
+          "value": 960,
+          "controllers": 1
+        },
+        {
+          "value": 1000,
+          "controllers": 2
+        },
+        {
+          "value": 1080,
+          "controllers": 4
+        },
+        {
+          "value": 1104,
+          "controllers": 1
+        },
+        {
+          "value": 1128,
+          "controllers": 1
+        },
+        {
+          "value": 1192,
+          "controllers": 2
+        },
+        {
+          "value": 1248,
+          "controllers": 1
+        },
+        {
+          "value": 1560,
+          "controllers": 1
+        },
+        {
+          "value": 1704,
+          "controllers": 1
+        },
+        {
+          "value": 1944,
+          "controllers": 1
+        }
+      ]
+    },
+    "prospective_total_bytes": {
+      "count": 40,
+      "min": 488,
+      "max": 1432,
+      "median": 820.0,
+      "mean": 835.6,
+      "histogram": [
+        {
+          "value": 488,
+          "controllers": 1
+        },
+        {
+          "value": 536,
+          "controllers": 3
+        },
+        {
+          "value": 568,
+          "controllers": 2
+        },
+        {
+          "value": 624,
+          "controllers": 2
+        },
+        {
+          "value": 640,
+          "controllers": 2
+        },
+        {
+          "value": 656,
+          "controllers": 3
+        },
+        {
+          "value": 680,
+          "controllers": 3
+        },
+        {
+          "value": 720,
+          "controllers": 1
+        },
+        {
+          "value": 744,
+          "controllers": 2
+        },
+        {
+          "value": 800,
+          "controllers": 1
+        },
+        {
+          "value": 840,
+          "controllers": 1
+        },
+        {
+          "value": 864,
+          "controllers": 2
+        },
+        {
+          "value": 888,
+          "controllers": 1
+        },
+        {
+          "value": 920,
+          "controllers": 1
+        },
+        {
+          "value": 952,
+          "controllers": 2
+        },
+        {
+          "value": 960,
+          "controllers": 2
+        },
+        {
+          "value": 1000,
+          "controllers": 2
+        },
+        {
+          "value": 1048,
+          "controllers": 1
+        },
+        {
+          "value": 1080,
+          "controllers": 2
+        },
+        {
+          "value": 1104,
+          "controllers": 1
+        },
+        {
+          "value": 1128,
+          "controllers": 1
+        },
+        {
+          "value": 1192,
+          "controllers": 3
+        },
+        {
+          "value": 1432,
+          "controllers": 1
+        }
+      ]
+    },
+    "serialized_bytes_saved": {
+      "count": 40,
+      "min": 0,
+      "max": 512,
+      "median": 0.0,
+      "mean": 78.4,
+      "histogram": [
+        {
+          "value": 0,
+          "controllers": 33
+        },
+        {
+          "value": 288,
+          "controllers": 2
+        },
+        {
+          "value": 512,
+          "controllers": 5
+        }
+      ]
+    },
+    "per_controller_byte_saving_fraction": {
+      "count": 40,
+      "min": 0.0,
+      "max": 0.4740740740740741,
+      "median": 0.0,
+      "mean": 0.05966889874928752,
+      "histogram": [
+        {
+          "value": 0.0,
+          "controllers": 33
+        },
+        {
+          "value": 0.23076923076923078,
+          "controllers": 1
+        },
+        {
+          "value": 0.26337448559670784,
+          "controllers": 1
+        },
+        {
+          "value": 0.3004694835680751,
+          "controllers": 1
+        },
+        {
+          "value": 0.3157894736842105,
+          "controllers": 1
+        },
+        {
+          "value": 0.3282051282051282,
+          "controllers": 1
+        },
+        {
+          "value": 0.4740740740740741,
+          "controllers": 2
+        }
+      ]
+    },
+    "service_only_admissions": {
+      "count": 40,
+      "min": 0,
+      "max": 42,
+      "median": 6.0,
+      "mean": 10.975,
+      "histogram": [
+        {
+          "value": 0,
+          "controllers": 13
+        },
+        {
+          "value": 4,
+          "controllers": 6
+        },
+        {
+          "value": 6,
+          "controllers": 2
+        },
+        {
+          "value": 12,
+          "controllers": 6
+        },
+        {
+          "value": 14,
+          "controllers": 5
+        },
+        {
+          "value": 17,
+          "controllers": 3
+        },
+        {
+          "value": 42,
+          "controllers": 5
+        }
+      ]
+    }
+  },
+  "checks": {
+    "protocol_hash": 1,
+    "prebinding_manifest_hash": 1,
+    "protocol_manifest_hash": 1,
+    "frozen_input_hash": 5,
+    "manifest_input_binding": 5,
+    "producer_source_hash": 3,
+    "producer_manifest_payload": 97,
+    "producer_manifest_coverage": 1,
+    "r03_protocol_chain": 1,
+    "r03_source_chain": 1,
+    "r03_relation_chain": 1,
+    "r03_phase_chain": 1,
+    "epoch_text": 1,
+    "epoch_hash": 1,
+    "actual_record_bindings": 1,
+    "result_protocol_chain": 1,
+    "result_prebinding_chain": 1,
+    "phase_schema_verbatim": 1,
+    "case_grid": 1,
+    "all_cases_retained": 4,
+    "unique_phase_block": 720,
+    "prospective_divides_translation": 40,
+    "canonical_direct_envelope": 160,
+    "r03_raw_group": 80,
+    "r03_full_canonical": 80,
+    "r03_prospective_canonical": 80,
+    "r03_prospective_modulus": 80,
+    "decomposition_all_fields": 40,
+    "independent_decode_all_fields": 80,
+    "own_encode_roundtrip": 80,
+    "serialized_index_all_fields": 80,
+    "parsed_structural_size": 80,
+    "mutation_truncated": 80,
+    "mutation_trailing": 80,
+    "mutation_magic": 80,
+    "mutation_version": 80,
+    "mutation_line_count": 80,
+    "mutation_owner": 80,
+    "mutation_tag": 80,
+    "mutation_zero_modulus": 80,
+    "mutation_zero_span": 80,
+    "mutation_residue_range": 80,
+    "guard_binding_mismatch_source": 80,
+    "guard_binding_mismatch_receiver": 80,
+    "guard_binding_mismatch_relation": 80,
+    "guard_binding_mismatch_epoch": 80,
+    "synthetic_small_unsupported_divisor": 80,
+    "guard_unsupported_gcd": 80,
+    "guard_invalid_query": 320,
+    "outside_compatible_gcd": 80,
+    "guard_full_outside_grid_accepted": 40,
+    "guard_portfolio_outside_compatible_gcd": 40,
+    "serialized_saved": 40,
+    "serialized_saved_fraction": 40,
+    "phase_gcd": 720,
+    "all_phases_retained": 720,
+    "tight_J": 14800,
+    "tight_A": 14800,
+    "literal_C0": 14800,
+    "frozen_literal_phase_bases": 7400,
+    "frozen_witness_in_literal_orbit": 7400,
+    "frozen_witness_attains_minimum": 7400,
+    "posthoc_support": 7400,
+    "service_admission_mask": 7400,
+    "completion_admission_mask": 7400,
+    "completion_subset_of_service": 37000,
+    "decoded_full_query_slack": 37000,
+    "decoded_prospective_query_slack": 37000,
+    "zero_service_slack_queries": 652,
+    "zero_completion_slack_queries": 702,
+    "all_per_controller_admissions": 40,
+    "service_optimum_all_fields": 40,
+    "completion_optimum_all_fields": 40,
+    "service_optimum_not_worse": 40,
+    "tuning_entire_case": 40,
+    "original_per_case_counts": 240,
+    "all_7400_derivation_rows_and_37000_policies": 1,
+    "all_controller_period_interfaces": 1,
+    "retained_phase_count": 1,
+    "retained_query_count": 1,
+    "direct_envelope_phase_positions": 1,
+    "controller_total": 1,
+    "line_total": 1,
+    "all_result_counts": 1,
+    "original_aggregate_counts": 6,
+    "result_cases_with_lower_service_optimum": 1,
+    "result_cases_with_no_proxy_gain": 1,
+    "result_cases_with_no_additional_admissions": 1,
+    "result_service_empty_feasible_sets": 1,
+    "result_completion_empty_feasible_sets": 1,
+    "result_cases_with_no_byte_saving": 1,
+    "result_full_canonical_deletions": 1,
+    "result_support_projection_group_reduction": 1,
+    "result_prospective_canonical_deletions": 1,
+    "result_pair_saving_fraction": 1,
+    "result_serialized_total_saving_fraction": 1,
+    "all_distribution_names": 1,
+    "distribution_exact_fields": 10,
+    "distribution_mean_roundoff_bounded": 10,
+    "all_csv_rows_all_fields": 1,
+    "synthetic_empty_status": 1,
+    "synthetic_empty_explicit": 1,
+    "synthetic_all_ties_and_K_P_phi_order": 1
+  },
+  "harmless_float_mean_roundoff": [
+    {
+      "metric": "per_controller_byte_saving_fraction",
+      "independent_mean": 0.05966889874928752,
+      "producer_mean": 0.05966889874928751,
+      "absolute_difference": 6.938893903907228e-18
+    }
+  ],
+  "chronology_limit": "Current file hashes match the frozen protocol, precomputation binding, source bytes and manifest. This independent check cannot prove historical wallclock creation order from self-reported timestamps; R04 remains explicitly posthoc over R03, not a retrospective prospective experiment.",
+  "parser_test_limit": "Mutation and own encode/decode tests exercise this checker and fresh copies; they are not independent testing of the producer decoder implementation.",
+  "claim_limits": [
+    "40 specified constructed model cases and 37000 correlated grid calculations, not population samples or new traffic/workload evidence.",
+    "KP-1 is the stipulated model retention proxy; no measured traffic, energy, power, WCET, speed, native HUSH, hardware or arbitrary-payload coherence result.",
+    "One explicit uncompressed LE record format; totals include headers, bindings, metadata, cutpoints and exact physical prefix, but exclude filenames/index/container/disk allocation/runtime object residency.",
+    "Full grouping/canonicalization 961->961; support projection removes 123 then prospective canonicalization removes 73. The 20.40% pair-array reduction is not all canonical pruning and is not the 8.58% whole-record reduction.",
+    "Full-master arithmetic supports valid positive queries under exact bindings; portfolio magic rejects P>4p even with compatible gcd. Binding hashes are stipulated file/model bindings, not native runtime identifiers or an implemented epoch lifecycle."
+  ]
+}

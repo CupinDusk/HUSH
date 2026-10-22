@@ -1,0 +1,29 @@
+{
+  "status": "PASS_INDEPENDENT_CONTROLLER_RELATIONS_ALL_POLICY_ADMISSIONS_AND_EVERY_NEGATIVE_FIRST_FAILURE",
+  "script_sha256": "5f594b6733e041bdc16e24f5111406b20dd286917614b74098ec853cda7bd998",
+  "protocol_sha256": "536a35c9d37ca727028609c8a742fb9454b6942fb64d5b1d8e2640de807dcaba",
+  "relations_sha256": "f77704f0329c79babe82afbe56dbfce7e2ea7bd219e8299ae3332a9017487a47",
+  "policy_results_sha256": "5615abd57e638d9435be823e69c5a1f76615b347a9afdb4f6ceff0ec5764521d",
+  "checks": {
+    "independent_control_tick_checks": 22823,
+    "independent_trace_sha_checks": 40,
+    "independent_line_relation_checks": 80,
+    "independent_phase_admission_checks": 7400,
+    "actual_first_failed_grant_counterexamples": 19613,
+    "actual_minimum_edge_one_WU_survivals": 17387
+  },
+  "independent_counts": {
+    "policy_queries": 37000,
+    "full_service_positive": 17387,
+    "full_service_unknown": 19613,
+    "full_completion_positive": 16948,
+    "full_service_only": 439,
+    "posthoc_supported_queries": 29575,
+    "posthoc_unsupported_queries": 7425,
+    "posthoc_supported_full_positive": 13883,
+    "posthoc_supported_full_unknown": 15692,
+    "posthoc_supported_service_only": 333
+  },
+  "negative_counterexamples_sha256": "629a4c8b278486577a58dd4f2ffd3aa73673883a8b8ed829ad115621e0d32bd3",
+  "scope": "Independent dict controller exactly matches every recorded tick and relation; all 37000 policy statuses and 19613 sharp one-WU negative executions. Positive arbitrary-WU completeness is the monotone-rearm/first-failure argument in ARGUMENT.md, not inferred from these one-WU tests."
+}

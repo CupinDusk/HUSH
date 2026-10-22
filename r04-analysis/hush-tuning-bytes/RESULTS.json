@@ -1,0 +1,536 @@
+{
+  "status": "PRODUCER_CHECKS_PASS_PENDING_SEPARATE_CHECKER",
+  "study_type": "POSTHOC_DERIVED_EXISTING_GRID",
+  "controllers": 40,
+  "lines": 80,
+  "counts": {
+    "full_group_pairs": 961,
+    "full_canonical_pairs": 961,
+    "projected_group_pairs": 838,
+    "projected_canonical_pairs": 765,
+    "full_serialized_bytes": 36560,
+    "full_pair_bytes": 15376,
+    "full_overhead_bytes": 21184,
+    "prospective_serialized_bytes": 33424,
+    "prospective_pair_bytes": 12240,
+    "prospective_overhead_bytes": 21184,
+    "queries": 37000,
+    "service_positive": 17387,
+    "service_unknown": 19613,
+    "completion_positive": 16948,
+    "completion_unknown": 20052,
+    "service_only_admissions": 439,
+    "posthoc_unsupported_queries": 7425
+  },
+  "checks": {
+    "direct_envelope_phase_checks": 23812,
+    "truncation": 80,
+    "trailing_bytes": 80,
+    "unknown_magic": 80,
+    "unknown_version": 80,
+    "binding_mismatch": 80,
+    "records_decoded_exact_fields": 80,
+    "outside_portfolio": 40,
+    "full_complete_query_slack_matches": 37000,
+    "prospective_complete_query_slack_matches": 37000,
+    "phase_rows_retained": 7400
+  },
+  "cases_with_lower_service_optimum": 21,
+  "cases_with_no_proxy_gain": 19,
+  "cases_with_no_additional_admissions": 13,
+  "service_empty_feasible_sets": 0,
+  "completion_empty_feasible_sets": 0,
+  "cases_with_no_byte_saving": 33,
+  "full_canonical_deletions": 0,
+  "support_projection_group_reduction": 123,
+  "prospective_canonical_deletions": 73,
+  "pair_saving_fraction": 0.20395421436004157,
+  "serialized_total_saving_fraction": 0.08577680525164111,
+  "distributions": {
+    "service_optimum_ticks": {
+      "count": 40,
+      "min": 13,
+      "max": 43,
+      "median": 29.0,
+      "mean": 28.45,
+      "histogram": [
+        {
+          "value": 13,
+          "controllers": 2
+        },
+        {
+          "value": 14,
+          "controllers": 2
+        },
+        {
+          "value": 17,
+          "controllers": 5
+        },
+        {
+          "value": 19,
+          "controllers": 1
+        },
+        {
+          "value": 24,
+          "controllers": 4
+        },
+        {
+          "value": 29,
+          "controllers": 15
+        },
+        {
+          "value": 39,
+          "controllers": 6
+        },
+        {
+          "value": 43,
+          "controllers": 5
+        }
+      ]
+    },
+    "completion_optimum_ticks": {
+      "count": 40,
+      "min": 14,
+      "max": 44,
+      "median": 31.5,
+      "mean": 30.0,
+      "histogram": [
+        {
+          "value": 14,
+          "controllers": 4
+        },
+        {
+          "value": 19,
+          "controllers": 6
+        },
+        {
+          "value": 24,
+          "controllers": 4
+        },
+        {
+          "value": 29,
+          "controllers": 6
+        },
+        {
+          "value": 34,
+          "controllers": 9
+        },
+        {
+          "value": 39,
+          "controllers": 6
+        },
+        {
+          "value": 44,
+          "controllers": 5
+        }
+      ]
+    },
+    "retention_proxy_gain_ticks": {
+      "count": 40,
+      "min": 0,
+      "max": 5,
+      "median": 1.0,
+      "mean": 1.55,
+      "histogram": [
+        {
+          "value": 0,
+          "controllers": 19
+        },
+        {
+          "value": 1,
+          "controllers": 7
+        },
+        {
+          "value": 2,
+          "controllers": 5
+        },
+        {
+          "value": 5,
+          "controllers": 9
+        }
+      ]
+    },
+    "service_optimum_tie_count": {
+      "count": 40,
+      "min": 1,
+      "max": 9,
+      "median": 4.0,
+      "mean": 4.725,
+      "histogram": [
+        {
+          "value": 1,
+          "controllers": 6
+        },
+        {
+          "value": 2,
+          "controllers": 4
+        },
+        {
+          "value": 3,
+          "controllers": 7
+        },
+        {
+          "value": 4,
+          "controllers": 6
+        },
+        {
+          "value": 6,
+          "controllers": 6
+        },
+        {
+          "value": 8,
+          "controllers": 5
+        },
+        {
+          "value": 9,
+          "controllers": 6
+        }
+      ]
+    },
+    "completion_optimum_tie_count": {
+      "count": 40,
+      "min": 1,
+      "max": 14,
+      "median": 6.5,
+      "mean": 6.575,
+      "histogram": [
+        {
+          "value": 1,
+          "controllers": 4
+        },
+        {
+          "value": 3,
+          "controllers": 4
+        },
+        {
+          "value": 4,
+          "controllers": 6
+        },
+        {
+          "value": 6,
+          "controllers": 6
+        },
+        {
+          "value": 7,
+          "controllers": 9
+        },
+        {
+          "value": 9,
+          "controllers": 6
+        },
+        {
+          "value": 14,
+          "controllers": 5
+        }
+      ]
+    },
+    "full_total_bytes": {
+      "count": 40,
+      "min": 488,
+      "max": 1944,
+      "median": 876.0,
+      "mean": 914.0,
+      "histogram": [
+        {
+          "value": 488,
+          "controllers": 1
+        },
+        {
+          "value": 536,
+          "controllers": 3
+        },
+        {
+          "value": 624,
+          "controllers": 1
+        },
+        {
+          "value": 640,
+          "controllers": 2
+        },
+        {
+          "value": 656,
+          "controllers": 3
+        },
+        {
+          "value": 680,
+          "controllers": 3
+        },
+        {
+          "value": 720,
+          "controllers": 1
+        },
+        {
+          "value": 744,
+          "controllers": 2
+        },
+        {
+          "value": 800,
+          "controllers": 1
+        },
+        {
+          "value": 840,
+          "controllers": 1
+        },
+        {
+          "value": 864,
+          "controllers": 2
+        },
+        {
+          "value": 888,
+          "controllers": 1
+        },
+        {
+          "value": 912,
+          "controllers": 1
+        },
+        {
+          "value": 920,
+          "controllers": 1
+        },
+        {
+          "value": 952,
+          "controllers": 2
+        },
+        {
+          "value": 960,
+          "controllers": 1
+        },
+        {
+          "value": 1000,
+          "controllers": 2
+        },
+        {
+          "value": 1080,
+          "controllers": 4
+        },
+        {
+          "value": 1104,
+          "controllers": 1
+        },
+        {
+          "value": 1128,
+          "controllers": 1
+        },
+        {
+          "value": 1192,
+          "controllers": 2
+        },
+        {
+          "value": 1248,
+          "controllers": 1
+        },
+        {
+          "value": 1560,
+          "controllers": 1
+        },
+        {
+          "value": 1704,
+          "controllers": 1
+        },
+        {
+          "value": 1944,
+          "controllers": 1
+        }
+      ]
+    },
+    "prospective_total_bytes": {
+      "count": 40,
+      "min": 488,
+      "max": 1432,
+      "median": 820.0,
+      "mean": 835.6,
+      "histogram": [
+        {
+          "value": 488,
+          "controllers": 1
+        },
+        {
+          "value": 536,
+          "controllers": 3
+        },
+        {
+          "value": 568,
+          "controllers": 2
+        },
+        {
+          "value": 624,
+          "controllers": 2
+        },
+        {
+          "value": 640,
+          "controllers": 2
+        },
+        {
+          "value": 656,
+          "controllers": 3
+        },
+        {
+          "value": 680,
+          "controllers": 3
+        },
+        {
+          "value": 720,
+          "controllers": 1
+        },
+        {
+          "value": 744,
+          "controllers": 2
+        },
+        {
+          "value": 800,
+          "controllers": 1
+        },
+        {
+          "value": 840,
+          "controllers": 1
+        },
+        {
+          "value": 864,
+          "controllers": 2
+        },
+        {
+          "value": 888,
+          "controllers": 1
+        },
+        {
+          "value": 920,
+          "controllers": 1
+        },
+        {
+          "value": 952,
+          "controllers": 2
+        },
+        {
+          "value": 960,
+          "controllers": 2
+        },
+        {
+          "value": 1000,
+          "controllers": 2
+        },
+        {
+          "value": 1048,
+          "controllers": 1
+        },
+        {
+          "value": 1080,
+          "controllers": 2
+        },
+        {
+          "value": 1104,
+          "controllers": 1
+        },
+        {
+          "value": 1128,
+          "controllers": 1
+        },
+        {
+          "value": 1192,
+          "controllers": 3
+        },
+        {
+          "value": 1432,
+          "controllers": 1
+        }
+      ]
+    },
+    "serialized_bytes_saved": {
+      "count": 40,
+      "min": 0,
+      "max": 512,
+      "median": 0.0,
+      "mean": 78.4,
+      "histogram": [
+        {
+          "value": 0,
+          "controllers": 33
+        },
+        {
+          "value": 288,
+          "controllers": 2
+        },
+        {
+          "value": 512,
+          "controllers": 5
+        }
+      ]
+    },
+    "per_controller_byte_saving_fraction": {
+      "count": 40,
+      "min": 0.0,
+      "max": 0.4740740740740741,
+      "median": 0.0,
+      "mean": 0.05966889874928751,
+      "histogram": [
+        {
+          "value": 0.0,
+          "controllers": 33
+        },
+        {
+          "value": 0.23076923076923078,
+          "controllers": 1
+        },
+        {
+          "value": 0.26337448559670784,
+          "controllers": 1
+        },
+        {
+          "value": 0.3004694835680751,
+          "controllers": 1
+        },
+        {
+          "value": 0.3157894736842105,
+          "controllers": 1
+        },
+        {
+          "value": 0.3282051282051282,
+          "controllers": 1
+        },
+        {
+          "value": 0.4740740740740741,
+          "controllers": 2
+        }
+      ]
+    },
+    "service_only_admissions": {
+      "count": 40,
+      "min": 0,
+      "max": 42,
+      "median": 6.0,
+      "mean": 10.975,
+      "histogram": [
+        {
+          "value": 0,
+          "controllers": 13
+        },
+        {
+          "value": 4,
+          "controllers": 6
+        },
+        {
+          "value": 6,
+          "controllers": 2
+        },
+        {
+          "value": 12,
+          "controllers": 6
+        },
+        {
+          "value": 14,
+          "controllers": 5
+        },
+        {
+          "value": 17,
+          "controllers": 3
+        },
+        {
+          "value": 42,
+          "controllers": 5
+        }
+      ]
+    }
+  },
+  "input_binding_sha256": "bd2dc040338a26fab694af08328ac2f3d2c4659647a4dd41645d9967bac23c53",
+  "frozen_protocol_sha256": "7faaefd70844803d59e784ddd697d9267309b81139283119c340538f05b8112d",
+  "scope": "Specified constructed component model and explicit demonstration byte format only. No new workloads, controller execution, timings, hardware, traffic, energy, WCET, minimum-byte or native-HUSH/coherence claim."
+}

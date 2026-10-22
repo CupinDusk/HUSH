@@ -1,0 +1,59 @@
+{
+  "python_executable": "<BUNDLED_RUNTIME>\\python\\python.exe",
+  "python_sha256": "7c4ee3011932a75b30db176f35fb91b28f0b299e608eaf643fb1bf36ed5ace99",
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "python_flags": {
+    "dont_write_bytecode": true,
+    "utf8_mode": 1
+  },
+  "platform": "Windows-11-10.0.26200-SP0",
+  "architecture": "AMD64",
+  "zig_argv": [
+    "<WORKSPACE>\\.tools\\zig-0.14.1\\zig-x86_64-windows-0.14.1\\zig.exe",
+    "version"
+  ],
+  "zig_version": "0.14.1",
+  "zig_sha256": "1ddf230367e07738c4a769eae66c1db7469e37bd520e81c86356453d0db2b9fd",
+  "actual_yosys_version": "Yosys 0.70 (git sha1 28ba3cb92, Release, Clang /workspace/YoWASP/yosys/wasi-sdk-33.0-x86_64-linux/share/cmake/../..//bin/clang++ 22.1.0)",
+  "cxxrtl_runtime_files": {
+    "cxxrtl/capi/cxxrtl_capi.cc": {
+      "bytes": 4559,
+      "sha256": "e161fc07407b63b198e37057657d3ee8f1853d871b39c6af26c788d3033f5494"
+    },
+    "cxxrtl/capi/cxxrtl_capi.h": {
+      "bytes": 16719,
+      "sha256": "2e53569e39b12aa50725e68939a5d3f4e30062af86d062e057342fb189026ff5"
+    },
+    "cxxrtl/capi/cxxrtl_capi_vcd.cc": {
+      "bytes": 2815,
+      "sha256": "e40e882b8ead83c05682cfefcd2d7cde9f473197d63fb1597c9cc28e7077bd6f"
+    },
+    "cxxrtl/capi/cxxrtl_capi_vcd.h": {
+      "bytes": 4286,
+      "sha256": "3fa28112cfbbe882b82f02818576e3bbd9f0907deb9a6a949b8b92ba2692f3c3"
+    },
+    "cxxrtl/cxxrtl.h": {
+      "bytes": 73300,
+      "sha256": "f0b10970e58343d4992b0838c6729357e8c6c299ef26eaa36a344f1a741e0dcf"
+    },
+    "cxxrtl/cxxrtl_replay.h": {
+      "bytes": 30008,
+      "sha256": "ddb140cb79d8b5a1f832c2c8f4abdff3c2ba0583a430bf2994333198fb4f76cb"
+    },
+    "cxxrtl/cxxrtl_time.h": {
+      "bytes": 6174,
+      "sha256": "eb3231b971bb6d7cb95167bb5ae03f2901e2c15ed55af72c35e73038f00bfdb5"
+    },
+    "cxxrtl/cxxrtl_vcd.h": {
+      "bytes": 8637,
+      "sha256": "2f854e3b1edcf6b1a4c53162f158e184d1846eecf17ff8fa3f90f4ff49f45a30"
+    },
+    "README.txt": {
+      "bytes": 1195,
+      "sha256": "9fa21b73508f760a15309546c8cfc1da7130cc92939c7c8d06f3b88c9b7b95c5"
+    }
+  },
+  "no_remote_operations": true,
+  "no_environment_dump": true,
+  "no_performance_benchmark": true
+}

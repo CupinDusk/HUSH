@@ -1,0 +1,76 @@
+{
+  "attempt": "build-01",
+  "started_unix": 1792703017.087275,
+  "python": "<BUNDLED_RUNTIME>\\python\\python.exe",
+  "zig_sha256": "1ddf230367e07738c4a769eae66c1db7469e37bd520e81c86356453d0db2b9fd",
+  "yosys_wrapper_sha256": "30a9a408af8d9b5f2df60b6c961db42a1a0c861ad9fbdb90bd727fb1142d3ff9",
+  "inputs": {
+    "receiver.v": "378f441954505f614d17b9dab68596ef9284bbc1e62667843f8c09958436be53",
+    "driver.cpp": "b065b70750a0fd5a834cfd60304ffb170bb1de16d0b46be07967dde3e1753d05",
+    "PROTOCOL.json": "2b01630e8cd2c70860dcd821052dc3a745a2d3b7ade8e2ec4745baf625ffcc33",
+    "run_build.py": "758ead9072899d5b92a62fb781e7a3570294c7a2c4cdb1e3214b97c851114114"
+  },
+  "commands": [
+    {
+      "name": "yosys_version",
+      "argv": [
+        "<BUNDLED_RUNTIME>\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "<WORKSPACE>\\.tools\\run_iscas_yosys.py",
+        "-V"
+      ],
+      "returncode": 0,
+      "elapsed_seconds_not_performance_evidence": 0.276226282119751
+    },
+    {
+      "name": "synthesis",
+      "argv": [
+        "<BUNDLED_RUNTIME>\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "<WORKSPACE>\\.tools\\run_iscas_yosys.py",
+        "-p",
+        "read_verilog receiver.v; hierarchy -check -top receiver; prep -top receiver; check -assert; write_cxxrtl netlist.cpp"
+      ],
+      "returncode": 0,
+      "elapsed_seconds_not_performance_evidence": 0.4387474060058594
+    },
+    {
+      "name": "compile",
+      "argv": [
+        "<WORKSPACE>\\.tools\\zig-0.14.1\\zig-x86_64-windows-0.14.1\\zig.exe",
+        "c++",
+        "-std=c++17",
+        "-O3",
+        "-UNDEBUG",
+        "-I",
+        "<WORKSPACE>\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\backends\\cxxrtl\\runtime",
+        "driver.cpp",
+        "-o",
+        "simulate.exe"
+      ],
+      "returncode": 0,
+      "elapsed_seconds_not_performance_evidence": 2.6572110652923584
+    },
+    {
+      "name": "simulation",
+      "argv": [
+        "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r04-analysis\\hush-rtl\\build-01\\simulate.exe",
+        "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r04-analysis\\hush-rtl\\vectors-v2",
+        "<WORKSPACE>\\outputs\\iscas-final-polish-20261022\\r04-analysis\\hush-rtl\\build-01"
+      ],
+      "returncode": 0,
+      "elapsed_seconds_not_performance_evidence": 13.349679946899414
+    }
+  ],
+  "claim": "New reference RTL only; actual generated CXXRTL model required.",
+  "status": "EXECUTED_GENERATED_RTL_NETLIST",
+  "generated_sha256": {
+    "netlist.cpp": "b41df947e115fbe3502773c81e9993e6dafeb07db3e459cea91f01a586beed2f",
+    "simulate.exe": "8cab6b003e2938078a8481526f1076d8eeb6ed51573ffee2137b4de6f011acd8",
+    "RTL_RESULTS.json": "314f49d0e41cbbe2357a8e3bd27f0d96e4553696b608a6ee230d4c251e8a8e5e"
+  }
+}
