@@ -1,0 +1,9 @@
+{
+  "kind":"additional_controls_declared_before_their_execution",
+  "reason":"Provide the same-parameter boundary-WU comparison and a no-WU complete prefix requested by reviewer4.",
+  "controls":[
+    {"name":"same_policy_boundary_WU_cancelled","reads":[0,9,21,33],"WU":[9],"K":3,"P":5,"phi":1,"expected_first_miss":null},
+    {"name":"no_WU_complete_prefix","reads":[0,9,21,33],"WU":[],"K":3,"P":5,"phi":1,"expected_first_miss":null}
+  ],
+  "scope":"This addendum follows the initial corrected-model execution. It is not retroactively labeled part of the original protocol or an external preregistration."
+}

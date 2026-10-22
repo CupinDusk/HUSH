@@ -1,0 +1,37 @@
+{
+  "scope": "live primary source comparison; local historical bytes preserved",
+  "records": [
+    {
+      "local": "upstream-memtest.cc",
+      "url": "https://raw.githubusercontent.com/gem5/gem5/c8222cc67a399bfc01e8658dd14b30d5bfd634f9/src/cpu/testers/memtest/memtest.cc",
+      "local_sha256": "988b02584cf03061ae23cd42645d32223097c2151d7bc5ea3d21a04a01fd276a",
+      "remote_sha256": "988b02584cf03061ae23cd42645d32223097c2151d7bc5ea3d21a04a01fd276a",
+      "byte_equal": true,
+      "equal_ignoring_only_EOF_whitespace": true
+    },
+    {
+      "local": "upstream-packet-queue.cc",
+      "url": "https://raw.githubusercontent.com/gem5/gem5/c8222cc67a399bfc01e8658dd14b30d5bfd634f9/src/mem/packet_queue.cc",
+      "local_sha256": "b19eea4a28d1b9bbd34e04c38a4845caf8d4750def78d124e2787ee4b47d9f6a",
+      "remote_sha256": "b19eea4a28d1b9bbd34e04c38a4845caf8d4750def78d124e2787ee4b47d9f6a",
+      "byte_equal": true,
+      "equal_ignoring_only_EOF_whitespace": true
+    },
+    {
+      "local": "upstream-base.cc",
+      "url": "https://raw.githubusercontent.com/gem5/gem5/c8222cc67a399bfc01e8658dd14b30d5bfd634f9/src/mem/cache/base.cc",
+      "local_sha256": "7b46731f463b4984e6c134ce4403f4337a66a66889f13be6aa01411a69dc3e9b",
+      "remote_sha256": "c5fbaa3709782fd65a0d06168186add947ae04cc516dc8ef7c8cf29dc2f17da7",
+      "byte_equal": false,
+      "equal_ignoring_only_EOF_whitespace": true
+    },
+    {
+      "local": "upstream-clocked-object.hh",
+      "url": "https://raw.githubusercontent.com/gem5/gem5/c8222cc67a399bfc01e8658dd14b30d5bfd634f9/src/sim/clocked_object.hh",
+      "local_sha256": "4cdbd7021d31f3bc6e6d644f991680ac45c69ebb20fdc8e3b6fefe04430052f8",
+      "remote_sha256": "4964605bb2bd90d63f034fcf1b0490ac10c4d6d28fc938f955bc776864327287",
+      "byte_equal": false,
+      "equal_ignoring_only_EOF_whitespace": true
+    }
+  ]
+}

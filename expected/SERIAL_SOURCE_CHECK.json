@@ -1,0 +1,8 @@
+{
+  "source_cases": 160,
+  "callback_edges": 1920,
+  "maximum_delay_pairs": 1760,
+  "rejected_variants": 2,
+  "source_events_sha256": "2f0c52d7b6f6ebe363a1e2c9b1c4642572c290140b08b2745fb991e1cbdc6398",
+  "public_source_sha256": "988b02584cf03061ae23cd42645d32223097c2151d7bc5ea3d21a04a01fd276a"
+}

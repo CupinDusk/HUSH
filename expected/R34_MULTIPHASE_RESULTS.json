@@ -1,0 +1,821 @@
+{
+  "result": "PASS_EXISTING_MULTIPHASE_PRODUCER_NEW_POLICY_EXECUTIONS_AND_ALL_WU_REPLAY",
+  "protocol_sha256": "d31bf6e4bf20803f20e77b088ce8e6ff9151e27b1556ae841e36246ef35666be",
+  "argument_sha256": "1369722f2f7277b1e13fda3ac7ebeb4dd5153989e5de0b10ac26a2375385ed96",
+  "script_sha256": "d9bcf673461ab70d49b24f0d183f41e4d64a8c686c25519c6183f54be7c19a41",
+  "driver_sha256": "84bcb5b14016c1ed4d69cbdde2146b40a820c89e88fa24b89d996c32864297ef",
+  "unchanged_receiver_sha256": "c8f1cddfad9b75b7a1ddfa9eaf489ce1ac0e8c2e0a3fad585bffea6932f85d59",
+  "generated_source_sha256": "bb80c2e06932ef297dec988be1c7c4935f8b2771e199b23a65e853d949a38116",
+  "source_records_sha256": "f6d6c478bb491dac82925a2103073a5230187446d340ca17924f0e04033ce621",
+  "graph_sha256": "6c30f3003d7a4e63a4192f9f296906faee6c1893be8969de4d5edfbce1a50514",
+  "theory": {
+    "prior_family_result_sha256": "982c6291ed298a8bd87e3f36dc979dd5d0fac6deea493322fb063b6246e69350",
+    "selected_case_id": 1598,
+    "base_triples": [
+      [
+        0,
+        12,
+        35
+      ],
+      [
+        35,
+        48,
+        70
+      ],
+      [
+        70,
+        84,
+        105
+      ],
+      [
+        105,
+        120,
+        140
+      ],
+      [
+        140,
+        156,
+        175
+      ],
+      [
+        175,
+        192,
+        210
+      ],
+      [
+        210,
+        228,
+        245
+      ],
+      [
+        245,
+        264,
+        280
+      ],
+      [
+        280,
+        300,
+        315
+      ],
+      [
+        315,
+        336,
+        350
+      ],
+      [
+        350,
+        372,
+        385
+      ],
+      [
+        385,
+        408,
+        420
+      ]
+    ],
+    "translation": 420,
+    "J": 23,
+    "A": 23,
+    "joint_witnesses": 0,
+    "raw_terms": 12,
+    "full_master_terms": 12,
+    "stored_g": 140,
+    "stored_pairs": [
+      [
+        0,
+        35
+      ],
+      [
+        35,
+        35
+      ],
+      [
+        70,
+        35
+      ],
+      [
+        105,
+        35
+      ]
+    ],
+    "divisors": {
+      "1": {
+        "pairs": [
+          [
+            0,
+            35
+          ]
+        ],
+        "supports_g140": true
+      },
+      "2": {
+        "pairs": [
+          [
+            0,
+            35
+          ],
+          [
+            1,
+            35
+          ]
+        ],
+        "supports_g140": true
+      },
+      "3": {
+        "pairs": [
+          [
+            0,
+            35
+          ],
+          [
+            1,
+            35
+          ],
+          [
+            2,
+            35
+          ]
+        ],
+        "supports_g140": false
+      },
+      "4": {
+        "pairs": [
+          [
+            0,
+            35
+          ],
+          [
+            1,
+            35
+          ],
+          [
+            2,
+            35
+          ],
+          [
+            3,
+            35
+          ]
+        ],
+        "supports_g140": true
+      },
+      "5": {
+        "pairs": [
+          [
+            0,
+            35
+          ]
+        ],
+        "supports_g140": true
+      },
+      "6": {
+        "pairs": [
+          [
+            0,
+            35
+          ],
+          [
+            1,
+            35
+          ],
+          [
+            2,
+            35
+          ],
+          [
+            3,
+            35
+          ],
+          [
+            4,
+            35
+          ],
+          [
+            5,
+            35
+          ]
+        ],
+        "supports_g140": false
+      },
+      "7": {
+        "pairs": [
+          [
+            0,
+            35
+          ]
+        ],
+        "supports_g140": true
+      },
+      "10": {
+        "pairs": [
+          [
+            0,
+            35
+          ],
+          [
+            5,
+            35
+          ]
+        ],
+        "supports_g140": true
+      },
+      "12": {
+        "pairs": [
+          [
+            0,
+            35
+          ],
+          [
+            1,
+            35
+          ],
+          [
+            2,
+            35
+          ],
+          [
+            3,
+            35
+          ],
+          [
+            4,
+            35
+          ],
+          [
+            5,
+            35
+          ],
+          [
+            6,
+            35
+          ],
+          [
+            7,
+            35
+          ],
+          [
+            8,
+            35
+          ],
+          [
+            9,
+            35
+          ],
+          [
+            10,
+            35
+          ],
+          [
+            11,
+            35
+          ]
+        ],
+        "supports_g140": false
+      },
+      "14": {
+        "pairs": [
+          [
+            0,
+            35
+          ],
+          [
+            7,
+            35
+          ]
+        ],
+        "supports_g140": true
+      },
+      "15": {
+        "pairs": [
+          [
+            0,
+            35
+          ],
+          [
+            5,
+            35
+          ],
+          [
+            10,
+            35
+          ]
+        ],
+        "supports_g140": false
+      },
+      "20": {
+        "pairs": [
+          [
+            0,
+            35
+          ],
+          [
+            5,
+            35
+          ],
+          [
+            10,
+            35
+          ],
+          [
+            15,
+            35
+          ]
+        ],
+        "supports_g140": true
+      },
+      "21": {
+        "pairs": [
+          [
+            0,
+            35
+          ],
+          [
+            7,
+            35
+          ],
+          [
+            14,
+            35
+          ]
+        ],
+        "supports_g140": false
+      },
+      "28": {
+        "pairs": [
+          [
+            0,
+            35
+          ],
+          [
+            7,
+            35
+          ],
+          [
+            14,
+            35
+          ],
+          [
+            21,
+            35
+          ]
+        ],
+        "supports_g140": true
+      },
+      "30": {
+        "pairs": [
+          [
+            0,
+            35
+          ],
+          [
+            5,
+            35
+          ],
+          [
+            10,
+            35
+          ],
+          [
+            15,
+            35
+          ],
+          [
+            20,
+            35
+          ],
+          [
+            25,
+            35
+          ]
+        ],
+        "supports_g140": false
+      },
+      "35": {
+        "pairs": [
+          [
+            0,
+            35
+          ]
+        ],
+        "supports_g140": true
+      },
+      "42": {
+        "pairs": [
+          [
+            0,
+            35
+          ],
+          [
+            7,
+            35
+          ],
+          [
+            14,
+            35
+          ],
+          [
+            21,
+            35
+          ],
+          [
+            28,
+            35
+          ],
+          [
+            35,
+            35
+          ]
+        ],
+        "supports_g140": false
+      },
+      "60": {
+        "pairs": [
+          [
+            0,
+            35
+          ],
+          [
+            5,
+            35
+          ],
+          [
+            10,
+            35
+          ],
+          [
+            15,
+            35
+          ],
+          [
+            20,
+            35
+          ],
+          [
+            25,
+            35
+          ],
+          [
+            30,
+            35
+          ],
+          [
+            35,
+            35
+          ],
+          [
+            40,
+            35
+          ],
+          [
+            45,
+            35
+          ],
+          [
+            50,
+            35
+          ],
+          [
+            55,
+            35
+          ]
+        ],
+        "supports_g140": false
+      },
+      "70": {
+        "pairs": [
+          [
+            0,
+            35
+          ],
+          [
+            35,
+            35
+          ]
+        ],
+        "supports_g140": true
+      },
+      "84": {
+        "pairs": [
+          [
+            0,
+            35
+          ],
+          [
+            7,
+            35
+          ],
+          [
+            14,
+            35
+          ],
+          [
+            21,
+            35
+          ],
+          [
+            28,
+            35
+          ],
+          [
+            35,
+            35
+          ],
+          [
+            42,
+            35
+          ],
+          [
+            49,
+            35
+          ],
+          [
+            56,
+            35
+          ],
+          [
+            63,
+            35
+          ],
+          [
+            70,
+            35
+          ],
+          [
+            77,
+            35
+          ]
+        ],
+        "supports_g140": false
+      },
+      "105": {
+        "pairs": [
+          [
+            0,
+            35
+          ],
+          [
+            35,
+            35
+          ],
+          [
+            70,
+            35
+          ]
+        ],
+        "supports_g140": false
+      },
+      "140": {
+        "pairs": [
+          [
+            0,
+            35
+          ],
+          [
+            35,
+            35
+          ],
+          [
+            70,
+            35
+          ],
+          [
+            105,
+            35
+          ]
+        ],
+        "supports_g140": true
+      },
+      "210": {
+        "pairs": [
+          [
+            0,
+            35
+          ],
+          [
+            35,
+            35
+          ],
+          [
+            70,
+            35
+          ],
+          [
+            105,
+            35
+          ],
+          [
+            140,
+            35
+          ],
+          [
+            175,
+            35
+          ]
+        ],
+        "supports_g140": false
+      },
+      "420": {
+        "pairs": [
+          [
+            0,
+            35
+          ],
+          [
+            35,
+            35
+          ],
+          [
+            70,
+            35
+          ],
+          [
+            105,
+            35
+          ],
+          [
+            140,
+            35
+          ],
+          [
+            175,
+            35
+          ],
+          [
+            210,
+            35
+          ],
+          [
+            245,
+            35
+          ],
+          [
+            280,
+            35
+          ],
+          [
+            315,
+            35
+          ],
+          [
+            350,
+            35
+          ],
+          [
+            385,
+            35
+          ]
+        ],
+        "supports_g140": false
+      }
+    },
+    "illustrative_policies": [
+      {
+        "K": 2,
+        "P": 40,
+        "phi": 1,
+        "query_m": 20,
+        "physical_B": 40,
+        "service_pairs": [
+          [
+            0,
+            35
+          ],
+          [
+            5,
+            35
+          ],
+          [
+            10,
+            35
+          ],
+          [
+            15,
+            35
+          ]
+        ],
+        "fair_completion_pairs": [
+          [
+            1,
+            46
+          ],
+          [
+            5,
+            46
+          ],
+          [
+            9,
+            46
+          ],
+          [
+            13,
+            46
+          ],
+          [
+            17,
+            46
+          ]
+        ],
+        "exact_slack": 6,
+        "completion_bound": -2,
+        "service_terms": 4,
+        "completion_terms": 5
+      },
+      {
+        "K": 5,
+        "P": 10,
+        "phi": 1,
+        "query_m": 10,
+        "physical_B": 40,
+        "service_pairs": [
+          [
+            0,
+            35
+          ],
+          [
+            5,
+            35
+          ]
+        ],
+        "fair_completion_pairs": [
+          [
+            1,
+            46
+          ],
+          [
+            3,
+            46
+          ],
+          [
+            5,
+            46
+          ],
+          [
+            7,
+            46
+          ],
+          [
+            9,
+            46
+          ]
+        ],
+        "exact_slack": 6,
+        "completion_bound": -4,
+        "service_terms": 2,
+        "completion_terms": 5
+      }
+    ],
+    "new_scalar_queries": 17850,
+    "nonpositive_unknown_retained": 4420,
+    "positive_queries": 13430,
+    "g140_unsupported_queries_need_master_or_producer": 6090,
+    "raw_canonical_terminology_example": "PASS"
+  },
+  "source_coupled_runs": 8192,
+  "accepted_reads": 270336,
+  "callbacks": 262144,
+  "negative_controls": [
+    {
+      "kind": "coupled",
+      "policy": 0,
+      "mask": 0,
+      "negative": 1,
+      "invalid": 0,
+      "services": [
+        0
+      ],
+      "receipts": [
+        12
+      ],
+      "last": 35
+    },
+    {
+      "kind": "coupled",
+      "policy": 0,
+      "mask": 0,
+      "negative": 0,
+      "invalid": 1,
+      "services": [],
+      "receipts": [],
+      "last": 0
+    }
+  ],
+  "graphs": [
+    {
+      "kind": "summary",
+      "policy": 0,
+      "period": 840,
+      "states": 2034,
+      "edges": 4068
+    },
+    {
+      "kind": "summary",
+      "policy": 1,
+      "period": 420,
+      "states": 1584,
+      "edges": 3168
+    }
+  ],
+  "states": 3618,
+  "edges_replayed": 7236,
+  "scope": "Existing pinned-source family member, same authored receiver. New local policies and analyses; no new hardware/native conformance. Selected runs are samples; all-word coverage relies on manual schedule/congruence and fixed-schedule graph. Independent arithmetic replay shares predecessor/configuration/input. All unfavorable outcomes retained; no measured runtime/bytes/application gain."
+}

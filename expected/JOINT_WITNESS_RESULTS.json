@@ -1,0 +1,248 @@
+{
+  "result": "PASS_JOINT_SLACK_WITNESSES_AND_POLICY_DECISIONS",
+  "scope": "All new results are mathematical and source-function/stub/component checks. No extra source execution is claimed by this checker; the existing mixed source run remains separately bound by its hash. No hardware, performance, area, energy or whole-program analyzer advantage is inferred.",
+  "protocol_sha256": "7bab43964cdfef7ea6a78a59d28d11202da686182914ffd4530c26b87573bc53",
+  "script_sha256": "942dcd945475abe88f75597c6261c21eb65be1edbefb7f054749294a3a3d5238",
+  "mixed_source_result_sha256": "946fac6a099084ae9c7043c3bf1a626910188cfd3e14d6ec01be86fd6ed18a72",
+  "counts": {
+    "triple_relations": 5512,
+    "phase_load_queries": 32320,
+    "all_policy_equal_relations": 899,
+    "disagreements": 0
+  },
+  "nonjoint_example": {
+    "C": [
+      12
+    ],
+    "J": 3,
+    "A": 3,
+    "triples": [
+      [
+        9,
+        12,
+        12
+      ],
+      [
+        11,
+        12,
+        15
+      ]
+    ],
+    "K": 2,
+    "P": 4,
+    "phi": 2,
+    "M": 2,
+    "abstract_slack": -1,
+    "actual_slack": 2,
+    "separate_global_extrema_tight": true,
+    "joint_extremum_present": false
+  },
+  "mixed_load_bound_checks": 372,
+  "mixed_configs_with_one_count_gain": 90,
+  "raw_policy_queries": 118083,
+  "unique_compared_interfaces": 93,
+  "unique_policy_queries": 28581,
+  "unique_certification_counts": {
+    "RP": 25026,
+    "PP": 22734,
+    "RU": 24861,
+    "history": 25026,
+    "actual_phase": 25026,
+    "strong_service_uniform": 24861,
+    "gain_both": 165,
+    "gain_strong_uniform": 165
+  },
+  "main_safe_phases": [
+    0,
+    1,
+    4
+  ],
+  "controls": {
+    "2": {
+      "reads": [
+        [
+          3,
+          true
+        ],
+        [
+          11,
+          true
+        ],
+        [
+          28,
+          false
+        ]
+      ],
+      "first_miss": 28,
+      "events": [
+        {
+          "tick": 3,
+          "slot": 2,
+          "event": "read",
+          "generation": 0,
+          "hit": true
+        },
+        {
+          "tick": 3,
+          "slot": 3,
+          "event": "cancel_after_hit",
+          "generation": 1
+        },
+        {
+          "tick": 11,
+          "slot": 2,
+          "event": "read",
+          "generation": 1,
+          "hit": true
+        },
+        {
+          "tick": 11,
+          "slot": 3,
+          "event": "cancel_after_hit",
+          "generation": 2
+        },
+        {
+          "tick": 12,
+          "slot": 0,
+          "event": "WU_load",
+          "generation": 3,
+          "count": 4
+        },
+        {
+          "tick": 12,
+          "slot": 1,
+          "event": "decrement",
+          "generation": 3,
+          "count": 3
+        },
+        {
+          "tick": 17,
+          "slot": 1,
+          "event": "decrement",
+          "generation": 3,
+          "count": 2
+        },
+        {
+          "tick": 22,
+          "slot": 1,
+          "event": "decrement",
+          "generation": 3,
+          "count": 1
+        },
+        {
+          "tick": 27,
+          "slot": 1,
+          "event": "decrement",
+          "generation": 3,
+          "count": 0
+        },
+        {
+          "tick": 27,
+          "slot": 1,
+          "event": "expiry",
+          "generation": 3
+        },
+        {
+          "tick": 28,
+          "slot": 2,
+          "event": "read",
+          "generation": 3,
+          "hit": false
+        }
+      ]
+    },
+    "3": {
+      "reads": [
+        [
+          3,
+          true
+        ],
+        [
+          11,
+          true
+        ],
+        [
+          28,
+          false
+        ]
+      ],
+      "first_miss": 28,
+      "events": [
+        {
+          "tick": 3,
+          "slot": 2,
+          "event": "read",
+          "generation": 0,
+          "hit": true
+        },
+        {
+          "tick": 3,
+          "slot": 3,
+          "event": "cancel_after_hit",
+          "generation": 1
+        },
+        {
+          "tick": 11,
+          "slot": 2,
+          "event": "read",
+          "generation": 1,
+          "hit": true
+        },
+        {
+          "tick": 11,
+          "slot": 3,
+          "event": "cancel_after_hit",
+          "generation": 2
+        },
+        {
+          "tick": 12,
+          "slot": 0,
+          "event": "WU_load",
+          "generation": 3,
+          "count": 4
+        },
+        {
+          "tick": 13,
+          "slot": 1,
+          "event": "decrement",
+          "generation": 3,
+          "count": 3
+        },
+        {
+          "tick": 18,
+          "slot": 1,
+          "event": "decrement",
+          "generation": 3,
+          "count": 2
+        },
+        {
+          "tick": 23,
+          "slot": 1,
+          "event": "decrement",
+          "generation": 3,
+          "count": 1
+        },
+        {
+          "tick": 28,
+          "slot": 1,
+          "event": "decrement",
+          "generation": 3,
+          "count": 0
+        },
+        {
+          "tick": 28,
+          "slot": 1,
+          "event": "expiry",
+          "generation": 3
+        },
+        {
+          "tick": 28,
+          "slot": 2,
+          "event": "read",
+          "generation": 3,
+          "hit": false
+        }
+      ]
+    }
+  }
+}

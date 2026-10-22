@@ -1,0 +1,16 @@
+{
+  "status": "prospective_before_execution",
+  "scope": "Second own specified callback-driven two-mode producer, composed with the unchanged logical endpoint; not a native application or cache implementation",
+  "parameters": "Integer p=3..12 and every 1<=a<b<p (220 cases)",
+  "source": "Initial read at a in mode 1. On each actual callback, mode 0 chooses delay a or a+p, mode 1 chooses b or b+p. Bit 0 flips mode; bit 1 preserves it. The next read occurs after the selected positive delay. Branch bits are external and independent at every callback.",
+  "receiver": "Unchanged endpoint_implementation.hpp: countdown plus two response registers, one valid byte, one outstanding read, dedicated WU and response sink; byte=0 for the control quotient",
+  "relation": "Sound periodic enclosure with translation p: s in {a,b}, c=2p, h in {2p+a,3p+a,2p+b,3p+b}, retaining mode/branch labels. Not a claim that every translated edge is reachable from initial entry.",
+  "canonical_prediction": "Raw phase spans nu_a=3p+b-a and nu_b=3p. Canonical p-master is the single pair (a,3p+b-a). Equal-information completion canonicalization is the same single pair.",
+  "installations": [{"K":2,"P":"3p","phi":"a","predicted_slack":"p-b+a"},{"K":3,"P":"2p","phi":"a+1","predicted_slack":"p+1-b+a"}],
+  "execution": "For all 220 parameter cases and both installations, exhaustive joint source/receiver BFS over each WU bit and each branch bit at an actual callback. Source calls the real unchanged endpoint; no computed callback or receipt targets are injected.",
+  "quotient": "Time modulo lcm(p,P), endpoint validity/enabled/count/data and two registers, source mode/waiting/delay, service age and next-service age ghost. Request ID 1 is reused only after callback; one outstanding request precludes live alias. Control bytes are fixed zero, not arbitrary payload validation.",
+  "independent_replay": "Python reconstructs absolute expiry from remaining counts, recomputes register callback by ceil latency from last-service age rather than simulating register shifts, and computes source branching from actual callback. It compares complete successor states and read/receipt/expiry observations for every C++ BFS edge.",
+  "scalar_queries": "For each parameter case, every P=1..3p, phi=0..P-1, K in {1,2,3}; compare p-master projection with explicit enclosure expansion over P/gcd(P,p) translations. Retain every nonpositive answer.",
+  "negative_controls": "p=9,a=2,b=7: K2/P18/phi3 and WU at tick3, initial branch bit1 must expire at21 and reject read34; invalid entry must reject first read2.",
+  "reporting": "Retain full graphs, all failed checks and nonpositive results. BFS counts are verification work, not measured performance or independent real-workload breadth. Prospective relation is a sound enclosure, not an exact reachable relation. No claim of improved policy against equally informed/reduced baselines."
+}

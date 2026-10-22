@@ -1,0 +1,576 @@
+{
+  "scope": "Corrected global read/WU semantics and mathematical earliest-arm queries. Retain R16 negative reviews and all old PDFs/archives; record the invalid client-level interpretation explicitly. No source callback, native cache, application, workload-prevalence or performance evidence is fabricated.",
+  "protocol_sha256": "6e2f0296eef002eb9aeda9f95b2c309d96ff52496fb40bef9f2f5c00b30fd775",
+  "script_sha256": "ba64b5a7604696cc9ce393453e9fede39e8be7ec542b35a840a7ea1f69d0ab3b",
+  "argument_sha256": "7f77627d0df2cc48e8f09ec361d77128ab22700b392028f3a83c9826a4d0941e",
+  "control_addendum_sha256": "daa89d5a97215566a243101d73ce61511e217a56e1a180009d1407a27814629f",
+  "reused_source_events_sha256": "2f0c52d7b6f6ebe363a1e2c9b1c4642572c290140b08b2745fb991e1cbdc6398",
+  "new_source_function_execution": false,
+  "static_queries_precede_reused_event_read": true,
+  "order": [
+    "revoke",
+    "WU (valid copy only)",
+    "decrement/expiry",
+    "read decision; cancel timer only on a hit"
+  ],
+  "counts": {
+    "reused_source_scenarios": 160,
+    "shifted_source_policy_queries": 11520,
+    "aligned_complete_boundary_histories": 33720,
+    "aligned_actual_misses": 0,
+    "finite_phase_histories": 240,
+    "finite_phase_misses": 0,
+    "shifted_residue_inputs": 480,
+    "shifted_residue_phase_queries": 2484,
+    "shifted_relation_inputs": 8190,
+    "shifted_relation_phase_queries": 31664,
+    "shifted_all_phase_equalities": 918
+  },
+  "finite_phase_case": {
+    "C": [
+      20,
+      32
+    ],
+    "J": 11,
+    "G": 1,
+    "K": 3,
+    "P": 5,
+    "phi": 4,
+    "M1": 2,
+    "Gamma1": 2,
+    "RU1_margin": 0,
+    "PP1_margin": -8
+  },
+  "controls": {
+    "withdraw_old_false_miss": {
+      "configuration": {
+        "name": "withdraw_old_false_miss",
+        "reads": [
+          0,
+          9,
+          21
+        ],
+        "WU": [
+          9
+        ],
+        "K": 4,
+        "P": 4,
+        "phi": 1,
+        "expected_read21_hit": true
+      },
+      "trace": {
+        "reads": [
+          [
+            0,
+            true
+          ],
+          [
+            9,
+            true
+          ],
+          [
+            21,
+            true
+          ]
+        ],
+        "first_miss": null,
+        "events": [
+          {
+            "tick": 0,
+            "slot": 2,
+            "event": "read",
+            "generation": 0,
+            "hit": true
+          },
+          {
+            "tick": 0,
+            "slot": 3,
+            "event": "cancel_after_hit",
+            "generation": 1
+          },
+          {
+            "tick": 9,
+            "slot": 0,
+            "event": "WU_load",
+            "generation": 2,
+            "count": 4
+          },
+          {
+            "tick": 9,
+            "slot": 1,
+            "event": "decrement",
+            "generation": 2,
+            "count": 3
+          },
+          {
+            "tick": 9,
+            "slot": 2,
+            "event": "read",
+            "generation": 2,
+            "hit": true
+          },
+          {
+            "tick": 9,
+            "slot": 3,
+            "event": "cancel_after_hit",
+            "generation": 3
+          },
+          {
+            "tick": 21,
+            "slot": 2,
+            "event": "read",
+            "generation": 3,
+            "hit": true
+          },
+          {
+            "tick": 21,
+            "slot": 3,
+            "event": "cancel_after_hit",
+            "generation": 4
+          }
+        ]
+      },
+      "legacy_interval_model_hit": false
+    },
+    "new_wrong_phase": {
+      "configuration": {
+        "name": "new_wrong_phase",
+        "reads": [
+          0,
+          9,
+          21,
+          33
+        ],
+        "WU": [
+          10
+        ],
+        "K": 3,
+        "P": 5,
+        "phi": 1,
+        "assumed_phi": 4,
+        "expected_first_miss": 21,
+        "actual_M1": 1,
+        "stale_M1": 2
+      },
+      "trace": {
+        "reads": [
+          [
+            0,
+            true
+          ],
+          [
+            9,
+            true
+          ],
+          [
+            21,
+            false
+          ]
+        ],
+        "first_miss": 21,
+        "events": [
+          {
+            "tick": 0,
+            "slot": 2,
+            "event": "read",
+            "generation": 0,
+            "hit": true
+          },
+          {
+            "tick": 0,
+            "slot": 3,
+            "event": "cancel_after_hit",
+            "generation": 1
+          },
+          {
+            "tick": 9,
+            "slot": 2,
+            "event": "read",
+            "generation": 1,
+            "hit": true
+          },
+          {
+            "tick": 9,
+            "slot": 3,
+            "event": "cancel_after_hit",
+            "generation": 2
+          },
+          {
+            "tick": 10,
+            "slot": 0,
+            "event": "WU_load",
+            "generation": 3,
+            "count": 3
+          },
+          {
+            "tick": 11,
+            "slot": 1,
+            "event": "decrement",
+            "generation": 3,
+            "count": 2
+          },
+          {
+            "tick": 16,
+            "slot": 1,
+            "event": "decrement",
+            "generation": 3,
+            "count": 1
+          },
+          {
+            "tick": 21,
+            "slot": 1,
+            "event": "decrement",
+            "generation": 3,
+            "count": 0
+          },
+          {
+            "tick": 21,
+            "slot": 1,
+            "event": "expiry",
+            "generation": 3
+          },
+          {
+            "tick": 21,
+            "slot": 2,
+            "event": "read",
+            "generation": 3,
+            "hit": false
+          }
+        ]
+      }
+    },
+    "extend_horizon": {
+      "configuration": {
+        "name": "extend_horizon",
+        "reads": [
+          0,
+          9,
+          21,
+          33,
+          45
+        ],
+        "WU": [
+          34
+        ],
+        "K": 3,
+        "P": 5,
+        "phi": 4,
+        "expected_first_miss": 45,
+        "C3_M1": 0
+      },
+      "trace": {
+        "reads": [
+          [
+            0,
+            true
+          ],
+          [
+            9,
+            true
+          ],
+          [
+            21,
+            true
+          ],
+          [
+            33,
+            true
+          ],
+          [
+            45,
+            false
+          ]
+        ],
+        "first_miss": 45,
+        "events": [
+          {
+            "tick": 0,
+            "slot": 2,
+            "event": "read",
+            "generation": 0,
+            "hit": true
+          },
+          {
+            "tick": 0,
+            "slot": 3,
+            "event": "cancel_after_hit",
+            "generation": 1
+          },
+          {
+            "tick": 9,
+            "slot": 2,
+            "event": "read",
+            "generation": 1,
+            "hit": true
+          },
+          {
+            "tick": 9,
+            "slot": 3,
+            "event": "cancel_after_hit",
+            "generation": 2
+          },
+          {
+            "tick": 21,
+            "slot": 2,
+            "event": "read",
+            "generation": 2,
+            "hit": true
+          },
+          {
+            "tick": 21,
+            "slot": 3,
+            "event": "cancel_after_hit",
+            "generation": 3
+          },
+          {
+            "tick": 33,
+            "slot": 2,
+            "event": "read",
+            "generation": 3,
+            "hit": true
+          },
+          {
+            "tick": 33,
+            "slot": 3,
+            "event": "cancel_after_hit",
+            "generation": 4
+          },
+          {
+            "tick": 34,
+            "slot": 0,
+            "event": "WU_load",
+            "generation": 5,
+            "count": 3
+          },
+          {
+            "tick": 34,
+            "slot": 1,
+            "event": "decrement",
+            "generation": 5,
+            "count": 2
+          },
+          {
+            "tick": 39,
+            "slot": 1,
+            "event": "decrement",
+            "generation": 5,
+            "count": 1
+          },
+          {
+            "tick": 44,
+            "slot": 1,
+            "event": "decrement",
+            "generation": 5,
+            "count": 0
+          },
+          {
+            "tick": 44,
+            "slot": 1,
+            "event": "expiry",
+            "generation": 5
+          },
+          {
+            "tick": 45,
+            "slot": 2,
+            "event": "read",
+            "generation": 5,
+            "hit": false
+          }
+        ]
+      }
+    },
+    "same_policy_boundary_WU_cancelled": {
+      "configuration": {
+        "name": "same_policy_boundary_WU_cancelled",
+        "reads": [
+          0,
+          9,
+          21,
+          33
+        ],
+        "WU": [
+          9
+        ],
+        "K": 3,
+        "P": 5,
+        "phi": 1,
+        "expected_first_miss": null
+      },
+      "trace": {
+        "reads": [
+          [
+            0,
+            true
+          ],
+          [
+            9,
+            true
+          ],
+          [
+            21,
+            true
+          ],
+          [
+            33,
+            true
+          ]
+        ],
+        "first_miss": null,
+        "events": [
+          {
+            "tick": 0,
+            "slot": 2,
+            "event": "read",
+            "generation": 0,
+            "hit": true
+          },
+          {
+            "tick": 0,
+            "slot": 3,
+            "event": "cancel_after_hit",
+            "generation": 1
+          },
+          {
+            "tick": 9,
+            "slot": 0,
+            "event": "WU_load",
+            "generation": 2,
+            "count": 3
+          },
+          {
+            "tick": 9,
+            "slot": 2,
+            "event": "read",
+            "generation": 2,
+            "hit": true
+          },
+          {
+            "tick": 9,
+            "slot": 3,
+            "event": "cancel_after_hit",
+            "generation": 3
+          },
+          {
+            "tick": 21,
+            "slot": 2,
+            "event": "read",
+            "generation": 3,
+            "hit": true
+          },
+          {
+            "tick": 21,
+            "slot": 3,
+            "event": "cancel_after_hit",
+            "generation": 4
+          },
+          {
+            "tick": 33,
+            "slot": 2,
+            "event": "read",
+            "generation": 4,
+            "hit": true
+          },
+          {
+            "tick": 33,
+            "slot": 3,
+            "event": "cancel_after_hit",
+            "generation": 5
+          }
+        ]
+      }
+    },
+    "no_WU_complete_prefix": {
+      "configuration": {
+        "name": "no_WU_complete_prefix",
+        "reads": [
+          0,
+          9,
+          21,
+          33
+        ],
+        "WU": [],
+        "K": 3,
+        "P": 5,
+        "phi": 1,
+        "expected_first_miss": null
+      },
+      "trace": {
+        "reads": [
+          [
+            0,
+            true
+          ],
+          [
+            9,
+            true
+          ],
+          [
+            21,
+            true
+          ],
+          [
+            33,
+            true
+          ]
+        ],
+        "first_miss": null,
+        "events": [
+          {
+            "tick": 0,
+            "slot": 2,
+            "event": "read",
+            "generation": 0,
+            "hit": true
+          },
+          {
+            "tick": 0,
+            "slot": 3,
+            "event": "cancel_after_hit",
+            "generation": 1
+          },
+          {
+            "tick": 9,
+            "slot": 2,
+            "event": "read",
+            "generation": 1,
+            "hit": true
+          },
+          {
+            "tick": 9,
+            "slot": 3,
+            "event": "cancel_after_hit",
+            "generation": 2
+          },
+          {
+            "tick": 21,
+            "slot": 2,
+            "event": "read",
+            "generation": 2,
+            "hit": true
+          },
+          {
+            "tick": 21,
+            "slot": 3,
+            "event": "cancel_after_hit",
+            "generation": 3
+          },
+          {
+            "tick": 33,
+            "slot": 2,
+            "event": "read",
+            "generation": 3,
+            "hit": true
+          },
+          {
+            "tick": 33,
+            "slot": 3,
+            "event": "cancel_after_hit",
+            "generation": 4
+          }
+        ]
+      }
+    }
+  },
+  "all_model_or_theorem_disagreements": 0,
+  "legacy_false_miss_interpretation_withdrawn": true
+}

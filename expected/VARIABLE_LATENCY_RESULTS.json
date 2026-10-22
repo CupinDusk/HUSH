@@ -1,0 +1,566 @@
+{
+  "result": "PASS_VARIABLE_LATENCY_PUBLIC_SOURCE_AND_CLOSED_PHASE_GRAPH",
+  "protocol_sha256": "69614f9a5b8eb8e0e5e1bf4b800260959eabb028db7dbe62a695a733fc16628b",
+  "script_sha256": "9baa6f5cb4289007538f16a12857af94fa322b25c129822913d662e2c295b35c",
+  "driver_sha256": "006ca73e3de7b76538a93aef87a7b359edc60536083ce80b9c2cd3eb47fae4ff",
+  "public_source_sha256": "988b02584cf03061ae23cd42645d32223097c2151d7bc5ea3d21a04a01fd276a",
+  "source_events_sha256": "3aa17a07605936115b00906898d01d2eefb9ba5dfb60ae3d29dab5a4e9af20cf",
+  "generated_source_sha256": "8f3016f1c535d5dca3e868cd3af786ba34b9d5c365e9bbeb6c66117e7feac703",
+  "binary_sha256": "e3335ec243efd472b093219b502877ceb1a69faffc4cd7892b7cc91456d55a1f",
+  "function_bindings": [
+    {
+      "name": "MemTest::tick",
+      "first_line": 235,
+      "last_line": 364,
+      "sha256": "731579d527a34c8932a3765c3dbdd2a64ea55c54249bf5df19ad868d00c59bc8"
+    },
+    {
+      "name": "MemTest::sendPkt",
+      "first_line": 69,
+      "last_line": 81,
+      "sha256": "328e6a58ba2b773be8bb7c2de048bd295ca793ba5f510676558644bd6569f4d5"
+    },
+    {
+      "name": "MemTest::recvRetry",
+      "first_line": 378,
+      "last_line": 390,
+      "sha256": "c0bf35c22d2925c72d2edb8887e845c032784b74e08f089af75a482f730a38e5"
+    },
+    {
+      "name": "MemTest::completeRequest",
+      "first_line": 134,
+      "last_line": 222,
+      "sha256": "ab4a551f495f412d423938854d408c22f15a1f0e4e370936f7f15853efd5a2b7"
+    },
+    {
+      "name": "MemTest::CpuPort::recvTimingResp",
+      "first_line": 56,
+      "last_line": 61,
+      "sha256": "047bc24551b3c8f7cd94f77bc46f763344aceb10227538ed799f45ff0487229d"
+    }
+  ],
+  "new_source_function_execution": true,
+  "latency_choice_strings": 256,
+  "source_callback_edges": 2048,
+  "source_accepted_reads": 2304,
+  "relative_edge_census": [
+    {
+      "source_phase": 1,
+      "ell": 1,
+      "executions": 313
+    },
+    {
+      "source_phase": 1,
+      "ell": 2,
+      "executions": 313
+    },
+    {
+      "source_phase": 3,
+      "ell": 1,
+      "executions": 711
+    },
+    {
+      "source_phase": 3,
+      "ell": 2,
+      "executions": 711
+    }
+  ],
+  "closed_graph_representatives": [
+    [
+      3,
+      10,
+      11
+    ],
+    [
+      3,
+      15,
+      23
+    ],
+    [
+      11,
+      20,
+      28
+    ],
+    [
+      11,
+      25,
+      33
+    ]
+  ],
+  "J": 14,
+  "A": 8,
+  "actual_max_service_gap": 22,
+  "unpruned_profile": [
+    [
+      3,
+      20
+    ],
+    [
+      1,
+      22
+    ]
+  ],
+  "canonical_profile": [
+    [
+      1,
+      22
+    ]
+  ],
+  "safe_K5_phases": [
+    0,
+    1,
+    4
+  ],
+  "minimum_phase_load": 5,
+  "minimum_uniform_load": 6,
+  "policy_checks": 35,
+  "local_complete_boundary_histories": 727,
+  "local_model_misses": 0,
+  "controls": {
+    "safe": {
+      "phi": 0,
+      "WU": [
+        12
+      ],
+      "trace": {
+        "reads": [
+          [
+            3,
+            true
+          ],
+          [
+            11,
+            true
+          ],
+          [
+            33,
+            true
+          ]
+        ],
+        "first_miss": null,
+        "events": [
+          {
+            "tick": 3,
+            "slot": 2,
+            "event": "read",
+            "generation": 0,
+            "hit": true
+          },
+          {
+            "tick": 3,
+            "slot": 3,
+            "event": "cancel_after_hit",
+            "generation": 1
+          },
+          {
+            "tick": 11,
+            "slot": 2,
+            "event": "read",
+            "generation": 1,
+            "hit": true
+          },
+          {
+            "tick": 11,
+            "slot": 3,
+            "event": "cancel_after_hit",
+            "generation": 2
+          },
+          {
+            "tick": 12,
+            "slot": 0,
+            "event": "WU_load",
+            "generation": 3,
+            "count": 5
+          },
+          {
+            "tick": 15,
+            "slot": 1,
+            "event": "decrement",
+            "generation": 3,
+            "count": 4
+          },
+          {
+            "tick": 20,
+            "slot": 1,
+            "event": "decrement",
+            "generation": 3,
+            "count": 3
+          },
+          {
+            "tick": 25,
+            "slot": 1,
+            "event": "decrement",
+            "generation": 3,
+            "count": 2
+          },
+          {
+            "tick": 30,
+            "slot": 1,
+            "event": "decrement",
+            "generation": 3,
+            "count": 1
+          },
+          {
+            "tick": 33,
+            "slot": 2,
+            "event": "read",
+            "generation": 3,
+            "hit": true
+          },
+          {
+            "tick": 33,
+            "slot": 3,
+            "event": "cancel_after_hit",
+            "generation": 4
+          }
+        ]
+      }
+    },
+    "wrong_phase": {
+      "phi": 2,
+      "WU": [
+        12
+      ],
+      "trace": {
+        "reads": [
+          [
+            3,
+            true
+          ],
+          [
+            11,
+            true
+          ],
+          [
+            33,
+            false
+          ]
+        ],
+        "first_miss": 33,
+        "events": [
+          {
+            "tick": 3,
+            "slot": 2,
+            "event": "read",
+            "generation": 0,
+            "hit": true
+          },
+          {
+            "tick": 3,
+            "slot": 3,
+            "event": "cancel_after_hit",
+            "generation": 1
+          },
+          {
+            "tick": 11,
+            "slot": 2,
+            "event": "read",
+            "generation": 1,
+            "hit": true
+          },
+          {
+            "tick": 11,
+            "slot": 3,
+            "event": "cancel_after_hit",
+            "generation": 2
+          },
+          {
+            "tick": 12,
+            "slot": 0,
+            "event": "WU_load",
+            "generation": 3,
+            "count": 5
+          },
+          {
+            "tick": 12,
+            "slot": 1,
+            "event": "decrement",
+            "generation": 3,
+            "count": 4
+          },
+          {
+            "tick": 17,
+            "slot": 1,
+            "event": "decrement",
+            "generation": 3,
+            "count": 3
+          },
+          {
+            "tick": 22,
+            "slot": 1,
+            "event": "decrement",
+            "generation": 3,
+            "count": 2
+          },
+          {
+            "tick": 27,
+            "slot": 1,
+            "event": "decrement",
+            "generation": 3,
+            "count": 1
+          },
+          {
+            "tick": 32,
+            "slot": 1,
+            "event": "decrement",
+            "generation": 3,
+            "count": 0
+          },
+          {
+            "tick": 32,
+            "slot": 1,
+            "event": "expiry",
+            "generation": 3
+          },
+          {
+            "tick": 33,
+            "slot": 2,
+            "event": "read",
+            "generation": 3,
+            "hit": false
+          }
+        ]
+      }
+    },
+    "same_tick_expiry": {
+      "phi": 3,
+      "WU": [
+        12
+      ],
+      "trace": {
+        "reads": [
+          [
+            3,
+            true
+          ],
+          [
+            11,
+            true
+          ],
+          [
+            33,
+            false
+          ]
+        ],
+        "first_miss": 33,
+        "events": [
+          {
+            "tick": 3,
+            "slot": 2,
+            "event": "read",
+            "generation": 0,
+            "hit": true
+          },
+          {
+            "tick": 3,
+            "slot": 3,
+            "event": "cancel_after_hit",
+            "generation": 1
+          },
+          {
+            "tick": 11,
+            "slot": 2,
+            "event": "read",
+            "generation": 1,
+            "hit": true
+          },
+          {
+            "tick": 11,
+            "slot": 3,
+            "event": "cancel_after_hit",
+            "generation": 2
+          },
+          {
+            "tick": 12,
+            "slot": 0,
+            "event": "WU_load",
+            "generation": 3,
+            "count": 5
+          },
+          {
+            "tick": 13,
+            "slot": 1,
+            "event": "decrement",
+            "generation": 3,
+            "count": 4
+          },
+          {
+            "tick": 18,
+            "slot": 1,
+            "event": "decrement",
+            "generation": 3,
+            "count": 3
+          },
+          {
+            "tick": 23,
+            "slot": 1,
+            "event": "decrement",
+            "generation": 3,
+            "count": 2
+          },
+          {
+            "tick": 28,
+            "slot": 1,
+            "event": "decrement",
+            "generation": 3,
+            "count": 1
+          },
+          {
+            "tick": 33,
+            "slot": 1,
+            "event": "decrement",
+            "generation": 3,
+            "count": 0
+          },
+          {
+            "tick": 33,
+            "slot": 1,
+            "event": "expiry",
+            "generation": 3
+          },
+          {
+            "tick": 33,
+            "slot": 2,
+            "event": "read",
+            "generation": 3,
+            "hit": false
+          }
+        ]
+      }
+    },
+    "same_tick_cancel": {
+      "phi": 2,
+      "WU": [
+        11
+      ],
+      "trace": {
+        "reads": [
+          [
+            3,
+            true
+          ],
+          [
+            11,
+            true
+          ],
+          [
+            33,
+            true
+          ]
+        ],
+        "first_miss": null,
+        "events": [
+          {
+            "tick": 3,
+            "slot": 2,
+            "event": "read",
+            "generation": 0,
+            "hit": true
+          },
+          {
+            "tick": 3,
+            "slot": 3,
+            "event": "cancel_after_hit",
+            "generation": 1
+          },
+          {
+            "tick": 11,
+            "slot": 0,
+            "event": "WU_load",
+            "generation": 2,
+            "count": 5
+          },
+          {
+            "tick": 11,
+            "slot": 2,
+            "event": "read",
+            "generation": 2,
+            "hit": true
+          },
+          {
+            "tick": 11,
+            "slot": 3,
+            "event": "cancel_after_hit",
+            "generation": 3
+          },
+          {
+            "tick": 33,
+            "slot": 2,
+            "event": "read",
+            "generation": 3,
+            "hit": true
+          },
+          {
+            "tick": 33,
+            "slot": 3,
+            "event": "cancel_after_hit",
+            "generation": 4
+          }
+        ]
+      }
+    },
+    "no_update": {
+      "phi": 2,
+      "WU": [],
+      "trace": {
+        "reads": [
+          [
+            3,
+            true
+          ],
+          [
+            11,
+            true
+          ],
+          [
+            33,
+            true
+          ]
+        ],
+        "first_miss": null,
+        "events": [
+          {
+            "tick": 3,
+            "slot": 2,
+            "event": "read",
+            "generation": 0,
+            "hit": true
+          },
+          {
+            "tick": 3,
+            "slot": 3,
+            "event": "cancel_after_hit",
+            "generation": 1
+          },
+          {
+            "tick": 11,
+            "slot": 2,
+            "event": "read",
+            "generation": 1,
+            "hit": true
+          },
+          {
+            "tick": 11,
+            "slot": 3,
+            "event": "cancel_after_hit",
+            "generation": 2
+          },
+          {
+            "tick": 33,
+            "slot": 2,
+            "event": "read",
+            "generation": 2,
+            "hit": true
+          },
+          {
+            "tick": 33,
+            "slot": 3,
+            "event": "cancel_after_hit",
+            "generation": 3
+          }
+        ]
+      }
+    }
+  },
+  "scientific_boundary": "New source-function/stub prefix executions and a finite closed-state argument over arbitrary bounded latency choices. Cache/queue receiver behavior, validity, other revocations and data coherence remain assumptions; receiver lanes are models. No hardware/native experiment, deployed analyzer, timing-budget measurement, arbitrary-program prevalence or communication-payload advantage is established. Earlier deterministic cases and failed baseline claims remain."
+}

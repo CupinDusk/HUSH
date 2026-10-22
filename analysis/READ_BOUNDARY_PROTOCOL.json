@@ -1,0 +1,35 @@
+{
+  "kind": "local_protocol_before_corrected_execution_not_external_preregistration",
+  "trigger": "R16 reviewers1/2 identified that the same-tick read cancels a WU at the left service endpoint under the printed WU/decrement/read order.",
+  "withdrawn_interpretation": "v13/R16 WU9, P=4,K=4,phi=1 does not produce a miss at21 in the coherent complete-read model. Its standalone post-service interval initializer skipped the tick9 read cancellation.",
+  "total_order": ["revoke", "WU (valid copy only)", "decrement/expiry", "read decision; cancel timer only on a hit"],
+  "entry": "Initial read must be valid. After its cancellation, a surviving later arm has integer r>=s+1. The same total order is used at every read, including both endpoints and all intermediate reads.",
+  "queries_before_execution": {
+    "theta": 1,
+    "M_theta": "min_c(F(c-J+theta)-c)",
+    "Gamma_theta": "min_(s,c)(F(s+theta)-c)",
+    "RU_theta": "(K-1)P-J+theta for load-first",
+    "PP_theta": "F(min(C)-J+theta)-max(C)",
+    "scope": "These are shifted earliest-future-arm query expressions, not a new physical timer map. The fixed-P residue quotient and maximum-delay witness arithmetic are unchanged up to phase reindexing."
+  },
+  "reuse": "Frozen 160 public-source-function event traces are reused with recorded SHA; no new native or source-function execution is claimed by this correction.",
+  "positive_aligned_family": {
+    "p": [2,3,4,5,6], "ell": [1,2,3,4], "start": 0, "K": "ell+2", "P": "p", "phi": 0,
+    "steps_per_case": 12, "WU": "every size-0/1/2 subset of inclusive [s_n,s_(n+1)]",
+    "prediction": "33,720 locally complete read-boundary histories remain safe; RP1 margin p and stronger RU1 margin2 both certify G1. No claim that phase is required for safety in this family."
+  },
+  "finite_phase_example": {
+    "p":4,"ell":2,"s0":0,"c0":8,"steady_C":[20,32],"J":11,"G":1,"L":0,
+    "P":5,"K":3,"phi":4,"theta":1,
+    "predicted_M1":2,"predicted_Gamma1":2,"predicted_RU1_margin":0,"predicted_PP1_margin":-8,
+    "local_steps":[[0,9],[9,21],[21,33]],
+    "WU":"every size-0/1/2 subset including endpoints; predict 240 local-step histories, all safe"
+  },
+  "full_prefix_controls": [
+    {"name":"withdraw_old_false_miss","reads":[0,9,21],"WU":[9],"K":4,"P":4,"phi":1,"expected_read21_hit":true},
+    {"name":"new_wrong_phase","reads":[0,9,21,33],"WU":[10],"K":3,"P":5,"phi":1,"assumed_phi":4,"expected_first_miss":21,"actual_M1":1,"stale_M1":2},
+    {"name":"extend_horizon","reads":[0,9,21,33,45],"WU":[34],"K":3,"P":5,"phi":4,"expected_first_miss":45,"C3_M1":0}
+  ],
+  "theorem_audit": "Reuse the R13 relation-family generator, directly query F(s+1) and F(c-J+1) for every phase. Compare the same maximum-delay witness criterion and the shifted exact service-phase profile. 8,190 relations / 31,664 phase queries are expected; no new native interpretation.",
+  "scope": "Corrected global read/WU semantics and mathematical earliest-arm queries. Retain R16 negative reviews and all old PDFs/archives; record the invalid client-level interpretation explicitly. No source callback, native cache, application, workload-prevalence or performance evidence is fabricated."
+}

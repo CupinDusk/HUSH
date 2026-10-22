@@ -1,0 +1,39 @@
+{
+  "status": "source_argument_and_execution_ledger_for_joint_timing_candidate",
+  "public_snapshot": "c8222cc67a399bfc01e8658dd14b30d5bfd634f9",
+  "coordinate_system": "Raw retained source line numbers, not web-view line coordinates. Historical BaseCache/Clocked have documented trailing EOF whitespace differences only.",
+  "events": [
+    {
+      "event": "s, h",
+      "mapping": "Previous/current synchronous hit decision in BaseCache::recvTimingReq -> access; no simulation event is advanced by the ordinary call sequence.",
+      "source": "src/mem/cache/base.cc:454-515,1517-1543",
+      "guards": "ordinary cacheable read, valid readable ready block, no exceptional path",
+      "execution": "cache functions not executed here",
+      "receiver_premise": "Hit cancellation at this decision is a declared WU receiver assumption, absent from this public BaseCache."
+    },
+    {
+      "event": "c",
+      "mapping": "access chooses lat; request_time=clockEdge(lat) then hit path calls schedTimingResp(pkt,request_time).",
+      "source": "base.cc:1255-1283,494,342; clocked_object.hh clockEdge",
+      "guards": "fixed period p, zero header/clock phase, sequential tag/data, no compression, ready block; selected latency ell cycles",
+      "execution": "source argument; ctarget equation is declared in the response stub, not a test of cache conformance"
+    },
+    {
+      "event": "eta",
+      "mapping": "PacketQueue sends at max(target,curTick+1). With exclusive empty queue, one outstanding request, c>s+1 and accepting response port, eta=c.",
+      "source": "packet_queue.cc:107-188,191-218,276-278; memtest.cc:56-61",
+      "guards": "no other queue traffic, no response backpressure; p>=2,ell>=1 imply c>=s+2",
+      "execution": "queue source argument; only MemTest response callback executes"
+    },
+    {
+      "event": "next a=h",
+      "mapping": "MemTest interval q: response before s+q keeps scheduled h=s+q; poll before response sets waitResponse and callback schedules h=c+q. Reached c=s+q is rejected before execution.",
+      "source": "memtest.cc:235-364,134-222",
+      "guards": "client clock one tick, command0 cacheable nonfunctional read, one address/block/outstanding, no retry, maxLoads0, sufficient watchdog",
+      "execution": "Five public definitions included and compiled; positive request/callback paths exercise tick/sendPkt/recvTimingResp/completeRequest. recvRetry is retained but outside positive no-retry coverage. No instrumented function-coverage claim. Cache/queue/receiver functions do not execute."
+    }
+  ],
+  "identity": "chi denotes the identity linking one dynamic completion to its cancelling service and valid block; it is not the timestamp value. An epoch/identity mismatch prevents use; unequal dynamic identities must not be joined.",
+  "boundary_choice": "Producer retains the reachable relation proof and returns a chosen-period/identity/epoch/horizon-bound witness result with represented and joint-witness completion residues. Consumer checks equality before using the completion-only actual-slack query. This is a trusted timing contract, not independent reachability verification from a Boolean. Period changes recheck witnesses or re-bucket profile/history. Exact loop-term accounting is not a measured cost saving.",
+  "scope": "No native queue/cache/receiver execution. Mixed path results are source-function/stub/component checks. No whole-program, hardware, performance, area, energy or workload-prevalence claim."
+}

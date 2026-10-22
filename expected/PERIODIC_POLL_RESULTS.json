@@ -1,0 +1,94 @@
+{
+  "result": "PASS_PERIODIC_POLL_SOURCE_AND_QUERY_CHECKS",
+  "scope": "Source functions execute in existing explicit stubs, not full gem5. Cache timing and queue premises are supplied/source-argued; data coherence not validated. Query equality is relative to independent age G, not every correlation of a whole-program analyzer. New comparisons are prospective local checks with a frozen plan, not an external preregistration or independent hardware validation.",
+  "protocol_sha256": "6b2b0bdd7123f961f617d553a7caf7972453276f9db47c949834ede91f39c988",
+  "public_source_sha256": "988b02584cf03061ae23cd42645d32223097c2151d7bc5ea3d21a04a01fd276a",
+  "script_sha256": "b79aa348f268b58ca63443f35916fa9412e7aa9b65a877b8194653644cdf974d",
+  "function_bindings": [
+    {
+      "name": "MemTest::tick",
+      "sha256": "731579d527a34c8932a3765c3dbdd2a64ea55c54249bf5df19ad868d00c59bc8",
+      "first_line": 235,
+      "last_line": 364
+    },
+    {
+      "name": "MemTest::sendPkt",
+      "sha256": "328e6a58ba2b773be8bb7c2de048bd295ca793ba5f510676558644bd6569f4d5",
+      "first_line": 69,
+      "last_line": 81
+    },
+    {
+      "name": "MemTest::recvRetry",
+      "sha256": "c0bf35c22d2925c72d2edb8887e845c032784b74e08f089af75a482f730a38e5",
+      "first_line": 378,
+      "last_line": 390
+    },
+    {
+      "name": "MemTest::completeRequest",
+      "sha256": "ab4a551f495f412d423938854d408c22f15a1f0e4e370936f7f15853efd5a2b7",
+      "first_line": 134,
+      "last_line": 222
+    },
+    {
+      "name": "MemTest::CpuPort::recvTimingResp",
+      "sha256": "047bc24551b3c8f7cd94f77bc46f763344aceb10227538ed799f45ff0487229d",
+      "first_line": 56,
+      "last_line": 61
+    }
+  ],
+  "cpp_sha256": "4140360b67a90be201bbc44c7b9966eed36189293150837acbcfa74a8c26cf2e",
+  "binary_sha256": "7431a5d4f6b8c059f3ea1acf15b6a5d37db66d449874d593a223ed17b24718db",
+  "events_sha256": "f9d76697fa3fc93c7589d91b88c109067be29095f9d5b0576bc22768994b8b84",
+  "static_predictions_before_execution": true,
+  "counts": {
+    "source_cases": 360,
+    "source_callback_edges": 21600,
+    "policy_relations": 3240,
+    "phase_queries": 32400,
+    "lossless_policy_relations": 2772,
+    "lossy_policy_relations": 468,
+    "margin_mismatches": 0
+  },
+  "worked_example": {
+    "p": 4,
+    "ell": 1,
+    "q": 9,
+    "s0": 100,
+    "R_first_four": [
+      [
+        100,
+        104
+      ],
+      [
+        109,
+        116
+      ],
+      [
+        118,
+        124
+      ],
+      [
+        127,
+        132
+      ]
+    ],
+    "J": 7,
+    "G": 5,
+    "P4_K4_phi2": {
+      "M": 6,
+      "Gamma": 6,
+      "all_residue_witnesses": true
+    },
+    "P9_K2_phi8": {
+      "M": 3,
+      "Gamma": 9,
+      "all_residue_witnesses": false
+    },
+    "repeat_ticks_P9": 36
+  },
+  "worked_receiver_local_histories": 224,
+  "worked_receiver_misses": 0,
+  "original_seed_checks": 160,
+  "queue_function_execution": false,
+  "native_cache_execution": false
+}

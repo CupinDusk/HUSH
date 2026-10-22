@@ -1,0 +1,21 @@
+{
+  "result": "PASS",
+  "interval_queries_both_priorities": 223680,
+  "nonconvex_example": {
+    "RP": 6,
+    "RU": 5,
+    "PP": 4,
+    "age": 5
+  },
+  "partial_cell_example": {
+    "C": [
+      112,
+      116
+    ],
+    "J": 11,
+    "M": 14,
+    "Gamma": 18,
+    "age": 15
+  },
+  "scope": "Finite arithmetic checks; not a proof, source execution or native evidence."
+}

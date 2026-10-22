@@ -1,0 +1,10 @@
+{
+  "question": "Characterize the source-coupled two-register receiver/client family at arbitrary positive integer p,q and admitted entry phase, before running a parameter grid.",
+  "domain": {"p":"1..12", "q":"1..3p", "s0":"0..p-1", "all_parameter_entries":1950},
+  "admission": "Reject any reachable poll/receipt tie c=s+q; retain every rejected entry in the result. Otherwise stop at first repeated service phase modulo p, preserving the transient and recurrent triples.",
+  "proof": "R30_PRODUCER_FAMILY_ARGUMENT.md",
+  "source_execution": {"functions":"same five byte-exact pinned public MemTest functions", "receiver":"unchanged endpoint_implementation.hpp actual response registers", "read_count":33, "callback_count":32, "WU_words":["none","every tick","one update at each accepted service+1"], "safe_policy":"K=2,P=q+2p,phi=0; covers transient and cycle"},
+  "oracles": ["independent integer ceil/branch relation for sends/receipts/waiting polls", "actual source functions and endpoint register transitions", "explicit phase expansion for each target P=1..2p and all phases, compared with canonical master projection", "prefix minimum checked separately from recurrent minimum"],
+  "controls": "Keep ties and nonpositive candidate-policy queries as unknown/rejected; never replace them with another parameter case.",
+  "scope": "Parameterized characterization and finite corroboration of this same specified receiver/client family, not independent programs, native cache, arbitrary workloads, complete WU enumeration for each new parameter, or hardware evidence."
+}

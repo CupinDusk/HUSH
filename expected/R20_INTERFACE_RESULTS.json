@@ -1,0 +1,150 @@
+{
+  "result": "PASS_R20_EXISTING_TRACE_INTERFACE_AUDIT",
+  "scope": "Receiver cancellation and timing/residency invariance remain explicit premises. Minimum safe load means all model WU schedules admitting r=s+1 with those premises fixed, not a minimum for a restricted WU language. No new source/native/cache/queue execution, hardware benefit, workload prevalence or external preregistration is claimed. All R19 original scores remain intact.",
+  "protocol_sha256": "57f541a5a9906cc381585aeb8d1b010e31b9a4e4afdf0afe78887c57ba2ed400",
+  "script_sha256": "4e279cc000f8a09f7b9364a1335414f9325eff794a9232dc1559211cc035f5a5",
+  "mixed_source_events_sha256": "c1cd990cc7fbd6c64a163f43d030bd0f81942c76dd28c1cade89395474015a83",
+  "slow_source_events_sha256": "f9d76697fa3fc93c7589d91b88c109067be29095f9d5b0576bc22768994b8b84",
+  "new_source_execution": false,
+  "new_native_measurements": 0,
+  "recurrent_branch_counts": {
+    "wait_only": 282,
+    "both_branches": 90
+  },
+  "populated_service_phase_count_histogram": {
+    "1": 282,
+    "2": 63,
+    "3": 12,
+    "4": 15
+  },
+  "worked_examples": {
+    "mixed_multiresidue_example": {
+      "triples": [
+        [
+          3,
+          10,
+          11
+        ],
+        [
+          11,
+          20,
+          28
+        ]
+      ],
+      "handoff": {
+        "period": 25,
+        "J": 9,
+        "A": 8,
+        "completion_residues": [
+          10,
+          20
+        ],
+        "joint_witness_residues": [
+          20
+        ],
+        "producer_attested_exact": false,
+        "identity_epoch_horizon_binding": "required trusted contract, not independent reachability proof"
+      },
+      "M": 17,
+      "D": 9,
+      "actual_slack": 24,
+      "service_span_profile": {
+        "3": 8,
+        "11": 17
+      },
+      "exact_profile_query_terms": 2,
+      "completion_query_terms": 2,
+      "source_triples_scanned": 2,
+      "local_histories": 218,
+      "local_misses": 0,
+      "consumer_returns": "unknown_then_profile"
+    },
+    "slow_poll_fallback_example": {
+      "triples": [
+        [
+          100,
+          104,
+          109
+        ],
+        [
+          109,
+          116,
+          118
+        ],
+        [
+          118,
+          124,
+          127
+        ],
+        [
+          127,
+          132,
+          136
+        ]
+      ],
+      "handoff": {
+        "period": 9,
+        "J": 7,
+        "A": 5,
+        "completion_residues": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "joint_witness_residues": [],
+        "producer_attested_exact": false,
+        "identity_epoch_horizon_binding": "required trusted contract, not independent reachability proof"
+      },
+      "M": 3,
+      "D": -2,
+      "actual_slack": 7,
+      "service_span_profile": {
+        "1": 9
+      },
+      "exact_profile_query_terms": 1,
+      "completion_query_terms": 4,
+      "source_triples_scanned": 4,
+      "local_histories": 224,
+      "local_misses": 0,
+      "consumer_returns": "unknown_then_profile"
+    }
+  },
+  "phase_load_queries": 136,
+  "local_histories": 442,
+  "operation_accounting": {
+    "main_P5": {
+      "N": 2,
+      "completion_query_terms": 1,
+      "exact_profile_query_terms": 2
+    },
+    "main_P25": {
+      "N": 2,
+      "completion_query_terms": 2,
+      "exact_profile_query_terms": 2
+    },
+    "slow_P9": {
+      "N": 4,
+      "completion_query_terms": 4,
+      "exact_profile_query_terms": 1
+    },
+    "measured_cost_savings": false
+  },
+  "main_handoff": {
+    "period": 5,
+    "J": 9,
+    "A": 8,
+    "completion_residues": [
+      0
+    ],
+    "joint_witness_residues": [
+      0
+    ],
+    "producer_attested_exact": true,
+    "identity_epoch_horizon_binding": "required trusted contract, not independent reachability proof"
+  },
+  "main_consumer": {
+    "actual_slack_if_contract_holds": 2,
+    "query_terms": 1
+  }
+}

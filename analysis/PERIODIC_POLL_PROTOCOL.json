@@ -1,0 +1,13 @@
+{
+  "frozen_before_execution": true,
+  "purpose": "Derive a nonconstant-delay public-client relation and a real witness/fallback decision without new hardware.",
+  "source": "Existing pinned public MemTest five function definitions, unchanged; new main configures interval q rather than changing those functions.",
+  "contracts": "Same one-address ordinary-read, accepting scheduled-ready-hit response, one-tick client clock and declared receiver as the serial client. q>Jcache prevents the next poll preceding the response. Watchdog budget 1000; maxLoads=0; controlled command0, no retry.",
+  "domain": {"p": [2,3,4,5,6], "ell": [1,2,3,4], "q": "(ell+1)p through (ell+2)p-1", "s0": "0 through p-1", "source_services": 61, "source_callbacks": 60},
+  "static_before_trace": "s_n=s0+nq; c_n=p*ceil(s_n/p)+ell*p. No waiting polls. For counter period P, N=lcm(p,P)/gcd(q,lcm(p,P)) gives a repeat up to an additive multiple of p and P. J=max(c-s), G=max(q-(c-s)), evaluated over that reachable cycle, not assumed exact at every completion.",
+  "query_domain": "P=1..9, every phase, K=1 or J+2; one complete period of the joint residue relation per policy. Compare direct read-last completion margin, exact history and service-phase profile, and the per-completion-residue maximum-delay witness condition.",
+  "predicted_worked_example": {"p":4,"ell":1,"q":9,"s0":100,"R_first_four":[[100,104],[109,116],[118,124],[127,132]],"J":7,"G":5,"P4_K4_phi2":{"M":6,"Gamma":6,"all_residue_witnesses":true},"P9_K2_phi8":{"M":3,"Gamma":9,"all_residue_witnesses":false},"repeat_ticks_P9":36},
+  "receiver_checks": "For the worked P9 historical certificate enumerate size0/1/2 WU subsets independently on each inclusive local interval [100,109],[109,118],[118,127],[127,136], executing both endpoint reads in tick and sparse models. No concatenated-coverage claim.",
+  "seed_control": "Check F(s0+1)-c0 >= p for aligned original family across all original seeds; exact value 2p at s0 mod p=0, p otherwise. Correct old equality, not the safe lower bound.",
+  "interpretation": "Source functions execute in existing explicit stubs, not full gem5. Cache timing and queue premises are supplied/source-argued; data coherence not validated. Query equality is relative to independent age G, not every correlation of a whole-program analyzer. New comparisons are prospective local checks with a frozen plan, not an external preregistration or independent hardware validation."
+}

@@ -1,0 +1,248 @@
+{
+  "result": "PASS_CONSTRUCTED_ENDPOINT_CLIENT_REFINEMENT_AND_ALL_WU_CONTROL_GRAPH",
+  "protocol_sha256": "b4fce75cb2d1d79dffd5e221520eb65118ef91378bc09081e5277390fe9baf5d",
+  "argument_sha256": "451424c5e2ce1347ececa86ea2cdd34a0534112d260c96659ea87c2c09462231",
+  "script_sha256": "e9925d9876bc2152c3131effb15e35b9c1cf7f38304c124cb2bea0c90badbac0",
+  "source_input_sha256": {
+    "endpoint_implementation.hpp": "c8f1cddfad9b75b7a1ddfa9eaf489ce1ac0e8c2e0a3fad585bffea6932f85d59",
+    "endpoint_port.cpp": "c4c20811d8f4efcbb4d452018b9bdd7381563237b9f21753aea00968832ee32f",
+    "endpoint_main.cpp": "edb67541c3aa0d4fe369be81be55a5124a6abbaccf49d7230a0f0dfc68285041",
+    "serial_client.prefix.cpp": "2610741f53a9faedb914ea4803d80b5ecc8ab34c5b1028e134fe1dc91ae8456f",
+    "upstream-memtest.cc": "988b02584cf03061ae23cd42645d32223097c2151d7bc5ea3d21a04a01fd276a"
+  },
+  "function_bindings": [
+    {
+      "name": "MemTest::tick",
+      "sha256": "731579d527a34c8932a3765c3dbdd2a64ea55c54249bf5df19ad868d00c59bc8",
+      "first_line": 235,
+      "last_line": 364
+    },
+    {
+      "name": "MemTest::sendPkt",
+      "sha256": "328e6a58ba2b773be8bb7c2de048bd295ca793ba5f510676558644bd6569f4d5",
+      "first_line": 69,
+      "last_line": 81
+    },
+    {
+      "name": "MemTest::recvRetry",
+      "sha256": "c0bf35c22d2925c72d2edb8887e845c032784b74e08f089af75a482f730a38e5",
+      "first_line": 378,
+      "last_line": 390
+    },
+    {
+      "name": "MemTest::completeRequest",
+      "sha256": "ab4a551f495f412d423938854d408c22f15a1f0e4e370936f7f15853efd5a2b7",
+      "first_line": 134,
+      "last_line": 222
+    },
+    {
+      "name": "MemTest::CpuPort::recvTimingResp",
+      "sha256": "047bc24551b3c8f7cd94f77bc46f763344aceb10227538ed799f45ff0487229d",
+      "first_line": 56,
+      "last_line": 61
+    }
+  ],
+  "generated_source_sha256": "5ea81e9b3a9b7a8380b29b926330231d6b8c430a1b8d6e554f4746dd371df2d3",
+  "binary_sha256": "d288198dff82fab7d4c27fe7311c7b1ed76c7997d1642a4232ff04a43d5bfcaf",
+  "coupled_records_sha256": "2c620809fbafe1d965384cdab22deff03150d39b27612fcbc110dbbe00685a01",
+  "BFS_records_sha256": "11c30c3fbd04520cfe665e377c71a533c1b1eafa69e0ac08eae933c4f269d784",
+  "source_coupled_executions": 15000,
+  "source_coupled_cases": [
+    {
+      "policy": "new",
+      "family": "finite",
+      "executions": 3404
+    },
+    {
+      "policy": "new",
+      "family": "mask",
+      "executions": 4096
+    },
+    {
+      "policy": "old",
+      "family": "finite",
+      "executions": 3404
+    },
+    {
+      "policy": "old",
+      "family": "mask",
+      "executions": 4096
+    }
+  ],
+  "accepted_source_reads": 135000,
+  "completed_source_callbacks": 120000,
+  "graphs": {
+    "old": {
+      "kind": "bfs_summary",
+      "policy": "old",
+      "period": 81,
+      "states": 184,
+      "transitions": 368,
+      "read_branches": 22,
+      "response_branches": 20
+    },
+    "new": {
+      "kind": "bfs_summary",
+      "policy": "new",
+      "period": 162,
+      "states": 415,
+      "transitions": 830,
+      "read_branches": 48,
+      "response_branches": 42
+    }
+  },
+  "independently_replayed_countdown_to_deadline_edges": 1198,
+  "analysis_record": {
+    "tag": 64,
+    "epoch": 7,
+    "cache_period": 9,
+    "response_stages": 2,
+    "independent_WU_lane": true,
+    "dedicated_ready_sink": true,
+    "implementation_sha256": "c8f1cddfad9b75b7a1ddfa9eaf489ce1ac0e8c2e0a3fad585bffea6932f85d59",
+    "horizon": 1000000,
+    "translation": 81,
+    "source_modulus": 27,
+    "pairs": [
+      [
+        5,
+        16
+      ],
+      [
+        10,
+        33
+      ]
+    ],
+    "evidence": "new endpoint register/countdown refinement and checked source/control relation"
+  },
+  "binding_cases": [
+    {
+      "name": "old_policy",
+      "result": {
+        "accepted": true,
+        "reason": "positive_observer_slack",
+        "g": 27,
+        "slack": 12,
+        "runtime_policy": [
+          2,
+          27,
+          6
+        ],
+        "fresh_runtime_entry": true
+      }
+    },
+    {
+      "name": "new_policy",
+      "result": {
+        "accepted": true,
+        "reason": "positive_observer_slack",
+        "g": 9,
+        "slack": 4,
+        "runtime_policy": [
+          3,
+          18,
+          2
+        ],
+        "fresh_runtime_entry": true
+      }
+    },
+    {
+      "name": "clock",
+      "result": {
+        "accepted": false,
+        "reason": "binding_mismatch:cache_period"
+      }
+    },
+    {
+      "name": "epoch",
+      "result": {
+        "accepted": false,
+        "reason": "binding_mismatch:epoch"
+      }
+    },
+    {
+      "name": "WU_lane",
+      "result": {
+        "accepted": false,
+        "reason": "binding_mismatch:independent_WU_lane"
+      }
+    },
+    {
+      "name": "revoked",
+      "result": {
+        "accepted": false,
+        "reason": "revoked"
+      }
+    },
+    {
+      "name": "horizon",
+      "result": {
+        "accepted": false,
+        "reason": "horizon_exceeded"
+      }
+    },
+    {
+      "name": "invalid_entry",
+      "result": {
+        "accepted": false,
+        "reason": "invalid_entry"
+      }
+    },
+    {
+      "name": "hot_transition",
+      "result": {
+        "accepted": false,
+        "reason": "unproved_hot_policy_transition"
+      }
+    }
+  ],
+  "negative_source_traces": [
+    {
+      "kind": "coupled",
+      "policy": "unsafe",
+      "family": "negative",
+      "index": 0,
+      "last_tick": 70,
+      "services": [
+        5,
+        21,
+        37
+      ],
+      "receipts": [
+        18,
+        36,
+        54
+      ],
+      "waiting_polls": [
+        53
+      ],
+      "first_miss": 70,
+      "first_expiry": 56,
+      "pending_snapshots": 0
+    },
+    {
+      "kind": "coupled",
+      "policy": "invalid_entry",
+      "family": "negative",
+      "index": 1,
+      "last_tick": 5,
+      "services": [],
+      "receipts": [],
+      "waiting_polls": [],
+      "first_miss": 5,
+      "first_expiry": null,
+      "pending_snapshots": 0
+    }
+  ],
+  "data_revocation_controls": [
+    {
+      "kind": "value_revocation_controls",
+      "snapshot_preserved_under_updates": true,
+      "revocation_first": true,
+      "invalid_WU_no_resurrection": true
+    }
+  ],
+  "new_native_cache_execution": false,
+  "new_GPU_measurements": 0,
+  "scope": "New explicitly specified executable receiver; source-function harness/packet/clock environment still declared. Two pipeline registers produce callbacks, not a response-time formula. Independent complete finite control exploration and refinement argument cover every admitted WU bit word for this endpoint under no-overflow horizon. This does not establish historical native HUSH/gem5, physical hardware timing or global data coherence."
+}
