@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-24",
+  "status": "prospective_exact_fixed_fallback_before_rerun",
+  "budget_fractions": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.6,
+    1.0
+  ],
+  "writer_store_counts": [
+    16,
+    256
+  ],
+  "online_policy": "choose the smallest certified successor in the last phase only if the writer still has unfinished work; otherwise prefer the best fixed load. Earlier phases prefer that fixed load. Only past completion count is observed.",
+  "signals": "one externally supplied writer-work-remaining flag at program phase entry; producer of that flag is outside timer RTL",
+  "domain": [
+    1,
+    4,
+    16,
+    32,
+    64,
+    254,
+    255
+  ],
+  "fixed_domain": "all1..255",
+  "purpose": "quantify carry-in admission and useful runtime execution; report receiver cost and makespan separately",
+  "families": [
+    "DQD",
+    "SDS",
+    "BSQ"
+  ],
+  "online_pool": "sampled dynamic domain union exact preferred full-domain fixed K; certify every combination before execution",
+  "reason": "previous nearest-sampled fixed fallback caused avoidable differences even when online policy requested no change; original outcomes retained"
+}

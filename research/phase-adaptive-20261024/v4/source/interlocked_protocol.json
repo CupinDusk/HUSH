@@ -1,0 +1,7 @@
+{
+  "status": "prospective_before_interlock_mapping",
+  "purpose": "Measure an alternative that stalls an arriving WU for one cycle when the phase register is written. Existing counts remain unchanged. Remove the same-cycle configuration bypass; check controller gate and timing costs before selecting an implementation.",
+  "loads": "positive8-bit,255=infinity",
+  "first_mapping": "N4 matched fixed and interlocked, identical Nangate45 driver/load constraints",
+  "selection": "retain both bypass and interlocked results; do not claim timing closure or system performance from this experiment"
+}

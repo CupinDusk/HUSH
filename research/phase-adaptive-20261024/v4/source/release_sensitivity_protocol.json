@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-24",
+  "status": "prospective_before_sensitivity_execution",
+  "purpose": "Same prespecified 79-case grid, with both fixed and dynamic controllers receiving optimistic zero-cycle zero-traffic clean release at task completion. Quantify gains before completion, retain regressions.",
+  "main_cross_product": {
+    "families": [
+      "BSQ",
+      "DQD"
+    ],
+    "shared_blocks": [
+      2,
+      4,
+      8,
+      16
+    ],
+    "receiver_compute_gap": [
+      1,
+      4,
+      16
+    ],
+    "period": [
+      2,
+      10,
+      32
+    ]
+  },
+  "secondary_one_factor": {
+    "reference": {
+      "family": "BSQ",
+      "shared_blocks": 4,
+      "receiver_compute_gap": 4,
+      "period": 10
+    },
+    "miss_slot_cycles": [
+      30,
+      120
+    ],
+    "switch_cycles": [
+      4,
+      16,
+      64
+    ],
+    "writer_compute_gaps": [
+      0,
+      16
+    ]
+  },
+  "dense_reads": "8 * shared_blocks",
+  "writer_stores": "64 * shared_blocks",
+  "writer_compute_gap_default": 4,
+  "quiet_compute_cycles": 512,
+  "update_slot_cycles_default": 10,
+  "miss_slot_cycles_default": 60,
+  "switch_cycles_default": 1,
+  "budgets": "C + fraction * read_count * 71 + 2; held fixed when miss or switch cost changes",
+  "budget_fractions": [
+    0.1,
+    0.2,
+    0.4,
+    0.6,
+    1.0
+  ],
+  "dynamic_domain": [
+    1,
+    4,
+    16,
+    32,
+    64,
+    254,
+    255
+  ],
+  "fixed_domain": "all positive encodings 1..255",
+  "selection": "evaluate all paths at tick phase 0, separately minimize makespan under each budget; no tuning after heldout results",
+  "heldout_phases": "period-1 for settings selected at fraction .6",
+  "checks": "all candidate reader times and every predicted hit checked; report carry-in versus reset on the identical execution; fixed baseline and no-feasible cases retained",
+  "end_release": "both controllers, all clean slots and directory, zero cost, queued WU may complete; not implemented in RTL"
+}

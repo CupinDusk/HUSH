@@ -1,0 +1,15 @@
+{
+ "date":"2026-10-24",
+ "status":"prospective_before_tight_budget_study",
+ "motivation":"Fraction-of-all-miss budgets can hide the warm-state transition's value. Sweep margins relative to the compulsory-miss lower bound uniformly, rather than selecting a single favorable deadline.",
+ "design":"same79 architecture configurations in sensitivity_protocol.json, unchanged families and boundaries",
+ "budget":"C + q*Lm + (n-q)*Lh + slack, where q lines are initially cold and all n reads use only those lines; infinity provides this analysis bound with no switches",
+ "slack_cycles":[0,1,4,16,32,64,128,512],
+ "release":"all policies receive zero-cost clean release at reader completion",
+ "fixed_control":"all255 loads times all four subsets of boundaries1,2 to clean-flush at zero cost; flush resets analysis. This is an optimistic counterfactual capability, not implemented HUSH hardware.",
+ "phase_control":"343 phase paths from {1,4,16,32,64,254,255}^3 plus every exact fixed path; no boundary flush",
+ "reset_ablation":"same physical phase paths, discard analysis state only when the selected load changes",
+ "selection":"minimize makespan at phi0 under each budget; retain every point, ties and regressions against the stronger fixed control",
+ "validation":"check all predicted hits and program bounds, same service and payload assertions as the execution model",
+ "scope":"synthetic architectural study; no application or wall-clock performance claim"
+}

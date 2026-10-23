@@ -1,0 +1,15 @@
+{
+  "status": "prospective_before_runtime_cost_reexecution",
+  "reason": "R4 PDF-only reviews request nonzero phase-helper cost and an explicit deployable operating region",
+  "helper_cycles_per_noninitial_marker": [0, 4, 16, 64],
+  "helper_order": "bounded compute before each phase1/phase2 marker, even if the load will not change; flag is observed after this cost",
+  "budget": "keep original program compute+0.6*n*71+2; never increase the deadline for added helpers",
+  "cases": "all original12 DQD/SDS/BSQ quiet128/512 writergap4/7",
+  "writer_store_counts": [16, 256],
+  "tick_phases": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+  "fixed": "all255 loads plus every subset of free boundary flushes, selected at phi0; free reader-end release",
+  "runtime_domain": "original7 loads plus the selected fixed load; root fixed to selected fixed load, all suffix pairs enumerated and readmitted including helper cost",
+  "runtime_policy": "prefer selected fixed load before final phase; choose smallest admitted successor in final phase if observed writer work remains",
+  "empty_admission": "choose fixed mode offline before executing helpers; do not attempt a late fallback after spending the extra cost",
+  "limits": "declared bounded helper costs, not measured CPU/trie/flag latencies; fixed preference selection knows the specified co-runner offline; this does not guarantee runtime performance"
+}
