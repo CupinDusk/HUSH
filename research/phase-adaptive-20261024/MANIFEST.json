@@ -1,0 +1,85 @@
+{
+  "scope": "new minimal phase-adaptive prototype only",
+  "files": [
+    {
+      "path": "buffered_cutpoint.cpp",
+      "bytes": 1342,
+      "sha256": "28b896749d6d2d986c6f24baa222d86efdf872378b804d48f0ecd09aba898fc1"
+    },
+    {
+      "path": "closed_loop.py",
+      "bytes": 9085,
+      "sha256": "74fc7c430f1e13c68093a67102f156ad30cf6b3dfa443dc9df3e6bfcafd0cfa9"
+    },
+    {
+      "path": "closed_loop_ablation.py",
+      "bytes": 5755,
+      "sha256": "e677df8ee1b5d4bf78442d19399258a5ea6a3a3ac6879b0003ad1ba8230e109f"
+    },
+    {
+      "path": "closed_loop_ablation_protocol.json",
+      "bytes": 1193,
+      "sha256": "48a38a2adbd0f1d3c9a536f1b5499ebf170847dc56eb9acfebff4e8db1e54f68"
+    },
+    {
+      "path": "closed_loop_protocol.json",
+      "bytes": 1832,
+      "sha256": "9999ee0e57b4958cfed8bb033cf09b2c45cda1ead5f89b62b1b557af5c3cc1db"
+    },
+    {
+      "path": "deadline_oracle.cpp",
+      "bytes": 958,
+      "sha256": "d5a4a6840faf2f8de754ef36e1043be632351828ce97d64e9639d39eccd062c3"
+    },
+    {
+      "path": "expected/BUFFERED_RESULTS.json",
+      "bytes": 140,
+      "sha256": "8282177cf41f77c4da1abbc3a9fd1872263e8053293ebcb13001e625c30c7943"
+    },
+    {
+      "path": "expected/CLOSED_LOOP_ABLATION.json",
+      "bytes": 1685514,
+      "sha256": "83e5cf3844998ce94e1a9897e47205ce74cefc8459f31821f2ab1733f9f82a98"
+    },
+    {
+      "path": "expected/CLOSED_LOOP_RESULTS.json",
+      "bytes": 154345,
+      "sha256": "f6de6fe9cd5a9c8f9fbc0a1620dbeb6e15682f2271a08012ca838e84b63561b8"
+    },
+    {
+      "path": "expected/FORMAL_RESULTS.json",
+      "bytes": 836,
+      "sha256": "41c849252ae7ebab4f7cef2af94b89ab1fa65c1783b48634cd840988603a3b58"
+    },
+    {
+      "path": "expected/HARDWARE_COMPARISON.json",
+      "bytes": 2824,
+      "sha256": "32f1f75c618ae81eed71725a7d6ddaf639e9cfc2a7dacd865cb7064352d47d44"
+    },
+    {
+      "path": "expected/ORACLE_RESULTS.json",
+      "bytes": 5617,
+      "sha256": "49530adb909ac05d9c0c666ccfe336da3a57cf3393b9869474e8cfa26e5590a4"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1094,
+      "sha256": "094738a9423b5217472a27db9a64fd00b283e33ada05ff758cbc63c7dc4e21d5"
+    },
+    {
+      "path": "phase_timer.v",
+      "bytes": 3627,
+      "sha256": "ee054301187f7e0951708e10f6bb02bbdcfb961f8f7dcbe9c8f071454e1dbf3c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3707,
+      "sha256": "7b0b99c0c49991dba21130882a9d6257dac2118ac4d94ea66aa84a09bd0cae1d"
+    },
+    {
+      "path": "reproduce.py",
+      "bytes": 918,
+      "sha256": "c3be4ae2225c26f024247a5dfc663f7f4b726bc112eab3a4abb04b661ad55b49"
+    }
+  ]
+}
