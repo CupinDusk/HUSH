@@ -1,0 +1,18 @@
+{
+  "date":"2026-10-24",
+  "status":"prospective_before_kernel_execution",
+  "purpose":"A non-template access stream from a public WCET benchmark. This is an application-derived model scenario, not native multicore or gem5 application performance.",
+  "benchmark":"TACLeBench V2.0 fir2dim, original 4x4 image and 3x3 filter",
+  "shared_data":"padded fir2dim_array only, 36 floats, 64-byte aligned, 64-byte lines; coefficients and outputs private",
+  "phases":"first output row; remaining output rows; result checksum. Stop before the second pin_down writes inputs.",
+  "instrumentation":"log input-array read offsets and phase markers, preserve dereference value and original return code; compare native baseline and instrumented executable",
+  "compute_cycles_before_shared_read":[1,4,16],
+  "writer_compute_gaps":[0,4,16],
+  "writer":"192 stores cycling the three input-array lines, separately declared refresh interferer; not in the original single-thread benchmark",
+  "period":10,
+  "domain":[1,4,16,32,64,254,255],
+  "fixed_domain":"all1..255",
+  "budget":"compute + 0.6*read_count*71 + 2",
+  "tick_phases":"select at0; evaluate selected loads on1..9",
+  "reported":"all9 scenarios, including ties/regressions; actual misses and traffic; bounds; no wallclock cycles from host compilation"
+}

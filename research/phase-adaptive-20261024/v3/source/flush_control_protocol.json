@@ -1,0 +1,9 @@
+{
+  "status": "prospective_before_flush_control",
+  "date": "2026-10-24",
+  "purpose": "test if phase gains merely reflect retaining receiver copies after task completion",
+  "release": "optimistically invalidate all clean receiver slots and directory state at reader completion, zero cycles and no traffic charge",
+  "boundary_flush": "optimistic clean flush at any subset of boundaries1,2, with fresh unknown analysis state; fixed baseline also includes no boundary flush",
+  "comparison": "all255 fixed loads, dynamic343 paths; both receive identical end release; fixed also receives optional boundary flush",
+  "scope": "counterfactual controls only, not additional implemented protocol features"
+}
