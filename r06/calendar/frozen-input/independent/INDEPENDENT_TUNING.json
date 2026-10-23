@@ -1,0 +1,2653 @@
+{
+  "records": [
+    {
+      "case": 0,
+      "original_empty_frame_gate": "PASS",
+      "extension_status": "VALIDATED_FULL_KEY_CYCLE",
+      "counts": {
+        "policy_queries": 576,
+        "service_positive": 282,
+        "completion_positive": 282,
+        "service_only": 0,
+        "original5_queries": 180,
+        "original5_service_positive": 0,
+        "original5_completion_positive": 0
+      },
+      "optima": {
+        "service": {
+          "minimum_KP_minus1": 43,
+          "all_ties_K_P_phi": [
+            [
+              11,
+              4,
+              0
+            ],
+            [
+              11,
+              4,
+              1
+            ],
+            [
+              11,
+              4,
+              2
+            ],
+            [
+              11,
+              4,
+              3
+            ]
+          ],
+          "selected_K_P_phi": [
+            11,
+            4,
+            0
+          ],
+          "empty": false
+        },
+        "completion": {
+          "minimum_KP_minus1": 43,
+          "all_ties_K_P_phi": [
+            [
+              11,
+              4,
+              0
+            ],
+            [
+              11,
+              4,
+              1
+            ],
+            [
+              11,
+              4,
+              2
+            ],
+            [
+              11,
+              4,
+              3
+            ]
+          ],
+          "selected_K_P_phi": [
+            11,
+            4,
+            0
+          ],
+          "empty": false
+        },
+        "original5_service": {
+          "minimum_KP_minus1": null,
+          "all_ties_K_P_phi": [],
+          "selected_K_P_phi": null,
+          "empty": true
+        },
+        "original5_completion": {
+          "minimum_KP_minus1": null,
+          "all_ties_K_P_phi": [],
+          "selected_K_P_phi": null,
+          "empty": true
+        }
+      },
+      "gain_ticks": 0,
+      "no_gain": true
+    },
+    {
+      "case": 1,
+      "original_empty_frame_gate": "PASS",
+      "extension_status": "VALIDATED_FULL_KEY_CYCLE",
+      "counts": {
+        "policy_queries": 576,
+        "service_positive": 105,
+        "completion_positive": 101,
+        "service_only": 4,
+        "original5_queries": 180,
+        "original5_service_positive": 0,
+        "original5_completion_positive": 0
+      },
+      "optima": {
+        "service": {
+          "minimum_KP_minus1": 79,
+          "all_ties_K_P_phi": [
+            [
+              10,
+              8,
+              3
+            ],
+            [
+              10,
+              8,
+              4
+            ],
+            [
+              10,
+              8,
+              5
+            ],
+            [
+              10,
+              8,
+              6
+            ]
+          ],
+          "selected_K_P_phi": [
+            10,
+            8,
+            3
+          ],
+          "empty": false
+        },
+        "completion": {
+          "minimum_KP_minus1": 83,
+          "all_ties_K_P_phi": [
+            [
+              12,
+              7,
+              0
+            ],
+            [
+              12,
+              7,
+              1
+            ],
+            [
+              12,
+              7,
+              2
+            ],
+            [
+              12,
+              7,
+              3
+            ],
+            [
+              12,
+              7,
+              4
+            ],
+            [
+              12,
+              7,
+              5
+            ],
+            [
+              12,
+              7,
+              6
+            ],
+            [
+              14,
+              6,
+              0
+            ],
+            [
+              14,
+              6,
+              1
+            ],
+            [
+              14,
+              6,
+              2
+            ],
+            [
+              14,
+              6,
+              3
+            ],
+            [
+              14,
+              6,
+              4
+            ],
+            [
+              14,
+              6,
+              5
+            ]
+          ],
+          "selected_K_P_phi": [
+            12,
+            7,
+            0
+          ],
+          "empty": false
+        },
+        "original5_service": {
+          "minimum_KP_minus1": null,
+          "all_ties_K_P_phi": [],
+          "selected_K_P_phi": null,
+          "empty": true
+        },
+        "original5_completion": {
+          "minimum_KP_minus1": null,
+          "all_ties_K_P_phi": [],
+          "selected_K_P_phi": null,
+          "empty": true
+        }
+      },
+      "gain_ticks": 4,
+      "no_gain": false
+    },
+    {
+      "case": 2,
+      "original_empty_frame_gate": "PASS",
+      "extension_status": "VALIDATED_FULL_KEY_CYCLE",
+      "counts": {
+        "policy_queries": 1248,
+        "service_positive": 433,
+        "completion_positive": 431,
+        "service_only": 2,
+        "original5_queries": 390,
+        "original5_service_positive": 0,
+        "original5_completion_positive": 0
+      },
+      "optima": {
+        "service": {
+          "minimum_KP_minus1": 83,
+          "all_ties_K_P_phi": [
+            [
+              14,
+              6,
+              0
+            ],
+            [
+              14,
+              6,
+              1
+            ],
+            [
+              14,
+              6,
+              2
+            ],
+            [
+              14,
+              6,
+              3
+            ],
+            [
+              14,
+              6,
+              4
+            ],
+            [
+              14,
+              6,
+              5
+            ]
+          ],
+          "selected_K_P_phi": [
+            14,
+            6,
+            0
+          ],
+          "empty": false
+        },
+        "completion": {
+          "minimum_KP_minus1": 83,
+          "all_ties_K_P_phi": [
+            [
+              14,
+              6,
+              0
+            ],
+            [
+              14,
+              6,
+              1
+            ],
+            [
+              14,
+              6,
+              2
+            ],
+            [
+              14,
+              6,
+              5
+            ]
+          ],
+          "selected_K_P_phi": [
+            14,
+            6,
+            0
+          ],
+          "empty": false
+        },
+        "original5_service": {
+          "minimum_KP_minus1": null,
+          "all_ties_K_P_phi": [],
+          "selected_K_P_phi": null,
+          "empty": true
+        },
+        "original5_completion": {
+          "minimum_KP_minus1": null,
+          "all_ties_K_P_phi": [],
+          "selected_K_P_phi": null,
+          "empty": true
+        }
+      },
+      "gain_ticks": 0,
+      "no_gain": true
+    },
+    {
+      "case": 3,
+      "original_empty_frame_gate": "PASS",
+      "extension_status": "VALIDATED_FULL_KEY_CYCLE",
+      "counts": {
+        "policy_queries": 1248,
+        "service_positive": 152,
+        "completion_positive": 152,
+        "service_only": 0,
+        "original5_queries": 390,
+        "original5_service_positive": 0,
+        "original5_completion_positive": 0
+      },
+      "optima": {
+        "service": {
+          "minimum_KP_minus1": 134,
+          "all_ties_K_P_phi": [
+            [
+              15,
+              9,
+              0
+            ],
+            [
+              15,
+              9,
+              1
+            ],
+            [
+              15,
+              9,
+              2
+            ],
+            [
+              15,
+              9,
+              3
+            ],
+            [
+              15,
+              9,
+              4
+            ],
+            [
+              15,
+              9,
+              5
+            ],
+            [
+              15,
+              9,
+              6
+            ],
+            [
+              15,
+              9,
+              7
+            ],
+            [
+              15,
+              9,
+              8
+            ]
+          ],
+          "selected_K_P_phi": [
+            15,
+            9,
+            0
+          ],
+          "empty": false
+        },
+        "completion": {
+          "minimum_KP_minus1": 134,
+          "all_ties_K_P_phi": [
+            [
+              15,
+              9,
+              0
+            ],
+            [
+              15,
+              9,
+              1
+            ],
+            [
+              15,
+              9,
+              2
+            ],
+            [
+              15,
+              9,
+              3
+            ],
+            [
+              15,
+              9,
+              4
+            ],
+            [
+              15,
+              9,
+              5
+            ],
+            [
+              15,
+              9,
+              6
+            ],
+            [
+              15,
+              9,
+              7
+            ],
+            [
+              15,
+              9,
+              8
+            ]
+          ],
+          "selected_K_P_phi": [
+            15,
+            9,
+            0
+          ],
+          "empty": false
+        },
+        "original5_service": {
+          "minimum_KP_minus1": null,
+          "all_ties_K_P_phi": [],
+          "selected_K_P_phi": null,
+          "empty": true
+        },
+        "original5_completion": {
+          "minimum_KP_minus1": null,
+          "all_ties_K_P_phi": [],
+          "selected_K_P_phi": null,
+          "empty": true
+        }
+      },
+      "gain_ticks": 0,
+      "no_gain": true
+    },
+    {
+      "case": 4,
+      "original_empty_frame_gate": "PASS",
+      "extension_status": "VALIDATED_FULL_KEY_CYCLE",
+      "counts": {
+        "policy_queries": 3360,
+        "service_positive": 2604,
+        "completion_positive": 2599,
+        "service_only": 5,
+        "original5_queries": 1050,
+        "original5_service_positive": 380,
+        "original5_completion_positive": 375
+      },
+      "optima": {
+        "service": {
+          "minimum_KP_minus1": 38,
+          "all_ties_K_P_phi": [
+            [
+              13,
+              3,
+              0
+            ],
+            [
+              13,
+              3,
+              1
+            ],
+            [
+              13,
+              3,
+              2
+            ]
+          ],
+          "selected_K_P_phi": [
+            13,
+            3,
+            0
+          ],
+          "empty": false
+        },
+        "completion": {
+          "minimum_KP_minus1": 38,
+          "all_ties_K_P_phi": [
+            [
+              13,
+              3,
+              0
+            ],
+            [
+              13,
+              3,
+              1
+            ],
+            [
+              13,
+              3,
+              2
+            ]
+          ],
+          "selected_K_P_phi": [
+            13,
+            3,
+            0
+          ],
+          "empty": false
+        },
+        "original5_service": {
+          "minimum_KP_minus1": 39,
+          "all_ties_K_P_phi": [
+            [
+              4,
+              10,
+              1
+            ],
+            [
+              4,
+              10,
+              2
+            ],
+            [
+              4,
+              10,
+              3
+            ],
+            [
+              4,
+              10,
+              4
+            ],
+            [
+              4,
+              10,
+              5
+            ]
+          ],
+          "selected_K_P_phi": [
+            4,
+            10,
+            1
+          ],
+          "empty": false
+        },
+        "original5_completion": {
+          "minimum_KP_minus1": 44,
+          "all_ties_K_P_phi": [
+            [
+              5,
+              9,
+              0
+            ],
+            [
+              5,
+              9,
+              1
+            ],
+            [
+              5,
+              9,
+              2
+            ],
+            [
+              5,
+              9,
+              3
+            ],
+            [
+              5,
+              9,
+              4
+            ],
+            [
+              5,
+              9,
+              5
+            ],
+            [
+              5,
+              9,
+              6
+            ],
+            [
+              5,
+              9,
+              7
+            ],
+            [
+              5,
+              9,
+              8
+            ]
+          ],
+          "selected_K_P_phi": [
+            5,
+            9,
+            0
+          ],
+          "empty": false
+        }
+      },
+      "gain_ticks": 0,
+      "no_gain": true
+    },
+    {
+      "case": 5,
+      "original_empty_frame_gate": "PASS",
+      "extension_status": "VALIDATED_FULL_KEY_CYCLE",
+      "counts": {
+        "policy_queries": 3360,
+        "service_positive": 206,
+        "completion_positive": 182,
+        "service_only": 24,
+        "original5_queries": 1050,
+        "original5_service_positive": 0,
+        "original5_completion_positive": 0
+      },
+      "optima": {
+        "service": {
+          "minimum_KP_minus1": 255,
+          "all_ties_K_P_phi": [
+            [
+              16,
+              16,
+              0
+            ],
+            [
+              16,
+              16,
+              1
+            ],
+            [
+              16,
+              16,
+              2
+            ],
+            [
+              16,
+              16,
+              3
+            ],
+            [
+              16,
+              16,
+              4
+            ],
+            [
+              16,
+              16,
+              5
+            ],
+            [
+              16,
+              16,
+              6
+            ],
+            [
+              16,
+              16,
+              7
+            ],
+            [
+              16,
+              16,
+              8
+            ],
+            [
+              16,
+              16,
+              9
+            ],
+            [
+              16,
+              16,
+              10
+            ],
+            [
+              16,
+              16,
+              11
+            ],
+            [
+              16,
+              16,
+              12
+            ],
+            [
+              16,
+              16,
+              13
+            ],
+            [
+              16,
+              16,
+              14
+            ],
+            [
+              16,
+              16,
+              15
+            ]
+          ],
+          "selected_K_P_phi": [
+            16,
+            16,
+            0
+          ],
+          "empty": false
+        },
+        "completion": {
+          "minimum_KP_minus1": 259,
+          "all_ties_K_P_phi": [
+            [
+              13,
+              20,
+              0
+            ],
+            [
+              13,
+              20,
+              1
+            ],
+            [
+              13,
+              20,
+              2
+            ],
+            [
+              13,
+              20,
+              3
+            ],
+            [
+              13,
+              20,
+              4
+            ],
+            [
+              13,
+              20,
+              5
+            ],
+            [
+              13,
+              20,
+              6
+            ],
+            [
+              13,
+              20,
+              15
+            ],
+            [
+              13,
+              20,
+              16
+            ],
+            [
+              13,
+              20,
+              17
+            ],
+            [
+              13,
+              20,
+              18
+            ],
+            [
+              13,
+              20,
+              19
+            ]
+          ],
+          "selected_K_P_phi": [
+            13,
+            20,
+            0
+          ],
+          "empty": false
+        },
+        "original5_service": {
+          "minimum_KP_minus1": null,
+          "all_ties_K_P_phi": [],
+          "selected_K_P_phi": null,
+          "empty": true
+        },
+        "original5_completion": {
+          "minimum_KP_minus1": null,
+          "all_ties_K_P_phi": [],
+          "selected_K_P_phi": null,
+          "empty": true
+        }
+      },
+      "gain_ticks": 4,
+      "no_gain": false
+    },
+    {
+      "case": 6,
+      "original_empty_frame_gate": "PASS",
+      "extension_status": "VALIDATED_FULL_KEY_CYCLE",
+      "counts": {
+        "policy_queries": 6496,
+        "service_positive": 1367,
+        "completion_positive": 1350,
+        "service_only": 17,
+        "original5_queries": 2030,
+        "original5_service_positive": 0,
+        "original5_completion_positive": 0
+      },
+      "optima": {
+        "service": {
+          "minimum_KP_minus1": 254,
+          "all_ties_K_P_phi": [
+            [
+              15,
+              17,
+              0
+            ],
+            [
+              15,
+              17,
+              1
+            ],
+            [
+              15,
+              17,
+              2
+            ],
+            [
+              15,
+              17,
+              3
+            ],
+            [
+              15,
+              17,
+              4
+            ],
+            [
+              15,
+              17,
+              5
+            ],
+            [
+              15,
+              17,
+              6
+            ],
+            [
+              15,
+              17,
+              7
+            ],
+            [
+              15,
+              17,
+              8
+            ],
+            [
+              15,
+              17,
+              9
+            ],
+            [
+              15,
+              17,
+              10
+            ],
+            [
+              15,
+              17,
+              11
+            ],
+            [
+              15,
+              17,
+              12
+            ],
+            [
+              15,
+              17,
+              13
+            ],
+            [
+              15,
+              17,
+              14
+            ],
+            [
+              15,
+              17,
+              15
+            ],
+            [
+              15,
+              17,
+              16
+            ]
+          ],
+          "selected_K_P_phi": [
+            15,
+            17,
+            0
+          ],
+          "empty": false
+        },
+        "completion": {
+          "minimum_KP_minus1": 255,
+          "all_ties_K_P_phi": [
+            [
+              16,
+              16,
+              0
+            ],
+            [
+              16,
+              16,
+              1
+            ],
+            [
+              16,
+              16,
+              2
+            ],
+            [
+              16,
+              16,
+              3
+            ],
+            [
+              16,
+              16,
+              4
+            ],
+            [
+              16,
+              16,
+              5
+            ],
+            [
+              16,
+              16,
+              6
+            ],
+            [
+              16,
+              16,
+              7
+            ],
+            [
+              16,
+              16,
+              8
+            ],
+            [
+              16,
+              16,
+              9
+            ],
+            [
+              16,
+              16,
+              10
+            ],
+            [
+              16,
+              16,
+              11
+            ],
+            [
+              16,
+              16,
+              12
+            ],
+            [
+              16,
+              16,
+              13
+            ],
+            [
+              16,
+              16,
+              14
+            ],
+            [
+              16,
+              16,
+              15
+            ]
+          ],
+          "selected_K_P_phi": [
+            16,
+            16,
+            0
+          ],
+          "empty": false
+        },
+        "original5_service": {
+          "minimum_KP_minus1": null,
+          "all_ties_K_P_phi": [],
+          "selected_K_P_phi": null,
+          "empty": true
+        },
+        "original5_completion": {
+          "minimum_KP_minus1": null,
+          "all_ties_K_P_phi": [],
+          "selected_K_P_phi": null,
+          "empty": true
+        }
+      },
+      "gain_ticks": 1,
+      "no_gain": false
+    },
+    {
+      "case": 7,
+      "original_empty_frame_gate": "FAILED_UNKNOWN",
+      "extension_status": "VALIDATED_FULL_KEY_CYCLE",
+      "counts": {
+        "policy_queries": 6496,
+        "service_positive": 5227,
+        "completion_positive": 5227,
+        "service_only": 0,
+        "original5_queries": 2030,
+        "original5_service_positive": 889,
+        "original5_completion_positive": 889
+      },
+      "optima": {
+        "service": {
+          "minimum_KP_minus1": 44,
+          "all_ties_K_P_phi": [
+            [
+              15,
+              3,
+              0
+            ],
+            [
+              15,
+              3,
+              1
+            ],
+            [
+              15,
+              3,
+              2
+            ]
+          ],
+          "selected_K_P_phi": [
+            15,
+            3,
+            0
+          ],
+          "empty": false
+        },
+        "completion": {
+          "minimum_KP_minus1": 44,
+          "all_ties_K_P_phi": [
+            [
+              15,
+              3,
+              0
+            ],
+            [
+              15,
+              3,
+              1
+            ],
+            [
+              15,
+              3,
+              2
+            ]
+          ],
+          "selected_K_P_phi": [
+            15,
+            3,
+            0
+          ],
+          "empty": false
+        },
+        "original5_service": {
+          "minimum_KP_minus1": 49,
+          "all_ties_K_P_phi": [
+            [
+              5,
+              10,
+              0
+            ],
+            [
+              5,
+              10,
+              4
+            ],
+            [
+              5,
+              10,
+              7
+            ]
+          ],
+          "selected_K_P_phi": [
+            5,
+            10,
+            0
+          ],
+          "empty": false
+        },
+        "original5_completion": {
+          "minimum_KP_minus1": 49,
+          "all_ties_K_P_phi": [
+            [
+              5,
+              10,
+              0
+            ],
+            [
+              5,
+              10,
+              4
+            ],
+            [
+              5,
+              10,
+              7
+            ]
+          ],
+          "selected_K_P_phi": [
+            5,
+            10,
+            0
+          ],
+          "empty": false
+        }
+      },
+      "gain_ticks": 0,
+      "no_gain": true
+    },
+    {
+      "case": 8,
+      "original_empty_frame_gate": "PASS",
+      "extension_status": "VALIDATED_FULL_KEY_CYCLE",
+      "counts": {
+        "policy_queries": 15840,
+        "service_positive": 2827,
+        "completion_positive": 2764,
+        "service_only": 63,
+        "original5_queries": 4950,
+        "original5_service_positive": 0,
+        "original5_completion_positive": 0
+      },
+      "optima": {
+        "service": {
+          "minimum_KP_minus1": 419,
+          "all_ties_K_P_phi": [
+            [
+              14,
+              30,
+              4
+            ],
+            [
+              14,
+              30,
+              14
+            ],
+            [
+              14,
+              30,
+              24
+            ]
+          ],
+          "selected_K_P_phi": [
+            14,
+            30,
+            4
+          ],
+          "empty": false
+        },
+        "completion": {
+          "minimum_KP_minus1": 428,
+          "all_ties_K_P_phi": [
+            [
+              13,
+              33,
+              4
+            ],
+            [
+              13,
+              33,
+              5
+            ],
+            [
+              13,
+              33,
+              6
+            ],
+            [
+              13,
+              33,
+              7
+            ],
+            [
+              13,
+              33,
+              8
+            ],
+            [
+              13,
+              33,
+              15
+            ],
+            [
+              13,
+              33,
+              16
+            ],
+            [
+              13,
+              33,
+              17
+            ],
+            [
+              13,
+              33,
+              18
+            ],
+            [
+              13,
+              33,
+              19
+            ],
+            [
+              13,
+              33,
+              26
+            ],
+            [
+              13,
+              33,
+              27
+            ],
+            [
+              13,
+              33,
+              28
+            ],
+            [
+              13,
+              33,
+              29
+            ],
+            [
+              13,
+              33,
+              30
+            ]
+          ],
+          "selected_K_P_phi": [
+            13,
+            33,
+            4
+          ],
+          "empty": false
+        },
+        "original5_service": {
+          "minimum_KP_minus1": null,
+          "all_ties_K_P_phi": [],
+          "selected_K_P_phi": null,
+          "empty": true
+        },
+        "original5_completion": {
+          "minimum_KP_minus1": null,
+          "all_ties_K_P_phi": [],
+          "selected_K_P_phi": null,
+          "empty": true
+        }
+      },
+      "gain_ticks": 9,
+      "no_gain": false
+    },
+    {
+      "case": 9,
+      "original_empty_frame_gate": "PASS",
+      "extension_status": "VALIDATED_FULL_KEY_CYCLE",
+      "counts": {
+        "policy_queries": 15840,
+        "service_positive": 463,
+        "completion_positive": 455,
+        "service_only": 8,
+        "original5_queries": 4950,
+        "original5_service_positive": 0,
+        "original5_completion_positive": 0
+      },
+      "optima": {
+        "service": {
+          "minimum_KP_minus1": 614,
+          "all_ties_K_P_phi": [
+            [
+              15,
+              41,
+              0
+            ],
+            [
+              15,
+              41,
+              1
+            ],
+            [
+              15,
+              41,
+              2
+            ],
+            [
+              15,
+              41,
+              3
+            ],
+            [
+              15,
+              41,
+              4
+            ],
+            [
+              15,
+              41,
+              5
+            ],
+            [
+              15,
+              41,
+              6
+            ],
+            [
+              15,
+              41,
+              7
+            ],
+            [
+              15,
+              41,
+              8
+            ],
+            [
+              15,
+              41,
+              9
+            ],
+            [
+              15,
+              41,
+              10
+            ],
+            [
+              15,
+              41,
+              11
+            ],
+            [
+              15,
+              41,
+              12
+            ],
+            [
+              15,
+              41,
+              13
+            ],
+            [
+              15,
+              41,
+              14
+            ],
+            [
+              15,
+              41,
+              15
+            ],
+            [
+              15,
+              41,
+              16
+            ],
+            [
+              15,
+              41,
+              17
+            ],
+            [
+              15,
+              41,
+              18
+            ],
+            [
+              15,
+              41,
+              19
+            ],
+            [
+              15,
+              41,
+              20
+            ],
+            [
+              15,
+              41,
+              21
+            ],
+            [
+              15,
+              41,
+              22
+            ],
+            [
+              15,
+              41,
+              23
+            ],
+            [
+              15,
+              41,
+              24
+            ],
+            [
+              15,
+              41,
+              25
+            ],
+            [
+              15,
+              41,
+              26
+            ],
+            [
+              15,
+              41,
+              27
+            ],
+            [
+              15,
+              41,
+              28
+            ],
+            [
+              15,
+              41,
+              29
+            ],
+            [
+              15,
+              41,
+              30
+            ],
+            [
+              15,
+              41,
+              31
+            ],
+            [
+              15,
+              41,
+              32
+            ],
+            [
+              15,
+              41,
+              33
+            ],
+            [
+              15,
+              41,
+              34
+            ],
+            [
+              15,
+              41,
+              35
+            ],
+            [
+              15,
+              41,
+              36
+            ],
+            [
+              15,
+              41,
+              37
+            ],
+            [
+              15,
+              41,
+              38
+            ],
+            [
+              15,
+              41,
+              39
+            ],
+            [
+              15,
+              41,
+              40
+            ]
+          ],
+          "selected_K_P_phi": [
+            15,
+            41,
+            0
+          ],
+          "empty": false
+        },
+        "completion": {
+          "minimum_KP_minus1": 614,
+          "all_ties_K_P_phi": [
+            [
+              15,
+              41,
+              0
+            ],
+            [
+              15,
+              41,
+              1
+            ],
+            [
+              15,
+              41,
+              2
+            ],
+            [
+              15,
+              41,
+              3
+            ],
+            [
+              15,
+              41,
+              4
+            ],
+            [
+              15,
+              41,
+              5
+            ],
+            [
+              15,
+              41,
+              6
+            ],
+            [
+              15,
+              41,
+              7
+            ],
+            [
+              15,
+              41,
+              8
+            ],
+            [
+              15,
+              41,
+              9
+            ],
+            [
+              15,
+              41,
+              10
+            ],
+            [
+              15,
+              41,
+              11
+            ],
+            [
+              15,
+              41,
+              12
+            ],
+            [
+              15,
+              41,
+              13
+            ],
+            [
+              15,
+              41,
+              14
+            ],
+            [
+              15,
+              41,
+              15
+            ],
+            [
+              15,
+              41,
+              16
+            ],
+            [
+              15,
+              41,
+              17
+            ],
+            [
+              15,
+              41,
+              18
+            ],
+            [
+              15,
+              41,
+              19
+            ],
+            [
+              15,
+              41,
+              20
+            ],
+            [
+              15,
+              41,
+              21
+            ],
+            [
+              15,
+              41,
+              22
+            ],
+            [
+              15,
+              41,
+              23
+            ],
+            [
+              15,
+              41,
+              24
+            ],
+            [
+              15,
+              41,
+              25
+            ],
+            [
+              15,
+              41,
+              26
+            ],
+            [
+              15,
+              41,
+              27
+            ],
+            [
+              15,
+              41,
+              28
+            ],
+            [
+              15,
+              41,
+              29
+            ],
+            [
+              15,
+              41,
+              30
+            ],
+            [
+              15,
+              41,
+              31
+            ],
+            [
+              15,
+              41,
+              32
+            ],
+            [
+              15,
+              41,
+              33
+            ],
+            [
+              15,
+              41,
+              34
+            ],
+            [
+              15,
+              41,
+              35
+            ],
+            [
+              15,
+              41,
+              36
+            ],
+            [
+              15,
+              41,
+              37
+            ],
+            [
+              15,
+              41,
+              38
+            ],
+            [
+              15,
+              41,
+              39
+            ],
+            [
+              15,
+              41,
+              40
+            ]
+          ],
+          "selected_K_P_phi": [
+            15,
+            41,
+            0
+          ],
+          "empty": false
+        },
+        "original5_service": {
+          "minimum_KP_minus1": null,
+          "all_ties_K_P_phi": [],
+          "selected_K_P_phi": null,
+          "empty": true
+        },
+        "original5_completion": {
+          "minimum_KP_minus1": null,
+          "all_ties_K_P_phi": [],
+          "selected_K_P_phi": null,
+          "empty": true
+        }
+      },
+      "gain_ticks": 0,
+      "no_gain": true
+    },
+    {
+      "case": 10,
+      "original_empty_frame_gate": "PASS",
+      "extension_status": "VALIDATED_FULL_KEY_CYCLE",
+      "counts": {
+        "policy_queries": 37536,
+        "service_positive": 6549,
+        "completion_positive": 6520,
+        "service_only": 29,
+        "original5_queries": 11730,
+        "original5_service_positive": 0,
+        "original5_completion_positive": 0
+      },
+      "optima": {
+        "service": {
+          "minimum_KP_minus1": 639,
+          "all_ties_K_P_phi": [
+            [
+              16,
+              40,
+              18
+            ],
+            [
+              16,
+              40,
+              19
+            ],
+            [
+              16,
+              40,
+              20
+            ],
+            [
+              16,
+              40,
+              21
+            ],
+            [
+              16,
+              40,
+              22
+            ]
+          ],
+          "selected_K_P_phi": [
+            16,
+            40,
+            18
+          ],
+          "empty": false
+        },
+        "completion": {
+          "minimum_KP_minus1": 655,
+          "all_ties_K_P_phi": [
+            [
+              16,
+              41,
+              0
+            ],
+            [
+              16,
+              41,
+              1
+            ],
+            [
+              16,
+              41,
+              2
+            ],
+            [
+              16,
+              41,
+              3
+            ],
+            [
+              16,
+              41,
+              4
+            ],
+            [
+              16,
+              41,
+              5
+            ],
+            [
+              16,
+              41,
+              6
+            ],
+            [
+              16,
+              41,
+              7
+            ],
+            [
+              16,
+              41,
+              8
+            ],
+            [
+              16,
+              41,
+              9
+            ],
+            [
+              16,
+              41,
+              10
+            ],
+            [
+              16,
+              41,
+              11
+            ],
+            [
+              16,
+              41,
+              12
+            ],
+            [
+              16,
+              41,
+              13
+            ],
+            [
+              16,
+              41,
+              14
+            ],
+            [
+              16,
+              41,
+              15
+            ],
+            [
+              16,
+              41,
+              16
+            ],
+            [
+              16,
+              41,
+              17
+            ],
+            [
+              16,
+              41,
+              18
+            ],
+            [
+              16,
+              41,
+              19
+            ],
+            [
+              16,
+              41,
+              20
+            ],
+            [
+              16,
+              41,
+              21
+            ],
+            [
+              16,
+              41,
+              22
+            ],
+            [
+              16,
+              41,
+              23
+            ],
+            [
+              16,
+              41,
+              24
+            ],
+            [
+              16,
+              41,
+              25
+            ],
+            [
+              16,
+              41,
+              26
+            ],
+            [
+              16,
+              41,
+              27
+            ],
+            [
+              16,
+              41,
+              28
+            ],
+            [
+              16,
+              41,
+              29
+            ],
+            [
+              16,
+              41,
+              30
+            ],
+            [
+              16,
+              41,
+              31
+            ],
+            [
+              16,
+              41,
+              32
+            ],
+            [
+              16,
+              41,
+              33
+            ],
+            [
+              16,
+              41,
+              34
+            ],
+            [
+              16,
+              41,
+              35
+            ],
+            [
+              16,
+              41,
+              36
+            ],
+            [
+              16,
+              41,
+              37
+            ],
+            [
+              16,
+              41,
+              38
+            ],
+            [
+              16,
+              41,
+              39
+            ],
+            [
+              16,
+              41,
+              40
+            ]
+          ],
+          "selected_K_P_phi": [
+            16,
+            41,
+            0
+          ],
+          "empty": false
+        },
+        "original5_service": {
+          "minimum_KP_minus1": null,
+          "all_ties_K_P_phi": [],
+          "selected_K_P_phi": null,
+          "empty": true
+        },
+        "original5_completion": {
+          "minimum_KP_minus1": null,
+          "all_ties_K_P_phi": [],
+          "selected_K_P_phi": null,
+          "empty": true
+        }
+      },
+      "gain_ticks": 16,
+      "no_gain": false
+    },
+    {
+      "case": 11,
+      "original_empty_frame_gate": "PASS",
+      "extension_status": "VALIDATED_FULL_KEY_CYCLE",
+      "counts": {
+        "policy_queries": 37536,
+        "service_positive": 1042,
+        "completion_positive": 956,
+        "service_only": 86,
+        "original5_queries": 11730,
+        "original5_service_positive": 0,
+        "original5_completion_positive": 0
+      },
+      "optima": {
+        "service": {
+          "minimum_KP_minus1": 943,
+          "all_ties_K_P_phi": [
+            [
+              16,
+              59,
+              0
+            ],
+            [
+              16,
+              59,
+              1
+            ],
+            [
+              16,
+              59,
+              2
+            ],
+            [
+              16,
+              59,
+              3
+            ],
+            [
+              16,
+              59,
+              4
+            ],
+            [
+              16,
+              59,
+              5
+            ],
+            [
+              16,
+              59,
+              6
+            ],
+            [
+              16,
+              59,
+              7
+            ],
+            [
+              16,
+              59,
+              8
+            ],
+            [
+              16,
+              59,
+              9
+            ],
+            [
+              16,
+              59,
+              10
+            ],
+            [
+              16,
+              59,
+              11
+            ],
+            [
+              16,
+              59,
+              12
+            ],
+            [
+              16,
+              59,
+              13
+            ],
+            [
+              16,
+              59,
+              14
+            ],
+            [
+              16,
+              59,
+              15
+            ],
+            [
+              16,
+              59,
+              16
+            ],
+            [
+              16,
+              59,
+              17
+            ],
+            [
+              16,
+              59,
+              18
+            ],
+            [
+              16,
+              59,
+              19
+            ],
+            [
+              16,
+              59,
+              20
+            ],
+            [
+              16,
+              59,
+              21
+            ],
+            [
+              16,
+              59,
+              22
+            ],
+            [
+              16,
+              59,
+              23
+            ],
+            [
+              16,
+              59,
+              24
+            ],
+            [
+              16,
+              59,
+              25
+            ],
+            [
+              16,
+              59,
+              26
+            ],
+            [
+              16,
+              59,
+              27
+            ],
+            [
+              16,
+              59,
+              28
+            ],
+            [
+              16,
+              59,
+              29
+            ],
+            [
+              16,
+              59,
+              30
+            ],
+            [
+              16,
+              59,
+              31
+            ],
+            [
+              16,
+              59,
+              32
+            ],
+            [
+              16,
+              59,
+              33
+            ],
+            [
+              16,
+              59,
+              34
+            ],
+            [
+              16,
+              59,
+              35
+            ],
+            [
+              16,
+              59,
+              36
+            ],
+            [
+              16,
+              59,
+              37
+            ],
+            [
+              16,
+              59,
+              38
+            ],
+            [
+              16,
+              59,
+              39
+            ],
+            [
+              16,
+              59,
+              40
+            ],
+            [
+              16,
+              59,
+              41
+            ],
+            [
+              16,
+              59,
+              42
+            ],
+            [
+              16,
+              59,
+              43
+            ],
+            [
+              16,
+              59,
+              44
+            ],
+            [
+              16,
+              59,
+              45
+            ],
+            [
+              16,
+              59,
+              46
+            ],
+            [
+              16,
+              59,
+              47
+            ],
+            [
+              16,
+              59,
+              48
+            ],
+            [
+              16,
+              59,
+              49
+            ],
+            [
+              16,
+              59,
+              50
+            ],
+            [
+              16,
+              59,
+              51
+            ],
+            [
+              16,
+              59,
+              52
+            ],
+            [
+              16,
+              59,
+              53
+            ],
+            [
+              16,
+              59,
+              54
+            ],
+            [
+              16,
+              59,
+              55
+            ],
+            [
+              16,
+              59,
+              56
+            ],
+            [
+              16,
+              59,
+              57
+            ],
+            [
+              16,
+              59,
+              58
+            ]
+          ],
+          "selected_K_P_phi": [
+            16,
+            59,
+            0
+          ],
+          "empty": false
+        },
+        "completion": {
+          "minimum_KP_minus1": 951,
+          "all_ties_K_P_phi": [
+            [
+              14,
+              68,
+              0
+            ],
+            [
+              14,
+              68,
+              1
+            ],
+            [
+              14,
+              68,
+              2
+            ],
+            [
+              14,
+              68,
+              3
+            ],
+            [
+              14,
+              68,
+              4
+            ],
+            [
+              14,
+              68,
+              5
+            ],
+            [
+              14,
+              68,
+              6
+            ],
+            [
+              14,
+              68,
+              7
+            ],
+            [
+              14,
+              68,
+              8
+            ],
+            [
+              14,
+              68,
+              9
+            ],
+            [
+              14,
+              68,
+              10
+            ],
+            [
+              14,
+              68,
+              11
+            ],
+            [
+              14,
+              68,
+              12
+            ],
+            [
+              14,
+              68,
+              13
+            ],
+            [
+              14,
+              68,
+              22
+            ],
+            [
+              14,
+              68,
+              23
+            ],
+            [
+              14,
+              68,
+              24
+            ],
+            [
+              14,
+              68,
+              25
+            ],
+            [
+              14,
+              68,
+              26
+            ],
+            [
+              14,
+              68,
+              27
+            ],
+            [
+              14,
+              68,
+              28
+            ],
+            [
+              14,
+              68,
+              29
+            ],
+            [
+              14,
+              68,
+              30
+            ],
+            [
+              14,
+              68,
+              31
+            ],
+            [
+              14,
+              68,
+              32
+            ],
+            [
+              14,
+              68,
+              33
+            ],
+            [
+              14,
+              68,
+              34
+            ],
+            [
+              14,
+              68,
+              35
+            ],
+            [
+              14,
+              68,
+              36
+            ],
+            [
+              14,
+              68,
+              37
+            ],
+            [
+              14,
+              68,
+              38
+            ],
+            [
+              14,
+              68,
+              39
+            ],
+            [
+              14,
+              68,
+              40
+            ],
+            [
+              14,
+              68,
+              41
+            ],
+            [
+              14,
+              68,
+              42
+            ],
+            [
+              14,
+              68,
+              43
+            ],
+            [
+              14,
+              68,
+              44
+            ],
+            [
+              14,
+              68,
+              45
+            ],
+            [
+              14,
+              68,
+              46
+            ],
+            [
+              14,
+              68,
+              57
+            ],
+            [
+              14,
+              68,
+              58
+            ],
+            [
+              14,
+              68,
+              59
+            ],
+            [
+              14,
+              68,
+              60
+            ],
+            [
+              14,
+              68,
+              61
+            ],
+            [
+              14,
+              68,
+              62
+            ],
+            [
+              14,
+              68,
+              63
+            ],
+            [
+              14,
+              68,
+              64
+            ],
+            [
+              14,
+              68,
+              65
+            ],
+            [
+              14,
+              68,
+              66
+            ],
+            [
+              14,
+              68,
+              67
+            ]
+          ],
+          "selected_K_P_phi": [
+            14,
+            68,
+            0
+          ],
+          "empty": false
+        },
+        "original5_service": {
+          "minimum_KP_minus1": null,
+          "all_ties_K_P_phi": [],
+          "selected_K_P_phi": null,
+          "empty": true
+        },
+        "original5_completion": {
+          "minimum_KP_minus1": null,
+          "all_ties_K_P_phi": [],
+          "selected_K_P_phi": null,
+          "empty": true
+        }
+      },
+      "gain_ticks": 8,
+      "no_gain": false
+    }
+  ]
+}

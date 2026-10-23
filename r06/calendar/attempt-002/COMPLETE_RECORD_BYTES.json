@@ -1,0 +1,841 @@
+{
+  "cases": [
+    {
+      "case": 0,
+      "p": 2,
+      "r": 5,
+      "d": 80,
+      "entry": 0,
+      "portfolio_P": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "gstar": 8,
+      "lines": [
+        {
+          "owner": 0,
+          "prefix_count": 0,
+          "equivalent_uint32_triple_payload_bytes": 0,
+          "actual_prefix_JSON_value_bytes": 2,
+          "actual_prefix_crossing_flags_JSON_value_bytes": 2,
+          "full_raw_pairs": 2,
+          "grouped_pairs": 2,
+          "canonical_master_pairs": 2,
+          "portfolio_pairs": 1
+        },
+        {
+          "owner": 1,
+          "prefix_count": 0,
+          "equivalent_uint32_triple_payload_bytes": 0,
+          "actual_prefix_JSON_value_bytes": 2,
+          "actual_prefix_crossing_flags_JSON_value_bytes": 2,
+          "full_raw_pairs": 2,
+          "grouped_pairs": 2,
+          "canonical_master_pairs": 2,
+          "portfolio_pairs": 1
+        },
+        {
+          "owner": 2,
+          "prefix_count": 0,
+          "equivalent_uint32_triple_payload_bytes": 0,
+          "actual_prefix_JSON_value_bytes": 2,
+          "actual_prefix_crossing_flags_JSON_value_bytes": 2,
+          "full_raw_pairs": 2,
+          "grouped_pairs": 2,
+          "canonical_master_pairs": 2,
+          "portfolio_pairs": 1
+        },
+        {
+          "owner": 3,
+          "prefix_count": 0,
+          "equivalent_uint32_triple_payload_bytes": 0,
+          "actual_prefix_JSON_value_bytes": 2,
+          "actual_prefix_crossing_flags_JSON_value_bytes": 2,
+          "full_raw_pairs": 2,
+          "grouped_pairs": 2,
+          "canonical_master_pairs": 2,
+          "portfolio_pairs": 1
+        }
+      ],
+      "full_raw_profile_bytes": 3324,
+      "grouped_master_bytes": 3324,
+      "canonical_master_bytes": 3324,
+      "portfolio_bytes": 3292,
+      "raw_relation_bytes": 3356,
+      "dense_portfolio_bytes": 3388,
+      "common_metadata_and_headers_bytes": 3260,
+      "portfolio_saved_vs_canonical_bytes": 32,
+      "portfolio_saved_vs_retained_raw_relation_bytes": 64
+    },
+    {
+      "case": 1,
+      "p": 2,
+      "r": 7,
+      "d": 112,
+      "entry": 0,
+      "portfolio_P": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "gstar": 8,
+      "lines": [
+        {
+          "owner": 0,
+          "prefix_count": 0,
+          "equivalent_uint32_triple_payload_bytes": 0,
+          "actual_prefix_JSON_value_bytes": 2,
+          "actual_prefix_crossing_flags_JSON_value_bytes": 2,
+          "full_raw_pairs": 2,
+          "grouped_pairs": 2,
+          "canonical_master_pairs": 2,
+          "portfolio_pairs": 1
+        },
+        {
+          "owner": 1,
+          "prefix_count": 0,
+          "equivalent_uint32_triple_payload_bytes": 0,
+          "actual_prefix_JSON_value_bytes": 2,
+          "actual_prefix_crossing_flags_JSON_value_bytes": 2,
+          "full_raw_pairs": 2,
+          "grouped_pairs": 2,
+          "canonical_master_pairs": 2,
+          "portfolio_pairs": 1
+        },
+        {
+          "owner": 2,
+          "prefix_count": 0,
+          "equivalent_uint32_triple_payload_bytes": 0,
+          "actual_prefix_JSON_value_bytes": 2,
+          "actual_prefix_crossing_flags_JSON_value_bytes": 2,
+          "full_raw_pairs": 2,
+          "grouped_pairs": 2,
+          "canonical_master_pairs": 2,
+          "portfolio_pairs": 1
+        },
+        {
+          "owner": 3,
+          "prefix_count": 0,
+          "equivalent_uint32_triple_payload_bytes": 0,
+          "actual_prefix_JSON_value_bytes": 2,
+          "actual_prefix_crossing_flags_JSON_value_bytes": 2,
+          "full_raw_pairs": 2,
+          "grouped_pairs": 2,
+          "canonical_master_pairs": 2,
+          "portfolio_pairs": 1
+        }
+      ],
+      "full_raw_profile_bytes": 3328,
+      "grouped_master_bytes": 3328,
+      "canonical_master_bytes": 3328,
+      "portfolio_bytes": 3296,
+      "raw_relation_bytes": 3360,
+      "dense_portfolio_bytes": 3392,
+      "common_metadata_and_headers_bytes": 3264,
+      "portfolio_saved_vs_canonical_bytes": 32,
+      "portfolio_saved_vs_retained_raw_relation_bytes": 64
+    },
+    {
+      "case": 2,
+      "p": 3,
+      "r": 5,
+      "d": 120,
+      "entry": 0,
+      "portfolio_P": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "gstar": 12,
+      "lines": [
+        {
+          "owner": 0,
+          "prefix_count": 0,
+          "equivalent_uint32_triple_payload_bytes": 0,
+          "actual_prefix_JSON_value_bytes": 2,
+          "actual_prefix_crossing_flags_JSON_value_bytes": 2,
+          "full_raw_pairs": 2,
+          "grouped_pairs": 2,
+          "canonical_master_pairs": 2,
+          "portfolio_pairs": 1
+        },
+        {
+          "owner": 1,
+          "prefix_count": 0,
+          "equivalent_uint32_triple_payload_bytes": 0,
+          "actual_prefix_JSON_value_bytes": 2,
+          "actual_prefix_crossing_flags_JSON_value_bytes": 2,
+          "full_raw_pairs": 2,
+          "grouped_pairs": 2,
+          "canonical_master_pairs": 2,
+          "portfolio_pairs": 1
+        },
+        {
+          "owner": 2,
+          "prefix_count": 0,
+          "equivalent_uint32_triple_payload_bytes": 0,
+          "actual_prefix_JSON_value_bytes": 2,
+          "actual_prefix_crossing_flags_JSON_value_bytes": 2,
+          "full_raw_pairs": 2,
+          "grouped_pairs": 2,
+          "canonical_master_pairs": 2,
+          "portfolio_pairs": 1
+        },
+        {
+          "owner": 3,
+          "prefix_count": 0,
+          "equivalent_uint32_triple_payload_bytes": 0,
+          "actual_prefix_JSON_value_bytes": 2,
+          "actual_prefix_crossing_flags_JSON_value_bytes": 2,
+          "full_raw_pairs": 2,
+          "grouped_pairs": 2,
+          "canonical_master_pairs": 2,
+          "portfolio_pairs": 1
+        }
+      ],
+      "full_raw_profile_bytes": 3329,
+      "grouped_master_bytes": 3329,
+      "canonical_master_bytes": 3329,
+      "portfolio_bytes": 3297,
+      "raw_relation_bytes": 3361,
+      "dense_portfolio_bytes": 3457,
+      "common_metadata_and_headers_bytes": 3265,
+      "portfolio_saved_vs_canonical_bytes": 32,
+      "portfolio_saved_vs_retained_raw_relation_bytes": 64
+    },
+    {
+      "case": 3,
+      "p": 3,
+      "r": 7,
+      "d": 168,
+      "entry": 0,
+      "portfolio_P": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "gstar": 12,
+      "lines": [
+        {
+          "owner": 0,
+          "prefix_count": 0,
+          "equivalent_uint32_triple_payload_bytes": 0,
+          "actual_prefix_JSON_value_bytes": 2,
+          "actual_prefix_crossing_flags_JSON_value_bytes": 2,
+          "full_raw_pairs": 2,
+          "grouped_pairs": 2,
+          "canonical_master_pairs": 2,
+          "portfolio_pairs": 1
+        },
+        {
+          "owner": 1,
+          "prefix_count": 0,
+          "equivalent_uint32_triple_payload_bytes": 0,
+          "actual_prefix_JSON_value_bytes": 2,
+          "actual_prefix_crossing_flags_JSON_value_bytes": 2,
+          "full_raw_pairs": 2,
+          "grouped_pairs": 2,
+          "canonical_master_pairs": 2,
+          "portfolio_pairs": 1
+        },
+        {
+          "owner": 2,
+          "prefix_count": 0,
+          "equivalent_uint32_triple_payload_bytes": 0,
+          "actual_prefix_JSON_value_bytes": 2,
+          "actual_prefix_crossing_flags_JSON_value_bytes": 2,
+          "full_raw_pairs": 2,
+          "grouped_pairs": 2,
+          "canonical_master_pairs": 2,
+          "portfolio_pairs": 1
+        },
+        {
+          "owner": 3,
+          "prefix_count": 0,
+          "equivalent_uint32_triple_payload_bytes": 0,
+          "actual_prefix_JSON_value_bytes": 2,
+          "actual_prefix_crossing_flags_JSON_value_bytes": 2,
+          "full_raw_pairs": 2,
+          "grouped_pairs": 2,
+          "canonical_master_pairs": 2,
+          "portfolio_pairs": 1
+        }
+      ],
+      "full_raw_profile_bytes": 3333,
+      "grouped_master_bytes": 3333,
+      "canonical_master_bytes": 3333,
+      "portfolio_bytes": 3301,
+      "raw_relation_bytes": 3365,
+      "dense_portfolio_bytes": 3461,
+      "common_metadata_and_headers_bytes": 3269,
+      "portfolio_saved_vs_canonical_bytes": 32,
+      "portfolio_saved_vs_retained_raw_relation_bytes": 64
+    },
+    {
+      "case": 4,
+      "p": 5,
+      "r": 5,
+      "d": 40,
+      "entry": 0,
+      "portfolio_P": [
+        5,
+        10,
+        15,
+        20
+      ],
+      "gstar": 20,
+      "lines": [
+        {
+          "owner": 0,
+          "prefix_count": 0,
+          "equivalent_uint32_triple_payload_bytes": 0,
+          "actual_prefix_JSON_value_bytes": 2,
+          "actual_prefix_crossing_flags_JSON_value_bytes": 2,
+          "full_raw_pairs": 2,
+          "grouped_pairs": 2,
+          "canonical_master_pairs": 2,
+          "portfolio_pairs": 1
+        },
+        {
+          "owner": 1,
+          "prefix_count": 0,
+          "equivalent_uint32_triple_payload_bytes": 0,
+          "actual_prefix_JSON_value_bytes": 2,
+          "actual_prefix_crossing_flags_JSON_value_bytes": 2,
+          "full_raw_pairs": 2,
+          "grouped_pairs": 2,
+          "canonical_master_pairs": 2,
+          "portfolio_pairs": 1
+        },
+        {
+          "owner": 2,
+          "prefix_count": 0,
+          "equivalent_uint32_triple_payload_bytes": 0,
+          "actual_prefix_JSON_value_bytes": 2,
+          "actual_prefix_crossing_flags_JSON_value_bytes": 2,
+          "full_raw_pairs": 2,
+          "grouped_pairs": 2,
+          "canonical_master_pairs": 2,
+          "portfolio_pairs": 1
+        },
+        {
+          "owner": 3,
+          "prefix_count": 0,
+          "equivalent_uint32_triple_payload_bytes": 0,
+          "actual_prefix_JSON_value_bytes": 2,
+          "actual_prefix_crossing_flags_JSON_value_bytes": 2,
+          "full_raw_pairs": 2,
+          "grouped_pairs": 2,
+          "canonical_master_pairs": 2,
+          "portfolio_pairs": 1
+        }
+      ],
+      "full_raw_profile_bytes": 3332,
+      "grouped_master_bytes": 3332,
+      "canonical_master_bytes": 3332,
+      "portfolio_bytes": 3300,
+      "raw_relation_bytes": 3364,
+      "dense_portfolio_bytes": 3588,
+      "common_metadata_and_headers_bytes": 3268,
+      "portfolio_saved_vs_canonical_bytes": 32,
+      "portfolio_saved_vs_retained_raw_relation_bytes": 64
+    },
+    {
+      "case": 5,
+      "p": 5,
+      "r": 7,
+      "d": 280,
+      "entry": 0,
+      "portfolio_P": [
+        5,
+        10,
+        15,
+        20
+      ],
+      "gstar": 20,
+      "lines": [
+        {
+          "owner": 0,
+          "prefix_count": 0,
+          "equivalent_uint32_triple_payload_bytes": 0,
+          "actual_prefix_JSON_value_bytes": 2,
+          "actual_prefix_crossing_flags_JSON_value_bytes": 2,
+          "full_raw_pairs": 2,
+          "grouped_pairs": 2,
+          "canonical_master_pairs": 2,
+          "portfolio_pairs": 1
+        },
+        {
+          "owner": 1,
+          "prefix_count": 0,
+          "equivalent_uint32_triple_payload_bytes": 0,
+          "actual_prefix_JSON_value_bytes": 2,
+          "actual_prefix_crossing_flags_JSON_value_bytes": 2,
+          "full_raw_pairs": 2,
+          "grouped_pairs": 2,
+          "canonical_master_pairs": 2,
+          "portfolio_pairs": 1
+        },
+        {
+          "owner": 2,
+          "prefix_count": 0,
+          "equivalent_uint32_triple_payload_bytes": 0,
+          "actual_prefix_JSON_value_bytes": 2,
+          "actual_prefix_crossing_flags_JSON_value_bytes": 2,
+          "full_raw_pairs": 2,
+          "grouped_pairs": 2,
+          "canonical_master_pairs": 2,
+          "portfolio_pairs": 1
+        },
+        {
+          "owner": 3,
+          "prefix_count": 0,
+          "equivalent_uint32_triple_payload_bytes": 0,
+          "actual_prefix_JSON_value_bytes": 2,
+          "actual_prefix_crossing_flags_JSON_value_bytes": 2,
+          "full_raw_pairs": 2,
+          "grouped_pairs": 2,
+          "canonical_master_pairs": 2,
+          "portfolio_pairs": 1
+        }
+      ],
+      "full_raw_profile_bytes": 3340,
+      "grouped_master_bytes": 3340,
+      "canonical_master_bytes": 3340,
+      "portfolio_bytes": 3308,
+      "raw_relation_bytes": 3372,
+      "dense_portfolio_bytes": 3596,
+      "common_metadata_and_headers_bytes": 3276,
+      "portfolio_saved_vs_canonical_bytes": 32,
+      "portfolio_saved_vs_retained_raw_relation_bytes": 64
+    },
+    {
+      "case": 6,
+      "p": 7,
+      "r": 5,
+      "d": 280,
+      "entry": 0,
+      "portfolio_P": [
+        7,
+        14,
+        21,
+        28
+      ],
+      "gstar": 28,
+      "lines": [
+        {
+          "owner": 0,
+          "prefix_count": 0,
+          "equivalent_uint32_triple_payload_bytes": 0,
+          "actual_prefix_JSON_value_bytes": 2,
+          "actual_prefix_crossing_flags_JSON_value_bytes": 2,
+          "full_raw_pairs": 2,
+          "grouped_pairs": 2,
+          "canonical_master_pairs": 2,
+          "portfolio_pairs": 1
+        },
+        {
+          "owner": 1,
+          "prefix_count": 0,
+          "equivalent_uint32_triple_payload_bytes": 0,
+          "actual_prefix_JSON_value_bytes": 2,
+          "actual_prefix_crossing_flags_JSON_value_bytes": 2,
+          "full_raw_pairs": 2,
+          "grouped_pairs": 2,
+          "canonical_master_pairs": 2,
+          "portfolio_pairs": 1
+        },
+        {
+          "owner": 2,
+          "prefix_count": 0,
+          "equivalent_uint32_triple_payload_bytes": 0,
+          "actual_prefix_JSON_value_bytes": 2,
+          "actual_prefix_crossing_flags_JSON_value_bytes": 2,
+          "full_raw_pairs": 2,
+          "grouped_pairs": 2,
+          "canonical_master_pairs": 2,
+          "portfolio_pairs": 1
+        },
+        {
+          "owner": 3,
+          "prefix_count": 0,
+          "equivalent_uint32_triple_payload_bytes": 0,
+          "actual_prefix_JSON_value_bytes": 2,
+          "actual_prefix_crossing_flags_JSON_value_bytes": 2,
+          "full_raw_pairs": 2,
+          "grouped_pairs": 2,
+          "canonical_master_pairs": 2,
+          "portfolio_pairs": 1
+        }
+      ],
+      "full_raw_profile_bytes": 3341,
+      "grouped_master_bytes": 3341,
+      "canonical_master_bytes": 3341,
+      "portfolio_bytes": 3309,
+      "raw_relation_bytes": 3373,
+      "dense_portfolio_bytes": 3725,
+      "common_metadata_and_headers_bytes": 3277,
+      "portfolio_saved_vs_canonical_bytes": 32,
+      "portfolio_saved_vs_retained_raw_relation_bytes": 64
+    },
+    {
+      "case": 7,
+      "p": 7,
+      "r": 7,
+      "d": 56,
+      "entry": 37,
+      "portfolio_P": [
+        7,
+        14,
+        21,
+        28
+      ],
+      "gstar": 28,
+      "lines": [
+        {
+          "owner": 0,
+          "prefix_count": 1,
+          "equivalent_uint32_triple_payload_bytes": 12,
+          "actual_prefix_JSON_value_bytes": 10,
+          "actual_prefix_crossing_flags_JSON_value_bytes": 6,
+          "full_raw_pairs": 2,
+          "grouped_pairs": 2,
+          "canonical_master_pairs": 2,
+          "portfolio_pairs": 1
+        },
+        {
+          "owner": 1,
+          "prefix_count": 1,
+          "equivalent_uint32_triple_payload_bytes": 12,
+          "actual_prefix_JSON_value_bytes": 10,
+          "actual_prefix_crossing_flags_JSON_value_bytes": 6,
+          "full_raw_pairs": 2,
+          "grouped_pairs": 2,
+          "canonical_master_pairs": 2,
+          "portfolio_pairs": 1
+        },
+        {
+          "owner": 2,
+          "prefix_count": 1,
+          "equivalent_uint32_triple_payload_bytes": 12,
+          "actual_prefix_JSON_value_bytes": 12,
+          "actual_prefix_crossing_flags_JSON_value_bytes": 6,
+          "full_raw_pairs": 2,
+          "grouped_pairs": 2,
+          "canonical_master_pairs": 2,
+          "portfolio_pairs": 1
+        },
+        {
+          "owner": 3,
+          "prefix_count": 1,
+          "equivalent_uint32_triple_payload_bytes": 12,
+          "actual_prefix_JSON_value_bytes": 12,
+          "actual_prefix_crossing_flags_JSON_value_bytes": 6,
+          "full_raw_pairs": 2,
+          "grouped_pairs": 2,
+          "canonical_master_pairs": 2,
+          "portfolio_pairs": 1
+        }
+      ],
+      "full_raw_profile_bytes": 3398,
+      "grouped_master_bytes": 3398,
+      "canonical_master_bytes": 3398,
+      "portfolio_bytes": 3366,
+      "raw_relation_bytes": 3430,
+      "dense_portfolio_bytes": 3782,
+      "common_metadata_and_headers_bytes": 3334,
+      "portfolio_saved_vs_canonical_bytes": 32,
+      "portfolio_saved_vs_retained_raw_relation_bytes": 64
+    },
+    {
+      "case": 8,
+      "p": 11,
+      "r": 5,
+      "d": 440,
+      "entry": 0,
+      "portfolio_P": [
+        11,
+        22,
+        33,
+        44
+      ],
+      "gstar": 44,
+      "lines": [
+        {
+          "owner": 0,
+          "prefix_count": 0,
+          "equivalent_uint32_triple_payload_bytes": 0,
+          "actual_prefix_JSON_value_bytes": 2,
+          "actual_prefix_crossing_flags_JSON_value_bytes": 2,
+          "full_raw_pairs": 2,
+          "grouped_pairs": 2,
+          "canonical_master_pairs": 2,
+          "portfolio_pairs": 1
+        },
+        {
+          "owner": 1,
+          "prefix_count": 0,
+          "equivalent_uint32_triple_payload_bytes": 0,
+          "actual_prefix_JSON_value_bytes": 2,
+          "actual_prefix_crossing_flags_JSON_value_bytes": 2,
+          "full_raw_pairs": 2,
+          "grouped_pairs": 2,
+          "canonical_master_pairs": 2,
+          "portfolio_pairs": 1
+        },
+        {
+          "owner": 2,
+          "prefix_count": 0,
+          "equivalent_uint32_triple_payload_bytes": 0,
+          "actual_prefix_JSON_value_bytes": 2,
+          "actual_prefix_crossing_flags_JSON_value_bytes": 2,
+          "full_raw_pairs": 2,
+          "grouped_pairs": 2,
+          "canonical_master_pairs": 2,
+          "portfolio_pairs": 1
+        },
+        {
+          "owner": 3,
+          "prefix_count": 0,
+          "equivalent_uint32_triple_payload_bytes": 0,
+          "actual_prefix_JSON_value_bytes": 2,
+          "actual_prefix_crossing_flags_JSON_value_bytes": 2,
+          "full_raw_pairs": 2,
+          "grouped_pairs": 2,
+          "canonical_master_pairs": 2,
+          "portfolio_pairs": 1
+        }
+      ],
+      "full_raw_profile_bytes": 3345,
+      "grouped_master_bytes": 3345,
+      "canonical_master_bytes": 3345,
+      "portfolio_bytes": 3313,
+      "raw_relation_bytes": 3377,
+      "dense_portfolio_bytes": 3985,
+      "common_metadata_and_headers_bytes": 3281,
+      "portfolio_saved_vs_canonical_bytes": 32,
+      "portfolio_saved_vs_retained_raw_relation_bytes": 64
+    },
+    {
+      "case": 9,
+      "p": 11,
+      "r": 7,
+      "d": 616,
+      "entry": 0,
+      "portfolio_P": [
+        11,
+        22,
+        33,
+        44
+      ],
+      "gstar": 44,
+      "lines": [
+        {
+          "owner": 0,
+          "prefix_count": 0,
+          "equivalent_uint32_triple_payload_bytes": 0,
+          "actual_prefix_JSON_value_bytes": 2,
+          "actual_prefix_crossing_flags_JSON_value_bytes": 2,
+          "full_raw_pairs": 2,
+          "grouped_pairs": 2,
+          "canonical_master_pairs": 2,
+          "portfolio_pairs": 1
+        },
+        {
+          "owner": 1,
+          "prefix_count": 0,
+          "equivalent_uint32_triple_payload_bytes": 0,
+          "actual_prefix_JSON_value_bytes": 2,
+          "actual_prefix_crossing_flags_JSON_value_bytes": 2,
+          "full_raw_pairs": 2,
+          "grouped_pairs": 2,
+          "canonical_master_pairs": 2,
+          "portfolio_pairs": 1
+        },
+        {
+          "owner": 2,
+          "prefix_count": 0,
+          "equivalent_uint32_triple_payload_bytes": 0,
+          "actual_prefix_JSON_value_bytes": 2,
+          "actual_prefix_crossing_flags_JSON_value_bytes": 2,
+          "full_raw_pairs": 2,
+          "grouped_pairs": 2,
+          "canonical_master_pairs": 2,
+          "portfolio_pairs": 1
+        },
+        {
+          "owner": 3,
+          "prefix_count": 0,
+          "equivalent_uint32_triple_payload_bytes": 0,
+          "actual_prefix_JSON_value_bytes": 2,
+          "actual_prefix_crossing_flags_JSON_value_bytes": 2,
+          "full_raw_pairs": 2,
+          "grouped_pairs": 2,
+          "canonical_master_pairs": 2,
+          "portfolio_pairs": 1
+        }
+      ],
+      "full_raw_profile_bytes": 3345,
+      "grouped_master_bytes": 3345,
+      "canonical_master_bytes": 3345,
+      "portfolio_bytes": 3313,
+      "raw_relation_bytes": 3377,
+      "dense_portfolio_bytes": 3985,
+      "common_metadata_and_headers_bytes": 3281,
+      "portfolio_saved_vs_canonical_bytes": 32,
+      "portfolio_saved_vs_retained_raw_relation_bytes": 64
+    },
+    {
+      "case": 10,
+      "p": 17,
+      "r": 5,
+      "d": 680,
+      "entry": 0,
+      "portfolio_P": [
+        17,
+        34,
+        51,
+        68
+      ],
+      "gstar": 68,
+      "lines": [
+        {
+          "owner": 0,
+          "prefix_count": 0,
+          "equivalent_uint32_triple_payload_bytes": 0,
+          "actual_prefix_JSON_value_bytes": 2,
+          "actual_prefix_crossing_flags_JSON_value_bytes": 2,
+          "full_raw_pairs": 2,
+          "grouped_pairs": 2,
+          "canonical_master_pairs": 2,
+          "portfolio_pairs": 1
+        },
+        {
+          "owner": 1,
+          "prefix_count": 0,
+          "equivalent_uint32_triple_payload_bytes": 0,
+          "actual_prefix_JSON_value_bytes": 2,
+          "actual_prefix_crossing_flags_JSON_value_bytes": 2,
+          "full_raw_pairs": 2,
+          "grouped_pairs": 2,
+          "canonical_master_pairs": 2,
+          "portfolio_pairs": 1
+        },
+        {
+          "owner": 2,
+          "prefix_count": 0,
+          "equivalent_uint32_triple_payload_bytes": 0,
+          "actual_prefix_JSON_value_bytes": 2,
+          "actual_prefix_crossing_flags_JSON_value_bytes": 2,
+          "full_raw_pairs": 2,
+          "grouped_pairs": 2,
+          "canonical_master_pairs": 2,
+          "portfolio_pairs": 1
+        },
+        {
+          "owner": 3,
+          "prefix_count": 0,
+          "equivalent_uint32_triple_payload_bytes": 0,
+          "actual_prefix_JSON_value_bytes": 2,
+          "actual_prefix_crossing_flags_JSON_value_bytes": 2,
+          "full_raw_pairs": 2,
+          "grouped_pairs": 2,
+          "canonical_master_pairs": 2,
+          "portfolio_pairs": 1
+        }
+      ],
+      "full_raw_profile_bytes": 3348,
+      "grouped_master_bytes": 3348,
+      "canonical_master_bytes": 3348,
+      "portfolio_bytes": 3316,
+      "raw_relation_bytes": 3380,
+      "dense_portfolio_bytes": 4372,
+      "common_metadata_and_headers_bytes": 3284,
+      "portfolio_saved_vs_canonical_bytes": 32,
+      "portfolio_saved_vs_retained_raw_relation_bytes": 64
+    },
+    {
+      "case": 11,
+      "p": 17,
+      "r": 7,
+      "d": 952,
+      "entry": 0,
+      "portfolio_P": [
+        17,
+        34,
+        51,
+        68
+      ],
+      "gstar": 68,
+      "lines": [
+        {
+          "owner": 0,
+          "prefix_count": 0,
+          "equivalent_uint32_triple_payload_bytes": 0,
+          "actual_prefix_JSON_value_bytes": 2,
+          "actual_prefix_crossing_flags_JSON_value_bytes": 2,
+          "full_raw_pairs": 2,
+          "grouped_pairs": 2,
+          "canonical_master_pairs": 2,
+          "portfolio_pairs": 1
+        },
+        {
+          "owner": 1,
+          "prefix_count": 0,
+          "equivalent_uint32_triple_payload_bytes": 0,
+          "actual_prefix_JSON_value_bytes": 2,
+          "actual_prefix_crossing_flags_JSON_value_bytes": 2,
+          "full_raw_pairs": 2,
+          "grouped_pairs": 2,
+          "canonical_master_pairs": 2,
+          "portfolio_pairs": 1
+        },
+        {
+          "owner": 2,
+          "prefix_count": 0,
+          "equivalent_uint32_triple_payload_bytes": 0,
+          "actual_prefix_JSON_value_bytes": 2,
+          "actual_prefix_crossing_flags_JSON_value_bytes": 2,
+          "full_raw_pairs": 2,
+          "grouped_pairs": 2,
+          "canonical_master_pairs": 2,
+          "portfolio_pairs": 1
+        },
+        {
+          "owner": 3,
+          "prefix_count": 0,
+          "equivalent_uint32_triple_payload_bytes": 0,
+          "actual_prefix_JSON_value_bytes": 2,
+          "actual_prefix_crossing_flags_JSON_value_bytes": 2,
+          "full_raw_pairs": 2,
+          "grouped_pairs": 2,
+          "canonical_master_pairs": 2,
+          "portfolio_pairs": 1
+        }
+      ],
+      "full_raw_profile_bytes": 3348,
+      "grouped_master_bytes": 3348,
+      "canonical_master_bytes": 3348,
+      "portfolio_bytes": 3316,
+      "raw_relation_bytes": 3380,
+      "dense_portfolio_bytes": 4372,
+      "common_metadata_and_headers_bytes": 3284,
+      "portfolio_saved_vs_canonical_bytes": 32,
+      "portfolio_saved_vs_retained_raw_relation_bytes": 64
+    }
+  ],
+  "total_by_format": {
+    "full_raw_profile": 40111,
+    "grouped_master": 40111,
+    "canonical_master": 40111,
+    "portfolio": 39727,
+    "raw_relation": 40495,
+    "dense_portfolio": 45103
+  },
+  "larger_or_equal_vs_master_cases": []
+}

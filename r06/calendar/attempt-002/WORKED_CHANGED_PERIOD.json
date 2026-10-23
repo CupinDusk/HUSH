@@ -1,0 +1,243 @@
+{
+  "selection": "Prospectively fixed case7 K15 phi0 P=p and 2p, including same physical prefix and cycle",
+  "queries": [
+    {
+      "case": 7,
+      "K": 15,
+      "P": 7,
+      "phi": 0,
+      "entry": 37,
+      "repeat": 93,
+      "gcd": 7,
+      "prefix": [
+        {
+          "line": 0,
+          "s": 0,
+          "c": 1,
+          "h": 42,
+          "first_expiry": 105,
+          "slack": 63
+        },
+        {
+          "line": 1,
+          "s": 7,
+          "c": 8,
+          "h": 49,
+          "first_expiry": 112,
+          "slack": 63
+        },
+        {
+          "line": 2,
+          "s": 14,
+          "c": 15,
+          "h": 56,
+          "first_expiry": 119,
+          "slack": 63
+        },
+        {
+          "line": 3,
+          "s": 21,
+          "c": 22,
+          "h": 63,
+          "first_expiry": 126,
+          "slack": 63
+        }
+      ],
+      "cycle": [
+        {
+          "line": 0,
+          "m": 7,
+          "physical_B": 28,
+          "cycle_base_triple": [
+            42,
+            43,
+            70
+          ],
+          "cycle_slack": 77,
+          "stored_g": 28,
+          "stored_pairs": [
+            [
+              14,
+              28
+            ]
+          ]
+        },
+        {
+          "line": 1,
+          "m": 7,
+          "physical_B": 28,
+          "cycle_base_triple": [
+            49,
+            50,
+            77
+          ],
+          "cycle_slack": 77,
+          "stored_g": 28,
+          "stored_pairs": [
+            [
+              21,
+              28
+            ]
+          ]
+        },
+        {
+          "line": 2,
+          "m": 7,
+          "physical_B": 28,
+          "cycle_base_triple": [
+            56,
+            57,
+            84
+          ],
+          "cycle_slack": 77,
+          "stored_g": 28,
+          "stored_pairs": [
+            [
+              0,
+              28
+            ]
+          ]
+        },
+        {
+          "line": 3,
+          "m": 7,
+          "physical_B": 28,
+          "cycle_base_triple": [
+            63,
+            64,
+            91
+          ],
+          "cycle_slack": 77,
+          "stored_g": 28,
+          "stored_pairs": [
+            [
+              7,
+              28
+            ]
+          ]
+        }
+      ],
+      "service_slack": 63,
+      "completion_slack": 63
+    },
+    {
+      "case": 7,
+      "K": 15,
+      "P": 14,
+      "phi": 0,
+      "entry": 37,
+      "repeat": 93,
+      "gcd": 14,
+      "prefix": [
+        {
+          "line": 0,
+          "s": 0,
+          "c": 1,
+          "h": 42,
+          "first_expiry": 210,
+          "slack": 168
+        },
+        {
+          "line": 1,
+          "s": 7,
+          "c": 8,
+          "h": 49,
+          "first_expiry": 210,
+          "slack": 161
+        },
+        {
+          "line": 2,
+          "s": 14,
+          "c": 15,
+          "h": 56,
+          "first_expiry": 224,
+          "slack": 168
+        },
+        {
+          "line": 3,
+          "s": 21,
+          "c": 22,
+          "h": 63,
+          "first_expiry": 224,
+          "slack": 161
+        }
+      ],
+      "cycle": [
+        {
+          "line": 0,
+          "m": 14,
+          "physical_B": 28,
+          "cycle_base_triple": [
+            42,
+            43,
+            70
+          ],
+          "cycle_slack": 182,
+          "stored_g": 28,
+          "stored_pairs": [
+            [
+              14,
+              28
+            ]
+          ]
+        },
+        {
+          "line": 1,
+          "m": 14,
+          "physical_B": 28,
+          "cycle_base_triple": [
+            49,
+            50,
+            77
+          ],
+          "cycle_slack": 175,
+          "stored_g": 28,
+          "stored_pairs": [
+            [
+              21,
+              28
+            ]
+          ]
+        },
+        {
+          "line": 2,
+          "m": 14,
+          "physical_B": 28,
+          "cycle_base_triple": [
+            56,
+            57,
+            84
+          ],
+          "cycle_slack": 182,
+          "stored_g": 28,
+          "stored_pairs": [
+            [
+              0,
+              28
+            ]
+          ]
+        },
+        {
+          "line": 3,
+          "m": 14,
+          "physical_B": 28,
+          "cycle_base_triple": [
+            63,
+            64,
+            91
+          ],
+          "cycle_slack": 175,
+          "stored_g": 28,
+          "stored_pairs": [
+            [
+              7,
+              28
+            ]
+          ]
+        }
+      ],
+      "service_slack": 161,
+      "completion_slack": 161
+    }
+  ]
+}

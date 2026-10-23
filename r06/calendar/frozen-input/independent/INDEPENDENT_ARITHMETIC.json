@@ -1,0 +1,123 @@
+{
+  "status": "PASS_INDEPENDENT_ALL_CASES_PREFIX_CYCLE_GRID_OPTIMA_TIES",
+  "counts": {
+    "policy_queries": 130112,
+    "service_positive": 21257,
+    "completion_positive": 21019,
+    "service_only": 238,
+    "original5_queries": 40660,
+    "original5_service_positive": 1269,
+    "original5_completion_positive": 1264
+  },
+  "policy_queries": 130112,
+  "semantic_streams_identical": {
+    "CONTROL_TICKS.csv": true,
+    "DATA_TICKS.csv": true,
+    "RUN_COUNTERS.csv": true
+  },
+  "cycle_entries": [
+    [
+      0,
+      0,
+      80
+    ],
+    [
+      1,
+      0,
+      112
+    ],
+    [
+      2,
+      0,
+      120
+    ],
+    [
+      3,
+      0,
+      168
+    ],
+    [
+      4,
+      0,
+      40
+    ],
+    [
+      5,
+      0,
+      280
+    ],
+    [
+      6,
+      0,
+      280
+    ],
+    [
+      7,
+      37,
+      93
+    ],
+    [
+      8,
+      0,
+      440
+    ],
+    [
+      9,
+      0,
+      616
+    ],
+    [
+      10,
+      0,
+      680
+    ],
+    [
+      11,
+      0,
+      952
+    ]
+  ],
+  "prefix_edges": 4,
+  "cycle_edges": 96,
+  "gains": [
+    0,
+    4,
+    0,
+    0,
+    0,
+    4,
+    1,
+    0,
+    9,
+    0,
+    16,
+    8
+  ],
+  "no_gain_cases": [
+    0,
+    2,
+    3,
+    4,
+    7,
+    9
+  ],
+  "source_hashes": {
+    "AMENDMENT_01_PRE_EXECUTION.md": "83e8b1a23f928851f96c7bf766fa14c25802415c4509cb284e426fcd11a542c0",
+    "AMENDMENT_02_FULL_KEY_EXTENSION.md": "7a2ade2d290a739d2a9611f4843b66cf4e5fd424c88d28904b2067cfa2739fe4",
+    "analyze.py": "0fa523c69f0c4b553bab0dffe8f11a6163c8ceb3a23676a44af392d59807945b",
+    "check_transitions.py": "2ff0c3c9465e617065125fb560e34ef350563d3fa27936b300c6ff166ebefe37",
+    "COMPOSITION_ARGUMENT.md": "2d51d4e8f877b9afd69536b89b5b017e6f0cb666aa1c8febf9713a39e85e7ccf",
+    "CORRECTION_02_PRESERVE_FRAME_FAILURE.md": "947d4d1ae2a69d8166c4805f94eac73ee2f6995ab70154ca6d8a44e77d6e48e7",
+    "decode_trace.py": "a907046c2b1ffe2b29283869c0261897dd40f1ee32fde9beb5a57856451ecc1e",
+    "derive_peaks.py": "d338d2b01c45375aca2e97e8df75da5c02ec2d282a2f290cd1785f661461e951",
+    "driver.cpp": "e76f96933561a31e1c6e7544f480eb91a393833d22c2d4ee59fbc4d8d2781004",
+    "PROTOCOL.json": "e88e4823e4121f7405db0d513b9bdb77b957c0cb9877c836f0ee199e4eee40af",
+    "PROTOCOL_INITIAL_LITERAL.json": "e88e4823e4121f7405db0d513b9bdb77b957c0cb9877c836f0ee199e4eee40af",
+    "R05_HUSH_PROSPECTIVE_RESPONSE_PLAN.md": "1faff174e3d6d617004cd399b2dcf9173df3538cfa35b49f44a3fe23e16bd5bd",
+    "receiver.v": "a787f08e1ed0f4e284d11f436f371632358c85fcedcc00586394d8967a69e987",
+    "replay_portable.py": "264d5e7c37aa680871f1d4ee059be4124b7334512cd67837516b2bba5c81b86c",
+    "run_build.py": "41ef7e8a79f726fa6dfa382ed340c2142f21c2dcfd301db11cbb07ee1a56fd39",
+    "SCHEMA.md": "756586f370c0db63ab5d42544f967162e1dc448b86c912882e55592bbb495b60",
+    "verify_policy.py": "dab51d2bf6a46eaa792e2544f7affa841dc085e4618400df0a8cf8a485565a77"
+  }
+}

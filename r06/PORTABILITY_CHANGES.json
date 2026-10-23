@@ -1,0 +1,15 @@
+[
+  {
+    "source": "calendar/INPUT_BINDING.json",
+    "source_sha256": "617aeab872b3a4e0ec967081f2fb569ad9b2a0735619c24d99e2a2f77091b56a",
+    "package_path": "r06/calendar/INPUT_BINDING.json",
+    "package_sha256": "50c1b3a0fd4bf2cae277b262b4754fbca2167fc8bbc95ead116b9dcc8245c049",
+    "change": "Remove internal editorial-plan inventory entry and mark excluded nonconsumed historical metadata; scientific input bytes and hashes unchanged.",
+    "excluded": [
+      {
+        "name": "R06_HUSH_PROSPECTIVE_RESPONSE_PLAN.md",
+        "reason": "Internal editorial coordination, not a scientific input."
+      }
+    ]
+  }
+]

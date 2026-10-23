@@ -1,0 +1,7537 @@
+{
+  "trust": "Externally sourced expected input registry; must itself be trusted and independently checked. Digests are not source authentication.",
+  "records": [
+    {
+      "metadata": {
+        "producer": "R06-matched-calendar-reference",
+        "schema": 1,
+        "proof": 1,
+        "case": 0,
+        "configuration": {
+          "p": 2,
+          "r": 5,
+          "F": 80
+        },
+        "period": 80,
+        "entry": 0,
+        "repeat": 80,
+        "entry_state": {
+          "before_tick": 0,
+          "before_cp": 0,
+          "before_rp": 0,
+          "before_fp": 0,
+          "before_pp": 0,
+          "before_nextid": 1,
+          "before_qlen": 0,
+          "before_qowners": 0,
+          "before_qid0": 0,
+          "before_qid1": 0,
+          "before_qid2": 0,
+          "before_qid3": 0,
+          "before_qid4": 0,
+          "before_qid5": 0,
+          "before_qid6": 0,
+          "before_qid7": 0,
+          "before_R0v": 0,
+          "before_R0owner": 0,
+          "before_R0id": 0,
+          "before_R0byte": 0,
+          "before_R1v": 0,
+          "before_R1owner": 0,
+          "before_R1id": 0,
+          "before_R1byte": 0,
+          "before_outstanding": 0,
+          "before_valid": 15,
+          "before_enabled": 0,
+          "before_bytes": 0,
+          "before_count0": 0,
+          "before_count1": 0,
+          "before_count2": 0,
+          "before_count3": 0,
+          "before_failed": 0,
+          "before_fault": 0
+        },
+        "normalized_entry_key": {
+          "phases": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "live_queue": [],
+          "R0": null,
+          "R1": null,
+          "outstanding": 0,
+          "valid": 15,
+          "enabled": 0,
+          "bytes": 0,
+          "counts": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "failed": 0,
+          "fault": 0
+        },
+        "ID_translation": 8,
+        "original_empty_frame_gate": "PASS",
+        "full_key_extension": "VALIDATED_FULL_KEY_CYCLE",
+        "bindings": {
+          "source": "0504cf3aae99e6113292627d9af74c2a717b1ea01736ac68e5669fe0721704d7",
+          "receiver": "a787f08e1ed0f4e284d11f436f371632358c85fcedcc00586394d8967a69e987",
+          "relation": "85433a259f9dcadaaf0d35f9acae4cec9cda5f8d2ed945759371562e66042e6f",
+          "epoch": "e06c5a3b8a0b74e2185d4e7dde4a9d40de2a7e81882e01538039ffbf6b5932bc"
+        },
+        "source_evidence": {
+          "producer_control": {
+            "sha256": "02cf468a53f3a35626692f0cfb94db93bf1a27fb9f81a6aeaa59f3cff59081c8",
+            "physical_range": [
+              0,
+              320
+            ]
+          },
+          "independent_control": {
+            "sha256": "6f3aa07d9d73340b44dcde1d3ce79d525b9a772df15f9d373f886d2969e5ec9c",
+            "physical_range": [
+              0,
+              400
+            ]
+          },
+          "validated_recurrence_range": [
+            0,
+            240
+          ],
+          "guard_receiver_sha256": "a787f08e1ed0f4e284d11f436f371632358c85fcedcc00586394d8967a69e987",
+          "exact_source_lines": [
+            {
+              "line": 5,
+              "text": "input [15:0] cfgp,cfgr,cfgf,cfgk,cfgperiod,cfgphi,"
+            },
+            {
+              "line": 6,
+              "text": "input [31:0] cfgstart,"
+            },
+            {
+              "line": 7,
+              "text": "input [15:0] cfgcp,cfgrp,cfgfp,cfgpp,"
+            },
+            {
+              "line": 9,
+              "text": "input [31:0] wubytes,"
+            },
+            {
+              "line": 54,
+              "text": "if(cfgp<2 || cfgp>17 || (cfgr!=5 && cfgr!=7) || cfgf<40 || cfgf>952 || cfgk==0 || cfgperiod==0 || cfgperiod>68 || cfgphi>=cfgperiod || cfgcp>=cfgp || cfgrp>=cfgr || cfgfp>=cfgf || cfgpp>=cfgperiod)fault=1;"
+            },
+            {
+              "line": 122,
+              "text": "if(tick>=32'h7ffffffe || nextid>=32'h7ffffffe)fault=fault|64;"
+            }
+          ]
+        },
+        "portfolio_P": [
+          2,
+          4,
+          6,
+          8
+        ],
+        "portfolio_g": 8,
+        "guards": {
+          "line_count": 4,
+          "line_IDs": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "tags": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "FIFO": 8,
+          "phase_bits": 16,
+          "count_bits": 16,
+          "byte_bits": 8,
+          "tick_ID_bits": 32,
+          "tick_ID_exclusive": 2147483646,
+          "K_min": 1,
+          "K_max": 65535,
+          "P_min": 1,
+          "P_max": 68,
+          "strict_WU": "t>initial_capture_cutpoint",
+          "epoch": "fixed clocks/source/no refill, unrelated invalidation, reset or retuning inside run"
+        },
+        "lines": [
+          {
+            "owner": 0,
+            "initial_capture_cutpoint": 0,
+            "J": 1,
+            "A": 39,
+            "C0": [
+              1,
+              41
+            ],
+            "completion_domain": true,
+            "prefix": [],
+            "prefix_crosses_entry": []
+          },
+          {
+            "owner": 1,
+            "initial_capture_cutpoint": 2,
+            "J": 4,
+            "A": 36,
+            "C0": [
+              6,
+              46
+            ],
+            "completion_domain": true,
+            "prefix": [],
+            "prefix_crosses_entry": []
+          },
+          {
+            "owner": 2,
+            "initial_capture_cutpoint": 4,
+            "J": 3,
+            "A": 37,
+            "C0": [
+              7,
+              47
+            ],
+            "completion_domain": true,
+            "prefix": [],
+            "prefix_crosses_entry": []
+          },
+          {
+            "owner": 3,
+            "initial_capture_cutpoint": 8,
+            "J": 3,
+            "A": 37,
+            "C0": [
+              11,
+              51
+            ],
+            "completion_domain": true,
+            "prefix": [],
+            "prefix_crosses_entry": []
+          }
+        ]
+      },
+      "forms": {
+        "0": [
+          [
+            80,
+            [
+              [
+                0,
+                40
+              ],
+              [
+                40,
+                40
+              ]
+            ]
+          ],
+          [
+            80,
+            [
+              [
+                2,
+                40
+              ],
+              [
+                42,
+                40
+              ]
+            ]
+          ],
+          [
+            80,
+            [
+              [
+                4,
+                40
+              ],
+              [
+                44,
+                40
+              ]
+            ]
+          ],
+          [
+            80,
+            [
+              [
+                8,
+                40
+              ],
+              [
+                48,
+                40
+              ]
+            ]
+          ]
+        ],
+        "1": [
+          [
+            80,
+            [
+              [
+                0,
+                40
+              ],
+              [
+                40,
+                40
+              ]
+            ]
+          ],
+          [
+            80,
+            [
+              [
+                2,
+                40
+              ],
+              [
+                42,
+                40
+              ]
+            ]
+          ],
+          [
+            80,
+            [
+              [
+                4,
+                40
+              ],
+              [
+                44,
+                40
+              ]
+            ]
+          ],
+          [
+            80,
+            [
+              [
+                8,
+                40
+              ],
+              [
+                48,
+                40
+              ]
+            ]
+          ]
+        ],
+        "2": [
+          [
+            80,
+            [
+              [
+                0,
+                40
+              ],
+              [
+                40,
+                40
+              ]
+            ]
+          ],
+          [
+            80,
+            [
+              [
+                2,
+                40
+              ],
+              [
+                42,
+                40
+              ]
+            ]
+          ],
+          [
+            80,
+            [
+              [
+                4,
+                40
+              ],
+              [
+                44,
+                40
+              ]
+            ]
+          ],
+          [
+            80,
+            [
+              [
+                8,
+                40
+              ],
+              [
+                48,
+                40
+              ]
+            ]
+          ]
+        ],
+        "3": [
+          [
+            8,
+            [
+              [
+                0,
+                40
+              ]
+            ]
+          ],
+          [
+            8,
+            [
+              [
+                2,
+                40
+              ]
+            ]
+          ],
+          [
+            8,
+            [
+              [
+                4,
+                40
+              ]
+            ]
+          ],
+          [
+            8,
+            [
+              [
+                0,
+                40
+              ]
+            ]
+          ]
+        ],
+        "4": [
+          [
+            80,
+            [
+              [
+                0,
+                1,
+                40
+              ],
+              [
+                40,
+                41,
+                80
+              ]
+            ]
+          ],
+          [
+            80,
+            [
+              [
+                2,
+                6,
+                42
+              ],
+              [
+                42,
+                46,
+                82
+              ]
+            ]
+          ],
+          [
+            80,
+            [
+              [
+                4,
+                7,
+                44
+              ],
+              [
+                44,
+                47,
+                84
+              ]
+            ]
+          ],
+          [
+            80,
+            [
+              [
+                8,
+                11,
+                48
+              ],
+              [
+                48,
+                51,
+                88
+              ]
+            ]
+          ]
+        ],
+        "5": [
+          [
+            8,
+            [
+              -33,
+              -40,
+              -39,
+              -38,
+              -37,
+              -36,
+              -35,
+              -34
+            ]
+          ],
+          [
+            8,
+            [
+              -35,
+              -34,
+              -33,
+              -40,
+              -39,
+              -38,
+              -37,
+              -36
+            ]
+          ],
+          [
+            8,
+            [
+              -37,
+              -36,
+              -35,
+              -34,
+              -33,
+              -40,
+              -39,
+              -38
+            ]
+          ],
+          [
+            8,
+            [
+              -33,
+              -40,
+              -39,
+              -38,
+              -37,
+              -36,
+              -35,
+              -34
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "producer": "R06-matched-calendar-reference",
+        "schema": 1,
+        "proof": 1,
+        "case": 1,
+        "configuration": {
+          "p": 2,
+          "r": 7,
+          "F": 112
+        },
+        "period": 112,
+        "entry": 0,
+        "repeat": 112,
+        "entry_state": {
+          "before_tick": 0,
+          "before_cp": 0,
+          "before_rp": 0,
+          "before_fp": 0,
+          "before_pp": 0,
+          "before_nextid": 1,
+          "before_qlen": 0,
+          "before_qowners": 0,
+          "before_qid0": 0,
+          "before_qid1": 0,
+          "before_qid2": 0,
+          "before_qid3": 0,
+          "before_qid4": 0,
+          "before_qid5": 0,
+          "before_qid6": 0,
+          "before_qid7": 0,
+          "before_R0v": 0,
+          "before_R0owner": 0,
+          "before_R0id": 0,
+          "before_R0byte": 0,
+          "before_R1v": 0,
+          "before_R1owner": 0,
+          "before_R1id": 0,
+          "before_R1byte": 0,
+          "before_outstanding": 0,
+          "before_valid": 15,
+          "before_enabled": 0,
+          "before_bytes": 0,
+          "before_count0": 0,
+          "before_count1": 0,
+          "before_count2": 0,
+          "before_count3": 0,
+          "before_failed": 0,
+          "before_fault": 0
+        },
+        "normalized_entry_key": {
+          "phases": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "live_queue": [],
+          "R0": null,
+          "R1": null,
+          "outstanding": 0,
+          "valid": 15,
+          "enabled": 0,
+          "bytes": 0,
+          "counts": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "failed": 0,
+          "fault": 0
+        },
+        "ID_translation": 8,
+        "original_empty_frame_gate": "PASS",
+        "full_key_extension": "VALIDATED_FULL_KEY_CYCLE",
+        "bindings": {
+          "source": "0504cf3aae99e6113292627d9af74c2a717b1ea01736ac68e5669fe0721704d7",
+          "receiver": "a787f08e1ed0f4e284d11f436f371632358c85fcedcc00586394d8967a69e987",
+          "relation": "17f97dbbaaa07a4b4ac9df6f518167440fb74f2ae86a784f12efb3331f2578e4",
+          "epoch": "6915e7f387630d687761f994e491e40dc104c4db03eaf0929a34653d0c5af822"
+        },
+        "source_evidence": {
+          "producer_control": {
+            "sha256": "02cf468a53f3a35626692f0cfb94db93bf1a27fb9f81a6aeaa59f3cff59081c8",
+            "physical_range": [
+              0,
+              448
+            ]
+          },
+          "independent_control": {
+            "sha256": "6f3aa07d9d73340b44dcde1d3ce79d525b9a772df15f9d373f886d2969e5ec9c",
+            "physical_range": [
+              0,
+              560
+            ]
+          },
+          "validated_recurrence_range": [
+            0,
+            336
+          ],
+          "guard_receiver_sha256": "a787f08e1ed0f4e284d11f436f371632358c85fcedcc00586394d8967a69e987",
+          "exact_source_lines": [
+            {
+              "line": 5,
+              "text": "input [15:0] cfgp,cfgr,cfgf,cfgk,cfgperiod,cfgphi,"
+            },
+            {
+              "line": 6,
+              "text": "input [31:0] cfgstart,"
+            },
+            {
+              "line": 7,
+              "text": "input [15:0] cfgcp,cfgrp,cfgfp,cfgpp,"
+            },
+            {
+              "line": 9,
+              "text": "input [31:0] wubytes,"
+            },
+            {
+              "line": 54,
+              "text": "if(cfgp<2 || cfgp>17 || (cfgr!=5 && cfgr!=7) || cfgf<40 || cfgf>952 || cfgk==0 || cfgperiod==0 || cfgperiod>68 || cfgphi>=cfgperiod || cfgcp>=cfgp || cfgrp>=cfgr || cfgfp>=cfgf || cfgpp>=cfgperiod)fault=1;"
+            },
+            {
+              "line": 122,
+              "text": "if(tick>=32'h7ffffffe || nextid>=32'h7ffffffe)fault=fault|64;"
+            }
+          ]
+        },
+        "portfolio_P": [
+          2,
+          4,
+          6,
+          8
+        ],
+        "portfolio_g": 8,
+        "guards": {
+          "line_count": 4,
+          "line_IDs": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "tags": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "FIFO": 8,
+          "phase_bits": 16,
+          "count_bits": 16,
+          "byte_bits": 8,
+          "tick_ID_bits": 32,
+          "tick_ID_exclusive": 2147483646,
+          "K_min": 1,
+          "K_max": 65535,
+          "P_min": 1,
+          "P_max": 68,
+          "strict_WU": "t>initial_capture_cutpoint",
+          "epoch": "fixed clocks/source/no refill, unrelated invalidation, reset or retuning inside run"
+        },
+        "lines": [
+          {
+            "owner": 0,
+            "initial_capture_cutpoint": 0,
+            "J": 3,
+            "A": 69,
+            "C0": [
+              1,
+              43
+            ],
+            "completion_domain": true,
+            "prefix": [],
+            "prefix_crosses_entry": []
+          },
+          {
+            "owner": 1,
+            "initial_capture_cutpoint": 2,
+            "J": 6,
+            "A": 70,
+            "C0": [
+              8,
+              44
+            ],
+            "completion_domain": true,
+            "prefix": [],
+            "prefix_crosses_entry": []
+          },
+          {
+            "owner": 2,
+            "initial_capture_cutpoint": 4,
+            "J": 6,
+            "A": 66,
+            "C0": [
+              9,
+              50
+            ],
+            "completion_domain": true,
+            "prefix": [],
+            "prefix_crosses_entry": []
+          },
+          {
+            "owner": 3,
+            "initial_capture_cutpoint": 10,
+            "J": 5,
+            "A": 71,
+            "C0": [
+              15,
+              51
+            ],
+            "completion_domain": true,
+            "prefix": [],
+            "prefix_crosses_entry": []
+          }
+        ]
+      },
+      "forms": {
+        "0": [
+          [
+            112,
+            [
+              [
+                0,
+                40
+              ],
+              [
+                40,
+                72
+              ]
+            ]
+          ],
+          [
+            112,
+            [
+              [
+                2,
+                40
+              ],
+              [
+                42,
+                72
+              ]
+            ]
+          ],
+          [
+            112,
+            [
+              [
+                4,
+                40
+              ],
+              [
+                44,
+                72
+              ]
+            ]
+          ],
+          [
+            112,
+            [
+              [
+                10,
+                36
+              ],
+              [
+                46,
+                76
+              ]
+            ]
+          ]
+        ],
+        "1": [
+          [
+            112,
+            [
+              [
+                0,
+                40
+              ],
+              [
+                40,
+                72
+              ]
+            ]
+          ],
+          [
+            112,
+            [
+              [
+                2,
+                40
+              ],
+              [
+                42,
+                72
+              ]
+            ]
+          ],
+          [
+            112,
+            [
+              [
+                4,
+                40
+              ],
+              [
+                44,
+                72
+              ]
+            ]
+          ],
+          [
+            112,
+            [
+              [
+                10,
+                36
+              ],
+              [
+                46,
+                76
+              ]
+            ]
+          ]
+        ],
+        "2": [
+          [
+            112,
+            [
+              [
+                0,
+                40
+              ],
+              [
+                40,
+                72
+              ]
+            ]
+          ],
+          [
+            112,
+            [
+              [
+                2,
+                40
+              ],
+              [
+                42,
+                72
+              ]
+            ]
+          ],
+          [
+            112,
+            [
+              [
+                4,
+                40
+              ],
+              [
+                44,
+                72
+              ]
+            ]
+          ],
+          [
+            112,
+            [
+              [
+                10,
+                36
+              ],
+              [
+                46,
+                76
+              ]
+            ]
+          ]
+        ],
+        "3": [
+          [
+            8,
+            [
+              [
+                0,
+                72
+              ]
+            ]
+          ],
+          [
+            8,
+            [
+              [
+                2,
+                72
+              ]
+            ]
+          ],
+          [
+            8,
+            [
+              [
+                4,
+                72
+              ]
+            ]
+          ],
+          [
+            8,
+            [
+              [
+                6,
+                76
+              ]
+            ]
+          ]
+        ],
+        "4": [
+          [
+            112,
+            [
+              [
+                0,
+                1,
+                40
+              ],
+              [
+                40,
+                43,
+                112
+              ]
+            ]
+          ],
+          [
+            112,
+            [
+              [
+                2,
+                8,
+                42
+              ],
+              [
+                42,
+                44,
+                114
+              ]
+            ]
+          ],
+          [
+            112,
+            [
+              [
+                4,
+                9,
+                44
+              ],
+              [
+                44,
+                50,
+                116
+              ]
+            ]
+          ],
+          [
+            112,
+            [
+              [
+                10,
+                15,
+                46
+              ],
+              [
+                46,
+                51,
+                122
+              ]
+            ]
+          ]
+        ],
+        "5": [
+          [
+            8,
+            [
+              -65,
+              -72,
+              -71,
+              -70,
+              -69,
+              -68,
+              -67,
+              -66
+            ]
+          ],
+          [
+            8,
+            [
+              -67,
+              -66,
+              -65,
+              -72,
+              -71,
+              -70,
+              -69,
+              -68
+            ]
+          ],
+          [
+            8,
+            [
+              -69,
+              -68,
+              -67,
+              -66,
+              -65,
+              -72,
+              -71,
+              -70
+            ]
+          ],
+          [
+            8,
+            [
+              -75,
+              -74,
+              -73,
+              -72,
+              -71,
+              -70,
+              -69,
+              -76
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "producer": "R06-matched-calendar-reference",
+        "schema": 1,
+        "proof": 1,
+        "case": 2,
+        "configuration": {
+          "p": 3,
+          "r": 5,
+          "F": 120
+        },
+        "period": 120,
+        "entry": 0,
+        "repeat": 120,
+        "entry_state": {
+          "before_tick": 0,
+          "before_cp": 0,
+          "before_rp": 0,
+          "before_fp": 0,
+          "before_pp": 0,
+          "before_nextid": 1,
+          "before_qlen": 0,
+          "before_qowners": 0,
+          "before_qid0": 0,
+          "before_qid1": 0,
+          "before_qid2": 0,
+          "before_qid3": 0,
+          "before_qid4": 0,
+          "before_qid5": 0,
+          "before_qid6": 0,
+          "before_qid7": 0,
+          "before_R0v": 0,
+          "before_R0owner": 0,
+          "before_R0id": 0,
+          "before_R0byte": 0,
+          "before_R1v": 0,
+          "before_R1owner": 0,
+          "before_R1id": 0,
+          "before_R1byte": 0,
+          "before_outstanding": 0,
+          "before_valid": 15,
+          "before_enabled": 0,
+          "before_bytes": 0,
+          "before_count0": 0,
+          "before_count1": 0,
+          "before_count2": 0,
+          "before_count3": 0,
+          "before_failed": 0,
+          "before_fault": 0
+        },
+        "normalized_entry_key": {
+          "phases": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "live_queue": [],
+          "R0": null,
+          "R1": null,
+          "outstanding": 0,
+          "valid": 15,
+          "enabled": 0,
+          "bytes": 0,
+          "counts": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "failed": 0,
+          "fault": 0
+        },
+        "ID_translation": 8,
+        "original_empty_frame_gate": "PASS",
+        "full_key_extension": "VALIDATED_FULL_KEY_CYCLE",
+        "bindings": {
+          "source": "0504cf3aae99e6113292627d9af74c2a717b1ea01736ac68e5669fe0721704d7",
+          "receiver": "a787f08e1ed0f4e284d11f436f371632358c85fcedcc00586394d8967a69e987",
+          "relation": "69ad152ebce94d87efd1e9bcaac8691e1c6f1ff0216f4ff3eac7d44807a47190",
+          "epoch": "9dfbef0b87f50432d0fb1361b0e988f91ec2a0cdfd426bd6b65b682da2f7f728"
+        },
+        "source_evidence": {
+          "producer_control": {
+            "sha256": "02cf468a53f3a35626692f0cfb94db93bf1a27fb9f81a6aeaa59f3cff59081c8",
+            "physical_range": [
+              0,
+              480
+            ]
+          },
+          "independent_control": {
+            "sha256": "6f3aa07d9d73340b44dcde1d3ce79d525b9a772df15f9d373f886d2969e5ec9c",
+            "physical_range": [
+              0,
+              600
+            ]
+          },
+          "validated_recurrence_range": [
+            0,
+            360
+          ],
+          "guard_receiver_sha256": "a787f08e1ed0f4e284d11f436f371632358c85fcedcc00586394d8967a69e987",
+          "exact_source_lines": [
+            {
+              "line": 5,
+              "text": "input [15:0] cfgp,cfgr,cfgf,cfgk,cfgperiod,cfgphi,"
+            },
+            {
+              "line": 6,
+              "text": "input [31:0] cfgstart,"
+            },
+            {
+              "line": 7,
+              "text": "input [15:0] cfgcp,cfgrp,cfgfp,cfgpp,"
+            },
+            {
+              "line": 9,
+              "text": "input [31:0] wubytes,"
+            },
+            {
+              "line": 54,
+              "text": "if(cfgp<2 || cfgp>17 || (cfgr!=5 && cfgr!=7) || cfgf<40 || cfgf>952 || cfgk==0 || cfgperiod==0 || cfgperiod>68 || cfgphi>=cfgperiod || cfgcp>=cfgp || cfgrp>=cfgr || cfgfp>=cfgf || cfgpp>=cfgperiod)fault=1;"
+            },
+            {
+              "line": 122,
+              "text": "if(tick>=32'h7ffffffe || nextid>=32'h7ffffffe)fault=fault|64;"
+            }
+          ]
+        },
+        "portfolio_P": [
+          3,
+          6,
+          9,
+          12
+        ],
+        "portfolio_g": 12,
+        "guards": {
+          "line_count": 4,
+          "line_IDs": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "tags": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "FIFO": 8,
+          "phase_bits": 16,
+          "count_bits": 16,
+          "byte_bits": 8,
+          "tick_ID_bits": 32,
+          "tick_ID_exclusive": 2147483646,
+          "K_min": 1,
+          "K_max": 65535,
+          "P_min": 1,
+          "P_max": 68,
+          "strict_WU": "t>initial_capture_cutpoint",
+          "epoch": "fixed clocks/source/no refill, unrelated invalidation, reset or retuning inside run"
+        },
+        "lines": [
+          {
+            "owner": 0,
+            "initial_capture_cutpoint": 0,
+            "J": 4,
+            "A": 74,
+            "C0": [
+              1,
+              46
+            ],
+            "completion_domain": true,
+            "prefix": [],
+            "prefix_crosses_entry": []
+          },
+          {
+            "owner": 1,
+            "initial_capture_cutpoint": 3,
+            "J": 3,
+            "A": 76,
+            "C0": [
+              6,
+              47
+            ],
+            "completion_domain": true,
+            "prefix": [],
+            "prefix_crosses_entry": []
+          },
+          {
+            "owner": 2,
+            "initial_capture_cutpoint": 6,
+            "J": 3,
+            "A": 75,
+            "C0": [
+              7,
+              51
+            ],
+            "completion_domain": true,
+            "prefix": [],
+            "prefix_crosses_entry": []
+          },
+          {
+            "owner": 3,
+            "initial_capture_cutpoint": 9,
+            "J": 2,
+            "A": 77,
+            "C0": [
+              11,
+              52
+            ],
+            "completion_domain": true,
+            "prefix": [],
+            "prefix_crosses_entry": []
+          }
+        ]
+      },
+      "forms": {
+        "0": [
+          [
+            120,
+            [
+              [
+                0,
+                42
+              ],
+              [
+                42,
+                78
+              ]
+            ]
+          ],
+          [
+            120,
+            [
+              [
+                3,
+                42
+              ],
+              [
+                45,
+                78
+              ]
+            ]
+          ],
+          [
+            120,
+            [
+              [
+                6,
+                42
+              ],
+              [
+                48,
+                78
+              ]
+            ]
+          ],
+          [
+            120,
+            [
+              [
+                9,
+                42
+              ],
+              [
+                51,
+                78
+              ]
+            ]
+          ]
+        ],
+        "1": [
+          [
+            120,
+            [
+              [
+                0,
+                42
+              ],
+              [
+                42,
+                78
+              ]
+            ]
+          ],
+          [
+            120,
+            [
+              [
+                3,
+                42
+              ],
+              [
+                45,
+                78
+              ]
+            ]
+          ],
+          [
+            120,
+            [
+              [
+                6,
+                42
+              ],
+              [
+                48,
+                78
+              ]
+            ]
+          ],
+          [
+            120,
+            [
+              [
+                9,
+                42
+              ],
+              [
+                51,
+                78
+              ]
+            ]
+          ]
+        ],
+        "2": [
+          [
+            120,
+            [
+              [
+                0,
+                42
+              ],
+              [
+                42,
+                78
+              ]
+            ]
+          ],
+          [
+            120,
+            [
+              [
+                3,
+                42
+              ],
+              [
+                45,
+                78
+              ]
+            ]
+          ],
+          [
+            120,
+            [
+              [
+                6,
+                42
+              ],
+              [
+                48,
+                78
+              ]
+            ]
+          ],
+          [
+            120,
+            [
+              [
+                9,
+                42
+              ],
+              [
+                51,
+                78
+              ]
+            ]
+          ]
+        ],
+        "3": [
+          [
+            12,
+            [
+              [
+                6,
+                78
+              ]
+            ]
+          ],
+          [
+            12,
+            [
+              [
+                9,
+                78
+              ]
+            ]
+          ],
+          [
+            12,
+            [
+              [
+                0,
+                78
+              ]
+            ]
+          ],
+          [
+            12,
+            [
+              [
+                3,
+                78
+              ]
+            ]
+          ]
+        ],
+        "4": [
+          [
+            120,
+            [
+              [
+                0,
+                1,
+                42
+              ],
+              [
+                42,
+                46,
+                120
+              ]
+            ]
+          ],
+          [
+            120,
+            [
+              [
+                3,
+                6,
+                45
+              ],
+              [
+                45,
+                47,
+                123
+              ]
+            ]
+          ],
+          [
+            120,
+            [
+              [
+                6,
+                7,
+                48
+              ],
+              [
+                48,
+                51,
+                126
+              ]
+            ]
+          ],
+          [
+            120,
+            [
+              [
+                9,
+                11,
+                51
+              ],
+              [
+                51,
+                52,
+                129
+              ]
+            ]
+          ]
+        ],
+        "5": [
+          [
+            12,
+            [
+              -73,
+              -72,
+              -71,
+              -70,
+              -69,
+              -68,
+              -67,
+              -78,
+              -77,
+              -76,
+              -75,
+              -74
+            ]
+          ],
+          [
+            12,
+            [
+              -76,
+              -75,
+              -74,
+              -73,
+              -72,
+              -71,
+              -70,
+              -69,
+              -68,
+              -67,
+              -78,
+              -77
+            ]
+          ],
+          [
+            12,
+            [
+              -67,
+              -78,
+              -77,
+              -76,
+              -75,
+              -74,
+              -73,
+              -72,
+              -71,
+              -70,
+              -69,
+              -68
+            ]
+          ],
+          [
+            12,
+            [
+              -70,
+              -69,
+              -68,
+              -67,
+              -78,
+              -77,
+              -76,
+              -75,
+              -74,
+              -73,
+              -72,
+              -71
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "producer": "R06-matched-calendar-reference",
+        "schema": 1,
+        "proof": 1,
+        "case": 3,
+        "configuration": {
+          "p": 3,
+          "r": 7,
+          "F": 168
+        },
+        "period": 168,
+        "entry": 0,
+        "repeat": 168,
+        "entry_state": {
+          "before_tick": 0,
+          "before_cp": 0,
+          "before_rp": 0,
+          "before_fp": 0,
+          "before_pp": 0,
+          "before_nextid": 1,
+          "before_qlen": 0,
+          "before_qowners": 0,
+          "before_qid0": 0,
+          "before_qid1": 0,
+          "before_qid2": 0,
+          "before_qid3": 0,
+          "before_qid4": 0,
+          "before_qid5": 0,
+          "before_qid6": 0,
+          "before_qid7": 0,
+          "before_R0v": 0,
+          "before_R0owner": 0,
+          "before_R0id": 0,
+          "before_R0byte": 0,
+          "before_R1v": 0,
+          "before_R1owner": 0,
+          "before_R1id": 0,
+          "before_R1byte": 0,
+          "before_outstanding": 0,
+          "before_valid": 15,
+          "before_enabled": 0,
+          "before_bytes": 0,
+          "before_count0": 0,
+          "before_count1": 0,
+          "before_count2": 0,
+          "before_count3": 0,
+          "before_failed": 0,
+          "before_fault": 0
+        },
+        "normalized_entry_key": {
+          "phases": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "live_queue": [],
+          "R0": null,
+          "R1": null,
+          "outstanding": 0,
+          "valid": 15,
+          "enabled": 0,
+          "bytes": 0,
+          "counts": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "failed": 0,
+          "fault": 0
+        },
+        "ID_translation": 8,
+        "original_empty_frame_gate": "PASS",
+        "full_key_extension": "VALIDATED_FULL_KEY_CYCLE",
+        "bindings": {
+          "source": "0504cf3aae99e6113292627d9af74c2a717b1ea01736ac68e5669fe0721704d7",
+          "receiver": "a787f08e1ed0f4e284d11f436f371632358c85fcedcc00586394d8967a69e987",
+          "relation": "91d7fe8d1ac334651fe2abade9e77a2a49c6ae46edf5fd864f2f8364f3857b6e",
+          "epoch": "7cb84b1818ec3d1447cc8d21f01ae5bc65dac21aeacae6bd350ef1f820a555cf"
+        },
+        "source_evidence": {
+          "producer_control": {
+            "sha256": "02cf468a53f3a35626692f0cfb94db93bf1a27fb9f81a6aeaa59f3cff59081c8",
+            "physical_range": [
+              0,
+              672
+            ]
+          },
+          "independent_control": {
+            "sha256": "6f3aa07d9d73340b44dcde1d3ce79d525b9a772df15f9d373f886d2969e5ec9c",
+            "physical_range": [
+              0,
+              840
+            ]
+          },
+          "validated_recurrence_range": [
+            0,
+            504
+          ],
+          "guard_receiver_sha256": "a787f08e1ed0f4e284d11f436f371632358c85fcedcc00586394d8967a69e987",
+          "exact_source_lines": [
+            {
+              "line": 5,
+              "text": "input [15:0] cfgp,cfgr,cfgf,cfgk,cfgperiod,cfgphi,"
+            },
+            {
+              "line": 6,
+              "text": "input [31:0] cfgstart,"
+            },
+            {
+              "line": 7,
+              "text": "input [15:0] cfgcp,cfgrp,cfgfp,cfgpp,"
+            },
+            {
+              "line": 9,
+              "text": "input [31:0] wubytes,"
+            },
+            {
+              "line": 54,
+              "text": "if(cfgp<2 || cfgp>17 || (cfgr!=5 && cfgr!=7) || cfgf<40 || cfgf>952 || cfgk==0 || cfgperiod==0 || cfgperiod>68 || cfgphi>=cfgperiod || cfgcp>=cfgp || cfgrp>=cfgr || cfgfp>=cfgf || cfgpp>=cfgperiod)fault=1;"
+            },
+            {
+              "line": 122,
+              "text": "if(tick>=32'h7ffffffe || nextid>=32'h7ffffffe)fault=fault|64;"
+            }
+          ]
+        },
+        "portfolio_P": [
+          3,
+          6,
+          9,
+          12
+        ],
+        "portfolio_g": 12,
+        "guards": {
+          "line_count": 4,
+          "line_IDs": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "tags": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "FIFO": 8,
+          "phase_bits": 16,
+          "count_bits": 16,
+          "byte_bits": 8,
+          "tick_ID_bits": 32,
+          "tick_ID_exclusive": 2147483646,
+          "K_min": 1,
+          "K_max": 65535,
+          "P_min": 1,
+          "P_max": 68,
+          "strict_WU": "t>initial_capture_cutpoint",
+          "epoch": "fixed clocks/source/no refill, unrelated invalidation, reset or retuning inside run"
+        },
+        "lines": [
+          {
+            "owner": 0,
+            "initial_capture_cutpoint": 0,
+            "J": 1,
+            "A": 125,
+            "C0": [
+              1,
+              43
+            ],
+            "completion_domain": true,
+            "prefix": [],
+            "prefix_crosses_entry": []
+          },
+          {
+            "owner": 1,
+            "initial_capture_cutpoint": 3,
+            "J": 5,
+            "A": 121,
+            "C0": [
+              8,
+              50
+            ],
+            "completion_domain": true,
+            "prefix": [],
+            "prefix_crosses_entry": []
+          },
+          {
+            "owner": 2,
+            "initial_capture_cutpoint": 6,
+            "J": 3,
+            "A": 123,
+            "C0": [
+              9,
+              51
+            ],
+            "completion_domain": true,
+            "prefix": [],
+            "prefix_crosses_entry": []
+          },
+          {
+            "owner": 3,
+            "initial_capture_cutpoint": 9,
+            "J": 6,
+            "A": 120,
+            "C0": [
+              15,
+              57
+            ],
+            "completion_domain": true,
+            "prefix": [],
+            "prefix_crosses_entry": []
+          }
+        ]
+      },
+      "forms": {
+        "0": [
+          [
+            168,
+            [
+              [
+                0,
+                42
+              ],
+              [
+                42,
+                126
+              ]
+            ]
+          ],
+          [
+            168,
+            [
+              [
+                3,
+                42
+              ],
+              [
+                45,
+                126
+              ]
+            ]
+          ],
+          [
+            168,
+            [
+              [
+                6,
+                42
+              ],
+              [
+                48,
+                126
+              ]
+            ]
+          ],
+          [
+            168,
+            [
+              [
+                9,
+                42
+              ],
+              [
+                51,
+                126
+              ]
+            ]
+          ]
+        ],
+        "1": [
+          [
+            168,
+            [
+              [
+                0,
+                42
+              ],
+              [
+                42,
+                126
+              ]
+            ]
+          ],
+          [
+            168,
+            [
+              [
+                3,
+                42
+              ],
+              [
+                45,
+                126
+              ]
+            ]
+          ],
+          [
+            168,
+            [
+              [
+                6,
+                42
+              ],
+              [
+                48,
+                126
+              ]
+            ]
+          ],
+          [
+            168,
+            [
+              [
+                9,
+                42
+              ],
+              [
+                51,
+                126
+              ]
+            ]
+          ]
+        ],
+        "2": [
+          [
+            168,
+            [
+              [
+                0,
+                42
+              ],
+              [
+                42,
+                126
+              ]
+            ]
+          ],
+          [
+            168,
+            [
+              [
+                3,
+                42
+              ],
+              [
+                45,
+                126
+              ]
+            ]
+          ],
+          [
+            168,
+            [
+              [
+                6,
+                42
+              ],
+              [
+                48,
+                126
+              ]
+            ]
+          ],
+          [
+            168,
+            [
+              [
+                9,
+                42
+              ],
+              [
+                51,
+                126
+              ]
+            ]
+          ]
+        ],
+        "3": [
+          [
+            12,
+            [
+              [
+                6,
+                126
+              ]
+            ]
+          ],
+          [
+            12,
+            [
+              [
+                9,
+                126
+              ]
+            ]
+          ],
+          [
+            12,
+            [
+              [
+                0,
+                126
+              ]
+            ]
+          ],
+          [
+            12,
+            [
+              [
+                3,
+                126
+              ]
+            ]
+          ]
+        ],
+        "4": [
+          [
+            168,
+            [
+              [
+                0,
+                1,
+                42
+              ],
+              [
+                42,
+                43,
+                168
+              ]
+            ]
+          ],
+          [
+            168,
+            [
+              [
+                3,
+                8,
+                45
+              ],
+              [
+                45,
+                50,
+                171
+              ]
+            ]
+          ],
+          [
+            168,
+            [
+              [
+                6,
+                9,
+                48
+              ],
+              [
+                48,
+                51,
+                174
+              ]
+            ]
+          ],
+          [
+            168,
+            [
+              [
+                9,
+                15,
+                51
+              ],
+              [
+                51,
+                57,
+                177
+              ]
+            ]
+          ]
+        ],
+        "5": [
+          [
+            12,
+            [
+              -121,
+              -120,
+              -119,
+              -118,
+              -117,
+              -116,
+              -115,
+              -126,
+              -125,
+              -124,
+              -123,
+              -122
+            ]
+          ],
+          [
+            12,
+            [
+              -124,
+              -123,
+              -122,
+              -121,
+              -120,
+              -119,
+              -118,
+              -117,
+              -116,
+              -115,
+              -126,
+              -125
+            ]
+          ],
+          [
+            12,
+            [
+              -115,
+              -126,
+              -125,
+              -124,
+              -123,
+              -122,
+              -121,
+              -120,
+              -119,
+              -118,
+              -117,
+              -116
+            ]
+          ],
+          [
+            12,
+            [
+              -118,
+              -117,
+              -116,
+              -115,
+              -126,
+              -125,
+              -124,
+              -123,
+              -122,
+              -121,
+              -120,
+              -119
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "producer": "R06-matched-calendar-reference",
+        "schema": 1,
+        "proof": 1,
+        "case": 4,
+        "configuration": {
+          "p": 5,
+          "r": 5,
+          "F": 40
+        },
+        "period": 40,
+        "entry": 0,
+        "repeat": 40,
+        "entry_state": {
+          "before_tick": 0,
+          "before_cp": 0,
+          "before_rp": 0,
+          "before_fp": 0,
+          "before_pp": 0,
+          "before_nextid": 1,
+          "before_qlen": 0,
+          "before_qowners": 0,
+          "before_qid0": 0,
+          "before_qid1": 0,
+          "before_qid2": 0,
+          "before_qid3": 0,
+          "before_qid4": 0,
+          "before_qid5": 0,
+          "before_qid6": 0,
+          "before_qid7": 0,
+          "before_R0v": 0,
+          "before_R0owner": 0,
+          "before_R0id": 0,
+          "before_R0byte": 0,
+          "before_R1v": 0,
+          "before_R1owner": 0,
+          "before_R1id": 0,
+          "before_R1byte": 0,
+          "before_outstanding": 0,
+          "before_valid": 15,
+          "before_enabled": 0,
+          "before_bytes": 0,
+          "before_count0": 0,
+          "before_count1": 0,
+          "before_count2": 0,
+          "before_count3": 0,
+          "before_failed": 0,
+          "before_fault": 0
+        },
+        "normalized_entry_key": {
+          "phases": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "live_queue": [],
+          "R0": null,
+          "R1": null,
+          "outstanding": 0,
+          "valid": 15,
+          "enabled": 0,
+          "bytes": 0,
+          "counts": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "failed": 0,
+          "fault": 0
+        },
+        "ID_translation": 8,
+        "original_empty_frame_gate": "PASS",
+        "full_key_extension": "VALIDATED_FULL_KEY_CYCLE",
+        "bindings": {
+          "source": "0504cf3aae99e6113292627d9af74c2a717b1ea01736ac68e5669fe0721704d7",
+          "receiver": "a787f08e1ed0f4e284d11f436f371632358c85fcedcc00586394d8967a69e987",
+          "relation": "887c7c1289da38d56e11fbe6b8b9c1406e09b76097b4f23edbf5d4078142c583",
+          "epoch": "81fb22f2c8f6b8125f08b5ae861c3837c037e0cf477e89ff5bed7eed29329fb1"
+        },
+        "source_evidence": {
+          "producer_control": {
+            "sha256": "02cf468a53f3a35626692f0cfb94db93bf1a27fb9f81a6aeaa59f3cff59081c8",
+            "physical_range": [
+              0,
+              160
+            ]
+          },
+          "independent_control": {
+            "sha256": "6f3aa07d9d73340b44dcde1d3ce79d525b9a772df15f9d373f886d2969e5ec9c",
+            "physical_range": [
+              0,
+              200
+            ]
+          },
+          "validated_recurrence_range": [
+            0,
+            120
+          ],
+          "guard_receiver_sha256": "a787f08e1ed0f4e284d11f436f371632358c85fcedcc00586394d8967a69e987",
+          "exact_source_lines": [
+            {
+              "line": 5,
+              "text": "input [15:0] cfgp,cfgr,cfgf,cfgk,cfgperiod,cfgphi,"
+            },
+            {
+              "line": 6,
+              "text": "input [31:0] cfgstart,"
+            },
+            {
+              "line": 7,
+              "text": "input [15:0] cfgcp,cfgrp,cfgfp,cfgpp,"
+            },
+            {
+              "line": 9,
+              "text": "input [31:0] wubytes,"
+            },
+            {
+              "line": 54,
+              "text": "if(cfgp<2 || cfgp>17 || (cfgr!=5 && cfgr!=7) || cfgf<40 || cfgf>952 || cfgk==0 || cfgperiod==0 || cfgperiod>68 || cfgphi>=cfgperiod || cfgcp>=cfgp || cfgrp>=cfgr || cfgfp>=cfgf || cfgpp>=cfgperiod)fault=1;"
+            },
+            {
+              "line": 122,
+              "text": "if(tick>=32'h7ffffffe || nextid>=32'h7ffffffe)fault=fault|64;"
+            }
+          ]
+        },
+        "portfolio_P": [
+          5,
+          10,
+          15,
+          20
+        ],
+        "portfolio_g": 20,
+        "guards": {
+          "line_count": 4,
+          "line_IDs": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "tags": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "FIFO": 8,
+          "phase_bits": 16,
+          "count_bits": 16,
+          "byte_bits": 8,
+          "tick_ID_bits": 32,
+          "tick_ID_exclusive": 2147483646,
+          "K_min": 1,
+          "K_max": 65535,
+          "P_min": 1,
+          "P_max": 68,
+          "strict_WU": "t>initial_capture_cutpoint",
+          "epoch": "fixed clocks/source/no refill, unrelated invalidation, reset or retuning inside run"
+        },
+        "lines": [
+          {
+            "owner": 0,
+            "initial_capture_cutpoint": 0,
+            "J": 1,
+            "A": 34,
+            "C0": [
+              1,
+              6
+            ],
+            "completion_domain": true,
+            "prefix": [],
+            "prefix_crosses_entry": []
+          },
+          {
+            "owner": 1,
+            "initial_capture_cutpoint": 10,
+            "J": 1,
+            "A": 34,
+            "C0": [
+              11,
+              16
+            ],
+            "completion_domain": true,
+            "prefix": [],
+            "prefix_crosses_entry": []
+          },
+          {
+            "owner": 2,
+            "initial_capture_cutpoint": 20,
+            "J": 1,
+            "A": 34,
+            "C0": [
+              21,
+              26
+            ],
+            "completion_domain": true,
+            "prefix": [],
+            "prefix_crosses_entry": []
+          },
+          {
+            "owner": 3,
+            "initial_capture_cutpoint": 30,
+            "J": 1,
+            "A": 34,
+            "C0": [
+              31,
+              36
+            ],
+            "completion_domain": true,
+            "prefix": [],
+            "prefix_crosses_entry": []
+          }
+        ]
+      },
+      "forms": {
+        "0": [
+          [
+            40,
+            [
+              [
+                0,
+                5
+              ],
+              [
+                5,
+                35
+              ]
+            ]
+          ],
+          [
+            40,
+            [
+              [
+                10,
+                5
+              ],
+              [
+                15,
+                35
+              ]
+            ]
+          ],
+          [
+            40,
+            [
+              [
+                20,
+                5
+              ],
+              [
+                25,
+                35
+              ]
+            ]
+          ],
+          [
+            40,
+            [
+              [
+                30,
+                5
+              ],
+              [
+                35,
+                35
+              ]
+            ]
+          ]
+        ],
+        "1": [
+          [
+            40,
+            [
+              [
+                0,
+                5
+              ],
+              [
+                5,
+                35
+              ]
+            ]
+          ],
+          [
+            40,
+            [
+              [
+                10,
+                5
+              ],
+              [
+                15,
+                35
+              ]
+            ]
+          ],
+          [
+            40,
+            [
+              [
+                20,
+                5
+              ],
+              [
+                25,
+                35
+              ]
+            ]
+          ],
+          [
+            40,
+            [
+              [
+                30,
+                5
+              ],
+              [
+                35,
+                35
+              ]
+            ]
+          ]
+        ],
+        "2": [
+          [
+            40,
+            [
+              [
+                0,
+                5
+              ],
+              [
+                5,
+                35
+              ]
+            ]
+          ],
+          [
+            40,
+            [
+              [
+                10,
+                5
+              ],
+              [
+                15,
+                35
+              ]
+            ]
+          ],
+          [
+            40,
+            [
+              [
+                20,
+                5
+              ],
+              [
+                25,
+                35
+              ]
+            ]
+          ],
+          [
+            40,
+            [
+              [
+                30,
+                5
+              ],
+              [
+                35,
+                35
+              ]
+            ]
+          ]
+        ],
+        "3": [
+          [
+            20,
+            [
+              [
+                5,
+                35
+              ]
+            ]
+          ],
+          [
+            20,
+            [
+              [
+                15,
+                35
+              ]
+            ]
+          ],
+          [
+            20,
+            [
+              [
+                5,
+                35
+              ]
+            ]
+          ],
+          [
+            20,
+            [
+              [
+                15,
+                35
+              ]
+            ]
+          ]
+        ],
+        "4": [
+          [
+            40,
+            [
+              [
+                0,
+                1,
+                5
+              ],
+              [
+                5,
+                6,
+                40
+              ]
+            ]
+          ],
+          [
+            40,
+            [
+              [
+                10,
+                11,
+                15
+              ],
+              [
+                15,
+                16,
+                50
+              ]
+            ]
+          ],
+          [
+            40,
+            [
+              [
+                20,
+                21,
+                25
+              ],
+              [
+                25,
+                26,
+                60
+              ]
+            ]
+          ],
+          [
+            40,
+            [
+              [
+                30,
+                31,
+                35
+              ],
+              [
+                35,
+                36,
+                70
+              ]
+            ]
+          ]
+        ],
+        "5": [
+          [
+            20,
+            [
+              -21,
+              -20,
+              -19,
+              -18,
+              -17,
+              -16,
+              -35,
+              -34,
+              -33,
+              -32,
+              -31,
+              -30,
+              -29,
+              -28,
+              -27,
+              -26,
+              -25,
+              -24,
+              -23,
+              -22
+            ]
+          ],
+          [
+            20,
+            [
+              -31,
+              -30,
+              -29,
+              -28,
+              -27,
+              -26,
+              -25,
+              -24,
+              -23,
+              -22,
+              -21,
+              -20,
+              -19,
+              -18,
+              -17,
+              -16,
+              -35,
+              -34,
+              -33,
+              -32
+            ]
+          ],
+          [
+            20,
+            [
+              -21,
+              -20,
+              -19,
+              -18,
+              -17,
+              -16,
+              -35,
+              -34,
+              -33,
+              -32,
+              -31,
+              -30,
+              -29,
+              -28,
+              -27,
+              -26,
+              -25,
+              -24,
+              -23,
+              -22
+            ]
+          ],
+          [
+            20,
+            [
+              -31,
+              -30,
+              -29,
+              -28,
+              -27,
+              -26,
+              -25,
+              -24,
+              -23,
+              -22,
+              -21,
+              -20,
+              -19,
+              -18,
+              -17,
+              -16,
+              -35,
+              -34,
+              -33,
+              -32
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "producer": "R06-matched-calendar-reference",
+        "schema": 1,
+        "proof": 1,
+        "case": 5,
+        "configuration": {
+          "p": 5,
+          "r": 7,
+          "F": 280
+        },
+        "period": 280,
+        "entry": 0,
+        "repeat": 280,
+        "entry_state": {
+          "before_tick": 0,
+          "before_cp": 0,
+          "before_rp": 0,
+          "before_fp": 0,
+          "before_pp": 0,
+          "before_nextid": 1,
+          "before_qlen": 0,
+          "before_qowners": 0,
+          "before_qid0": 0,
+          "before_qid1": 0,
+          "before_qid2": 0,
+          "before_qid3": 0,
+          "before_qid4": 0,
+          "before_qid5": 0,
+          "before_qid6": 0,
+          "before_qid7": 0,
+          "before_R0v": 0,
+          "before_R0owner": 0,
+          "before_R0id": 0,
+          "before_R0byte": 0,
+          "before_R1v": 0,
+          "before_R1owner": 0,
+          "before_R1id": 0,
+          "before_R1byte": 0,
+          "before_outstanding": 0,
+          "before_valid": 15,
+          "before_enabled": 0,
+          "before_bytes": 0,
+          "before_count0": 0,
+          "before_count1": 0,
+          "before_count2": 0,
+          "before_count3": 0,
+          "before_failed": 0,
+          "before_fault": 0
+        },
+        "normalized_entry_key": {
+          "phases": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "live_queue": [],
+          "R0": null,
+          "R1": null,
+          "outstanding": 0,
+          "valid": 15,
+          "enabled": 0,
+          "bytes": 0,
+          "counts": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "failed": 0,
+          "fault": 0
+        },
+        "ID_translation": 8,
+        "original_empty_frame_gate": "PASS",
+        "full_key_extension": "VALIDATED_FULL_KEY_CYCLE",
+        "bindings": {
+          "source": "0504cf3aae99e6113292627d9af74c2a717b1ea01736ac68e5669fe0721704d7",
+          "receiver": "a787f08e1ed0f4e284d11f436f371632358c85fcedcc00586394d8967a69e987",
+          "relation": "adf8e9389108d887811b71da79c6eae69400e0202b193b4fc4c987dffe836363",
+          "epoch": "3d15c0c19a33bdf2a1f2589e91171232f7f4eadb4238630cb99522555445191e"
+        },
+        "source_evidence": {
+          "producer_control": {
+            "sha256": "02cf468a53f3a35626692f0cfb94db93bf1a27fb9f81a6aeaa59f3cff59081c8",
+            "physical_range": [
+              0,
+              1120
+            ]
+          },
+          "independent_control": {
+            "sha256": "6f3aa07d9d73340b44dcde1d3ce79d525b9a772df15f9d373f886d2969e5ec9c",
+            "physical_range": [
+              0,
+              1400
+            ]
+          },
+          "validated_recurrence_range": [
+            0,
+            840
+          ],
+          "guard_receiver_sha256": "a787f08e1ed0f4e284d11f436f371632358c85fcedcc00586394d8967a69e987",
+          "exact_source_lines": [
+            {
+              "line": 5,
+              "text": "input [15:0] cfgp,cfgr,cfgf,cfgk,cfgperiod,cfgphi,"
+            },
+            {
+              "line": 6,
+              "text": "input [31:0] cfgstart,"
+            },
+            {
+              "line": 7,
+              "text": "input [15:0] cfgcp,cfgrp,cfgfp,cfgpp,"
+            },
+            {
+              "line": 9,
+              "text": "input [31:0] wubytes,"
+            },
+            {
+              "line": 54,
+              "text": "if(cfgp<2 || cfgp>17 || (cfgr!=5 && cfgr!=7) || cfgf<40 || cfgf>952 || cfgk==0 || cfgperiod==0 || cfgperiod>68 || cfgphi>=cfgperiod || cfgcp>=cfgp || cfgrp>=cfgr || cfgfp>=cfgf || cfgpp>=cfgperiod)fault=1;"
+            },
+            {
+              "line": 122,
+              "text": "if(tick>=32'h7ffffffe || nextid>=32'h7ffffffe)fault=fault|64;"
+            }
+          ]
+        },
+        "portfolio_P": [
+          5,
+          10,
+          15,
+          20
+        ],
+        "portfolio_g": 20,
+        "guards": {
+          "line_count": 4,
+          "line_IDs": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "tags": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "FIFO": 8,
+          "phase_bits": 16,
+          "count_bits": 16,
+          "byte_bits": 8,
+          "tick_ID_bits": 32,
+          "tick_ID_exclusive": 2147483646,
+          "K_min": 1,
+          "K_max": 65535,
+          "P_min": 1,
+          "P_max": 68,
+          "strict_WU": "t>initial_capture_cutpoint",
+          "epoch": "fixed clocks/source/no refill, unrelated invalidation, reset or retuning inside run"
+        },
+        "lines": [
+          {
+            "owner": 0,
+            "initial_capture_cutpoint": 0,
+            "J": 3,
+            "A": 237,
+            "C0": [
+              1,
+              43
+            ],
+            "completion_domain": true,
+            "prefix": [],
+            "prefix_crosses_entry": []
+          },
+          {
+            "owner": 1,
+            "initial_capture_cutpoint": 5,
+            "J": 5,
+            "A": 235,
+            "C0": [
+              8,
+              50
+            ],
+            "completion_domain": true,
+            "prefix": [],
+            "prefix_crosses_entry": []
+          },
+          {
+            "owner": 2,
+            "initial_capture_cutpoint": 10,
+            "J": 5,
+            "A": 239,
+            "C0": [
+              15,
+              51
+            ],
+            "completion_domain": true,
+            "prefix": [],
+            "prefix_crosses_entry": []
+          },
+          {
+            "owner": 3,
+            "initial_capture_cutpoint": 15,
+            "J": 2,
+            "A": 238,
+            "C0": [
+              16,
+              57
+            ],
+            "completion_domain": true,
+            "prefix": [],
+            "prefix_crosses_entry": []
+          }
+        ]
+      },
+      "forms": {
+        "0": [
+          [
+            280,
+            [
+              [
+                0,
+                40
+              ],
+              [
+                40,
+                240
+              ]
+            ]
+          ],
+          [
+            280,
+            [
+              [
+                5,
+                40
+              ],
+              [
+                45,
+                240
+              ]
+            ]
+          ],
+          [
+            280,
+            [
+              [
+                10,
+                40
+              ],
+              [
+                50,
+                240
+              ]
+            ]
+          ],
+          [
+            280,
+            [
+              [
+                15,
+                40
+              ],
+              [
+                55,
+                240
+              ]
+            ]
+          ]
+        ],
+        "1": [
+          [
+            280,
+            [
+              [
+                0,
+                40
+              ],
+              [
+                40,
+                240
+              ]
+            ]
+          ],
+          [
+            280,
+            [
+              [
+                5,
+                40
+              ],
+              [
+                45,
+                240
+              ]
+            ]
+          ],
+          [
+            280,
+            [
+              [
+                10,
+                40
+              ],
+              [
+                50,
+                240
+              ]
+            ]
+          ],
+          [
+            280,
+            [
+              [
+                15,
+                40
+              ],
+              [
+                55,
+                240
+              ]
+            ]
+          ]
+        ],
+        "2": [
+          [
+            280,
+            [
+              [
+                0,
+                40
+              ],
+              [
+                40,
+                240
+              ]
+            ]
+          ],
+          [
+            280,
+            [
+              [
+                5,
+                40
+              ],
+              [
+                45,
+                240
+              ]
+            ]
+          ],
+          [
+            280,
+            [
+              [
+                10,
+                40
+              ],
+              [
+                50,
+                240
+              ]
+            ]
+          ],
+          [
+            280,
+            [
+              [
+                15,
+                40
+              ],
+              [
+                55,
+                240
+              ]
+            ]
+          ]
+        ],
+        "3": [
+          [
+            20,
+            [
+              [
+                0,
+                240
+              ]
+            ]
+          ],
+          [
+            20,
+            [
+              [
+                5,
+                240
+              ]
+            ]
+          ],
+          [
+            20,
+            [
+              [
+                10,
+                240
+              ]
+            ]
+          ],
+          [
+            20,
+            [
+              [
+                15,
+                240
+              ]
+            ]
+          ]
+        ],
+        "4": [
+          [
+            280,
+            [
+              [
+                0,
+                1,
+                40
+              ],
+              [
+                40,
+                43,
+                280
+              ]
+            ]
+          ],
+          [
+            280,
+            [
+              [
+                5,
+                8,
+                45
+              ],
+              [
+                45,
+                50,
+                285
+              ]
+            ]
+          ],
+          [
+            280,
+            [
+              [
+                10,
+                15,
+                50
+              ],
+              [
+                50,
+                51,
+                290
+              ]
+            ]
+          ],
+          [
+            280,
+            [
+              [
+                15,
+                16,
+                55
+              ],
+              [
+                55,
+                57,
+                295
+              ]
+            ]
+          ]
+        ],
+        "5": [
+          [
+            20,
+            [
+              -221,
+              -240,
+              -239,
+              -238,
+              -237,
+              -236,
+              -235,
+              -234,
+              -233,
+              -232,
+              -231,
+              -230,
+              -229,
+              -228,
+              -227,
+              -226,
+              -225,
+              -224,
+              -223,
+              -222
+            ]
+          ],
+          [
+            20,
+            [
+              -226,
+              -225,
+              -224,
+              -223,
+              -222,
+              -221,
+              -240,
+              -239,
+              -238,
+              -237,
+              -236,
+              -235,
+              -234,
+              -233,
+              -232,
+              -231,
+              -230,
+              -229,
+              -228,
+              -227
+            ]
+          ],
+          [
+            20,
+            [
+              -231,
+              -230,
+              -229,
+              -228,
+              -227,
+              -226,
+              -225,
+              -224,
+              -223,
+              -222,
+              -221,
+              -240,
+              -239,
+              -238,
+              -237,
+              -236,
+              -235,
+              -234,
+              -233,
+              -232
+            ]
+          ],
+          [
+            20,
+            [
+              -236,
+              -235,
+              -234,
+              -233,
+              -232,
+              -231,
+              -230,
+              -229,
+              -228,
+              -227,
+              -226,
+              -225,
+              -224,
+              -223,
+              -222,
+              -221,
+              -240,
+              -239,
+              -238,
+              -237
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "producer": "R06-matched-calendar-reference",
+        "schema": 1,
+        "proof": 1,
+        "case": 6,
+        "configuration": {
+          "p": 7,
+          "r": 5,
+          "F": 280
+        },
+        "period": 280,
+        "entry": 0,
+        "repeat": 280,
+        "entry_state": {
+          "before_tick": 0,
+          "before_cp": 0,
+          "before_rp": 0,
+          "before_fp": 0,
+          "before_pp": 0,
+          "before_nextid": 1,
+          "before_qlen": 0,
+          "before_qowners": 0,
+          "before_qid0": 0,
+          "before_qid1": 0,
+          "before_qid2": 0,
+          "before_qid3": 0,
+          "before_qid4": 0,
+          "before_qid5": 0,
+          "before_qid6": 0,
+          "before_qid7": 0,
+          "before_R0v": 0,
+          "before_R0owner": 0,
+          "before_R0id": 0,
+          "before_R0byte": 0,
+          "before_R1v": 0,
+          "before_R1owner": 0,
+          "before_R1id": 0,
+          "before_R1byte": 0,
+          "before_outstanding": 0,
+          "before_valid": 15,
+          "before_enabled": 0,
+          "before_bytes": 0,
+          "before_count0": 0,
+          "before_count1": 0,
+          "before_count2": 0,
+          "before_count3": 0,
+          "before_failed": 0,
+          "before_fault": 0
+        },
+        "normalized_entry_key": {
+          "phases": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "live_queue": [],
+          "R0": null,
+          "R1": null,
+          "outstanding": 0,
+          "valid": 15,
+          "enabled": 0,
+          "bytes": 0,
+          "counts": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "failed": 0,
+          "fault": 0
+        },
+        "ID_translation": 8,
+        "original_empty_frame_gate": "PASS",
+        "full_key_extension": "VALIDATED_FULL_KEY_CYCLE",
+        "bindings": {
+          "source": "0504cf3aae99e6113292627d9af74c2a717b1ea01736ac68e5669fe0721704d7",
+          "receiver": "a787f08e1ed0f4e284d11f436f371632358c85fcedcc00586394d8967a69e987",
+          "relation": "c42c600200cf56be4561b9be48142eec65890a840c7c51234202ba0b747aed54",
+          "epoch": "7ef5b457d0b2d845371e66e1a3787816fc97d669fd606cef0923cc186ddc2f08"
+        },
+        "source_evidence": {
+          "producer_control": {
+            "sha256": "02cf468a53f3a35626692f0cfb94db93bf1a27fb9f81a6aeaa59f3cff59081c8",
+            "physical_range": [
+              0,
+              1120
+            ]
+          },
+          "independent_control": {
+            "sha256": "6f3aa07d9d73340b44dcde1d3ce79d525b9a772df15f9d373f886d2969e5ec9c",
+            "physical_range": [
+              0,
+              1400
+            ]
+          },
+          "validated_recurrence_range": [
+            0,
+            840
+          ],
+          "guard_receiver_sha256": "a787f08e1ed0f4e284d11f436f371632358c85fcedcc00586394d8967a69e987",
+          "exact_source_lines": [
+            {
+              "line": 5,
+              "text": "input [15:0] cfgp,cfgr,cfgf,cfgk,cfgperiod,cfgphi,"
+            },
+            {
+              "line": 6,
+              "text": "input [31:0] cfgstart,"
+            },
+            {
+              "line": 7,
+              "text": "input [15:0] cfgcp,cfgrp,cfgfp,cfgpp,"
+            },
+            {
+              "line": 9,
+              "text": "input [31:0] wubytes,"
+            },
+            {
+              "line": 54,
+              "text": "if(cfgp<2 || cfgp>17 || (cfgr!=5 && cfgr!=7) || cfgf<40 || cfgf>952 || cfgk==0 || cfgperiod==0 || cfgperiod>68 || cfgphi>=cfgperiod || cfgcp>=cfgp || cfgrp>=cfgr || cfgfp>=cfgf || cfgpp>=cfgperiod)fault=1;"
+            },
+            {
+              "line": 122,
+              "text": "if(tick>=32'h7ffffffe || nextid>=32'h7ffffffe)fault=fault|64;"
+            }
+          ]
+        },
+        "portfolio_P": [
+          7,
+          14,
+          21,
+          28
+        ],
+        "portfolio_g": 28,
+        "guards": {
+          "line_count": 4,
+          "line_IDs": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "tags": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "FIFO": 8,
+          "phase_bits": 16,
+          "count_bits": 16,
+          "byte_bits": 8,
+          "tick_ID_bits": 32,
+          "tick_ID_exclusive": 2147483646,
+          "K_min": 1,
+          "K_max": 65535,
+          "P_min": 1,
+          "P_max": 68,
+          "strict_WU": "t>initial_capture_cutpoint",
+          "epoch": "fixed clocks/source/no refill, unrelated invalidation, reset or retuning inside run"
+        },
+        "lines": [
+          {
+            "owner": 0,
+            "initial_capture_cutpoint": 0,
+            "J": 4,
+            "A": 234,
+            "C0": [
+              1,
+              46
+            ],
+            "completion_domain": true,
+            "prefix": [],
+            "prefix_crosses_entry": []
+          },
+          {
+            "owner": 1,
+            "initial_capture_cutpoint": 7,
+            "J": 4,
+            "A": 236,
+            "C0": [
+              11,
+              51
+            ],
+            "completion_domain": true,
+            "prefix": [],
+            "prefix_crosses_entry": []
+          },
+          {
+            "owner": 2,
+            "initial_capture_cutpoint": 14,
+            "J": 2,
+            "A": 237,
+            "C0": [
+              16,
+              57
+            ],
+            "completion_domain": true,
+            "prefix": [],
+            "prefix_crosses_entry": []
+          },
+          {
+            "owner": 3,
+            "initial_capture_cutpoint": 21,
+            "J": 3,
+            "A": 235,
+            "C0": [
+              22,
+              66
+            ],
+            "completion_domain": true,
+            "prefix": [],
+            "prefix_crosses_entry": []
+          }
+        ]
+      },
+      "forms": {
+        "0": [
+          [
+            280,
+            [
+              [
+                0,
+                42
+              ],
+              [
+                42,
+                238
+              ]
+            ]
+          ],
+          [
+            280,
+            [
+              [
+                7,
+                42
+              ],
+              [
+                49,
+                238
+              ]
+            ]
+          ],
+          [
+            280,
+            [
+              [
+                14,
+                42
+              ],
+              [
+                56,
+                238
+              ]
+            ]
+          ],
+          [
+            280,
+            [
+              [
+                21,
+                42
+              ],
+              [
+                63,
+                238
+              ]
+            ]
+          ]
+        ],
+        "1": [
+          [
+            280,
+            [
+              [
+                0,
+                42
+              ],
+              [
+                42,
+                238
+              ]
+            ]
+          ],
+          [
+            280,
+            [
+              [
+                7,
+                42
+              ],
+              [
+                49,
+                238
+              ]
+            ]
+          ],
+          [
+            280,
+            [
+              [
+                14,
+                42
+              ],
+              [
+                56,
+                238
+              ]
+            ]
+          ],
+          [
+            280,
+            [
+              [
+                21,
+                42
+              ],
+              [
+                63,
+                238
+              ]
+            ]
+          ]
+        ],
+        "2": [
+          [
+            280,
+            [
+              [
+                0,
+                42
+              ],
+              [
+                42,
+                238
+              ]
+            ]
+          ],
+          [
+            280,
+            [
+              [
+                7,
+                42
+              ],
+              [
+                49,
+                238
+              ]
+            ]
+          ],
+          [
+            280,
+            [
+              [
+                14,
+                42
+              ],
+              [
+                56,
+                238
+              ]
+            ]
+          ],
+          [
+            280,
+            [
+              [
+                21,
+                42
+              ],
+              [
+                63,
+                238
+              ]
+            ]
+          ]
+        ],
+        "3": [
+          [
+            28,
+            [
+              [
+                14,
+                238
+              ]
+            ]
+          ],
+          [
+            28,
+            [
+              [
+                21,
+                238
+              ]
+            ]
+          ],
+          [
+            28,
+            [
+              [
+                0,
+                238
+              ]
+            ]
+          ],
+          [
+            28,
+            [
+              [
+                7,
+                238
+              ]
+            ]
+          ]
+        ],
+        "4": [
+          [
+            280,
+            [
+              [
+                0,
+                1,
+                42
+              ],
+              [
+                42,
+                46,
+                280
+              ]
+            ]
+          ],
+          [
+            280,
+            [
+              [
+                7,
+                11,
+                49
+              ],
+              [
+                49,
+                51,
+                287
+              ]
+            ]
+          ],
+          [
+            280,
+            [
+              [
+                14,
+                16,
+                56
+              ],
+              [
+                56,
+                57,
+                294
+              ]
+            ]
+          ],
+          [
+            280,
+            [
+              [
+                21,
+                22,
+                63
+              ],
+              [
+                63,
+                66,
+                301
+              ]
+            ]
+          ]
+        ],
+        "5": [
+          [
+            28,
+            [
+              -225,
+              -224,
+              -223,
+              -222,
+              -221,
+              -220,
+              -219,
+              -218,
+              -217,
+              -216,
+              -215,
+              -214,
+              -213,
+              -212,
+              -211,
+              -238,
+              -237,
+              -236,
+              -235,
+              -234,
+              -233,
+              -232,
+              -231,
+              -230,
+              -229,
+              -228,
+              -227,
+              -226
+            ]
+          ],
+          [
+            28,
+            [
+              -232,
+              -231,
+              -230,
+              -229,
+              -228,
+              -227,
+              -226,
+              -225,
+              -224,
+              -223,
+              -222,
+              -221,
+              -220,
+              -219,
+              -218,
+              -217,
+              -216,
+              -215,
+              -214,
+              -213,
+              -212,
+              -211,
+              -238,
+              -237,
+              -236,
+              -235,
+              -234,
+              -233
+            ]
+          ],
+          [
+            28,
+            [
+              -211,
+              -238,
+              -237,
+              -236,
+              -235,
+              -234,
+              -233,
+              -232,
+              -231,
+              -230,
+              -229,
+              -228,
+              -227,
+              -226,
+              -225,
+              -224,
+              -223,
+              -222,
+              -221,
+              -220,
+              -219,
+              -218,
+              -217,
+              -216,
+              -215,
+              -214,
+              -213,
+              -212
+            ]
+          ],
+          [
+            28,
+            [
+              -218,
+              -217,
+              -216,
+              -215,
+              -214,
+              -213,
+              -212,
+              -211,
+              -238,
+              -237,
+              -236,
+              -235,
+              -234,
+              -233,
+              -232,
+              -231,
+              -230,
+              -229,
+              -228,
+              -227,
+              -226,
+              -225,
+              -224,
+              -223,
+              -222,
+              -221,
+              -220,
+              -219
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "producer": "R06-matched-calendar-reference",
+        "schema": 1,
+        "proof": 1,
+        "case": 7,
+        "configuration": {
+          "p": 7,
+          "r": 7,
+          "F": 56
+        },
+        "period": 56,
+        "entry": 37,
+        "repeat": 93,
+        "entry_state": {
+          "before_tick": 37,
+          "before_cp": 2,
+          "before_rp": 2,
+          "before_fp": 37,
+          "before_pp": 0,
+          "before_nextid": 5,
+          "before_qlen": 0,
+          "before_qowners": 0,
+          "before_qid0": 0,
+          "before_qid1": 0,
+          "before_qid2": 0,
+          "before_qid3": 0,
+          "before_qid4": 0,
+          "before_qid5": 0,
+          "before_qid6": 0,
+          "before_qid7": 0,
+          "before_R0v": 0,
+          "before_R0owner": 3,
+          "before_R0id": 4,
+          "before_R0byte": 0,
+          "before_R1v": 0,
+          "before_R1owner": 3,
+          "before_R1id": 4,
+          "before_R1byte": 0,
+          "before_outstanding": 0,
+          "before_valid": 15,
+          "before_enabled": 0,
+          "before_bytes": 0,
+          "before_count0": 0,
+          "before_count1": 0,
+          "before_count2": 0,
+          "before_count3": 0,
+          "before_failed": 0,
+          "before_fault": 0
+        },
+        "normalized_entry_key": {
+          "phases": [
+            2,
+            2,
+            37,
+            0
+          ],
+          "live_queue": [],
+          "R0": null,
+          "R1": null,
+          "outstanding": 0,
+          "valid": 15,
+          "enabled": 0,
+          "bytes": 0,
+          "counts": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "failed": 0,
+          "fault": 0
+        },
+        "ID_translation": 8,
+        "original_empty_frame_gate": "FAILED_UNKNOWN",
+        "full_key_extension": "VALIDATED_FULL_KEY_CYCLE",
+        "bindings": {
+          "source": "0504cf3aae99e6113292627d9af74c2a717b1ea01736ac68e5669fe0721704d7",
+          "receiver": "a787f08e1ed0f4e284d11f436f371632358c85fcedcc00586394d8967a69e987",
+          "relation": "b6021c8466d07c58fa49b3b1ad9e57b18ff333b8d7044285d4fc56bd7917d6cb",
+          "epoch": "f251f01514c9fbcb56ca3b40c8b712100fd185b2a791e992871a68f2e4d1031f"
+        },
+        "source_evidence": {
+          "producer_control": {
+            "sha256": "02cf468a53f3a35626692f0cfb94db93bf1a27fb9f81a6aeaa59f3cff59081c8",
+            "physical_range": [
+              0,
+              224
+            ]
+          },
+          "independent_control": {
+            "sha256": "6f3aa07d9d73340b44dcde1d3ce79d525b9a772df15f9d373f886d2969e5ec9c",
+            "physical_range": [
+              0,
+              280
+            ]
+          },
+          "validated_recurrence_range": [
+            37,
+            205
+          ],
+          "guard_receiver_sha256": "a787f08e1ed0f4e284d11f436f371632358c85fcedcc00586394d8967a69e987",
+          "exact_source_lines": [
+            {
+              "line": 5,
+              "text": "input [15:0] cfgp,cfgr,cfgf,cfgk,cfgperiod,cfgphi,"
+            },
+            {
+              "line": 6,
+              "text": "input [31:0] cfgstart,"
+            },
+            {
+              "line": 7,
+              "text": "input [15:0] cfgcp,cfgrp,cfgfp,cfgpp,"
+            },
+            {
+              "line": 9,
+              "text": "input [31:0] wubytes,"
+            },
+            {
+              "line": 54,
+              "text": "if(cfgp<2 || cfgp>17 || (cfgr!=5 && cfgr!=7) || cfgf<40 || cfgf>952 || cfgk==0 || cfgperiod==0 || cfgperiod>68 || cfgphi>=cfgperiod || cfgcp>=cfgp || cfgrp>=cfgr || cfgfp>=cfgf || cfgpp>=cfgperiod)fault=1;"
+            },
+            {
+              "line": 122,
+              "text": "if(tick>=32'h7ffffffe || nextid>=32'h7ffffffe)fault=fault|64;"
+            }
+          ]
+        },
+        "portfolio_P": [
+          7,
+          14,
+          21,
+          28
+        ],
+        "portfolio_g": 28,
+        "guards": {
+          "line_count": 4,
+          "line_IDs": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "tags": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "FIFO": 8,
+          "phase_bits": 16,
+          "count_bits": 16,
+          "byte_bits": 8,
+          "tick_ID_bits": 32,
+          "tick_ID_exclusive": 2147483646,
+          "K_min": 1,
+          "K_max": 65535,
+          "P_min": 1,
+          "P_max": 68,
+          "strict_WU": "t>initial_capture_cutpoint",
+          "epoch": "fixed clocks/source/no refill, unrelated invalidation, reset or retuning inside run"
+        },
+        "lines": [
+          {
+            "owner": 0,
+            "initial_capture_cutpoint": 0,
+            "J": 1,
+            "A": 27,
+            "C0": [
+              15,
+              43
+            ],
+            "completion_domain": true,
+            "prefix": [
+              [
+                0,
+                1,
+                42
+              ]
+            ],
+            "prefix_crosses_entry": [
+              true
+            ]
+          },
+          {
+            "owner": 1,
+            "initial_capture_cutpoint": 7,
+            "J": 1,
+            "A": 27,
+            "C0": [
+              22,
+              50
+            ],
+            "completion_domain": true,
+            "prefix": [
+              [
+                7,
+                8,
+                49
+              ]
+            ],
+            "prefix_crosses_entry": [
+              true
+            ]
+          },
+          {
+            "owner": 2,
+            "initial_capture_cutpoint": 14,
+            "J": 1,
+            "A": 27,
+            "C0": [
+              1,
+              29
+            ],
+            "completion_domain": true,
+            "prefix": [
+              [
+                14,
+                15,
+                56
+              ]
+            ],
+            "prefix_crosses_entry": [
+              true
+            ]
+          },
+          {
+            "owner": 3,
+            "initial_capture_cutpoint": 21,
+            "J": 1,
+            "A": 27,
+            "C0": [
+              8,
+              36
+            ],
+            "completion_domain": true,
+            "prefix": [
+              [
+                21,
+                22,
+                63
+              ]
+            ],
+            "prefix_crosses_entry": [
+              true
+            ]
+          }
+        ]
+      },
+      "forms": {
+        "0": [
+          [
+            56,
+            [
+              [
+                42,
+                28
+              ],
+              [
+                14,
+                28
+              ]
+            ]
+          ],
+          [
+            56,
+            [
+              [
+                49,
+                28
+              ],
+              [
+                21,
+                28
+              ]
+            ]
+          ],
+          [
+            56,
+            [
+              [
+                0,
+                28
+              ],
+              [
+                28,
+                28
+              ]
+            ]
+          ],
+          [
+            56,
+            [
+              [
+                7,
+                28
+              ],
+              [
+                35,
+                28
+              ]
+            ]
+          ]
+        ],
+        "1": [
+          [
+            56,
+            [
+              [
+                14,
+                28
+              ],
+              [
+                42,
+                28
+              ]
+            ]
+          ],
+          [
+            56,
+            [
+              [
+                21,
+                28
+              ],
+              [
+                49,
+                28
+              ]
+            ]
+          ],
+          [
+            56,
+            [
+              [
+                0,
+                28
+              ],
+              [
+                28,
+                28
+              ]
+            ]
+          ],
+          [
+            56,
+            [
+              [
+                7,
+                28
+              ],
+              [
+                35,
+                28
+              ]
+            ]
+          ]
+        ],
+        "2": [
+          [
+            56,
+            [
+              [
+                14,
+                28
+              ],
+              [
+                42,
+                28
+              ]
+            ]
+          ],
+          [
+            56,
+            [
+              [
+                21,
+                28
+              ],
+              [
+                49,
+                28
+              ]
+            ]
+          ],
+          [
+            56,
+            [
+              [
+                0,
+                28
+              ],
+              [
+                28,
+                28
+              ]
+            ]
+          ],
+          [
+            56,
+            [
+              [
+                7,
+                28
+              ],
+              [
+                35,
+                28
+              ]
+            ]
+          ]
+        ],
+        "3": [
+          [
+            28,
+            [
+              [
+                14,
+                28
+              ]
+            ]
+          ],
+          [
+            28,
+            [
+              [
+                21,
+                28
+              ]
+            ]
+          ],
+          [
+            28,
+            [
+              [
+                0,
+                28
+              ]
+            ]
+          ],
+          [
+            28,
+            [
+              [
+                7,
+                28
+              ]
+            ]
+          ]
+        ],
+        "4": [
+          [
+            56,
+            [
+              [
+                42,
+                43,
+                70
+              ],
+              [
+                70,
+                71,
+                98
+              ]
+            ]
+          ],
+          [
+            56,
+            [
+              [
+                49,
+                50,
+                77
+              ],
+              [
+                77,
+                78,
+                105
+              ]
+            ]
+          ],
+          [
+            56,
+            [
+              [
+                56,
+                57,
+                84
+              ],
+              [
+                84,
+                85,
+                112
+              ]
+            ]
+          ],
+          [
+            56,
+            [
+              [
+                63,
+                64,
+                91
+              ],
+              [
+                91,
+                92,
+                119
+              ]
+            ]
+          ]
+        ],
+        "5": [
+          [
+            28,
+            [
+              -15,
+              -14,
+              -13,
+              -12,
+              -11,
+              -10,
+              -9,
+              -8,
+              -7,
+              -6,
+              -5,
+              -4,
+              -3,
+              -2,
+              -1,
+              -28,
+              -27,
+              -26,
+              -25,
+              -24,
+              -23,
+              -22,
+              -21,
+              -20,
+              -19,
+              -18,
+              -17,
+              -16
+            ]
+          ],
+          [
+            28,
+            [
+              -22,
+              -21,
+              -20,
+              -19,
+              -18,
+              -17,
+              -16,
+              -15,
+              -14,
+              -13,
+              -12,
+              -11,
+              -10,
+              -9,
+              -8,
+              -7,
+              -6,
+              -5,
+              -4,
+              -3,
+              -2,
+              -1,
+              -28,
+              -27,
+              -26,
+              -25,
+              -24,
+              -23
+            ]
+          ],
+          [
+            28,
+            [
+              -1,
+              -28,
+              -27,
+              -26,
+              -25,
+              -24,
+              -23,
+              -22,
+              -21,
+              -20,
+              -19,
+              -18,
+              -17,
+              -16,
+              -15,
+              -14,
+              -13,
+              -12,
+              -11,
+              -10,
+              -9,
+              -8,
+              -7,
+              -6,
+              -5,
+              -4,
+              -3,
+              -2
+            ]
+          ],
+          [
+            28,
+            [
+              -8,
+              -7,
+              -6,
+              -5,
+              -4,
+              -3,
+              -2,
+              -1,
+              -28,
+              -27,
+              -26,
+              -25,
+              -24,
+              -23,
+              -22,
+              -21,
+              -20,
+              -19,
+              -18,
+              -17,
+              -16,
+              -15,
+              -14,
+              -13,
+              -12,
+              -11,
+              -10,
+              -9
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "producer": "R06-matched-calendar-reference",
+        "schema": 1,
+        "proof": 1,
+        "case": 8,
+        "configuration": {
+          "p": 11,
+          "r": 5,
+          "F": 440
+        },
+        "period": 440,
+        "entry": 0,
+        "repeat": 440,
+        "entry_state": {
+          "before_tick": 0,
+          "before_cp": 0,
+          "before_rp": 0,
+          "before_fp": 0,
+          "before_pp": 0,
+          "before_nextid": 1,
+          "before_qlen": 0,
+          "before_qowners": 0,
+          "before_qid0": 0,
+          "before_qid1": 0,
+          "before_qid2": 0,
+          "before_qid3": 0,
+          "before_qid4": 0,
+          "before_qid5": 0,
+          "before_qid6": 0,
+          "before_qid7": 0,
+          "before_R0v": 0,
+          "before_R0owner": 0,
+          "before_R0id": 0,
+          "before_R0byte": 0,
+          "before_R1v": 0,
+          "before_R1owner": 0,
+          "before_R1id": 0,
+          "before_R1byte": 0,
+          "before_outstanding": 0,
+          "before_valid": 15,
+          "before_enabled": 0,
+          "before_bytes": 0,
+          "before_count0": 0,
+          "before_count1": 0,
+          "before_count2": 0,
+          "before_count3": 0,
+          "before_failed": 0,
+          "before_fault": 0
+        },
+        "normalized_entry_key": {
+          "phases": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "live_queue": [],
+          "R0": null,
+          "R1": null,
+          "outstanding": 0,
+          "valid": 15,
+          "enabled": 0,
+          "bytes": 0,
+          "counts": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "failed": 0,
+          "fault": 0
+        },
+        "ID_translation": 8,
+        "original_empty_frame_gate": "PASS",
+        "full_key_extension": "VALIDATED_FULL_KEY_CYCLE",
+        "bindings": {
+          "source": "0504cf3aae99e6113292627d9af74c2a717b1ea01736ac68e5669fe0721704d7",
+          "receiver": "a787f08e1ed0f4e284d11f436f371632358c85fcedcc00586394d8967a69e987",
+          "relation": "055f29ab14212cfb2ce812ae6b98536061f46ca7b95f2a3f658fcc7640d70773",
+          "epoch": "0f376f470c0b360600e03fc18bd9e7b8010cf98df4ea0608b4eac64767c6c7cd"
+        },
+        "source_evidence": {
+          "producer_control": {
+            "sha256": "02cf468a53f3a35626692f0cfb94db93bf1a27fb9f81a6aeaa59f3cff59081c8",
+            "physical_range": [
+              0,
+              1760
+            ]
+          },
+          "independent_control": {
+            "sha256": "6f3aa07d9d73340b44dcde1d3ce79d525b9a772df15f9d373f886d2969e5ec9c",
+            "physical_range": [
+              0,
+              2200
+            ]
+          },
+          "validated_recurrence_range": [
+            0,
+            1320
+          ],
+          "guard_receiver_sha256": "a787f08e1ed0f4e284d11f436f371632358c85fcedcc00586394d8967a69e987",
+          "exact_source_lines": [
+            {
+              "line": 5,
+              "text": "input [15:0] cfgp,cfgr,cfgf,cfgk,cfgperiod,cfgphi,"
+            },
+            {
+              "line": 6,
+              "text": "input [31:0] cfgstart,"
+            },
+            {
+              "line": 7,
+              "text": "input [15:0] cfgcp,cfgrp,cfgfp,cfgpp,"
+            },
+            {
+              "line": 9,
+              "text": "input [31:0] wubytes,"
+            },
+            {
+              "line": 54,
+              "text": "if(cfgp<2 || cfgp>17 || (cfgr!=5 && cfgr!=7) || cfgf<40 || cfgf>952 || cfgk==0 || cfgperiod==0 || cfgperiod>68 || cfgphi>=cfgperiod || cfgcp>=cfgp || cfgrp>=cfgr || cfgfp>=cfgf || cfgpp>=cfgperiod)fault=1;"
+            },
+            {
+              "line": 122,
+              "text": "if(tick>=32'h7ffffffe || nextid>=32'h7ffffffe)fault=fault|64;"
+            }
+          ]
+        },
+        "portfolio_P": [
+          11,
+          22,
+          33,
+          44
+        ],
+        "portfolio_g": 44,
+        "guards": {
+          "line_count": 4,
+          "line_IDs": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "tags": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "FIFO": 8,
+          "phase_bits": 16,
+          "count_bits": 16,
+          "byte_bits": 8,
+          "tick_ID_bits": 32,
+          "tick_ID_exclusive": 2147483646,
+          "K_min": 1,
+          "K_max": 65535,
+          "P_min": 1,
+          "P_max": 68,
+          "strict_WU": "t>initial_capture_cutpoint",
+          "epoch": "fixed clocks/source/no refill, unrelated invalidation, reset or retuning inside run"
+        },
+        "lines": [
+          {
+            "owner": 0,
+            "initial_capture_cutpoint": 0,
+            "J": 2,
+            "A": 394,
+            "C0": [
+              1,
+              46
+            ],
+            "completion_domain": true,
+            "prefix": [],
+            "prefix_crosses_entry": []
+          },
+          {
+            "owner": 1,
+            "initial_capture_cutpoint": 11,
+            "J": 1,
+            "A": 395,
+            "C0": [
+              12,
+              56
+            ],
+            "completion_domain": true,
+            "prefix": [],
+            "prefix_crosses_entry": []
+          },
+          {
+            "owner": 2,
+            "initial_capture_cutpoint": 22,
+            "J": 4,
+            "A": 395,
+            "C0": [
+              26,
+              67
+            ],
+            "completion_domain": true,
+            "prefix": [],
+            "prefix_crosses_entry": []
+          },
+          {
+            "owner": 3,
+            "initial_capture_cutpoint": 33,
+            "J": 4,
+            "A": 392,
+            "C0": [
+              36,
+              81
+            ],
+            "completion_domain": true,
+            "prefix": [],
+            "prefix_crosses_entry": []
+          }
+        ]
+      },
+      "forms": {
+        "0": [
+          [
+            440,
+            [
+              [
+                0,
+                44
+              ],
+              [
+                44,
+                396
+              ]
+            ]
+          ],
+          [
+            440,
+            [
+              [
+                11,
+                44
+              ],
+              [
+                55,
+                396
+              ]
+            ]
+          ],
+          [
+            440,
+            [
+              [
+                22,
+                44
+              ],
+              [
+                66,
+                396
+              ]
+            ]
+          ],
+          [
+            440,
+            [
+              [
+                33,
+                44
+              ],
+              [
+                77,
+                396
+              ]
+            ]
+          ]
+        ],
+        "1": [
+          [
+            440,
+            [
+              [
+                0,
+                44
+              ],
+              [
+                44,
+                396
+              ]
+            ]
+          ],
+          [
+            440,
+            [
+              [
+                11,
+                44
+              ],
+              [
+                55,
+                396
+              ]
+            ]
+          ],
+          [
+            440,
+            [
+              [
+                22,
+                44
+              ],
+              [
+                66,
+                396
+              ]
+            ]
+          ],
+          [
+            440,
+            [
+              [
+                33,
+                44
+              ],
+              [
+                77,
+                396
+              ]
+            ]
+          ]
+        ],
+        "2": [
+          [
+            440,
+            [
+              [
+                0,
+                44
+              ],
+              [
+                44,
+                396
+              ]
+            ]
+          ],
+          [
+            440,
+            [
+              [
+                11,
+                44
+              ],
+              [
+                55,
+                396
+              ]
+            ]
+          ],
+          [
+            440,
+            [
+              [
+                22,
+                44
+              ],
+              [
+                66,
+                396
+              ]
+            ]
+          ],
+          [
+            440,
+            [
+              [
+                33,
+                44
+              ],
+              [
+                77,
+                396
+              ]
+            ]
+          ]
+        ],
+        "3": [
+          [
+            44,
+            [
+              [
+                0,
+                396
+              ]
+            ]
+          ],
+          [
+            44,
+            [
+              [
+                11,
+                396
+              ]
+            ]
+          ],
+          [
+            44,
+            [
+              [
+                22,
+                396
+              ]
+            ]
+          ],
+          [
+            44,
+            [
+              [
+                33,
+                396
+              ]
+            ]
+          ]
+        ],
+        "4": [
+          [
+            440,
+            [
+              [
+                0,
+                1,
+                44
+              ],
+              [
+                44,
+                46,
+                440
+              ]
+            ]
+          ],
+          [
+            440,
+            [
+              [
+                11,
+                12,
+                55
+              ],
+              [
+                55,
+                56,
+                451
+              ]
+            ]
+          ],
+          [
+            440,
+            [
+              [
+                22,
+                26,
+                66
+              ],
+              [
+                66,
+                67,
+                462
+              ]
+            ]
+          ],
+          [
+            440,
+            [
+              [
+                33,
+                36,
+                77
+              ],
+              [
+                77,
+                81,
+                473
+              ]
+            ]
+          ]
+        ],
+        "5": [
+          [
+            44,
+            [
+              -353,
+              -396,
+              -395,
+              -394,
+              -393,
+              -392,
+              -391,
+              -390,
+              -389,
+              -388,
+              -387,
+              -386,
+              -385,
+              -384,
+              -383,
+              -382,
+              -381,
+              -380,
+              -379,
+              -378,
+              -377,
+              -376,
+              -375,
+              -374,
+              -373,
+              -372,
+              -371,
+              -370,
+              -369,
+              -368,
+              -367,
+              -366,
+              -365,
+              -364,
+              -363,
+              -362,
+              -361,
+              -360,
+              -359,
+              -358,
+              -357,
+              -356,
+              -355,
+              -354
+            ]
+          ],
+          [
+            44,
+            [
+              -364,
+              -363,
+              -362,
+              -361,
+              -360,
+              -359,
+              -358,
+              -357,
+              -356,
+              -355,
+              -354,
+              -353,
+              -396,
+              -395,
+              -394,
+              -393,
+              -392,
+              -391,
+              -390,
+              -389,
+              -388,
+              -387,
+              -386,
+              -385,
+              -384,
+              -383,
+              -382,
+              -381,
+              -380,
+              -379,
+              -378,
+              -377,
+              -376,
+              -375,
+              -374,
+              -373,
+              -372,
+              -371,
+              -370,
+              -369,
+              -368,
+              -367,
+              -366,
+              -365
+            ]
+          ],
+          [
+            44,
+            [
+              -375,
+              -374,
+              -373,
+              -372,
+              -371,
+              -370,
+              -369,
+              -368,
+              -367,
+              -366,
+              -365,
+              -364,
+              -363,
+              -362,
+              -361,
+              -360,
+              -359,
+              -358,
+              -357,
+              -356,
+              -355,
+              -354,
+              -353,
+              -396,
+              -395,
+              -394,
+              -393,
+              -392,
+              -391,
+              -390,
+              -389,
+              -388,
+              -387,
+              -386,
+              -385,
+              -384,
+              -383,
+              -382,
+              -381,
+              -380,
+              -379,
+              -378,
+              -377,
+              -376
+            ]
+          ],
+          [
+            44,
+            [
+              -386,
+              -385,
+              -384,
+              -383,
+              -382,
+              -381,
+              -380,
+              -379,
+              -378,
+              -377,
+              -376,
+              -375,
+              -374,
+              -373,
+              -372,
+              -371,
+              -370,
+              -369,
+              -368,
+              -367,
+              -366,
+              -365,
+              -364,
+              -363,
+              -362,
+              -361,
+              -360,
+              -359,
+              -358,
+              -357,
+              -356,
+              -355,
+              -354,
+              -353,
+              -396,
+              -395,
+              -394,
+              -393,
+              -392,
+              -391,
+              -390,
+              -389,
+              -388,
+              -387
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "producer": "R06-matched-calendar-reference",
+        "schema": 1,
+        "proof": 1,
+        "case": 9,
+        "configuration": {
+          "p": 11,
+          "r": 7,
+          "F": 616
+        },
+        "period": 616,
+        "entry": 0,
+        "repeat": 616,
+        "entry_state": {
+          "before_tick": 0,
+          "before_cp": 0,
+          "before_rp": 0,
+          "before_fp": 0,
+          "before_pp": 0,
+          "before_nextid": 1,
+          "before_qlen": 0,
+          "before_qowners": 0,
+          "before_qid0": 0,
+          "before_qid1": 0,
+          "before_qid2": 0,
+          "before_qid3": 0,
+          "before_qid4": 0,
+          "before_qid5": 0,
+          "before_qid6": 0,
+          "before_qid7": 0,
+          "before_R0v": 0,
+          "before_R0owner": 0,
+          "before_R0id": 0,
+          "before_R0byte": 0,
+          "before_R1v": 0,
+          "before_R1owner": 0,
+          "before_R1id": 0,
+          "before_R1byte": 0,
+          "before_outstanding": 0,
+          "before_valid": 15,
+          "before_enabled": 0,
+          "before_bytes": 0,
+          "before_count0": 0,
+          "before_count1": 0,
+          "before_count2": 0,
+          "before_count3": 0,
+          "before_failed": 0,
+          "before_fault": 0
+        },
+        "normalized_entry_key": {
+          "phases": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "live_queue": [],
+          "R0": null,
+          "R1": null,
+          "outstanding": 0,
+          "valid": 15,
+          "enabled": 0,
+          "bytes": 0,
+          "counts": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "failed": 0,
+          "fault": 0
+        },
+        "ID_translation": 8,
+        "original_empty_frame_gate": "PASS",
+        "full_key_extension": "VALIDATED_FULL_KEY_CYCLE",
+        "bindings": {
+          "source": "0504cf3aae99e6113292627d9af74c2a717b1ea01736ac68e5669fe0721704d7",
+          "receiver": "a787f08e1ed0f4e284d11f436f371632358c85fcedcc00586394d8967a69e987",
+          "relation": "a88d480e49a0c6b9ca698cb10df1338af0a4df6c63a8aadf238049862d16f839",
+          "epoch": "ec6f1aac12d453bac257ade15fc8ffffa52819e73690f4fff03bd9559f546c4b"
+        },
+        "source_evidence": {
+          "producer_control": {
+            "sha256": "02cf468a53f3a35626692f0cfb94db93bf1a27fb9f81a6aeaa59f3cff59081c8",
+            "physical_range": [
+              0,
+              2464
+            ]
+          },
+          "independent_control": {
+            "sha256": "6f3aa07d9d73340b44dcde1d3ce79d525b9a772df15f9d373f886d2969e5ec9c",
+            "physical_range": [
+              0,
+              3080
+            ]
+          },
+          "validated_recurrence_range": [
+            0,
+            1848
+          ],
+          "guard_receiver_sha256": "a787f08e1ed0f4e284d11f436f371632358c85fcedcc00586394d8967a69e987",
+          "exact_source_lines": [
+            {
+              "line": 5,
+              "text": "input [15:0] cfgp,cfgr,cfgf,cfgk,cfgperiod,cfgphi,"
+            },
+            {
+              "line": 6,
+              "text": "input [31:0] cfgstart,"
+            },
+            {
+              "line": 7,
+              "text": "input [15:0] cfgcp,cfgrp,cfgfp,cfgpp,"
+            },
+            {
+              "line": 9,
+              "text": "input [31:0] wubytes,"
+            },
+            {
+              "line": 54,
+              "text": "if(cfgp<2 || cfgp>17 || (cfgr!=5 && cfgr!=7) || cfgf<40 || cfgf>952 || cfgk==0 || cfgperiod==0 || cfgperiod>68 || cfgphi>=cfgperiod || cfgcp>=cfgp || cfgrp>=cfgr || cfgfp>=cfgf || cfgpp>=cfgperiod)fault=1;"
+            },
+            {
+              "line": 122,
+              "text": "if(tick>=32'h7ffffffe || nextid>=32'h7ffffffe)fault=fault|64;"
+            }
+          ]
+        },
+        "portfolio_P": [
+          11,
+          22,
+          33,
+          44
+        ],
+        "portfolio_g": 44,
+        "guards": {
+          "line_count": 4,
+          "line_IDs": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "tags": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "FIFO": 8,
+          "phase_bits": 16,
+          "count_bits": 16,
+          "byte_bits": 8,
+          "tick_ID_bits": 32,
+          "tick_ID_exclusive": 2147483646,
+          "K_min": 1,
+          "K_max": 65535,
+          "P_min": 1,
+          "P_max": 68,
+          "strict_WU": "t>initial_capture_cutpoint",
+          "epoch": "fixed clocks/source/no refill, unrelated invalidation, reset or retuning inside run"
+        },
+        "lines": [
+          {
+            "owner": 0,
+            "initial_capture_cutpoint": 0,
+            "J": 6,
+            "A": 566,
+            "C0": [
+              1,
+              50
+            ],
+            "completion_domain": true,
+            "prefix": [],
+            "prefix_crosses_entry": []
+          },
+          {
+            "owner": 1,
+            "initial_capture_cutpoint": 11,
+            "J": 4,
+            "A": 570,
+            "C0": [
+              15,
+              57
+            ],
+            "completion_domain": true,
+            "prefix": [],
+            "prefix_crosses_entry": []
+          },
+          {
+            "owner": 2,
+            "initial_capture_cutpoint": 22,
+            "J": 5,
+            "A": 567,
+            "C0": [
+              23,
+              71
+            ],
+            "completion_domain": true,
+            "prefix": [],
+            "prefix_crosses_entry": []
+          },
+          {
+            "owner": 3,
+            "initial_capture_cutpoint": 33,
+            "J": 3,
+            "A": 571,
+            "C0": [
+              36,
+              78
+            ],
+            "completion_domain": true,
+            "prefix": [],
+            "prefix_crosses_entry": []
+          }
+        ]
+      },
+      "forms": {
+        "0": [
+          [
+            616,
+            [
+              [
+                0,
+                44
+              ],
+              [
+                44,
+                572
+              ]
+            ]
+          ],
+          [
+            616,
+            [
+              [
+                11,
+                44
+              ],
+              [
+                55,
+                572
+              ]
+            ]
+          ],
+          [
+            616,
+            [
+              [
+                22,
+                44
+              ],
+              [
+                66,
+                572
+              ]
+            ]
+          ],
+          [
+            616,
+            [
+              [
+                33,
+                44
+              ],
+              [
+                77,
+                572
+              ]
+            ]
+          ]
+        ],
+        "1": [
+          [
+            616,
+            [
+              [
+                0,
+                44
+              ],
+              [
+                44,
+                572
+              ]
+            ]
+          ],
+          [
+            616,
+            [
+              [
+                11,
+                44
+              ],
+              [
+                55,
+                572
+              ]
+            ]
+          ],
+          [
+            616,
+            [
+              [
+                22,
+                44
+              ],
+              [
+                66,
+                572
+              ]
+            ]
+          ],
+          [
+            616,
+            [
+              [
+                33,
+                44
+              ],
+              [
+                77,
+                572
+              ]
+            ]
+          ]
+        ],
+        "2": [
+          [
+            616,
+            [
+              [
+                0,
+                44
+              ],
+              [
+                44,
+                572
+              ]
+            ]
+          ],
+          [
+            616,
+            [
+              [
+                11,
+                44
+              ],
+              [
+                55,
+                572
+              ]
+            ]
+          ],
+          [
+            616,
+            [
+              [
+                22,
+                44
+              ],
+              [
+                66,
+                572
+              ]
+            ]
+          ],
+          [
+            616,
+            [
+              [
+                33,
+                44
+              ],
+              [
+                77,
+                572
+              ]
+            ]
+          ]
+        ],
+        "3": [
+          [
+            44,
+            [
+              [
+                0,
+                572
+              ]
+            ]
+          ],
+          [
+            44,
+            [
+              [
+                11,
+                572
+              ]
+            ]
+          ],
+          [
+            44,
+            [
+              [
+                22,
+                572
+              ]
+            ]
+          ],
+          [
+            44,
+            [
+              [
+                33,
+                572
+              ]
+            ]
+          ]
+        ],
+        "4": [
+          [
+            616,
+            [
+              [
+                0,
+                1,
+                44
+              ],
+              [
+                44,
+                50,
+                616
+              ]
+            ]
+          ],
+          [
+            616,
+            [
+              [
+                11,
+                15,
+                55
+              ],
+              [
+                55,
+                57,
+                627
+              ]
+            ]
+          ],
+          [
+            616,
+            [
+              [
+                22,
+                23,
+                66
+              ],
+              [
+                66,
+                71,
+                638
+              ]
+            ]
+          ],
+          [
+            616,
+            [
+              [
+                33,
+                36,
+                77
+              ],
+              [
+                77,
+                78,
+                649
+              ]
+            ]
+          ]
+        ],
+        "5": [
+          [
+            44,
+            [
+              -529,
+              -572,
+              -571,
+              -570,
+              -569,
+              -568,
+              -567,
+              -566,
+              -565,
+              -564,
+              -563,
+              -562,
+              -561,
+              -560,
+              -559,
+              -558,
+              -557,
+              -556,
+              -555,
+              -554,
+              -553,
+              -552,
+              -551,
+              -550,
+              -549,
+              -548,
+              -547,
+              -546,
+              -545,
+              -544,
+              -543,
+              -542,
+              -541,
+              -540,
+              -539,
+              -538,
+              -537,
+              -536,
+              -535,
+              -534,
+              -533,
+              -532,
+              -531,
+              -530
+            ]
+          ],
+          [
+            44,
+            [
+              -540,
+              -539,
+              -538,
+              -537,
+              -536,
+              -535,
+              -534,
+              -533,
+              -532,
+              -531,
+              -530,
+              -529,
+              -572,
+              -571,
+              -570,
+              -569,
+              -568,
+              -567,
+              -566,
+              -565,
+              -564,
+              -563,
+              -562,
+              -561,
+              -560,
+              -559,
+              -558,
+              -557,
+              -556,
+              -555,
+              -554,
+              -553,
+              -552,
+              -551,
+              -550,
+              -549,
+              -548,
+              -547,
+              -546,
+              -545,
+              -544,
+              -543,
+              -542,
+              -541
+            ]
+          ],
+          [
+            44,
+            [
+              -551,
+              -550,
+              -549,
+              -548,
+              -547,
+              -546,
+              -545,
+              -544,
+              -543,
+              -542,
+              -541,
+              -540,
+              -539,
+              -538,
+              -537,
+              -536,
+              -535,
+              -534,
+              -533,
+              -532,
+              -531,
+              -530,
+              -529,
+              -572,
+              -571,
+              -570,
+              -569,
+              -568,
+              -567,
+              -566,
+              -565,
+              -564,
+              -563,
+              -562,
+              -561,
+              -560,
+              -559,
+              -558,
+              -557,
+              -556,
+              -555,
+              -554,
+              -553,
+              -552
+            ]
+          ],
+          [
+            44,
+            [
+              -562,
+              -561,
+              -560,
+              -559,
+              -558,
+              -557,
+              -556,
+              -555,
+              -554,
+              -553,
+              -552,
+              -551,
+              -550,
+              -549,
+              -548,
+              -547,
+              -546,
+              -545,
+              -544,
+              -543,
+              -542,
+              -541,
+              -540,
+              -539,
+              -538,
+              -537,
+              -536,
+              -535,
+              -534,
+              -533,
+              -532,
+              -531,
+              -530,
+              -529,
+              -572,
+              -571,
+              -570,
+              -569,
+              -568,
+              -567,
+              -566,
+              -565,
+              -564,
+              -563
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "producer": "R06-matched-calendar-reference",
+        "schema": 1,
+        "proof": 1,
+        "case": 10,
+        "configuration": {
+          "p": 17,
+          "r": 5,
+          "F": 680
+        },
+        "period": 680,
+        "entry": 0,
+        "repeat": 680,
+        "entry_state": {
+          "before_tick": 0,
+          "before_cp": 0,
+          "before_rp": 0,
+          "before_fp": 0,
+          "before_pp": 0,
+          "before_nextid": 1,
+          "before_qlen": 0,
+          "before_qowners": 0,
+          "before_qid0": 0,
+          "before_qid1": 0,
+          "before_qid2": 0,
+          "before_qid3": 0,
+          "before_qid4": 0,
+          "before_qid5": 0,
+          "before_qid6": 0,
+          "before_qid7": 0,
+          "before_R0v": 0,
+          "before_R0owner": 0,
+          "before_R0id": 0,
+          "before_R0byte": 0,
+          "before_R1v": 0,
+          "before_R1owner": 0,
+          "before_R1id": 0,
+          "before_R1byte": 0,
+          "before_outstanding": 0,
+          "before_valid": 15,
+          "before_enabled": 0,
+          "before_bytes": 0,
+          "before_count0": 0,
+          "before_count1": 0,
+          "before_count2": 0,
+          "before_count3": 0,
+          "before_failed": 0,
+          "before_fault": 0
+        },
+        "normalized_entry_key": {
+          "phases": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "live_queue": [],
+          "R0": null,
+          "R1": null,
+          "outstanding": 0,
+          "valid": 15,
+          "enabled": 0,
+          "bytes": 0,
+          "counts": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "failed": 0,
+          "fault": 0
+        },
+        "ID_translation": 8,
+        "original_empty_frame_gate": "PASS",
+        "full_key_extension": "VALIDATED_FULL_KEY_CYCLE",
+        "bindings": {
+          "source": "0504cf3aae99e6113292627d9af74c2a717b1ea01736ac68e5669fe0721704d7",
+          "receiver": "a787f08e1ed0f4e284d11f436f371632358c85fcedcc00586394d8967a69e987",
+          "relation": "c5a7ebaeb40343453fb8df9b16cba29c14db4e35c11ff305d645291ffe1ff5eb",
+          "epoch": "dfe400793ca97e4ce74180540904a204de6ab2edd4c0188e54006cdc3fa7a4a9"
+        },
+        "source_evidence": {
+          "producer_control": {
+            "sha256": "02cf468a53f3a35626692f0cfb94db93bf1a27fb9f81a6aeaa59f3cff59081c8",
+            "physical_range": [
+              0,
+              2720
+            ]
+          },
+          "independent_control": {
+            "sha256": "6f3aa07d9d73340b44dcde1d3ce79d525b9a772df15f9d373f886d2969e5ec9c",
+            "physical_range": [
+              0,
+              3400
+            ]
+          },
+          "validated_recurrence_range": [
+            0,
+            2040
+          ],
+          "guard_receiver_sha256": "a787f08e1ed0f4e284d11f436f371632358c85fcedcc00586394d8967a69e987",
+          "exact_source_lines": [
+            {
+              "line": 5,
+              "text": "input [15:0] cfgp,cfgr,cfgf,cfgk,cfgperiod,cfgphi,"
+            },
+            {
+              "line": 6,
+              "text": "input [31:0] cfgstart,"
+            },
+            {
+              "line": 7,
+              "text": "input [15:0] cfgcp,cfgrp,cfgfp,cfgpp,"
+            },
+            {
+              "line": 9,
+              "text": "input [31:0] wubytes,"
+            },
+            {
+              "line": 54,
+              "text": "if(cfgp<2 || cfgp>17 || (cfgr!=5 && cfgr!=7) || cfgf<40 || cfgf>952 || cfgk==0 || cfgperiod==0 || cfgperiod>68 || cfgphi>=cfgperiod || cfgcp>=cfgp || cfgrp>=cfgr || cfgfp>=cfgf || cfgpp>=cfgperiod)fault=1;"
+            },
+            {
+              "line": 122,
+              "text": "if(tick>=32'h7ffffffe || nextid>=32'h7ffffffe)fault=fault|64;"
+            }
+          ]
+        },
+        "portfolio_P": [
+          17,
+          34,
+          51,
+          68
+        ],
+        "portfolio_g": 68,
+        "guards": {
+          "line_count": 4,
+          "line_IDs": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "tags": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "FIFO": 8,
+          "phase_bits": 16,
+          "count_bits": 16,
+          "byte_bits": 8,
+          "tick_ID_bits": 32,
+          "tick_ID_exclusive": 2147483646,
+          "K_min": 1,
+          "K_max": 65535,
+          "P_min": 1,
+          "P_max": 68,
+          "strict_WU": "t>initial_capture_cutpoint",
+          "epoch": "fixed clocks/source/no refill, unrelated invalidation, reset or retuning inside run"
+        },
+        "lines": [
+          {
+            "owner": 0,
+            "initial_capture_cutpoint": 0,
+            "J": 3,
+            "A": 609,
+            "C0": [
+              1,
+              71
+            ],
+            "completion_domain": true,
+            "prefix": [],
+            "prefix_crosses_entry": []
+          },
+          {
+            "owner": 1,
+            "initial_capture_cutpoint": 17,
+            "J": 4,
+            "A": 611,
+            "C0": [
+              21,
+              86
+            ],
+            "completion_domain": true,
+            "prefix": [],
+            "prefix_crosses_entry": []
+          },
+          {
+            "owner": 2,
+            "initial_capture_cutpoint": 34,
+            "J": 4,
+            "A": 608,
+            "C0": [
+              36,
+              106
+            ],
+            "completion_domain": true,
+            "prefix": [],
+            "prefix_crosses_entry": []
+          },
+          {
+            "owner": 3,
+            "initial_capture_cutpoint": 51,
+            "J": 2,
+            "A": 610,
+            "C0": [
+              52,
+              121
+            ],
+            "completion_domain": true,
+            "prefix": [],
+            "prefix_crosses_entry": []
+          }
+        ]
+      },
+      "forms": {
+        "0": [
+          [
+            680,
+            [
+              [
+                0,
+                68
+              ],
+              [
+                68,
+                612
+              ]
+            ]
+          ],
+          [
+            680,
+            [
+              [
+                17,
+                68
+              ],
+              [
+                85,
+                612
+              ]
+            ]
+          ],
+          [
+            680,
+            [
+              [
+                34,
+                68
+              ],
+              [
+                102,
+                612
+              ]
+            ]
+          ],
+          [
+            680,
+            [
+              [
+                51,
+                68
+              ],
+              [
+                119,
+                612
+              ]
+            ]
+          ]
+        ],
+        "1": [
+          [
+            680,
+            [
+              [
+                0,
+                68
+              ],
+              [
+                68,
+                612
+              ]
+            ]
+          ],
+          [
+            680,
+            [
+              [
+                17,
+                68
+              ],
+              [
+                85,
+                612
+              ]
+            ]
+          ],
+          [
+            680,
+            [
+              [
+                34,
+                68
+              ],
+              [
+                102,
+                612
+              ]
+            ]
+          ],
+          [
+            680,
+            [
+              [
+                51,
+                68
+              ],
+              [
+                119,
+                612
+              ]
+            ]
+          ]
+        ],
+        "2": [
+          [
+            680,
+            [
+              [
+                0,
+                68
+              ],
+              [
+                68,
+                612
+              ]
+            ]
+          ],
+          [
+            680,
+            [
+              [
+                17,
+                68
+              ],
+              [
+                85,
+                612
+              ]
+            ]
+          ],
+          [
+            680,
+            [
+              [
+                34,
+                68
+              ],
+              [
+                102,
+                612
+              ]
+            ]
+          ],
+          [
+            680,
+            [
+              [
+                51,
+                68
+              ],
+              [
+                119,
+                612
+              ]
+            ]
+          ]
+        ],
+        "3": [
+          [
+            68,
+            [
+              [
+                0,
+                612
+              ]
+            ]
+          ],
+          [
+            68,
+            [
+              [
+                17,
+                612
+              ]
+            ]
+          ],
+          [
+            68,
+            [
+              [
+                34,
+                612
+              ]
+            ]
+          ],
+          [
+            68,
+            [
+              [
+                51,
+                612
+              ]
+            ]
+          ]
+        ],
+        "4": [
+          [
+            680,
+            [
+              [
+                0,
+                1,
+                68
+              ],
+              [
+                68,
+                71,
+                680
+              ]
+            ]
+          ],
+          [
+            680,
+            [
+              [
+                17,
+                21,
+                85
+              ],
+              [
+                85,
+                86,
+                697
+              ]
+            ]
+          ],
+          [
+            680,
+            [
+              [
+                34,
+                36,
+                102
+              ],
+              [
+                102,
+                106,
+                714
+              ]
+            ]
+          ],
+          [
+            680,
+            [
+              [
+                51,
+                52,
+                119
+              ],
+              [
+                119,
+                121,
+                731
+              ]
+            ]
+          ]
+        ],
+        "5": [
+          [
+            68,
+            [
+              -545,
+              -612,
+              -611,
+              -610,
+              -609,
+              -608,
+              -607,
+              -606,
+              -605,
+              -604,
+              -603,
+              -602,
+              -601,
+              -600,
+              -599,
+              -598,
+              -597,
+              -596,
+              -595,
+              -594,
+              -593,
+              -592,
+              -591,
+              -590,
+              -589,
+              -588,
+              -587,
+              -586,
+              -585,
+              -584,
+              -583,
+              -582,
+              -581,
+              -580,
+              -579,
+              -578,
+              -577,
+              -576,
+              -575,
+              -574,
+              -573,
+              -572,
+              -571,
+              -570,
+              -569,
+              -568,
+              -567,
+              -566,
+              -565,
+              -564,
+              -563,
+              -562,
+              -561,
+              -560,
+              -559,
+              -558,
+              -557,
+              -556,
+              -555,
+              -554,
+              -553,
+              -552,
+              -551,
+              -550,
+              -549,
+              -548,
+              -547,
+              -546
+            ]
+          ],
+          [
+            68,
+            [
+              -562,
+              -561,
+              -560,
+              -559,
+              -558,
+              -557,
+              -556,
+              -555,
+              -554,
+              -553,
+              -552,
+              -551,
+              -550,
+              -549,
+              -548,
+              -547,
+              -546,
+              -545,
+              -612,
+              -611,
+              -610,
+              -609,
+              -608,
+              -607,
+              -606,
+              -605,
+              -604,
+              -603,
+              -602,
+              -601,
+              -600,
+              -599,
+              -598,
+              -597,
+              -596,
+              -595,
+              -594,
+              -593,
+              -592,
+              -591,
+              -590,
+              -589,
+              -588,
+              -587,
+              -586,
+              -585,
+              -584,
+              -583,
+              -582,
+              -581,
+              -580,
+              -579,
+              -578,
+              -577,
+              -576,
+              -575,
+              -574,
+              -573,
+              -572,
+              -571,
+              -570,
+              -569,
+              -568,
+              -567,
+              -566,
+              -565,
+              -564,
+              -563
+            ]
+          ],
+          [
+            68,
+            [
+              -579,
+              -578,
+              -577,
+              -576,
+              -575,
+              -574,
+              -573,
+              -572,
+              -571,
+              -570,
+              -569,
+              -568,
+              -567,
+              -566,
+              -565,
+              -564,
+              -563,
+              -562,
+              -561,
+              -560,
+              -559,
+              -558,
+              -557,
+              -556,
+              -555,
+              -554,
+              -553,
+              -552,
+              -551,
+              -550,
+              -549,
+              -548,
+              -547,
+              -546,
+              -545,
+              -612,
+              -611,
+              -610,
+              -609,
+              -608,
+              -607,
+              -606,
+              -605,
+              -604,
+              -603,
+              -602,
+              -601,
+              -600,
+              -599,
+              -598,
+              -597,
+              -596,
+              -595,
+              -594,
+              -593,
+              -592,
+              -591,
+              -590,
+              -589,
+              -588,
+              -587,
+              -586,
+              -585,
+              -584,
+              -583,
+              -582,
+              -581,
+              -580
+            ]
+          ],
+          [
+            68,
+            [
+              -596,
+              -595,
+              -594,
+              -593,
+              -592,
+              -591,
+              -590,
+              -589,
+              -588,
+              -587,
+              -586,
+              -585,
+              -584,
+              -583,
+              -582,
+              -581,
+              -580,
+              -579,
+              -578,
+              -577,
+              -576,
+              -575,
+              -574,
+              -573,
+              -572,
+              -571,
+              -570,
+              -569,
+              -568,
+              -567,
+              -566,
+              -565,
+              -564,
+              -563,
+              -562,
+              -561,
+              -560,
+              -559,
+              -558,
+              -557,
+              -556,
+              -555,
+              -554,
+              -553,
+              -552,
+              -551,
+              -550,
+              -549,
+              -548,
+              -547,
+              -546,
+              -545,
+              -612,
+              -611,
+              -610,
+              -609,
+              -608,
+              -607,
+              -606,
+              -605,
+              -604,
+              -603,
+              -602,
+              -601,
+              -600,
+              -599,
+              -598,
+              -597
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "producer": "R06-matched-calendar-reference",
+        "schema": 1,
+        "proof": 1,
+        "case": 11,
+        "configuration": {
+          "p": 17,
+          "r": 7,
+          "F": 952
+        },
+        "period": 952,
+        "entry": 0,
+        "repeat": 952,
+        "entry_state": {
+          "before_tick": 0,
+          "before_cp": 0,
+          "before_rp": 0,
+          "before_fp": 0,
+          "before_pp": 0,
+          "before_nextid": 1,
+          "before_qlen": 0,
+          "before_qowners": 0,
+          "before_qid0": 0,
+          "before_qid1": 0,
+          "before_qid2": 0,
+          "before_qid3": 0,
+          "before_qid4": 0,
+          "before_qid5": 0,
+          "before_qid6": 0,
+          "before_qid7": 0,
+          "before_R0v": 0,
+          "before_R0owner": 0,
+          "before_R0id": 0,
+          "before_R0byte": 0,
+          "before_R1v": 0,
+          "before_R1owner": 0,
+          "before_R1id": 0,
+          "before_R1byte": 0,
+          "before_outstanding": 0,
+          "before_valid": 15,
+          "before_enabled": 0,
+          "before_bytes": 0,
+          "before_count0": 0,
+          "before_count1": 0,
+          "before_count2": 0,
+          "before_count3": 0,
+          "before_failed": 0,
+          "before_fault": 0
+        },
+        "normalized_entry_key": {
+          "phases": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "live_queue": [],
+          "R0": null,
+          "R1": null,
+          "outstanding": 0,
+          "valid": 15,
+          "enabled": 0,
+          "bytes": 0,
+          "counts": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "failed": 0,
+          "fault": 0
+        },
+        "ID_translation": 8,
+        "original_empty_frame_gate": "PASS",
+        "full_key_extension": "VALIDATED_FULL_KEY_CYCLE",
+        "bindings": {
+          "source": "0504cf3aae99e6113292627d9af74c2a717b1ea01736ac68e5669fe0721704d7",
+          "receiver": "a787f08e1ed0f4e284d11f436f371632358c85fcedcc00586394d8967a69e987",
+          "relation": "3f7d3659afab25749a29a99ec3a13633133e8a7fc4557bb0edd11e14e31eb5a8",
+          "epoch": "de2ab3ba60c28f8fead0738384debcea6ccd94d210566f62e767e1dc3c846897"
+        },
+        "source_evidence": {
+          "producer_control": {
+            "sha256": "02cf468a53f3a35626692f0cfb94db93bf1a27fb9f81a6aeaa59f3cff59081c8",
+            "physical_range": [
+              0,
+              3808
+            ]
+          },
+          "independent_control": {
+            "sha256": "6f3aa07d9d73340b44dcde1d3ce79d525b9a772df15f9d373f886d2969e5ec9c",
+            "physical_range": [
+              0,
+              4760
+            ]
+          },
+          "validated_recurrence_range": [
+            0,
+            2856
+          ],
+          "guard_receiver_sha256": "a787f08e1ed0f4e284d11f436f371632358c85fcedcc00586394d8967a69e987",
+          "exact_source_lines": [
+            {
+              "line": 5,
+              "text": "input [15:0] cfgp,cfgr,cfgf,cfgk,cfgperiod,cfgphi,"
+            },
+            {
+              "line": 6,
+              "text": "input [31:0] cfgstart,"
+            },
+            {
+              "line": 7,
+              "text": "input [15:0] cfgcp,cfgrp,cfgfp,cfgpp,"
+            },
+            {
+              "line": 9,
+              "text": "input [31:0] wubytes,"
+            },
+            {
+              "line": 54,
+              "text": "if(cfgp<2 || cfgp>17 || (cfgr!=5 && cfgr!=7) || cfgf<40 || cfgf>952 || cfgk==0 || cfgperiod==0 || cfgperiod>68 || cfgphi>=cfgperiod || cfgcp>=cfgp || cfgrp>=cfgr || cfgfp>=cfgf || cfgpp>=cfgperiod)fault=1;"
+            },
+            {
+              "line": 122,
+              "text": "if(tick>=32'h7ffffffe || nextid>=32'h7ffffffe)fault=fault|64;"
+            }
+          ]
+        },
+        "portfolio_P": [
+          17,
+          34,
+          51,
+          68
+        ],
+        "portfolio_g": 68,
+        "guards": {
+          "line_count": 4,
+          "line_IDs": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "tags": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "FIFO": 8,
+          "phase_bits": 16,
+          "count_bits": 16,
+          "byte_bits": 8,
+          "tick_ID_bits": 32,
+          "tick_ID_exclusive": 2147483646,
+          "K_min": 1,
+          "K_max": 65535,
+          "P_min": 1,
+          "P_max": 68,
+          "strict_WU": "t>initial_capture_cutpoint",
+          "epoch": "fixed clocks/source/no refill, unrelated invalidation, reset or retuning inside run"
+        },
+        "lines": [
+          {
+            "owner": 0,
+            "initial_capture_cutpoint": 0,
+            "J": 3,
+            "A": 881,
+            "C0": [
+              1,
+              71
+            ],
+            "completion_domain": true,
+            "prefix": [],
+            "prefix_crosses_entry": []
+          },
+          {
+            "owner": 1,
+            "initial_capture_cutpoint": 17,
+            "J": 5,
+            "A": 883,
+            "C0": [
+              22,
+              86
+            ],
+            "completion_domain": true,
+            "prefix": [],
+            "prefix_crosses_entry": []
+          },
+          {
+            "owner": 2,
+            "initial_capture_cutpoint": 34,
+            "J": 4,
+            "A": 880,
+            "C0": [
+              36,
+              106
+            ],
+            "completion_domain": true,
+            "prefix": [],
+            "prefix_crosses_entry": []
+          },
+          {
+            "owner": 3,
+            "initial_capture_cutpoint": 51,
+            "J": 6,
+            "A": 883,
+            "C0": [
+              57,
+              120
+            ],
+            "completion_domain": true,
+            "prefix": [],
+            "prefix_crosses_entry": []
+          }
+        ]
+      },
+      "forms": {
+        "0": [
+          [
+            952,
+            [
+              [
+                0,
+                68
+              ],
+              [
+                68,
+                884
+              ]
+            ]
+          ],
+          [
+            952,
+            [
+              [
+                17,
+                68
+              ],
+              [
+                85,
+                884
+              ]
+            ]
+          ],
+          [
+            952,
+            [
+              [
+                34,
+                68
+              ],
+              [
+                102,
+                884
+              ]
+            ]
+          ],
+          [
+            952,
+            [
+              [
+                51,
+                68
+              ],
+              [
+                119,
+                884
+              ]
+            ]
+          ]
+        ],
+        "1": [
+          [
+            952,
+            [
+              [
+                0,
+                68
+              ],
+              [
+                68,
+                884
+              ]
+            ]
+          ],
+          [
+            952,
+            [
+              [
+                17,
+                68
+              ],
+              [
+                85,
+                884
+              ]
+            ]
+          ],
+          [
+            952,
+            [
+              [
+                34,
+                68
+              ],
+              [
+                102,
+                884
+              ]
+            ]
+          ],
+          [
+            952,
+            [
+              [
+                51,
+                68
+              ],
+              [
+                119,
+                884
+              ]
+            ]
+          ]
+        ],
+        "2": [
+          [
+            952,
+            [
+              [
+                0,
+                68
+              ],
+              [
+                68,
+                884
+              ]
+            ]
+          ],
+          [
+            952,
+            [
+              [
+                17,
+                68
+              ],
+              [
+                85,
+                884
+              ]
+            ]
+          ],
+          [
+            952,
+            [
+              [
+                34,
+                68
+              ],
+              [
+                102,
+                884
+              ]
+            ]
+          ],
+          [
+            952,
+            [
+              [
+                51,
+                68
+              ],
+              [
+                119,
+                884
+              ]
+            ]
+          ]
+        ],
+        "3": [
+          [
+            68,
+            [
+              [
+                0,
+                884
+              ]
+            ]
+          ],
+          [
+            68,
+            [
+              [
+                17,
+                884
+              ]
+            ]
+          ],
+          [
+            68,
+            [
+              [
+                34,
+                884
+              ]
+            ]
+          ],
+          [
+            68,
+            [
+              [
+                51,
+                884
+              ]
+            ]
+          ]
+        ],
+        "4": [
+          [
+            952,
+            [
+              [
+                0,
+                1,
+                68
+              ],
+              [
+                68,
+                71,
+                952
+              ]
+            ]
+          ],
+          [
+            952,
+            [
+              [
+                17,
+                22,
+                85
+              ],
+              [
+                85,
+                86,
+                969
+              ]
+            ]
+          ],
+          [
+            952,
+            [
+              [
+                34,
+                36,
+                102
+              ],
+              [
+                102,
+                106,
+                986
+              ]
+            ]
+          ],
+          [
+            952,
+            [
+              [
+                51,
+                57,
+                119
+              ],
+              [
+                119,
+                120,
+                1003
+              ]
+            ]
+          ]
+        ],
+        "5": [
+          [
+            68,
+            [
+              -817,
+              -884,
+              -883,
+              -882,
+              -881,
+              -880,
+              -879,
+              -878,
+              -877,
+              -876,
+              -875,
+              -874,
+              -873,
+              -872,
+              -871,
+              -870,
+              -869,
+              -868,
+              -867,
+              -866,
+              -865,
+              -864,
+              -863,
+              -862,
+              -861,
+              -860,
+              -859,
+              -858,
+              -857,
+              -856,
+              -855,
+              -854,
+              -853,
+              -852,
+              -851,
+              -850,
+              -849,
+              -848,
+              -847,
+              -846,
+              -845,
+              -844,
+              -843,
+              -842,
+              -841,
+              -840,
+              -839,
+              -838,
+              -837,
+              -836,
+              -835,
+              -834,
+              -833,
+              -832,
+              -831,
+              -830,
+              -829,
+              -828,
+              -827,
+              -826,
+              -825,
+              -824,
+              -823,
+              -822,
+              -821,
+              -820,
+              -819,
+              -818
+            ]
+          ],
+          [
+            68,
+            [
+              -834,
+              -833,
+              -832,
+              -831,
+              -830,
+              -829,
+              -828,
+              -827,
+              -826,
+              -825,
+              -824,
+              -823,
+              -822,
+              -821,
+              -820,
+              -819,
+              -818,
+              -817,
+              -884,
+              -883,
+              -882,
+              -881,
+              -880,
+              -879,
+              -878,
+              -877,
+              -876,
+              -875,
+              -874,
+              -873,
+              -872,
+              -871,
+              -870,
+              -869,
+              -868,
+              -867,
+              -866,
+              -865,
+              -864,
+              -863,
+              -862,
+              -861,
+              -860,
+              -859,
+              -858,
+              -857,
+              -856,
+              -855,
+              -854,
+              -853,
+              -852,
+              -851,
+              -850,
+              -849,
+              -848,
+              -847,
+              -846,
+              -845,
+              -844,
+              -843,
+              -842,
+              -841,
+              -840,
+              -839,
+              -838,
+              -837,
+              -836,
+              -835
+            ]
+          ],
+          [
+            68,
+            [
+              -851,
+              -850,
+              -849,
+              -848,
+              -847,
+              -846,
+              -845,
+              -844,
+              -843,
+              -842,
+              -841,
+              -840,
+              -839,
+              -838,
+              -837,
+              -836,
+              -835,
+              -834,
+              -833,
+              -832,
+              -831,
+              -830,
+              -829,
+              -828,
+              -827,
+              -826,
+              -825,
+              -824,
+              -823,
+              -822,
+              -821,
+              -820,
+              -819,
+              -818,
+              -817,
+              -884,
+              -883,
+              -882,
+              -881,
+              -880,
+              -879,
+              -878,
+              -877,
+              -876,
+              -875,
+              -874,
+              -873,
+              -872,
+              -871,
+              -870,
+              -869,
+              -868,
+              -867,
+              -866,
+              -865,
+              -864,
+              -863,
+              -862,
+              -861,
+              -860,
+              -859,
+              -858,
+              -857,
+              -856,
+              -855,
+              -854,
+              -853,
+              -852
+            ]
+          ],
+          [
+            68,
+            [
+              -868,
+              -867,
+              -866,
+              -865,
+              -864,
+              -863,
+              -862,
+              -861,
+              -860,
+              -859,
+              -858,
+              -857,
+              -856,
+              -855,
+              -854,
+              -853,
+              -852,
+              -851,
+              -850,
+              -849,
+              -848,
+              -847,
+              -846,
+              -845,
+              -844,
+              -843,
+              -842,
+              -841,
+              -840,
+              -839,
+              -838,
+              -837,
+              -836,
+              -835,
+              -834,
+              -833,
+              -832,
+              -831,
+              -830,
+              -829,
+              -828,
+              -827,
+              -826,
+              -825,
+              -824,
+              -823,
+              -822,
+              -821,
+              -820,
+              -819,
+              -818,
+              -817,
+              -884,
+              -883,
+              -882,
+              -881,
+              -880,
+              -879,
+              -878,
+              -877,
+              -876,
+              -875,
+              -874,
+              -873,
+              -872,
+              -871,
+              -870,
+              -869
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

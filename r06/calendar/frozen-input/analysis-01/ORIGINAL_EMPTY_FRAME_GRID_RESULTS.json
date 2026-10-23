@@ -1,0 +1,20 @@
+{
+  "scope": "Only the11 controllers admitted by the original empty-frame gate. The fixed12th case is retained unknown, NOT folded into these known results. All12 extension results are separately in RESULTS.json.",
+  "known_counts": {
+    "policy_queries": 123616,
+    "service_positive": 16030,
+    "completion_positive": 15792,
+    "service_only": 238,
+    "original5_queries": 38630,
+    "original5_service_positive": 380,
+    "original5_completion_positive": 375
+  },
+  "unknown_cases": [
+    {
+      "case": 7,
+      "queries": 6496,
+      "original5_queries": 2030,
+      "status": "UNKNOWN_ORIGINAL_EMPTY_FRAME_GATE_FAILED"
+    }
+  ]
+}

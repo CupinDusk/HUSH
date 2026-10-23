@@ -1,0 +1,103 @@
+{
+  "status": "PASS_SEPARATE_INDEPENDENT_CYCLE_WITNESS_EXTENSION",
+  "queries": 6496,
+  "actual_executed_ticks": 346304,
+  "cycle_local_positive": 5498,
+  "cycle_local_negative": 998,
+  "full_admitted_unchanged": 5227,
+  "cycle_local_positive_but_prefix_rejects": 271,
+  "omitted_prehistory_NOT_executed": 453600,
+  "actual_counts": {
+    "ticks": 346304,
+    "captures": 49402,
+    "emissions": 43904,
+    "transfers": 49402,
+    "backpressure": 0,
+    "cancels": 5498,
+    "expiries": 998,
+    "WUs": 6496,
+    "heldExpired": 0,
+    "heldExpiredBlock": 0
+  },
+  "source_primary_unchanged": {
+    "analysis-01/policies.txt": "e3e237a7e306a76bb6c1b0e63a4c0c32bc8a44cbed8dec9c3352dd9ff754ef76",
+    "analysis-01/TUNING.json": "edc18afb9cff5ac8e7913209c6064bbdeca578d5d6c93bbebee15b5f74beacb9",
+    "analysis-01/ALL_PHASES.jsonl.gz": "28aa1e635c507bb234ae2141b3581e94f20962dda013b6505813c38cf81da36f",
+    "build-05-policy/POLICY_RESULTS.csv": "b21694d00a345cf8dda6a29992f32fb87d548220e35dfd4c403c545ceda8f78a",
+    "build-05-policy/POLICY_TICKS.delta": "81e302f4cf47988abe7981c64922cef37ccc0a77ab047c35adc6fe9cda93382d"
+  },
+  "streams": {
+    "INDEPENDENT_POLICY_RESULTS.csv": {
+      "independent_sha256": "054fded19827b7a57b67ebbae1eb8a47bccec102d6ad316091a4f925d74a6717",
+      "producer_sha256": "054fded19827b7a57b67ebbae1eb8a47bccec102d6ad316091a4f925d74a6717"
+    },
+    "INDEPENDENT_POLICY_TICKS.delta": {
+      "independent_sha256": "9f40bbd99295db605f04118831e8ff161ada8ab968eb8fbdbe2fa833313d52c7",
+      "producer_sha256": "9f40bbd99295db605f04118831e8ff161ada8ab968eb8fbdbe2fa833313d52c7"
+    }
+  },
+  "commands": [
+    {
+      "name": "yosys_version",
+      "argv": [
+        "C:\\Users\\ROG\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\ROG\\Documents\\ChatGPT\\\u8bba\u6587\\.tools\\run_iscas_yosys.py",
+        "-V"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "synthesis",
+      "argv": [
+        "C:\\Users\\ROG\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\ROG\\Documents\\ChatGPT\\\u8bba\u6587\\.tools\\run_iscas_yosys.py",
+        "-p",
+        "read_verilog receiver.v; hierarchy -check -top receiver; prep -top receiver; check -assert; write_cxxrtl netlist.cpp"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "compile",
+      "argv": [
+        "C:\\Users\\ROG\\Documents\\ChatGPT\\\u8bba\u6587\\.tools\\zig-0.14.1\\zig-x86_64-windows-0.14.1\\zig.exe",
+        "c++",
+        "-std=c++17",
+        "-O3",
+        "-UNDEBUG",
+        "-I",
+        "C:\\Users\\ROG\\Documents\\ChatGPT\\\u8bba\u6587\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include",
+        "-I",
+        "C:\\Users\\ROG\\Documents\\ChatGPT\\\u8bba\u6587\\.tools\\iscas-rtl-20261023\\yowasp_yosys\\share\\include\\backends\\cxxrtl\\runtime",
+        "independent_supplement.cpp",
+        "-o",
+        "check.exe"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "execution",
+      "argv": [
+        "C:\\Users\\ROG\\Documents\\ChatGPT\\\u8bba\u6587\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\cycle-supplement\\check.exe",
+        "policies",
+        "C:\\Users\\ROG\\Documents\\ChatGPT\\\u8bba\u6587\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\cycle-supplement",
+        "C:\\Users\\ROG\\Documents\\ChatGPT\\\u8bba\u6587\\outputs\\iscas-final-polish-20261022\\r05-analysis\\hush-calendar-rtl\\independent\\cycle-supplement\\policies.txt"
+      ],
+      "returncode": 0
+    }
+  ],
+  "generated_hashes": {
+    "receiver.v": "a787f08e1ed0f4e284d11f436f371632358c85fcedcc00586394d8967a69e987",
+    "independent_supplement.cpp": "f97e2c55a4aa14613c5d1e7a1c808a61da172da1de9a643a95b19a4b4016a3a6",
+    "netlist.cpp": "cc39f1a1ffa5629a697a01e077ccee012d3e31541743a6e837e3020ea6780ec6",
+    "check.exe": "34b91ac6172872ca9b925a16871d2b802bd5cac29306dee6122289a9e00d70e0",
+    "policies.txt": "7d2ad9e77ed9e7d9c1b185e5d84ac352ade9acd6a3c1d05149754c436847eae5",
+    "INDEPENDENT_INITIALIZATION.csv": "a0bfdd49b923d085d590f74b7f2194cf503f6c42fa3a3f33cc2fa158cfb79ef2"
+  },
+  "scope": "Cycle-only local tests do not grant full admission when the exact physical prefix rejects. Original 130112 full decisions and original p7/r7 empty-frame UNKNOWN remain unchanged."
+}

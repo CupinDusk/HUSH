@@ -1,0 +1,245 @@
+{
+  "status": "CORRECTNESS_ONLY_EXPECTED_HASHES_FIXED_BEFORE_ANY_TIMING",
+  "Q": [
+    1,
+    4,
+    16,
+    64,
+    256
+  ],
+  "source_sha256": "7390320d02483bc29254114da991dfcd4fd1c9932e11a152653bdc27b4a34ee5",
+  "codec_sha256": "e751d844c39056fc79717ca17cb395c2d009402bd7dc3f4905642056136c65f8",
+  "registry_sha256": "a718d3add5d5056779915c59c70f72c2eaec6f5d4526787536191878903c41e0",
+  "schedule_sha256": "9c0b81e6a4536b16b89d7f8755a75219f1d12904540e6c4ce432c3dc0b8afb50",
+  "cases": [
+    {
+      "case": 0,
+      "one_sweep_queries": 320,
+      "one_sweep_payload_bytes": 3755,
+      "expected_semantic_hashes": {
+        "1": "473cf10ed1cec7cfa295517ac5e726bcf55423d2b8aa3f178ebdf39f9a6c7686",
+        "4": "dd8903a7ca40d8d4c0e690f7f76691b0e596dc8aabf3b731a0f4b7afafd63394",
+        "16": "fabf8545c9a25291605b5f2a855e52838996d9a0761cd4993f0b953ef5a939dd",
+        "64": "a7c1828ab95ea8cf4e36cc89e4fc18405f9caa499e258457e7897ef2b78ac647",
+        "256": "593967a6e7d01e14e5a32022e322a74734da1306a0322e68ecb2563cf6bf9092"
+      },
+      "methods": [
+        "raw_relation",
+        "grouped_master",
+        "portfolio_reset",
+        "dense"
+      ],
+      "Q_hash_validation": "All four actual one-sweep implementations byte-equal; Q is exact deterministic payload repetition. No timings."
+    },
+    {
+      "case": 1,
+      "one_sweep_queries": 320,
+      "one_sweep_payload_bytes": 3869,
+      "expected_semantic_hashes": {
+        "1": "2a11876840ff88cbb3cd9e272c5271a3c8de63c67b9725b33e1fbe25def73af2",
+        "4": "f1e1d7b5a100c09510de17b0e53969fc4bdefd59630a8e032deeb28fa3da9251",
+        "16": "0f87a70bbaa0337a6be3fe07c541f99361aa9bf79886ef508d6dc649232e1da4",
+        "64": "3b49cbe95c52adadb71be0ef29af2ab28884ccd50ea6718776756624655da1cf",
+        "256": "cec32d366be41a5ce9043aa2f7d499971f13066d8937396ec6951418edd7816f"
+      },
+      "methods": [
+        "raw_relation",
+        "grouped_master",
+        "portfolio_reset",
+        "dense"
+      ],
+      "Q_hash_validation": "All four actual one-sweep implementations byte-equal; Q is exact deterministic payload repetition. No timings."
+    },
+    {
+      "case": 2,
+      "one_sweep_queries": 480,
+      "one_sweep_payload_bytes": 5956,
+      "expected_semantic_hashes": {
+        "1": "ca4dbedfb4948477cf051b67f6bb89330db609d7963fcfc7a6c0e910c5e33367",
+        "4": "943a77199d2be708fc188ed2b31a9afbda33f03430cf10dbd397a78c276b2e80",
+        "16": "38c9065eb748d50a73151993de435ef9fbc3d3eface19c62c9dbb74eae750166",
+        "64": "99e2182941b84f77afeadd2e9c02d8585d4397f9671aa43f23bda5b27702ea2d",
+        "256": "8f7c1d149a93647cea573e1d0da185e247c0b8962ed09d76d3aa75192081455d"
+      },
+      "methods": [
+        "raw_relation",
+        "grouped_master",
+        "portfolio_reset",
+        "dense"
+      ],
+      "Q_hash_validation": "All four actual one-sweep implementations byte-equal; Q is exact deterministic payload repetition. No timings."
+    },
+    {
+      "case": 3,
+      "one_sweep_queries": 480,
+      "one_sweep_payload_bytes": 6188,
+      "expected_semantic_hashes": {
+        "1": "22c6416e596d6515f294c5ca54296a82a39763ff5fd5c30a4d19d643f319ab57",
+        "4": "7e1fcc87f1647c2bf5390877fe2540235c58469477ebef14c66580c55d7d15b8",
+        "16": "1cfb669f81e1cd08c81e30707ed44b4c0493a88566075a1a2ebeeb7b26e6f2e2",
+        "64": "f9d590a3a73e17111cf26042e2d67f2550ed8cee4e13cad2a1eb2451aba98386",
+        "256": "45f3dc26ade5edf8b1728b7e10c708a9ca0c8e4a99e99d0cd0b430ce3c93b100"
+      },
+      "methods": [
+        "raw_relation",
+        "grouped_master",
+        "portfolio_reset",
+        "dense"
+      ],
+      "Q_hash_validation": "All four actual one-sweep implementations byte-equal; Q is exact deterministic payload repetition. No timings."
+    },
+    {
+      "case": 4,
+      "one_sweep_queries": 800,
+      "one_sweep_payload_bytes": 10501,
+      "expected_semantic_hashes": {
+        "1": "466e59773c482733899be68b24ecc9744ef35b6180e8d6d71b944e058a399357",
+        "4": "7a5b4c298426912059a2db3947541c4ef31cc81cbceefa8578ea71eda8b8a992",
+        "16": "2ee56b1372d93c5bd9e822ba767a9056de180a6fe68d78b4967cdb65160c45ab",
+        "64": "a61f37a14afe8c4e19b8f3556ed12a2a6c5116d00fc92ffe91e060089ff9a462",
+        "256": "7b7c58081cd5eb5c6b1d1df3cd046fc10d9fdb4aa3f281bb7e9e3a43a94f1cf7"
+      },
+      "methods": [
+        "raw_relation",
+        "grouped_master",
+        "portfolio_reset",
+        "dense"
+      ],
+      "Q_hash_validation": "All four actual one-sweep implementations byte-equal; Q is exact deterministic payload repetition. No timings."
+    },
+    {
+      "case": 5,
+      "one_sweep_queries": 800,
+      "one_sweep_payload_bytes": 11321,
+      "expected_semantic_hashes": {
+        "1": "ba5c44b979252e79d9131cf4e9f784889ab257c6c25307937c509441af3057a6",
+        "4": "311a381bd03544bf9fa10a7243da3e5d377e58afdd4fc1f2332b9a7dfc42d326",
+        "16": "54542d7c21441737fcd1274e86c66c0d1e8df558cafdfed9dd19755cd1e6643b",
+        "64": "f02ad04842d6697d7ab04c494fd0a3aeff45e96165bd839fc767c1e4e6001676",
+        "256": "1d9453d702fbc9dff5f9578d6be1127f376da7f562cc4e01ca0e1eeb9b1e0ff0"
+      },
+      "methods": [
+        "raw_relation",
+        "grouped_master",
+        "portfolio_reset",
+        "dense"
+      ],
+      "Q_hash_validation": "All four actual one-sweep implementations byte-equal; Q is exact deterministic payload repetition. No timings."
+    },
+    {
+      "case": 6,
+      "one_sweep_queries": 1120,
+      "one_sweep_payload_bytes": 15798,
+      "expected_semantic_hashes": {
+        "1": "f17e47f7a0975fc9a551f44193d7f51c83b10420ce4de7979593efd3dada73bc",
+        "4": "ed49c063e5eda689224f0ecf367a8a938a504dd8684966c82200d2c5ea135361",
+        "16": "dbbe32b2f95cf875c4d4d31088b0de5473e944cd99f7dfa60630f754c3b7ff6e",
+        "64": "53d533a555a6b4bc37d981d30978b39d61a7562fd42487dfe370b406e4e81a6f",
+        "256": "734f0f4dff5415b391815b96576e1eb749fb849b67fa80550ed7e9cd505c1ab3"
+      },
+      "methods": [
+        "raw_relation",
+        "grouped_master",
+        "portfolio_reset",
+        "dense"
+      ],
+      "Q_hash_validation": "All four actual one-sweep implementations byte-equal; Q is exact deterministic payload repetition. No timings."
+    },
+    {
+      "case": 7,
+      "one_sweep_queries": 1120,
+      "one_sweep_payload_bytes": 15031,
+      "expected_semantic_hashes": {
+        "1": "aaf24f50ea8a259f8ee381147d0e917048f22dc596829194fc658c01c4a5f758",
+        "4": "cb459e8433533d585a452c610cb8264d2dd4762a770baaba7f5dda8d58e02b43",
+        "16": "ec622f677cca26ff31a4e1a0c4e1c45ce9058bf17a0a6832cf08161140f69c44",
+        "64": "af07017e27c692327a026a4c8359001c3b4868776f71d6779ac290ab191f1ccd",
+        "256": "0d699bd26e465611d33d6f257499f39066ea8d2a0118c47771249cce67773eb9"
+      },
+      "methods": [
+        "raw_relation",
+        "grouped_master",
+        "portfolio_reset",
+        "dense"
+      ],
+      "Q_hash_validation": "All four actual one-sweep implementations byte-equal; Q is exact deterministic payload repetition. No timings."
+    },
+    {
+      "case": 8,
+      "one_sweep_queries": 1760,
+      "one_sweep_payload_bytes": 25564,
+      "expected_semantic_hashes": {
+        "1": "791f68fb2ff9cb6172d9ce4279a6bf0e0570944534089aa0d71e1029d029180e",
+        "4": "2a3a85bc823861e96ccb3949a0457e2918faa5611a7eea70cf4e7b238c351ad7",
+        "16": "be17cc1ad6cb4df52aeae8ee35815b2e45218b6ab0e95008501909a29d55ab22",
+        "64": "bcdbf330c5ac17b7c4f7f0e8e9ed326e84f5a062d5e4e53377d299c43809ca63",
+        "256": "2d0124435f9172d8fcec04e2bd9837bd019390cb587dc7e0eed1621cf32895ca"
+      },
+      "methods": [
+        "raw_relation",
+        "grouped_master",
+        "portfolio_reset",
+        "dense"
+      ],
+      "Q_hash_validation": "All four actual one-sweep implementations byte-equal; Q is exact deterministic payload repetition. No timings."
+    },
+    {
+      "case": 9,
+      "one_sweep_queries": 1760,
+      "one_sweep_payload_bytes": 26107,
+      "expected_semantic_hashes": {
+        "1": "c697c5b7ead7e057d6151b9f1086db89a7853a54106dd9296ce807c75bbb62b9",
+        "4": "d5846fb57165abc19fc1282cc03f357b1e88129feadc9ab608a3be39947a76b2",
+        "16": "0fda32b78891f1cb6affd6b12b106c303d7be87c795236c9a838e631d949aa12",
+        "64": "07630cf50626144e3bb4d4d071db1abe0f5e7dddca345cc0819dec31936c2413",
+        "256": "847d2b3ef5da302e6ae858894a280ba92edecc13130a009879704e0562f687f2"
+      },
+      "methods": [
+        "raw_relation",
+        "grouped_master",
+        "portfolio_reset",
+        "dense"
+      ],
+      "Q_hash_validation": "All four actual one-sweep implementations byte-equal; Q is exact deterministic payload repetition. No timings."
+    },
+    {
+      "case": 10,
+      "one_sweep_queries": 2720,
+      "one_sweep_payload_bytes": 40176,
+      "expected_semantic_hashes": {
+        "1": "ad7941bbcf0e7aabe710a04c480c3ca496f14ce411e3e3109d163d88030c6a19",
+        "4": "2beec8d0a76b68a9448c5cdfab1abcc33a78ccfbffd6444675eae1b5c1974486",
+        "16": "852639e58f4ca85e379b90f82cd2e8ff58c90890183b6fc69f1f37c1e3b4cbb9",
+        "64": "86bcb5ac0bd753ec90986ba50da5bf2fc97b4ed026b79e256dc09cd63a07676f",
+        "256": "e2087eacd928d6c4c13265f766426253aa16cfca74cc01a32837aa965fda3ff2"
+      },
+      "methods": [
+        "raw_relation",
+        "grouped_master",
+        "portfolio_reset",
+        "dense"
+      ],
+      "Q_hash_validation": "All four actual one-sweep implementations byte-equal; Q is exact deterministic payload repetition. No timings."
+    },
+    {
+      "case": 11,
+      "one_sweep_queries": 2720,
+      "one_sweep_payload_bytes": 40907,
+      "expected_semantic_hashes": {
+        "1": "bd11d45e9189dbdb294c5bfe7e26a16637ecde47afb4fbe140bbed175b362bee",
+        "4": "d69893c0c2cbaba81b002b90c50d9b8623adbe47baa62f31a95fe5f2d7f2481d",
+        "16": "ede198ab6f123c09e40e03fef7a4fe6d1ab0d79a0b3b6961068b3dddc3d193b6",
+        "64": "f1af27e60786a053ad9211a947253b0f6324a170ba2246bf548c07c511cfb6d4",
+        "256": "563d8c35e21eec23e18f02bc5d5db63026e4c00626f3db5558c2b436e81049ab"
+      },
+      "methods": [
+        "raw_relation",
+        "grouped_master",
+        "portfolio_reset",
+        "dense"
+      ],
+      "Q_hash_validation": "All four actual one-sweep implementations byte-equal; Q is exact deterministic payload repetition. No timings."
+    }
+  ],
+  "performance_collections": 0
+}

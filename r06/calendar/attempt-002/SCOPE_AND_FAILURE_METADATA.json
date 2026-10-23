@@ -1,0 +1,23 @@
+{
+  "source_role": "Own R05 calendar reference component",
+  "old_evidence_untouched": true,
+  "original_case7_empty_frame_grid_UNKNOWN": 6496,
+  "full_key_case7_entry": 37,
+  "full_key_case7_repeat": 93,
+  "new_RTL_ticks": 0,
+  "new_performance_timings": 0,
+  "omitted_prehistory_executed": false,
+  "admission_counts": {
+    "additional_service": 238,
+    "completion_admissions": 21019,
+    "service_admissions": 21257,
+    "all_grid_policies": 130112
+  },
+  "limitations": [
+    "No native HUSH/gem5/coherence/PPA/WCET/application measurement",
+    "Arbitrary-period fixed-K search beyond P68 is mathematical only and illegal for this receiver",
+    "Uncapped design proxy has elementary P1 optimum, not a new optimization algorithm",
+    "All ties are objective-bounded finite sets",
+    "The external expected registry is trusted input; untrusted digests authenticate nothing"
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "status": "PASS_ROOT_INDEPENDENT_RECORD_AND_OBSERVER_AUDIT",
+  "utc": "2026-10-23T01:11:16.368793+00:00",
+  "counts": {
+    "binary_records": 72,
+    "portfolio_policies": 14400,
+    "format_queries": 86400,
+    "explicit_lift_phases": 900,
+    "old_grid_policies": 130112,
+    "bounded_phases": 1036730,
+    "reset_inverse_profiles": 96
+  },
+  "cases": [
+    {
+      "case": 0,
+      "gstar": 8,
+      "period": 80,
+      "service_proxy": 43,
+      "completion_proxy": 43,
+      "P1_service_proxy": 40,
+      "P1_completion_proxy": 40,
+      "portfolio_bytes": 3292
+    },
+    {
+      "case": 1,
+      "gstar": 8,
+      "period": 112,
+      "service_proxy": 79,
+      "completion_proxy": 83,
+      "P1_service_proxy": 76,
+      "P1_completion_proxy": 76,
+      "portfolio_bytes": 3296
+    },
+    {
+      "case": 2,
+      "gstar": 12,
+      "period": 120,
+      "service_proxy": 83,
+      "completion_proxy": 83,
+      "P1_service_proxy": 78,
+      "P1_completion_proxy": 79,
+      "portfolio_bytes": 3297
+    },
+    {
+      "case": 3,
+      "gstar": 12,
+      "period": 168,
+      "service_proxy": 134,
+      "completion_proxy": 134,
+      "P1_service_proxy": 126,
+      "P1_completion_proxy": 126,
+      "portfolio_bytes": 3301
+    },
+    {
+      "case": 4,
+      "gstar": 20,
+      "period": 40,
+      "service_proxy": 38,
+      "completion_proxy": 38,
+      "P1_service_proxy": 35,
+      "P1_completion_proxy": 35,
+      "portfolio_bytes": 3300
+    },
+    {
+      "case": 5,
+      "gstar": 20,
+      "period": 280,
+      "service_proxy": 255,
+      "completion_proxy": 259,
+      "P1_service_proxy": 240,
+      "P1_completion_proxy": 244,
+      "portfolio_bytes": 3308
+    },
+    {
+      "case": 6,
+      "gstar": 28,
+      "period": 280,
+      "service_proxy": 254,
+      "completion_proxy": 255,
+      "P1_service_proxy": 238,
+      "P1_completion_proxy": 240,
+      "portfolio_bytes": 3309
+    },
+    {
+      "case": 7,
+      "gstar": 28,
+      "period": 56,
+      "service_proxy": 44,
+      "completion_proxy": 44,
+      "P1_service_proxy": 42,
+      "P1_completion_proxy": 42,
+      "portfolio_bytes": 3366
+    },
+    {
+      "case": 8,
+      "gstar": 44,
+      "period": 440,
+      "service_proxy": 419,
+      "completion_proxy": 428,
+      "P1_service_proxy": 396,
+      "P1_completion_proxy": 399,
+      "portfolio_bytes": 3313
+    },
+    {
+      "case": 9,
+      "gstar": 44,
+      "period": 616,
+      "service_proxy": 614,
+      "completion_proxy": 614,
+      "P1_service_proxy": 572,
+      "P1_completion_proxy": 574,
+      "portfolio_bytes": 3313
+    },
+    {
+      "case": 10,
+      "gstar": 68,
+      "period": 680,
+      "service_proxy": 639,
+      "completion_proxy": 655,
+      "P1_service_proxy": 612,
+      "P1_completion_proxy": 615,
+      "portfolio_bytes": 3316
+    },
+    {
+      "case": 11,
+      "gstar": 68,
+      "period": 952,
+      "service_proxy": 943,
+      "completion_proxy": 951,
+      "P1_service_proxy": 884,
+      "P1_completion_proxy": 889,
+      "portfolio_bytes": 3316
+    }
+  ],
+  "producer_code_imported": false,
+  "original_inputs_unchanged": true,
+  "new_RTL_runs": 0,
+  "new_timing_runs": 0,
+  "limitations": [
+    "Relies on already independently validated R05 relation extraction and source-state theorem.",
+    "Independent binary parsing and raw/lifted arithmetic, not optimized-Python parser security assurance.",
+    "Shared externally trusted registry must be valid; no authentication by self-contained hash.",
+    "No new performance, native HUSH/coherence/PPA/WCET or application validation."
+  ]
+}

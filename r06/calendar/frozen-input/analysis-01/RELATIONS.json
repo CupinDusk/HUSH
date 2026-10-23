@@ -1,0 +1,1841 @@
+{
+  "scope": "Original empty-frame gate retained separately from post-observation full-key extension. All triples extracted from generated RTL.",
+  "records": [
+    {
+      "case": 0,
+      "configuration": {
+        "p": 2,
+        "r": 5,
+        "F": 80
+      },
+      "original_empty_frame_gate": "PASS",
+      "full_key_extension": "VALIDATED_FULL_KEY_CYCLE",
+      "entry": 0,
+      "repeat": 80,
+      "period": 80,
+      "physical_validation_end_exclusive": 240,
+      "ID_translation": 8,
+      "cycle_entry_empty": true,
+      "entry_state": {
+        "before_tick": 0,
+        "before_cp": 0,
+        "before_rp": 0,
+        "before_fp": 0,
+        "before_pp": 0,
+        "before_nextid": 1,
+        "before_qlen": 0,
+        "before_qowners": 0,
+        "before_qid0": 0,
+        "before_qid1": 0,
+        "before_qid2": 0,
+        "before_qid3": 0,
+        "before_qid4": 0,
+        "before_qid5": 0,
+        "before_qid6": 0,
+        "before_qid7": 0,
+        "before_R0v": 0,
+        "before_R0owner": 0,
+        "before_R0id": 0,
+        "before_R0byte": 0,
+        "before_R1v": 0,
+        "before_R1owner": 0,
+        "before_R1id": 0,
+        "before_R1byte": 0,
+        "before_outstanding": 0,
+        "before_valid": 15,
+        "before_enabled": 0,
+        "before_bytes": 0,
+        "before_count0": 0,
+        "before_count1": 0,
+        "before_count2": 0,
+        "before_count3": 0,
+        "before_failed": 0,
+        "before_fault": 0
+      },
+      "completion_domain": true,
+      "lines": [
+        {
+          "line": 0,
+          "initial_capture_cutpoint": 0,
+          "prefix": [],
+          "cycle": [
+            [
+              0,
+              1,
+              40
+            ],
+            [
+              40,
+              41,
+              80
+            ]
+          ],
+          "C0": [
+            1,
+            41
+          ],
+          "J": 1,
+          "A": 39,
+          "completion_domain": true
+        },
+        {
+          "line": 1,
+          "initial_capture_cutpoint": 2,
+          "prefix": [],
+          "cycle": [
+            [
+              2,
+              6,
+              42
+            ],
+            [
+              42,
+              46,
+              82
+            ]
+          ],
+          "C0": [
+            6,
+            46
+          ],
+          "J": 4,
+          "A": 36,
+          "completion_domain": true
+        },
+        {
+          "line": 2,
+          "initial_capture_cutpoint": 4,
+          "prefix": [],
+          "cycle": [
+            [
+              4,
+              7,
+              44
+            ],
+            [
+              44,
+              47,
+              84
+            ]
+          ],
+          "C0": [
+            7,
+            47
+          ],
+          "J": 3,
+          "A": 37,
+          "completion_domain": true
+        },
+        {
+          "line": 3,
+          "initial_capture_cutpoint": 8,
+          "prefix": [],
+          "cycle": [
+            [
+              8,
+              11,
+              48
+            ],
+            [
+              48,
+              51,
+              88
+            ]
+          ],
+          "C0": [
+            11,
+            51
+          ],
+          "J": 3,
+          "A": 37,
+          "completion_domain": true
+        }
+      ]
+    },
+    {
+      "case": 1,
+      "configuration": {
+        "p": 2,
+        "r": 7,
+        "F": 112
+      },
+      "original_empty_frame_gate": "PASS",
+      "full_key_extension": "VALIDATED_FULL_KEY_CYCLE",
+      "entry": 0,
+      "repeat": 112,
+      "period": 112,
+      "physical_validation_end_exclusive": 336,
+      "ID_translation": 8,
+      "cycle_entry_empty": true,
+      "entry_state": {
+        "before_tick": 0,
+        "before_cp": 0,
+        "before_rp": 0,
+        "before_fp": 0,
+        "before_pp": 0,
+        "before_nextid": 1,
+        "before_qlen": 0,
+        "before_qowners": 0,
+        "before_qid0": 0,
+        "before_qid1": 0,
+        "before_qid2": 0,
+        "before_qid3": 0,
+        "before_qid4": 0,
+        "before_qid5": 0,
+        "before_qid6": 0,
+        "before_qid7": 0,
+        "before_R0v": 0,
+        "before_R0owner": 0,
+        "before_R0id": 0,
+        "before_R0byte": 0,
+        "before_R1v": 0,
+        "before_R1owner": 0,
+        "before_R1id": 0,
+        "before_R1byte": 0,
+        "before_outstanding": 0,
+        "before_valid": 15,
+        "before_enabled": 0,
+        "before_bytes": 0,
+        "before_count0": 0,
+        "before_count1": 0,
+        "before_count2": 0,
+        "before_count3": 0,
+        "before_failed": 0,
+        "before_fault": 0
+      },
+      "completion_domain": true,
+      "lines": [
+        {
+          "line": 0,
+          "initial_capture_cutpoint": 0,
+          "prefix": [],
+          "cycle": [
+            [
+              0,
+              1,
+              40
+            ],
+            [
+              40,
+              43,
+              112
+            ]
+          ],
+          "C0": [
+            1,
+            43
+          ],
+          "J": 3,
+          "A": 69,
+          "completion_domain": true
+        },
+        {
+          "line": 1,
+          "initial_capture_cutpoint": 2,
+          "prefix": [],
+          "cycle": [
+            [
+              2,
+              8,
+              42
+            ],
+            [
+              42,
+              44,
+              114
+            ]
+          ],
+          "C0": [
+            8,
+            44
+          ],
+          "J": 6,
+          "A": 70,
+          "completion_domain": true
+        },
+        {
+          "line": 2,
+          "initial_capture_cutpoint": 4,
+          "prefix": [],
+          "cycle": [
+            [
+              4,
+              9,
+              44
+            ],
+            [
+              44,
+              50,
+              116
+            ]
+          ],
+          "C0": [
+            9,
+            50
+          ],
+          "J": 6,
+          "A": 66,
+          "completion_domain": true
+        },
+        {
+          "line": 3,
+          "initial_capture_cutpoint": 10,
+          "prefix": [],
+          "cycle": [
+            [
+              10,
+              15,
+              46
+            ],
+            [
+              46,
+              51,
+              122
+            ]
+          ],
+          "C0": [
+            15,
+            51
+          ],
+          "J": 5,
+          "A": 71,
+          "completion_domain": true
+        }
+      ]
+    },
+    {
+      "case": 2,
+      "configuration": {
+        "p": 3,
+        "r": 5,
+        "F": 120
+      },
+      "original_empty_frame_gate": "PASS",
+      "full_key_extension": "VALIDATED_FULL_KEY_CYCLE",
+      "entry": 0,
+      "repeat": 120,
+      "period": 120,
+      "physical_validation_end_exclusive": 360,
+      "ID_translation": 8,
+      "cycle_entry_empty": true,
+      "entry_state": {
+        "before_tick": 0,
+        "before_cp": 0,
+        "before_rp": 0,
+        "before_fp": 0,
+        "before_pp": 0,
+        "before_nextid": 1,
+        "before_qlen": 0,
+        "before_qowners": 0,
+        "before_qid0": 0,
+        "before_qid1": 0,
+        "before_qid2": 0,
+        "before_qid3": 0,
+        "before_qid4": 0,
+        "before_qid5": 0,
+        "before_qid6": 0,
+        "before_qid7": 0,
+        "before_R0v": 0,
+        "before_R0owner": 0,
+        "before_R0id": 0,
+        "before_R0byte": 0,
+        "before_R1v": 0,
+        "before_R1owner": 0,
+        "before_R1id": 0,
+        "before_R1byte": 0,
+        "before_outstanding": 0,
+        "before_valid": 15,
+        "before_enabled": 0,
+        "before_bytes": 0,
+        "before_count0": 0,
+        "before_count1": 0,
+        "before_count2": 0,
+        "before_count3": 0,
+        "before_failed": 0,
+        "before_fault": 0
+      },
+      "completion_domain": true,
+      "lines": [
+        {
+          "line": 0,
+          "initial_capture_cutpoint": 0,
+          "prefix": [],
+          "cycle": [
+            [
+              0,
+              1,
+              42
+            ],
+            [
+              42,
+              46,
+              120
+            ]
+          ],
+          "C0": [
+            1,
+            46
+          ],
+          "J": 4,
+          "A": 74,
+          "completion_domain": true
+        },
+        {
+          "line": 1,
+          "initial_capture_cutpoint": 3,
+          "prefix": [],
+          "cycle": [
+            [
+              3,
+              6,
+              45
+            ],
+            [
+              45,
+              47,
+              123
+            ]
+          ],
+          "C0": [
+            6,
+            47
+          ],
+          "J": 3,
+          "A": 76,
+          "completion_domain": true
+        },
+        {
+          "line": 2,
+          "initial_capture_cutpoint": 6,
+          "prefix": [],
+          "cycle": [
+            [
+              6,
+              7,
+              48
+            ],
+            [
+              48,
+              51,
+              126
+            ]
+          ],
+          "C0": [
+            7,
+            51
+          ],
+          "J": 3,
+          "A": 75,
+          "completion_domain": true
+        },
+        {
+          "line": 3,
+          "initial_capture_cutpoint": 9,
+          "prefix": [],
+          "cycle": [
+            [
+              9,
+              11,
+              51
+            ],
+            [
+              51,
+              52,
+              129
+            ]
+          ],
+          "C0": [
+            11,
+            52
+          ],
+          "J": 2,
+          "A": 77,
+          "completion_domain": true
+        }
+      ]
+    },
+    {
+      "case": 3,
+      "configuration": {
+        "p": 3,
+        "r": 7,
+        "F": 168
+      },
+      "original_empty_frame_gate": "PASS",
+      "full_key_extension": "VALIDATED_FULL_KEY_CYCLE",
+      "entry": 0,
+      "repeat": 168,
+      "period": 168,
+      "physical_validation_end_exclusive": 504,
+      "ID_translation": 8,
+      "cycle_entry_empty": true,
+      "entry_state": {
+        "before_tick": 0,
+        "before_cp": 0,
+        "before_rp": 0,
+        "before_fp": 0,
+        "before_pp": 0,
+        "before_nextid": 1,
+        "before_qlen": 0,
+        "before_qowners": 0,
+        "before_qid0": 0,
+        "before_qid1": 0,
+        "before_qid2": 0,
+        "before_qid3": 0,
+        "before_qid4": 0,
+        "before_qid5": 0,
+        "before_qid6": 0,
+        "before_qid7": 0,
+        "before_R0v": 0,
+        "before_R0owner": 0,
+        "before_R0id": 0,
+        "before_R0byte": 0,
+        "before_R1v": 0,
+        "before_R1owner": 0,
+        "before_R1id": 0,
+        "before_R1byte": 0,
+        "before_outstanding": 0,
+        "before_valid": 15,
+        "before_enabled": 0,
+        "before_bytes": 0,
+        "before_count0": 0,
+        "before_count1": 0,
+        "before_count2": 0,
+        "before_count3": 0,
+        "before_failed": 0,
+        "before_fault": 0
+      },
+      "completion_domain": true,
+      "lines": [
+        {
+          "line": 0,
+          "initial_capture_cutpoint": 0,
+          "prefix": [],
+          "cycle": [
+            [
+              0,
+              1,
+              42
+            ],
+            [
+              42,
+              43,
+              168
+            ]
+          ],
+          "C0": [
+            1,
+            43
+          ],
+          "J": 1,
+          "A": 125,
+          "completion_domain": true
+        },
+        {
+          "line": 1,
+          "initial_capture_cutpoint": 3,
+          "prefix": [],
+          "cycle": [
+            [
+              3,
+              8,
+              45
+            ],
+            [
+              45,
+              50,
+              171
+            ]
+          ],
+          "C0": [
+            8,
+            50
+          ],
+          "J": 5,
+          "A": 121,
+          "completion_domain": true
+        },
+        {
+          "line": 2,
+          "initial_capture_cutpoint": 6,
+          "prefix": [],
+          "cycle": [
+            [
+              6,
+              9,
+              48
+            ],
+            [
+              48,
+              51,
+              174
+            ]
+          ],
+          "C0": [
+            9,
+            51
+          ],
+          "J": 3,
+          "A": 123,
+          "completion_domain": true
+        },
+        {
+          "line": 3,
+          "initial_capture_cutpoint": 9,
+          "prefix": [],
+          "cycle": [
+            [
+              9,
+              15,
+              51
+            ],
+            [
+              51,
+              57,
+              177
+            ]
+          ],
+          "C0": [
+            15,
+            57
+          ],
+          "J": 6,
+          "A": 120,
+          "completion_domain": true
+        }
+      ]
+    },
+    {
+      "case": 4,
+      "configuration": {
+        "p": 5,
+        "r": 5,
+        "F": 40
+      },
+      "original_empty_frame_gate": "PASS",
+      "full_key_extension": "VALIDATED_FULL_KEY_CYCLE",
+      "entry": 0,
+      "repeat": 40,
+      "period": 40,
+      "physical_validation_end_exclusive": 120,
+      "ID_translation": 8,
+      "cycle_entry_empty": true,
+      "entry_state": {
+        "before_tick": 0,
+        "before_cp": 0,
+        "before_rp": 0,
+        "before_fp": 0,
+        "before_pp": 0,
+        "before_nextid": 1,
+        "before_qlen": 0,
+        "before_qowners": 0,
+        "before_qid0": 0,
+        "before_qid1": 0,
+        "before_qid2": 0,
+        "before_qid3": 0,
+        "before_qid4": 0,
+        "before_qid5": 0,
+        "before_qid6": 0,
+        "before_qid7": 0,
+        "before_R0v": 0,
+        "before_R0owner": 0,
+        "before_R0id": 0,
+        "before_R0byte": 0,
+        "before_R1v": 0,
+        "before_R1owner": 0,
+        "before_R1id": 0,
+        "before_R1byte": 0,
+        "before_outstanding": 0,
+        "before_valid": 15,
+        "before_enabled": 0,
+        "before_bytes": 0,
+        "before_count0": 0,
+        "before_count1": 0,
+        "before_count2": 0,
+        "before_count3": 0,
+        "before_failed": 0,
+        "before_fault": 0
+      },
+      "completion_domain": true,
+      "lines": [
+        {
+          "line": 0,
+          "initial_capture_cutpoint": 0,
+          "prefix": [],
+          "cycle": [
+            [
+              0,
+              1,
+              5
+            ],
+            [
+              5,
+              6,
+              40
+            ]
+          ],
+          "C0": [
+            1,
+            6
+          ],
+          "J": 1,
+          "A": 34,
+          "completion_domain": true
+        },
+        {
+          "line": 1,
+          "initial_capture_cutpoint": 10,
+          "prefix": [],
+          "cycle": [
+            [
+              10,
+              11,
+              15
+            ],
+            [
+              15,
+              16,
+              50
+            ]
+          ],
+          "C0": [
+            11,
+            16
+          ],
+          "J": 1,
+          "A": 34,
+          "completion_domain": true
+        },
+        {
+          "line": 2,
+          "initial_capture_cutpoint": 20,
+          "prefix": [],
+          "cycle": [
+            [
+              20,
+              21,
+              25
+            ],
+            [
+              25,
+              26,
+              60
+            ]
+          ],
+          "C0": [
+            21,
+            26
+          ],
+          "J": 1,
+          "A": 34,
+          "completion_domain": true
+        },
+        {
+          "line": 3,
+          "initial_capture_cutpoint": 30,
+          "prefix": [],
+          "cycle": [
+            [
+              30,
+              31,
+              35
+            ],
+            [
+              35,
+              36,
+              70
+            ]
+          ],
+          "C0": [
+            31,
+            36
+          ],
+          "J": 1,
+          "A": 34,
+          "completion_domain": true
+        }
+      ]
+    },
+    {
+      "case": 5,
+      "configuration": {
+        "p": 5,
+        "r": 7,
+        "F": 280
+      },
+      "original_empty_frame_gate": "PASS",
+      "full_key_extension": "VALIDATED_FULL_KEY_CYCLE",
+      "entry": 0,
+      "repeat": 280,
+      "period": 280,
+      "physical_validation_end_exclusive": 840,
+      "ID_translation": 8,
+      "cycle_entry_empty": true,
+      "entry_state": {
+        "before_tick": 0,
+        "before_cp": 0,
+        "before_rp": 0,
+        "before_fp": 0,
+        "before_pp": 0,
+        "before_nextid": 1,
+        "before_qlen": 0,
+        "before_qowners": 0,
+        "before_qid0": 0,
+        "before_qid1": 0,
+        "before_qid2": 0,
+        "before_qid3": 0,
+        "before_qid4": 0,
+        "before_qid5": 0,
+        "before_qid6": 0,
+        "before_qid7": 0,
+        "before_R0v": 0,
+        "before_R0owner": 0,
+        "before_R0id": 0,
+        "before_R0byte": 0,
+        "before_R1v": 0,
+        "before_R1owner": 0,
+        "before_R1id": 0,
+        "before_R1byte": 0,
+        "before_outstanding": 0,
+        "before_valid": 15,
+        "before_enabled": 0,
+        "before_bytes": 0,
+        "before_count0": 0,
+        "before_count1": 0,
+        "before_count2": 0,
+        "before_count3": 0,
+        "before_failed": 0,
+        "before_fault": 0
+      },
+      "completion_domain": true,
+      "lines": [
+        {
+          "line": 0,
+          "initial_capture_cutpoint": 0,
+          "prefix": [],
+          "cycle": [
+            [
+              0,
+              1,
+              40
+            ],
+            [
+              40,
+              43,
+              280
+            ]
+          ],
+          "C0": [
+            1,
+            43
+          ],
+          "J": 3,
+          "A": 237,
+          "completion_domain": true
+        },
+        {
+          "line": 1,
+          "initial_capture_cutpoint": 5,
+          "prefix": [],
+          "cycle": [
+            [
+              5,
+              8,
+              45
+            ],
+            [
+              45,
+              50,
+              285
+            ]
+          ],
+          "C0": [
+            8,
+            50
+          ],
+          "J": 5,
+          "A": 235,
+          "completion_domain": true
+        },
+        {
+          "line": 2,
+          "initial_capture_cutpoint": 10,
+          "prefix": [],
+          "cycle": [
+            [
+              10,
+              15,
+              50
+            ],
+            [
+              50,
+              51,
+              290
+            ]
+          ],
+          "C0": [
+            15,
+            51
+          ],
+          "J": 5,
+          "A": 239,
+          "completion_domain": true
+        },
+        {
+          "line": 3,
+          "initial_capture_cutpoint": 15,
+          "prefix": [],
+          "cycle": [
+            [
+              15,
+              16,
+              55
+            ],
+            [
+              55,
+              57,
+              295
+            ]
+          ],
+          "C0": [
+            16,
+            57
+          ],
+          "J": 2,
+          "A": 238,
+          "completion_domain": true
+        }
+      ]
+    },
+    {
+      "case": 6,
+      "configuration": {
+        "p": 7,
+        "r": 5,
+        "F": 280
+      },
+      "original_empty_frame_gate": "PASS",
+      "full_key_extension": "VALIDATED_FULL_KEY_CYCLE",
+      "entry": 0,
+      "repeat": 280,
+      "period": 280,
+      "physical_validation_end_exclusive": 840,
+      "ID_translation": 8,
+      "cycle_entry_empty": true,
+      "entry_state": {
+        "before_tick": 0,
+        "before_cp": 0,
+        "before_rp": 0,
+        "before_fp": 0,
+        "before_pp": 0,
+        "before_nextid": 1,
+        "before_qlen": 0,
+        "before_qowners": 0,
+        "before_qid0": 0,
+        "before_qid1": 0,
+        "before_qid2": 0,
+        "before_qid3": 0,
+        "before_qid4": 0,
+        "before_qid5": 0,
+        "before_qid6": 0,
+        "before_qid7": 0,
+        "before_R0v": 0,
+        "before_R0owner": 0,
+        "before_R0id": 0,
+        "before_R0byte": 0,
+        "before_R1v": 0,
+        "before_R1owner": 0,
+        "before_R1id": 0,
+        "before_R1byte": 0,
+        "before_outstanding": 0,
+        "before_valid": 15,
+        "before_enabled": 0,
+        "before_bytes": 0,
+        "before_count0": 0,
+        "before_count1": 0,
+        "before_count2": 0,
+        "before_count3": 0,
+        "before_failed": 0,
+        "before_fault": 0
+      },
+      "completion_domain": true,
+      "lines": [
+        {
+          "line": 0,
+          "initial_capture_cutpoint": 0,
+          "prefix": [],
+          "cycle": [
+            [
+              0,
+              1,
+              42
+            ],
+            [
+              42,
+              46,
+              280
+            ]
+          ],
+          "C0": [
+            1,
+            46
+          ],
+          "J": 4,
+          "A": 234,
+          "completion_domain": true
+        },
+        {
+          "line": 1,
+          "initial_capture_cutpoint": 7,
+          "prefix": [],
+          "cycle": [
+            [
+              7,
+              11,
+              49
+            ],
+            [
+              49,
+              51,
+              287
+            ]
+          ],
+          "C0": [
+            11,
+            51
+          ],
+          "J": 4,
+          "A": 236,
+          "completion_domain": true
+        },
+        {
+          "line": 2,
+          "initial_capture_cutpoint": 14,
+          "prefix": [],
+          "cycle": [
+            [
+              14,
+              16,
+              56
+            ],
+            [
+              56,
+              57,
+              294
+            ]
+          ],
+          "C0": [
+            16,
+            57
+          ],
+          "J": 2,
+          "A": 237,
+          "completion_domain": true
+        },
+        {
+          "line": 3,
+          "initial_capture_cutpoint": 21,
+          "prefix": [],
+          "cycle": [
+            [
+              21,
+              22,
+              63
+            ],
+            [
+              63,
+              66,
+              301
+            ]
+          ],
+          "C0": [
+            22,
+            66
+          ],
+          "J": 3,
+          "A": 235,
+          "completion_domain": true
+        }
+      ]
+    },
+    {
+      "case": 7,
+      "configuration": {
+        "p": 7,
+        "r": 7,
+        "F": 56
+      },
+      "original_empty_frame_gate": "FAILED_UNKNOWN",
+      "full_key_extension": "VALIDATED_FULL_KEY_CYCLE",
+      "entry": 37,
+      "repeat": 93,
+      "period": 56,
+      "physical_validation_end_exclusive": 205,
+      "ID_translation": 8,
+      "cycle_entry_empty": true,
+      "entry_state": {
+        "before_tick": 37,
+        "before_cp": 2,
+        "before_rp": 2,
+        "before_fp": 37,
+        "before_pp": 0,
+        "before_nextid": 5,
+        "before_qlen": 0,
+        "before_qowners": 0,
+        "before_qid0": 0,
+        "before_qid1": 0,
+        "before_qid2": 0,
+        "before_qid3": 0,
+        "before_qid4": 0,
+        "before_qid5": 0,
+        "before_qid6": 0,
+        "before_qid7": 0,
+        "before_R0v": 0,
+        "before_R0owner": 3,
+        "before_R0id": 4,
+        "before_R0byte": 0,
+        "before_R1v": 0,
+        "before_R1owner": 3,
+        "before_R1id": 4,
+        "before_R1byte": 0,
+        "before_outstanding": 0,
+        "before_valid": 15,
+        "before_enabled": 0,
+        "before_bytes": 0,
+        "before_count0": 0,
+        "before_count1": 0,
+        "before_count2": 0,
+        "before_count3": 0,
+        "before_failed": 0,
+        "before_fault": 0
+      },
+      "completion_domain": true,
+      "lines": [
+        {
+          "line": 0,
+          "initial_capture_cutpoint": 0,
+          "prefix": [
+            [
+              0,
+              1,
+              42
+            ]
+          ],
+          "cycle": [
+            [
+              42,
+              43,
+              70
+            ],
+            [
+              70,
+              71,
+              98
+            ]
+          ],
+          "C0": [
+            15,
+            43
+          ],
+          "J": 1,
+          "A": 27,
+          "completion_domain": true
+        },
+        {
+          "line": 1,
+          "initial_capture_cutpoint": 7,
+          "prefix": [
+            [
+              7,
+              8,
+              49
+            ]
+          ],
+          "cycle": [
+            [
+              49,
+              50,
+              77
+            ],
+            [
+              77,
+              78,
+              105
+            ]
+          ],
+          "C0": [
+            22,
+            50
+          ],
+          "J": 1,
+          "A": 27,
+          "completion_domain": true
+        },
+        {
+          "line": 2,
+          "initial_capture_cutpoint": 14,
+          "prefix": [
+            [
+              14,
+              15,
+              56
+            ]
+          ],
+          "cycle": [
+            [
+              56,
+              57,
+              84
+            ],
+            [
+              84,
+              85,
+              112
+            ]
+          ],
+          "C0": [
+            1,
+            29
+          ],
+          "J": 1,
+          "A": 27,
+          "completion_domain": true
+        },
+        {
+          "line": 3,
+          "initial_capture_cutpoint": 21,
+          "prefix": [
+            [
+              21,
+              22,
+              63
+            ]
+          ],
+          "cycle": [
+            [
+              63,
+              64,
+              91
+            ],
+            [
+              91,
+              92,
+              119
+            ]
+          ],
+          "C0": [
+            8,
+            36
+          ],
+          "J": 1,
+          "A": 27,
+          "completion_domain": true
+        }
+      ]
+    },
+    {
+      "case": 8,
+      "configuration": {
+        "p": 11,
+        "r": 5,
+        "F": 440
+      },
+      "original_empty_frame_gate": "PASS",
+      "full_key_extension": "VALIDATED_FULL_KEY_CYCLE",
+      "entry": 0,
+      "repeat": 440,
+      "period": 440,
+      "physical_validation_end_exclusive": 1320,
+      "ID_translation": 8,
+      "cycle_entry_empty": true,
+      "entry_state": {
+        "before_tick": 0,
+        "before_cp": 0,
+        "before_rp": 0,
+        "before_fp": 0,
+        "before_pp": 0,
+        "before_nextid": 1,
+        "before_qlen": 0,
+        "before_qowners": 0,
+        "before_qid0": 0,
+        "before_qid1": 0,
+        "before_qid2": 0,
+        "before_qid3": 0,
+        "before_qid4": 0,
+        "before_qid5": 0,
+        "before_qid6": 0,
+        "before_qid7": 0,
+        "before_R0v": 0,
+        "before_R0owner": 0,
+        "before_R0id": 0,
+        "before_R0byte": 0,
+        "before_R1v": 0,
+        "before_R1owner": 0,
+        "before_R1id": 0,
+        "before_R1byte": 0,
+        "before_outstanding": 0,
+        "before_valid": 15,
+        "before_enabled": 0,
+        "before_bytes": 0,
+        "before_count0": 0,
+        "before_count1": 0,
+        "before_count2": 0,
+        "before_count3": 0,
+        "before_failed": 0,
+        "before_fault": 0
+      },
+      "completion_domain": true,
+      "lines": [
+        {
+          "line": 0,
+          "initial_capture_cutpoint": 0,
+          "prefix": [],
+          "cycle": [
+            [
+              0,
+              1,
+              44
+            ],
+            [
+              44,
+              46,
+              440
+            ]
+          ],
+          "C0": [
+            1,
+            46
+          ],
+          "J": 2,
+          "A": 394,
+          "completion_domain": true
+        },
+        {
+          "line": 1,
+          "initial_capture_cutpoint": 11,
+          "prefix": [],
+          "cycle": [
+            [
+              11,
+              12,
+              55
+            ],
+            [
+              55,
+              56,
+              451
+            ]
+          ],
+          "C0": [
+            12,
+            56
+          ],
+          "J": 1,
+          "A": 395,
+          "completion_domain": true
+        },
+        {
+          "line": 2,
+          "initial_capture_cutpoint": 22,
+          "prefix": [],
+          "cycle": [
+            [
+              22,
+              26,
+              66
+            ],
+            [
+              66,
+              67,
+              462
+            ]
+          ],
+          "C0": [
+            26,
+            67
+          ],
+          "J": 4,
+          "A": 395,
+          "completion_domain": true
+        },
+        {
+          "line": 3,
+          "initial_capture_cutpoint": 33,
+          "prefix": [],
+          "cycle": [
+            [
+              33,
+              36,
+              77
+            ],
+            [
+              77,
+              81,
+              473
+            ]
+          ],
+          "C0": [
+            36,
+            81
+          ],
+          "J": 4,
+          "A": 392,
+          "completion_domain": true
+        }
+      ]
+    },
+    {
+      "case": 9,
+      "configuration": {
+        "p": 11,
+        "r": 7,
+        "F": 616
+      },
+      "original_empty_frame_gate": "PASS",
+      "full_key_extension": "VALIDATED_FULL_KEY_CYCLE",
+      "entry": 0,
+      "repeat": 616,
+      "period": 616,
+      "physical_validation_end_exclusive": 1848,
+      "ID_translation": 8,
+      "cycle_entry_empty": true,
+      "entry_state": {
+        "before_tick": 0,
+        "before_cp": 0,
+        "before_rp": 0,
+        "before_fp": 0,
+        "before_pp": 0,
+        "before_nextid": 1,
+        "before_qlen": 0,
+        "before_qowners": 0,
+        "before_qid0": 0,
+        "before_qid1": 0,
+        "before_qid2": 0,
+        "before_qid3": 0,
+        "before_qid4": 0,
+        "before_qid5": 0,
+        "before_qid6": 0,
+        "before_qid7": 0,
+        "before_R0v": 0,
+        "before_R0owner": 0,
+        "before_R0id": 0,
+        "before_R0byte": 0,
+        "before_R1v": 0,
+        "before_R1owner": 0,
+        "before_R1id": 0,
+        "before_R1byte": 0,
+        "before_outstanding": 0,
+        "before_valid": 15,
+        "before_enabled": 0,
+        "before_bytes": 0,
+        "before_count0": 0,
+        "before_count1": 0,
+        "before_count2": 0,
+        "before_count3": 0,
+        "before_failed": 0,
+        "before_fault": 0
+      },
+      "completion_domain": true,
+      "lines": [
+        {
+          "line": 0,
+          "initial_capture_cutpoint": 0,
+          "prefix": [],
+          "cycle": [
+            [
+              0,
+              1,
+              44
+            ],
+            [
+              44,
+              50,
+              616
+            ]
+          ],
+          "C0": [
+            1,
+            50
+          ],
+          "J": 6,
+          "A": 566,
+          "completion_domain": true
+        },
+        {
+          "line": 1,
+          "initial_capture_cutpoint": 11,
+          "prefix": [],
+          "cycle": [
+            [
+              11,
+              15,
+              55
+            ],
+            [
+              55,
+              57,
+              627
+            ]
+          ],
+          "C0": [
+            15,
+            57
+          ],
+          "J": 4,
+          "A": 570,
+          "completion_domain": true
+        },
+        {
+          "line": 2,
+          "initial_capture_cutpoint": 22,
+          "prefix": [],
+          "cycle": [
+            [
+              22,
+              23,
+              66
+            ],
+            [
+              66,
+              71,
+              638
+            ]
+          ],
+          "C0": [
+            23,
+            71
+          ],
+          "J": 5,
+          "A": 567,
+          "completion_domain": true
+        },
+        {
+          "line": 3,
+          "initial_capture_cutpoint": 33,
+          "prefix": [],
+          "cycle": [
+            [
+              33,
+              36,
+              77
+            ],
+            [
+              77,
+              78,
+              649
+            ]
+          ],
+          "C0": [
+            36,
+            78
+          ],
+          "J": 3,
+          "A": 571,
+          "completion_domain": true
+        }
+      ]
+    },
+    {
+      "case": 10,
+      "configuration": {
+        "p": 17,
+        "r": 5,
+        "F": 680
+      },
+      "original_empty_frame_gate": "PASS",
+      "full_key_extension": "VALIDATED_FULL_KEY_CYCLE",
+      "entry": 0,
+      "repeat": 680,
+      "period": 680,
+      "physical_validation_end_exclusive": 2040,
+      "ID_translation": 8,
+      "cycle_entry_empty": true,
+      "entry_state": {
+        "before_tick": 0,
+        "before_cp": 0,
+        "before_rp": 0,
+        "before_fp": 0,
+        "before_pp": 0,
+        "before_nextid": 1,
+        "before_qlen": 0,
+        "before_qowners": 0,
+        "before_qid0": 0,
+        "before_qid1": 0,
+        "before_qid2": 0,
+        "before_qid3": 0,
+        "before_qid4": 0,
+        "before_qid5": 0,
+        "before_qid6": 0,
+        "before_qid7": 0,
+        "before_R0v": 0,
+        "before_R0owner": 0,
+        "before_R0id": 0,
+        "before_R0byte": 0,
+        "before_R1v": 0,
+        "before_R1owner": 0,
+        "before_R1id": 0,
+        "before_R1byte": 0,
+        "before_outstanding": 0,
+        "before_valid": 15,
+        "before_enabled": 0,
+        "before_bytes": 0,
+        "before_count0": 0,
+        "before_count1": 0,
+        "before_count2": 0,
+        "before_count3": 0,
+        "before_failed": 0,
+        "before_fault": 0
+      },
+      "completion_domain": true,
+      "lines": [
+        {
+          "line": 0,
+          "initial_capture_cutpoint": 0,
+          "prefix": [],
+          "cycle": [
+            [
+              0,
+              1,
+              68
+            ],
+            [
+              68,
+              71,
+              680
+            ]
+          ],
+          "C0": [
+            1,
+            71
+          ],
+          "J": 3,
+          "A": 609,
+          "completion_domain": true
+        },
+        {
+          "line": 1,
+          "initial_capture_cutpoint": 17,
+          "prefix": [],
+          "cycle": [
+            [
+              17,
+              21,
+              85
+            ],
+            [
+              85,
+              86,
+              697
+            ]
+          ],
+          "C0": [
+            21,
+            86
+          ],
+          "J": 4,
+          "A": 611,
+          "completion_domain": true
+        },
+        {
+          "line": 2,
+          "initial_capture_cutpoint": 34,
+          "prefix": [],
+          "cycle": [
+            [
+              34,
+              36,
+              102
+            ],
+            [
+              102,
+              106,
+              714
+            ]
+          ],
+          "C0": [
+            36,
+            106
+          ],
+          "J": 4,
+          "A": 608,
+          "completion_domain": true
+        },
+        {
+          "line": 3,
+          "initial_capture_cutpoint": 51,
+          "prefix": [],
+          "cycle": [
+            [
+              51,
+              52,
+              119
+            ],
+            [
+              119,
+              121,
+              731
+            ]
+          ],
+          "C0": [
+            52,
+            121
+          ],
+          "J": 2,
+          "A": 610,
+          "completion_domain": true
+        }
+      ]
+    },
+    {
+      "case": 11,
+      "configuration": {
+        "p": 17,
+        "r": 7,
+        "F": 952
+      },
+      "original_empty_frame_gate": "PASS",
+      "full_key_extension": "VALIDATED_FULL_KEY_CYCLE",
+      "entry": 0,
+      "repeat": 952,
+      "period": 952,
+      "physical_validation_end_exclusive": 2856,
+      "ID_translation": 8,
+      "cycle_entry_empty": true,
+      "entry_state": {
+        "before_tick": 0,
+        "before_cp": 0,
+        "before_rp": 0,
+        "before_fp": 0,
+        "before_pp": 0,
+        "before_nextid": 1,
+        "before_qlen": 0,
+        "before_qowners": 0,
+        "before_qid0": 0,
+        "before_qid1": 0,
+        "before_qid2": 0,
+        "before_qid3": 0,
+        "before_qid4": 0,
+        "before_qid5": 0,
+        "before_qid6": 0,
+        "before_qid7": 0,
+        "before_R0v": 0,
+        "before_R0owner": 0,
+        "before_R0id": 0,
+        "before_R0byte": 0,
+        "before_R1v": 0,
+        "before_R1owner": 0,
+        "before_R1id": 0,
+        "before_R1byte": 0,
+        "before_outstanding": 0,
+        "before_valid": 15,
+        "before_enabled": 0,
+        "before_bytes": 0,
+        "before_count0": 0,
+        "before_count1": 0,
+        "before_count2": 0,
+        "before_count3": 0,
+        "before_failed": 0,
+        "before_fault": 0
+      },
+      "completion_domain": true,
+      "lines": [
+        {
+          "line": 0,
+          "initial_capture_cutpoint": 0,
+          "prefix": [],
+          "cycle": [
+            [
+              0,
+              1,
+              68
+            ],
+            [
+              68,
+              71,
+              952
+            ]
+          ],
+          "C0": [
+            1,
+            71
+          ],
+          "J": 3,
+          "A": 881,
+          "completion_domain": true
+        },
+        {
+          "line": 1,
+          "initial_capture_cutpoint": 17,
+          "prefix": [],
+          "cycle": [
+            [
+              17,
+              22,
+              85
+            ],
+            [
+              85,
+              86,
+              969
+            ]
+          ],
+          "C0": [
+            22,
+            86
+          ],
+          "J": 5,
+          "A": 883,
+          "completion_domain": true
+        },
+        {
+          "line": 2,
+          "initial_capture_cutpoint": 34,
+          "prefix": [],
+          "cycle": [
+            [
+              34,
+              36,
+              102
+            ],
+            [
+              102,
+              106,
+              986
+            ]
+          ],
+          "C0": [
+            36,
+            106
+          ],
+          "J": 4,
+          "A": 880,
+          "completion_domain": true
+        },
+        {
+          "line": 3,
+          "initial_capture_cutpoint": 51,
+          "prefix": [],
+          "cycle": [
+            [
+              51,
+              57,
+              119
+            ],
+            [
+              119,
+              120,
+              1003
+            ]
+          ],
+          "C0": [
+            57,
+            120
+          ],
+          "J": 6,
+          "A": 883,
+          "completion_domain": true
+        }
+      ]
+    }
+  ]
+}
