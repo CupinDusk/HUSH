@@ -2,14 +2,24 @@
   "scope": "new minimal phase-adaptive prototype only",
   "files": [
     {
+      "path": "admission_guard_check.py",
+      "bytes": 779,
+      "sha256": "45f47e074864151a94fc4b6f0f2cd070e3e25c2e3978e3bd7168501e9b9d162f"
+    },
+    {
+      "path": "bootstrap_invariant.py",
+      "bytes": 1462,
+      "sha256": "e14f968da4dd9db8e9b0948f32938357779a301083a28dde71160c2173cd9987"
+    },
+    {
       "path": "buffered_cutpoint.cpp",
       "bytes": 1342,
       "sha256": "28b896749d6d2d986c6f24baa222d86efdf872378b804d48f0ecd09aba898fc1"
     },
     {
       "path": "closed_loop.py",
-      "bytes": 9085,
-      "sha256": "74fc7c430f1e13c68093a67102f156ad30cf6b3dfa443dc9df3e6bfcafd0cfa9"
+      "bytes": 9458,
+      "sha256": "1c82f879cd729f27d507f1e89fd79df883d9447aa12c4b2710e3b393b7a8f72b"
     },
     {
       "path": "closed_loop_ablation.py",
@@ -23,13 +33,23 @@
     },
     {
       "path": "closed_loop_protocol.json",
-      "bytes": 1832,
-      "sha256": "9999ee0e57b4958cfed8bb033cf09b2c45cda1ead5f89b62b1b557af5c3cc1db"
+      "bytes": 1984,
+      "sha256": "43fbb17f05ae188989a0ef555ff813c83a75ad56cd5662e4d126859ca9a019bf"
     },
     {
       "path": "deadline_oracle.cpp",
       "bytes": 958,
       "sha256": "d5a4a6840faf2f8de754ef36e1043be632351828ce97d64e9639d39eccd062c3"
+    },
+    {
+      "path": "expected/ADMISSION_GUARD_RESULTS.json",
+      "bytes": 302,
+      "sha256": "c6e42df5c447af900874af76d992aba3386c4254321f441442640d5608611b7c"
+    },
+    {
+      "path": "expected/BOOTSTRAP_INVARIANT_RESULTS.json",
+      "bytes": 386,
+      "sha256": "46d5ca37b23b08e989a5df4d8298f620879279568e2b3a99db03313625082fae"
     },
     {
       "path": "expected/BUFFERED_RESULTS.json",
@@ -39,12 +59,12 @@
     {
       "path": "expected/CLOSED_LOOP_ABLATION.json",
       "bytes": 1685514,
-      "sha256": "83e5cf3844998ce94e1a9897e47205ce74cefc8459f31821f2ab1733f9f82a98"
+      "sha256": "5aac34ec8c80433e420d6f8aa31abe7142e2aeb22bd1467a484f2da535d92e71"
     },
     {
       "path": "expected/CLOSED_LOOP_RESULTS.json",
       "bytes": 154345,
-      "sha256": "f6de6fe9cd5a9c8f9fbc0a1620dbeb6e15682f2271a08012ca838e84b63561b8"
+      "sha256": "40c360d6ed246148e0e2d067be702533705068c39ffc6170ac524608c65696d7"
     },
     {
       "path": "expected/FORMAL_RESULTS.json",
@@ -57,14 +77,34 @@
       "sha256": "32f1f75c618ae81eed71725a7d6ddaf639e9cfc2a7dacd865cb7064352d47d44"
     },
     {
+      "path": "expected/MAPPED_COMPARISON.json",
+      "bytes": 3042,
+      "sha256": "99606d99c1fa12864215884f943d0cbb62611f4a69d1d75b20bede04366a27c4"
+    },
+    {
       "path": "expected/ORACLE_RESULTS.json",
       "bytes": 5617,
       "sha256": "49530adb909ac05d9c0c666ccfe336da3a57cf3393b9869474e8cfa26e5590a4"
     },
     {
+      "path": "expected/SENSITIVITY_RESULTS.json",
+      "bytes": 1007138,
+      "sha256": "31cb2270bb386d90eabbc6b1217691bf4d1d02872075805bac97cb43ac03aa0a"
+    },
+    {
+      "path": "LIBRARY_SOURCE.json",
+      "bytes": 336,
+      "sha256": "94ed8ffa97c093563c6de1347ff422d71363999add2ea46be6e5b8ecac05f810"
+    },
+    {
       "path": "LICENSE",
       "bytes": 1094,
       "sha256": "094738a9423b5217472a27db9a64fd00b283e33ada05ff758cbc63c7dc4e21d5"
+    },
+    {
+      "path": "map_controller.py",
+      "bytes": 2416,
+      "sha256": "ae136e89e05be03c18bf1c62d8d7e41a370825d92dc3ff71eac927b9f36a84c5"
     },
     {
       "path": "phase_timer.v",
@@ -73,13 +113,23 @@
     },
     {
       "path": "README.md",
-      "bytes": 3707,
-      "sha256": "7b0b99c0c49991dba21130882a9d6257dac2118ac4d94ea66aa84a09bd0cae1d"
+      "bytes": 4349,
+      "sha256": "eb597982e0ecab18f4cebe7938ba04ab6362159740edd7d79bcf99e13ff20770"
     },
     {
       "path": "reproduce.py",
-      "bytes": 918,
-      "sha256": "c3be4ae2225c26f024247a5dfc663f7f4b726bc112eab3a4abb04b661ad55b49"
+      "bytes": 1086,
+      "sha256": "07919f963fcf50ceac4c8f39a3820bbce3280c2cddecc56501facd98886a7772"
+    },
+    {
+      "path": "sensitivity.py",
+      "bytes": 4057,
+      "sha256": "1d06e95321cad99d20ec6af98e3c51f33ca07d7f6396a3412d28d6188190a1d1"
+    },
+    {
+      "path": "sensitivity_protocol.json",
+      "bytes": 1529,
+      "sha256": "8c276b548e7709541ade6651e0f356810be20411883dafc51937ff13f050553a"
     }
   ]
 }

@@ -18,22 +18,22 @@ def instructions(kind,quiet):
  for p in range(3):
   ops.append(('phase',p))
   dense=(kind=='DQD' and p!=1) or (kind=='SDS' and p==1) or (kind=='BSQ' and p!=2)
-  nreads=4 if kind=='BSQ' and p==0 else P['receiver_dense_reads'] if dense else 1
+  nreads=P['shared_blocks'] if kind=='BSQ' and p==0 else P['receiver_dense_reads'] if dense else 1
   for j in range(nreads):
    ops.append(('compute',P['receiver_compute_gap'] if dense else 0))
-   ops.append(('read',j%4))
+   ops.append(('read',j%P['shared_blocks']))
   if not dense:ops.append(('compute',quiet))
  return ops
 
 def analyze(ops,ks,reset=False):
- rem=[-10**12]*4;elapsed=0;k=ks[0];phase=0;pred={};hits=misses=switches=0
+ rem=[-10**12]*P['shared_blocks'];elapsed=0;k=ks[0];phase=0;pred={};hits=misses=switches=0
  for index,(op,value) in enumerate(ops):
   if op=='phase':
    phase=value
    if ks[phase]!=k:
     k=ks[phase];switches+=1
     rem=[min(r,retention(k)) if not reset else -10**12 for r in rem]
-    elapsed+=1;rem=[r-1 for r in rem]
+    elapsed+=P['switch_cycles'];rem=[r-P['switch_cycles'] for r in rem]
   elif op=='compute':
    elapsed+=value;rem=[r-value for r in rem]
   else:
@@ -45,15 +45,16 @@ def analyze(ops,ks,reset=False):
    rem[value]=retention(k)
    elapsed+=service;rem=[r-service for r in rem]
  compute=sum(v for op,v in ops if op=='compute')
- budget=compute+.6*(hits+misses)*71+2
+ budget=compute+.6*(hits+misses)*P['analytic_unknown_read_bound_cycles']+2*P['switch_cycles']
  return {'bound':elapsed,'budget':budget,'feasible':elapsed<=budget,'hits':hits,
          'unknown':misses,'switches':switches,'predictions':pred}
 
-def simulate(ops,ks,writer_gap,phi,analysis=None,keep_trace=False,writer_count=None,phase_policy=None):
+def simulate(ops,ks,writer_gap,phi,analysis=None,keep_trace=False,writer_count=None,phase_policy=None,admission_guard=True):
  writer_count=writer_count or P['writer_store_count']
  ks=list(ks)
  analysis=analysis or analyze(ops,ks)
- valid=[False]*4;active=[False]*4;count=[0]*4;data=[0]*4;version=[0]*4;shared=[False]*4
+ n=P['shared_blocks']
+ valid=[False]*n;active=[False]*n;count=[0]*n;data=[0]*n;version=[0]*n;shared=[False]*n
  ip=0;rready=0;rwaiting=False;rhit_due=None;config_due=None;k=ks[0]
  windex=0;wready=0;wwaiting=False;private_due=None
  rq=None;wq=None;bus=None;last=1
@@ -84,7 +85,7 @@ def simulate(ops,ks,writer_gap,phi,analysis=None,keep_trace=False,writer_count=N
    _,b=private_due;assert not shared[b]
    version[b]+=1;windex+=1;wwaiting=False;wready=t+writer_gap;private_due=None
   if t%P['period']==phi:
-   for b in range(4):
+   for b in range(n):
     if active[b]:
      count[b]-=1
      if count[b]==0:active[b]=False;valid[b]=False
@@ -95,9 +96,11 @@ def simulate(ops,ks,writer_gap,phi,analysis=None,keep_trace=False,writer_count=N
   if windex==writer_count and write_done is None:write_done=t
   if ip==len(ops) and not rwaiting and t>=rready and read_done is None:read_done=t
   if windex<writer_count and not wwaiting and t>=wready:
-   b=windex%4;wwaiting=True
-   if shared[b]:wq={'kind':'wu','block':b,'issue':t}
-   else:private_due=(t+1,b)
+   b=windex%n
+   if shared[b]:
+    wwaiting=True;wq={'kind':'wu','block':b,'issue':t}
+   elif rq is None or not admission_guard:
+    wwaiting=True;private_due=(t+1,b)
   if ip<len(ops) and not rwaiting and t>=rready:
    while ip<len(ops):
     op,v=ops[ip]
@@ -110,7 +113,7 @@ def simulate(ops,ks,writer_gap,phi,analysis=None,keep_trace=False,writer_count=N
       analysis=analyze(ops,completion)
      ip+=1
      if ks[v]!=k:
-      rwaiting=True;config_due=(t+1,ks[v]);break
+      rwaiting=True;config_due=(t+P['switch_cycles'],ks[v]);break
     elif op=='compute':
      ip+=1
      if v:rready=t+v;break
@@ -132,14 +135,14 @@ def simulate(ops,ks,writer_gap,phi,analysis=None,keep_trace=False,writer_count=N
    if eligible:
     core=next((c for c in ((last+1)%2,last) if c in eligible))
     req=wq if core==0 else rq
-    bus=dict(req);bus['end']=t+(10 if core==0 else 60);last=core
+    bus=dict(req);bus['end']=t+(P['update_slot_cycles'] if core==0 else P['miss_slot_cycles']);last=core
     if core==0:wq=None
     else:
      rq=None;shared[req['block']]=True
   t+=1
  assert sum(version)==writer_count
  assert read_done<=analysis['bound'],(read_done,analysis,ks)
- assert max_read_service<=71 and max_update_service<=71,(max_read_service,max_update_service)
+ assert max_read_service<=P['analytic_unknown_read_bound_cycles'] and max_update_service<=P['analytic_unknown_read_bound_cycles'],(max_read_service,max_update_service)
  return {'K':list(ks),'phi':phi,'reader_cycles':read_done,'reader_bound':analysis['bound'],
          'writer_cycles':write_done,'makespan':max(read_done,write_done),
          'updates':packets,'deliveries':deliveries,'actual_misses':misses,'actual_hits':hits,

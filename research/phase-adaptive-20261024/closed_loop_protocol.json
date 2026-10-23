@@ -1,6 +1,6 @@
 {
   "date": "2026-10-24",
-  "status": "prospective_v3_bootstrap_case_after_retained_v2_before_execution",
+  "status": "prospective_admission_guard_strengthening_before_reexecution",
   "scope": "execution-driven two-core single-writer HUSH subset, independently written cycle-level model; not gem5",
   "cores": 2,
   "shared_blocks": 4,
@@ -35,7 +35,7 @@
   "private_store_cycles": 1,
   "update_slot_cycles": 10,
   "miss_slot_cycles": 60,
-  "arbitration": "nonpreemptive two-client round robin, one outstanding request per core; miss grant waits for at most one 1-cycle private store, then reserves shared responsibility",
+  "arbitration": "two-client nonpreemptive round robin; a pending miss blocks new private-store admission, waits at most one existing one-cycle private store, then reserves shared responsibility",
   "analytic_unknown_read_bound_cycles": 71,
   "switch_cycles": 1,
   "budget": "compute + 0.6*all_reads*71 + 2 switch cycles",
@@ -53,5 +53,6 @@
   ],
   "report": "real cycles in this architecture model, reader bound/observed time, writer completion, makespan, misses, update packets/deliveries, safe-hit errors; retain regressions and empty feasible sets",
   "fixed_domain": "all K=1..254 plus 255=infinity",
-  "bootstrap_case": "BSQ: four cold reads, 32 steady reads, then one read and private compute; same four blocks and CPU gap4"
+  "bootstrap_case": "BSQ: four cold reads, 32 steady reads, then one read and private compute; same four blocks and CPU gap4",
+  "guard_reason": "make the service contract independent of a positive writer compute gap; retain old model and a zero-gap negative control"
 }
