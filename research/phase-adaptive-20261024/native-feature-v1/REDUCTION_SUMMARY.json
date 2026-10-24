@@ -124,7 +124,7 @@
     "FROZEN_SELECTION.json": "d12369857a14aa25682dc4bf5f922d78fa82dc3947f4b6d97178421e2244cdfd",
     "VALIDATION_ROWS.json": "ed0e3effcfde857b349dd625199715cc630e7fd52ff0e08928f8433219a823e1"
   },
-  "reducer_sha256": "65736406d73e0bc3ed37368f984543ffbb42f3461669459d037d6d50c60b7ee5",
+  "reducer_sha256": "11ebcc0154a51f6c52fead9650becd6f6baa9ce81256fbe1310a76e822d1e790",
   "all_input_rows_and_freeze_checks_passed": true,
   "scope": "Deterministic paired native timing reduction, not WCET; training fixed parameters and mode are frozen. Best15 is a held-out comparison oracle, not deployed retuning."
 }

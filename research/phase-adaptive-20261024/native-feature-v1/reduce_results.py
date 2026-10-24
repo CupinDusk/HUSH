@@ -58,7 +58,11 @@ def main():
  assert isinstance(train,list) and isinstance(validation,list)
  assert len(train)==324 and len(validation)==216
  assert frozen['native_N28_N32_timing_seen'] is False
- assert frozen['training_rows_sha256']==sha(HERE/'TRAINING_ROWS.json')
+ training_bytes=(HERE/'TRAINING_ROWS.json').read_bytes()
+ # The original freeze binds Windows CRLF bytes. Git/web exports can retain
+ # the same UTF-8 text with LF endings; accept only those two representations.
+ training_crlf=training_bytes.replace(b'\r\n',b'\n').replace(b'\n',b'\r\n')
+ assert frozen['training_rows_sha256'] in {sha(HERE/'TRAINING_ROWS.json'),hashlib.sha256(training_crlf).hexdigest()}
  assert len({r['case']['id'] for r in train})==324 and len({r['case']['id'] for r in validation})==216
  assert {cell(r) for r in train}==CELLS=={cell(r) for r in validation}
  assert {r['case']['N'] for r in train}=={16} and {r['case']['N'] for r in validation}=={28}
