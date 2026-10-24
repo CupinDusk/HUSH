@@ -1,0 +1,9 @@
+cache,N,identity,anchor_frozen_fastest_K,anchor_maxJ,cap_cycles,fixed_maxJ,fixed_maxWU,fixed_fits_cap,phase_maxJ,phase_maxWU,phase_fits_cap,suppress_maxJ,suppress_maxWU,suppress_fits_cap
+32KiB,16,original training cap,"253,253,253",477727.0,478204.727,478142.0,638.0,True,477808.0,550.0,True,479417.0,196.0,False
+32KiB,32,same-N postfreeze diagnostic cap,"253,253,253",2229675.0,2231904.675,2233539.0,2158.0,False,2233223.0,1941.0,False,2234531.0,508.0,False
+32KiB,36,same-N postfreeze diagnostic cap,"253,253,253",2879417.0,2882296.417,2879881.0,2705.0,True,2879206.0,2399.0,True,2880422.0,590.0,True
+32KiB,40,same-N postfreeze diagnostic cap,"253,253,253",3599885.0,3603484.885,3600441.0,3253.0,True,3598769.0,2902.0,True,3601197.0,690.0,True
+64KiB,16,original training cap,"253,253,253",474942.0,475416.942,475396.0,663.0,True,475486.0,629.0,False,476664.0,195.0,False
+64KiB,32,same-N postfreeze diagnostic cap,"253,253,253",2214431.0,2216645.431,2214520.0,2309.0,True,2214497.0,2196.0,True,2215689.0,503.0,True
+64KiB,36,same-N postfreeze diagnostic cap,"253,253,253",2849217.0,2852066.217,2849369.0,2892.0,True,2848892.0,2741.0,True,2850381.0,608.0,True
+64KiB,40,same-N postfreeze diagnostic cap,"253,253,253",3560619.0,3564179.619,3560663.0,3533.0,True,3562217.0,3352.0,True,3563422.0,730.0,True

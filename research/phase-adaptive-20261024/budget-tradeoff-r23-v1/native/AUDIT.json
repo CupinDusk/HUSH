@@ -1,0 +1,388 @@
+{
+  "records": 72,
+  "old_records": 66,
+  "new_post_selection_records": 6,
+  "same_offset_pairs": 24,
+  "epoch_rows": 288,
+  "epoch_delta_rows": 192,
+  "all_epoch_sums_exact": true,
+  "matched_guest_command_and_validation_epoch_equal": true,
+  "new_checksums": [
+    {
+      "id": "n16-32KiB-phi0-suppress",
+      "matches": [
+        [
+          "16",
+          "2048",
+          "64",
+          "1099140816896",
+          "1099140816896"
+        ]
+      ],
+      "stdout_sha256": "45c4443e39f68ffd7abda290bb24582a3d6599e3a91d5bd71192654e48a67375"
+    },
+    {
+      "id": "n16-32KiB-phi127-suppress",
+      "matches": [
+        [
+          "16",
+          "2048",
+          "64",
+          "1099140816896",
+          "1099140816896"
+        ]
+      ],
+      "stdout_sha256": "b5d45a33ffc235549d3a0c36b27df48d4192a515f3996ad1db0936bbbf5d52da"
+    },
+    {
+      "id": "n16-32KiB-phi64-suppress",
+      "matches": [
+        [
+          "16",
+          "2048",
+          "64",
+          "1099140816896",
+          "1099140816896"
+        ]
+      ],
+      "stdout_sha256": "5d982e408a2b9b167caf2726240846086d513c5948d17b55ac41b99360e2deef"
+    },
+    {
+      "id": "n16-64KiB-phi0-suppress",
+      "matches": [
+        [
+          "16",
+          "2048",
+          "64",
+          "1099140816896",
+          "1099140816896"
+        ]
+      ],
+      "stdout_sha256": "3d793f6b54aed80e91c11d21b419c2159ffcae81d00c4a33b960014a8ac47f5a"
+    },
+    {
+      "id": "n16-64KiB-phi127-suppress",
+      "matches": [
+        [
+          "16",
+          "2048",
+          "64",
+          "1099140816896",
+          "1099140816896"
+        ]
+      ],
+      "stdout_sha256": "0357d913b756d85b7c3214dffe1661759e65cb1c64b329a51b401955783499a8"
+    },
+    {
+      "id": "n16-64KiB-phi64-suppress",
+      "matches": [
+        [
+          "16",
+          "2048",
+          "64",
+          "1099140816896",
+          "1099140816896"
+        ]
+      ],
+      "stdout_sha256": "525e9632268be89e10de2ea19851126d4ed89c8ce2e4fa4ab6cba2327ff31a94"
+    }
+  ],
+  "input_sha256": {
+    "MEASUREMENTS.json": "8fca09273cdad47dfd2b4afe11f6b30c5805ad7cdb2fccef347cc5d1d5e5e730",
+    "FROZEN_RULES.json": "2597b8ff1584be2fdd67245fd8afceb781e6c9cecd7de695a0694f82195b1d5a",
+    "TRAIN_CANDIDATES.json": "8af30502ac722d6da4cecc6f18121f7f63197de5bc63719a120b490ed5936b78",
+    "FROZEN_FASTEST_ANCHORS.json": "29cedaa430266a5f29f38c3254793154082ac234529cd3815230ffb008fa1650"
+  },
+  "signed_pair_counts": {
+    "phase_minus_fixed_J": {
+      "negative": 16,
+      "zero": 0,
+      "positive": 8,
+      "min": -1672.0,
+      "max": 2470.0
+    },
+    "phase_minus_fixed_WU": {
+      "negative": 24,
+      "zero": 0,
+      "positive": 0,
+      "min": -351.0,
+      "max": -34.0
+    },
+    "phase_minus_fixed_misses": {
+      "negative": 24,
+      "zero": 0,
+      "positive": 0,
+      "min": -388.0,
+      "max": -38.0
+    },
+    "phase_minus_fixed_hits": {
+      "negative": 0,
+      "zero": 0,
+      "positive": 24,
+      "min": 22.0,
+      "max": 417.0
+    },
+    "phase_minus_fixed_instructions": {
+      "negative": 4,
+      "zero": 0,
+      "positive": 20,
+      "min": -11.0,
+      "max": 27.0
+    },
+    "phase_minus_fixed_replacements": {
+      "negative": 3,
+      "zero": 1,
+      "positive": 20,
+      "min": -1.0,
+      "max": 23.0
+    },
+    "phase_minus_suppress_J": {
+      "negative": 24,
+      "zero": 0,
+      "positive": 0,
+      "min": -2428.0,
+      "max": -994.0
+    },
+    "phase_minus_suppress_WU": {
+      "negative": 0,
+      "zero": 0,
+      "positive": 24,
+      "min": 354.0,
+      "max": 2624.0
+    },
+    "phase_minus_suppress_misses": {
+      "negative": 0,
+      "zero": 0,
+      "positive": 24,
+      "min": 288.0,
+      "max": 2533.0
+    },
+    "phase_minus_suppress_hits": {
+      "negative": 24,
+      "zero": 0,
+      "positive": 0,
+      "min": -2533.0,
+      "max": -288.0
+    },
+    "phase_minus_suppress_instructions": {
+      "negative": 0,
+      "zero": 24,
+      "positive": 0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "phase_minus_suppress_replacements": {
+      "negative": 0,
+      "zero": 0,
+      "positive": 24,
+      "min": 6.0,
+      "max": 60.0
+    }
+  },
+  "caps": [
+    {
+      "cache": "32KiB",
+      "N": 16,
+      "identity": "original training cap",
+      "anchor_frozen_fastest_K": "253,253,253",
+      "anchor_maxJ": 477727.0,
+      "cap_cycles": 478204.727,
+      "fixed_maxJ": 478142.0,
+      "fixed_maxWU": 638.0,
+      "fixed_fits_cap": true,
+      "phase_maxJ": 477808.0,
+      "phase_maxWU": 550.0,
+      "phase_fits_cap": true,
+      "suppress_maxJ": 479417.0,
+      "suppress_maxWU": 196.0,
+      "suppress_fits_cap": false
+    },
+    {
+      "cache": "32KiB",
+      "N": 32,
+      "identity": "same-N postfreeze diagnostic cap",
+      "anchor_frozen_fastest_K": "253,253,253",
+      "anchor_maxJ": 2229675.0,
+      "cap_cycles": 2231904.675,
+      "fixed_maxJ": 2233539.0,
+      "fixed_maxWU": 2158.0,
+      "fixed_fits_cap": false,
+      "phase_maxJ": 2233223.0,
+      "phase_maxWU": 1941.0,
+      "phase_fits_cap": false,
+      "suppress_maxJ": 2234531.0,
+      "suppress_maxWU": 508.0,
+      "suppress_fits_cap": false
+    },
+    {
+      "cache": "32KiB",
+      "N": 36,
+      "identity": "same-N postfreeze diagnostic cap",
+      "anchor_frozen_fastest_K": "253,253,253",
+      "anchor_maxJ": 2879417.0,
+      "cap_cycles": 2882296.417,
+      "fixed_maxJ": 2879881.0,
+      "fixed_maxWU": 2705.0,
+      "fixed_fits_cap": true,
+      "phase_maxJ": 2879206.0,
+      "phase_maxWU": 2399.0,
+      "phase_fits_cap": true,
+      "suppress_maxJ": 2880422.0,
+      "suppress_maxWU": 590.0,
+      "suppress_fits_cap": true
+    },
+    {
+      "cache": "32KiB",
+      "N": 40,
+      "identity": "same-N postfreeze diagnostic cap",
+      "anchor_frozen_fastest_K": "253,253,253",
+      "anchor_maxJ": 3599885.0,
+      "cap_cycles": 3603484.885,
+      "fixed_maxJ": 3600441.0,
+      "fixed_maxWU": 3253.0,
+      "fixed_fits_cap": true,
+      "phase_maxJ": 3598769.0,
+      "phase_maxWU": 2902.0,
+      "phase_fits_cap": true,
+      "suppress_maxJ": 3601197.0,
+      "suppress_maxWU": 690.0,
+      "suppress_fits_cap": true
+    },
+    {
+      "cache": "64KiB",
+      "N": 16,
+      "identity": "original training cap",
+      "anchor_frozen_fastest_K": "253,253,253",
+      "anchor_maxJ": 474942.0,
+      "cap_cycles": 475416.942,
+      "fixed_maxJ": 475396.0,
+      "fixed_maxWU": 663.0,
+      "fixed_fits_cap": true,
+      "phase_maxJ": 475486.0,
+      "phase_maxWU": 629.0,
+      "phase_fits_cap": false,
+      "suppress_maxJ": 476664.0,
+      "suppress_maxWU": 195.0,
+      "suppress_fits_cap": false
+    },
+    {
+      "cache": "64KiB",
+      "N": 32,
+      "identity": "same-N postfreeze diagnostic cap",
+      "anchor_frozen_fastest_K": "253,253,253",
+      "anchor_maxJ": 2214431.0,
+      "cap_cycles": 2216645.431,
+      "fixed_maxJ": 2214520.0,
+      "fixed_maxWU": 2309.0,
+      "fixed_fits_cap": true,
+      "phase_maxJ": 2214497.0,
+      "phase_maxWU": 2196.0,
+      "phase_fits_cap": true,
+      "suppress_maxJ": 2215689.0,
+      "suppress_maxWU": 503.0,
+      "suppress_fits_cap": true
+    },
+    {
+      "cache": "64KiB",
+      "N": 36,
+      "identity": "same-N postfreeze diagnostic cap",
+      "anchor_frozen_fastest_K": "253,253,253",
+      "anchor_maxJ": 2849217.0,
+      "cap_cycles": 2852066.217,
+      "fixed_maxJ": 2849369.0,
+      "fixed_maxWU": 2892.0,
+      "fixed_fits_cap": true,
+      "phase_maxJ": 2848892.0,
+      "phase_maxWU": 2741.0,
+      "phase_fits_cap": true,
+      "suppress_maxJ": 2850381.0,
+      "suppress_maxWU": 608.0,
+      "suppress_fits_cap": true
+    },
+    {
+      "cache": "64KiB",
+      "N": 40,
+      "identity": "same-N postfreeze diagnostic cap",
+      "anchor_frozen_fastest_K": "253,253,253",
+      "anchor_maxJ": 3560619.0,
+      "cap_cycles": 3564179.619,
+      "fixed_maxJ": 3560663.0,
+      "fixed_maxWU": 3533.0,
+      "fixed_fits_cap": true,
+      "phase_maxJ": 3562217.0,
+      "phase_maxWU": 3352.0,
+      "phase_fits_cap": true,
+      "suppress_maxJ": 3563422.0,
+      "suppress_maxWU": 730.0,
+      "suppress_fits_cap": true
+    }
+  ],
+  "frozen_policies_unchanged": true,
+  "scope": "whole-system deterministic counters; neither per-consumer attribution nor timer-only causal isolation nor WCET",
+  "signed_epoch_counts": {
+    "phase-minus-fixed": {
+      "J": {
+        "negative": 41,
+        "zero": 10,
+        "positive": 45
+      },
+      "instructions": {
+        "negative": 30,
+        "zero": 10,
+        "positive": 56
+      },
+      "WU": {
+        "negative": 61,
+        "zero": 14,
+        "positive": 21
+      },
+      "misses": {
+        "negative": 63,
+        "zero": 10,
+        "positive": 23
+      },
+      "hits": {
+        "negative": 30,
+        "zero": 10,
+        "positive": 56
+      },
+      "replacements": {
+        "negative": 14,
+        "zero": 44,
+        "positive": 38
+      }
+    },
+    "phase-minus-suppress": {
+      "J": {
+        "negative": 40,
+        "zero": 34,
+        "positive": 22
+      },
+      "instructions": {
+        "negative": 27,
+        "zero": 36,
+        "positive": 33
+      },
+      "WU": {
+        "negative": 0,
+        "zero": 48,
+        "positive": 48
+      },
+      "misses": {
+        "negative": 6,
+        "zero": 33,
+        "positive": 57
+      },
+      "hits": {
+        "negative": 27,
+        "zero": 33,
+        "positive": 36
+      },
+      "replacements": {
+        "negative": 9,
+        "zero": 45,
+        "positive": 42
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "source_bundle": "R22 public research/r18-validation-v1/complete-fir-cost-sensitivity-v1",
+  "inputs": {
+    "replacement_model.py": {
+      "source_relative_to_R22": "editable-source/research/r18-validation-v1/complete-fir-cost-sensitivity-v1/replacement_model.py",
+      "sha256": "f699501b5d1d10288a9bbb54bc7d3aa2fc9102234e920c691cf1ebc842a06863"
+    },
+    "interlocked_closed_loop_protocol.json": {
+      "source_relative_to_R22": "editable-source/research/r18-validation-v1/complete-fir-cost-sensitivity-v1/interlocked_closed_loop_protocol.json",
+      "sha256": "0a13ad376c39b1864b52808185a726e0a5d2045f0f551667910fc35e868494ff"
+    },
+    "PROTOCOL.json": {
+      "source_relative_to_R22": "editable-source/research/r18-validation-v1/complete-fir-cost-sensitivity-v1/PROTOCOL.json",
+      "sha256": "ccf2e2864fceec29e0da7f3c8668bb52988a89e6b7886df020bd4b689af7b9a9"
+    },
+    "fir2dim-original.c": {
+      "source_relative_to_R22": "editable-source/research/r18-validation-v1/complete-fir-cost-sensitivity-v1/fir2dim-original.c",
+      "sha256": "c0f06e2396560c61417d70950360604207f37a144b900b3bb3d186f6a51d7cec"
+    },
+    "fir2dim-all-data.c": {
+      "source_relative_to_R22": "editable-source/research/r18-validation-v1/complete-fir-cost-sensitivity-v1/fir2dim-all-data.c",
+      "sha256": "470c9b6b56e3023efb64b6daa2ba069a28ecc55ee04d018d37c9e589c7e4b88f"
+    },
+    "UPSTREAM.json": {
+      "source_relative_to_R22": "editable-source/research/r18-validation-v1/complete-fir-cost-sensitivity-v1/UPSTREAM.json",
+      "sha256": "41d4e4767efa9d6b4123eee92532aa87d1a305a194de4d4b70cfefdda4dd626a"
+    },
+    "run_sensitivity.py": {
+      "source_relative_to_R22": "editable-source/research/r18-validation-v1/complete-fir-cost-sensitivity-v1/run_sensitivity.py",
+      "sha256": "71d8ee6728e5e6c216b15fe20adfc1fe70c58fde9c6a8005b11464f9b90cc6d6"
+    },
+    "ALL_DATA_TRACE.json": {
+      "source_archive_sha256": "e4a39fe4bbbe2fcb679a264bda677fa8de9d0b2a8314f51a3604a6dddee792c1",
+      "source_member": "ALL_DATA_TRACE.json",
+      "sha256": "6b06e013ebf84bb641007c5982913aaa12e36eee68f17c12be446b41155f5279"
+    },
+    "COMPILE_AUDIT.json": {
+      "source_archive_sha256": "e4a39fe4bbbe2fcb679a264bda677fa8de9d0b2a8314f51a3604a6dddee792c1",
+      "source_member": "COMPILE_AUDIT.json",
+      "sha256": "efa4915ab76cdfd1d66a317cfc42c12f8e337fa4d1bc0154c6056754df7347d5"
+    },
+    "FROZEN_EXPECTED.json": {
+      "sha256": "54eb4897c5a6422969fef577f446aee45db8fcbc5d475a728adfcf93473606e8"
+    },
+    "ASSUMPTIONS.json": {
+      "sha256": "262666977e6847b118c9daf0977b083c25b302d03b5d66aeed58e897d0310514"
+    }
+  }
+}

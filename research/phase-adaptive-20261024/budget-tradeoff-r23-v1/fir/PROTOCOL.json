@@ -1,0 +1,84 @@
+{
+  "frozen_at_utc": "2026-10-24T15:18:32.587077+00:00",
+  "status": "frozen_before_new_cost_grid_execution",
+  "question": "How does the same complete FIR2DIM path carry-in bound compare with a reset bound as supplied non-data, private-data and marker-helper costs increase?",
+  "source_entry": "fir2dim_main including both pin_down calls and final checksum assignment; fir2dim_init and outer return wrapper excluded",
+  "source_accounting": {
+    "all_explicit_global_data_accesses": 782,
+    "shared_input_reads": 145,
+    "private_data_accesses": 637,
+    "serial_preparation_cleanup_data_accesses": 186,
+    "concurrent_body_data_accesses": 596
+  },
+  "compute_cycles_per_source_data_interval": [
+    1,
+    4,
+    16,
+    64
+  ],
+  "private_data_service_cycles": [
+    1,
+    4,
+    16
+  ],
+  "marker_helper_cycles": [
+    4,
+    8
+  ],
+  "grid_cells": 24,
+  "phase_loads": [
+    254,
+    16,
+    1
+  ],
+  "period": 10,
+  "geometry": {
+    "sets": 1,
+    "ways": 2,
+    "block_bytes": 64
+  },
+  "writer_stores": 192,
+  "writer_gap": 4,
+  "decrement_phases": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "expected_model_executions": 240,
+  "cost_mapping": "Every explicit source data event gets its supplied comprehensive non-data compute interval. Nonshared data additionally gets supplied private service; the two noninitial markers each get helper cost, even if loads were equal. Both actual load changes additionally get one registered-write cycle. Preparation and cleanup are serial, each 93 private data events, and are added identically to both analyses and executions.",
+  "comparison": "Identical source events, costs, partition, phase loads and co-runner for carry versus reset analysis. Only retained expiry analysis state changes. Execution uses the carry analysis prediction certificate; reset is a static comparison, not a second physical policy.",
+  "metrics": [
+    "complete receiver-work carry/reset bounds",
+    "absolute and fractional bound decrease",
+    "shared-memory carry/reset bounds",
+    "non-data/private/helper/write decomposition",
+    "all ten execution-model receiver-work observations",
+    "all ten joint model completions",
+    "predicted-hit safety and service assertions",
+    "integer receiver-only budget interval admitted by carry but not reset"
+  ],
+  "admission_interpretation": "If carry W < reset W, receiver-only budgets B in [carry W, reset W-1] admit this fixed phase policy only under carry. No particular application deadline is invented, and the interval is not a whole fork/join deadline.",
+  "selection": "No new policy selection or deadline selection. The phase tuple and geometry are the pre-existing same-path comparison; all 24 cost combinations and all ten decrement phases are retained.",
+  "scope": "Supplied deterministic timing envelopes in the unchanged execution-driven two-client model. These numbers are neither measured target-processor compute/private WCET bounds nor native program acceleration. The observations pair execution-model costs with the same supplied map, not hardware measurements.",
+  "repeat_interpretation": "The ten decrement phases are an exhaustive deterministic sensitivity axis, not independent statistical replicates.",
+  "input_sha256": {
+    "replacement_model.py": "f699501b5d1d10288a9bbb54bc7d3aa2fc9102234e920c691cf1ebc842a06863",
+    "interlocked_closed_loop_protocol.json": "0a13ad376c39b1864b52808185a726e0a5d2045f0f551667910fc35e868494ff",
+    "ALL_DATA_TRACE.json": "6b06e013ebf84bb641007c5982913aaa12e36eee68f17c12be446b41155f5279",
+    "fir2dim-original.c": "c0f06e2396560c61417d70950360604207f37a144b900b3bb3d186f6a51d7cec",
+    "fir2dim-all-data.c": "470c9b6b56e3023efb64b6daa2ba069a28ecc55ee04d018d37c9e589c7e4b88f",
+    "UPSTREAM.json": "41d4e4767efa9d6b4123eee92532aa87d1a305a194de4d4b70cfefdda4dd626a",
+    "COMPILE_AUDIT.json": "efa4915ab76cdfd1d66a317cfc42c12f8e337fa4d1bc0154c6056754df7347d5"
+  },
+  "git_lf_export": {
+    "original_protocol_sha256": "8f5601925f73600846c05d794d2d9727d4fdb981ffb9ae132de92414109623da",
+    "transformation": "Text LF serialization only; rehash normalized inputs; original experimental plan and all metrics unchanged."
+  }
+}

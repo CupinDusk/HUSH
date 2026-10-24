@@ -1,0 +1,62 @@
+{
+  "schema": "hush-fir-budget-assumptions-v1",
+  "primary_map": {
+    "compute_cycles_per_explicit_data_event": 4,
+    "private_data_service_cycles": 1,
+    "noninitial_marker_helper_cycles": 4
+  },
+  "additional_check_map": {
+    "compute_cycles_per_explicit_data_event": 1,
+    "private_data_service_cycles": 1,
+    "noninitial_marker_helper_cycles": 4
+  },
+  "phase_loads": [
+    254,
+    16,
+    1
+  ],
+  "period_cycles": 10,
+  "geometry": {
+    "sets": 1,
+    "ways": 2,
+    "block_bytes": 64,
+    "float_bytes": 4,
+    "shared_blocks": 3
+  },
+  "service_contract": {
+    "clients": 2,
+    "one_outstanding_per_client": true,
+    "pending_miss_blocks_new_private_admission": true,
+    "round_robin": true,
+    "nonpreemptive": true,
+    "private_store_cycles": 1,
+    "update_slot_cycles": 10,
+    "miss_slot_cycles": 60,
+    "configuration_collision_residual_cycles": 1,
+    "local_hit_cycles": 1,
+    "configuration_write_cycles": 1
+  },
+  "writer": {
+    "stores": 192,
+    "compute_gap": 4
+  },
+  "decrement_phases": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "compute_provenance": "User-given comprehensive upper bound on all non-data computation between explicit global-data events; includes address, loop/control and arithmetic work. No target-CPU extraction is asserted.",
+  "private_provenance": "User-given private-data service bound in a disjoint clean private partition; stack/spill/instruction effects must be included in the supplied comprehensive bounds. No platform calibration is asserted.",
+  "helper_provenance": "User-given upper bound per noninitial marker, paid twice; two actual registered load changes separately cost one cycle each.",
+  "source_scope": "fir2dim_main, both pin_down calls and checksum assignment; excludes fir2dim_init, outer entry/return wrapper; 782 explicit global-data accesses, not all machine memory accesses.",
+  "execution_scope": "Independent cycle-level two-client model observation, not hardware or native four-client WCET. Serial preparation/cleanup added identically; reset is analysis-only and does not change physical policy.",
+  "budget": null,
+  "budget_interpretation": "User supplies receiver-only B. Carry admits iff Wcarry<=B. Any reported interval is derived from Wcarry/Wreset, not a predeclared application deadline."
+}

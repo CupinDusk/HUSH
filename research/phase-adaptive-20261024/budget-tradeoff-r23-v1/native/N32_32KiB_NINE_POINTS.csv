@@ -1,0 +1,10 @@
+cache,N,phi,kind,K,J,instructions,WU,misses,hits,replacements,timeout_writes,suppressed_timeout_writes,nominal_helper_calls,nominal_helper_quiesce_cycles,deployed,origin,pareto_among_frozen_triple
+32KiB,32,0,fixed,"3,3,3",2230986.0,1859714.0,2139.0,4298.0,2751170.0,777.0,0,0,0,0,False,R20 frozen original,True
+32KiB,32,0,phase,"1,128,1",2233223.0,1859730.0,1941.0,4104.0,2751393.0,800.0,8,0,2,16,True,R20 frozen original,True
+32KiB,32,0,suppress,"1,128,1",2234531.0,1859730.0,505.0,2745.0,2752752.0,783.0,0,8,2,16,False,R20 frozen original,True
+32KiB,32,127,fixed,"3,3,3",2230753.0,1859714.0,2158.0,4311.0,2751157.0,777.0,0,0,0,0,False,R20 frozen original,True
+32KiB,32,127,phase,"1,128,1",2233223.0,1859730.0,1941.0,4104.0,2751393.0,800.0,8,0,2,16,True,R20 frozen original,True
+32KiB,32,127,suppress,"1,128,1",2234531.0,1859730.0,505.0,2745.0,2752752.0,783.0,0,8,2,16,False,R20 frozen original,True
+32KiB,32,64,fixed,"3,3,3",2233539.0,1859714.0,2098.0,4295.0,2751173.0,794.0,0,0,0,0,False,R20 frozen original,False
+32KiB,32,64,phase,"1,128,1",2233223.0,1859730.0,1941.0,4104.0,2751393.0,800.0,8,0,2,16,True,R20 frozen original,True
+32KiB,32,64,suppress,"1,128,1",2234303.0,1859730.0,508.0,2749.0,2752748.0,783.0,0,8,2,16,False,R20 frozen original,True
