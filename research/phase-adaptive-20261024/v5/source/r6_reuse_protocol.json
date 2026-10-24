@@ -1,0 +1,14 @@
+{
+  "status": "prospective_before_execution",
+  "date": "2026-10-24",
+  "purpose": "R5 reviewers request reuse of a selected path under changed writer behavior without retuning",
+  "selection_source": "all79 configurations and all8 margins from frozen INTERLOCKED_TIGHT_BUDGET_RESULTS.json",
+  "selected_policies": "reuse each selected phase path and selected fixed-maintenance load/flush mask exactly as saved; do not search again",
+  "writer_gaps": [1, 7, 16],
+  "tick_phases": [0, "P-1"],
+  "writer_count": "same64q as original selection",
+  "controls": "both free reader-end release; reuse the fixed comparator's selected free boundary-flush subset",
+  "admission": "same original budget, source service contract, and same path bounds; no budget inflation",
+  "reporting": "retain all executions, wins/ties/losses, deadline/validity assertions and full-sweep denominators; characterize timing regimes without claiming a prespecified favorable subgroup",
+  "scope": "same synthetic architecture model, configuration-reuse sensitivity; not application diversity, not a new globally optimal fixed comparator at each held-out writer gap"
+}
