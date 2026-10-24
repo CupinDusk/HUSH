@@ -1,0 +1,143 @@
+{
+  "frozen_before_native_N12_N16": true,
+  "training_receipt_sha256": "f3fd519fd4431caa7cdac0323801c0a5833d18f4e8e90261f2c36073a9acb00a",
+  "rule": "lexicographic minimum whole-program ROI cycles then K, separate fixed and nonconstant phase; no retuning after validation",
+  "rows": [
+    {
+      "cache": "4KiB",
+      "perline": 64,
+      "pattern": 0,
+      "fixed": [
+        512,
+        512,
+        512
+      ],
+      "phase": [
+        512,
+        512,
+        8
+      ],
+      "training_fixed_cycles": 128976.0,
+      "training_phase_cycles": 128979.0
+    },
+    {
+      "cache": "4KiB",
+      "perline": 64,
+      "pattern": 1,
+      "fixed": [
+        8,
+        8,
+        8
+      ],
+      "phase": [
+        8,
+        8,
+        64
+      ],
+      "training_fixed_cycles": 124128.0,
+      "training_phase_cycles": 124124.0
+    },
+    {
+      "cache": "4KiB",
+      "perline": 256,
+      "pattern": 0,
+      "fixed": [
+        512,
+        512,
+        512
+      ],
+      "phase": [
+        512,
+        512,
+        8
+      ],
+      "training_fixed_cycles": 483792.0,
+      "training_phase_cycles": 483795.0
+    },
+    {
+      "cache": "4KiB",
+      "perline": 256,
+      "pattern": 1,
+      "fixed": [
+        8,
+        8,
+        8
+      ],
+      "phase": [
+        8,
+        8,
+        64
+      ],
+      "training_fixed_cycles": 465120.0,
+      "training_phase_cycles": 465116.0
+    },
+    {
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "fixed": [
+        512,
+        512,
+        512
+      ],
+      "phase": [
+        512,
+        512,
+        8
+      ],
+      "training_fixed_cycles": 126865.0,
+      "training_phase_cycles": 126965.0
+    },
+    {
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "fixed": [
+        8,
+        8,
+        8
+      ],
+      "phase": [
+        8,
+        8,
+        64
+      ],
+      "training_fixed_cycles": 122002.0,
+      "training_phase_cycles": 121999.0
+    },
+    {
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "fixed": [
+        512,
+        512,
+        512
+      ],
+      "phase": [
+        512,
+        512,
+        8
+      ],
+      "training_fixed_cycles": 481681.0,
+      "training_phase_cycles": 481781.0
+    },
+    {
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "fixed": [
+        8,
+        8,
+        8
+      ],
+      "phase": [
+        8,
+        8,
+        64
+      ],
+      "training_fixed_cycles": 462994.0,
+      "training_phase_cycles": 462991.0
+    }
+  ]
+}

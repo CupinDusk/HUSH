@@ -1,0 +1,2406 @@
+{
+  "round": "validation-v3",
+  "scope": "heldout full-native-program timing; fixed all five loads; phase selected on N8 only; costs 0/8/16",
+  "cases": [
+    {
+      "N": 12,
+      "cache": "4KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n12-4KiB-p64-l0-fixed8",
+      "K": [
+        8,
+        8,
+        8
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 12,
+      "cache": "4KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n12-4KiB-p64-l0-fixed64",
+      "K": [
+        64,
+        64,
+        64
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 12,
+      "cache": "4KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n12-4KiB-p64-l0-fixed512",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 12,
+      "cache": "4KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n12-4KiB-p64-l0-fixed4096",
+      "K": [
+        4096,
+        4096,
+        4096
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 12,
+      "cache": "4KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n12-4KiB-p64-l0-fixed65536",
+      "K": [
+        65536,
+        65536,
+        65536
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 12,
+      "cache": "4KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n12-4KiB-p64-l0-phase-c0",
+      "K": [
+        512,
+        512,
+        8
+      ],
+      "cost": 0,
+      "kind": "selected-phase"
+    },
+    {
+      "N": 12,
+      "cache": "4KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n12-4KiB-p64-l0-phase-c8",
+      "K": [
+        512,
+        512,
+        8
+      ],
+      "cost": 8,
+      "kind": "selected-phase"
+    },
+    {
+      "N": 12,
+      "cache": "4KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n12-4KiB-p64-l0-phase-c16",
+      "K": [
+        512,
+        512,
+        8
+      ],
+      "cost": 16,
+      "kind": "selected-phase"
+    },
+    {
+      "N": 12,
+      "cache": "4KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "predictable-wi",
+      "id": "n12-4KiB-p64-l0-predictable-wi",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 0,
+      "kind": "control"
+    },
+    {
+      "N": 12,
+      "cache": "4KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "wu-of",
+      "id": "n12-4KiB-p64-l0-wu-of",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 0,
+      "kind": "control"
+    },
+    {
+      "N": 16,
+      "cache": "4KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n16-4KiB-p64-l0-fixed8",
+      "K": [
+        8,
+        8,
+        8
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 16,
+      "cache": "4KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n16-4KiB-p64-l0-fixed64",
+      "K": [
+        64,
+        64,
+        64
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 16,
+      "cache": "4KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n16-4KiB-p64-l0-fixed512",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 16,
+      "cache": "4KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n16-4KiB-p64-l0-fixed4096",
+      "K": [
+        4096,
+        4096,
+        4096
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 16,
+      "cache": "4KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n16-4KiB-p64-l0-fixed65536",
+      "K": [
+        65536,
+        65536,
+        65536
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 16,
+      "cache": "4KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n16-4KiB-p64-l0-phase-c0",
+      "K": [
+        512,
+        512,
+        8
+      ],
+      "cost": 0,
+      "kind": "selected-phase"
+    },
+    {
+      "N": 16,
+      "cache": "4KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n16-4KiB-p64-l0-phase-c8",
+      "K": [
+        512,
+        512,
+        8
+      ],
+      "cost": 8,
+      "kind": "selected-phase"
+    },
+    {
+      "N": 16,
+      "cache": "4KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n16-4KiB-p64-l0-phase-c16",
+      "K": [
+        512,
+        512,
+        8
+      ],
+      "cost": 16,
+      "kind": "selected-phase"
+    },
+    {
+      "N": 16,
+      "cache": "4KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "predictable-wi",
+      "id": "n16-4KiB-p64-l0-predictable-wi",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 0,
+      "kind": "control"
+    },
+    {
+      "N": 16,
+      "cache": "4KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "wu-of",
+      "id": "n16-4KiB-p64-l0-wu-of",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 0,
+      "kind": "control"
+    },
+    {
+      "N": 12,
+      "cache": "4KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n12-4KiB-p64-l1-fixed8",
+      "K": [
+        8,
+        8,
+        8
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 12,
+      "cache": "4KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n12-4KiB-p64-l1-fixed64",
+      "K": [
+        64,
+        64,
+        64
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 12,
+      "cache": "4KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n12-4KiB-p64-l1-fixed512",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 12,
+      "cache": "4KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n12-4KiB-p64-l1-fixed4096",
+      "K": [
+        4096,
+        4096,
+        4096
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 12,
+      "cache": "4KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n12-4KiB-p64-l1-fixed65536",
+      "K": [
+        65536,
+        65536,
+        65536
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 12,
+      "cache": "4KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n12-4KiB-p64-l1-phase-c0",
+      "K": [
+        8,
+        8,
+        64
+      ],
+      "cost": 0,
+      "kind": "selected-phase"
+    },
+    {
+      "N": 12,
+      "cache": "4KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n12-4KiB-p64-l1-phase-c8",
+      "K": [
+        8,
+        8,
+        64
+      ],
+      "cost": 8,
+      "kind": "selected-phase"
+    },
+    {
+      "N": 12,
+      "cache": "4KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n12-4KiB-p64-l1-phase-c16",
+      "K": [
+        8,
+        8,
+        64
+      ],
+      "cost": 16,
+      "kind": "selected-phase"
+    },
+    {
+      "N": 12,
+      "cache": "4KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "predictable-wi",
+      "id": "n12-4KiB-p64-l1-predictable-wi",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 0,
+      "kind": "control"
+    },
+    {
+      "N": 12,
+      "cache": "4KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "wu-of",
+      "id": "n12-4KiB-p64-l1-wu-of",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 0,
+      "kind": "control"
+    },
+    {
+      "N": 16,
+      "cache": "4KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n16-4KiB-p64-l1-fixed8",
+      "K": [
+        8,
+        8,
+        8
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 16,
+      "cache": "4KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n16-4KiB-p64-l1-fixed64",
+      "K": [
+        64,
+        64,
+        64
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 16,
+      "cache": "4KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n16-4KiB-p64-l1-fixed512",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 16,
+      "cache": "4KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n16-4KiB-p64-l1-fixed4096",
+      "K": [
+        4096,
+        4096,
+        4096
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 16,
+      "cache": "4KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n16-4KiB-p64-l1-fixed65536",
+      "K": [
+        65536,
+        65536,
+        65536
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 16,
+      "cache": "4KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n16-4KiB-p64-l1-phase-c0",
+      "K": [
+        8,
+        8,
+        64
+      ],
+      "cost": 0,
+      "kind": "selected-phase"
+    },
+    {
+      "N": 16,
+      "cache": "4KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n16-4KiB-p64-l1-phase-c8",
+      "K": [
+        8,
+        8,
+        64
+      ],
+      "cost": 8,
+      "kind": "selected-phase"
+    },
+    {
+      "N": 16,
+      "cache": "4KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n16-4KiB-p64-l1-phase-c16",
+      "K": [
+        8,
+        8,
+        64
+      ],
+      "cost": 16,
+      "kind": "selected-phase"
+    },
+    {
+      "N": 16,
+      "cache": "4KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "predictable-wi",
+      "id": "n16-4KiB-p64-l1-predictable-wi",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 0,
+      "kind": "control"
+    },
+    {
+      "N": 16,
+      "cache": "4KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "wu-of",
+      "id": "n16-4KiB-p64-l1-wu-of",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 0,
+      "kind": "control"
+    },
+    {
+      "N": 12,
+      "cache": "4KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n12-4KiB-p256-l0-fixed8",
+      "K": [
+        8,
+        8,
+        8
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 12,
+      "cache": "4KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n12-4KiB-p256-l0-fixed64",
+      "K": [
+        64,
+        64,
+        64
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 12,
+      "cache": "4KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n12-4KiB-p256-l0-fixed512",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 12,
+      "cache": "4KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n12-4KiB-p256-l0-fixed4096",
+      "K": [
+        4096,
+        4096,
+        4096
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 12,
+      "cache": "4KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n12-4KiB-p256-l0-fixed65536",
+      "K": [
+        65536,
+        65536,
+        65536
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 12,
+      "cache": "4KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n12-4KiB-p256-l0-phase-c0",
+      "K": [
+        512,
+        512,
+        8
+      ],
+      "cost": 0,
+      "kind": "selected-phase"
+    },
+    {
+      "N": 12,
+      "cache": "4KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n12-4KiB-p256-l0-phase-c8",
+      "K": [
+        512,
+        512,
+        8
+      ],
+      "cost": 8,
+      "kind": "selected-phase"
+    },
+    {
+      "N": 12,
+      "cache": "4KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n12-4KiB-p256-l0-phase-c16",
+      "K": [
+        512,
+        512,
+        8
+      ],
+      "cost": 16,
+      "kind": "selected-phase"
+    },
+    {
+      "N": 12,
+      "cache": "4KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "predictable-wi",
+      "id": "n12-4KiB-p256-l0-predictable-wi",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 0,
+      "kind": "control"
+    },
+    {
+      "N": 12,
+      "cache": "4KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "wu-of",
+      "id": "n12-4KiB-p256-l0-wu-of",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 0,
+      "kind": "control"
+    },
+    {
+      "N": 16,
+      "cache": "4KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n16-4KiB-p256-l0-fixed8",
+      "K": [
+        8,
+        8,
+        8
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 16,
+      "cache": "4KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n16-4KiB-p256-l0-fixed64",
+      "K": [
+        64,
+        64,
+        64
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 16,
+      "cache": "4KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n16-4KiB-p256-l0-fixed512",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 16,
+      "cache": "4KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n16-4KiB-p256-l0-fixed4096",
+      "K": [
+        4096,
+        4096,
+        4096
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 16,
+      "cache": "4KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n16-4KiB-p256-l0-fixed65536",
+      "K": [
+        65536,
+        65536,
+        65536
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 16,
+      "cache": "4KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n16-4KiB-p256-l0-phase-c0",
+      "K": [
+        512,
+        512,
+        8
+      ],
+      "cost": 0,
+      "kind": "selected-phase"
+    },
+    {
+      "N": 16,
+      "cache": "4KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n16-4KiB-p256-l0-phase-c8",
+      "K": [
+        512,
+        512,
+        8
+      ],
+      "cost": 8,
+      "kind": "selected-phase"
+    },
+    {
+      "N": 16,
+      "cache": "4KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n16-4KiB-p256-l0-phase-c16",
+      "K": [
+        512,
+        512,
+        8
+      ],
+      "cost": 16,
+      "kind": "selected-phase"
+    },
+    {
+      "N": 16,
+      "cache": "4KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "predictable-wi",
+      "id": "n16-4KiB-p256-l0-predictable-wi",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 0,
+      "kind": "control"
+    },
+    {
+      "N": 16,
+      "cache": "4KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "wu-of",
+      "id": "n16-4KiB-p256-l0-wu-of",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 0,
+      "kind": "control"
+    },
+    {
+      "N": 12,
+      "cache": "4KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n12-4KiB-p256-l1-fixed8",
+      "K": [
+        8,
+        8,
+        8
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 12,
+      "cache": "4KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n12-4KiB-p256-l1-fixed64",
+      "K": [
+        64,
+        64,
+        64
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 12,
+      "cache": "4KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n12-4KiB-p256-l1-fixed512",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 12,
+      "cache": "4KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n12-4KiB-p256-l1-fixed4096",
+      "K": [
+        4096,
+        4096,
+        4096
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 12,
+      "cache": "4KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n12-4KiB-p256-l1-fixed65536",
+      "K": [
+        65536,
+        65536,
+        65536
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 12,
+      "cache": "4KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n12-4KiB-p256-l1-phase-c0",
+      "K": [
+        8,
+        8,
+        64
+      ],
+      "cost": 0,
+      "kind": "selected-phase"
+    },
+    {
+      "N": 12,
+      "cache": "4KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n12-4KiB-p256-l1-phase-c8",
+      "K": [
+        8,
+        8,
+        64
+      ],
+      "cost": 8,
+      "kind": "selected-phase"
+    },
+    {
+      "N": 12,
+      "cache": "4KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n12-4KiB-p256-l1-phase-c16",
+      "K": [
+        8,
+        8,
+        64
+      ],
+      "cost": 16,
+      "kind": "selected-phase"
+    },
+    {
+      "N": 12,
+      "cache": "4KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "predictable-wi",
+      "id": "n12-4KiB-p256-l1-predictable-wi",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 0,
+      "kind": "control"
+    },
+    {
+      "N": 12,
+      "cache": "4KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "wu-of",
+      "id": "n12-4KiB-p256-l1-wu-of",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 0,
+      "kind": "control"
+    },
+    {
+      "N": 16,
+      "cache": "4KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n16-4KiB-p256-l1-fixed8",
+      "K": [
+        8,
+        8,
+        8
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 16,
+      "cache": "4KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n16-4KiB-p256-l1-fixed64",
+      "K": [
+        64,
+        64,
+        64
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 16,
+      "cache": "4KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n16-4KiB-p256-l1-fixed512",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 16,
+      "cache": "4KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n16-4KiB-p256-l1-fixed4096",
+      "K": [
+        4096,
+        4096,
+        4096
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 16,
+      "cache": "4KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n16-4KiB-p256-l1-fixed65536",
+      "K": [
+        65536,
+        65536,
+        65536
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 16,
+      "cache": "4KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n16-4KiB-p256-l1-phase-c0",
+      "K": [
+        8,
+        8,
+        64
+      ],
+      "cost": 0,
+      "kind": "selected-phase"
+    },
+    {
+      "N": 16,
+      "cache": "4KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n16-4KiB-p256-l1-phase-c8",
+      "K": [
+        8,
+        8,
+        64
+      ],
+      "cost": 8,
+      "kind": "selected-phase"
+    },
+    {
+      "N": 16,
+      "cache": "4KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n16-4KiB-p256-l1-phase-c16",
+      "K": [
+        8,
+        8,
+        64
+      ],
+      "cost": 16,
+      "kind": "selected-phase"
+    },
+    {
+      "N": 16,
+      "cache": "4KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "predictable-wi",
+      "id": "n16-4KiB-p256-l1-predictable-wi",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 0,
+      "kind": "control"
+    },
+    {
+      "N": 16,
+      "cache": "4KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "wu-of",
+      "id": "n16-4KiB-p256-l1-wu-of",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 0,
+      "kind": "control"
+    },
+    {
+      "N": 12,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n12-16KiB-p64-l0-fixed8",
+      "K": [
+        8,
+        8,
+        8
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 12,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n12-16KiB-p64-l0-fixed64",
+      "K": [
+        64,
+        64,
+        64
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 12,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n12-16KiB-p64-l0-fixed512",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 12,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n12-16KiB-p64-l0-fixed4096",
+      "K": [
+        4096,
+        4096,
+        4096
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 12,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n12-16KiB-p64-l0-fixed65536",
+      "K": [
+        65536,
+        65536,
+        65536
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 12,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n12-16KiB-p64-l0-phase-c0",
+      "K": [
+        512,
+        512,
+        8
+      ],
+      "cost": 0,
+      "kind": "selected-phase"
+    },
+    {
+      "N": 12,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n12-16KiB-p64-l0-phase-c8",
+      "K": [
+        512,
+        512,
+        8
+      ],
+      "cost": 8,
+      "kind": "selected-phase"
+    },
+    {
+      "N": 12,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n12-16KiB-p64-l0-phase-c16",
+      "K": [
+        512,
+        512,
+        8
+      ],
+      "cost": 16,
+      "kind": "selected-phase"
+    },
+    {
+      "N": 12,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "predictable-wi",
+      "id": "n12-16KiB-p64-l0-predictable-wi",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 0,
+      "kind": "control"
+    },
+    {
+      "N": 12,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "wu-of",
+      "id": "n12-16KiB-p64-l0-wu-of",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 0,
+      "kind": "control"
+    },
+    {
+      "N": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n16-16KiB-p64-l0-fixed8",
+      "K": [
+        8,
+        8,
+        8
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n16-16KiB-p64-l0-fixed64",
+      "K": [
+        64,
+        64,
+        64
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n16-16KiB-p64-l0-fixed512",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n16-16KiB-p64-l0-fixed4096",
+      "K": [
+        4096,
+        4096,
+        4096
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n16-16KiB-p64-l0-fixed65536",
+      "K": [
+        65536,
+        65536,
+        65536
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n16-16KiB-p64-l0-phase-c0",
+      "K": [
+        512,
+        512,
+        8
+      ],
+      "cost": 0,
+      "kind": "selected-phase"
+    },
+    {
+      "N": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n16-16KiB-p64-l0-phase-c8",
+      "K": [
+        512,
+        512,
+        8
+      ],
+      "cost": 8,
+      "kind": "selected-phase"
+    },
+    {
+      "N": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n16-16KiB-p64-l0-phase-c16",
+      "K": [
+        512,
+        512,
+        8
+      ],
+      "cost": 16,
+      "kind": "selected-phase"
+    },
+    {
+      "N": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "predictable-wi",
+      "id": "n16-16KiB-p64-l0-predictable-wi",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 0,
+      "kind": "control"
+    },
+    {
+      "N": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "wu-of",
+      "id": "n16-16KiB-p64-l0-wu-of",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 0,
+      "kind": "control"
+    },
+    {
+      "N": 12,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n12-16KiB-p64-l1-fixed8",
+      "K": [
+        8,
+        8,
+        8
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 12,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n12-16KiB-p64-l1-fixed64",
+      "K": [
+        64,
+        64,
+        64
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 12,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n12-16KiB-p64-l1-fixed512",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 12,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n12-16KiB-p64-l1-fixed4096",
+      "K": [
+        4096,
+        4096,
+        4096
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 12,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n12-16KiB-p64-l1-fixed65536",
+      "K": [
+        65536,
+        65536,
+        65536
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 12,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n12-16KiB-p64-l1-phase-c0",
+      "K": [
+        8,
+        8,
+        64
+      ],
+      "cost": 0,
+      "kind": "selected-phase"
+    },
+    {
+      "N": 12,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n12-16KiB-p64-l1-phase-c8",
+      "K": [
+        8,
+        8,
+        64
+      ],
+      "cost": 8,
+      "kind": "selected-phase"
+    },
+    {
+      "N": 12,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n12-16KiB-p64-l1-phase-c16",
+      "K": [
+        8,
+        8,
+        64
+      ],
+      "cost": 16,
+      "kind": "selected-phase"
+    },
+    {
+      "N": 12,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "predictable-wi",
+      "id": "n12-16KiB-p64-l1-predictable-wi",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 0,
+      "kind": "control"
+    },
+    {
+      "N": 12,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "wu-of",
+      "id": "n12-16KiB-p64-l1-wu-of",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 0,
+      "kind": "control"
+    },
+    {
+      "N": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n16-16KiB-p64-l1-fixed8",
+      "K": [
+        8,
+        8,
+        8
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n16-16KiB-p64-l1-fixed64",
+      "K": [
+        64,
+        64,
+        64
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n16-16KiB-p64-l1-fixed512",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n16-16KiB-p64-l1-fixed4096",
+      "K": [
+        4096,
+        4096,
+        4096
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n16-16KiB-p64-l1-fixed65536",
+      "K": [
+        65536,
+        65536,
+        65536
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n16-16KiB-p64-l1-phase-c0",
+      "K": [
+        8,
+        8,
+        64
+      ],
+      "cost": 0,
+      "kind": "selected-phase"
+    },
+    {
+      "N": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n16-16KiB-p64-l1-phase-c8",
+      "K": [
+        8,
+        8,
+        64
+      ],
+      "cost": 8,
+      "kind": "selected-phase"
+    },
+    {
+      "N": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n16-16KiB-p64-l1-phase-c16",
+      "K": [
+        8,
+        8,
+        64
+      ],
+      "cost": 16,
+      "kind": "selected-phase"
+    },
+    {
+      "N": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "predictable-wi",
+      "id": "n16-16KiB-p64-l1-predictable-wi",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 0,
+      "kind": "control"
+    },
+    {
+      "N": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "wu-of",
+      "id": "n16-16KiB-p64-l1-wu-of",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 0,
+      "kind": "control"
+    },
+    {
+      "N": 12,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n12-16KiB-p256-l0-fixed8",
+      "K": [
+        8,
+        8,
+        8
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 12,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n12-16KiB-p256-l0-fixed64",
+      "K": [
+        64,
+        64,
+        64
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 12,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n12-16KiB-p256-l0-fixed512",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 12,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n12-16KiB-p256-l0-fixed4096",
+      "K": [
+        4096,
+        4096,
+        4096
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 12,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n12-16KiB-p256-l0-fixed65536",
+      "K": [
+        65536,
+        65536,
+        65536
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 12,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n12-16KiB-p256-l0-phase-c0",
+      "K": [
+        512,
+        512,
+        8
+      ],
+      "cost": 0,
+      "kind": "selected-phase"
+    },
+    {
+      "N": 12,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n12-16KiB-p256-l0-phase-c8",
+      "K": [
+        512,
+        512,
+        8
+      ],
+      "cost": 8,
+      "kind": "selected-phase"
+    },
+    {
+      "N": 12,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n12-16KiB-p256-l0-phase-c16",
+      "K": [
+        512,
+        512,
+        8
+      ],
+      "cost": 16,
+      "kind": "selected-phase"
+    },
+    {
+      "N": 12,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "predictable-wi",
+      "id": "n12-16KiB-p256-l0-predictable-wi",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 0,
+      "kind": "control"
+    },
+    {
+      "N": 12,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "wu-of",
+      "id": "n12-16KiB-p256-l0-wu-of",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 0,
+      "kind": "control"
+    },
+    {
+      "N": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n16-16KiB-p256-l0-fixed8",
+      "K": [
+        8,
+        8,
+        8
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n16-16KiB-p256-l0-fixed64",
+      "K": [
+        64,
+        64,
+        64
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n16-16KiB-p256-l0-fixed512",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n16-16KiB-p256-l0-fixed4096",
+      "K": [
+        4096,
+        4096,
+        4096
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n16-16KiB-p256-l0-fixed65536",
+      "K": [
+        65536,
+        65536,
+        65536
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n16-16KiB-p256-l0-phase-c0",
+      "K": [
+        512,
+        512,
+        8
+      ],
+      "cost": 0,
+      "kind": "selected-phase"
+    },
+    {
+      "N": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n16-16KiB-p256-l0-phase-c8",
+      "K": [
+        512,
+        512,
+        8
+      ],
+      "cost": 8,
+      "kind": "selected-phase"
+    },
+    {
+      "N": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "id": "n16-16KiB-p256-l0-phase-c16",
+      "K": [
+        512,
+        512,
+        8
+      ],
+      "cost": 16,
+      "kind": "selected-phase"
+    },
+    {
+      "N": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "predictable-wi",
+      "id": "n16-16KiB-p256-l0-predictable-wi",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 0,
+      "kind": "control"
+    },
+    {
+      "N": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "wu-of",
+      "id": "n16-16KiB-p256-l0-wu-of",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 0,
+      "kind": "control"
+    },
+    {
+      "N": 12,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n12-16KiB-p256-l1-fixed8",
+      "K": [
+        8,
+        8,
+        8
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 12,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n12-16KiB-p256-l1-fixed64",
+      "K": [
+        64,
+        64,
+        64
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 12,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n12-16KiB-p256-l1-fixed512",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 12,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n12-16KiB-p256-l1-fixed4096",
+      "K": [
+        4096,
+        4096,
+        4096
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 12,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n12-16KiB-p256-l1-fixed65536",
+      "K": [
+        65536,
+        65536,
+        65536
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 12,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n12-16KiB-p256-l1-phase-c0",
+      "K": [
+        8,
+        8,
+        64
+      ],
+      "cost": 0,
+      "kind": "selected-phase"
+    },
+    {
+      "N": 12,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n12-16KiB-p256-l1-phase-c8",
+      "K": [
+        8,
+        8,
+        64
+      ],
+      "cost": 8,
+      "kind": "selected-phase"
+    },
+    {
+      "N": 12,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n12-16KiB-p256-l1-phase-c16",
+      "K": [
+        8,
+        8,
+        64
+      ],
+      "cost": 16,
+      "kind": "selected-phase"
+    },
+    {
+      "N": 12,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "predictable-wi",
+      "id": "n12-16KiB-p256-l1-predictable-wi",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 0,
+      "kind": "control"
+    },
+    {
+      "N": 12,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "wu-of",
+      "id": "n12-16KiB-p256-l1-wu-of",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 0,
+      "kind": "control"
+    },
+    {
+      "N": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n16-16KiB-p256-l1-fixed8",
+      "K": [
+        8,
+        8,
+        8
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n16-16KiB-p256-l1-fixed64",
+      "K": [
+        64,
+        64,
+        64
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n16-16KiB-p256-l1-fixed512",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n16-16KiB-p256-l1-fixed4096",
+      "K": [
+        4096,
+        4096,
+        4096
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n16-16KiB-p256-l1-fixed65536",
+      "K": [
+        65536,
+        65536,
+        65536
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "N": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n16-16KiB-p256-l1-phase-c0",
+      "K": [
+        8,
+        8,
+        64
+      ],
+      "cost": 0,
+      "kind": "selected-phase"
+    },
+    {
+      "N": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n16-16KiB-p256-l1-phase-c8",
+      "K": [
+        8,
+        8,
+        64
+      ],
+      "cost": 8,
+      "kind": "selected-phase"
+    },
+    {
+      "N": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "id": "n16-16KiB-p256-l1-phase-c16",
+      "K": [
+        8,
+        8,
+        64
+      ],
+      "cost": 16,
+      "kind": "selected-phase"
+    },
+    {
+      "N": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "predictable-wi",
+      "id": "n16-16KiB-p256-l1-predictable-wi",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 0,
+      "kind": "control"
+    },
+    {
+      "N": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "wu-of",
+      "id": "n16-16KiB-p256-l1-wu-of",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 0,
+      "kind": "control"
+    }
+  ]
+}

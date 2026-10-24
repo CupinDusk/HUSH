@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-24",
+  "status": "prospective_admission_guard_strengthening_before_reexecution",
+  "scope": "execution-driven two-core single-writer HUSH subset, independently written cycle-level model; not gem5; registered configuration with one-cycle WU backpressure on a coincident commit",
+  "cores": 2,
+  "shared_blocks": 4,
+  "cache_model": "four dedicated receiver slots, no replacement; writer retains authoritative data",
+  "period": 10,
+  "domain": [
+    1,
+    4,
+    16,
+    32,
+    64,
+    254,
+    255
+  ],
+  "writer_compute_gaps": [
+    4,
+    7
+  ],
+  "writer_store_count": 256,
+  "receiver_dense_reads": 32,
+  "receiver_compute_gap": 4,
+  "quiet_compute": [
+    128,
+    512
+  ],
+  "families": [
+    "DQD",
+    "SDS",
+    "BSQ"
+  ],
+  "local_hit_cycles": 1,
+  "private_store_cycles": 1,
+  "update_slot_cycles": 10,
+  "miss_slot_cycles": 60,
+  "arbitration": "two-client nonpreemptive round robin; a pending miss blocks new private-store admission, waits at most one existing one-cycle private store, then reserves shared responsibility",
+  "analytic_unknown_read_bound_cycles": 71,
+  "switch_cycles": 1,
+  "budget": "compute + 0.6*all_reads*71 + 2 switch cycles",
+  "selection": "dynamic finite-domain enumeration; fixed baseline exhaustively scans all 255 legal loads. Admit with phase-independent relative-age bound, select two-task makespan at phi=0.",
+  "heldout_decrement_phases": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "report": "real cycles in this architecture model, reader bound/observed time, writer completion, makespan, misses, update packets/deliveries, safe-hit errors; retain regressions and empty feasible sets",
+  "fixed_domain": "all K=1..254 plus 255=infinity",
+  "bootstrap_case": "BSQ: four cold reads, 32 steady reads, then one read and private compute; same four blocks and CPU gap4",
+  "guard_reason": "make the service contract independent of a positive writer compute gap; retain old model and a zero-gap negative control",
+  "config_interlock": "A completed phase write blocks same-cycle WU delivery; retain that WU and occupy server for one extra cycle. Existing timers are unchanged. A resident capture is still after decrement."
+}

@@ -1,0 +1,23 @@
+{
+  "training_cases": 216,
+  "heldout_cases": 160,
+  "all_valid": true,
+  "phase_over_best_tested_fixed_range": [
+    0.9989769801803963,
+    1.0005843131631775
+  ],
+  "cost8_range": [
+    0.9989769801803963,
+    1.0005843131631775
+  ],
+  "native_freshness_scope": "Producer refreshes identical values; checksums validate completed arithmetic and transport counters are separately checked, not a version-changing application oracle.",
+  "roi_scope": "Start barrier/marker0 through join completion marker99; pre-ROI setup/reference/initialization and post-ROI printing excluded.",
+  "timing_interface": "Continuous-expiry cache API called from source markers, four L1 load registers; guest instruction costs plus 0/8/16-cycle leader quiesce per changed load. No measured production CSR latency.",
+  "receipt_sha256": "da12d9e32dc7099c01ed2f624ea8e4c841ba393179c21cca53e4c00f9a3c4270",
+  "source_binding": {
+    "fir_pipeline_v3.c": "ba5235c13df956dd5c02de195de169271738d4176c1dd09a98951c25d263042c",
+    "locality-grid-v3.json": "1f13c76c4f4380b0f5b87aa819490a2d37897ee436c11bc363cb69aef5793d27",
+    "LOCALITY_GRID_V3_PROTOCOL.md": "a5a894f9c61e195232689aa52bd0ee76bb7c942e37ebc1179f730dd51ac7bcd8",
+    "fir-pipeline-v3": "2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096"
+  }
+}

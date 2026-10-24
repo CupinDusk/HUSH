@@ -1,0 +1,11 @@
+{
+  "settings": 10,
+  "candidate_rows": 3975,
+  "candidate_executions": 1334,
+  "unsafe_hits": 0,
+  "selected_timing_points": 20,
+  "offline_fixed_fallback_settings": 5,
+  "wins": 10,
+  "ties": 10,
+  "losses": 0
+}

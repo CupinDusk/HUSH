@@ -1,0 +1,15 @@
+{
+  "settings": 8,
+  "settings_with_both_admitted": 3,
+  "timing_comparisons": 30,
+  "wins": 0,
+  "ties": 0,
+  "losses": 30,
+  "unsafe_hits": 0,
+  "candidate_executions": 2326,
+  "kernel_data_accesses": 782,
+  "shared_reads": 145,
+  "private_data_accesses": 637,
+  "static_comparisons": 1372,
+  "carry_strict_bound_improvements": 350
+}

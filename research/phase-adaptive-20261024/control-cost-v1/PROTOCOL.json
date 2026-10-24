@@ -1,0 +1,15 @@
+{
+ "status":"frozen_before_first_control_cost_run",
+ "case":{"family":"BSQ","q":2,"compute_gap":1,"P":2,"quiet_compute":512,"writer_gap":4,"writer_stores":128,"receiver_dense_reads":16},
+ "scope":"Unchanged two-client bounded analytical architecture model with dedicated receiver slots, not native/cache replacement/whole application timing.",
+ "budgets":[721,690],
+ "budget_rationale":"721 is the supplied primary engineering budget (689-cycle best-fixed static bound plus32 cycles of headroom);690 is the prior zero-extra-headroom control. Budgets remain fixed across helper costs.",
+ "helper_cycles_per_noninitial_marker":[0,1,4,8,16],
+ "helper_accounting":"Insert a compute operation before each of markers1 and2 for phase mode, even if K remains equal. Keep existing one-cycle registered-write cost for every changed K. Fixed mode uses no phase helper.",
+ "phase_domain":[1,4,16,32,64,254,255],
+ "phase_paths":"All7^3 vectors plus all255 constant vectors, deduplicated to591; no free phase-boundary flushes; free end release.",
+ "fixed":"All255 legal loads, every subset of free boundaries1/2 flushes, free end release; optimize against same external budget.",
+ "selection":"Select fastest joint completion J atphi0 among admitted phase candidates, or select best fixed mode offline before paying helpers. Prefer fixed if jointJties. Freeze chosen mode/K/flush beforephi1; retain outcomes atbothphi0 andP-1.",
+ "metrics":"W,C,M,configuration write cycles,helpercycles,K,changedloads,J,updates,reader completion,admitted counts,all candidate W/feasibility and every attempted execution,selected offline fallback and signed effect.",
+ "limits":"Supplied bounded helper intervals are not measured implementation cost. Future phase times change execution naturally. No retiming, budget reduction, model edits or discarded regression is permitted."
+}
