@@ -1,0 +1,42 @@
+{
+  "protocol_sha256": "3212b783aa82c8e5a7dd2d8324064fe9abbc5aee4eaca3ddf66f5c44ab7ba18c",
+  "training_cases": 82,
+  "rules": "Strictly training J, ties fixed; both geometries and all three heldout inputs retained. Forced phase diagnostic is separate from deployed mode. Compare deployed policy against frozen training-fixed policy and also the stronger best15heldout oracle. Matched suppressed-write cases isolate only the future-load changes.",
+  "selection": [
+    {
+      "cache": "32KiB",
+      "fixed_K": [
+        32768,
+        32768,
+        32768
+      ],
+      "phase_K": [
+        16384,
+        16384,
+        128
+      ],
+      "fixed_J": 477669.0,
+      "phase_J": 477575.0,
+      "deployed_mode": "phase",
+      "heldout_seen": false
+    },
+    {
+      "cache": "64KiB",
+      "fixed_K": [
+        32768,
+        32768,
+        32768
+      ],
+      "phase_K": [
+        128,
+        16384,
+        2048
+      ],
+      "fixed_J": 474942.0,
+      "phase_J": 475453.0,
+      "deployed_mode": "fixed",
+      "heldout_seen": false
+    }
+  ],
+  "heldout_rows_seen": 0
+}

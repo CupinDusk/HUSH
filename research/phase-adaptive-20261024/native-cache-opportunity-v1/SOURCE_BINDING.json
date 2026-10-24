@@ -1,0 +1,9 @@
+{
+  "native_ELF_sha256": "2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096",
+  "config_LF_sha256": "44c05c6607a2b8ed8291491f2ce526128df2785e4276d1e2aa5897dda16e4a63",
+  "protocol_original_bytes_sha256": "3212b783aa82c8e5a7dd2d8324064fe9abbc5aee4eaca3ddf66f5c44ab7ba18c",
+  "protocol_canonical_LF_sha256": "84fdd76c0fb3d45d044e87d8f71b4df5382233d4ad8e53ca1e32e24eb96b655c",
+  "freeze_original_bytes_sha256": "a8a48c2ff155aee8be0cf6f504d04f0d7a580a1ca43fefe9fa4203a4a5f86501",
+  "freeze_canonical_LF_sha256": "2fe8d15fc62e19f89b7b8889ae2baae5a0c5c5b27673ba6bd15398f392d53341",
+  "note": "The frozen manifests retain original byte-hash provenance. Public text uses LF; canonical LF hashes bind the same text independently of newline representation."
+}

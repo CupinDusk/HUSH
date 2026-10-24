@@ -1,0 +1,46 @@
+{
+  "hypothesis": "Larger private unified caches may preserve shared copies into private computation; shorter future retention can then reduce redundant updates. Test both prespecified geometries and retain every signed outcome.",
+  "cache_sizes": [
+    "32KiB",
+    "64KiB"
+  ],
+  "training_N": 16,
+  "heldout_N": [
+    32,
+    36,
+    40
+  ],
+  "lags": 64,
+  "perline": 64,
+  "pattern": 1,
+  "cost": 8,
+  "cost_layout": "five-digit",
+  "phase_domain": [
+    128,
+    2048,
+    16384
+  ],
+  "fixed_loads": [
+    8,
+    64,
+    128,
+    256,
+    512,
+    768,
+    1024,
+    1536,
+    2048,
+    3072,
+    4096,
+    8192,
+    16384,
+    32768,
+    65536
+  ],
+  "selection": "Best nonconstant phase versus best15fixed by joint cycles; ties fixed. WI/WU context only. Freeze each geometry before any heldout execution. No tuning on heldout results.",
+  "causal_ablation": "For each frozen phase tuple and heldout input also suppress API writes with identical guest bytes/layout. Deployed mode fixed if training prefers fixed.",
+  "scope": "Native interface/performance study; not the two-client task-budget contract. Same immutable native ELF/config as R18; no simulator/source changes.",
+  "workers": 2,
+  "natural_max_ticks": 20000000000,
+  "no_process_kills": true
+}
