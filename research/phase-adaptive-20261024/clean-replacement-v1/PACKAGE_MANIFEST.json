@@ -1,0 +1,25 @@
+{
+  "artifact": "clean-replacement-v1",
+  "zip_sha256": "aaab08c513db0cba36f60702c21776d53c7068152ec521af0000e6d0757ea95c",
+  "zip_bytes": 25200,
+  "files": {
+    "README.md": "8c434eaf667b19e36c38e7573ae4643133392fadf32cd81c7de20b265d97d692",
+    "LICENSE": "094738a9423b5217472a27db9a64fd00b283e33ada05ff758cbc63c7dc4e21d5",
+    "THIRD_PARTY_NOTICES.md": "b3bab5b72181482e0a03cf67c0277914f6a58605b059248b8ff12df6708667a2",
+    "BUNDLE_METADATA.json": "8332acec2c88560fe4082213ea2ce7a1c434810b4270bfb9641f264a85811ed8",
+    "EXPECTED_RESULTS.json": "752cc088ebe27c5105088a11137c88286996e4e03be586d8f30d7386036eab63",
+    "MODEL_PROVENANCE.json": "952e69c643c24fced59294e21641101a289723c743759f6fd0a02f76c54afc22",
+    "STUDY_PROTOCOL.json": "08f75491e8d63f818698ca817736faaa6c8d7094bb365b7b18ea7b7de00f3852",
+    "replacement_model.py": "6270a7fa1c79a81dab99f9712e170c60c1ded14dd5052f3b987ba421a1b99e10",
+    "original_model.py": "13e359f66a7f5b2a33cc3d3bc8bc9e84252f17b0795ca5fc74b21f56e8ad013d",
+    "run_study.py": "d75be392e2996c0c8c8ea92773154fb9c4e00b4f9d246d63f791750a2cc850ee",
+    "check_residency.py": "bf47e46e7749a24cb52ee93a9128e4ec59419214e0bb66129c072abbd3355263",
+    "check_extension.py": "04b4ed05c645a69a23d65167b3eb1a31e891c26449d75d922122474c99e54541",
+    "verify_replay.py": "1a2345a989eef91c46d0a98651930dc5f1a9110ca0bf163c2b3af0255adc4a4e",
+    "interlocked_closed_loop_protocol.json": "b18b014ad1f9ea7c6ef6b4cde2c5e11abd765b8c64014f75ab628235fa165362",
+    "fir2dim-read-trace.json": "c3fe56900c8e90a7b35663b3552145b121e6d156d1f1e9d5f8f8ab8d842793c7",
+    "fir2dim-original.c": "c0f06e2396560c61417d70950360604207f37a144b900b3bb3d186f6a51d7cec"
+  },
+  "normalized_rows_sha256": "fdbb5cc78a0563d77496f449a0743f324dc4faca45081d251ccfa69396d766f8",
+  "row_fields": 26
+}

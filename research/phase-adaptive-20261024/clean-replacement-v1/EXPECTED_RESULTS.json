@@ -1,0 +1,220 @@
+{
+  "artifact": "clean-replacement-v1",
+  "canonicalization": "UTF-8 compact JSON with sorted object keys, ensure_ascii=false, allow_nan=false; canonicalize each full row to a string, sort those strings lexicographically, canonicalize their array, SHA-256.",
+  "row_count": 1776,
+  "row_fields": [
+    "K",
+    "actual_hits",
+    "actual_misses",
+    "analysis_hits",
+    "analysis_unknown",
+    "blocks",
+    "compute_bound",
+    "compute_gap",
+    "configuration_bound",
+    "family",
+    "makespan",
+    "max_read_service",
+    "memory_bound",
+    "period",
+    "phi",
+    "reader_bound",
+    "reader_cycles",
+    "replacement_evictions",
+    "reset_memory_bound",
+    "reset_reader_bound",
+    "sets",
+    "slots",
+    "unsafe_hits",
+    "updates",
+    "ways",
+    "writer_gap"
+  ],
+  "normalized_rows_sha256": "fdbb5cc78a0563d77496f449a0743f324dc4faca45081d251ccfa69396d766f8",
+  "summary": {
+    "runs": 1776,
+    "synthetic_runs": 1344,
+    "FIR2DIM_runs": 432,
+    "runs_with_clean_evictions": 713,
+    "clean_evictions": 23402,
+    "predicted_hits_checked": 62032,
+    "unsafe_hits": 0,
+    "reader_bound_violations": 0,
+    "service_bound_violations": 0,
+    "carry_in_strict_bound_improvements": 436
+  },
+  "source_sha256": {
+    "replacement_model.py": "6270a7fa1c79a81dab99f9712e170c60c1ded14dd5052f3b987ba421a1b99e10",
+    "original_model.py": "13e359f66a7f5b2a33cc3d3bc8bc9e84252f17b0795ca5fc74b21f56e8ad013d",
+    "run_study.py": "d75be392e2996c0c8c8ea92773154fb9c4e00b4f9d246d63f791750a2cc850ee",
+    "check_residency.py": "bf47e46e7749a24cb52ee93a9128e4ec59419214e0bb66129c072abbd3355263",
+    "check_extension.py": "04b4ed05c645a69a23d65167b3eb1a31e891c26449d75d922122474c99e54541",
+    "verify_replay.py": "1a2345a989eef91c46d0a98651930dc5f1a9110ca0bf163c2b3af0255adc4a4e",
+    "interlocked_closed_loop_protocol.json": "b18b014ad1f9ea7c6ef6b4cde2c5e11abd765b8c64014f75ab628235fa165362",
+    "fir2dim-read-trace.json": "c3fe56900c8e90a7b35663b3552145b121e6d156d1f1e9d5f8f8ab8d842793c7",
+    "fir2dim-original.c": "c0f06e2396560c61417d70950360604207f37a144b900b3bb3d186f6a51d7cec"
+  },
+  "checker_scientific_outputs": {
+    "RESIDENCY_CHECK.json": {
+      "scope": "Complete reachable-state closure for four addresses, six geometries; residency lemma only, expiry/capture timing checked separately.",
+      "source_sha256": "bf47e46e7749a24cb52ee93a9128e4ec59419214e0bb66129c072abbd3355263",
+      "geometries": [
+        {
+          "sets": 1,
+          "ways": 1,
+          "passed": true,
+          "states": 65,
+          "edges": 780
+        },
+        {
+          "sets": 1,
+          "ways": 2,
+          "passed": true,
+          "states": 297,
+          "edges": 3564
+        },
+        {
+          "sets": 1,
+          "ways": 3,
+          "passed": true,
+          "states": 585,
+          "edges": 7020
+        },
+        {
+          "sets": 2,
+          "ways": 1,
+          "passed": true,
+          "states": 81,
+          "edges": 972
+        },
+        {
+          "sets": 2,
+          "ways": 2,
+          "passed": true,
+          "states": 169,
+          "edges": 2028
+        },
+        {
+          "sets": 4,
+          "ways": 1,
+          "passed": true,
+          "states": 81,
+          "edges": 972
+        }
+      ],
+      "total_states": 1278,
+      "total_edges": 15336,
+      "mutants": [
+        {
+          "mutation": "wu_allocate",
+          "passed": false,
+          "states": 234,
+          "edges": 792,
+          "counterexample": [
+            [
+              "read",
+              0
+            ],
+            [
+              "read",
+              1
+            ],
+            [
+              "wu",
+              2
+            ],
+            [
+              "read",
+              0
+            ]
+          ]
+        },
+        {
+          "mutation": "wu_touch",
+          "passed": false,
+          "states": 241,
+          "edges": 1105,
+          "counterexample": [
+            [
+              "read",
+              0
+            ],
+            [
+              "read",
+              1
+            ],
+            [
+              "wu",
+              0
+            ],
+            [
+              "read",
+              2
+            ],
+            [
+              "read",
+              1
+            ]
+          ]
+        },
+        {
+          "mutation": "ignore_expiry",
+          "passed": false,
+          "states": 33,
+          "edges": 96,
+          "counterexample": [
+            [
+              "read",
+              0
+            ],
+            [
+              "expire",
+              0
+            ],
+            [
+              "read",
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    "EXTENSION_CHECK.json": {
+      "parity_configurations": 48,
+      "all_original_predictions_and_execution_metrics_match": true,
+      "protected_classifier_rejected_on_conflicting_cache": true,
+      "replacement_aware_classifier_safe": true,
+      "safe_example": {
+        "K": [
+          255,
+          255,
+          255
+        ],
+        "phi": 0,
+        "reader_cycles": 341,
+        "reader_bound": 355,
+        "writer_cycles": 480,
+        "makespan": 480,
+        "updates": 11,
+        "deliveries": 8,
+        "actual_misses": 5,
+        "actual_hits": 0,
+        "analysis_hits": 0,
+        "analysis_unknown": 5,
+        "max_read_service": 70,
+        "max_update_service": 66,
+        "unsafe_hits": 0,
+        "config_wu_deferrals": 0,
+        "replacement_evictions": 4,
+        "trace": null
+      },
+      "automatic_analysis_boundary_flush_safe": true,
+      "driver_sha256": "04b4ed05c645a69a23d65167b3eb1a31e891c26449d75d922122474c99e54541"
+    }
+  },
+  "reference_full_output_byte_sha256": {
+    "REPLACEMENT_RESULTS.json": "4ea6ef787fabdb3955c74d1baced26f13e8c0850dc9f2e6d310c9e48c01a1095",
+    "REPLACEMENT_ROWS.csv": "1a2c925bfd00e2333c28a386679a6ca9b8f14ea0e20d7e5930d61c1b772cae58"
+  },
+  "reference_full_output_hash_note": "Byte hashes identify the reference snapshot only; elapsed_seconds and platform formatting can change bytes. Scientific replay uses the normalized rows hash, exact summary, and checker fields."
+}

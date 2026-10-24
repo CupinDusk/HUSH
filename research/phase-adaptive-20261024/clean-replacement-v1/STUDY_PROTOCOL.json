@@ -1,0 +1,83 @@
+{
+  "scope": "Finite clean receiver cache, known local read sequence; same bounded service as base; no receiver dirty writes, writer eviction, LLC or DRAM claims.",
+  "families": [
+    "BSQ",
+    "DQD"
+  ],
+  "shared_blocks": [
+    2,
+    4,
+    8
+  ],
+  "compute_gaps": [
+    1,
+    4
+  ],
+  "periods": [
+    2,
+    10
+  ],
+  "cache_geometries": [
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      4,
+      2
+    ]
+  ],
+  "policies": [
+    [
+      254,
+      4,
+      4
+    ],
+    [
+      254,
+      16,
+      1
+    ],
+    [
+      32,
+      4,
+      1
+    ],
+    [
+      32,
+      16,
+      4
+    ],
+    [
+      4,
+      4,
+      4
+    ],
+    [
+      32,
+      32,
+      32
+    ],
+    [
+      255,
+      255,
+      255
+    ]
+  ],
+  "tick_phases": "0 and P-1",
+  "writer_stores_per_block": 64,
+  "writer_gap": 4,
+  "quiet_cycles": 512,
+  "fixed_phase_flush": false,
+  "free_end_release": true,
+  "FIR2DIM": "145 actual input reads, three source markers; model compute/refresh timings remain explicit assumptions",
+  "metrics": "Predicted/actual hits, per-access service bound and reader bound, clean evictions; no configuration-selection speedup claim."
+}

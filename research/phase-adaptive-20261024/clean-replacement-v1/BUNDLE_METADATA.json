@@ -1,0 +1,30 @@
+{
+  "artifact": "clean-replacement-v1",
+  "version": 1,
+  "date": "2026-10-24",
+  "runtime": "Python >=3.10, standard library only; assertions enabled; no network, simulator, C compiler, or server needed",
+  "model_source_sha256": "6270a7fa1c79a81dab99f9712e170c60c1ded14dd5052f3b987ba421a1b99e10",
+  "original_model_source_sha256": "13e359f66a7f5b2a33cc3d3bc8bc9e84252f17b0795ca5fc74b21f56e8ad013d",
+  "fir2dim": {
+    "repository": "https://github.com/tacle/tacle-bench",
+    "commit": "ffdc3f58c9d8f6c1d7e700f2190992c71a3276fe",
+    "path": "bench/kernel/fir2dim/fir2dim.c",
+    "source_sha256": "c0f06e2396560c61417d70950360604207f37a144b900b3bb3d186f6a51d7cec",
+    "license": "may be used, modified, and re-distributed freely",
+    "input_reads": 145,
+    "element_bytes": 4,
+    "assumed_base_alignment_bytes": 64,
+    "modeled_line_count": 3,
+    "scope": "Selected ordered input-array reads with phase markers; not a full native memory trace or native kernel execution."
+  },
+  "scope": "Finite clean shared-input receiver partition, all demand allocations declared, WU no-allocate/no-touch, silent eviction leaves stale-positive writer sharing, fixed authoritative writer ownership, known compute upper bounds.",
+  "budget": "replacement_model.analyze accepts an explicit external optional budget. This study passes none, so it checks bounds without application-budget admission or policy-selection claims.",
+  "base_protocol_compatibility": "Base protocol bytes preserved for original-model parity; historical cache_model/budget/selection/status text does not describe the replacement experiment. STUDY_PROTOCOL and run_study specify actual cases.",
+  "entry_points": [
+    "run_study.py",
+    "check_residency.py",
+    "check_extension.py",
+    "verify_replay.py"
+  ],
+  "license": "MIT for authored artifact files; original FIR2DIM source retains its own notice."
+}

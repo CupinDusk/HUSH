@@ -1,0 +1,91 @@
+{
+  "artifact": "clean-replacement-v1",
+  "date": "2026-10-24",
+  "passed": true,
+  "method": "Created an explicit-file ZIP, extracted into a newly created separate directory, executed the packaged entry points there, and compared regenerated results with the frozen reference.",
+  "runtime": {
+    "implementation": "CPython",
+    "version": "3.12.14",
+    "platform": "Windows",
+    "assertions_enabled": true,
+    "flags": [
+      "-B",
+      "-X",
+      "utf8"
+    ]
+  },
+  "package": {
+    "filename": "clean-replacement-v1.zip",
+    "sha256": "aaab08c513db0cba36f60702c21776d53c7068152ec521af0000e6d0757ea95c",
+    "bytes": 25200,
+    "text_files": 16,
+    "source_manifest": "PACKAGE_MANIFEST.json"
+  },
+  "entry_point_receipts": [
+    {
+      "entry_point": "run_study.py",
+      "returncode": 0,
+      "elapsed_seconds": 7.686551699996926
+    },
+    {
+      "entry_point": "check_residency.py",
+      "returncode": 0,
+      "elapsed_seconds": 0.09055179997812957
+    },
+    {
+      "entry_point": "check_extension.py",
+      "returncode": 0,
+      "elapsed_seconds": 0.4626058000139892
+    },
+    {
+      "entry_point": "verify_replay.py",
+      "returncode": 0,
+      "elapsed_seconds": 0.12605179997626692
+    }
+  ],
+  "comparison": {
+    "all_reference_non_elapsed_fields_equal": true,
+    "ordered_rows_exactly_equal": true,
+    "scientific_rows": 1776,
+    "fields_per_row": 26,
+    "field_entries_compared": 46176,
+    "normalized_rows_sha256": "fdbb5cc78a0563d77496f449a0743f324dc4faca45081d251ccfa69396d766f8",
+    "summary_exactly_equal": true,
+    "residency_output_equal_except_elapsed": true,
+    "extension_output_exactly_equal": true,
+    "all_extracted_input_file_hashes_equal": true,
+    "all_source_files_unchanged_during_replay": true,
+    "excluded_scientific_field": "elapsed_seconds only"
+  },
+  "summary": {
+    "runs": 1776,
+    "synthetic_runs": 1344,
+    "FIR2DIM_runs": 432,
+    "runs_with_clean_evictions": 713,
+    "clean_evictions": 23402,
+    "predicted_hits_checked": 62032,
+    "unsafe_hits": 0,
+    "reader_bound_violations": 0,
+    "service_bound_violations": 0,
+    "carry_in_strict_bound_improvements": 436
+  },
+  "residency": {
+    "states": 1278,
+    "edges": 15336,
+    "mutants_rejected": [
+      "wu_allocate",
+      "wu_touch",
+      "ignore_expiry"
+    ]
+  },
+  "original_model_parity_configurations": 48,
+  "limits": [
+    "Model replay only; no native kernel or simulator execution.",
+    "FIR2DIM supplies 145 selected input reads in a 64-byte-aligned, clean shared-input scenario.",
+    "Known compute upper bounds, complete allocation declaration and fixed authoritative writer ownership are prerequisites.",
+    "No dirty receiver eviction/writeback, shared LLC, hardware area/scaling, or native application budget-admission claim.",
+    "The finite-state checker covers the four-address residency lemma separately from timed safety.",
+    "The published tree contains UTF-8 source and compact expectations; full generated result JSON/CSV are excluded."
+  ],
+  "publish_target": "research/phase-adaptive-20261024/clean-replacement-v1/"
+}
