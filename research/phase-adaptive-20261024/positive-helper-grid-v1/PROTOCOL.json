@@ -1,0 +1,528 @@
+{
+  "status": "frozen_before_first_r15_cost_grid_execution",
+  "created_utc": "2026-10-24T13:47:59.026866+00:00",
+  "scope": "Unchanged two-client dedicated-slot architecture model with explicit positive helper costs; not native application or finite-cache performance.",
+  "model_sha256": "6270a7fa1c79a81dab99f9712e170c60c1ded14dd5052f3b987ba421a1b99e10",
+  "original_grid_protocol_sha256": "8c276b548e7709541ade6651e0f356810be20411883dafc51937ff13f050553a",
+  "settings": [
+    {
+      "family": "BSQ",
+      "shared_blocks": 2,
+      "receiver_compute_gap": 1,
+      "period": 2
+    },
+    {
+      "family": "BSQ",
+      "shared_blocks": 2,
+      "receiver_compute_gap": 1,
+      "period": 10
+    },
+    {
+      "family": "BSQ",
+      "shared_blocks": 2,
+      "receiver_compute_gap": 1,
+      "period": 32
+    },
+    {
+      "family": "BSQ",
+      "shared_blocks": 2,
+      "receiver_compute_gap": 4,
+      "period": 2
+    },
+    {
+      "family": "BSQ",
+      "shared_blocks": 2,
+      "receiver_compute_gap": 4,
+      "period": 10
+    },
+    {
+      "family": "BSQ",
+      "shared_blocks": 2,
+      "receiver_compute_gap": 4,
+      "period": 32
+    },
+    {
+      "family": "BSQ",
+      "shared_blocks": 2,
+      "receiver_compute_gap": 16,
+      "period": 2
+    },
+    {
+      "family": "BSQ",
+      "shared_blocks": 2,
+      "receiver_compute_gap": 16,
+      "period": 10
+    },
+    {
+      "family": "BSQ",
+      "shared_blocks": 2,
+      "receiver_compute_gap": 16,
+      "period": 32
+    },
+    {
+      "family": "BSQ",
+      "shared_blocks": 4,
+      "receiver_compute_gap": 1,
+      "period": 2
+    },
+    {
+      "family": "BSQ",
+      "shared_blocks": 4,
+      "receiver_compute_gap": 1,
+      "period": 10
+    },
+    {
+      "family": "BSQ",
+      "shared_blocks": 4,
+      "receiver_compute_gap": 1,
+      "period": 32
+    },
+    {
+      "family": "BSQ",
+      "shared_blocks": 4,
+      "receiver_compute_gap": 4,
+      "period": 2
+    },
+    {
+      "family": "BSQ",
+      "shared_blocks": 4,
+      "receiver_compute_gap": 4,
+      "period": 10
+    },
+    {
+      "family": "BSQ",
+      "shared_blocks": 4,
+      "receiver_compute_gap": 4,
+      "period": 32
+    },
+    {
+      "family": "BSQ",
+      "shared_blocks": 4,
+      "receiver_compute_gap": 16,
+      "period": 2
+    },
+    {
+      "family": "BSQ",
+      "shared_blocks": 4,
+      "receiver_compute_gap": 16,
+      "period": 10
+    },
+    {
+      "family": "BSQ",
+      "shared_blocks": 4,
+      "receiver_compute_gap": 16,
+      "period": 32
+    },
+    {
+      "family": "BSQ",
+      "shared_blocks": 8,
+      "receiver_compute_gap": 1,
+      "period": 2
+    },
+    {
+      "family": "BSQ",
+      "shared_blocks": 8,
+      "receiver_compute_gap": 1,
+      "period": 10
+    },
+    {
+      "family": "BSQ",
+      "shared_blocks": 8,
+      "receiver_compute_gap": 1,
+      "period": 32
+    },
+    {
+      "family": "BSQ",
+      "shared_blocks": 8,
+      "receiver_compute_gap": 4,
+      "period": 2
+    },
+    {
+      "family": "BSQ",
+      "shared_blocks": 8,
+      "receiver_compute_gap": 4,
+      "period": 10
+    },
+    {
+      "family": "BSQ",
+      "shared_blocks": 8,
+      "receiver_compute_gap": 4,
+      "period": 32
+    },
+    {
+      "family": "BSQ",
+      "shared_blocks": 8,
+      "receiver_compute_gap": 16,
+      "period": 2
+    },
+    {
+      "family": "BSQ",
+      "shared_blocks": 8,
+      "receiver_compute_gap": 16,
+      "period": 10
+    },
+    {
+      "family": "BSQ",
+      "shared_blocks": 8,
+      "receiver_compute_gap": 16,
+      "period": 32
+    },
+    {
+      "family": "BSQ",
+      "shared_blocks": 16,
+      "receiver_compute_gap": 1,
+      "period": 2
+    },
+    {
+      "family": "BSQ",
+      "shared_blocks": 16,
+      "receiver_compute_gap": 1,
+      "period": 10
+    },
+    {
+      "family": "BSQ",
+      "shared_blocks": 16,
+      "receiver_compute_gap": 1,
+      "period": 32
+    },
+    {
+      "family": "BSQ",
+      "shared_blocks": 16,
+      "receiver_compute_gap": 4,
+      "period": 2
+    },
+    {
+      "family": "BSQ",
+      "shared_blocks": 16,
+      "receiver_compute_gap": 4,
+      "period": 10
+    },
+    {
+      "family": "BSQ",
+      "shared_blocks": 16,
+      "receiver_compute_gap": 4,
+      "period": 32
+    },
+    {
+      "family": "BSQ",
+      "shared_blocks": 16,
+      "receiver_compute_gap": 16,
+      "period": 2
+    },
+    {
+      "family": "BSQ",
+      "shared_blocks": 16,
+      "receiver_compute_gap": 16,
+      "period": 10
+    },
+    {
+      "family": "BSQ",
+      "shared_blocks": 16,
+      "receiver_compute_gap": 16,
+      "period": 32
+    },
+    {
+      "family": "DQD",
+      "shared_blocks": 2,
+      "receiver_compute_gap": 1,
+      "period": 2
+    },
+    {
+      "family": "DQD",
+      "shared_blocks": 2,
+      "receiver_compute_gap": 1,
+      "period": 10
+    },
+    {
+      "family": "DQD",
+      "shared_blocks": 2,
+      "receiver_compute_gap": 1,
+      "period": 32
+    },
+    {
+      "family": "DQD",
+      "shared_blocks": 2,
+      "receiver_compute_gap": 4,
+      "period": 2
+    },
+    {
+      "family": "DQD",
+      "shared_blocks": 2,
+      "receiver_compute_gap": 4,
+      "period": 10
+    },
+    {
+      "family": "DQD",
+      "shared_blocks": 2,
+      "receiver_compute_gap": 4,
+      "period": 32
+    },
+    {
+      "family": "DQD",
+      "shared_blocks": 2,
+      "receiver_compute_gap": 16,
+      "period": 2
+    },
+    {
+      "family": "DQD",
+      "shared_blocks": 2,
+      "receiver_compute_gap": 16,
+      "period": 10
+    },
+    {
+      "family": "DQD",
+      "shared_blocks": 2,
+      "receiver_compute_gap": 16,
+      "period": 32
+    },
+    {
+      "family": "DQD",
+      "shared_blocks": 4,
+      "receiver_compute_gap": 1,
+      "period": 2
+    },
+    {
+      "family": "DQD",
+      "shared_blocks": 4,
+      "receiver_compute_gap": 1,
+      "period": 10
+    },
+    {
+      "family": "DQD",
+      "shared_blocks": 4,
+      "receiver_compute_gap": 1,
+      "period": 32
+    },
+    {
+      "family": "DQD",
+      "shared_blocks": 4,
+      "receiver_compute_gap": 4,
+      "period": 2
+    },
+    {
+      "family": "DQD",
+      "shared_blocks": 4,
+      "receiver_compute_gap": 4,
+      "period": 10
+    },
+    {
+      "family": "DQD",
+      "shared_blocks": 4,
+      "receiver_compute_gap": 4,
+      "period": 32
+    },
+    {
+      "family": "DQD",
+      "shared_blocks": 4,
+      "receiver_compute_gap": 16,
+      "period": 2
+    },
+    {
+      "family": "DQD",
+      "shared_blocks": 4,
+      "receiver_compute_gap": 16,
+      "period": 10
+    },
+    {
+      "family": "DQD",
+      "shared_blocks": 4,
+      "receiver_compute_gap": 16,
+      "period": 32
+    },
+    {
+      "family": "DQD",
+      "shared_blocks": 8,
+      "receiver_compute_gap": 1,
+      "period": 2
+    },
+    {
+      "family": "DQD",
+      "shared_blocks": 8,
+      "receiver_compute_gap": 1,
+      "period": 10
+    },
+    {
+      "family": "DQD",
+      "shared_blocks": 8,
+      "receiver_compute_gap": 1,
+      "period": 32
+    },
+    {
+      "family": "DQD",
+      "shared_blocks": 8,
+      "receiver_compute_gap": 4,
+      "period": 2
+    },
+    {
+      "family": "DQD",
+      "shared_blocks": 8,
+      "receiver_compute_gap": 4,
+      "period": 10
+    },
+    {
+      "family": "DQD",
+      "shared_blocks": 8,
+      "receiver_compute_gap": 4,
+      "period": 32
+    },
+    {
+      "family": "DQD",
+      "shared_blocks": 8,
+      "receiver_compute_gap": 16,
+      "period": 2
+    },
+    {
+      "family": "DQD",
+      "shared_blocks": 8,
+      "receiver_compute_gap": 16,
+      "period": 10
+    },
+    {
+      "family": "DQD",
+      "shared_blocks": 8,
+      "receiver_compute_gap": 16,
+      "period": 32
+    },
+    {
+      "family": "DQD",
+      "shared_blocks": 16,
+      "receiver_compute_gap": 1,
+      "period": 2
+    },
+    {
+      "family": "DQD",
+      "shared_blocks": 16,
+      "receiver_compute_gap": 1,
+      "period": 10
+    },
+    {
+      "family": "DQD",
+      "shared_blocks": 16,
+      "receiver_compute_gap": 1,
+      "period": 32
+    },
+    {
+      "family": "DQD",
+      "shared_blocks": 16,
+      "receiver_compute_gap": 4,
+      "period": 2
+    },
+    {
+      "family": "DQD",
+      "shared_blocks": 16,
+      "receiver_compute_gap": 4,
+      "period": 10
+    },
+    {
+      "family": "DQD",
+      "shared_blocks": 16,
+      "receiver_compute_gap": 4,
+      "period": 32
+    },
+    {
+      "family": "DQD",
+      "shared_blocks": 16,
+      "receiver_compute_gap": 16,
+      "period": 2
+    },
+    {
+      "family": "DQD",
+      "shared_blocks": 16,
+      "receiver_compute_gap": 16,
+      "period": 10
+    },
+    {
+      "family": "DQD",
+      "shared_blocks": 16,
+      "receiver_compute_gap": 16,
+      "period": 32
+    },
+    {
+      "family": "BSQ",
+      "shared_blocks": 4,
+      "receiver_compute_gap": 4,
+      "period": 10,
+      "miss_slot_cycles": 30
+    },
+    {
+      "family": "BSQ",
+      "shared_blocks": 4,
+      "receiver_compute_gap": 4,
+      "period": 10,
+      "miss_slot_cycles": 120
+    },
+    {
+      "family": "BSQ",
+      "shared_blocks": 4,
+      "receiver_compute_gap": 4,
+      "period": 10,
+      "switch_cycles": 4
+    },
+    {
+      "family": "BSQ",
+      "shared_blocks": 4,
+      "receiver_compute_gap": 4,
+      "period": 10,
+      "switch_cycles": 16
+    },
+    {
+      "family": "BSQ",
+      "shared_blocks": 4,
+      "receiver_compute_gap": 4,
+      "period": 10,
+      "switch_cycles": 64
+    },
+    {
+      "family": "BSQ",
+      "shared_blocks": 4,
+      "receiver_compute_gap": 4,
+      "period": 10,
+      "writer_gap": 0
+    },
+    {
+      "family": "BSQ",
+      "shared_blocks": 4,
+      "receiver_compute_gap": 4,
+      "period": 10,
+      "writer_gap": 16
+    }
+  ],
+  "quiet": 512,
+  "writer_stores": "64*q",
+  "dense_reads": "8*q",
+  "writer_gap_default": 4,
+  "helper_costs": [
+    4,
+    8,
+    16
+  ],
+  "budget_margins": [
+    0,
+    16,
+    32,
+    64
+  ],
+  "budget_base": "B0 = Cbase + q*(WUslot+1+missslot) + (nreads-q)*1; basecompute excludes helper. Same fixed externally specified B0+margin across helper costs.",
+  "phase_domain": [
+    1,
+    4,
+    16,
+    32,
+    64,
+    254,
+    255
+  ],
+  "phase_paths": "All7^3 andall255constant vectors, deduplicate591. Each phase-mode path pays helperdelta before EACH noninitial marker, evenunchanged. Existing switch_cycles retained per actualloadchange. No boundaryflush, free endrelease.",
+  "fixed": "All255 legal loads xall4freeboundaryflush subsets plusfreeendrelease, nohelper.",
+  "selection": "Minimizejointcompletionatphi0 andthe specifiedtrainingwritergap; comparebestadmittedphasewithbestadmittedfixed offline beforehelper costs; fixedwinsties. No reselectingafterheldout.",
+  "validation_writer_gaps": [
+    1,
+    7,
+    16
+  ],
+  "validation_tick_phases": "0 andP-1 (deduplicate ifP1)",
+  "primary": "All79 settings atmargin32,delta8; also reportall237 helper-cost settings atmargin32.",
+  "full_coverage": "79*3*4=948 selectedsettings and6validationtimingpoints per selectedsetting. Retaininfeasibility,fallback,ties,regressionsandallmodelassertionfailures.",
+  "outputs": "Everycandidate staticadmissionrow andeveryadmitted trainingexecution,selectedfixed/phaseK andW/M/C/changes,fullvalidationpairs; rawall-candidateJSONL.gz percase, fullRESULTS.json/CSV,actualcoverage.",
+  "execution_plan": "Reuse fixed andphase trainingexecutions acrossallfourmargins, caching identical selectedvalidation executions within eachcase. Completeprimarymargin32 helpercost4/8/16 before optionalnonprimaryvalidation iftimebudgetrequires. No scientificmodelsemantics are changed."
+}

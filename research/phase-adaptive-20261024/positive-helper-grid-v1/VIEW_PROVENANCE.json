@@ -1,0 +1,12 @@
+{
+  "results_scientific_sha256": "75ad683cdf3ad142a36363ac9e54af77a7a06ee04b1f5edb606496d58e4836be",
+  "validation_rows_sha256": "e1cd97c59f6b44fd890fb3afc00884e929aa0e7bcefe5105388efc84681af7fc",
+  "views": {
+    "SELECTED_SETTINGS.csv": "3ff9de706d4992108d75743daaf9b5db7bae300fdd0a5cd2037b96a7d979ec57",
+    "PRIMARY_CASE_ROWS.csv": "4954aab033d4332ccd87a99b36aca2fdda18165e38ab2528cbee060856cdbb6b",
+    "PRIMARY_VALIDATION_ROWS.csv": "566337de936ffe28d684a6d8c061d8e2ab9433f31b1e52c00ff37960bd16a6b0"
+  },
+  "selected_rows": 948,
+  "primary_cases": 79,
+  "primary_validation": 474
+}

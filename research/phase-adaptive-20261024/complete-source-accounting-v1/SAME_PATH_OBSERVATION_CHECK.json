@@ -1,0 +1,132 @@
+{
+  "model_sha256": "6270a7fa1c79a81dab99f9712e170c60c1ded14dd5052f3b987ba421a1b99e10",
+  "input_trace_sha256": "98cadc7f5e8ed2e94fed70460a3b6f6dc39680f7256cef27a719c581a3e874c5",
+  "K": [
+    254,
+    16,
+    1
+  ],
+  "compute_gap": 1,
+  "private_service": 1,
+  "helper_delta": 4,
+  "preparation_cleanup": 372,
+  "cache_sets": 1,
+  "cache_ways": 2,
+  "writer_count": 192,
+  "writer_gap": 4,
+  "bound": 1854,
+  "reset_bound": 1994,
+  "rows": [
+    {
+      "phi": 0,
+      "reader_body": 1446,
+      "receiver_work_observed": 1818,
+      "bound": 1854,
+      "reset_bound": 1994,
+      "joint": 2186,
+      "actual_hits": 141,
+      "evictions": 1,
+      "unsafe_hits": 0
+    },
+    {
+      "phi": 1,
+      "reader_body": 1446,
+      "receiver_work_observed": 1818,
+      "bound": 1854,
+      "reset_bound": 1994,
+      "joint": 2186,
+      "actual_hits": 141,
+      "evictions": 1,
+      "unsafe_hits": 0
+    },
+    {
+      "phi": 2,
+      "reader_body": 1446,
+      "receiver_work_observed": 1818,
+      "bound": 1854,
+      "reset_bound": 1994,
+      "joint": 2186,
+      "actual_hits": 141,
+      "evictions": 1,
+      "unsafe_hits": 0
+    },
+    {
+      "phi": 3,
+      "reader_body": 1446,
+      "receiver_work_observed": 1818,
+      "bound": 1854,
+      "reset_bound": 1994,
+      "joint": 2186,
+      "actual_hits": 141,
+      "evictions": 1,
+      "unsafe_hits": 0
+    },
+    {
+      "phi": 4,
+      "reader_body": 1446,
+      "receiver_work_observed": 1818,
+      "bound": 1854,
+      "reset_bound": 1994,
+      "joint": 2186,
+      "actual_hits": 141,
+      "evictions": 1,
+      "unsafe_hits": 0
+    },
+    {
+      "phi": 5,
+      "reader_body": 1446,
+      "receiver_work_observed": 1818,
+      "bound": 1854,
+      "reset_bound": 1994,
+      "joint": 2186,
+      "actual_hits": 141,
+      "evictions": 1,
+      "unsafe_hits": 0
+    },
+    {
+      "phi": 6,
+      "reader_body": 1446,
+      "receiver_work_observed": 1818,
+      "bound": 1854,
+      "reset_bound": 1994,
+      "joint": 2186,
+      "actual_hits": 141,
+      "evictions": 1,
+      "unsafe_hits": 0
+    },
+    {
+      "phi": 7,
+      "reader_body": 1446,
+      "receiver_work_observed": 1818,
+      "bound": 1854,
+      "reset_bound": 1994,
+      "joint": 2186,
+      "actual_hits": 141,
+      "evictions": 1,
+      "unsafe_hits": 0
+    },
+    {
+      "phi": 8,
+      "reader_body": 1446,
+      "receiver_work_observed": 1818,
+      "bound": 1854,
+      "reset_bound": 1994,
+      "joint": 2186,
+      "actual_hits": 141,
+      "evictions": 1,
+      "unsafe_hits": 0
+    },
+    {
+      "phi": 9,
+      "reader_body": 1446,
+      "receiver_work_observed": 1818,
+      "bound": 1854,
+      "reset_bound": 1994,
+      "joint": 2186,
+      "actual_hits": 141,
+      "evictions": 1,
+      "unsafe_hits": 0
+    }
+  ],
+  "observed_receiver_work_max": 1818
+}

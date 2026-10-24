@@ -1,0 +1,366 @@
+{
+  "round": "version-freshness-v1",
+  "cases": [
+    {
+      "id": "4KiB-q8-k8-8-8",
+      "N": 8,
+      "cache": "4KiB",
+      "perline": 32,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        8
+      ],
+      "cost": 8,
+      "kind": "version-freshness"
+    },
+    {
+      "id": "4KiB-q8-k512-512-512",
+      "N": 8,
+      "cache": "4KiB",
+      "perline": 32,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 8,
+      "kind": "version-freshness"
+    },
+    {
+      "id": "4KiB-q8-k65536-65536-65536",
+      "N": 8,
+      "cache": "4KiB",
+      "perline": 32,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        65536
+      ],
+      "cost": 8,
+      "kind": "version-freshness"
+    },
+    {
+      "id": "4KiB-q8-k8-65536-8",
+      "N": 8,
+      "cache": "4KiB",
+      "perline": 32,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        8,
+        65536,
+        8
+      ],
+      "cost": 8,
+      "kind": "version-freshness"
+    },
+    {
+      "id": "4KiB-q8-k65536-8-65536",
+      "N": 8,
+      "cache": "4KiB",
+      "perline": 32,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        65536,
+        8,
+        65536
+      ],
+      "cost": 8,
+      "kind": "version-freshness"
+    },
+    {
+      "id": "4KiB-q8-k512-512-8",
+      "N": 8,
+      "cache": "4KiB",
+      "perline": 32,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        8
+      ],
+      "cost": 8,
+      "kind": "version-freshness"
+    },
+    {
+      "id": "4KiB-q64-k8-8-8",
+      "N": 64,
+      "cache": "4KiB",
+      "perline": 32,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        8
+      ],
+      "cost": 8,
+      "kind": "version-freshness"
+    },
+    {
+      "id": "4KiB-q64-k512-512-512",
+      "N": 64,
+      "cache": "4KiB",
+      "perline": 32,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 8,
+      "kind": "version-freshness"
+    },
+    {
+      "id": "4KiB-q64-k65536-65536-65536",
+      "N": 64,
+      "cache": "4KiB",
+      "perline": 32,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        65536
+      ],
+      "cost": 8,
+      "kind": "version-freshness"
+    },
+    {
+      "id": "4KiB-q64-k8-65536-8",
+      "N": 64,
+      "cache": "4KiB",
+      "perline": 32,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        8,
+        65536,
+        8
+      ],
+      "cost": 8,
+      "kind": "version-freshness"
+    },
+    {
+      "id": "4KiB-q64-k65536-8-65536",
+      "N": 64,
+      "cache": "4KiB",
+      "perline": 32,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        65536,
+        8,
+        65536
+      ],
+      "cost": 8,
+      "kind": "version-freshness"
+    },
+    {
+      "id": "4KiB-q64-k512-512-8",
+      "N": 64,
+      "cache": "4KiB",
+      "perline": 32,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        8
+      ],
+      "cost": 8,
+      "kind": "version-freshness"
+    },
+    {
+      "id": "16KiB-q8-k8-8-8",
+      "N": 8,
+      "cache": "16KiB",
+      "perline": 32,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        8
+      ],
+      "cost": 8,
+      "kind": "version-freshness"
+    },
+    {
+      "id": "16KiB-q8-k512-512-512",
+      "N": 8,
+      "cache": "16KiB",
+      "perline": 32,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 8,
+      "kind": "version-freshness"
+    },
+    {
+      "id": "16KiB-q8-k65536-65536-65536",
+      "N": 8,
+      "cache": "16KiB",
+      "perline": 32,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        65536
+      ],
+      "cost": 8,
+      "kind": "version-freshness"
+    },
+    {
+      "id": "16KiB-q8-k8-65536-8",
+      "N": 8,
+      "cache": "16KiB",
+      "perline": 32,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        8,
+        65536,
+        8
+      ],
+      "cost": 8,
+      "kind": "version-freshness"
+    },
+    {
+      "id": "16KiB-q8-k65536-8-65536",
+      "N": 8,
+      "cache": "16KiB",
+      "perline": 32,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        65536,
+        8,
+        65536
+      ],
+      "cost": 8,
+      "kind": "version-freshness"
+    },
+    {
+      "id": "16KiB-q8-k512-512-8",
+      "N": 8,
+      "cache": "16KiB",
+      "perline": 32,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        8
+      ],
+      "cost": 8,
+      "kind": "version-freshness"
+    },
+    {
+      "id": "16KiB-q64-k8-8-8",
+      "N": 64,
+      "cache": "16KiB",
+      "perline": 32,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        8
+      ],
+      "cost": 8,
+      "kind": "version-freshness"
+    },
+    {
+      "id": "16KiB-q64-k512-512-512",
+      "N": 64,
+      "cache": "16KiB",
+      "perline": 32,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 8,
+      "kind": "version-freshness"
+    },
+    {
+      "id": "16KiB-q64-k65536-65536-65536",
+      "N": 64,
+      "cache": "16KiB",
+      "perline": 32,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        65536
+      ],
+      "cost": 8,
+      "kind": "version-freshness"
+    },
+    {
+      "id": "16KiB-q64-k8-65536-8",
+      "N": 64,
+      "cache": "16KiB",
+      "perline": 32,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        8,
+        65536,
+        8
+      ],
+      "cost": 8,
+      "kind": "version-freshness"
+    },
+    {
+      "id": "16KiB-q64-k65536-8-65536",
+      "N": 64,
+      "cache": "16KiB",
+      "perline": 32,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        65536,
+        8,
+        65536
+      ],
+      "cost": 8,
+      "kind": "version-freshness"
+    },
+    {
+      "id": "16KiB-q64-k512-512-8",
+      "N": 64,
+      "cache": "16KiB",
+      "perline": 32,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        8
+      ],
+      "cost": 8,
+      "kind": "version-freshness"
+    }
+  ],
+  "scope": "release/acquire publication lower-bound and final round32, all payload values change"
+}
