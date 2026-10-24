@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "aff514031cc7031cea2a04fec4ad707a3241f96d9867249e2ae1497b3373df3c",
+      "bytes": 1221
+    },
+    {
+      "path": "collect_figure3.py",
+      "sha256": "38ff164df25fcdb3afea31b0bc54a43e5f0d5204efb1612397310d6335e5902e",
+      "bytes": 3136
+    },
+    {
+      "path": "worked_case_parameters.json",
+      "sha256": "8a2ec6480f6ec96b8ff6de438bbe08a63e1782d22f5ecd444167a9a65a164d2c",
+      "bytes": 2819
+    },
+    {
+      "path": "FIGURE3_SWEEP_PROTOCOL.json",
+      "sha256": "0cc18a06ea180290b28d315469118bb0db73e81f54b714941f8e2c6724b2f6ba",
+      "bytes": 3696
+    },
+    {
+      "path": "expected_results.json",
+      "sha256": "6cf8ada03bc441ef9bc19f2140b990b688bf79d3f366e5b9ce429e4b2d4d604c",
+      "bytes": 525994
+    },
+    {
+      "path": "interlocked_model.py",
+      "sha256": "13e359f66a7f5b2a33cc3d3bc8bc9e84252f17b0795ca5fc74b21f56e8ad013d",
+      "bytes": 10395
+    },
+    {
+      "path": "interlocked_closed_loop_protocol.json",
+      "sha256": "b18b014ad1f9ea7c6ef6b4cde2c5e11abd765b8c64014f75ab628235fa165362",
+      "bytes": 2275
+    }
+  ],
+  "zip_sha256": "60ae151be44640f57bb32479118451ee0cf87e1361d63d4f60b458247c6c145e",
+  "zip_bytes": 19202,
+  "extracted_replay_all_rows_match": true,
+  "model_sha256": "13e359f66a7f5b2a33cc3d3bc8bc9e84252f17b0795ca5fc74b21f56e8ad013d",
+  "scope": "Independent ZIP extraction and same-model replay, not independent simulator/native/application validation."
+}
