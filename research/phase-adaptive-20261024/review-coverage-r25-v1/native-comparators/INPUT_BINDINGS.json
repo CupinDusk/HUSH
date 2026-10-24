@@ -1,0 +1,37 @@
+{
+  "source": "public R20 native-quantized-v1; recorded measurements, no new execution",
+  "original_archive_sha256": "dc9032d9e3c5e06a62ffea5fb2684f78fafc8c8fb643c1172d9bd8c0960dd239",
+  "original_member_sha256": "4c21400b0397fd0ae2465b141c97da391b588d2596140bcd488552d21b42f32e",
+  "original_member_bytes": 11370910,
+  "original_frozen_selection_sha256": "baf8444914451efd5174aa8f0f9b6b474a4ace292aad0ea984a9df73e8dcbf36",
+  "original_protocol_sha256": "98c920d60eb825b9a23002f3a9beece223fe02e674419048a426fbc3539ba8ca",
+  "original_rows": 2457,
+  "training_rows_retained": 1674,
+  "heldout_rows_retained": 126,
+  "fixed_diagnostic_rows_retained": 324,
+  "R24_validation_rows_crosschecked": 54,
+  "same_ELF_simulator_config_driver": {
+    "benchmark_sha256": "2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096",
+    "simulator_sha256": "08271cdc2858f14731698e18463d4c53dc60ac9b7091183c3aa9bae34c4ddf6a",
+    "config_sha256": "7349b98e8a0bd3ee17a26c38b9c770ab75396693cce0a0333fc4a658547ef0b9",
+    "driver_sha256": "26d6d6353436f78c3c1a6dea7bcd912b3256852a4a9f7a8349b68a94de102c8d"
+  },
+  "inputs": {
+    "TRAINING_ROWS.csv": {
+      "sha256": "3b34ec65ee0a368ba86cf43a0150dad69cdc28aa18020b60629765ed02e8ec75",
+      "bytes": 223767
+    },
+    "HELDOUT_ROWS.csv": {
+      "sha256": "b3ee16a2fb809eb54182a3d73dd4e1770da0c4f396ead5becf9ac3a4a8028af8",
+      "bytes": 18757
+    },
+    "FIXED_DIAGNOSTICS.csv": {
+      "sha256": "a3247f3a37ba1d5d91548c08bb8249134108cf9af6d0ac1e372ebd91a6ed01fc",
+      "bytes": 46179
+    },
+    "FROZEN_RULES.json": {
+      "sha256": "039cf9e8ccb55e526b6eb5c22702f9c30826d60dfe69f6f3421b18f2593d67a0",
+      "bytes": 4499
+    }
+  }
+}
