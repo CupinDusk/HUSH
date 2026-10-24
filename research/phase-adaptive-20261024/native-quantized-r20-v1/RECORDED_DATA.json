@@ -1,0 +1,18 @@
+{
+  "parts": [
+    "DATA-000.b64",
+    "DATA-001.b64",
+    "DATA-002.b64",
+    "DATA-003.b64",
+    "DATA-004.b64",
+    "DATA-005.b64",
+    "DATA-006.b64",
+    "DATA-007.b64",
+    "DATA-008.b64",
+    "DATA-009.b64"
+  ],
+  "zip_sha256": "dc9032d9e3c5e06a62ffea5fb2684f78fafc8c8fb643c1172d9bd8c0960dd239",
+  "member": "DATA.json",
+  "member_bytes": 11370910,
+  "member_sha256": "4c21400b0397fd0ae2465b141c97da391b588d2596140bcd488552d21b42f32e"
+}

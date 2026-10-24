@@ -1,0 +1,7512 @@
+{
+  "round": "native-quantized-offset-r20-v1",
+  "created_utc": "2026-10-24T18:00:25.468347+00:00",
+  "frozen_selection_sha256": "baf8444914451efd5174aa8f0f9b6b474a4ace292aad0ea984a9df73e8dcbf36",
+  "reused_validation_offsets": [
+    0,
+    64,
+    127
+  ],
+  "cases": [
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 1,
+      "id": "32-n32-p1-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 1,
+      "id": "32-n32-p1-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 1,
+      "id": "32-n32-p1-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 2,
+      "id": "32-n32-p2-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 2,
+      "id": "32-n32-p2-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 2,
+      "id": "32-n32-p2-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 3,
+      "id": "32-n32-p3-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 3,
+      "id": "32-n32-p3-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 3,
+      "id": "32-n32-p3-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 4,
+      "id": "32-n32-p4-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 4,
+      "id": "32-n32-p4-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 4,
+      "id": "32-n32-p4-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 5,
+      "id": "32-n32-p5-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 5,
+      "id": "32-n32-p5-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 5,
+      "id": "32-n32-p5-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 6,
+      "id": "32-n32-p6-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 6,
+      "id": "32-n32-p6-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 6,
+      "id": "32-n32-p6-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 7,
+      "id": "32-n32-p7-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 7,
+      "id": "32-n32-p7-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 7,
+      "id": "32-n32-p7-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 8,
+      "id": "32-n32-p8-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 8,
+      "id": "32-n32-p8-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 8,
+      "id": "32-n32-p8-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 9,
+      "id": "32-n32-p9-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 9,
+      "id": "32-n32-p9-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 9,
+      "id": "32-n32-p9-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 10,
+      "id": "32-n32-p10-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 10,
+      "id": "32-n32-p10-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 10,
+      "id": "32-n32-p10-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 11,
+      "id": "32-n32-p11-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 11,
+      "id": "32-n32-p11-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 11,
+      "id": "32-n32-p11-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 12,
+      "id": "32-n32-p12-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 12,
+      "id": "32-n32-p12-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 12,
+      "id": "32-n32-p12-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 13,
+      "id": "32-n32-p13-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 13,
+      "id": "32-n32-p13-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 13,
+      "id": "32-n32-p13-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 14,
+      "id": "32-n32-p14-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 14,
+      "id": "32-n32-p14-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 14,
+      "id": "32-n32-p14-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 15,
+      "id": "32-n32-p15-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 15,
+      "id": "32-n32-p15-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 15,
+      "id": "32-n32-p15-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 16,
+      "id": "32-n32-p16-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 16,
+      "id": "32-n32-p16-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 16,
+      "id": "32-n32-p16-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 17,
+      "id": "32-n32-p17-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 17,
+      "id": "32-n32-p17-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 17,
+      "id": "32-n32-p17-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 18,
+      "id": "32-n32-p18-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 18,
+      "id": "32-n32-p18-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 18,
+      "id": "32-n32-p18-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 19,
+      "id": "32-n32-p19-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 19,
+      "id": "32-n32-p19-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 19,
+      "id": "32-n32-p19-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 20,
+      "id": "32-n32-p20-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 20,
+      "id": "32-n32-p20-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 20,
+      "id": "32-n32-p20-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 21,
+      "id": "32-n32-p21-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 21,
+      "id": "32-n32-p21-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 21,
+      "id": "32-n32-p21-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 22,
+      "id": "32-n32-p22-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 22,
+      "id": "32-n32-p22-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 22,
+      "id": "32-n32-p22-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 23,
+      "id": "32-n32-p23-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 23,
+      "id": "32-n32-p23-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 23,
+      "id": "32-n32-p23-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 24,
+      "id": "32-n32-p24-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 24,
+      "id": "32-n32-p24-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 24,
+      "id": "32-n32-p24-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 25,
+      "id": "32-n32-p25-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 25,
+      "id": "32-n32-p25-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 25,
+      "id": "32-n32-p25-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 26,
+      "id": "32-n32-p26-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 26,
+      "id": "32-n32-p26-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 26,
+      "id": "32-n32-p26-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 27,
+      "id": "32-n32-p27-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 27,
+      "id": "32-n32-p27-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 27,
+      "id": "32-n32-p27-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 28,
+      "id": "32-n32-p28-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 28,
+      "id": "32-n32-p28-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 28,
+      "id": "32-n32-p28-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 29,
+      "id": "32-n32-p29-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 29,
+      "id": "32-n32-p29-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 29,
+      "id": "32-n32-p29-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 30,
+      "id": "32-n32-p30-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 30,
+      "id": "32-n32-p30-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 30,
+      "id": "32-n32-p30-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 31,
+      "id": "32-n32-p31-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 31,
+      "id": "32-n32-p31-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 31,
+      "id": "32-n32-p31-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 32,
+      "id": "32-n32-p32-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 32,
+      "id": "32-n32-p32-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 32,
+      "id": "32-n32-p32-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 33,
+      "id": "32-n32-p33-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 33,
+      "id": "32-n32-p33-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 33,
+      "id": "32-n32-p33-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 34,
+      "id": "32-n32-p34-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 34,
+      "id": "32-n32-p34-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 34,
+      "id": "32-n32-p34-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 35,
+      "id": "32-n32-p35-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 35,
+      "id": "32-n32-p35-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 35,
+      "id": "32-n32-p35-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 36,
+      "id": "32-n32-p36-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 36,
+      "id": "32-n32-p36-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 36,
+      "id": "32-n32-p36-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 37,
+      "id": "32-n32-p37-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 37,
+      "id": "32-n32-p37-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 37,
+      "id": "32-n32-p37-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 38,
+      "id": "32-n32-p38-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 38,
+      "id": "32-n32-p38-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 38,
+      "id": "32-n32-p38-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 39,
+      "id": "32-n32-p39-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 39,
+      "id": "32-n32-p39-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 39,
+      "id": "32-n32-p39-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 40,
+      "id": "32-n32-p40-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 40,
+      "id": "32-n32-p40-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 40,
+      "id": "32-n32-p40-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 41,
+      "id": "32-n32-p41-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 41,
+      "id": "32-n32-p41-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 41,
+      "id": "32-n32-p41-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 42,
+      "id": "32-n32-p42-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 42,
+      "id": "32-n32-p42-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 42,
+      "id": "32-n32-p42-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 43,
+      "id": "32-n32-p43-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 43,
+      "id": "32-n32-p43-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 43,
+      "id": "32-n32-p43-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 44,
+      "id": "32-n32-p44-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 44,
+      "id": "32-n32-p44-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 44,
+      "id": "32-n32-p44-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 45,
+      "id": "32-n32-p45-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 45,
+      "id": "32-n32-p45-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 45,
+      "id": "32-n32-p45-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 46,
+      "id": "32-n32-p46-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 46,
+      "id": "32-n32-p46-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 46,
+      "id": "32-n32-p46-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 47,
+      "id": "32-n32-p47-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 47,
+      "id": "32-n32-p47-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 47,
+      "id": "32-n32-p47-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 48,
+      "id": "32-n32-p48-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 48,
+      "id": "32-n32-p48-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 48,
+      "id": "32-n32-p48-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 49,
+      "id": "32-n32-p49-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 49,
+      "id": "32-n32-p49-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 49,
+      "id": "32-n32-p49-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 50,
+      "id": "32-n32-p50-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 50,
+      "id": "32-n32-p50-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 50,
+      "id": "32-n32-p50-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 51,
+      "id": "32-n32-p51-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 51,
+      "id": "32-n32-p51-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 51,
+      "id": "32-n32-p51-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 52,
+      "id": "32-n32-p52-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 52,
+      "id": "32-n32-p52-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 52,
+      "id": "32-n32-p52-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 53,
+      "id": "32-n32-p53-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 53,
+      "id": "32-n32-p53-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 53,
+      "id": "32-n32-p53-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 54,
+      "id": "32-n32-p54-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 54,
+      "id": "32-n32-p54-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 54,
+      "id": "32-n32-p54-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 55,
+      "id": "32-n32-p55-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 55,
+      "id": "32-n32-p55-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 55,
+      "id": "32-n32-p55-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 56,
+      "id": "32-n32-p56-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 56,
+      "id": "32-n32-p56-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 56,
+      "id": "32-n32-p56-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 57,
+      "id": "32-n32-p57-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 57,
+      "id": "32-n32-p57-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 57,
+      "id": "32-n32-p57-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 58,
+      "id": "32-n32-p58-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 58,
+      "id": "32-n32-p58-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 58,
+      "id": "32-n32-p58-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 59,
+      "id": "32-n32-p59-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 59,
+      "id": "32-n32-p59-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 59,
+      "id": "32-n32-p59-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 60,
+      "id": "32-n32-p60-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 60,
+      "id": "32-n32-p60-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 60,
+      "id": "32-n32-p60-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 61,
+      "id": "32-n32-p61-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 61,
+      "id": "32-n32-p61-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 61,
+      "id": "32-n32-p61-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 62,
+      "id": "32-n32-p62-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 62,
+      "id": "32-n32-p62-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 62,
+      "id": "32-n32-p62-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 63,
+      "id": "32-n32-p63-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 63,
+      "id": "32-n32-p63-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 63,
+      "id": "32-n32-p63-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 65,
+      "id": "32-n32-p65-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 65,
+      "id": "32-n32-p65-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 65,
+      "id": "32-n32-p65-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 66,
+      "id": "32-n32-p66-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 66,
+      "id": "32-n32-p66-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 66,
+      "id": "32-n32-p66-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 67,
+      "id": "32-n32-p67-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 67,
+      "id": "32-n32-p67-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 67,
+      "id": "32-n32-p67-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 68,
+      "id": "32-n32-p68-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 68,
+      "id": "32-n32-p68-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 68,
+      "id": "32-n32-p68-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 69,
+      "id": "32-n32-p69-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 69,
+      "id": "32-n32-p69-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 69,
+      "id": "32-n32-p69-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 70,
+      "id": "32-n32-p70-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 70,
+      "id": "32-n32-p70-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 70,
+      "id": "32-n32-p70-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 71,
+      "id": "32-n32-p71-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 71,
+      "id": "32-n32-p71-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 71,
+      "id": "32-n32-p71-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 72,
+      "id": "32-n32-p72-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 72,
+      "id": "32-n32-p72-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 72,
+      "id": "32-n32-p72-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 73,
+      "id": "32-n32-p73-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 73,
+      "id": "32-n32-p73-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 73,
+      "id": "32-n32-p73-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 74,
+      "id": "32-n32-p74-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 74,
+      "id": "32-n32-p74-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 74,
+      "id": "32-n32-p74-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 75,
+      "id": "32-n32-p75-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 75,
+      "id": "32-n32-p75-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 75,
+      "id": "32-n32-p75-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 76,
+      "id": "32-n32-p76-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 76,
+      "id": "32-n32-p76-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 76,
+      "id": "32-n32-p76-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 77,
+      "id": "32-n32-p77-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 77,
+      "id": "32-n32-p77-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 77,
+      "id": "32-n32-p77-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 78,
+      "id": "32-n32-p78-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 78,
+      "id": "32-n32-p78-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 78,
+      "id": "32-n32-p78-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 79,
+      "id": "32-n32-p79-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 79,
+      "id": "32-n32-p79-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 79,
+      "id": "32-n32-p79-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 80,
+      "id": "32-n32-p80-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 80,
+      "id": "32-n32-p80-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 80,
+      "id": "32-n32-p80-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 81,
+      "id": "32-n32-p81-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 81,
+      "id": "32-n32-p81-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 81,
+      "id": "32-n32-p81-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 82,
+      "id": "32-n32-p82-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 82,
+      "id": "32-n32-p82-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 82,
+      "id": "32-n32-p82-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 83,
+      "id": "32-n32-p83-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 83,
+      "id": "32-n32-p83-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 83,
+      "id": "32-n32-p83-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 84,
+      "id": "32-n32-p84-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 84,
+      "id": "32-n32-p84-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 84,
+      "id": "32-n32-p84-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 85,
+      "id": "32-n32-p85-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 85,
+      "id": "32-n32-p85-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 85,
+      "id": "32-n32-p85-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 86,
+      "id": "32-n32-p86-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 86,
+      "id": "32-n32-p86-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 86,
+      "id": "32-n32-p86-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 87,
+      "id": "32-n32-p87-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 87,
+      "id": "32-n32-p87-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 87,
+      "id": "32-n32-p87-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 88,
+      "id": "32-n32-p88-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 88,
+      "id": "32-n32-p88-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 88,
+      "id": "32-n32-p88-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 89,
+      "id": "32-n32-p89-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 89,
+      "id": "32-n32-p89-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 89,
+      "id": "32-n32-p89-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 90,
+      "id": "32-n32-p90-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 90,
+      "id": "32-n32-p90-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 90,
+      "id": "32-n32-p90-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 91,
+      "id": "32-n32-p91-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 91,
+      "id": "32-n32-p91-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 91,
+      "id": "32-n32-p91-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 92,
+      "id": "32-n32-p92-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 92,
+      "id": "32-n32-p92-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 92,
+      "id": "32-n32-p92-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 93,
+      "id": "32-n32-p93-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 93,
+      "id": "32-n32-p93-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 93,
+      "id": "32-n32-p93-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 94,
+      "id": "32-n32-p94-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 94,
+      "id": "32-n32-p94-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 94,
+      "id": "32-n32-p94-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 95,
+      "id": "32-n32-p95-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 95,
+      "id": "32-n32-p95-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 95,
+      "id": "32-n32-p95-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 96,
+      "id": "32-n32-p96-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 96,
+      "id": "32-n32-p96-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 96,
+      "id": "32-n32-p96-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 97,
+      "id": "32-n32-p97-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 97,
+      "id": "32-n32-p97-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 97,
+      "id": "32-n32-p97-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 98,
+      "id": "32-n32-p98-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 98,
+      "id": "32-n32-p98-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 98,
+      "id": "32-n32-p98-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 99,
+      "id": "32-n32-p99-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 99,
+      "id": "32-n32-p99-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 99,
+      "id": "32-n32-p99-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 100,
+      "id": "32-n32-p100-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 100,
+      "id": "32-n32-p100-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 100,
+      "id": "32-n32-p100-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 101,
+      "id": "32-n32-p101-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 101,
+      "id": "32-n32-p101-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 101,
+      "id": "32-n32-p101-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 102,
+      "id": "32-n32-p102-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 102,
+      "id": "32-n32-p102-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 102,
+      "id": "32-n32-p102-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 103,
+      "id": "32-n32-p103-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 103,
+      "id": "32-n32-p103-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 103,
+      "id": "32-n32-p103-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 104,
+      "id": "32-n32-p104-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 104,
+      "id": "32-n32-p104-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 104,
+      "id": "32-n32-p104-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 105,
+      "id": "32-n32-p105-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 105,
+      "id": "32-n32-p105-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 105,
+      "id": "32-n32-p105-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 106,
+      "id": "32-n32-p106-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 106,
+      "id": "32-n32-p106-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 106,
+      "id": "32-n32-p106-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 107,
+      "id": "32-n32-p107-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 107,
+      "id": "32-n32-p107-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 107,
+      "id": "32-n32-p107-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 108,
+      "id": "32-n32-p108-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 108,
+      "id": "32-n32-p108-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 108,
+      "id": "32-n32-p108-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 109,
+      "id": "32-n32-p109-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 109,
+      "id": "32-n32-p109-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 109,
+      "id": "32-n32-p109-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 110,
+      "id": "32-n32-p110-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 110,
+      "id": "32-n32-p110-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 110,
+      "id": "32-n32-p110-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 111,
+      "id": "32-n32-p111-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 111,
+      "id": "32-n32-p111-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 111,
+      "id": "32-n32-p111-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 112,
+      "id": "32-n32-p112-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 112,
+      "id": "32-n32-p112-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 112,
+      "id": "32-n32-p112-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 113,
+      "id": "32-n32-p113-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 113,
+      "id": "32-n32-p113-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 113,
+      "id": "32-n32-p113-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 114,
+      "id": "32-n32-p114-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 114,
+      "id": "32-n32-p114-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 114,
+      "id": "32-n32-p114-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 115,
+      "id": "32-n32-p115-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 115,
+      "id": "32-n32-p115-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 115,
+      "id": "32-n32-p115-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 116,
+      "id": "32-n32-p116-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 116,
+      "id": "32-n32-p116-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 116,
+      "id": "32-n32-p116-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 117,
+      "id": "32-n32-p117-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 117,
+      "id": "32-n32-p117-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 117,
+      "id": "32-n32-p117-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 118,
+      "id": "32-n32-p118-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 118,
+      "id": "32-n32-p118-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 118,
+      "id": "32-n32-p118-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 119,
+      "id": "32-n32-p119-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 119,
+      "id": "32-n32-p119-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 119,
+      "id": "32-n32-p119-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 120,
+      "id": "32-n32-p120-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 120,
+      "id": "32-n32-p120-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 120,
+      "id": "32-n32-p120-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 121,
+      "id": "32-n32-p121-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 121,
+      "id": "32-n32-p121-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 121,
+      "id": "32-n32-p121-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 122,
+      "id": "32-n32-p122-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 122,
+      "id": "32-n32-p122-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 122,
+      "id": "32-n32-p122-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 123,
+      "id": "32-n32-p123-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 123,
+      "id": "32-n32-p123-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 123,
+      "id": "32-n32-p123-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 124,
+      "id": "32-n32-p124-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 124,
+      "id": "32-n32-p124-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 124,
+      "id": "32-n32-p124-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 125,
+      "id": "32-n32-p125-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 125,
+      "id": "32-n32-p125-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 125,
+      "id": "32-n32-p125-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 126,
+      "id": "32-n32-p126-sweep-fixed",
+      "K": [
+        3,
+        3,
+        3
+      ],
+      "kind": "fixed",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 126,
+      "id": "32-n32-p126-sweep-phase",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "phase",
+      "write_policy": "apply"
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "32KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "legacy_layout": false,
+      "P": 128,
+      "phi": 126,
+      "id": "32-n32-p126-sweep-suppress",
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "kind": "suppress",
+      "write_policy": "suppress"
+    }
+  ]
+}

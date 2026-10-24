@@ -1,0 +1,7 @@
+{
+  "PROTOCOL.json": "98c920d60eb825b9a23002f3a9beece223fe02e674419048a426fbc3539ba8ca",
+  "FROZEN_SELECTION.json": "baf8444914451efd5174aa8f0f9b6b474a4ace292aad0ea984a9df73e8dcbf36",
+  "config_original_sha256": "7349b98e8a0bd3ee17a26c38b9c770ab75396693cce0a0333fc4a658547ef0b9",
+  "config_public_LF_sha256": "7349b98e8a0bd3ee17a26c38b9c770ab75396693cce0a0333fc4a658547ef0b9",
+  "benchmark_ELF_sha256": "2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096"
+}
