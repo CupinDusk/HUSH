@@ -1,0 +1,223 @@
+{
+  "native_N28_N32_timing_seen": false,
+  "rule": "min training J then lexicalK; phase family nonconstant; fixed preferred on training tie",
+  "training_rows_sha256": "5ca545c63ce7591000a10be16628372af1f3b05f6b969e10dd13b764984744f2",
+  "rows": [
+    {
+      "lags": 1,
+      "perline": 64,
+      "pattern": 0,
+      "fixed_K": [
+        64,
+        64,
+        64
+      ],
+      "phase_K": [
+        64,
+        64,
+        8
+      ],
+      "training_fixed_J": 486324.0,
+      "training_phase_J": 486287.0,
+      "training_selected_mode": "phase"
+    },
+    {
+      "lags": 1,
+      "perline": 64,
+      "pattern": 1,
+      "fixed_K": [
+        8,
+        8,
+        8
+      ],
+      "phase_K": [
+        8,
+        8,
+        64
+      ],
+      "training_fixed_J": 466523.0,
+      "training_phase_J": 466775.0,
+      "training_selected_mode": "fixed"
+    },
+    {
+      "lags": 1,
+      "perline": 256,
+      "pattern": 0,
+      "fixed_K": [
+        64,
+        64,
+        64
+      ],
+      "phase_K": [
+        64,
+        64,
+        8
+      ],
+      "training_fixed_J": 1905588.0,
+      "training_phase_J": 1905551.0,
+      "training_selected_mode": "phase"
+    },
+    {
+      "lags": 1,
+      "perline": 256,
+      "pattern": 1,
+      "fixed_K": [
+        8,
+        8,
+        8
+      ],
+      "phase_K": [
+        8,
+        8,
+        64
+      ],
+      "training_fixed_J": 1830491.0,
+      "training_phase_J": 1830743.0,
+      "training_selected_mode": "fixed"
+    },
+    {
+      "lags": 16,
+      "perline": 64,
+      "pattern": 0,
+      "fixed_K": [
+        64,
+        64,
+        64
+      ],
+      "phase_K": [
+        64,
+        64,
+        8
+      ],
+      "training_fixed_J": 486324.0,
+      "training_phase_J": 486287.0,
+      "training_selected_mode": "phase"
+    },
+    {
+      "lags": 16,
+      "perline": 64,
+      "pattern": 1,
+      "fixed_K": [
+        8,
+        8,
+        8
+      ],
+      "phase_K": [
+        8,
+        8,
+        64
+      ],
+      "training_fixed_J": 466523.0,
+      "training_phase_J": 466775.0,
+      "training_selected_mode": "fixed"
+    },
+    {
+      "lags": 16,
+      "perline": 256,
+      "pattern": 0,
+      "fixed_K": [
+        64,
+        64,
+        64
+      ],
+      "phase_K": [
+        64,
+        64,
+        8
+      ],
+      "training_fixed_J": 1905588.0,
+      "training_phase_J": 1905551.0,
+      "training_selected_mode": "phase"
+    },
+    {
+      "lags": 16,
+      "perline": 256,
+      "pattern": 1,
+      "fixed_K": [
+        8,
+        8,
+        8
+      ],
+      "phase_K": [
+        8,
+        8,
+        64
+      ],
+      "training_fixed_J": 1830491.0,
+      "training_phase_J": 1830743.0,
+      "training_selected_mode": "fixed"
+    },
+    {
+      "lags": 64,
+      "perline": 64,
+      "pattern": 0,
+      "fixed_K": [
+        4096,
+        4096,
+        4096
+      ],
+      "phase_K": [
+        4096,
+        4096,
+        8
+      ],
+      "training_fixed_J": 486387.0,
+      "training_phase_J": 486330.0,
+      "training_selected_mode": "phase"
+    },
+    {
+      "lags": 64,
+      "perline": 64,
+      "pattern": 1,
+      "fixed_K": [
+        64,
+        64,
+        64
+      ],
+      "phase_K": [
+        65536,
+        65536,
+        8
+      ],
+      "training_fixed_J": 483052.0,
+      "training_phase_J": 481796.0,
+      "training_selected_mode": "phase"
+    },
+    {
+      "lags": 64,
+      "perline": 256,
+      "pattern": 0,
+      "fixed_K": [
+        64,
+        64,
+        64
+      ],
+      "phase_K": [
+        64,
+        64,
+        8
+      ],
+      "training_fixed_J": 1905588.0,
+      "training_phase_J": 1905551.0,
+      "training_selected_mode": "phase"
+    },
+    {
+      "lags": 64,
+      "perline": 256,
+      "pattern": 1,
+      "fixed_K": [
+        8,
+        8,
+        8
+      ],
+      "phase_K": [
+        8,
+        8,
+        64
+      ],
+      "training_fixed_J": 1830491.0,
+      "training_phase_J": 1830743.0,
+      "training_selected_mode": "fixed"
+    }
+  ]
+}

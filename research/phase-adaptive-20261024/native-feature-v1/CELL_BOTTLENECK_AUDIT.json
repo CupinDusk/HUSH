@@ -1,0 +1,734 @@
+[
+  {
+    "cell": {
+      "lags": 1,
+      "perline": 64,
+      "pattern": 0
+    },
+    "training_frozen": {
+      "lags": 1,
+      "perline": 64,
+      "pattern": 0,
+      "fixed_K": [
+        64,
+        64,
+        64
+      ],
+      "phase_K": [
+        64,
+        64,
+        8
+      ],
+      "training_fixed_J": 486324.0,
+      "training_phase_J": 486287.0,
+      "training_selected_mode": "phase"
+    },
+    "best15_fixed_case_id": "n28-l1-p64-s0-fixed16384",
+    "phase_case_id": "n28-l1-p64-s0-phase",
+    "deployed_case_id": "n28-l1-p64-s0-phase",
+    "best15_fixed_timing": {
+      "ticks_per_cycle": 1000.0,
+      "receiver_completion_cycles": 576648.0,
+      "writer_completion_cycles": 1466786.0,
+      "joint_completion_cycles": 1471224.0,
+      "post_completion_tail_cycles": 4438.0,
+      "last_worker": "writer",
+      "receiver0_completion_cycles": 570232.0,
+      "receiver1_completion_cycles": 575345.0,
+      "receiver2_completion_cycles": 576648.0
+    },
+    "phase_timing": {
+      "ticks_per_cycle": 1000.0,
+      "receiver_completion_cycles": 585080.0,
+      "writer_completion_cycles": 1466862.0,
+      "joint_completion_cycles": 1471343.0,
+      "post_completion_tail_cycles": 4481.0,
+      "last_worker": "writer",
+      "receiver0_completion_cycles": 578843.0,
+      "receiver1_completion_cycles": 583913.0,
+      "receiver2_completion_cycles": 585080.0
+    },
+    "deployed_timing": {
+      "ticks_per_cycle": 1000.0,
+      "receiver_completion_cycles": 585080.0,
+      "writer_completion_cycles": 1466862.0,
+      "joint_completion_cycles": 1471343.0,
+      "post_completion_tail_cycles": 4481.0,
+      "last_worker": "writer",
+      "receiver0_completion_cycles": 578843.0,
+      "receiver1_completion_cycles": 583913.0,
+      "receiver2_completion_cycles": 585080.0
+    }
+  },
+  {
+    "cell": {
+      "lags": 1,
+      "perline": 64,
+      "pattern": 1
+    },
+    "training_frozen": {
+      "lags": 1,
+      "perline": 64,
+      "pattern": 1,
+      "fixed_K": [
+        8,
+        8,
+        8
+      ],
+      "phase_K": [
+        8,
+        8,
+        64
+      ],
+      "training_fixed_J": 466523.0,
+      "training_phase_J": 466775.0,
+      "training_selected_mode": "fixed"
+    },
+    "best15_fixed_case_id": "n28-l1-p64-s1-fixed8",
+    "phase_case_id": "n28-l1-p64-s1-phase",
+    "deployed_case_id": "n28-l1-p64-s1-fixed8",
+    "best15_fixed_timing": {
+      "ticks_per_cycle": 1000.0,
+      "receiver_completion_cycles": 577100.0,
+      "writer_completion_cycles": 1409329.0,
+      "joint_completion_cycles": 1413910.0,
+      "post_completion_tail_cycles": 4581.0,
+      "last_worker": "writer",
+      "receiver0_completion_cycles": 570994.0,
+      "receiver1_completion_cycles": 576461.0,
+      "receiver2_completion_cycles": 577100.0
+    },
+    "phase_timing": {
+      "ticks_per_cycle": 1000.0,
+      "receiver_completion_cycles": 577178.0,
+      "writer_completion_cycles": 1409336.0,
+      "joint_completion_cycles": 1413917.0,
+      "post_completion_tail_cycles": 4581.0,
+      "last_worker": "writer",
+      "receiver0_completion_cycles": 571261.0,
+      "receiver1_completion_cycles": 576539.0,
+      "receiver2_completion_cycles": 577178.0
+    },
+    "deployed_timing": {
+      "ticks_per_cycle": 1000.0,
+      "receiver_completion_cycles": 577100.0,
+      "writer_completion_cycles": 1409329.0,
+      "joint_completion_cycles": 1413910.0,
+      "post_completion_tail_cycles": 4581.0,
+      "last_worker": "writer",
+      "receiver0_completion_cycles": 570994.0,
+      "receiver1_completion_cycles": 576461.0,
+      "receiver2_completion_cycles": 577100.0
+    }
+  },
+  {
+    "cell": {
+      "lags": 1,
+      "perline": 256,
+      "pattern": 0
+    },
+    "training_frozen": {
+      "lags": 1,
+      "perline": 256,
+      "pattern": 0,
+      "fixed_K": [
+        64,
+        64,
+        64
+      ],
+      "phase_K": [
+        64,
+        64,
+        8
+      ],
+      "training_fixed_J": 1905588.0,
+      "training_phase_J": 1905551.0,
+      "training_selected_mode": "phase"
+    },
+    "best15_fixed_case_id": "n28-l1-p256-s0-fixed16384",
+    "phase_case_id": "n28-l1-p256-s0-phase",
+    "deployed_case_id": "n28-l1-p256-s0-phase",
+    "best15_fixed_timing": {
+      "ticks_per_cycle": 1000.0,
+      "receiver_completion_cycles": 576648.0,
+      "writer_completion_cycles": 5813282.0,
+      "joint_completion_cycles": 5817720.0,
+      "post_completion_tail_cycles": 4438.0,
+      "last_worker": "writer",
+      "receiver0_completion_cycles": 570232.0,
+      "receiver1_completion_cycles": 575345.0,
+      "receiver2_completion_cycles": 576648.0
+    },
+    "phase_timing": {
+      "ticks_per_cycle": 1000.0,
+      "receiver_completion_cycles": 585080.0,
+      "writer_completion_cycles": 5813358.0,
+      "joint_completion_cycles": 5817839.0,
+      "post_completion_tail_cycles": 4481.0,
+      "last_worker": "writer",
+      "receiver0_completion_cycles": 578843.0,
+      "receiver1_completion_cycles": 583913.0,
+      "receiver2_completion_cycles": 585080.0
+    },
+    "deployed_timing": {
+      "ticks_per_cycle": 1000.0,
+      "receiver_completion_cycles": 585080.0,
+      "writer_completion_cycles": 5813358.0,
+      "joint_completion_cycles": 5817839.0,
+      "post_completion_tail_cycles": 4481.0,
+      "last_worker": "writer",
+      "receiver0_completion_cycles": 578843.0,
+      "receiver1_completion_cycles": 583913.0,
+      "receiver2_completion_cycles": 585080.0
+    }
+  },
+  {
+    "cell": {
+      "lags": 1,
+      "perline": 256,
+      "pattern": 1
+    },
+    "training_frozen": {
+      "lags": 1,
+      "perline": 256,
+      "pattern": 1,
+      "fixed_K": [
+        8,
+        8,
+        8
+      ],
+      "phase_K": [
+        8,
+        8,
+        64
+      ],
+      "training_fixed_J": 1830491.0,
+      "training_phase_J": 1830743.0,
+      "training_selected_mode": "fixed"
+    },
+    "best15_fixed_case_id": "n28-l1-p256-s1-fixed8",
+    "phase_case_id": "n28-l1-p256-s1-phase",
+    "deployed_case_id": "n28-l1-p256-s1-fixed8",
+    "best15_fixed_timing": {
+      "ticks_per_cycle": 1000.0,
+      "receiver_completion_cycles": 577100.0,
+      "writer_completion_cycles": 5586481.0,
+      "joint_completion_cycles": 5591062.0,
+      "post_completion_tail_cycles": 4581.0,
+      "last_worker": "writer",
+      "receiver0_completion_cycles": 570994.0,
+      "receiver1_completion_cycles": 576461.0,
+      "receiver2_completion_cycles": 577100.0
+    },
+    "phase_timing": {
+      "ticks_per_cycle": 1000.0,
+      "receiver_completion_cycles": 577178.0,
+      "writer_completion_cycles": 5586488.0,
+      "joint_completion_cycles": 5591069.0,
+      "post_completion_tail_cycles": 4581.0,
+      "last_worker": "writer",
+      "receiver0_completion_cycles": 571261.0,
+      "receiver1_completion_cycles": 576539.0,
+      "receiver2_completion_cycles": 577178.0
+    },
+    "deployed_timing": {
+      "ticks_per_cycle": 1000.0,
+      "receiver_completion_cycles": 577100.0,
+      "writer_completion_cycles": 5586481.0,
+      "joint_completion_cycles": 5591062.0,
+      "post_completion_tail_cycles": 4581.0,
+      "last_worker": "writer",
+      "receiver0_completion_cycles": 570994.0,
+      "receiver1_completion_cycles": 576461.0,
+      "receiver2_completion_cycles": 577100.0
+    }
+  },
+  {
+    "cell": {
+      "lags": 16,
+      "perline": 64,
+      "pattern": 0
+    },
+    "training_frozen": {
+      "lags": 16,
+      "perline": 64,
+      "pattern": 0,
+      "fixed_K": [
+        64,
+        64,
+        64
+      ],
+      "phase_K": [
+        64,
+        64,
+        8
+      ],
+      "training_fixed_J": 486324.0,
+      "training_phase_J": 486287.0,
+      "training_selected_mode": "phase"
+    },
+    "best15_fixed_case_id": "n28-l16-p64-s0-fixed16384",
+    "phase_case_id": "n28-l16-p64-s0-phase",
+    "deployed_case_id": "n28-l16-p64-s0-phase",
+    "best15_fixed_timing": {
+      "ticks_per_cycle": 1000.0,
+      "receiver_completion_cycles": 847503.0,
+      "writer_completion_cycles": 1466786.0,
+      "joint_completion_cycles": 1471224.0,
+      "post_completion_tail_cycles": 4438.0,
+      "last_worker": "writer",
+      "receiver0_completion_cycles": 841087.0,
+      "receiver1_completion_cycles": 846200.0,
+      "receiver2_completion_cycles": 847503.0
+    },
+    "phase_timing": {
+      "ticks_per_cycle": 1000.0,
+      "receiver_completion_cycles": 855935.0,
+      "writer_completion_cycles": 1466862.0,
+      "joint_completion_cycles": 1471343.0,
+      "post_completion_tail_cycles": 4481.0,
+      "last_worker": "writer",
+      "receiver0_completion_cycles": 849698.0,
+      "receiver1_completion_cycles": 854768.0,
+      "receiver2_completion_cycles": 855935.0
+    },
+    "deployed_timing": {
+      "ticks_per_cycle": 1000.0,
+      "receiver_completion_cycles": 855935.0,
+      "writer_completion_cycles": 1466862.0,
+      "joint_completion_cycles": 1471343.0,
+      "post_completion_tail_cycles": 4481.0,
+      "last_worker": "writer",
+      "receiver0_completion_cycles": 849698.0,
+      "receiver1_completion_cycles": 854768.0,
+      "receiver2_completion_cycles": 855935.0
+    }
+  },
+  {
+    "cell": {
+      "lags": 16,
+      "perline": 64,
+      "pattern": 1
+    },
+    "training_frozen": {
+      "lags": 16,
+      "perline": 64,
+      "pattern": 1,
+      "fixed_K": [
+        8,
+        8,
+        8
+      ],
+      "phase_K": [
+        8,
+        8,
+        64
+      ],
+      "training_fixed_J": 466523.0,
+      "training_phase_J": 466775.0,
+      "training_selected_mode": "fixed"
+    },
+    "best15_fixed_case_id": "n28-l16-p64-s1-fixed8",
+    "phase_case_id": "n28-l16-p64-s1-phase",
+    "deployed_case_id": "n28-l16-p64-s1-fixed8",
+    "best15_fixed_timing": {
+      "ticks_per_cycle": 1000.0,
+      "receiver_completion_cycles": 847955.0,
+      "writer_completion_cycles": 1409329.0,
+      "joint_completion_cycles": 1413910.0,
+      "post_completion_tail_cycles": 4581.0,
+      "last_worker": "writer",
+      "receiver0_completion_cycles": 841849.0,
+      "receiver1_completion_cycles": 847316.0,
+      "receiver2_completion_cycles": 847955.0
+    },
+    "phase_timing": {
+      "ticks_per_cycle": 1000.0,
+      "receiver_completion_cycles": 848033.0,
+      "writer_completion_cycles": 1409336.0,
+      "joint_completion_cycles": 1413917.0,
+      "post_completion_tail_cycles": 4581.0,
+      "last_worker": "writer",
+      "receiver0_completion_cycles": 842116.0,
+      "receiver1_completion_cycles": 847394.0,
+      "receiver2_completion_cycles": 848033.0
+    },
+    "deployed_timing": {
+      "ticks_per_cycle": 1000.0,
+      "receiver_completion_cycles": 847955.0,
+      "writer_completion_cycles": 1409329.0,
+      "joint_completion_cycles": 1413910.0,
+      "post_completion_tail_cycles": 4581.0,
+      "last_worker": "writer",
+      "receiver0_completion_cycles": 841849.0,
+      "receiver1_completion_cycles": 847316.0,
+      "receiver2_completion_cycles": 847955.0
+    }
+  },
+  {
+    "cell": {
+      "lags": 16,
+      "perline": 256,
+      "pattern": 0
+    },
+    "training_frozen": {
+      "lags": 16,
+      "perline": 256,
+      "pattern": 0,
+      "fixed_K": [
+        64,
+        64,
+        64
+      ],
+      "phase_K": [
+        64,
+        64,
+        8
+      ],
+      "training_fixed_J": 1905588.0,
+      "training_phase_J": 1905551.0,
+      "training_selected_mode": "phase"
+    },
+    "best15_fixed_case_id": "n28-l16-p256-s0-fixed16384",
+    "phase_case_id": "n28-l16-p256-s0-phase",
+    "deployed_case_id": "n28-l16-p256-s0-phase",
+    "best15_fixed_timing": {
+      "ticks_per_cycle": 1000.0,
+      "receiver_completion_cycles": 847503.0,
+      "writer_completion_cycles": 5813282.0,
+      "joint_completion_cycles": 5817720.0,
+      "post_completion_tail_cycles": 4438.0,
+      "last_worker": "writer",
+      "receiver0_completion_cycles": 841087.0,
+      "receiver1_completion_cycles": 846200.0,
+      "receiver2_completion_cycles": 847503.0
+    },
+    "phase_timing": {
+      "ticks_per_cycle": 1000.0,
+      "receiver_completion_cycles": 855935.0,
+      "writer_completion_cycles": 5813358.0,
+      "joint_completion_cycles": 5817839.0,
+      "post_completion_tail_cycles": 4481.0,
+      "last_worker": "writer",
+      "receiver0_completion_cycles": 849698.0,
+      "receiver1_completion_cycles": 854768.0,
+      "receiver2_completion_cycles": 855935.0
+    },
+    "deployed_timing": {
+      "ticks_per_cycle": 1000.0,
+      "receiver_completion_cycles": 855935.0,
+      "writer_completion_cycles": 5813358.0,
+      "joint_completion_cycles": 5817839.0,
+      "post_completion_tail_cycles": 4481.0,
+      "last_worker": "writer",
+      "receiver0_completion_cycles": 849698.0,
+      "receiver1_completion_cycles": 854768.0,
+      "receiver2_completion_cycles": 855935.0
+    }
+  },
+  {
+    "cell": {
+      "lags": 16,
+      "perline": 256,
+      "pattern": 1
+    },
+    "training_frozen": {
+      "lags": 16,
+      "perline": 256,
+      "pattern": 1,
+      "fixed_K": [
+        8,
+        8,
+        8
+      ],
+      "phase_K": [
+        8,
+        8,
+        64
+      ],
+      "training_fixed_J": 1830491.0,
+      "training_phase_J": 1830743.0,
+      "training_selected_mode": "fixed"
+    },
+    "best15_fixed_case_id": "n28-l16-p256-s1-fixed8",
+    "phase_case_id": "n28-l16-p256-s1-phase",
+    "deployed_case_id": "n28-l16-p256-s1-fixed8",
+    "best15_fixed_timing": {
+      "ticks_per_cycle": 1000.0,
+      "receiver_completion_cycles": 847955.0,
+      "writer_completion_cycles": 5586481.0,
+      "joint_completion_cycles": 5591062.0,
+      "post_completion_tail_cycles": 4581.0,
+      "last_worker": "writer",
+      "receiver0_completion_cycles": 841849.0,
+      "receiver1_completion_cycles": 847316.0,
+      "receiver2_completion_cycles": 847955.0
+    },
+    "phase_timing": {
+      "ticks_per_cycle": 1000.0,
+      "receiver_completion_cycles": 848033.0,
+      "writer_completion_cycles": 5586488.0,
+      "joint_completion_cycles": 5591069.0,
+      "post_completion_tail_cycles": 4581.0,
+      "last_worker": "writer",
+      "receiver0_completion_cycles": 842116.0,
+      "receiver1_completion_cycles": 847394.0,
+      "receiver2_completion_cycles": 848033.0
+    },
+    "deployed_timing": {
+      "ticks_per_cycle": 1000.0,
+      "receiver_completion_cycles": 847955.0,
+      "writer_completion_cycles": 5586481.0,
+      "joint_completion_cycles": 5591062.0,
+      "post_completion_tail_cycles": 4581.0,
+      "last_worker": "writer",
+      "receiver0_completion_cycles": 841849.0,
+      "receiver1_completion_cycles": 847316.0,
+      "receiver2_completion_cycles": 847955.0
+    }
+  },
+  {
+    "cell": {
+      "lags": 64,
+      "perline": 64,
+      "pattern": 0
+    },
+    "training_frozen": {
+      "lags": 64,
+      "perline": 64,
+      "pattern": 0,
+      "fixed_K": [
+        4096,
+        4096,
+        4096
+      ],
+      "phase_K": [
+        4096,
+        4096,
+        8
+      ],
+      "training_fixed_J": 486387.0,
+      "training_phase_J": 486330.0,
+      "training_selected_mode": "phase"
+    },
+    "best15_fixed_case_id": "n28-l64-p64-s0-fixed16384",
+    "phase_case_id": "n28-l64-p64-s0-phase",
+    "deployed_case_id": "n28-l64-p64-s0-phase",
+    "best15_fixed_timing": {
+      "ticks_per_cycle": 1000.0,
+      "receiver_completion_cycles": 1673469.0,
+      "writer_completion_cycles": 1466836.0,
+      "joint_completion_cycles": 1684893.0,
+      "post_completion_tail_cycles": 11424.0,
+      "last_worker": "receiver",
+      "receiver0_completion_cycles": 1666899.0,
+      "receiver1_completion_cycles": 1672197.0,
+      "receiver2_completion_cycles": 1673469.0
+    },
+    "phase_timing": {
+      "ticks_per_cycle": 1000.0,
+      "receiver_completion_cycles": 1676872.0,
+      "writer_completion_cycles": 1466890.0,
+      "joint_completion_cycles": 1688425.0,
+      "post_completion_tail_cycles": 11553.0,
+      "last_worker": "receiver",
+      "receiver0_completion_cycles": 1670432.0,
+      "receiver1_completion_cycles": 1675600.0,
+      "receiver2_completion_cycles": 1676872.0
+    },
+    "deployed_timing": {
+      "ticks_per_cycle": 1000.0,
+      "receiver_completion_cycles": 1676872.0,
+      "writer_completion_cycles": 1466890.0,
+      "joint_completion_cycles": 1688425.0,
+      "post_completion_tail_cycles": 11553.0,
+      "last_worker": "receiver",
+      "receiver0_completion_cycles": 1670432.0,
+      "receiver1_completion_cycles": 1675600.0,
+      "receiver2_completion_cycles": 1676872.0
+    }
+  },
+  {
+    "cell": {
+      "lags": 64,
+      "perline": 64,
+      "pattern": 1
+    },
+    "training_frozen": {
+      "lags": 64,
+      "perline": 64,
+      "pattern": 1,
+      "fixed_K": [
+        64,
+        64,
+        64
+      ],
+      "phase_K": [
+        65536,
+        65536,
+        8
+      ],
+      "training_fixed_J": 483052.0,
+      "training_phase_J": 481796.0,
+      "training_selected_mode": "phase"
+    },
+    "best15_fixed_case_id": "n28-l64-p64-s1-fixed4096",
+    "phase_case_id": "n28-l64-p64-s1-phase",
+    "deployed_case_id": "n28-l64-p64-s1-phase",
+    "best15_fixed_timing": {
+      "ticks_per_cycle": 1000.0,
+      "receiver_completion_cycles": 1673418.0,
+      "writer_completion_cycles": 1423392.0,
+      "joint_completion_cycles": 1684498.0,
+      "post_completion_tail_cycles": 11080.0,
+      "last_worker": "receiver",
+      "receiver0_completion_cycles": 1666613.0,
+      "receiver1_completion_cycles": 1671480.0,
+      "receiver2_completion_cycles": 1673418.0
+    },
+    "phase_timing": {
+      "ticks_per_cycle": 1000.0,
+      "receiver_completion_cycles": 1672657.0,
+      "writer_completion_cycles": 1421344.0,
+      "joint_completion_cycles": 1685959.0,
+      "post_completion_tail_cycles": 13302.0,
+      "last_worker": "receiver",
+      "receiver0_completion_cycles": 1667007.0,
+      "receiver1_completion_cycles": 1672657.0,
+      "receiver2_completion_cycles": 1672563.0
+    },
+    "deployed_timing": {
+      "ticks_per_cycle": 1000.0,
+      "receiver_completion_cycles": 1672657.0,
+      "writer_completion_cycles": 1421344.0,
+      "joint_completion_cycles": 1685959.0,
+      "post_completion_tail_cycles": 13302.0,
+      "last_worker": "receiver",
+      "receiver0_completion_cycles": 1667007.0,
+      "receiver1_completion_cycles": 1672657.0,
+      "receiver2_completion_cycles": 1672563.0
+    }
+  },
+  {
+    "cell": {
+      "lags": 64,
+      "perline": 256,
+      "pattern": 0
+    },
+    "training_frozen": {
+      "lags": 64,
+      "perline": 256,
+      "pattern": 0,
+      "fixed_K": [
+        64,
+        64,
+        64
+      ],
+      "phase_K": [
+        64,
+        64,
+        8
+      ],
+      "training_fixed_J": 1905588.0,
+      "training_phase_J": 1905551.0,
+      "training_selected_mode": "phase"
+    },
+    "best15_fixed_case_id": "n28-l64-p256-s0-fixed16384",
+    "phase_case_id": "n28-l64-p256-s0-phase",
+    "deployed_case_id": "n28-l64-p256-s0-phase",
+    "best15_fixed_timing": {
+      "ticks_per_cycle": 1000.0,
+      "receiver_completion_cycles": 1673415.0,
+      "writer_completion_cycles": 5813282.0,
+      "joint_completion_cycles": 5817720.0,
+      "post_completion_tail_cycles": 4438.0,
+      "last_worker": "writer",
+      "receiver0_completion_cycles": 1666999.0,
+      "receiver1_completion_cycles": 1672112.0,
+      "receiver2_completion_cycles": 1673415.0
+    },
+    "phase_timing": {
+      "ticks_per_cycle": 1000.0,
+      "receiver_completion_cycles": 1681847.0,
+      "writer_completion_cycles": 5813358.0,
+      "joint_completion_cycles": 5817839.0,
+      "post_completion_tail_cycles": 4481.0,
+      "last_worker": "writer",
+      "receiver0_completion_cycles": 1675610.0,
+      "receiver1_completion_cycles": 1680680.0,
+      "receiver2_completion_cycles": 1681847.0
+    },
+    "deployed_timing": {
+      "ticks_per_cycle": 1000.0,
+      "receiver_completion_cycles": 1681847.0,
+      "writer_completion_cycles": 5813358.0,
+      "joint_completion_cycles": 5817839.0,
+      "post_completion_tail_cycles": 4481.0,
+      "last_worker": "writer",
+      "receiver0_completion_cycles": 1675610.0,
+      "receiver1_completion_cycles": 1680680.0,
+      "receiver2_completion_cycles": 1681847.0
+    }
+  },
+  {
+    "cell": {
+      "lags": 64,
+      "perline": 256,
+      "pattern": 1
+    },
+    "training_frozen": {
+      "lags": 64,
+      "perline": 256,
+      "pattern": 1,
+      "fixed_K": [
+        8,
+        8,
+        8
+      ],
+      "phase_K": [
+        8,
+        8,
+        64
+      ],
+      "training_fixed_J": 1830491.0,
+      "training_phase_J": 1830743.0,
+      "training_selected_mode": "fixed"
+    },
+    "best15_fixed_case_id": "n28-l64-p256-s1-fixed8",
+    "phase_case_id": "n28-l64-p256-s1-phase",
+    "deployed_case_id": "n28-l64-p256-s1-fixed8",
+    "best15_fixed_timing": {
+      "ticks_per_cycle": 1000.0,
+      "receiver_completion_cycles": 1673867.0,
+      "writer_completion_cycles": 5586481.0,
+      "joint_completion_cycles": 5591062.0,
+      "post_completion_tail_cycles": 4581.0,
+      "last_worker": "writer",
+      "receiver0_completion_cycles": 1667761.0,
+      "receiver1_completion_cycles": 1673228.0,
+      "receiver2_completion_cycles": 1673867.0
+    },
+    "phase_timing": {
+      "ticks_per_cycle": 1000.0,
+      "receiver_completion_cycles": 1673945.0,
+      "writer_completion_cycles": 5586488.0,
+      "joint_completion_cycles": 5591069.0,
+      "post_completion_tail_cycles": 4581.0,
+      "last_worker": "writer",
+      "receiver0_completion_cycles": 1668028.0,
+      "receiver1_completion_cycles": 1673306.0,
+      "receiver2_completion_cycles": 1673945.0
+    },
+    "deployed_timing": {
+      "ticks_per_cycle": 1000.0,
+      "receiver_completion_cycles": 1673867.0,
+      "writer_completion_cycles": 5586481.0,
+      "joint_completion_cycles": 5591062.0,
+      "post_completion_tail_cycles": 4581.0,
+      "last_worker": "writer",
+      "receiver0_completion_cycles": 1667761.0,
+      "receiver1_completion_cycles": 1673228.0,
+      "receiver2_completion_cycles": 1673867.0
+    }
+  }
+]

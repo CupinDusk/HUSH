@@ -1,0 +1,44 @@
+{
+  "scope": "Finite retention-function inequality only; no cache, service, full-system WCET or exact native/RTL equivalence proof.",
+  "K_finite": [
+    1,
+    254
+  ],
+  "P": [
+    1,
+    255
+  ],
+  "all_relative_offsets": true,
+  "checks": 8290560,
+  "failures": 0,
+  "coverage_argument": "Every phase/arm residue pair maps to delta=(phi-r) mod P. Enumerating every delta covers all distinct expiry offsets; arm-time translation cancels.",
+  "minimum_continuous_minus_quantized": 1,
+  "maximum_continuous_minus_quantized": 255,
+  "mapping_P8": [
+    {
+      "native_T": [
+        512,
+        512,
+        64
+      ],
+      "finite_K": [
+        64,
+        64,
+        8
+      ]
+    },
+    {
+      "native_T": [
+        512,
+        512,
+        8
+      ],
+      "finite_K": [
+        64,
+        64,
+        1
+      ]
+    }
+  ],
+  "elapsed_seconds": 1.9657295000506565
+}

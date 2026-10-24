@@ -1,0 +1,5190 @@
+{
+  "round": "feature-training-v1",
+  "cases": [
+    {
+      "id": "l1-p64-s0-a8-b8",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        8
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l1-p64-s0-a8-b64",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        64
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p64-s0-a8-b512",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        512
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p64-s0-a8-b4096",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        4096
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p64-s0-a8-b65536",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        65536
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p64-s0-a64-b8",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        8
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p64-s0-a64-b64",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        64
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l1-p64-s0-a64-b512",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        512
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p64-s0-a64-b4096",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        4096
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p64-s0-a64-b65536",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        65536
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p64-s0-a512-b8",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        8
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p64-s0-a512-b64",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        64
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p64-s0-a512-b512",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l1-p64-s0-a512-b4096",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        4096
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p64-s0-a512-b65536",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        65536
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p64-s0-a4096-b8",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        8
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p64-s0-a4096-b64",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        64
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p64-s0-a4096-b512",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        512
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p64-s0-a4096-b4096",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        4096
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l1-p64-s0-a4096-b65536",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        65536
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p64-s0-a65536-b8",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        8
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p64-s0-a65536-b64",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        64
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p64-s0-a65536-b512",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        512
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p64-s0-a65536-b4096",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        4096
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p64-s0-a65536-b65536",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        65536
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l1-p64-s0-predictable-wi",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "predictable-wi",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 0,
+      "kind": "control"
+    },
+    {
+      "id": "l1-p64-s0-wu-of",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "wu-of",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 0,
+      "kind": "control"
+    },
+    {
+      "id": "l1-p64-s1-a8-b8",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        8
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l1-p64-s1-a8-b64",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        64
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p64-s1-a8-b512",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        512
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p64-s1-a8-b4096",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        4096
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p64-s1-a8-b65536",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        65536
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p64-s1-a64-b8",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        8
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p64-s1-a64-b64",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        64
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l1-p64-s1-a64-b512",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        512
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p64-s1-a64-b4096",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        4096
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p64-s1-a64-b65536",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        65536
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p64-s1-a512-b8",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        8
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p64-s1-a512-b64",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        64
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p64-s1-a512-b512",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l1-p64-s1-a512-b4096",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        4096
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p64-s1-a512-b65536",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        65536
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p64-s1-a4096-b8",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        8
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p64-s1-a4096-b64",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        64
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p64-s1-a4096-b512",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        512
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p64-s1-a4096-b4096",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        4096
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l1-p64-s1-a4096-b65536",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        65536
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p64-s1-a65536-b8",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        8
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p64-s1-a65536-b64",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        64
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p64-s1-a65536-b512",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        512
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p64-s1-a65536-b4096",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        4096
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p64-s1-a65536-b65536",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        65536
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l1-p64-s1-predictable-wi",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "predictable-wi",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 0,
+      "kind": "control"
+    },
+    {
+      "id": "l1-p64-s1-wu-of",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "wu-of",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 0,
+      "kind": "control"
+    },
+    {
+      "id": "l1-p256-s0-a8-b8",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        8
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l1-p256-s0-a8-b64",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        64
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p256-s0-a8-b512",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        512
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p256-s0-a8-b4096",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        4096
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p256-s0-a8-b65536",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        65536
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p256-s0-a64-b8",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        8
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p256-s0-a64-b64",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        64
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l1-p256-s0-a64-b512",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        512
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p256-s0-a64-b4096",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        4096
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p256-s0-a64-b65536",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        65536
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p256-s0-a512-b8",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        8
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p256-s0-a512-b64",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        64
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p256-s0-a512-b512",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l1-p256-s0-a512-b4096",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        4096
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p256-s0-a512-b65536",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        65536
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p256-s0-a4096-b8",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        8
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p256-s0-a4096-b64",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        64
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p256-s0-a4096-b512",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        512
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p256-s0-a4096-b4096",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        4096
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l1-p256-s0-a4096-b65536",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        65536
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p256-s0-a65536-b8",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        8
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p256-s0-a65536-b64",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        64
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p256-s0-a65536-b512",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        512
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p256-s0-a65536-b4096",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        4096
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p256-s0-a65536-b65536",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        65536
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l1-p256-s0-predictable-wi",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "predictable-wi",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 0,
+      "kind": "control"
+    },
+    {
+      "id": "l1-p256-s0-wu-of",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "wu-of",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 0,
+      "kind": "control"
+    },
+    {
+      "id": "l1-p256-s1-a8-b8",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        8
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l1-p256-s1-a8-b64",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        64
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p256-s1-a8-b512",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        512
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p256-s1-a8-b4096",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        4096
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p256-s1-a8-b65536",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        65536
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p256-s1-a64-b8",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        8
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p256-s1-a64-b64",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        64
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l1-p256-s1-a64-b512",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        512
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p256-s1-a64-b4096",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        4096
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p256-s1-a64-b65536",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        65536
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p256-s1-a512-b8",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        8
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p256-s1-a512-b64",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        64
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p256-s1-a512-b512",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l1-p256-s1-a512-b4096",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        4096
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p256-s1-a512-b65536",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        65536
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p256-s1-a4096-b8",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        8
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p256-s1-a4096-b64",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        64
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p256-s1-a4096-b512",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        512
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p256-s1-a4096-b4096",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        4096
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l1-p256-s1-a4096-b65536",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        65536
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p256-s1-a65536-b8",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        8
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p256-s1-a65536-b64",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        64
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p256-s1-a65536-b512",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        512
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p256-s1-a65536-b4096",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        4096
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l1-p256-s1-a65536-b65536",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        65536
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l1-p256-s1-predictable-wi",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "predictable-wi",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 0,
+      "kind": "control"
+    },
+    {
+      "id": "l1-p256-s1-wu-of",
+      "N": 16,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "wu-of",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 0,
+      "kind": "control"
+    },
+    {
+      "id": "l16-p64-s0-a8-b8",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        8
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l16-p64-s0-a8-b64",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        64
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p64-s0-a8-b512",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        512
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p64-s0-a8-b4096",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        4096
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p64-s0-a8-b65536",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        65536
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p64-s0-a64-b8",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        8
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p64-s0-a64-b64",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        64
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l16-p64-s0-a64-b512",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        512
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p64-s0-a64-b4096",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        4096
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p64-s0-a64-b65536",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        65536
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p64-s0-a512-b8",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        8
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p64-s0-a512-b64",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        64
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p64-s0-a512-b512",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l16-p64-s0-a512-b4096",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        4096
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p64-s0-a512-b65536",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        65536
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p64-s0-a4096-b8",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        8
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p64-s0-a4096-b64",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        64
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p64-s0-a4096-b512",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        512
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p64-s0-a4096-b4096",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        4096
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l16-p64-s0-a4096-b65536",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        65536
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p64-s0-a65536-b8",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        8
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p64-s0-a65536-b64",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        64
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p64-s0-a65536-b512",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        512
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p64-s0-a65536-b4096",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        4096
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p64-s0-a65536-b65536",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        65536
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l16-p64-s0-predictable-wi",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "predictable-wi",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 0,
+      "kind": "control"
+    },
+    {
+      "id": "l16-p64-s0-wu-of",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "wu-of",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 0,
+      "kind": "control"
+    },
+    {
+      "id": "l16-p64-s1-a8-b8",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        8
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l16-p64-s1-a8-b64",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        64
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p64-s1-a8-b512",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        512
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p64-s1-a8-b4096",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        4096
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p64-s1-a8-b65536",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        65536
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p64-s1-a64-b8",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        8
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p64-s1-a64-b64",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        64
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l16-p64-s1-a64-b512",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        512
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p64-s1-a64-b4096",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        4096
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p64-s1-a64-b65536",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        65536
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p64-s1-a512-b8",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        8
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p64-s1-a512-b64",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        64
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p64-s1-a512-b512",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l16-p64-s1-a512-b4096",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        4096
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p64-s1-a512-b65536",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        65536
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p64-s1-a4096-b8",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        8
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p64-s1-a4096-b64",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        64
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p64-s1-a4096-b512",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        512
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p64-s1-a4096-b4096",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        4096
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l16-p64-s1-a4096-b65536",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        65536
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p64-s1-a65536-b8",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        8
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p64-s1-a65536-b64",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        64
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p64-s1-a65536-b512",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        512
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p64-s1-a65536-b4096",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        4096
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p64-s1-a65536-b65536",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        65536
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l16-p64-s1-predictable-wi",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "predictable-wi",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 0,
+      "kind": "control"
+    },
+    {
+      "id": "l16-p64-s1-wu-of",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "wu-of",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 0,
+      "kind": "control"
+    },
+    {
+      "id": "l16-p256-s0-a8-b8",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        8
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l16-p256-s0-a8-b64",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        64
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p256-s0-a8-b512",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        512
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p256-s0-a8-b4096",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        4096
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p256-s0-a8-b65536",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        65536
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p256-s0-a64-b8",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        8
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p256-s0-a64-b64",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        64
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l16-p256-s0-a64-b512",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        512
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p256-s0-a64-b4096",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        4096
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p256-s0-a64-b65536",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        65536
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p256-s0-a512-b8",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        8
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p256-s0-a512-b64",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        64
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p256-s0-a512-b512",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l16-p256-s0-a512-b4096",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        4096
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p256-s0-a512-b65536",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        65536
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p256-s0-a4096-b8",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        8
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p256-s0-a4096-b64",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        64
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p256-s0-a4096-b512",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        512
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p256-s0-a4096-b4096",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        4096
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l16-p256-s0-a4096-b65536",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        65536
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p256-s0-a65536-b8",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        8
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p256-s0-a65536-b64",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        64
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p256-s0-a65536-b512",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        512
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p256-s0-a65536-b4096",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        4096
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p256-s0-a65536-b65536",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        65536
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l16-p256-s0-predictable-wi",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "predictable-wi",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 0,
+      "kind": "control"
+    },
+    {
+      "id": "l16-p256-s0-wu-of",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "wu-of",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 0,
+      "kind": "control"
+    },
+    {
+      "id": "l16-p256-s1-a8-b8",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        8
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l16-p256-s1-a8-b64",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        64
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p256-s1-a8-b512",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        512
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p256-s1-a8-b4096",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        4096
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p256-s1-a8-b65536",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        65536
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p256-s1-a64-b8",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        8
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p256-s1-a64-b64",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        64
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l16-p256-s1-a64-b512",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        512
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p256-s1-a64-b4096",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        4096
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p256-s1-a64-b65536",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        65536
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p256-s1-a512-b8",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        8
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p256-s1-a512-b64",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        64
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p256-s1-a512-b512",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l16-p256-s1-a512-b4096",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        4096
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p256-s1-a512-b65536",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        65536
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p256-s1-a4096-b8",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        8
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p256-s1-a4096-b64",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        64
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p256-s1-a4096-b512",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        512
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p256-s1-a4096-b4096",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        4096
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l16-p256-s1-a4096-b65536",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        65536
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p256-s1-a65536-b8",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        8
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p256-s1-a65536-b64",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        64
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p256-s1-a65536-b512",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        512
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p256-s1-a65536-b4096",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        4096
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l16-p256-s1-a65536-b65536",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        65536
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l16-p256-s1-predictable-wi",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "predictable-wi",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 0,
+      "kind": "control"
+    },
+    {
+      "id": "l16-p256-s1-wu-of",
+      "N": 16,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "wu-of",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 0,
+      "kind": "control"
+    },
+    {
+      "id": "l64-p64-s0-a8-b8",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        8
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l64-p64-s0-a8-b64",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        64
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p64-s0-a8-b512",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        512
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p64-s0-a8-b4096",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        4096
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p64-s0-a8-b65536",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        65536
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p64-s0-a64-b8",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        8
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p64-s0-a64-b64",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        64
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l64-p64-s0-a64-b512",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        512
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p64-s0-a64-b4096",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        4096
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p64-s0-a64-b65536",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        65536
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p64-s0-a512-b8",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        8
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p64-s0-a512-b64",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        64
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p64-s0-a512-b512",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l64-p64-s0-a512-b4096",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        4096
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p64-s0-a512-b65536",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        65536
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p64-s0-a4096-b8",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        8
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p64-s0-a4096-b64",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        64
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p64-s0-a4096-b512",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        512
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p64-s0-a4096-b4096",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        4096
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l64-p64-s0-a4096-b65536",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        65536
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p64-s0-a65536-b8",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        8
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p64-s0-a65536-b64",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        64
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p64-s0-a65536-b512",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        512
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p64-s0-a65536-b4096",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        4096
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p64-s0-a65536-b65536",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        65536
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l64-p64-s0-predictable-wi",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "predictable-wi",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 0,
+      "kind": "control"
+    },
+    {
+      "id": "l64-p64-s0-wu-of",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "wu-of",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 0,
+      "kind": "control"
+    },
+    {
+      "id": "l64-p64-s1-a8-b8",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        8
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l64-p64-s1-a8-b64",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        64
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p64-s1-a8-b512",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        512
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p64-s1-a8-b4096",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        4096
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p64-s1-a8-b65536",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        65536
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p64-s1-a64-b8",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        8
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p64-s1-a64-b64",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        64
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l64-p64-s1-a64-b512",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        512
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p64-s1-a64-b4096",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        4096
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p64-s1-a64-b65536",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        65536
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p64-s1-a512-b8",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        8
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p64-s1-a512-b64",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        64
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p64-s1-a512-b512",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l64-p64-s1-a512-b4096",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        4096
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p64-s1-a512-b65536",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        65536
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p64-s1-a4096-b8",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        8
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p64-s1-a4096-b64",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        64
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p64-s1-a4096-b512",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        512
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p64-s1-a4096-b4096",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        4096
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l64-p64-s1-a4096-b65536",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        65536
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p64-s1-a65536-b8",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        8
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p64-s1-a65536-b64",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        64
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p64-s1-a65536-b512",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        512
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p64-s1-a65536-b4096",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        4096
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p64-s1-a65536-b65536",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        65536
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l64-p64-s1-predictable-wi",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "predictable-wi",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 0,
+      "kind": "control"
+    },
+    {
+      "id": "l64-p64-s1-wu-of",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "wu-of",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 0,
+      "kind": "control"
+    },
+    {
+      "id": "l64-p256-s0-a8-b8",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        8
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l64-p256-s0-a8-b64",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        64
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p256-s0-a8-b512",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        512
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p256-s0-a8-b4096",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        4096
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p256-s0-a8-b65536",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        65536
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p256-s0-a64-b8",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        8
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p256-s0-a64-b64",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        64
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l64-p256-s0-a64-b512",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        512
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p256-s0-a64-b4096",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        4096
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p256-s0-a64-b65536",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        65536
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p256-s0-a512-b8",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        8
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p256-s0-a512-b64",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        64
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p256-s0-a512-b512",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l64-p256-s0-a512-b4096",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        4096
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p256-s0-a512-b65536",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        65536
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p256-s0-a4096-b8",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        8
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p256-s0-a4096-b64",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        64
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p256-s0-a4096-b512",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        512
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p256-s0-a4096-b4096",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        4096
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l64-p256-s0-a4096-b65536",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        65536
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p256-s0-a65536-b8",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        8
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p256-s0-a65536-b64",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        64
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p256-s0-a65536-b512",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        512
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p256-s0-a65536-b4096",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        4096
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p256-s0-a65536-b65536",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        65536
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l64-p256-s0-predictable-wi",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "predictable-wi",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 0,
+      "kind": "control"
+    },
+    {
+      "id": "l64-p256-s0-wu-of",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "wu-of",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 0,
+      "kind": "control"
+    },
+    {
+      "id": "l64-p256-s1-a8-b8",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        8
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l64-p256-s1-a8-b64",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        64
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p256-s1-a8-b512",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        512
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p256-s1-a8-b4096",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        4096
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p256-s1-a8-b65536",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        8,
+        8,
+        65536
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p256-s1-a64-b8",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        8
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p256-s1-a64-b64",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        64
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l64-p256-s1-a64-b512",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        512
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p256-s1-a64-b4096",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        4096
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p256-s1-a64-b65536",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        64,
+        64,
+        65536
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p256-s1-a512-b8",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        8
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p256-s1-a512-b64",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        64
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p256-s1-a512-b512",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l64-p256-s1-a512-b4096",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        4096
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p256-s1-a512-b65536",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        512,
+        512,
+        65536
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p256-s1-a4096-b8",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        8
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p256-s1-a4096-b64",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        64
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p256-s1-a4096-b512",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        512
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p256-s1-a4096-b4096",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        4096
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l64-p256-s1-a4096-b65536",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        4096,
+        4096,
+        65536
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p256-s1-a65536-b8",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        8
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p256-s1-a65536-b64",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        64
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p256-s1-a65536-b512",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        512
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p256-s1-a65536-b4096",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        4096
+      ],
+      "cost": 8,
+      "kind": "phase"
+    },
+    {
+      "id": "l64-p256-s1-a65536-b65536",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "K": [
+        65536,
+        65536,
+        65536
+      ],
+      "cost": 8,
+      "kind": "fixed"
+    },
+    {
+      "id": "l64-p256-s1-predictable-wi",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "predictable-wi",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 0,
+      "kind": "control"
+    },
+    {
+      "id": "l64-p256-s1-wu-of",
+      "N": 16,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "wu-of",
+      "K": [
+        512,
+        512,
+        512
+      ],
+      "cost": 0,
+      "kind": "control"
+    }
+  ],
+  "scope": "Exploratory lag sensitivity, frozen before N28/32; same original binary"
+}

@@ -1,0 +1,3462 @@
+{
+  "round": "feature-validation-v1",
+  "scope": "frozen from N16; N28 unseen; fifteen fixed, selected phase and WI/WU",
+  "cases": [
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p64-s0-fixed8",
+      "kind": "fixed",
+      "K": [
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p64-s0-fixed64",
+      "kind": "fixed",
+      "K": [
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p64-s0-fixed128",
+      "kind": "fixed",
+      "K": [
+        128,
+        128,
+        128
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p64-s0-fixed256",
+      "kind": "fixed",
+      "K": [
+        256,
+        256,
+        256
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p64-s0-fixed512",
+      "kind": "fixed",
+      "K": [
+        512,
+        512,
+        512
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p64-s0-fixed768",
+      "kind": "fixed",
+      "K": [
+        768,
+        768,
+        768
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p64-s0-fixed1024",
+      "kind": "fixed",
+      "K": [
+        1024,
+        1024,
+        1024
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p64-s0-fixed1536",
+      "kind": "fixed",
+      "K": [
+        1536,
+        1536,
+        1536
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p64-s0-fixed2048",
+      "kind": "fixed",
+      "K": [
+        2048,
+        2048,
+        2048
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p64-s0-fixed3072",
+      "kind": "fixed",
+      "K": [
+        3072,
+        3072,
+        3072
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p64-s0-fixed4096",
+      "kind": "fixed",
+      "K": [
+        4096,
+        4096,
+        4096
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p64-s0-fixed8192",
+      "kind": "fixed",
+      "K": [
+        8192,
+        8192,
+        8192
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p64-s0-fixed16384",
+      "kind": "fixed",
+      "K": [
+        16384,
+        16384,
+        16384
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p64-s0-fixed32768",
+      "kind": "fixed",
+      "K": [
+        32768,
+        32768,
+        32768
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p64-s0-fixed65536",
+      "kind": "fixed",
+      "K": [
+        65536,
+        65536,
+        65536
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p64-s0-phase",
+      "kind": "selected-phase",
+      "K": [
+        64,
+        64,
+        8
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "predictable-wi",
+      "cost": 0,
+      "id": "n28-l1-p64-s0-predictable-wi",
+      "kind": "control",
+      "K": [
+        512,
+        512,
+        512
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "wu-of",
+      "cost": 0,
+      "id": "n28-l1-p64-s0-wu-of",
+      "kind": "control",
+      "K": [
+        512,
+        512,
+        512
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p64-s1-fixed8",
+      "kind": "fixed",
+      "K": [
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p64-s1-fixed64",
+      "kind": "fixed",
+      "K": [
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p64-s1-fixed128",
+      "kind": "fixed",
+      "K": [
+        128,
+        128,
+        128
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p64-s1-fixed256",
+      "kind": "fixed",
+      "K": [
+        256,
+        256,
+        256
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p64-s1-fixed512",
+      "kind": "fixed",
+      "K": [
+        512,
+        512,
+        512
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p64-s1-fixed768",
+      "kind": "fixed",
+      "K": [
+        768,
+        768,
+        768
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p64-s1-fixed1024",
+      "kind": "fixed",
+      "K": [
+        1024,
+        1024,
+        1024
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p64-s1-fixed1536",
+      "kind": "fixed",
+      "K": [
+        1536,
+        1536,
+        1536
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p64-s1-fixed2048",
+      "kind": "fixed",
+      "K": [
+        2048,
+        2048,
+        2048
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p64-s1-fixed3072",
+      "kind": "fixed",
+      "K": [
+        3072,
+        3072,
+        3072
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p64-s1-fixed4096",
+      "kind": "fixed",
+      "K": [
+        4096,
+        4096,
+        4096
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p64-s1-fixed8192",
+      "kind": "fixed",
+      "K": [
+        8192,
+        8192,
+        8192
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p64-s1-fixed16384",
+      "kind": "fixed",
+      "K": [
+        16384,
+        16384,
+        16384
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p64-s1-fixed32768",
+      "kind": "fixed",
+      "K": [
+        32768,
+        32768,
+        32768
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p64-s1-fixed65536",
+      "kind": "fixed",
+      "K": [
+        65536,
+        65536,
+        65536
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p64-s1-phase",
+      "kind": "selected-phase",
+      "K": [
+        8,
+        8,
+        64
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "predictable-wi",
+      "cost": 0,
+      "id": "n28-l1-p64-s1-predictable-wi",
+      "kind": "control",
+      "K": [
+        512,
+        512,
+        512
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "wu-of",
+      "cost": 0,
+      "id": "n28-l1-p64-s1-wu-of",
+      "kind": "control",
+      "K": [
+        512,
+        512,
+        512
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p256-s0-fixed8",
+      "kind": "fixed",
+      "K": [
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p256-s0-fixed64",
+      "kind": "fixed",
+      "K": [
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p256-s0-fixed128",
+      "kind": "fixed",
+      "K": [
+        128,
+        128,
+        128
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p256-s0-fixed256",
+      "kind": "fixed",
+      "K": [
+        256,
+        256,
+        256
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p256-s0-fixed512",
+      "kind": "fixed",
+      "K": [
+        512,
+        512,
+        512
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p256-s0-fixed768",
+      "kind": "fixed",
+      "K": [
+        768,
+        768,
+        768
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p256-s0-fixed1024",
+      "kind": "fixed",
+      "K": [
+        1024,
+        1024,
+        1024
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p256-s0-fixed1536",
+      "kind": "fixed",
+      "K": [
+        1536,
+        1536,
+        1536
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p256-s0-fixed2048",
+      "kind": "fixed",
+      "K": [
+        2048,
+        2048,
+        2048
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p256-s0-fixed3072",
+      "kind": "fixed",
+      "K": [
+        3072,
+        3072,
+        3072
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p256-s0-fixed4096",
+      "kind": "fixed",
+      "K": [
+        4096,
+        4096,
+        4096
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p256-s0-fixed8192",
+      "kind": "fixed",
+      "K": [
+        8192,
+        8192,
+        8192
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p256-s0-fixed16384",
+      "kind": "fixed",
+      "K": [
+        16384,
+        16384,
+        16384
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p256-s0-fixed32768",
+      "kind": "fixed",
+      "K": [
+        32768,
+        32768,
+        32768
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p256-s0-fixed65536",
+      "kind": "fixed",
+      "K": [
+        65536,
+        65536,
+        65536
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p256-s0-phase",
+      "kind": "selected-phase",
+      "K": [
+        64,
+        64,
+        8
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "predictable-wi",
+      "cost": 0,
+      "id": "n28-l1-p256-s0-predictable-wi",
+      "kind": "control",
+      "K": [
+        512,
+        512,
+        512
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "wu-of",
+      "cost": 0,
+      "id": "n28-l1-p256-s0-wu-of",
+      "kind": "control",
+      "K": [
+        512,
+        512,
+        512
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p256-s1-fixed8",
+      "kind": "fixed",
+      "K": [
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p256-s1-fixed64",
+      "kind": "fixed",
+      "K": [
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p256-s1-fixed128",
+      "kind": "fixed",
+      "K": [
+        128,
+        128,
+        128
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p256-s1-fixed256",
+      "kind": "fixed",
+      "K": [
+        256,
+        256,
+        256
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p256-s1-fixed512",
+      "kind": "fixed",
+      "K": [
+        512,
+        512,
+        512
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p256-s1-fixed768",
+      "kind": "fixed",
+      "K": [
+        768,
+        768,
+        768
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p256-s1-fixed1024",
+      "kind": "fixed",
+      "K": [
+        1024,
+        1024,
+        1024
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p256-s1-fixed1536",
+      "kind": "fixed",
+      "K": [
+        1536,
+        1536,
+        1536
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p256-s1-fixed2048",
+      "kind": "fixed",
+      "K": [
+        2048,
+        2048,
+        2048
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p256-s1-fixed3072",
+      "kind": "fixed",
+      "K": [
+        3072,
+        3072,
+        3072
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p256-s1-fixed4096",
+      "kind": "fixed",
+      "K": [
+        4096,
+        4096,
+        4096
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p256-s1-fixed8192",
+      "kind": "fixed",
+      "K": [
+        8192,
+        8192,
+        8192
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p256-s1-fixed16384",
+      "kind": "fixed",
+      "K": [
+        16384,
+        16384,
+        16384
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p256-s1-fixed32768",
+      "kind": "fixed",
+      "K": [
+        32768,
+        32768,
+        32768
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p256-s1-fixed65536",
+      "kind": "fixed",
+      "K": [
+        65536,
+        65536,
+        65536
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l1-p256-s1-phase",
+      "kind": "selected-phase",
+      "K": [
+        8,
+        8,
+        64
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "predictable-wi",
+      "cost": 0,
+      "id": "n28-l1-p256-s1-predictable-wi",
+      "kind": "control",
+      "K": [
+        512,
+        512,
+        512
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 1,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "wu-of",
+      "cost": 0,
+      "id": "n28-l1-p256-s1-wu-of",
+      "kind": "control",
+      "K": [
+        512,
+        512,
+        512
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p64-s0-fixed8",
+      "kind": "fixed",
+      "K": [
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p64-s0-fixed64",
+      "kind": "fixed",
+      "K": [
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p64-s0-fixed128",
+      "kind": "fixed",
+      "K": [
+        128,
+        128,
+        128
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p64-s0-fixed256",
+      "kind": "fixed",
+      "K": [
+        256,
+        256,
+        256
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p64-s0-fixed512",
+      "kind": "fixed",
+      "K": [
+        512,
+        512,
+        512
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p64-s0-fixed768",
+      "kind": "fixed",
+      "K": [
+        768,
+        768,
+        768
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p64-s0-fixed1024",
+      "kind": "fixed",
+      "K": [
+        1024,
+        1024,
+        1024
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p64-s0-fixed1536",
+      "kind": "fixed",
+      "K": [
+        1536,
+        1536,
+        1536
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p64-s0-fixed2048",
+      "kind": "fixed",
+      "K": [
+        2048,
+        2048,
+        2048
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p64-s0-fixed3072",
+      "kind": "fixed",
+      "K": [
+        3072,
+        3072,
+        3072
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p64-s0-fixed4096",
+      "kind": "fixed",
+      "K": [
+        4096,
+        4096,
+        4096
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p64-s0-fixed8192",
+      "kind": "fixed",
+      "K": [
+        8192,
+        8192,
+        8192
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p64-s0-fixed16384",
+      "kind": "fixed",
+      "K": [
+        16384,
+        16384,
+        16384
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p64-s0-fixed32768",
+      "kind": "fixed",
+      "K": [
+        32768,
+        32768,
+        32768
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p64-s0-fixed65536",
+      "kind": "fixed",
+      "K": [
+        65536,
+        65536,
+        65536
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p64-s0-phase",
+      "kind": "selected-phase",
+      "K": [
+        64,
+        64,
+        8
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "predictable-wi",
+      "cost": 0,
+      "id": "n28-l16-p64-s0-predictable-wi",
+      "kind": "control",
+      "K": [
+        512,
+        512,
+        512
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "wu-of",
+      "cost": 0,
+      "id": "n28-l16-p64-s0-wu-of",
+      "kind": "control",
+      "K": [
+        512,
+        512,
+        512
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p64-s1-fixed8",
+      "kind": "fixed",
+      "K": [
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p64-s1-fixed64",
+      "kind": "fixed",
+      "K": [
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p64-s1-fixed128",
+      "kind": "fixed",
+      "K": [
+        128,
+        128,
+        128
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p64-s1-fixed256",
+      "kind": "fixed",
+      "K": [
+        256,
+        256,
+        256
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p64-s1-fixed512",
+      "kind": "fixed",
+      "K": [
+        512,
+        512,
+        512
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p64-s1-fixed768",
+      "kind": "fixed",
+      "K": [
+        768,
+        768,
+        768
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p64-s1-fixed1024",
+      "kind": "fixed",
+      "K": [
+        1024,
+        1024,
+        1024
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p64-s1-fixed1536",
+      "kind": "fixed",
+      "K": [
+        1536,
+        1536,
+        1536
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p64-s1-fixed2048",
+      "kind": "fixed",
+      "K": [
+        2048,
+        2048,
+        2048
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p64-s1-fixed3072",
+      "kind": "fixed",
+      "K": [
+        3072,
+        3072,
+        3072
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p64-s1-fixed4096",
+      "kind": "fixed",
+      "K": [
+        4096,
+        4096,
+        4096
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p64-s1-fixed8192",
+      "kind": "fixed",
+      "K": [
+        8192,
+        8192,
+        8192
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p64-s1-fixed16384",
+      "kind": "fixed",
+      "K": [
+        16384,
+        16384,
+        16384
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p64-s1-fixed32768",
+      "kind": "fixed",
+      "K": [
+        32768,
+        32768,
+        32768
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p64-s1-fixed65536",
+      "kind": "fixed",
+      "K": [
+        65536,
+        65536,
+        65536
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p64-s1-phase",
+      "kind": "selected-phase",
+      "K": [
+        8,
+        8,
+        64
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "predictable-wi",
+      "cost": 0,
+      "id": "n28-l16-p64-s1-predictable-wi",
+      "kind": "control",
+      "K": [
+        512,
+        512,
+        512
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "wu-of",
+      "cost": 0,
+      "id": "n28-l16-p64-s1-wu-of",
+      "kind": "control",
+      "K": [
+        512,
+        512,
+        512
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p256-s0-fixed8",
+      "kind": "fixed",
+      "K": [
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p256-s0-fixed64",
+      "kind": "fixed",
+      "K": [
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p256-s0-fixed128",
+      "kind": "fixed",
+      "K": [
+        128,
+        128,
+        128
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p256-s0-fixed256",
+      "kind": "fixed",
+      "K": [
+        256,
+        256,
+        256
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p256-s0-fixed512",
+      "kind": "fixed",
+      "K": [
+        512,
+        512,
+        512
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p256-s0-fixed768",
+      "kind": "fixed",
+      "K": [
+        768,
+        768,
+        768
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p256-s0-fixed1024",
+      "kind": "fixed",
+      "K": [
+        1024,
+        1024,
+        1024
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p256-s0-fixed1536",
+      "kind": "fixed",
+      "K": [
+        1536,
+        1536,
+        1536
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p256-s0-fixed2048",
+      "kind": "fixed",
+      "K": [
+        2048,
+        2048,
+        2048
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p256-s0-fixed3072",
+      "kind": "fixed",
+      "K": [
+        3072,
+        3072,
+        3072
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p256-s0-fixed4096",
+      "kind": "fixed",
+      "K": [
+        4096,
+        4096,
+        4096
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p256-s0-fixed8192",
+      "kind": "fixed",
+      "K": [
+        8192,
+        8192,
+        8192
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p256-s0-fixed16384",
+      "kind": "fixed",
+      "K": [
+        16384,
+        16384,
+        16384
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p256-s0-fixed32768",
+      "kind": "fixed",
+      "K": [
+        32768,
+        32768,
+        32768
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p256-s0-fixed65536",
+      "kind": "fixed",
+      "K": [
+        65536,
+        65536,
+        65536
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p256-s0-phase",
+      "kind": "selected-phase",
+      "K": [
+        64,
+        64,
+        8
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "predictable-wi",
+      "cost": 0,
+      "id": "n28-l16-p256-s0-predictable-wi",
+      "kind": "control",
+      "K": [
+        512,
+        512,
+        512
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "wu-of",
+      "cost": 0,
+      "id": "n28-l16-p256-s0-wu-of",
+      "kind": "control",
+      "K": [
+        512,
+        512,
+        512
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p256-s1-fixed8",
+      "kind": "fixed",
+      "K": [
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p256-s1-fixed64",
+      "kind": "fixed",
+      "K": [
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p256-s1-fixed128",
+      "kind": "fixed",
+      "K": [
+        128,
+        128,
+        128
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p256-s1-fixed256",
+      "kind": "fixed",
+      "K": [
+        256,
+        256,
+        256
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p256-s1-fixed512",
+      "kind": "fixed",
+      "K": [
+        512,
+        512,
+        512
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p256-s1-fixed768",
+      "kind": "fixed",
+      "K": [
+        768,
+        768,
+        768
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p256-s1-fixed1024",
+      "kind": "fixed",
+      "K": [
+        1024,
+        1024,
+        1024
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p256-s1-fixed1536",
+      "kind": "fixed",
+      "K": [
+        1536,
+        1536,
+        1536
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p256-s1-fixed2048",
+      "kind": "fixed",
+      "K": [
+        2048,
+        2048,
+        2048
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p256-s1-fixed3072",
+      "kind": "fixed",
+      "K": [
+        3072,
+        3072,
+        3072
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p256-s1-fixed4096",
+      "kind": "fixed",
+      "K": [
+        4096,
+        4096,
+        4096
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p256-s1-fixed8192",
+      "kind": "fixed",
+      "K": [
+        8192,
+        8192,
+        8192
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p256-s1-fixed16384",
+      "kind": "fixed",
+      "K": [
+        16384,
+        16384,
+        16384
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p256-s1-fixed32768",
+      "kind": "fixed",
+      "K": [
+        32768,
+        32768,
+        32768
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p256-s1-fixed65536",
+      "kind": "fixed",
+      "K": [
+        65536,
+        65536,
+        65536
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l16-p256-s1-phase",
+      "kind": "selected-phase",
+      "K": [
+        8,
+        8,
+        64
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "predictable-wi",
+      "cost": 0,
+      "id": "n28-l16-p256-s1-predictable-wi",
+      "kind": "control",
+      "K": [
+        512,
+        512,
+        512
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 16,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "wu-of",
+      "cost": 0,
+      "id": "n28-l16-p256-s1-wu-of",
+      "kind": "control",
+      "K": [
+        512,
+        512,
+        512
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p64-s0-fixed8",
+      "kind": "fixed",
+      "K": [
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p64-s0-fixed64",
+      "kind": "fixed",
+      "K": [
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p64-s0-fixed128",
+      "kind": "fixed",
+      "K": [
+        128,
+        128,
+        128
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p64-s0-fixed256",
+      "kind": "fixed",
+      "K": [
+        256,
+        256,
+        256
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p64-s0-fixed512",
+      "kind": "fixed",
+      "K": [
+        512,
+        512,
+        512
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p64-s0-fixed768",
+      "kind": "fixed",
+      "K": [
+        768,
+        768,
+        768
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p64-s0-fixed1024",
+      "kind": "fixed",
+      "K": [
+        1024,
+        1024,
+        1024
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p64-s0-fixed1536",
+      "kind": "fixed",
+      "K": [
+        1536,
+        1536,
+        1536
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p64-s0-fixed2048",
+      "kind": "fixed",
+      "K": [
+        2048,
+        2048,
+        2048
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p64-s0-fixed3072",
+      "kind": "fixed",
+      "K": [
+        3072,
+        3072,
+        3072
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p64-s0-fixed4096",
+      "kind": "fixed",
+      "K": [
+        4096,
+        4096,
+        4096
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p64-s0-fixed8192",
+      "kind": "fixed",
+      "K": [
+        8192,
+        8192,
+        8192
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p64-s0-fixed16384",
+      "kind": "fixed",
+      "K": [
+        16384,
+        16384,
+        16384
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p64-s0-fixed32768",
+      "kind": "fixed",
+      "K": [
+        32768,
+        32768,
+        32768
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p64-s0-fixed65536",
+      "kind": "fixed",
+      "K": [
+        65536,
+        65536,
+        65536
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p64-s0-phase",
+      "kind": "selected-phase",
+      "K": [
+        4096,
+        4096,
+        8
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "predictable-wi",
+      "cost": 0,
+      "id": "n28-l64-p64-s0-predictable-wi",
+      "kind": "control",
+      "K": [
+        512,
+        512,
+        512
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 0,
+      "mode": "wu-of",
+      "cost": 0,
+      "id": "n28-l64-p64-s0-wu-of",
+      "kind": "control",
+      "K": [
+        512,
+        512,
+        512
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p64-s1-fixed8",
+      "kind": "fixed",
+      "K": [
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p64-s1-fixed64",
+      "kind": "fixed",
+      "K": [
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p64-s1-fixed128",
+      "kind": "fixed",
+      "K": [
+        128,
+        128,
+        128
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p64-s1-fixed256",
+      "kind": "fixed",
+      "K": [
+        256,
+        256,
+        256
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p64-s1-fixed512",
+      "kind": "fixed",
+      "K": [
+        512,
+        512,
+        512
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p64-s1-fixed768",
+      "kind": "fixed",
+      "K": [
+        768,
+        768,
+        768
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p64-s1-fixed1024",
+      "kind": "fixed",
+      "K": [
+        1024,
+        1024,
+        1024
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p64-s1-fixed1536",
+      "kind": "fixed",
+      "K": [
+        1536,
+        1536,
+        1536
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p64-s1-fixed2048",
+      "kind": "fixed",
+      "K": [
+        2048,
+        2048,
+        2048
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p64-s1-fixed3072",
+      "kind": "fixed",
+      "K": [
+        3072,
+        3072,
+        3072
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p64-s1-fixed4096",
+      "kind": "fixed",
+      "K": [
+        4096,
+        4096,
+        4096
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p64-s1-fixed8192",
+      "kind": "fixed",
+      "K": [
+        8192,
+        8192,
+        8192
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p64-s1-fixed16384",
+      "kind": "fixed",
+      "K": [
+        16384,
+        16384,
+        16384
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p64-s1-fixed32768",
+      "kind": "fixed",
+      "K": [
+        32768,
+        32768,
+        32768
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p64-s1-fixed65536",
+      "kind": "fixed",
+      "K": [
+        65536,
+        65536,
+        65536
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p64-s1-phase",
+      "kind": "selected-phase",
+      "K": [
+        65536,
+        65536,
+        8
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "predictable-wi",
+      "cost": 0,
+      "id": "n28-l64-p64-s1-predictable-wi",
+      "kind": "control",
+      "K": [
+        512,
+        512,
+        512
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "wu-of",
+      "cost": 0,
+      "id": "n28-l64-p64-s1-wu-of",
+      "kind": "control",
+      "K": [
+        512,
+        512,
+        512
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p256-s0-fixed8",
+      "kind": "fixed",
+      "K": [
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p256-s0-fixed64",
+      "kind": "fixed",
+      "K": [
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p256-s0-fixed128",
+      "kind": "fixed",
+      "K": [
+        128,
+        128,
+        128
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p256-s0-fixed256",
+      "kind": "fixed",
+      "K": [
+        256,
+        256,
+        256
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p256-s0-fixed512",
+      "kind": "fixed",
+      "K": [
+        512,
+        512,
+        512
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p256-s0-fixed768",
+      "kind": "fixed",
+      "K": [
+        768,
+        768,
+        768
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p256-s0-fixed1024",
+      "kind": "fixed",
+      "K": [
+        1024,
+        1024,
+        1024
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p256-s0-fixed1536",
+      "kind": "fixed",
+      "K": [
+        1536,
+        1536,
+        1536
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p256-s0-fixed2048",
+      "kind": "fixed",
+      "K": [
+        2048,
+        2048,
+        2048
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p256-s0-fixed3072",
+      "kind": "fixed",
+      "K": [
+        3072,
+        3072,
+        3072
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p256-s0-fixed4096",
+      "kind": "fixed",
+      "K": [
+        4096,
+        4096,
+        4096
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p256-s0-fixed8192",
+      "kind": "fixed",
+      "K": [
+        8192,
+        8192,
+        8192
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p256-s0-fixed16384",
+      "kind": "fixed",
+      "K": [
+        16384,
+        16384,
+        16384
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p256-s0-fixed32768",
+      "kind": "fixed",
+      "K": [
+        32768,
+        32768,
+        32768
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p256-s0-fixed65536",
+      "kind": "fixed",
+      "K": [
+        65536,
+        65536,
+        65536
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p256-s0-phase",
+      "kind": "selected-phase",
+      "K": [
+        64,
+        64,
+        8
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "predictable-wi",
+      "cost": 0,
+      "id": "n28-l64-p256-s0-predictable-wi",
+      "kind": "control",
+      "K": [
+        512,
+        512,
+        512
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 0,
+      "mode": "wu-of",
+      "cost": 0,
+      "id": "n28-l64-p256-s0-wu-of",
+      "kind": "control",
+      "K": [
+        512,
+        512,
+        512
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p256-s1-fixed8",
+      "kind": "fixed",
+      "K": [
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p256-s1-fixed64",
+      "kind": "fixed",
+      "K": [
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p256-s1-fixed128",
+      "kind": "fixed",
+      "K": [
+        128,
+        128,
+        128
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p256-s1-fixed256",
+      "kind": "fixed",
+      "K": [
+        256,
+        256,
+        256
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p256-s1-fixed512",
+      "kind": "fixed",
+      "K": [
+        512,
+        512,
+        512
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p256-s1-fixed768",
+      "kind": "fixed",
+      "K": [
+        768,
+        768,
+        768
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p256-s1-fixed1024",
+      "kind": "fixed",
+      "K": [
+        1024,
+        1024,
+        1024
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p256-s1-fixed1536",
+      "kind": "fixed",
+      "K": [
+        1536,
+        1536,
+        1536
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p256-s1-fixed2048",
+      "kind": "fixed",
+      "K": [
+        2048,
+        2048,
+        2048
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p256-s1-fixed3072",
+      "kind": "fixed",
+      "K": [
+        3072,
+        3072,
+        3072
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p256-s1-fixed4096",
+      "kind": "fixed",
+      "K": [
+        4096,
+        4096,
+        4096
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p256-s1-fixed8192",
+      "kind": "fixed",
+      "K": [
+        8192,
+        8192,
+        8192
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p256-s1-fixed16384",
+      "kind": "fixed",
+      "K": [
+        16384,
+        16384,
+        16384
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p256-s1-fixed32768",
+      "kind": "fixed",
+      "K": [
+        32768,
+        32768,
+        32768
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p256-s1-fixed65536",
+      "kind": "fixed",
+      "K": [
+        65536,
+        65536,
+        65536
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n28-l64-p256-s1-phase",
+      "kind": "selected-phase",
+      "K": [
+        8,
+        8,
+        64
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "predictable-wi",
+      "cost": 0,
+      "id": "n28-l64-p256-s1-predictable-wi",
+      "kind": "control",
+      "K": [
+        512,
+        512,
+        512
+      ]
+    },
+    {
+      "N": 28,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 256,
+      "pattern": 1,
+      "mode": "wu-of",
+      "cost": 0,
+      "id": "n28-l64-p256-s1-wu-of",
+      "kind": "control",
+      "K": [
+        512,
+        512,
+        512
+      ]
+    }
+  ]
+}
