@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "archive": {
+    "path": "native-command-cost-r29-inputs.zip",
+    "bytes": 85632,
+    "sha256": "a9599f5bbc2819a22bf1739549d9d35535f08b41d9fb4ce00d0f0031cc4ba710",
+    "members": 26
+  },
+  "native_cases": {
+    "new": 135,
+    "reused_exact_cost8": 27,
+    "analyzed": 162,
+    "valid": 162,
+    "epochs": 648,
+    "summary_rows": 54
+  },
+  "cost_parameter": "additional reader0 CPU-local m5_quiesce_cycle(c), not measured MMIO latency or an MMIO upper bound",
+  "scope": "32KiB;N20/24/28;three offsets0/64/127;Phase,K3,K253;cost0/4/8/16/32/64;seven-policy metadata is separate original evidence",
+  "prior_authorized_scientific_code": [
+    {
+      "path_in_native_archive": "config_quantized.py",
+      "bytes": 8235,
+      "sha256": "7349b98e8a0bd3ee17a26c38b9c770ab75396693cce0a0333fc4a658547ef0b9",
+      "git_blob_sha1": "100c0ef6a995c6cde827b3a1ce6ee69ace216db0",
+      "prior_authorized_release_commit": "6746fef6a98fda877ac76206ba578affe662319a",
+      "prior_release_path": "research/phase-adaptive-20261024/native-quantized-r20-v1/config_quantized.py",
+      "classification": "previously released scientific configuration/workload/runner input; not native simulator implementation overlay"
+    },
+    {
+      "path_in_native_archive": "fir_pipeline_v3.c",
+      "bytes": 4225,
+      "sha256": "ba5235c13df956dd5c02de195de169271738d4176c1dd09a98951c25d263042c",
+      "git_blob_sha1": "049ff79767f6ffffabfb63e7d5cc20c1a119c3f5",
+      "prior_authorized_release_commit": "6746fef6a98fda877ac76206ba578affe662319a",
+      "prior_release_path": "research/phase-adaptive-20261024/native-quantized-r20-v1/fir_pipeline_v3.c",
+      "classification": "previously released scientific configuration/workload/runner input; not native simulator implementation overlay"
+    },
+    {
+      "path_in_native_archive": "native_driver.py",
+      "bytes": 4646,
+      "sha256": "26d6d6353436f78c3c1a6dea7bcd912b3256852a4a9f7a8349b68a94de102c8d",
+      "git_blob_sha1": "ec74f8f77c44a1c2ed218bdbacce13988fb57f72",
+      "prior_authorized_release_commit": "6746fef6a98fda877ac76206ba578affe662319a",
+      "prior_release_path": "research/phase-adaptive-20261024/native-quantized-r20-v1/native_driver.py",
+      "classification": "previously released scientific configuration/workload/runner input; not native simulator implementation overlay"
+    }
+  ],
+  "native_overlay_and_executable_included": false,
+  "recorded_replay_only": true
+}

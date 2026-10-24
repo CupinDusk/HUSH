@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "archive": {
+    "path": "parameter-proof-inputs.zip",
+    "bytes": 491021,
+    "sha256": "52f0feba898c80ad6a7ae3dd28332bd4fd1bb35c4df6cc878c1fefc9d3c7149c",
+    "members": 37
+  },
+  "full_bank": {
+    "N4": "induction_proven",
+    "N64": "timeout_unknown",
+    "N512": "timeout_unknown"
+  },
+  "arbitrary_line_N4_N64_N512": "induction_proven",
+  "four_mutation_controls": "base_case_counterexamples",
+  "six_original_bank_dependency_checks": "pass",
+  "uniform_N_independent_loop_body_checks": "pass"
+}
