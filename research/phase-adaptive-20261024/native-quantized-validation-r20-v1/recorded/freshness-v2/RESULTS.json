@@ -1,0 +1,3152 @@
+{
+  "cases": 24,
+  "valid": 24,
+  "checks": 168480,
+  "stale": 0,
+  "rows": [
+    {
+      "case": {
+        "id": "fresh-4KiB-q8-k1-128-1-phi0",
+        "kind": "freshness",
+        "cache": "4KiB",
+        "Q": 8,
+        "K": [
+          1,
+          128,
+          1
+        ],
+        "phi": 0,
+        "P": 128
+      },
+      "returncode": 0,
+      "valid": true,
+      "checks": 1560,
+      "stale": 0,
+      "invariant_failures": {},
+      "summary": {
+        "kind": "native_cpu_application_pilot",
+        "mode": "hush",
+        "schedule_cycles": [
+          128,
+          16384,
+          128
+        ],
+        "configuration_stall_cycles": 8,
+        "command": [
+          "freshness-v1",
+          "8",
+          "32",
+          "64",
+          "16",
+          "00008",
+          "0"
+        ],
+        "binary_sha256": "92b4eadd8e7387a6a1ff8591cfeec8fbcadec32ffaea4e65f1585be207bfb870",
+        "architecture": "four TimingSimple x86 cores, private unified4KiB 2way caches, fixed-P prospective quantized expiry with staged CSR/input adapter, common4-client HUSH service",
+        "roi_start_tick": 313578000,
+        "roi_end_tick": 421809000,
+        "roi_ticks": 108231000,
+        "phase_events": [
+          {
+            "id": 0,
+            "tick": 313578000
+          },
+          {
+            "id": 1,
+            "tick": 328842000,
+            "requested_T_cycles": 16384,
+            "write_policy": "apply",
+            "applied_T_cycles": 16384
+          },
+          {
+            "id": 2,
+            "tick": 340230000,
+            "requested_T_cycles": 128,
+            "write_policy": "apply",
+            "applied_T_cycles": 128
+          },
+          {
+            "id": 13,
+            "tick": 407582000,
+            "completed_task": 3
+          },
+          {
+            "id": 12,
+            "tick": 409193000,
+            "completed_task": 2
+          },
+          {
+            "id": 10,
+            "tick": 409230000,
+            "completed_task": 0
+          },
+          {
+            "id": 11,
+            "tick": 409393000,
+            "completed_task": 1
+          },
+          {
+            "id": 99,
+            "tick": 421809000
+          }
+        ],
+        "timeout_register_writes": 8,
+        "terminal": {
+          "cause": "exiting with last active thread context",
+          "code": 0,
+          "tick": 490754000
+        },
+        "final_tick": 490754000,
+        "marker_errors": [],
+        "roi_stats_block": 4,
+        "epoch_snapshots": [
+          {
+            "label": "validation",
+            "stats_block": 1,
+            "tick": 328842000
+          },
+          {
+            "label": "fir",
+            "stats_block": 2,
+            "tick": 340230000
+          },
+          {
+            "label": "features",
+            "stats_block": 3,
+            "tick": 409393000
+          },
+          {
+            "label": "join",
+            "stats_block": 4,
+            "tick": 421809000
+          }
+        ],
+        "api_write_policy": "apply",
+        "requested_timeout_writes": 8,
+        "suppressed_timeout_writes": 0,
+        "cost_layout": "five-digit",
+        "timer_period_cycles": 128,
+        "tick_phase_cycles": 0,
+        "K_schedule": [
+          1,
+          128,
+          1
+        ],
+        "scope": "native fixed-P Eq1 expiry; staged configuration effective next edge, coincident receiver input held one cycle; no RTL-equivalence or full-WCET claim"
+      }
+    },
+    {
+      "case": {
+        "id": "fresh-4KiB-q8-k1-128-1-phi64",
+        "kind": "freshness",
+        "cache": "4KiB",
+        "Q": 8,
+        "K": [
+          1,
+          128,
+          1
+        ],
+        "phi": 64,
+        "P": 128
+      },
+      "returncode": 0,
+      "valid": true,
+      "checks": 1560,
+      "stale": 0,
+      "invariant_failures": {},
+      "summary": {
+        "kind": "native_cpu_application_pilot",
+        "mode": "hush",
+        "schedule_cycles": [
+          128,
+          16384,
+          128
+        ],
+        "configuration_stall_cycles": 8,
+        "command": [
+          "freshness-v1",
+          "8",
+          "32",
+          "64",
+          "16",
+          "00008",
+          "0"
+        ],
+        "binary_sha256": "92b4eadd8e7387a6a1ff8591cfeec8fbcadec32ffaea4e65f1585be207bfb870",
+        "architecture": "four TimingSimple x86 cores, private unified4KiB 2way caches, fixed-P prospective quantized expiry with staged CSR/input adapter, common4-client HUSH service",
+        "roi_start_tick": 313578000,
+        "roi_end_tick": 421596000,
+        "roi_ticks": 108018000,
+        "phase_events": [
+          {
+            "id": 0,
+            "tick": 313578000
+          },
+          {
+            "id": 1,
+            "tick": 328816000,
+            "requested_T_cycles": 16384,
+            "write_policy": "apply",
+            "applied_T_cycles": 16384
+          },
+          {
+            "id": 2,
+            "tick": 340224000,
+            "requested_T_cycles": 128,
+            "write_policy": "apply",
+            "applied_T_cycles": 128
+          },
+          {
+            "id": 13,
+            "tick": 407591000,
+            "completed_task": 3
+          },
+          {
+            "id": 11,
+            "tick": 409200000,
+            "completed_task": 1
+          },
+          {
+            "id": 10,
+            "tick": 409237000,
+            "completed_task": 0
+          },
+          {
+            "id": 12,
+            "tick": 409400000,
+            "completed_task": 2
+          },
+          {
+            "id": 99,
+            "tick": 421596000
+          }
+        ],
+        "timeout_register_writes": 8,
+        "terminal": {
+          "cause": "exiting with last active thread context",
+          "code": 0,
+          "tick": 490541000
+        },
+        "final_tick": 490541000,
+        "marker_errors": [],
+        "roi_stats_block": 4,
+        "epoch_snapshots": [
+          {
+            "label": "validation",
+            "stats_block": 1,
+            "tick": 328816000
+          },
+          {
+            "label": "fir",
+            "stats_block": 2,
+            "tick": 340224000
+          },
+          {
+            "label": "features",
+            "stats_block": 3,
+            "tick": 409400000
+          },
+          {
+            "label": "join",
+            "stats_block": 4,
+            "tick": 421596000
+          }
+        ],
+        "api_write_policy": "apply",
+        "requested_timeout_writes": 8,
+        "suppressed_timeout_writes": 0,
+        "cost_layout": "five-digit",
+        "timer_period_cycles": 128,
+        "tick_phase_cycles": 64,
+        "K_schedule": [
+          1,
+          128,
+          1
+        ],
+        "scope": "native fixed-P Eq1 expiry; staged configuration effective next edge, coincident receiver input held one cycle; no RTL-equivalence or full-WCET claim"
+      }
+    },
+    {
+      "case": {
+        "id": "fresh-4KiB-q8-k1-128-1-phi127",
+        "kind": "freshness",
+        "cache": "4KiB",
+        "Q": 8,
+        "K": [
+          1,
+          128,
+          1
+        ],
+        "phi": 127,
+        "P": 128
+      },
+      "returncode": 0,
+      "valid": true,
+      "checks": 1560,
+      "stale": 0,
+      "invariant_failures": {},
+      "summary": {
+        "kind": "native_cpu_application_pilot",
+        "mode": "hush",
+        "schedule_cycles": [
+          128,
+          16384,
+          128
+        ],
+        "configuration_stall_cycles": 8,
+        "command": [
+          "freshness-v1",
+          "8",
+          "32",
+          "64",
+          "16",
+          "00008",
+          "0"
+        ],
+        "binary_sha256": "92b4eadd8e7387a6a1ff8591cfeec8fbcadec32ffaea4e65f1585be207bfb870",
+        "architecture": "four TimingSimple x86 cores, private unified4KiB 2way caches, fixed-P prospective quantized expiry with staged CSR/input adapter, common4-client HUSH service",
+        "roi_start_tick": 313578000,
+        "roi_end_tick": 421618000,
+        "roi_ticks": 108040000,
+        "phase_events": [
+          {
+            "id": 0,
+            "tick": 313578000
+          },
+          {
+            "id": 1,
+            "tick": 328842000,
+            "requested_T_cycles": 16384,
+            "write_policy": "apply",
+            "applied_T_cycles": 16384
+          },
+          {
+            "id": 2,
+            "tick": 340230000,
+            "requested_T_cycles": 128,
+            "write_policy": "apply",
+            "applied_T_cycles": 128
+          },
+          {
+            "id": 13,
+            "tick": 407595000,
+            "completed_task": 3
+          },
+          {
+            "id": 10,
+            "tick": 409094000,
+            "completed_task": 0
+          },
+          {
+            "id": 11,
+            "tick": 409362000,
+            "completed_task": 1
+          },
+          {
+            "id": 12,
+            "tick": 409512000,
+            "completed_task": 2
+          },
+          {
+            "id": 99,
+            "tick": 421618000
+          }
+        ],
+        "timeout_register_writes": 8,
+        "terminal": {
+          "cause": "exiting with last active thread context",
+          "code": 0,
+          "tick": 490563000
+        },
+        "final_tick": 490563000,
+        "marker_errors": [],
+        "roi_stats_block": 4,
+        "epoch_snapshots": [
+          {
+            "label": "validation",
+            "stats_block": 1,
+            "tick": 328842000
+          },
+          {
+            "label": "fir",
+            "stats_block": 2,
+            "tick": 340230000
+          },
+          {
+            "label": "features",
+            "stats_block": 3,
+            "tick": 409512000
+          },
+          {
+            "label": "join",
+            "stats_block": 4,
+            "tick": 421618000
+          }
+        ],
+        "api_write_policy": "apply",
+        "requested_timeout_writes": 8,
+        "suppressed_timeout_writes": 0,
+        "cost_layout": "five-digit",
+        "timer_period_cycles": 128,
+        "tick_phase_cycles": 127,
+        "K_schedule": [
+          1,
+          128,
+          1
+        ],
+        "scope": "native fixed-P Eq1 expiry; staged configuration effective next edge, coincident receiver input held one cycle; no RTL-equivalence or full-WCET claim"
+      }
+    },
+    {
+      "case": {
+        "id": "fresh-4KiB-q8-k128-1-128-phi0",
+        "kind": "freshness",
+        "cache": "4KiB",
+        "Q": 8,
+        "K": [
+          128,
+          1,
+          128
+        ],
+        "phi": 0,
+        "P": 128
+      },
+      "returncode": 0,
+      "valid": true,
+      "checks": 1560,
+      "stale": 0,
+      "invariant_failures": {},
+      "summary": {
+        "kind": "native_cpu_application_pilot",
+        "mode": "hush",
+        "schedule_cycles": [
+          16384,
+          128,
+          16384
+        ],
+        "configuration_stall_cycles": 8,
+        "command": [
+          "freshness-v1",
+          "8",
+          "32",
+          "64",
+          "16",
+          "00008",
+          "0"
+        ],
+        "binary_sha256": "92b4eadd8e7387a6a1ff8591cfeec8fbcadec32ffaea4e65f1585be207bfb870",
+        "architecture": "four TimingSimple x86 cores, private unified4KiB 2way caches, fixed-P prospective quantized expiry with staged CSR/input adapter, common4-client HUSH service",
+        "roi_start_tick": 313203000,
+        "roi_end_tick": 421742000,
+        "roi_ticks": 108539000,
+        "phase_events": [
+          {
+            "id": 0,
+            "tick": 313203000
+          },
+          {
+            "id": 1,
+            "tick": 326506000,
+            "requested_T_cycles": 128,
+            "write_policy": "apply",
+            "applied_T_cycles": 128
+          },
+          {
+            "id": 2,
+            "tick": 339939000,
+            "requested_T_cycles": 16384,
+            "write_policy": "apply",
+            "applied_T_cycles": 16384
+          },
+          {
+            "id": 13,
+            "tick": 408331000,
+            "completed_task": 3
+          },
+          {
+            "id": 10,
+            "tick": 408959000,
+            "completed_task": 0
+          },
+          {
+            "id": 12,
+            "tick": 409030000,
+            "completed_task": 2
+          },
+          {
+            "id": 11,
+            "tick": 409184000,
+            "completed_task": 1
+          },
+          {
+            "id": 99,
+            "tick": 421742000
+          }
+        ],
+        "timeout_register_writes": 8,
+        "terminal": {
+          "cause": "exiting with last active thread context",
+          "code": 0,
+          "tick": 490687000
+        },
+        "final_tick": 490687000,
+        "marker_errors": [],
+        "roi_stats_block": 4,
+        "epoch_snapshots": [
+          {
+            "label": "validation",
+            "stats_block": 1,
+            "tick": 326506000
+          },
+          {
+            "label": "fir",
+            "stats_block": 2,
+            "tick": 339939000
+          },
+          {
+            "label": "features",
+            "stats_block": 3,
+            "tick": 409184000
+          },
+          {
+            "label": "join",
+            "stats_block": 4,
+            "tick": 421742000
+          }
+        ],
+        "api_write_policy": "apply",
+        "requested_timeout_writes": 8,
+        "suppressed_timeout_writes": 0,
+        "cost_layout": "five-digit",
+        "timer_period_cycles": 128,
+        "tick_phase_cycles": 0,
+        "K_schedule": [
+          128,
+          1,
+          128
+        ],
+        "scope": "native fixed-P Eq1 expiry; staged configuration effective next edge, coincident receiver input held one cycle; no RTL-equivalence or full-WCET claim"
+      }
+    },
+    {
+      "case": {
+        "id": "fresh-4KiB-q8-k128-1-128-phi64",
+        "kind": "freshness",
+        "cache": "4KiB",
+        "Q": 8,
+        "K": [
+          128,
+          1,
+          128
+        ],
+        "phi": 64,
+        "P": 128
+      },
+      "returncode": 0,
+      "valid": true,
+      "checks": 1560,
+      "stale": 0,
+      "invariant_failures": {},
+      "summary": {
+        "kind": "native_cpu_application_pilot",
+        "mode": "hush",
+        "schedule_cycles": [
+          16384,
+          128,
+          16384
+        ],
+        "configuration_stall_cycles": 8,
+        "command": [
+          "freshness-v1",
+          "8",
+          "32",
+          "64",
+          "16",
+          "00008",
+          "0"
+        ],
+        "binary_sha256": "92b4eadd8e7387a6a1ff8591cfeec8fbcadec32ffaea4e65f1585be207bfb870",
+        "architecture": "four TimingSimple x86 cores, private unified4KiB 2way caches, fixed-P prospective quantized expiry with staged CSR/input adapter, common4-client HUSH service",
+        "roi_start_tick": 313203000,
+        "roi_end_tick": 421741000,
+        "roi_ticks": 108538000,
+        "phase_events": [
+          {
+            "id": 0,
+            "tick": 313203000
+          },
+          {
+            "id": 1,
+            "tick": 326506000,
+            "requested_T_cycles": 128,
+            "write_policy": "apply",
+            "applied_T_cycles": 128
+          },
+          {
+            "id": 2,
+            "tick": 340000000,
+            "requested_T_cycles": 16384,
+            "write_policy": "apply",
+            "applied_T_cycles": 16384
+          },
+          {
+            "id": 13,
+            "tick": 408330000,
+            "completed_task": 3
+          },
+          {
+            "id": 10,
+            "tick": 408957000,
+            "completed_task": 0
+          },
+          {
+            "id": 12,
+            "tick": 409028000,
+            "completed_task": 2
+          },
+          {
+            "id": 11,
+            "tick": 409183000,
+            "completed_task": 1
+          },
+          {
+            "id": 99,
+            "tick": 421741000
+          }
+        ],
+        "timeout_register_writes": 8,
+        "terminal": {
+          "cause": "exiting with last active thread context",
+          "code": 0,
+          "tick": 490686000
+        },
+        "final_tick": 490686000,
+        "marker_errors": [],
+        "roi_stats_block": 4,
+        "epoch_snapshots": [
+          {
+            "label": "validation",
+            "stats_block": 1,
+            "tick": 326506000
+          },
+          {
+            "label": "fir",
+            "stats_block": 2,
+            "tick": 340000000
+          },
+          {
+            "label": "features",
+            "stats_block": 3,
+            "tick": 409183000
+          },
+          {
+            "label": "join",
+            "stats_block": 4,
+            "tick": 421741000
+          }
+        ],
+        "api_write_policy": "apply",
+        "requested_timeout_writes": 8,
+        "suppressed_timeout_writes": 0,
+        "cost_layout": "five-digit",
+        "timer_period_cycles": 128,
+        "tick_phase_cycles": 64,
+        "K_schedule": [
+          128,
+          1,
+          128
+        ],
+        "scope": "native fixed-P Eq1 expiry; staged configuration effective next edge, coincident receiver input held one cycle; no RTL-equivalence or full-WCET claim"
+      }
+    },
+    {
+      "case": {
+        "id": "fresh-4KiB-q8-k128-1-128-phi127",
+        "kind": "freshness",
+        "cache": "4KiB",
+        "Q": 8,
+        "K": [
+          128,
+          1,
+          128
+        ],
+        "phi": 127,
+        "P": 128
+      },
+      "returncode": 0,
+      "valid": true,
+      "checks": 1560,
+      "stale": 0,
+      "invariant_failures": {},
+      "summary": {
+        "kind": "native_cpu_application_pilot",
+        "mode": "hush",
+        "schedule_cycles": [
+          16384,
+          128,
+          16384
+        ],
+        "configuration_stall_cycles": 8,
+        "command": [
+          "freshness-v1",
+          "8",
+          "32",
+          "64",
+          "16",
+          "00008",
+          "0"
+        ],
+        "binary_sha256": "92b4eadd8e7387a6a1ff8591cfeec8fbcadec32ffaea4e65f1585be207bfb870",
+        "architecture": "four TimingSimple x86 cores, private unified4KiB 2way caches, fixed-P prospective quantized expiry with staged CSR/input adapter, common4-client HUSH service",
+        "roi_start_tick": 313203000,
+        "roi_end_tick": 421742000,
+        "roi_ticks": 108539000,
+        "phase_events": [
+          {
+            "id": 0,
+            "tick": 313203000
+          },
+          {
+            "id": 1,
+            "tick": 326506000,
+            "requested_T_cycles": 128,
+            "write_policy": "apply",
+            "applied_T_cycles": 128
+          },
+          {
+            "id": 2,
+            "tick": 339939000,
+            "requested_T_cycles": 16384,
+            "write_policy": "apply",
+            "applied_T_cycles": 16384
+          },
+          {
+            "id": 13,
+            "tick": 408331000,
+            "completed_task": 3
+          },
+          {
+            "id": 10,
+            "tick": 408959000,
+            "completed_task": 0
+          },
+          {
+            "id": 12,
+            "tick": 409030000,
+            "completed_task": 2
+          },
+          {
+            "id": 11,
+            "tick": 409184000,
+            "completed_task": 1
+          },
+          {
+            "id": 99,
+            "tick": 421742000
+          }
+        ],
+        "timeout_register_writes": 8,
+        "terminal": {
+          "cause": "exiting with last active thread context",
+          "code": 0,
+          "tick": 490687000
+        },
+        "final_tick": 490687000,
+        "marker_errors": [],
+        "roi_stats_block": 4,
+        "epoch_snapshots": [
+          {
+            "label": "validation",
+            "stats_block": 1,
+            "tick": 326506000
+          },
+          {
+            "label": "fir",
+            "stats_block": 2,
+            "tick": 339939000
+          },
+          {
+            "label": "features",
+            "stats_block": 3,
+            "tick": 409184000
+          },
+          {
+            "label": "join",
+            "stats_block": 4,
+            "tick": 421742000
+          }
+        ],
+        "api_write_policy": "apply",
+        "requested_timeout_writes": 8,
+        "suppressed_timeout_writes": 0,
+        "cost_layout": "five-digit",
+        "timer_period_cycles": 128,
+        "tick_phase_cycles": 127,
+        "K_schedule": [
+          128,
+          1,
+          128
+        ],
+        "scope": "native fixed-P Eq1 expiry; staged configuration effective next edge, coincident receiver input held one cycle; no RTL-equivalence or full-WCET claim"
+      }
+    },
+    {
+      "case": {
+        "id": "fresh-4KiB-q64-k1-128-1-phi0",
+        "kind": "freshness",
+        "cache": "4KiB",
+        "Q": 64,
+        "K": [
+          1,
+          128,
+          1
+        ],
+        "phi": 0,
+        "P": 128
+      },
+      "returncode": 0,
+      "valid": true,
+      "checks": 12480,
+      "stale": 0,
+      "invariant_failures": {},
+      "summary": {
+        "kind": "native_cpu_application_pilot",
+        "mode": "hush",
+        "schedule_cycles": [
+          128,
+          16384,
+          128
+        ],
+        "configuration_stall_cycles": 8,
+        "command": [
+          "freshness-v1",
+          "64",
+          "32",
+          "64",
+          "16",
+          "00008",
+          "0"
+        ],
+        "binary_sha256": "92b4eadd8e7387a6a1ff8591cfeec8fbcadec32ffaea4e65f1585be207bfb870",
+        "architecture": "four TimingSimple x86 cores, private unified4KiB 2way caches, fixed-P prospective quantized expiry with staged CSR/input adapter, common4-client HUSH service",
+        "roi_start_tick": 321734000,
+        "roi_end_tick": 1112708000,
+        "roi_ticks": 790974000,
+        "phase_events": [
+          {
+            "id": 0,
+            "tick": 321734000
+          },
+          {
+            "id": 1,
+            "tick": 447569000,
+            "requested_T_cycles": 16384,
+            "write_policy": "apply",
+            "applied_T_cycles": 16384
+          },
+          {
+            "id": 2,
+            "tick": 545045000,
+            "requested_T_cycles": 128,
+            "write_policy": "apply",
+            "applied_T_cycles": 128
+          },
+          {
+            "id": 13,
+            "tick": 1087971000,
+            "completed_task": 3
+          },
+          {
+            "id": 10,
+            "tick": 1100627000,
+            "completed_task": 0
+          },
+          {
+            "id": 12,
+            "tick": 1100749000,
+            "completed_task": 2
+          },
+          {
+            "id": 11,
+            "tick": 1100949000,
+            "completed_task": 1
+          },
+          {
+            "id": 99,
+            "tick": 1112708000
+          }
+        ],
+        "timeout_register_writes": 8,
+        "terminal": {
+          "cause": "exiting with last active thread context",
+          "code": 0,
+          "tick": 1184661000
+        },
+        "final_tick": 1184661000,
+        "marker_errors": [],
+        "roi_stats_block": 4,
+        "epoch_snapshots": [
+          {
+            "label": "validation",
+            "stats_block": 1,
+            "tick": 447569000
+          },
+          {
+            "label": "fir",
+            "stats_block": 2,
+            "tick": 545045000
+          },
+          {
+            "label": "features",
+            "stats_block": 3,
+            "tick": 1100949000
+          },
+          {
+            "label": "join",
+            "stats_block": 4,
+            "tick": 1112708000
+          }
+        ],
+        "api_write_policy": "apply",
+        "requested_timeout_writes": 8,
+        "suppressed_timeout_writes": 0,
+        "cost_layout": "five-digit",
+        "timer_period_cycles": 128,
+        "tick_phase_cycles": 0,
+        "K_schedule": [
+          1,
+          128,
+          1
+        ],
+        "scope": "native fixed-P Eq1 expiry; staged configuration effective next edge, coincident receiver input held one cycle; no RTL-equivalence or full-WCET claim"
+      }
+    },
+    {
+      "case": {
+        "id": "fresh-4KiB-q64-k1-128-1-phi64",
+        "kind": "freshness",
+        "cache": "4KiB",
+        "Q": 64,
+        "K": [
+          1,
+          128,
+          1
+        ],
+        "phi": 64,
+        "P": 128
+      },
+      "returncode": 0,
+      "valid": true,
+      "checks": 12480,
+      "stale": 0,
+      "invariant_failures": {},
+      "summary": {
+        "kind": "native_cpu_application_pilot",
+        "mode": "hush",
+        "schedule_cycles": [
+          128,
+          16384,
+          128
+        ],
+        "configuration_stall_cycles": 8,
+        "command": [
+          "freshness-v1",
+          "64",
+          "32",
+          "64",
+          "16",
+          "00008",
+          "0"
+        ],
+        "binary_sha256": "92b4eadd8e7387a6a1ff8591cfeec8fbcadec32ffaea4e65f1585be207bfb870",
+        "architecture": "four TimingSimple x86 cores, private unified4KiB 2way caches, fixed-P prospective quantized expiry with staged CSR/input adapter, common4-client HUSH service",
+        "roi_start_tick": 321734000,
+        "roi_end_tick": 1112832000,
+        "roi_ticks": 791098000,
+        "phase_events": [
+          {
+            "id": 0,
+            "tick": 321734000
+          },
+          {
+            "id": 1,
+            "tick": 446697000,
+            "requested_T_cycles": 16384,
+            "write_policy": "apply",
+            "applied_T_cycles": 16384
+          },
+          {
+            "id": 2,
+            "tick": 544242000,
+            "requested_T_cycles": 128,
+            "write_policy": "apply",
+            "applied_T_cycles": 128
+          },
+          {
+            "id": 13,
+            "tick": 1088032000,
+            "completed_task": 3
+          },
+          {
+            "id": 10,
+            "tick": 1100815000,
+            "completed_task": 0
+          },
+          {
+            "id": 11,
+            "tick": 1100937000,
+            "completed_task": 1
+          },
+          {
+            "id": 12,
+            "tick": 1101137000,
+            "completed_task": 2
+          },
+          {
+            "id": 99,
+            "tick": 1112832000
+          }
+        ],
+        "timeout_register_writes": 8,
+        "terminal": {
+          "cause": "exiting with last active thread context",
+          "code": 0,
+          "tick": 1184785000
+        },
+        "final_tick": 1184785000,
+        "marker_errors": [],
+        "roi_stats_block": 4,
+        "epoch_snapshots": [
+          {
+            "label": "validation",
+            "stats_block": 1,
+            "tick": 446697000
+          },
+          {
+            "label": "fir",
+            "stats_block": 2,
+            "tick": 544242000
+          },
+          {
+            "label": "features",
+            "stats_block": 3,
+            "tick": 1101137000
+          },
+          {
+            "label": "join",
+            "stats_block": 4,
+            "tick": 1112832000
+          }
+        ],
+        "api_write_policy": "apply",
+        "requested_timeout_writes": 8,
+        "suppressed_timeout_writes": 0,
+        "cost_layout": "five-digit",
+        "timer_period_cycles": 128,
+        "tick_phase_cycles": 64,
+        "K_schedule": [
+          1,
+          128,
+          1
+        ],
+        "scope": "native fixed-P Eq1 expiry; staged configuration effective next edge, coincident receiver input held one cycle; no RTL-equivalence or full-WCET claim"
+      }
+    },
+    {
+      "case": {
+        "id": "fresh-4KiB-q64-k1-128-1-phi127",
+        "kind": "freshness",
+        "cache": "4KiB",
+        "Q": 64,
+        "K": [
+          1,
+          128,
+          1
+        ],
+        "phi": 127,
+        "P": 128
+      },
+      "returncode": 0,
+      "valid": true,
+      "checks": 12480,
+      "stale": 0,
+      "invariant_failures": {},
+      "summary": {
+        "kind": "native_cpu_application_pilot",
+        "mode": "hush",
+        "schedule_cycles": [
+          128,
+          16384,
+          128
+        ],
+        "configuration_stall_cycles": 8,
+        "command": [
+          "freshness-v1",
+          "64",
+          "32",
+          "64",
+          "16",
+          "00008",
+          "0"
+        ],
+        "binary_sha256": "92b4eadd8e7387a6a1ff8591cfeec8fbcadec32ffaea4e65f1585be207bfb870",
+        "architecture": "four TimingSimple x86 cores, private unified4KiB 2way caches, fixed-P prospective quantized expiry with staged CSR/input adapter, common4-client HUSH service",
+        "roi_start_tick": 321734000,
+        "roi_end_tick": 1112054000,
+        "roi_ticks": 790320000,
+        "phase_events": [
+          {
+            "id": 0,
+            "tick": 321734000
+          },
+          {
+            "id": 1,
+            "tick": 447155000,
+            "requested_T_cycles": 16384,
+            "write_policy": "apply",
+            "applied_T_cycles": 16384
+          },
+          {
+            "id": 2,
+            "tick": 545158000,
+            "requested_T_cycles": 128,
+            "write_policy": "apply",
+            "applied_T_cycles": 128
+          },
+          {
+            "id": 13,
+            "tick": 1087254000,
+            "completed_task": 3
+          },
+          {
+            "id": 10,
+            "tick": 1100037000,
+            "completed_task": 0
+          },
+          {
+            "id": 11,
+            "tick": 1100159000,
+            "completed_task": 1
+          },
+          {
+            "id": 12,
+            "tick": 1100359000,
+            "completed_task": 2
+          },
+          {
+            "id": 99,
+            "tick": 1112054000
+          }
+        ],
+        "timeout_register_writes": 8,
+        "terminal": {
+          "cause": "exiting with last active thread context",
+          "code": 0,
+          "tick": 1184007000
+        },
+        "final_tick": 1184007000,
+        "marker_errors": [],
+        "roi_stats_block": 4,
+        "epoch_snapshots": [
+          {
+            "label": "validation",
+            "stats_block": 1,
+            "tick": 447155000
+          },
+          {
+            "label": "fir",
+            "stats_block": 2,
+            "tick": 545158000
+          },
+          {
+            "label": "features",
+            "stats_block": 3,
+            "tick": 1100359000
+          },
+          {
+            "label": "join",
+            "stats_block": 4,
+            "tick": 1112054000
+          }
+        ],
+        "api_write_policy": "apply",
+        "requested_timeout_writes": 8,
+        "suppressed_timeout_writes": 0,
+        "cost_layout": "five-digit",
+        "timer_period_cycles": 128,
+        "tick_phase_cycles": 127,
+        "K_schedule": [
+          1,
+          128,
+          1
+        ],
+        "scope": "native fixed-P Eq1 expiry; staged configuration effective next edge, coincident receiver input held one cycle; no RTL-equivalence or full-WCET claim"
+      }
+    },
+    {
+      "case": {
+        "id": "fresh-4KiB-q64-k128-1-128-phi0",
+        "kind": "freshness",
+        "cache": "4KiB",
+        "Q": 64,
+        "K": [
+          128,
+          1,
+          128
+        ],
+        "phi": 0,
+        "P": 128
+      },
+      "returncode": 0,
+      "valid": true,
+      "checks": 12480,
+      "stale": 0,
+      "invariant_failures": {},
+      "summary": {
+        "kind": "native_cpu_application_pilot",
+        "mode": "hush",
+        "schedule_cycles": [
+          16384,
+          128,
+          16384
+        ],
+        "configuration_stall_cycles": 8,
+        "command": [
+          "freshness-v1",
+          "64",
+          "32",
+          "64",
+          "16",
+          "00008",
+          "0"
+        ],
+        "binary_sha256": "92b4eadd8e7387a6a1ff8591cfeec8fbcadec32ffaea4e65f1585be207bfb870",
+        "architecture": "four TimingSimple x86 cores, private unified4KiB 2way caches, fixed-P prospective quantized expiry with staged CSR/input adapter, common4-client HUSH service",
+        "roi_start_tick": 321359000,
+        "roi_end_tick": 1108810000,
+        "roi_ticks": 787451000,
+        "phase_events": [
+          {
+            "id": 0,
+            "tick": 321359000
+          },
+          {
+            "id": 1,
+            "tick": 425476000,
+            "requested_T_cycles": 128,
+            "write_policy": "apply",
+            "applied_T_cycles": 128
+          },
+          {
+            "id": 2,
+            "tick": 543656000,
+            "requested_T_cycles": 16384,
+            "write_policy": "apply",
+            "applied_T_cycles": 16384
+          },
+          {
+            "id": 13,
+            "tick": 1084013000,
+            "completed_task": 3
+          },
+          {
+            "id": 11,
+            "tick": 1096796000,
+            "completed_task": 1
+          },
+          {
+            "id": 10,
+            "tick": 1096918000,
+            "completed_task": 0
+          },
+          {
+            "id": 12,
+            "tick": 1097118000,
+            "completed_task": 2
+          },
+          {
+            "id": 99,
+            "tick": 1108810000
+          }
+        ],
+        "timeout_register_writes": 8,
+        "terminal": {
+          "cause": "exiting with last active thread context",
+          "code": 0,
+          "tick": 1180763000
+        },
+        "final_tick": 1180763000,
+        "marker_errors": [],
+        "roi_stats_block": 4,
+        "epoch_snapshots": [
+          {
+            "label": "validation",
+            "stats_block": 1,
+            "tick": 425476000
+          },
+          {
+            "label": "fir",
+            "stats_block": 2,
+            "tick": 543656000
+          },
+          {
+            "label": "features",
+            "stats_block": 3,
+            "tick": 1097118000
+          },
+          {
+            "label": "join",
+            "stats_block": 4,
+            "tick": 1108810000
+          }
+        ],
+        "api_write_policy": "apply",
+        "requested_timeout_writes": 8,
+        "suppressed_timeout_writes": 0,
+        "cost_layout": "five-digit",
+        "timer_period_cycles": 128,
+        "tick_phase_cycles": 0,
+        "K_schedule": [
+          128,
+          1,
+          128
+        ],
+        "scope": "native fixed-P Eq1 expiry; staged configuration effective next edge, coincident receiver input held one cycle; no RTL-equivalence or full-WCET claim"
+      }
+    },
+    {
+      "case": {
+        "id": "fresh-4KiB-q64-k128-1-128-phi64",
+        "kind": "freshness",
+        "cache": "4KiB",
+        "Q": 64,
+        "K": [
+          128,
+          1,
+          128
+        ],
+        "phi": 64,
+        "P": 128
+      },
+      "returncode": 0,
+      "valid": true,
+      "checks": 12480,
+      "stale": 0,
+      "invariant_failures": {},
+      "summary": {
+        "kind": "native_cpu_application_pilot",
+        "mode": "hush",
+        "schedule_cycles": [
+          16384,
+          128,
+          16384
+        ],
+        "configuration_stall_cycles": 8,
+        "command": [
+          "freshness-v1",
+          "64",
+          "32",
+          "64",
+          "16",
+          "00008",
+          "0"
+        ],
+        "binary_sha256": "92b4eadd8e7387a6a1ff8591cfeec8fbcadec32ffaea4e65f1585be207bfb870",
+        "architecture": "four TimingSimple x86 cores, private unified4KiB 2way caches, fixed-P prospective quantized expiry with staged CSR/input adapter, common4-client HUSH service",
+        "roi_start_tick": 321359000,
+        "roi_end_tick": 1108414000,
+        "roi_ticks": 787055000,
+        "phase_events": [
+          {
+            "id": 0,
+            "tick": 321359000
+          },
+          {
+            "id": 1,
+            "tick": 425476000,
+            "requested_T_cycles": 128,
+            "write_policy": "apply",
+            "applied_T_cycles": 128
+          },
+          {
+            "id": 2,
+            "tick": 544730000,
+            "requested_T_cycles": 16384,
+            "write_policy": "apply",
+            "applied_T_cycles": 16384
+          },
+          {
+            "id": 13,
+            "tick": 1083614000,
+            "completed_task": 3
+          },
+          {
+            "id": 10,
+            "tick": 1096397000,
+            "completed_task": 0
+          },
+          {
+            "id": 11,
+            "tick": 1096519000,
+            "completed_task": 1
+          },
+          {
+            "id": 12,
+            "tick": 1096719000,
+            "completed_task": 2
+          },
+          {
+            "id": 99,
+            "tick": 1108414000
+          }
+        ],
+        "timeout_register_writes": 8,
+        "terminal": {
+          "cause": "exiting with last active thread context",
+          "code": 0,
+          "tick": 1180367000
+        },
+        "final_tick": 1180367000,
+        "marker_errors": [],
+        "roi_stats_block": 4,
+        "epoch_snapshots": [
+          {
+            "label": "validation",
+            "stats_block": 1,
+            "tick": 425476000
+          },
+          {
+            "label": "fir",
+            "stats_block": 2,
+            "tick": 544730000
+          },
+          {
+            "label": "features",
+            "stats_block": 3,
+            "tick": 1096719000
+          },
+          {
+            "label": "join",
+            "stats_block": 4,
+            "tick": 1108414000
+          }
+        ],
+        "api_write_policy": "apply",
+        "requested_timeout_writes": 8,
+        "suppressed_timeout_writes": 0,
+        "cost_layout": "five-digit",
+        "timer_period_cycles": 128,
+        "tick_phase_cycles": 64,
+        "K_schedule": [
+          128,
+          1,
+          128
+        ],
+        "scope": "native fixed-P Eq1 expiry; staged configuration effective next edge, coincident receiver input held one cycle; no RTL-equivalence or full-WCET claim"
+      }
+    },
+    {
+      "case": {
+        "id": "fresh-4KiB-q64-k128-1-128-phi127",
+        "kind": "freshness",
+        "cache": "4KiB",
+        "Q": 64,
+        "K": [
+          128,
+          1,
+          128
+        ],
+        "phi": 127,
+        "P": 128
+      },
+      "returncode": 0,
+      "valid": true,
+      "checks": 12480,
+      "stale": 0,
+      "invariant_failures": {},
+      "summary": {
+        "kind": "native_cpu_application_pilot",
+        "mode": "hush",
+        "schedule_cycles": [
+          16384,
+          128,
+          16384
+        ],
+        "configuration_stall_cycles": 8,
+        "command": [
+          "freshness-v1",
+          "64",
+          "32",
+          "64",
+          "16",
+          "00008",
+          "0"
+        ],
+        "binary_sha256": "92b4eadd8e7387a6a1ff8591cfeec8fbcadec32ffaea4e65f1585be207bfb870",
+        "architecture": "four TimingSimple x86 cores, private unified4KiB 2way caches, fixed-P prospective quantized expiry with staged CSR/input adapter, common4-client HUSH service",
+        "roi_start_tick": 321359000,
+        "roi_end_tick": 1108810000,
+        "roi_ticks": 787451000,
+        "phase_events": [
+          {
+            "id": 0,
+            "tick": 321359000
+          },
+          {
+            "id": 1,
+            "tick": 425476000,
+            "requested_T_cycles": 128,
+            "write_policy": "apply",
+            "applied_T_cycles": 128
+          },
+          {
+            "id": 2,
+            "tick": 543656000,
+            "requested_T_cycles": 16384,
+            "write_policy": "apply",
+            "applied_T_cycles": 16384
+          },
+          {
+            "id": 13,
+            "tick": 1084013000,
+            "completed_task": 3
+          },
+          {
+            "id": 11,
+            "tick": 1096796000,
+            "completed_task": 1
+          },
+          {
+            "id": 10,
+            "tick": 1096918000,
+            "completed_task": 0
+          },
+          {
+            "id": 12,
+            "tick": 1097118000,
+            "completed_task": 2
+          },
+          {
+            "id": 99,
+            "tick": 1108810000
+          }
+        ],
+        "timeout_register_writes": 8,
+        "terminal": {
+          "cause": "exiting with last active thread context",
+          "code": 0,
+          "tick": 1180763000
+        },
+        "final_tick": 1180763000,
+        "marker_errors": [],
+        "roi_stats_block": 4,
+        "epoch_snapshots": [
+          {
+            "label": "validation",
+            "stats_block": 1,
+            "tick": 425476000
+          },
+          {
+            "label": "fir",
+            "stats_block": 2,
+            "tick": 543656000
+          },
+          {
+            "label": "features",
+            "stats_block": 3,
+            "tick": 1097118000
+          },
+          {
+            "label": "join",
+            "stats_block": 4,
+            "tick": 1108810000
+          }
+        ],
+        "api_write_policy": "apply",
+        "requested_timeout_writes": 8,
+        "suppressed_timeout_writes": 0,
+        "cost_layout": "five-digit",
+        "timer_period_cycles": 128,
+        "tick_phase_cycles": 127,
+        "K_schedule": [
+          128,
+          1,
+          128
+        ],
+        "scope": "native fixed-P Eq1 expiry; staged configuration effective next edge, coincident receiver input held one cycle; no RTL-equivalence or full-WCET claim"
+      }
+    },
+    {
+      "case": {
+        "id": "fresh-16KiB-q8-k1-128-1-phi0",
+        "kind": "freshness",
+        "cache": "16KiB",
+        "Q": 8,
+        "K": [
+          1,
+          128,
+          1
+        ],
+        "phi": 0,
+        "P": 128
+      },
+      "returncode": 0,
+      "valid": true,
+      "checks": 1560,
+      "stale": 0,
+      "invariant_failures": {},
+      "summary": {
+        "kind": "native_cpu_application_pilot",
+        "mode": "hush",
+        "schedule_cycles": [
+          128,
+          16384,
+          128
+        ],
+        "configuration_stall_cycles": 8,
+        "command": [
+          "freshness-v1",
+          "8",
+          "32",
+          "64",
+          "16",
+          "00008",
+          "0"
+        ],
+        "binary_sha256": "92b4eadd8e7387a6a1ff8591cfeec8fbcadec32ffaea4e65f1585be207bfb870",
+        "architecture": "four TimingSimple x86 cores, private unified16KiB 2way caches, fixed-P prospective quantized expiry with staged CSR/input adapter, common4-client HUSH service",
+        "roi_start_tick": 239234000,
+        "roi_end_tick": 344673000,
+        "roi_ticks": 105439000,
+        "phase_events": [
+          {
+            "id": 0,
+            "tick": 239234000
+          },
+          {
+            "id": 1,
+            "tick": 254240000,
+            "requested_T_cycles": 16384,
+            "write_policy": "apply",
+            "applied_T_cycles": 16384
+          },
+          {
+            "id": 2,
+            "tick": 265583000,
+            "requested_T_cycles": 128,
+            "write_policy": "apply",
+            "applied_T_cycles": 128
+          },
+          {
+            "id": 13,
+            "tick": 333199000,
+            "completed_task": 3
+          },
+          {
+            "id": 11,
+            "tick": 334811000,
+            "completed_task": 1
+          },
+          {
+            "id": 10,
+            "tick": 334848000,
+            "completed_task": 0
+          },
+          {
+            "id": 12,
+            "tick": 335011000,
+            "completed_task": 2
+          },
+          {
+            "id": 99,
+            "tick": 344673000
+          }
+        ],
+        "timeout_register_writes": 8,
+        "terminal": {
+          "cause": "exiting with last active thread context",
+          "code": 0,
+          "tick": 392318000
+        },
+        "final_tick": 392318000,
+        "marker_errors": [],
+        "roi_stats_block": 4,
+        "epoch_snapshots": [
+          {
+            "label": "validation",
+            "stats_block": 1,
+            "tick": 254240000
+          },
+          {
+            "label": "fir",
+            "stats_block": 2,
+            "tick": 265583000
+          },
+          {
+            "label": "features",
+            "stats_block": 3,
+            "tick": 335011000
+          },
+          {
+            "label": "join",
+            "stats_block": 4,
+            "tick": 344673000
+          }
+        ],
+        "api_write_policy": "apply",
+        "requested_timeout_writes": 8,
+        "suppressed_timeout_writes": 0,
+        "cost_layout": "five-digit",
+        "timer_period_cycles": 128,
+        "tick_phase_cycles": 0,
+        "K_schedule": [
+          1,
+          128,
+          1
+        ],
+        "scope": "native fixed-P Eq1 expiry; staged configuration effective next edge, coincident receiver input held one cycle; no RTL-equivalence or full-WCET claim"
+      }
+    },
+    {
+      "case": {
+        "id": "fresh-16KiB-q8-k1-128-1-phi64",
+        "kind": "freshness",
+        "cache": "16KiB",
+        "Q": 8,
+        "K": [
+          1,
+          128,
+          1
+        ],
+        "phi": 64,
+        "P": 128
+      },
+      "returncode": 0,
+      "valid": true,
+      "checks": 1560,
+      "stale": 0,
+      "invariant_failures": {},
+      "summary": {
+        "kind": "native_cpu_application_pilot",
+        "mode": "hush",
+        "schedule_cycles": [
+          128,
+          16384,
+          128
+        ],
+        "configuration_stall_cycles": 8,
+        "command": [
+          "freshness-v1",
+          "8",
+          "32",
+          "64",
+          "16",
+          "00008",
+          "0"
+        ],
+        "binary_sha256": "92b4eadd8e7387a6a1ff8591cfeec8fbcadec32ffaea4e65f1585be207bfb870",
+        "architecture": "four TimingSimple x86 cores, private unified16KiB 2way caches, fixed-P prospective quantized expiry with staged CSR/input adapter, common4-client HUSH service",
+        "roi_start_tick": 239246000,
+        "roi_end_tick": 344895000,
+        "roi_ticks": 105649000,
+        "phase_events": [
+          {
+            "id": 0,
+            "tick": 239246000
+          },
+          {
+            "id": 1,
+            "tick": 254230000,
+            "requested_T_cycles": 16384,
+            "write_policy": "apply",
+            "applied_T_cycles": 16384
+          },
+          {
+            "id": 2,
+            "tick": 265565000,
+            "requested_T_cycles": 128,
+            "write_policy": "apply",
+            "applied_T_cycles": 128
+          },
+          {
+            "id": 13,
+            "tick": 333234000,
+            "completed_task": 3
+          },
+          {
+            "id": 10,
+            "tick": 334821000,
+            "completed_task": 0
+          },
+          {
+            "id": 11,
+            "tick": 335089000,
+            "completed_task": 1
+          },
+          {
+            "id": 12,
+            "tick": 335241000,
+            "completed_task": 2
+          },
+          {
+            "id": 99,
+            "tick": 344895000
+          }
+        ],
+        "timeout_register_writes": 8,
+        "terminal": {
+          "cause": "exiting with last active thread context",
+          "code": 0,
+          "tick": 392540000
+        },
+        "final_tick": 392540000,
+        "marker_errors": [],
+        "roi_stats_block": 4,
+        "epoch_snapshots": [
+          {
+            "label": "validation",
+            "stats_block": 1,
+            "tick": 254230000
+          },
+          {
+            "label": "fir",
+            "stats_block": 2,
+            "tick": 265565000
+          },
+          {
+            "label": "features",
+            "stats_block": 3,
+            "tick": 335241000
+          },
+          {
+            "label": "join",
+            "stats_block": 4,
+            "tick": 344895000
+          }
+        ],
+        "api_write_policy": "apply",
+        "requested_timeout_writes": 8,
+        "suppressed_timeout_writes": 0,
+        "cost_layout": "five-digit",
+        "timer_period_cycles": 128,
+        "tick_phase_cycles": 64,
+        "K_schedule": [
+          1,
+          128,
+          1
+        ],
+        "scope": "native fixed-P Eq1 expiry; staged configuration effective next edge, coincident receiver input held one cycle; no RTL-equivalence or full-WCET claim"
+      }
+    },
+    {
+      "case": {
+        "id": "fresh-16KiB-q8-k1-128-1-phi127",
+        "kind": "freshness",
+        "cache": "16KiB",
+        "Q": 8,
+        "K": [
+          1,
+          128,
+          1
+        ],
+        "phi": 127,
+        "P": 128
+      },
+      "returncode": 0,
+      "valid": true,
+      "checks": 1560,
+      "stale": 0,
+      "invariant_failures": {},
+      "summary": {
+        "kind": "native_cpu_application_pilot",
+        "mode": "hush",
+        "schedule_cycles": [
+          128,
+          16384,
+          128
+        ],
+        "configuration_stall_cycles": 8,
+        "command": [
+          "freshness-v1",
+          "8",
+          "32",
+          "64",
+          "16",
+          "00008",
+          "0"
+        ],
+        "binary_sha256": "92b4eadd8e7387a6a1ff8591cfeec8fbcadec32ffaea4e65f1585be207bfb870",
+        "architecture": "four TimingSimple x86 cores, private unified16KiB 2way caches, fixed-P prospective quantized expiry with staged CSR/input adapter, common4-client HUSH service",
+        "roi_start_tick": 239234000,
+        "roi_end_tick": 344881000,
+        "roi_ticks": 105647000,
+        "phase_events": [
+          {
+            "id": 0,
+            "tick": 239234000
+          },
+          {
+            "id": 1,
+            "tick": 254240000,
+            "requested_T_cycles": 16384,
+            "write_policy": "apply",
+            "applied_T_cycles": 16384
+          },
+          {
+            "id": 2,
+            "tick": 265583000,
+            "requested_T_cycles": 128,
+            "write_policy": "apply",
+            "applied_T_cycles": 128
+          },
+          {
+            "id": 13,
+            "tick": 333202000,
+            "completed_task": 3
+          },
+          {
+            "id": 12,
+            "tick": 334811000,
+            "completed_task": 2
+          },
+          {
+            "id": 10,
+            "tick": 334848000,
+            "completed_task": 0
+          },
+          {
+            "id": 11,
+            "tick": 335011000,
+            "completed_task": 1
+          },
+          {
+            "id": 99,
+            "tick": 344881000
+          }
+        ],
+        "timeout_register_writes": 8,
+        "terminal": {
+          "cause": "exiting with last active thread context",
+          "code": 0,
+          "tick": 392526000
+        },
+        "final_tick": 392526000,
+        "marker_errors": [],
+        "roi_stats_block": 4,
+        "epoch_snapshots": [
+          {
+            "label": "validation",
+            "stats_block": 1,
+            "tick": 254240000
+          },
+          {
+            "label": "fir",
+            "stats_block": 2,
+            "tick": 265583000
+          },
+          {
+            "label": "features",
+            "stats_block": 3,
+            "tick": 335011000
+          },
+          {
+            "label": "join",
+            "stats_block": 4,
+            "tick": 344881000
+          }
+        ],
+        "api_write_policy": "apply",
+        "requested_timeout_writes": 8,
+        "suppressed_timeout_writes": 0,
+        "cost_layout": "five-digit",
+        "timer_period_cycles": 128,
+        "tick_phase_cycles": 127,
+        "K_schedule": [
+          1,
+          128,
+          1
+        ],
+        "scope": "native fixed-P Eq1 expiry; staged configuration effective next edge, coincident receiver input held one cycle; no RTL-equivalence or full-WCET claim"
+      }
+    },
+    {
+      "case": {
+        "id": "fresh-16KiB-q8-k128-1-128-phi0",
+        "kind": "freshness",
+        "cache": "16KiB",
+        "Q": 8,
+        "K": [
+          128,
+          1,
+          128
+        ],
+        "phi": 0,
+        "P": 128
+      },
+      "returncode": 0,
+      "valid": true,
+      "checks": 1560,
+      "stale": 0,
+      "invariant_failures": {},
+      "summary": {
+        "kind": "native_cpu_application_pilot",
+        "mode": "hush",
+        "schedule_cycles": [
+          16384,
+          128,
+          16384
+        ],
+        "configuration_stall_cycles": 8,
+        "command": [
+          "freshness-v1",
+          "8",
+          "32",
+          "64",
+          "16",
+          "00008",
+          "0"
+        ],
+        "binary_sha256": "92b4eadd8e7387a6a1ff8591cfeec8fbcadec32ffaea4e65f1585be207bfb870",
+        "architecture": "four TimingSimple x86 cores, private unified16KiB 2way caches, fixed-P prospective quantized expiry with staged CSR/input adapter, common4-client HUSH service",
+        "roi_start_tick": 239276000,
+        "roi_end_tick": 345197000,
+        "roi_ticks": 105921000,
+        "phase_events": [
+          {
+            "id": 0,
+            "tick": 239276000
+          },
+          {
+            "id": 1,
+            "tick": 252238000,
+            "requested_T_cycles": 128,
+            "write_policy": "apply",
+            "applied_T_cycles": 128
+          },
+          {
+            "id": 2,
+            "tick": 265828000,
+            "requested_T_cycles": 16384,
+            "write_policy": "apply",
+            "applied_T_cycles": 16384
+          },
+          {
+            "id": 13,
+            "tick": 334331000,
+            "completed_task": 3
+          },
+          {
+            "id": 10,
+            "tick": 334973000,
+            "completed_task": 0
+          },
+          {
+            "id": 12,
+            "tick": 335025000,
+            "completed_task": 2
+          },
+          {
+            "id": 11,
+            "tick": 335134000,
+            "completed_task": 1
+          },
+          {
+            "id": 99,
+            "tick": 345197000
+          }
+        ],
+        "timeout_register_writes": 8,
+        "terminal": {
+          "cause": "exiting with last active thread context",
+          "code": 0,
+          "tick": 392842000
+        },
+        "final_tick": 392842000,
+        "marker_errors": [],
+        "roi_stats_block": 4,
+        "epoch_snapshots": [
+          {
+            "label": "validation",
+            "stats_block": 1,
+            "tick": 252238000
+          },
+          {
+            "label": "fir",
+            "stats_block": 2,
+            "tick": 265828000
+          },
+          {
+            "label": "features",
+            "stats_block": 3,
+            "tick": 335134000
+          },
+          {
+            "label": "join",
+            "stats_block": 4,
+            "tick": 345197000
+          }
+        ],
+        "api_write_policy": "apply",
+        "requested_timeout_writes": 8,
+        "suppressed_timeout_writes": 0,
+        "cost_layout": "five-digit",
+        "timer_period_cycles": 128,
+        "tick_phase_cycles": 0,
+        "K_schedule": [
+          128,
+          1,
+          128
+        ],
+        "scope": "native fixed-P Eq1 expiry; staged configuration effective next edge, coincident receiver input held one cycle; no RTL-equivalence or full-WCET claim"
+      }
+    },
+    {
+      "case": {
+        "id": "fresh-16KiB-q8-k128-1-128-phi64",
+        "kind": "freshness",
+        "cache": "16KiB",
+        "Q": 8,
+        "K": [
+          128,
+          1,
+          128
+        ],
+        "phi": 64,
+        "P": 128
+      },
+      "returncode": 0,
+      "valid": true,
+      "checks": 1560,
+      "stale": 0,
+      "invariant_failures": {},
+      "summary": {
+        "kind": "native_cpu_application_pilot",
+        "mode": "hush",
+        "schedule_cycles": [
+          16384,
+          128,
+          16384
+        ],
+        "configuration_stall_cycles": 8,
+        "command": [
+          "freshness-v1",
+          "8",
+          "32",
+          "64",
+          "16",
+          "00008",
+          "0"
+        ],
+        "binary_sha256": "92b4eadd8e7387a6a1ff8591cfeec8fbcadec32ffaea4e65f1585be207bfb870",
+        "architecture": "four TimingSimple x86 cores, private unified16KiB 2way caches, fixed-P prospective quantized expiry with staged CSR/input adapter, common4-client HUSH service",
+        "roi_start_tick": 239276000,
+        "roi_end_tick": 345200000,
+        "roi_ticks": 105924000,
+        "phase_events": [
+          {
+            "id": 0,
+            "tick": 239276000
+          },
+          {
+            "id": 1,
+            "tick": 252238000,
+            "requested_T_cycles": 128,
+            "write_policy": "apply",
+            "applied_T_cycles": 128
+          },
+          {
+            "id": 2,
+            "tick": 265589000,
+            "requested_T_cycles": 16384,
+            "write_policy": "apply",
+            "applied_T_cycles": 16384
+          },
+          {
+            "id": 13,
+            "tick": 334334000,
+            "completed_task": 3
+          },
+          {
+            "id": 10,
+            "tick": 334968000,
+            "completed_task": 0
+          },
+          {
+            "id": 12,
+            "tick": 335024000,
+            "completed_task": 2
+          },
+          {
+            "id": 11,
+            "tick": 335137000,
+            "completed_task": 1
+          },
+          {
+            "id": 99,
+            "tick": 345200000
+          }
+        ],
+        "timeout_register_writes": 8,
+        "terminal": {
+          "cause": "exiting with last active thread context",
+          "code": 0,
+          "tick": 392845000
+        },
+        "final_tick": 392845000,
+        "marker_errors": [],
+        "roi_stats_block": 4,
+        "epoch_snapshots": [
+          {
+            "label": "validation",
+            "stats_block": 1,
+            "tick": 252238000
+          },
+          {
+            "label": "fir",
+            "stats_block": 2,
+            "tick": 265589000
+          },
+          {
+            "label": "features",
+            "stats_block": 3,
+            "tick": 335137000
+          },
+          {
+            "label": "join",
+            "stats_block": 4,
+            "tick": 345200000
+          }
+        ],
+        "api_write_policy": "apply",
+        "requested_timeout_writes": 8,
+        "suppressed_timeout_writes": 0,
+        "cost_layout": "five-digit",
+        "timer_period_cycles": 128,
+        "tick_phase_cycles": 64,
+        "K_schedule": [
+          128,
+          1,
+          128
+        ],
+        "scope": "native fixed-P Eq1 expiry; staged configuration effective next edge, coincident receiver input held one cycle; no RTL-equivalence or full-WCET claim"
+      }
+    },
+    {
+      "case": {
+        "id": "fresh-16KiB-q8-k128-1-128-phi127",
+        "kind": "freshness",
+        "cache": "16KiB",
+        "Q": 8,
+        "K": [
+          128,
+          1,
+          128
+        ],
+        "phi": 127,
+        "P": 128
+      },
+      "returncode": 0,
+      "valid": true,
+      "checks": 1560,
+      "stale": 0,
+      "invariant_failures": {},
+      "summary": {
+        "kind": "native_cpu_application_pilot",
+        "mode": "hush",
+        "schedule_cycles": [
+          16384,
+          128,
+          16384
+        ],
+        "configuration_stall_cycles": 8,
+        "command": [
+          "freshness-v1",
+          "8",
+          "32",
+          "64",
+          "16",
+          "00008",
+          "0"
+        ],
+        "binary_sha256": "92b4eadd8e7387a6a1ff8591cfeec8fbcadec32ffaea4e65f1585be207bfb870",
+        "architecture": "four TimingSimple x86 cores, private unified16KiB 2way caches, fixed-P prospective quantized expiry with staged CSR/input adapter, common4-client HUSH service",
+        "roi_start_tick": 239276000,
+        "roi_end_tick": 345197000,
+        "roi_ticks": 105921000,
+        "phase_events": [
+          {
+            "id": 0,
+            "tick": 239276000
+          },
+          {
+            "id": 1,
+            "tick": 252238000,
+            "requested_T_cycles": 128,
+            "write_policy": "apply",
+            "applied_T_cycles": 128
+          },
+          {
+            "id": 2,
+            "tick": 265828000,
+            "requested_T_cycles": 16384,
+            "write_policy": "apply",
+            "applied_T_cycles": 16384
+          },
+          {
+            "id": 13,
+            "tick": 334331000,
+            "completed_task": 3
+          },
+          {
+            "id": 10,
+            "tick": 334973000,
+            "completed_task": 0
+          },
+          {
+            "id": 12,
+            "tick": 335025000,
+            "completed_task": 2
+          },
+          {
+            "id": 11,
+            "tick": 335134000,
+            "completed_task": 1
+          },
+          {
+            "id": 99,
+            "tick": 345197000
+          }
+        ],
+        "timeout_register_writes": 8,
+        "terminal": {
+          "cause": "exiting with last active thread context",
+          "code": 0,
+          "tick": 392842000
+        },
+        "final_tick": 392842000,
+        "marker_errors": [],
+        "roi_stats_block": 4,
+        "epoch_snapshots": [
+          {
+            "label": "validation",
+            "stats_block": 1,
+            "tick": 252238000
+          },
+          {
+            "label": "fir",
+            "stats_block": 2,
+            "tick": 265828000
+          },
+          {
+            "label": "features",
+            "stats_block": 3,
+            "tick": 335134000
+          },
+          {
+            "label": "join",
+            "stats_block": 4,
+            "tick": 345197000
+          }
+        ],
+        "api_write_policy": "apply",
+        "requested_timeout_writes": 8,
+        "suppressed_timeout_writes": 0,
+        "cost_layout": "five-digit",
+        "timer_period_cycles": 128,
+        "tick_phase_cycles": 127,
+        "K_schedule": [
+          128,
+          1,
+          128
+        ],
+        "scope": "native fixed-P Eq1 expiry; staged configuration effective next edge, coincident receiver input held one cycle; no RTL-equivalence or full-WCET claim"
+      }
+    },
+    {
+      "case": {
+        "id": "fresh-16KiB-q64-k1-128-1-phi0",
+        "kind": "freshness",
+        "cache": "16KiB",
+        "Q": 64,
+        "K": [
+          1,
+          128,
+          1
+        ],
+        "phi": 0,
+        "P": 128
+      },
+      "returncode": 0,
+      "valid": true,
+      "checks": 12480,
+      "stale": 0,
+      "invariant_failures": {},
+      "summary": {
+        "kind": "native_cpu_application_pilot",
+        "mode": "hush",
+        "schedule_cycles": [
+          128,
+          16384,
+          128
+        ],
+        "configuration_stall_cycles": 8,
+        "command": [
+          "freshness-v1",
+          "64",
+          "32",
+          "64",
+          "16",
+          "00008",
+          "0"
+        ],
+        "binary_sha256": "92b4eadd8e7387a6a1ff8591cfeec8fbcadec32ffaea4e65f1585be207bfb870",
+        "architecture": "four TimingSimple x86 cores, private unified16KiB 2way caches, fixed-P prospective quantized expiry with staged CSR/input adapter, common4-client HUSH service",
+        "roi_start_tick": 249754000,
+        "roi_end_tick": 993078000,
+        "roi_ticks": 743324000,
+        "phase_events": [
+          {
+            "id": 0,
+            "tick": 249754000
+          },
+          {
+            "id": 1,
+            "tick": 343789000,
+            "requested_T_cycles": 16384,
+            "write_policy": "apply",
+            "applied_T_cycles": 16384
+          },
+          {
+            "id": 2,
+            "tick": 409139000,
+            "requested_T_cycles": 128,
+            "write_policy": "apply",
+            "applied_T_cycles": 128
+          },
+          {
+            "id": 13,
+            "tick": 972014000,
+            "completed_task": 3
+          },
+          {
+            "id": 12,
+            "tick": 983561000,
+            "completed_task": 2
+          },
+          {
+            "id": 10,
+            "tick": 983598000,
+            "completed_task": 0
+          },
+          {
+            "id": 11,
+            "tick": 983782000,
+            "completed_task": 1
+          },
+          {
+            "id": 99,
+            "tick": 993078000
+          }
+        ],
+        "timeout_register_writes": 8,
+        "terminal": {
+          "cause": "exiting with last active thread context",
+          "code": 0,
+          "tick": 1043094000
+        },
+        "final_tick": 1043094000,
+        "marker_errors": [],
+        "roi_stats_block": 4,
+        "epoch_snapshots": [
+          {
+            "label": "validation",
+            "stats_block": 1,
+            "tick": 343789000
+          },
+          {
+            "label": "fir",
+            "stats_block": 2,
+            "tick": 409139000
+          },
+          {
+            "label": "features",
+            "stats_block": 3,
+            "tick": 983782000
+          },
+          {
+            "label": "join",
+            "stats_block": 4,
+            "tick": 993078000
+          }
+        ],
+        "api_write_policy": "apply",
+        "requested_timeout_writes": 8,
+        "suppressed_timeout_writes": 0,
+        "cost_layout": "five-digit",
+        "timer_period_cycles": 128,
+        "tick_phase_cycles": 0,
+        "K_schedule": [
+          1,
+          128,
+          1
+        ],
+        "scope": "native fixed-P Eq1 expiry; staged configuration effective next edge, coincident receiver input held one cycle; no RTL-equivalence or full-WCET claim"
+      }
+    },
+    {
+      "case": {
+        "id": "fresh-16KiB-q64-k1-128-1-phi64",
+        "kind": "freshness",
+        "cache": "16KiB",
+        "Q": 64,
+        "K": [
+          1,
+          128,
+          1
+        ],
+        "phi": 64,
+        "P": 128
+      },
+      "returncode": 0,
+      "valid": true,
+      "checks": 12480,
+      "stale": 0,
+      "invariant_failures": {},
+      "summary": {
+        "kind": "native_cpu_application_pilot",
+        "mode": "hush",
+        "schedule_cycles": [
+          128,
+          16384,
+          128
+        ],
+        "configuration_stall_cycles": 8,
+        "command": [
+          "freshness-v1",
+          "64",
+          "32",
+          "64",
+          "16",
+          "00008",
+          "0"
+        ],
+        "binary_sha256": "92b4eadd8e7387a6a1ff8591cfeec8fbcadec32ffaea4e65f1585be207bfb870",
+        "architecture": "four TimingSimple x86 cores, private unified16KiB 2way caches, fixed-P prospective quantized expiry with staged CSR/input adapter, common4-client HUSH service",
+        "roi_start_tick": 249763000,
+        "roi_end_tick": 993035000,
+        "roi_ticks": 743272000,
+        "phase_events": [
+          {
+            "id": 0,
+            "tick": 249763000
+          },
+          {
+            "id": 1,
+            "tick": 343804000,
+            "requested_T_cycles": 16384,
+            "write_policy": "apply",
+            "applied_T_cycles": 16384
+          },
+          {
+            "id": 2,
+            "tick": 409124000,
+            "requested_T_cycles": 128,
+            "write_policy": "apply",
+            "applied_T_cycles": 128
+          },
+          {
+            "id": 13,
+            "tick": 971965000,
+            "completed_task": 3
+          },
+          {
+            "id": 12,
+            "tick": 983518000,
+            "completed_task": 2
+          },
+          {
+            "id": 10,
+            "tick": 983555000,
+            "completed_task": 0
+          },
+          {
+            "id": 11,
+            "tick": 983739000,
+            "completed_task": 1
+          },
+          {
+            "id": 99,
+            "tick": 993035000
+          }
+        ],
+        "timeout_register_writes": 8,
+        "terminal": {
+          "cause": "exiting with last active thread context",
+          "code": 0,
+          "tick": 1043051000
+        },
+        "final_tick": 1043051000,
+        "marker_errors": [],
+        "roi_stats_block": 4,
+        "epoch_snapshots": [
+          {
+            "label": "validation",
+            "stats_block": 1,
+            "tick": 343804000
+          },
+          {
+            "label": "fir",
+            "stats_block": 2,
+            "tick": 409124000
+          },
+          {
+            "label": "features",
+            "stats_block": 3,
+            "tick": 983739000
+          },
+          {
+            "label": "join",
+            "stats_block": 4,
+            "tick": 993035000
+          }
+        ],
+        "api_write_policy": "apply",
+        "requested_timeout_writes": 8,
+        "suppressed_timeout_writes": 0,
+        "cost_layout": "five-digit",
+        "timer_period_cycles": 128,
+        "tick_phase_cycles": 64,
+        "K_schedule": [
+          1,
+          128,
+          1
+        ],
+        "scope": "native fixed-P Eq1 expiry; staged configuration effective next edge, coincident receiver input held one cycle; no RTL-equivalence or full-WCET claim"
+      }
+    },
+    {
+      "case": {
+        "id": "fresh-16KiB-q64-k1-128-1-phi127",
+        "kind": "freshness",
+        "cache": "16KiB",
+        "Q": 64,
+        "K": [
+          1,
+          128,
+          1
+        ],
+        "phi": 127,
+        "P": 128
+      },
+      "returncode": 0,
+      "valid": true,
+      "checks": 12480,
+      "stale": 0,
+      "invariant_failures": {},
+      "summary": {
+        "kind": "native_cpu_application_pilot",
+        "mode": "hush",
+        "schedule_cycles": [
+          128,
+          16384,
+          128
+        ],
+        "configuration_stall_cycles": 8,
+        "command": [
+          "freshness-v1",
+          "64",
+          "32",
+          "64",
+          "16",
+          "00008",
+          "0"
+        ],
+        "binary_sha256": "92b4eadd8e7387a6a1ff8591cfeec8fbcadec32ffaea4e65f1585be207bfb870",
+        "architecture": "four TimingSimple x86 cores, private unified16KiB 2way caches, fixed-P prospective quantized expiry with staged CSR/input adapter, common4-client HUSH service",
+        "roi_start_tick": 249754000,
+        "roi_end_tick": 992941000,
+        "roi_ticks": 743187000,
+        "phase_events": [
+          {
+            "id": 0,
+            "tick": 249754000
+          },
+          {
+            "id": 1,
+            "tick": 343201000,
+            "requested_T_cycles": 16384,
+            "write_policy": "apply",
+            "applied_T_cycles": 16384
+          },
+          {
+            "id": 2,
+            "tick": 408644000,
+            "requested_T_cycles": 128,
+            "write_policy": "apply",
+            "applied_T_cycles": 128
+          },
+          {
+            "id": 13,
+            "tick": 971914000,
+            "completed_task": 3
+          },
+          {
+            "id": 11,
+            "tick": 983468000,
+            "completed_task": 1
+          },
+          {
+            "id": 10,
+            "tick": 983505000,
+            "completed_task": 0
+          },
+          {
+            "id": 12,
+            "tick": 983679000,
+            "completed_task": 2
+          },
+          {
+            "id": 99,
+            "tick": 992941000
+          }
+        ],
+        "timeout_register_writes": 8,
+        "terminal": {
+          "cause": "exiting with last active thread context",
+          "code": 0,
+          "tick": 1042968000
+        },
+        "final_tick": 1042968000,
+        "marker_errors": [],
+        "roi_stats_block": 4,
+        "epoch_snapshots": [
+          {
+            "label": "validation",
+            "stats_block": 1,
+            "tick": 343201000
+          },
+          {
+            "label": "fir",
+            "stats_block": 2,
+            "tick": 408644000
+          },
+          {
+            "label": "features",
+            "stats_block": 3,
+            "tick": 983679000
+          },
+          {
+            "label": "join",
+            "stats_block": 4,
+            "tick": 992941000
+          }
+        ],
+        "api_write_policy": "apply",
+        "requested_timeout_writes": 8,
+        "suppressed_timeout_writes": 0,
+        "cost_layout": "five-digit",
+        "timer_period_cycles": 128,
+        "tick_phase_cycles": 127,
+        "K_schedule": [
+          1,
+          128,
+          1
+        ],
+        "scope": "native fixed-P Eq1 expiry; staged configuration effective next edge, coincident receiver input held one cycle; no RTL-equivalence or full-WCET claim"
+      }
+    },
+    {
+      "case": {
+        "id": "fresh-16KiB-q64-k128-1-128-phi0",
+        "kind": "freshness",
+        "cache": "16KiB",
+        "Q": 64,
+        "K": [
+          128,
+          1,
+          128
+        ],
+        "phi": 0,
+        "P": 128
+      },
+      "returncode": 0,
+      "valid": true,
+      "checks": 12480,
+      "stale": 0,
+      "invariant_failures": {},
+      "summary": {
+        "kind": "native_cpu_application_pilot",
+        "mode": "hush",
+        "schedule_cycles": [
+          16384,
+          128,
+          16384
+        ],
+        "configuration_stall_cycles": 8,
+        "command": [
+          "freshness-v1",
+          "64",
+          "32",
+          "64",
+          "16",
+          "00008",
+          "0"
+        ],
+        "binary_sha256": "92b4eadd8e7387a6a1ff8591cfeec8fbcadec32ffaea4e65f1585be207bfb870",
+        "architecture": "four TimingSimple x86 cores, private unified16KiB 2way caches, fixed-P prospective quantized expiry with staged CSR/input adapter, common4-client HUSH service",
+        "roi_start_tick": 249691000,
+        "roi_end_tick": 990368000,
+        "roi_ticks": 740677000,
+        "phase_events": [
+          {
+            "id": 0,
+            "tick": 249691000
+          },
+          {
+            "id": 1,
+            "tick": 322546000,
+            "requested_T_cycles": 128,
+            "write_policy": "apply",
+            "applied_T_cycles": 128
+          },
+          {
+            "id": 2,
+            "tick": 406381000,
+            "requested_T_cycles": 16384,
+            "write_policy": "apply",
+            "applied_T_cycles": 16384
+          },
+          {
+            "id": 13,
+            "tick": 969345000,
+            "completed_task": 3
+          },
+          {
+            "id": 11,
+            "tick": 980895000,
+            "completed_task": 1
+          },
+          {
+            "id": 10,
+            "tick": 980932000,
+            "completed_task": 0
+          },
+          {
+            "id": 12,
+            "tick": 981106000,
+            "completed_task": 2
+          },
+          {
+            "id": 99,
+            "tick": 990368000
+          }
+        ],
+        "timeout_register_writes": 8,
+        "terminal": {
+          "cause": "exiting with last active thread context",
+          "code": 0,
+          "tick": 1040406000
+        },
+        "final_tick": 1040406000,
+        "marker_errors": [],
+        "roi_stats_block": 4,
+        "epoch_snapshots": [
+          {
+            "label": "validation",
+            "stats_block": 1,
+            "tick": 322546000
+          },
+          {
+            "label": "fir",
+            "stats_block": 2,
+            "tick": 406381000
+          },
+          {
+            "label": "features",
+            "stats_block": 3,
+            "tick": 981106000
+          },
+          {
+            "label": "join",
+            "stats_block": 4,
+            "tick": 990368000
+          }
+        ],
+        "api_write_policy": "apply",
+        "requested_timeout_writes": 8,
+        "suppressed_timeout_writes": 0,
+        "cost_layout": "five-digit",
+        "timer_period_cycles": 128,
+        "tick_phase_cycles": 0,
+        "K_schedule": [
+          128,
+          1,
+          128
+        ],
+        "scope": "native fixed-P Eq1 expiry; staged configuration effective next edge, coincident receiver input held one cycle; no RTL-equivalence or full-WCET claim"
+      }
+    },
+    {
+      "case": {
+        "id": "fresh-16KiB-q64-k128-1-128-phi64",
+        "kind": "freshness",
+        "cache": "16KiB",
+        "Q": 64,
+        "K": [
+          128,
+          1,
+          128
+        ],
+        "phi": 64,
+        "P": 128
+      },
+      "returncode": 0,
+      "valid": true,
+      "checks": 12480,
+      "stale": 0,
+      "invariant_failures": {},
+      "summary": {
+        "kind": "native_cpu_application_pilot",
+        "mode": "hush",
+        "schedule_cycles": [
+          16384,
+          128,
+          16384
+        ],
+        "configuration_stall_cycles": 8,
+        "command": [
+          "freshness-v1",
+          "64",
+          "32",
+          "64",
+          "16",
+          "00008",
+          "0"
+        ],
+        "binary_sha256": "92b4eadd8e7387a6a1ff8591cfeec8fbcadec32ffaea4e65f1585be207bfb870",
+        "architecture": "four TimingSimple x86 cores, private unified16KiB 2way caches, fixed-P prospective quantized expiry with staged CSR/input adapter, common4-client HUSH service",
+        "roi_start_tick": 249691000,
+        "roi_end_tick": 990406000,
+        "roi_ticks": 740715000,
+        "phase_events": [
+          {
+            "id": 0,
+            "tick": 249691000
+          },
+          {
+            "id": 1,
+            "tick": 322546000,
+            "requested_T_cycles": 128,
+            "write_policy": "apply",
+            "applied_T_cycles": 128
+          },
+          {
+            "id": 2,
+            "tick": 407699000,
+            "requested_T_cycles": 16384,
+            "write_policy": "apply",
+            "applied_T_cycles": 16384
+          },
+          {
+            "id": 13,
+            "tick": 969386000,
+            "completed_task": 3
+          },
+          {
+            "id": 11,
+            "tick": 980933000,
+            "completed_task": 1
+          },
+          {
+            "id": 10,
+            "tick": 980970000,
+            "completed_task": 0
+          },
+          {
+            "id": 12,
+            "tick": 981144000,
+            "completed_task": 2
+          },
+          {
+            "id": 99,
+            "tick": 990406000
+          }
+        ],
+        "timeout_register_writes": 8,
+        "terminal": {
+          "cause": "exiting with last active thread context",
+          "code": 0,
+          "tick": 1040444000
+        },
+        "final_tick": 1040444000,
+        "marker_errors": [],
+        "roi_stats_block": 4,
+        "epoch_snapshots": [
+          {
+            "label": "validation",
+            "stats_block": 1,
+            "tick": 322546000
+          },
+          {
+            "label": "fir",
+            "stats_block": 2,
+            "tick": 407699000
+          },
+          {
+            "label": "features",
+            "stats_block": 3,
+            "tick": 981144000
+          },
+          {
+            "label": "join",
+            "stats_block": 4,
+            "tick": 990406000
+          }
+        ],
+        "api_write_policy": "apply",
+        "requested_timeout_writes": 8,
+        "suppressed_timeout_writes": 0,
+        "cost_layout": "five-digit",
+        "timer_period_cycles": 128,
+        "tick_phase_cycles": 64,
+        "K_schedule": [
+          128,
+          1,
+          128
+        ],
+        "scope": "native fixed-P Eq1 expiry; staged configuration effective next edge, coincident receiver input held one cycle; no RTL-equivalence or full-WCET claim"
+      }
+    },
+    {
+      "case": {
+        "id": "fresh-16KiB-q64-k128-1-128-phi127",
+        "kind": "freshness",
+        "cache": "16KiB",
+        "Q": 64,
+        "K": [
+          128,
+          1,
+          128
+        ],
+        "phi": 127,
+        "P": 128
+      },
+      "returncode": 0,
+      "valid": true,
+      "checks": 12480,
+      "stale": 0,
+      "invariant_failures": {},
+      "summary": {
+        "kind": "native_cpu_application_pilot",
+        "mode": "hush",
+        "schedule_cycles": [
+          16384,
+          128,
+          16384
+        ],
+        "configuration_stall_cycles": 8,
+        "command": [
+          "freshness-v1",
+          "64",
+          "32",
+          "64",
+          "16",
+          "00008",
+          "0"
+        ],
+        "binary_sha256": "92b4eadd8e7387a6a1ff8591cfeec8fbcadec32ffaea4e65f1585be207bfb870",
+        "architecture": "four TimingSimple x86 cores, private unified16KiB 2way caches, fixed-P prospective quantized expiry with staged CSR/input adapter, common4-client HUSH service",
+        "roi_start_tick": 249691000,
+        "roi_end_tick": 990368000,
+        "roi_ticks": 740677000,
+        "phase_events": [
+          {
+            "id": 0,
+            "tick": 249691000
+          },
+          {
+            "id": 1,
+            "tick": 322546000,
+            "requested_T_cycles": 128,
+            "write_policy": "apply",
+            "applied_T_cycles": 128
+          },
+          {
+            "id": 2,
+            "tick": 406478000,
+            "requested_T_cycles": 16384,
+            "write_policy": "apply",
+            "applied_T_cycles": 16384
+          },
+          {
+            "id": 13,
+            "tick": 969340000,
+            "completed_task": 3
+          },
+          {
+            "id": 11,
+            "tick": 980895000,
+            "completed_task": 1
+          },
+          {
+            "id": 10,
+            "tick": 980932000,
+            "completed_task": 0
+          },
+          {
+            "id": 12,
+            "tick": 981106000,
+            "completed_task": 2
+          },
+          {
+            "id": 99,
+            "tick": 990368000
+          }
+        ],
+        "timeout_register_writes": 8,
+        "terminal": {
+          "cause": "exiting with last active thread context",
+          "code": 0,
+          "tick": 1040406000
+        },
+        "final_tick": 1040406000,
+        "marker_errors": [],
+        "roi_stats_block": 4,
+        "epoch_snapshots": [
+          {
+            "label": "validation",
+            "stats_block": 1,
+            "tick": 322546000
+          },
+          {
+            "label": "fir",
+            "stats_block": 2,
+            "tick": 406478000
+          },
+          {
+            "label": "features",
+            "stats_block": 3,
+            "tick": 981106000
+          },
+          {
+            "label": "join",
+            "stats_block": 4,
+            "tick": 990368000
+          }
+        ],
+        "api_write_policy": "apply",
+        "requested_timeout_writes": 8,
+        "suppressed_timeout_writes": 0,
+        "cost_layout": "five-digit",
+        "timer_period_cycles": 128,
+        "tick_phase_cycles": 127,
+        "K_schedule": [
+          128,
+          1,
+          128
+        ],
+        "scope": "native fixed-P Eq1 expiry; staged configuration effective next edge, coincident receiver input held one cycle; no RTL-equivalence or full-WCET claim"
+      }
+    }
+  ]
+}

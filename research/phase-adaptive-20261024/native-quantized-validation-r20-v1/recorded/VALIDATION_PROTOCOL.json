@@ -1,0 +1,335 @@
+{
+  "status": "frozen_before_execution",
+  "purpose": "version-changing release/acquire safety; no performance endpoint",
+  "cases": [
+    {
+      "id": "fresh-4KiB-q8-k1-128-1-phi0",
+      "kind": "freshness",
+      "cache": "4KiB",
+      "Q": 8,
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "phi": 0,
+      "P": 128
+    },
+    {
+      "id": "fresh-4KiB-q8-k1-128-1-phi64",
+      "kind": "freshness",
+      "cache": "4KiB",
+      "Q": 8,
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "phi": 64,
+      "P": 128
+    },
+    {
+      "id": "fresh-4KiB-q8-k1-128-1-phi127",
+      "kind": "freshness",
+      "cache": "4KiB",
+      "Q": 8,
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "phi": 127,
+      "P": 128
+    },
+    {
+      "id": "fresh-4KiB-q8-k128-1-128-phi0",
+      "kind": "freshness",
+      "cache": "4KiB",
+      "Q": 8,
+      "K": [
+        128,
+        1,
+        128
+      ],
+      "phi": 0,
+      "P": 128
+    },
+    {
+      "id": "fresh-4KiB-q8-k128-1-128-phi64",
+      "kind": "freshness",
+      "cache": "4KiB",
+      "Q": 8,
+      "K": [
+        128,
+        1,
+        128
+      ],
+      "phi": 64,
+      "P": 128
+    },
+    {
+      "id": "fresh-4KiB-q8-k128-1-128-phi127",
+      "kind": "freshness",
+      "cache": "4KiB",
+      "Q": 8,
+      "K": [
+        128,
+        1,
+        128
+      ],
+      "phi": 127,
+      "P": 128
+    },
+    {
+      "id": "fresh-4KiB-q64-k1-128-1-phi0",
+      "kind": "freshness",
+      "cache": "4KiB",
+      "Q": 64,
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "phi": 0,
+      "P": 128
+    },
+    {
+      "id": "fresh-4KiB-q64-k1-128-1-phi64",
+      "kind": "freshness",
+      "cache": "4KiB",
+      "Q": 64,
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "phi": 64,
+      "P": 128
+    },
+    {
+      "id": "fresh-4KiB-q64-k1-128-1-phi127",
+      "kind": "freshness",
+      "cache": "4KiB",
+      "Q": 64,
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "phi": 127,
+      "P": 128
+    },
+    {
+      "id": "fresh-4KiB-q64-k128-1-128-phi0",
+      "kind": "freshness",
+      "cache": "4KiB",
+      "Q": 64,
+      "K": [
+        128,
+        1,
+        128
+      ],
+      "phi": 0,
+      "P": 128
+    },
+    {
+      "id": "fresh-4KiB-q64-k128-1-128-phi64",
+      "kind": "freshness",
+      "cache": "4KiB",
+      "Q": 64,
+      "K": [
+        128,
+        1,
+        128
+      ],
+      "phi": 64,
+      "P": 128
+    },
+    {
+      "id": "fresh-4KiB-q64-k128-1-128-phi127",
+      "kind": "freshness",
+      "cache": "4KiB",
+      "Q": 64,
+      "K": [
+        128,
+        1,
+        128
+      ],
+      "phi": 127,
+      "P": 128
+    },
+    {
+      "id": "fresh-16KiB-q8-k1-128-1-phi0",
+      "kind": "freshness",
+      "cache": "16KiB",
+      "Q": 8,
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "phi": 0,
+      "P": 128
+    },
+    {
+      "id": "fresh-16KiB-q8-k1-128-1-phi64",
+      "kind": "freshness",
+      "cache": "16KiB",
+      "Q": 8,
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "phi": 64,
+      "P": 128
+    },
+    {
+      "id": "fresh-16KiB-q8-k1-128-1-phi127",
+      "kind": "freshness",
+      "cache": "16KiB",
+      "Q": 8,
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "phi": 127,
+      "P": 128
+    },
+    {
+      "id": "fresh-16KiB-q8-k128-1-128-phi0",
+      "kind": "freshness",
+      "cache": "16KiB",
+      "Q": 8,
+      "K": [
+        128,
+        1,
+        128
+      ],
+      "phi": 0,
+      "P": 128
+    },
+    {
+      "id": "fresh-16KiB-q8-k128-1-128-phi64",
+      "kind": "freshness",
+      "cache": "16KiB",
+      "Q": 8,
+      "K": [
+        128,
+        1,
+        128
+      ],
+      "phi": 64,
+      "P": 128
+    },
+    {
+      "id": "fresh-16KiB-q8-k128-1-128-phi127",
+      "kind": "freshness",
+      "cache": "16KiB",
+      "Q": 8,
+      "K": [
+        128,
+        1,
+        128
+      ],
+      "phi": 127,
+      "P": 128
+    },
+    {
+      "id": "fresh-16KiB-q64-k1-128-1-phi0",
+      "kind": "freshness",
+      "cache": "16KiB",
+      "Q": 64,
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "phi": 0,
+      "P": 128
+    },
+    {
+      "id": "fresh-16KiB-q64-k1-128-1-phi64",
+      "kind": "freshness",
+      "cache": "16KiB",
+      "Q": 64,
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "phi": 64,
+      "P": 128
+    },
+    {
+      "id": "fresh-16KiB-q64-k1-128-1-phi127",
+      "kind": "freshness",
+      "cache": "16KiB",
+      "Q": 64,
+      "K": [
+        1,
+        128,
+        1
+      ],
+      "phi": 127,
+      "P": 128
+    },
+    {
+      "id": "fresh-16KiB-q64-k128-1-128-phi0",
+      "kind": "freshness",
+      "cache": "16KiB",
+      "Q": 64,
+      "K": [
+        128,
+        1,
+        128
+      ],
+      "phi": 0,
+      "P": 128
+    },
+    {
+      "id": "fresh-16KiB-q64-k128-1-128-phi64",
+      "kind": "freshness",
+      "cache": "16KiB",
+      "Q": 64,
+      "K": [
+        128,
+        1,
+        128
+      ],
+      "phi": 64,
+      "P": 128
+    },
+    {
+      "id": "fresh-16KiB-q64-k128-1-128-phi127",
+      "kind": "freshness",
+      "cache": "16KiB",
+      "Q": 64,
+      "K": [
+        128,
+        1,
+        128
+      ],
+      "phi": 127,
+      "P": 128
+    }
+  ],
+  "expected_checks": 168480,
+  "pipeline_smoke": {
+    "N": 16,
+    "cache": "32KiB",
+    "K": [
+      128,
+      128,
+      1
+    ],
+    "P": 128,
+    "phi": 127,
+    "ELF_sha256": "2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096"
+  },
+  "directed_cases": 8,
+  "extra_P128_formula_process": 1,
+  "snapshot_semantics": "native Cache synthetic fill/snoop/capture debug harness; separate from pipeline and four-client freshness",
+  "preserve_failures": true
+}

@@ -1,0 +1,19 @@
+{
+  "failed_binary_sha256": "442b725af86a8d7efa1fbe90c6036d49d93077b9695bfe1958d341028bfbc996",
+  "failed_test": "directed-v1/case8-P10",
+  "cause": "LRU timestamp0 valid/invalid tie selected live first; explicit eligible invalid-first now precedes replacement policy",
+  "new_source_hashes": {
+    "src/mem/cache/cache.cc": "433cca99b9ae4449bc289fd088624cffb21cdd6014399d98ebed4e32501da534",
+    "src/mem/cache/cache.hh": "6a91e216d99311dae32d77820016852181dce497a75502b0ea5fc294aecbbc74",
+    "src/mem/cache/Cache.py": "f84a1ecbefd9919d79bfd53ba744b71e68eb364f19b05f89823ad5457bd04d85",
+    "src/mem/cache/tags/base_set_assoc.hh": "36e48e96da753a1e3b68d4bcc132ebad6d2c21d127dd541af26f3fc724a6265e"
+  },
+  "old_original_hashes": {
+    "src/mem/cache/cache.cc": "a88b2406e74cc81e418494b0565775f71d14b3e74cf30ea812cea5dd7862798b",
+    "src/mem/cache/cache.hh": "eb6565301e3901f60aa03b1431e3993400a885fe72294d167652b5e0c407003b",
+    "src/mem/cache/Cache.py": "742b167ba082897df2520822785e93ea9c01b1edfc1adaf82a4ff1e6cb7da8a8",
+    "src/mem/cache/tags/base_set_assoc.hh": "f5265f5bf10cd6d67cda431ead01466372c424d379e012fb4a8d860038b1e954"
+  },
+  "applies_to_all_rows_in_new_binary": true,
+  "old_original_binary_sha256": "9765649c8c8336e1d784ff7fbe239b643c37c068cc936cc9b70e80d02ec75fbd"
+}

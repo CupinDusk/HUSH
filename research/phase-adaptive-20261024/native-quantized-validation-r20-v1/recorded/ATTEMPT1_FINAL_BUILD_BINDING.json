@@ -1,0 +1,16 @@
+{
+  "gem5_binary_sha256": "442b725af86a8d7efa1fbe90c6036d49d93077b9695bfe1958d341028bfbc996",
+  "gem5_binary_bytes": 1012378392,
+  "source_hashes": {
+    "src/mem/cache/cache.cc": "433cca99b9ae4449bc289fd088624cffb21cdd6014399d98ebed4e32501da534",
+    "src/mem/cache/cache.hh": "6a91e216d99311dae32d77820016852181dce497a75502b0ea5fc294aecbbc74",
+    "src/mem/cache/Cache.py": "f84a1ecbefd9919d79bfd53ba744b71e68eb364f19b05f89823ad5457bd04d85"
+  },
+  "config_sha256": "7349b98e8a0bd3ee17a26c38b9c770ab75396693cce0a0333fc4a658547ef0b9",
+  "directed_config_sha256": "b4db86ec3ae1d5248c646599c8520390274bde69429f879008e7ddcd22ca081a",
+  "old_sources_unchanged": true,
+  "guest_ELF_sha256": "2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096",
+  "freshness_ELF_sha256": "92b4eadd8e7387a6a1ff8591cfeec8fbcadec32ffaea4e65f1585be207bfb870",
+  "post_build_scons_recheck_returncode": 0,
+  "frozen_before_validation": true
+}

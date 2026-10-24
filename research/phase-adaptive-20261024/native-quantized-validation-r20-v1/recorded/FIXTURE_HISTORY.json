@@ -1,0 +1,48 @@
+{
+  "earlier_attempts": [
+    {
+      "round": 2,
+      "case": "C1-S3-phi0",
+      "diagnostic": "src/cpu/testers/hush_classic/hush_classic_tester.cc:611: panic: panic condition line[offset] != expected occurred: C1-S3 core 0 cache byte at 0x1000 is 0x22, expected 0x11"
+    },
+    {
+      "round": 2,
+      "case": "C1-S3-phi127",
+      "diagnostic": "src/cpu/testers/hush_classic/hush_classic_tester.cc:611: panic: panic condition line[offset] != expected occurred: C1-S3 core 0 cache byte at 0x1000 is 0x22, expected 0x11"
+    },
+    {
+      "round": 2,
+      "case": "C1-S7-phi0",
+      "diagnostic": "PASS"
+    },
+    {
+      "round": 2,
+      "case": "C1-S7-phi127",
+      "diagnostic": "PASS"
+    },
+    {
+      "round": 3,
+      "case": "C1-S3-phi0",
+      "diagnostic": "src/cpu/testers/hush_classic/hush_classic_tester.cc:611: panic: panic condition line[offset] != expected occurred: C1-S3 core 0 cache byte at 0x1000 is 0x22, expected 0x11"
+    },
+    {
+      "round": 3,
+      "case": "C1-S3-phi127",
+      "diagnostic": "src/cpu/testers/hush_classic/hush_classic_tester.cc:611: panic: panic condition line[offset] != expected occurred: C1-S3 core 0 cache byte at 0x1000 is 0x22, expected 0x11"
+    },
+    {
+      "round": 3,
+      "case": "C1-S7-phi0",
+      "diagnostic": "src/cpu/testers/hush_classic/hush_classic_tester.cc:676: panic: panic condition dirty != 1 || observed_owner != owner occurred: C1-S7 expected one dirty owner core 0 at 0x1000, got count 1 owner 1"
+    },
+    {
+      "round": 3,
+      "case": "C1-S7-phi127",
+      "diagnostic": "src/cpu/testers/hush_classic/hush_classic_tester.cc:676: panic: panic condition dirty != 1 || observed_owner != owner occurred: C1-S7 expected one dirty owner core 0 at 0x1000, got count 1 owner 1"
+    }
+  ],
+  "final_fixture": "BUS_DIRECTED_FAST_PROBE_PROTOCOL.json",
+  "predicates_unchanged": true,
+  "binary_unchanged_across_bus_fixtures": true,
+  "final_controlled_cases_passed": 4
+}

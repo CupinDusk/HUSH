@@ -1,0 +1,48 @@
+{
+  "rows": [
+    {
+      "case": {
+        "id": "C1-S3-phi0",
+        "scenario": "C1-S3",
+        "P": 128,
+        "phi": 0,
+        "K": 128
+      },
+      "returncode": 0,
+      "pass": true
+    },
+    {
+      "case": {
+        "id": "C1-S3-phi127",
+        "scenario": "C1-S3",
+        "P": 128,
+        "phi": 127,
+        "K": 128
+      },
+      "returncode": 0,
+      "pass": true
+    },
+    {
+      "case": {
+        "id": "C1-S7-phi0",
+        "scenario": "C1-S7",
+        "P": 128,
+        "phi": 0,
+        "K": 128
+      },
+      "returncode": 0,
+      "pass": true
+    },
+    {
+      "case": {
+        "id": "C1-S7-phi127",
+        "scenario": "C1-S7",
+        "P": 128,
+        "phi": 127,
+        "K": 128
+      },
+      "returncode": 0,
+      "pass": true
+    }
+  ]
+}

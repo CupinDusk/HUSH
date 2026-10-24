@@ -1,0 +1,10 @@
+{
+  "stage": "failed",
+  "error_type": "AssertionError",
+  "case": 8,
+  "P": 10,
+  "failed_check": "invalid hole before live eviction",
+  "got": 0,
+  "expected": 1,
+  "original_trace_retained_locally": true
+}

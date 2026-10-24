@@ -1,0 +1,9 @@
+{
+  "kind": "zero_time_same_set_fill_witness",
+  "ways": 2,
+  "clock_tick": 0,
+  "A_valid_after_two_fills": 1,
+  "B_valid_after_two_fills": 1,
+  "scope": "compiled native Cache synthetic fills; no CPU runtime/performance endpoint",
+  "binary_sha256": "08271cdc2858f14731698e18463d4c53dc60ac9b7091183c3aa9bae34c4ddf6a"
+}

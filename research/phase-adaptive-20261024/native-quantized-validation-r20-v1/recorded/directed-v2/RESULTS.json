@@ -1,0 +1,411 @@
+{
+  "rows": [
+    {
+      "case": 1,
+      "P": 10,
+      "returncode": 0,
+      "summary": {
+        "case": 1,
+        "period": 10,
+        "all_passed": true,
+        "checks": [
+          {
+            "label": "K1 zero-distance 10",
+            "got": 10,
+            "expected": 10
+          },
+          {
+            "label": "K1 zero-distance 11",
+            "got": 20,
+            "expected": 20
+          },
+          {
+            "label": "K1 zero-distance 19",
+            "got": 20,
+            "expected": 20
+          },
+          {
+            "label": "fill",
+            "got": 1,
+            "expected": 1
+          },
+          {
+            "label": "native zero-distance expiry",
+            "got": 0,
+            "expected": 0
+          },
+          {
+            "label": "zero-distance capture misses",
+            "got": 256,
+            "expected": 256
+          }
+        ],
+        "scope": "compiled native Cache receiver directed debug harness; no full-bus claim"
+      }
+    },
+    {
+      "case": 2,
+      "P": 10,
+      "returncode": 0,
+      "summary": {
+        "case": 2,
+        "period": 10,
+        "all_passed": true,
+        "checks": [
+          {
+            "label": "K4 10",
+            "got": 40,
+            "expected": 40
+          },
+          {
+            "label": "K4 11",
+            "got": 50,
+            "expected": 50
+          },
+          {
+            "label": "fill",
+            "got": 1,
+            "expected": 1
+          },
+          {
+            "label": "compiled native actual arm",
+            "got": 40,
+            "expected": 40
+          },
+          {
+            "label": "line remains before expiry",
+            "got": 1,
+            "expected": 1
+          },
+          {
+            "label": "actual exact expiry",
+            "got": 0,
+            "expected": 0
+          }
+        ],
+        "scope": "compiled native Cache receiver directed debug harness; no full-bus claim"
+      }
+    },
+    {
+      "case": 3,
+      "P": 10,
+      "returncode": 0,
+      "summary": {
+        "case": 3,
+        "period": 10,
+        "all_passed": true,
+        "checks": [
+          {
+            "label": "fill",
+            "got": 1,
+            "expected": 1
+          },
+          {
+            "label": "phase write preserves old arm",
+            "got": 10,
+            "expected": 10
+          },
+          {
+            "label": "new WU prospective reload",
+            "got": 40,
+            "expected": 40
+          }
+        ],
+        "scope": "compiled native Cache receiver directed debug harness; no full-bus claim"
+      }
+    },
+    {
+      "case": 4,
+      "P": 10,
+      "returncode": 0,
+      "summary": {
+        "case": 4,
+        "period": 10,
+        "all_passed": true,
+        "checks": [
+          {
+            "label": "fill",
+            "got": 1,
+            "expected": 1
+          },
+          {
+            "label": "phase write preserves old arm",
+            "got": 40,
+            "expected": 40
+          },
+          {
+            "label": "new WU prospective reload",
+            "got": 10,
+            "expected": 10
+          }
+        ],
+        "scope": "compiled native Cache receiver directed debug harness; no full-bus claim"
+      }
+    },
+    {
+      "case": 5,
+      "P": 10,
+      "returncode": 0,
+      "summary": {
+        "case": 5,
+        "period": 10,
+        "all_passed": true,
+        "checks": [
+          {
+            "label": "fill",
+            "got": 1,
+            "expected": 1
+          },
+          {
+            "label": "config-cycle capture precedes held WU",
+            "got": 34,
+            "expected": 34
+          },
+          {
+            "label": "held WU accepts next cycle",
+            "got": 20,
+            "expected": 20
+          },
+          {
+            "label": "held changing payload",
+            "got": 77,
+            "expected": 77
+          }
+        ],
+        "scope": "compiled native Cache receiver directed debug harness; no full-bus claim"
+      }
+    },
+    {
+      "case": 6,
+      "P": 10,
+      "returncode": 0,
+      "summary": {
+        "case": 6,
+        "period": 10,
+        "all_passed": true,
+        "checks": [
+          {
+            "label": "fill",
+            "got": 1,
+            "expected": 1
+          },
+          {
+            "label": "fill",
+            "got": 1,
+            "expected": 1
+          },
+          {
+            "label": "fill",
+            "got": 1,
+            "expected": 1
+          },
+          {
+            "label": "snapshot captured before expiry",
+            "got": 34,
+            "expected": 34
+          },
+          {
+            "label": "capture on expiry misses",
+            "got": 256,
+            "expected": 256
+          },
+          {
+            "label": "same-tick WU outruns stale expiry",
+            "got": 40,
+            "expected": 40
+          },
+          {
+            "label": "buffered line timer disabled",
+            "got": 0,
+            "expected": 0
+          },
+          {
+            "label": "same-tick new payload",
+            "got": 77,
+            "expected": 77
+          }
+        ],
+        "scope": "compiled native Cache receiver directed debug harness; no full-bus claim"
+      }
+    },
+    {
+      "case": 7,
+      "P": 10,
+      "returncode": 0,
+      "summary": {
+        "case": 7,
+        "period": 10,
+        "all_passed": true,
+        "checks": [
+          {
+            "label": "fill",
+            "got": 1,
+            "expected": 1
+          },
+          {
+            "label": "fill",
+            "got": 1,
+            "expected": 1
+          },
+          {
+            "label": "old finite unaffected",
+            "got": 10,
+            "expected": 10
+          },
+          {
+            "label": "old infinity unaffected",
+            "got": 1,
+            "expected": 1
+          },
+          {
+            "label": "finite-to-infinity keeps old arm",
+            "got": 10,
+            "expected": 10
+          },
+          {
+            "label": "subsequent WU uses infinity",
+            "got": 1,
+            "expected": 1
+          },
+          {
+            "label": "infinity survives tick",
+            "got": 1,
+            "expected": 1
+          },
+          {
+            "label": "configuration does not allocate",
+            "got": 0,
+            "expected": 0
+          },
+          {
+            "label": "subsequent WU leaves infinity using new finite load",
+            "got": 30,
+            "expected": 30
+          },
+          {
+            "label": "new finite arm expires",
+            "got": 0,
+            "expected": 0
+          },
+          {
+            "label": "other infinity remains",
+            "got": 1,
+            "expected": 1
+          }
+        ],
+        "scope": "compiled native Cache receiver directed debug harness; no full-bus claim"
+      }
+    },
+    {
+      "case": 8,
+      "P": 10,
+      "returncode": 0,
+      "summary": {
+        "case": 8,
+        "period": 10,
+        "all_passed": true,
+        "checks": [
+          {
+            "label": "fill",
+            "got": 1,
+            "expected": 1
+          },
+          {
+            "label": "fill",
+            "got": 1,
+            "expected": 1
+          },
+          {
+            "label": "competitor expired",
+            "got": 0,
+            "expected": 0
+          },
+          {
+            "label": "fill",
+            "got": 1,
+            "expected": 1
+          },
+          {
+            "label": "invalid hole before live eviction",
+            "got": 1,
+            "expected": 1
+          },
+          {
+            "label": "fill snapshot cancels armed timer",
+            "got": 51,
+            "expected": 51
+          },
+          {
+            "label": "fill capture timer disabled",
+            "got": 0,
+            "expected": 0
+          },
+          {
+            "label": "fill",
+            "got": 1,
+            "expected": 1
+          },
+          {
+            "label": "WU does not allocate",
+            "got": 0,
+            "expected": 0
+          },
+          {
+            "label": "WU does not change LRU",
+            "got": 0,
+            "expected": 0
+          },
+          {
+            "label": "newer fill retained",
+            "got": 1,
+            "expected": 1
+          }
+        ],
+        "scope": "compiled native Cache receiver directed debug harness; no full-bus claim"
+      }
+    },
+    {
+      "case": 2,
+      "P": 128,
+      "returncode": 0,
+      "summary": {
+        "case": 2,
+        "period": 128,
+        "all_passed": true,
+        "checks": [
+          {
+            "label": "K128 256",
+            "got": 16512,
+            "expected": 16512
+          },
+          {
+            "label": "K128 257",
+            "got": 16640,
+            "expected": 16640
+          },
+          {
+            "label": "fill",
+            "got": 1,
+            "expected": 1
+          },
+          {
+            "label": "compiled native actual arm",
+            "got": 16512,
+            "expected": 16512
+          },
+          {
+            "label": "line remains before expiry",
+            "got": 1,
+            "expected": 1
+          },
+          {
+            "label": "actual exact expiry",
+            "got": 0,
+            "expected": 0
+          }
+        ],
+        "scope": "compiled native Cache receiver directed debug harness; no full-bus claim"
+      }
+    }
+  ]
+}
