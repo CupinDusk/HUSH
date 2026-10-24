@@ -1,0 +1,8 @@
+{
+  "archive_sha256": "a0f082bb33d1a1cf0635590dbffc3e246d78af163a5881000d40d7eeabed34c1",
+  "archive_bytes": 347547,
+  "files": 60,
+  "fresh_native_cases": 1251,
+  "reused_cases": 27,
+  "all_valid": true
+}
