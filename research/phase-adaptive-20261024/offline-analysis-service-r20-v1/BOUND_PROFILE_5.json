@@ -1,0 +1,62 @@
+{
+  "scope": "Offline abstract-bound evaluation only. No simulate calls, native execution, held-out testing or source-event instrumentation in measurement.",
+  "run_id": "5",
+  "wall_seconds": 0.1703603999922052,
+  "memory_before": {
+    "peak_working_set_bytes": 21499904,
+    "working_set_bytes": 20860928,
+    "peak_private_commit_bytes": 12410880
+  },
+  "memory_after": {
+    "peak_working_set_bytes": 23625728,
+    "working_set_bytes": 23625728,
+    "peak_private_commit_bytes": 15044608
+  },
+  "memory_method": "Windows GetProcessMemoryInfo peak working set and peak private commit; absolute Python-process values include runtime and prepared inputs/retained result rows. Verification file loading occurs after capture.",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "python_executable": "python.exe",
+  "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+  "logical_cpu_count": 32,
+  "candidate_count": 1611,
+  "fixed_candidates": 1020,
+  "phase_candidates": 591,
+  "path_count": 3,
+  "bound_calls": 4833,
+  "path_input": [
+    {
+      "q": 2,
+      "shared_reads": 19,
+      "fixed_events": 42,
+      "phase_events": 44,
+      "Cbase": 530,
+      "Cphase": 546
+    },
+    {
+      "q": 4,
+      "shared_reads": 37,
+      "fixed_events": 78,
+      "phase_events": 80,
+      "Cbase": 548,
+      "Cphase": 564
+    },
+    {
+      "q": 8,
+      "shared_reads": 73,
+      "fixed_events": 150,
+      "phase_events": 152,
+      "Cbase": 584,
+      "Cphase": 600
+    }
+  ],
+  "total_event_visits": 438516,
+  "supplied_max_tracked_blocks": 8,
+  "finite_lru_stack": false,
+  "equivalence_checks": 48330,
+  "equivalence_pass": true,
+  "all_path_admitted_fixed": 1,
+  "all_path_admitted_phase": 30,
+  "model_sha256": "6270a7fa1c79a81dab99f9712e170c60c1ded14dd5052f3b987ba421a1b99e10",
+  "protocol_sha256": "56c97b4f3d0d6a9fcc5647728f4f361ada02ef253a5dc989f19ef11d1a7d5032",
+  "script_sha256": "680cbeffda24bf3e54d3b610cb6306c99130020cd890255336bc57f8ce414983"
+}

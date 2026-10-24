@@ -1,0 +1,46 @@
+{
+  "scope": "Fresh copy of text-only public inputs; verified standard-library recorded-data decoding and all four replays.",
+  "input_file_count": 30,
+  "all_input_bytes_match": true,
+  "all_replays_pass": true,
+  "safe_decoded_members": [
+    "recorded-data/EXPECTED_BOUND_ROWS.json",
+    "recorded-data/ALL_CANDIDATES.json"
+  ],
+  "runs": [
+    {
+      "args": [
+        "profile_bound.py",
+        "text-independent"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"scope\": \"Offline abstract-bound evaluation only. No simulate calls, native execution, held-out testing or source-event instrumentation in measurement.\",\n  \"run_id\": \"text-independent\",\n  \"wall_seconds\": 0.17095970001537353,\n  \"memory_before\": {\n    \"available\": true,\n    \"peak_working_set_bytes\": 21237760,\n    \"working_set_bytes\": 20926464,\n    \"peak_private_commit_bytes\": 12140544\n  },\n  \"memory_after\": {\n    \"available\": true,\n    \"peak_working_set_bytes\": 23760896,\n    \"working_set_bytes\": 23760896,\n    \"peak_private_commit_bytes\": 15298560\n  },\n  \"memory_method\": \"Windows GetProcessMemoryInfo peak working set and peak private commit; absolute Python-process values include runtime and prepared inputs/retained result rows. Verification file loading occurs after capture.\",\n  \"platform\": \"Windows-11-10.0.26200-SP0\",\n  \"python\": \"3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]\",\n  \"python_executable\": \"python.exe\",\n  \"processor\": \"Intel64 Family 6 Model 183 Stepping 1, GenuineIntel\",\n  \"logical_cpu_count\": 32,\n  \"candidate_count\": 1611,\n  \"fixed_candidates\": 1020,\n  \"phase_candidates\": 591,\n  \"path_count\": 3,\n  \"bound_calls\": 4833,\n  \"path_input\": [\n    {\n      \"q\": 2,\n      \"shared_reads\": 19,\n      \"fixed_events\": 42,\n      \"phase_events\": 44,\n      \"Cbase\": 530,\n      \"Cphase\": 546\n    },\n    {\n      \"q\": 4,\n      \"shared_reads\": 37,\n      \"fixed_events\": 78,\n      \"phase_events\": 80,\n      \"Cbase\": 548,\n      \"Cphase\": 564\n    },\n    {\n      \"q\": 8,\n      \"shared_reads\": 73,\n      \"fixed_events\": 150,\n      \"phase_events\": 152,\n      \"Cbase\": 584,\n      \"Cphase\": 600\n    }\n  ],\n  \"total_event_visits\": 438516,\n  \"supplied_max_tracked_blocks\": 8,\n  \"finite_lru_stack\": false,\n  \"equivalence_checks\": 48330,\n  \"equivalence_pass\": true,\n  \"all_path_admitted_fixed\": 1,\n  \"all_path_admitted_phase\": 30,\n  \"model_sha256\": \"6270a7fa1c79a81dab99f9712e170c60c1ded14dd5052f3b987ba421a1b99e10\",\n  \"protocol_sha256\": \"56c97b4f3d0d6a9fcc5647728f4f361ada02ef253a5dc989f19ef11d1a7d5032\",\n  \"script_sha256\": \"b4347147181320a2238023ec02661e07b2f1e449dac5f665f60d1566fa7e490f\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "profile_full_selection.py",
+        "text-independent"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"scope\": \"Complete prescribed offline training selection: candidate/input construction, 4833 analyze+simulate training executions, max-path admission and minimum-training-joint selection. No held-out tests or native runs.\",\n  \"wall_seconds\": 5.318591200048104,\n  \"memory_before\": {\n    \"available\": true,\n    \"peak_working_set_bytes\": 21098496,\n    \"working_set_bytes\": 20500480,\n    \"peak_private_commit_bytes\": 12029952\n  },\n  \"memory_after\": {\n    \"available\": true,\n    \"peak_working_set_bytes\": 26476544,\n    \"working_set_bytes\": 26476544,\n    \"peak_private_commit_bytes\": 18026496\n  },\n  \"run_id\": \"text-independent\",\n  \"python\": \"3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]\",\n  \"platform\": \"Windows-11-10.0.26200-SP0\",\n  \"candidate_count\": 1611,\n  \"training_executions\": 4833,\n  \"budget\": 1249,\n  \"budget_inputs\": [\n    {\n      \"q\": 2,\n      \"Cbase\": 530,\n      \"reads\": 19,\n      \"B0\": 689\n    },\n    {\n      \"q\": 4,\n      \"Cbase\": 548,\n      \"reads\": 37,\n      \"B0\": 865\n    },\n    {\n      \"q\": 8,\n      \"Cbase\": 584,\n      \"reads\": 73,\n      \"B0\": 1217\n    }\n  ],\n  \"all_candidate_rows_exactly_match_frozen\": true,\n  \"selected_fixed\": {\n    \"K\": [\n      255,\n      255,\n      255\n    ],\n    \"flush\": [],\n    \"worst_training_joint\": 3446,\n    \"worst_training_receiver\": 1192,\n    \"worst_training_updates\": 53\n  },\n  \"selected_phase\": {\n    \"K\": [\n      255,\n      255,\n      4\n    ],\n    \"flush\": [],\n    \"worst_training_joint\": 3266,\n    \"worst_training_receiver\": 1209,\n    \"worst_training_updates\": 33\n  },\n  \"deployed_candidate_id\": \"phase-255-255-4-flushnone\",\n  \"measurement_excludes\": \"Python startup/import, protocol file I/O, verification/reference reading, serialization, held-out executions. The simulated cycle loops and data-dependent request execution are included.\",\n  \"memory_method\": \"Absolute Windows process peak before loading expected results; includes Python/model and all retained full candidate observations.\",\n  \"model_sha256\": \"6270a7fa1c79a81dab99f9712e170c60c1ded14dd5052f3b987ba421a1b99e10\",\n  \"script_sha256\": \"2a268622759ebef75cbffc6846224ff87118720d5ef4e48b7a917a732b4e268f\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "probe_service71.py"
+      ],
+      "returncode": 0,
+      "stdout": "private_admission reads [{'issue': 0, 'completion': 61, 'service': 61}] WUdeferrals 0\nfull_update_wait reads [{'issue': 0, 'completion': 61, 'service': 61}, {'issue': 61, 'completion': 131, 'service': 70}] WUdeferrals 0\nconfig_collision reads [{'issue': 0, 'completion': 61, 'service': 61}, {'issue': 71, 'completion': 132, 'service': 61}] WUdeferrals 1\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "check_service_cases.py"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"fresh_trace_equals_frozen\": true,\n  \"ordinary_maximum\": 71,\n  \"configuration_maximum\": 61,\n  \"combined_envelope_bound\": 71\n}\n",
+      "stderr": ""
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "scope": "Complete prescribed offline training selection: candidate/input construction, 4833 analyze+simulate training executions, max-path admission and minimum-training-joint selection. No held-out tests or native runs.",
+  "wall_seconds": 5.24954260000959,
+  "memory_before": {
+    "peak_working_set_bytes": 21250048,
+    "working_set_bytes": 20520960,
+    "peak_private_commit_bytes": 12136448
+  },
+  "memory_after": {
+    "peak_working_set_bytes": 26361856,
+    "working_set_bytes": 26361856,
+    "peak_private_commit_bytes": 18034688
+  },
+  "run_id": "1",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "candidate_count": 1611,
+  "training_executions": 4833,
+  "budget": 1249,
+  "budget_inputs": [
+    {
+      "q": 2,
+      "Cbase": 530,
+      "reads": 19,
+      "B0": 689
+    },
+    {
+      "q": 4,
+      "Cbase": 548,
+      "reads": 37,
+      "B0": 865
+    },
+    {
+      "q": 8,
+      "Cbase": 584,
+      "reads": 73,
+      "B0": 1217
+    }
+  ],
+  "all_candidate_rows_exactly_match_frozen": true,
+  "selected_fixed": {
+    "K": [
+      255,
+      255,
+      255
+    ],
+    "flush": [],
+    "worst_training_joint": 3446,
+    "worst_training_receiver": 1192,
+    "worst_training_updates": 53
+  },
+  "selected_phase": {
+    "K": [
+      255,
+      255,
+      4
+    ],
+    "flush": [],
+    "worst_training_joint": 3266,
+    "worst_training_receiver": 1209,
+    "worst_training_updates": 33
+  },
+  "deployed_candidate_id": "phase-255-255-4-flushnone",
+  "measurement_excludes": "Python startup/import, protocol file I/O, verification/reference reading, serialization, held-out executions. The simulated cycle loops and data-dependent request execution are included.",
+  "memory_method": "Absolute Windows process peak before loading expected results; includes Python/model and all retained full candidate observations.",
+  "model_sha256": "6270a7fa1c79a81dab99f9712e170c60c1ded14dd5052f3b987ba421a1b99e10",
+  "script_sha256": "8e27912d170ae361bc991c4c2ec590650a8ae5114641e151689b4847f4a07f0b"
+}

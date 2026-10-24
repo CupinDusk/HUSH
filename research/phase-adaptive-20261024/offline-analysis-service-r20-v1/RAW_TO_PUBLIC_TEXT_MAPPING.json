@@ -1,0 +1,183 @@
+{
+  "scope": "Relative filenames and hashes only; original raw/binary exports remain unchanged.",
+  "records": [
+    {
+      "relative_file": "BOUND_PROFILE_1.json",
+      "original_sha256": "5a07c9b9a0a77b0c5e021b3dc203b5016b7c06aafdc011c2f5635b189b79dd9d",
+      "public_text_sha256": "c542b790e012be004b60d62da7b3fac9ccca174be7a7021c3c6616ff12f0f0cd",
+      "identity_transformation": "Executable basename only; no account path"
+    },
+    {
+      "relative_file": "BOUND_PROFILE_2.json",
+      "original_sha256": "6014c11756e7336fe014b67bf9dc3f6ab830b78cf9154bd8242ee6ea2705ac3c",
+      "public_text_sha256": "9ccff686f35c45ad6f05b587211c351be6b1f061209794e1c6200418ed518901",
+      "identity_transformation": "Executable basename only; no account path"
+    },
+    {
+      "relative_file": "BOUND_PROFILE_3.json",
+      "original_sha256": "458bc39cb3017d9b7cc2612c18e68e201f1bf5380a192da381cd49d4b8f79bca",
+      "public_text_sha256": "37db7b350301060ca67b9afd7db2e9217626e8adaf37d9d5c246dded67b5428e",
+      "identity_transformation": "Executable basename only; no account path"
+    },
+    {
+      "relative_file": "BOUND_PROFILE_4.json",
+      "original_sha256": "976aa7f27160f4330f7a277d4855a871b4e72cd7a5c8ae166c8d7b8d679dc4dd",
+      "public_text_sha256": "d3d7bcd9d8f517374797d4505a8196a44d81f6970613d0312e0ee411a1e30d66",
+      "identity_transformation": "Executable basename only; no account path"
+    },
+    {
+      "relative_file": "BOUND_PROFILE_5.json",
+      "original_sha256": "a43f8774f468b0d67df33f5cc839fd49e7fea78ee6b53bcdbbbaebcc548f4ed7",
+      "public_text_sha256": "5e8fe3da664b1d34e2132317edbe25d5667b5ee20bacc6b381a34785b4e45a73",
+      "identity_transformation": "Executable basename only; no account path"
+    },
+    {
+      "relative_file": "BOUND_PROFILE_6.json",
+      "original_sha256": "c36b91f62ce5ef70bb73c68e0d5e28830bd2f4dccf2dd630bed0f7930c981233",
+      "public_text_sha256": "51ae5b7080e1e4388064c001e232549e976957933e12f22e073e5f28f12e648f",
+      "identity_transformation": "Executable basename only; no account path"
+    },
+    {
+      "relative_file": "check_service_cases.py",
+      "original_sha256": "f5c2c54389058ba403ecfce85cf58f74c20e836b4386c02b62ad813296ca8909",
+      "public_text_sha256": "f5c2c54389058ba403ecfce85cf58f74c20e836b4386c02b62ad813296ca8909",
+      "identity_transformation": "No scientific/timing-value changes; public I/O wrappers may differ."
+    },
+    {
+      "relative_file": "EVIDENCE_REPORT.md",
+      "original_sha256": "07607a78dfb573fdbd38ffbd6fdbc346d2db8144915f592c39237c7baa41bd6f",
+      "public_text_sha256": "07607a78dfb573fdbd38ffbd6fdbc346d2db8144915f592c39237c7baa41bd6f",
+      "identity_transformation": "No scientific/timing-value changes; public I/O wrappers may differ."
+    },
+    {
+      "relative_file": "EXPECTED_BOUND_ROWS.zip.b64",
+      "original_sha256": null,
+      "public_text_sha256": "b6cdcb84d57a009a047c0140de7c8bb078ac535da603bc4da1daf98a1e4af7ff",
+      "identity_transformation": "No scientific/timing-value changes; public I/O wrappers may differ."
+    },
+    {
+      "relative_file": "EXPECTED_FULL_TRAINING.zip.b64",
+      "original_sha256": null,
+      "public_text_sha256": "1f41fd024b7b8924e2c24a1530f110bb57b4cc87ba59c662ef7c5d1ba718c2df",
+      "identity_transformation": "No scientific/timing-value changes; public I/O wrappers may differ."
+    },
+    {
+      "relative_file": "EXPECTED_SERVICE_TRACES.json",
+      "original_sha256": "6b6c9a297569f1a96f9d6665307743492fd0488a87663ac98ceec3297ef1bcae",
+      "public_text_sha256": "6b6c9a297569f1a96f9d6665307743492fd0488a87663ac98ceec3297ef1bcae",
+      "identity_transformation": "No scientific/timing-value changes; public I/O wrappers may differ."
+    },
+    {
+      "relative_file": "FULL_SELECTION_PROFILE_1.json",
+      "original_sha256": "e318ae47333e82bd1f4c94efbe87fedbbfa1e30d0718e46198bd766a1a11e9d3",
+      "public_text_sha256": "e318ae47333e82bd1f4c94efbe87fedbbfa1e30d0718e46198bd766a1a11e9d3",
+      "identity_transformation": "No scientific/timing-value changes; public I/O wrappers may differ."
+    },
+    {
+      "relative_file": "FULL_SELECTION_PROFILE_2.json",
+      "original_sha256": "174fc40756dc1bfa78b5474afdd128be87381981d31e17b31e86a3db3c0a3762",
+      "public_text_sha256": "174fc40756dc1bfa78b5474afdd128be87381981d31e17b31e86a3db3c0a3762",
+      "identity_transformation": "No scientific/timing-value changes; public I/O wrappers may differ."
+    },
+    {
+      "relative_file": "FULL_SELECTION_PROFILE_3.json",
+      "original_sha256": "4c464b20640a94968163945bf8a0765567cfc6125209c321c9b1ca82d0a27611",
+      "public_text_sha256": "4c464b20640a94968163945bf8a0765567cfc6125209c321c9b1ca82d0a27611",
+      "identity_transformation": "No scientific/timing-value changes; public I/O wrappers may differ."
+    },
+    {
+      "relative_file": "FULL_SELECTION_SUMMARY.json",
+      "original_sha256": "0bbf49e320866ac6b594859af5ec9e08d514c4e67647ed4b8c109012e752ec2a",
+      "public_text_sha256": "0bbf49e320866ac6b594859af5ec9e08d514c4e67647ed4b8c109012e752ec2a",
+      "identity_transformation": "No scientific/timing-value changes; public I/O wrappers may differ."
+    },
+    {
+      "relative_file": "INPUT_BINDING.json",
+      "original_sha256": "17466f62603830b3cb5ac1c588fd84c04eb60503cb8754219ad7ecafa18ae55b",
+      "public_text_sha256": "17466f62603830b3cb5ac1c588fd84c04eb60503cb8754219ad7ecafa18ae55b",
+      "identity_transformation": "No scientific/timing-value changes; public I/O wrappers may differ."
+    },
+    {
+      "relative_file": "interlocked_closed_loop_protocol.json",
+      "original_sha256": "b18b014ad1f9ea7c6ef6b4cde2c5e11abd765b8c64014f75ab628235fa165362",
+      "public_text_sha256": "b18b014ad1f9ea7c6ef6b4cde2c5e11abd765b8c64014f75ab628235fa165362",
+      "identity_transformation": "No scientific/timing-value changes; public I/O wrappers may differ."
+    },
+    {
+      "relative_file": "PLATFORM.json",
+      "original_sha256": "81178dfd6fdda9617556f35b99f8f074d1dfa2807d9b2ba2bc982880135b5a97",
+      "public_text_sha256": "81178dfd6fdda9617556f35b99f8f074d1dfa2807d9b2ba2bc982880135b5a97",
+      "identity_transformation": "No scientific/timing-value changes; public I/O wrappers may differ."
+    },
+    {
+      "relative_file": "platform_memory.py",
+      "original_sha256": "8b3599b4219e37b143123b91737e1ed1efa4ee78455704965578a4d4c6958013",
+      "public_text_sha256": "8b3599b4219e37b143123b91737e1ed1efa4ee78455704965578a4d4c6958013",
+      "identity_transformation": "No scientific/timing-value changes; public I/O wrappers may differ."
+    },
+    {
+      "relative_file": "probe_service71.py",
+      "original_sha256": "f8493e082548adad36685492a433643a9bd7dacabc6207c53716cf1ba6211c37",
+      "public_text_sha256": "f8493e082548adad36685492a433643a9bd7dacabc6207c53716cf1ba6211c37",
+      "identity_transformation": "No scientific/timing-value changes; public I/O wrappers may differ."
+    },
+    {
+      "relative_file": "profile_bound.py",
+      "original_sha256": "680cbeffda24bf3e54d3b610cb6306c99130020cd890255336bc57f8ce414983",
+      "public_text_sha256": "b4347147181320a2238023ec02661e07b2f1e449dac5f665f60d1566fa7e490f",
+      "identity_transformation": "No scientific/timing-value changes; public I/O wrappers may differ."
+    },
+    {
+      "relative_file": "profile_full_selection.py",
+      "original_sha256": "8e27912d170ae361bc991c4c2ec590650a8ae5114641e151689b4847f4a07f0b",
+      "public_text_sha256": "2a268622759ebef75cbffc6846224ff87118720d5ef4e48b7a917a732b4e268f",
+      "identity_transformation": "No scientific/timing-value changes; public I/O wrappers may differ."
+    },
+    {
+      "relative_file": "PROFILE_SUMMARY.json",
+      "original_sha256": "6525133356852a0d7910f2c63cf658ee254c2bfb6bdb5317ad5e8197f9f880a6",
+      "public_text_sha256": "6525133356852a0d7910f2c63cf658ee254c2bfb6bdb5317ad5e8197f9f880a6",
+      "identity_transformation": "No scientific/timing-value changes; public I/O wrappers may differ."
+    },
+    {
+      "relative_file": "PROTOCOL.json",
+      "original_sha256": "56c97b4f3d0d6a9fcc5647728f4f361ada02ef253a5dc989f19ef11d1a7d5032",
+      "public_text_sha256": "56c97b4f3d0d6a9fcc5647728f4f361ada02ef253a5dc989f19ef11d1a7d5032",
+      "identity_transformation": "No scientific/timing-value changes; public I/O wrappers may differ."
+    },
+    {
+      "relative_file": "README.md",
+      "original_sha256": "d70b1285a7e5c318c297834eb8e945e9282d47dd57085fbf59ecced61e05657f",
+      "public_text_sha256": "f09ac6c5d62a729eae1cf7c6a6c597485d402bdb219c3f0a748ae22547098892",
+      "identity_transformation": "No scientific/timing-value changes; public I/O wrappers may differ."
+    },
+    {
+      "relative_file": "recorded_data.py",
+      "original_sha256": null,
+      "public_text_sha256": "c0f3f5172ef4c2903e248bf991caf0d428d86cbaf61f972e0854d874c7633820",
+      "identity_transformation": "No scientific/timing-value changes; public I/O wrappers may differ."
+    },
+    {
+      "relative_file": "replacement_model.py",
+      "original_sha256": "6270a7fa1c79a81dab99f9712e170c60c1ded14dd5052f3b987ba421a1b99e10",
+      "public_text_sha256": "6270a7fa1c79a81dab99f9712e170c60c1ded14dd5052f3b987ba421a1b99e10",
+      "identity_transformation": "No scientific/timing-value changes; public I/O wrappers may differ."
+    },
+    {
+      "relative_file": "SERVICE71_DIRECTED_TRACES.json",
+      "original_sha256": "6b6c9a297569f1a96f9d6665307743492fd0488a87663ac98ceec3297ef1bcae",
+      "public_text_sha256": "6b6c9a297569f1a96f9d6665307743492fd0488a87663ac98ceec3297ef1bcae",
+      "identity_transformation": "No scientific/timing-value changes; public I/O wrappers may differ."
+    },
+    {
+      "relative_file": "SERVICE_CASE_CHECK.json",
+      "original_sha256": "1c7ff9937d6243632192e447b68f40f836da2dc9da0b3e6bcf810d343cc006e4",
+      "public_text_sha256": "1c7ff9937d6243632192e447b68f40f836da2dc9da0b3e6bcf810d343cc006e4",
+      "identity_transformation": "No scientific/timing-value changes; public I/O wrappers may differ."
+    }
+  ],
+  "recorded_archive_sha256": {
+    "EXPECTED_BOUND_ROWS.zip": "a98b5a5ec9e9478b4a6a37c50c85de900ccb4ae182ad8955ac916bfb482daa02",
+    "EXPECTED_FULL_TRAINING.zip": "3514ef82ffee027a82671ea5ab7d252adabdbbf5c6c372292e85f2508d0e1717"
+  }
+}

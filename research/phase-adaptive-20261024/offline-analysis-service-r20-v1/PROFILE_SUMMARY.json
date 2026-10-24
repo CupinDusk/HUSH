@@ -1,0 +1,68 @@
+{
+  "scope": "Pure offline bound evaluation; excludes execution-driven training/selection and source-event instrumentation.",
+  "wall_seconds_all": [
+    0.1693500999826938,
+    0.1703603999922052,
+    0.17005110008176416
+  ],
+  "run_ids": [
+    4,
+    5,
+    6
+  ],
+  "initial_direct_prior_location_runs": "BOUND_PROFILE_1/2/3.json are also retained; final4/5/6 use the portable expected-results ZIP with the same preverification timing window.",
+  "wall_seconds_median": 0.17005110008176416,
+  "peak_process_working_set_MiB_all": [
+    22.5859375,
+    22.53125,
+    22.2734375
+  ],
+  "peak_process_working_set_MiB_max": 22.5859375,
+  "peak_process_private_commit_MiB_max": 14.453125,
+  "platform": {
+    "cpu": "Intel(R) Core(TM) i9-14900HX",
+    "cores": 24,
+    "logical": 32,
+    "memory_bytes": 33954406400
+  },
+  "python": "3.12.14, 64-bit, -B -X utf8",
+  "candidate_count": 1611,
+  "path_count": 3,
+  "bound_calls": 4833,
+  "event_visits": 438516,
+  "path_input": [
+    {
+      "q": 2,
+      "shared_reads": 19,
+      "fixed_events": 42,
+      "phase_events": 44,
+      "Cbase": 530,
+      "Cphase": 546
+    },
+    {
+      "q": 4,
+      "shared_reads": 37,
+      "fixed_events": 78,
+      "phase_events": 80,
+      "Cbase": 548,
+      "Cphase": 564
+    },
+    {
+      "q": 8,
+      "shared_reads": 73,
+      "fixed_events": 150,
+      "phase_events": 152,
+      "Cbase": 584,
+      "Cphase": 600
+    }
+  ],
+  "equivalence_checks_per_run": 48330,
+  "fixed_admitted": 1,
+  "phase_admitted": 30,
+  "timing_includes": "Original bound transfers, path configuration, C summation, per-path summary construction and retained4833result rows; prepared path/candidate construction precedes timing.",
+  "timing_excludes": "Python startup/import, input generation, execution simulation, native runs, training makespan selection, expected-results reading/comparison and serialization.",
+  "memory_includes": "Python runtime, imported model, candidate/path inputs, all retained bound result rows; absolute Windows process peak, measured before expected-results load.",
+  "scaling": "Direct enumeration O(candidates * sum_path(event_count * tracked_block_count)) with vector-expiry implementation, plus per-reference LRU-list costs for finite-way analysis. This three-path study uses at most8dedicated blocks, not state merging or a general CFG frontier.",
+  "larger_phase_scope": "The domain-limited phase family is D^phases plus constants, so unrestricted phase enumeration is exponential; prune or limit candidate plans separately, and supply covered bounded paths.",
+  "source_sha256": "6270a7fa1c79a81dab99f9712e170c60c1ded14dd5052f3b987ba421a1b99e10"
+}

@@ -1,0 +1,51 @@
+{
+  "frozen_at_utc": "2026-10-24T15:22:52.178926+00:00",
+  "status": "frozen_before_first_multipath_candidate_execution",
+  "question": "Can one common timeout tuple be admitted against all paths of a supplied finite bounded path set using max_pi W_pi <= B, and can per-path-only checking admit a tuple without certification of another feasible path?",
+  "path_family": "BSQ",
+  "path_shared_blocks": [
+    2,
+    4,
+    8
+  ],
+  "receiver_compute_gap": 1,
+  "period": 2,
+  "quiet_compute": 512,
+  "dense_reads_per_path": "8*q",
+  "writer_stores_per_path": "64*q",
+  "helper_delta": 8,
+  "phase_domain": [
+    1,
+    4,
+    16,
+    32,
+    64,
+    254,
+    255
+  ],
+  "phase_candidates": "all 7^3 phase-domain triples union all 255 constant triples; deduplicate to 591",
+  "fixed_candidates": "all255constantloads xfour free boundary-flush subsets;1020candidates;freeendrelease",
+  "budget_base": "B0(q)=basecompute+q*(WUslot+1+missslot)+(nreads-q)*1, excluding dynamic helper",
+  "common_budget": "B=max_{q in {2,4,8}} B0(q)+32 = 1249, fixed before execution",
+  "hardware_mapping": "Same two-client service contract and at most eight dedicated clean receiver slots; each bounded branch/input q activates only its first q slots. The q-dependent loops generate the supplied complete model instruction path; no cache-state join is performed.",
+  "admission": "Every candidate uses one common K tuple and common fixed-maintenance subset across all paths; robust admissible iff every per-path analysis bound <= common B, equivalently max_q W_q <= B.",
+  "training_writer_gap": 4,
+  "training_tick_phase": 0,
+  "training_coverage": "Execute every candidate on every supplied path, even inadmissible candidates, retaining each bound and execution;1611candidates x3paths=4833trainingexecutions.",
+  "selection": "Within fixed/phase families minimize (max path joint completion, max path receiver completion, max path WU packets, K tuple, flush subset) among robustly admitted candidates. Deploy phase only if its worst training joint is strictly lower than the best fixed; fixed wins ties.",
+  "freeze": "Persist FROZEN_SELECTION.json before any held-out executions. No selection update after validation.",
+  "validation_writer_gaps": [
+    1,
+    7,
+    16
+  ],
+  "validation_tick_phases": [
+    0,
+    1
+  ],
+  "validation_coverage": "All3paths x3gaps x2tickphases for both frozen best fixed and frozen best phase (if admitted);36executions. Deployed mode reuses its family result.",
+  "mutation": "Report all candidates accepted by q2-only W<=B but rejected by the all-path maximum. Choose one deterministic witness with smallest q2 joint completion then candidate ID, freeze it, and verify its other path executions; distinguish uncertified bound from actual overrun.",
+  "scope": "Author-side executable validation of finite-path aggregation, not automatic CFG extraction, processor WCET certification, abstract-state joining, finite replacement, native gem5, or performance evidence from a real application. Supplied path set must cover every feasible program path before its max bound certifies the whole program.",
+  "model_sha256": "6270a7fa1c79a81dab99f9712e170c60c1ded14dd5052f3b987ba421a1b99e10",
+  "base_protocol_sha256": "b18b014ad1f9ea7c6ef6b4cde2c5e11abd765b8c64014f75ab628235fa165362"
+}

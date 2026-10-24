@@ -1,0 +1,50 @@
+{
+  "scope": "Complete prescribed offline training selection: candidate/input construction, 4833 analyze+simulate training executions, max-path admission and minimum-training-joint selection. No held-out tests or native runs.",
+  "wall_seconds_all": [
+    5.24954260000959,
+    5.236793900025077,
+    5.2554189999355
+  ],
+  "wall_seconds_median": 5.24954260000959,
+  "peak_process_working_set_MiB_all": [
+    25.140625,
+    25.12890625,
+    25.12109375
+  ],
+  "peak_process_working_set_MiB_max": 25.140625,
+  "peak_process_private_commit_MiB_max": 17.19921875,
+  "all_runs_exactly_match_frozen_candidates": true,
+  "candidate_count": 1611,
+  "path_count": 3,
+  "training_executions": 4833,
+  "selected_fixed": {
+    "K": [
+      255,
+      255,
+      255
+    ],
+    "flush": [],
+    "worst_training_joint": 3446,
+    "worst_training_receiver": 1192,
+    "worst_training_updates": 53
+  },
+  "selected_phase": {
+    "K": [
+      255,
+      255,
+      4
+    ],
+    "flush": [],
+    "worst_training_joint": 3266,
+    "worst_training_receiver": 1209,
+    "worst_training_updates": 33
+  },
+  "platform": {
+    "cpu": "Intel(R) Core(TM) i9-14900HX",
+    "cores": 24,
+    "logical": 32,
+    "memory_bytes": 33954406400
+  },
+  "python": "3.12.14,64-bit,-B -X utf8",
+  "exclusions": "Python startup/import, protocol file I/O, verification/reference reading, serialization, held-out executions. The simulated cycle loops and data-dependent request execution are included."
+}

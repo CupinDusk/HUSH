@@ -1,0 +1,736 @@
+{
+  "model_sha256": "6270a7fa1c79a81dab99f9712e170c60c1ded14dd5052f3b987ba421a1b99e10",
+  "scope": "Three directed timing traces, not exhaustive proof and not a witness that 71 is attained.",
+  "rows": [
+    {
+      "case": "private_admission",
+      "operations": [
+        [
+          "phase",
+          0
+        ],
+        [
+          "read",
+          0
+        ]
+      ],
+      "K": [
+        255,
+        255,
+        255
+      ],
+      "result": {
+        "K": [
+          255,
+          255,
+          255
+        ],
+        "phi": 0,
+        "reader_cycles": 61,
+        "reader_bound": 71,
+        "writer_cycles": 94,
+        "makespan": 94,
+        "updates": 3,
+        "deliveries": 3,
+        "actual_misses": 1,
+        "actual_hits": 0,
+        "analysis_hits": 0,
+        "analysis_unknown": 1,
+        "max_read_service": 61,
+        "max_update_service": 68,
+        "unsafe_hits": 0,
+        "config_wu_deferrals": 0,
+        "replacement_evictions": 0,
+        "trace": [
+          {
+            "t": 0,
+            "ip": 1,
+            "line": 0,
+            "actual_hit": false,
+            "predicted_hit": false,
+            "K": 255
+          }
+        ]
+      },
+      "reads": [
+        {
+          "issue": 0,
+          "completion": 61,
+          "service": 61
+        }
+      ],
+      "events": [
+        {
+          "event": "private_store_admit",
+          "cycle": 0,
+          "read_issue": null,
+          "read_block": null,
+          "private_due": null,
+          "configuration_due": null,
+          "bus": null
+        },
+        {
+          "event": "reader_capture_issue",
+          "cycle": 0,
+          "read_issue": 0,
+          "read_block": 0,
+          "private_due": [
+            1,
+            0
+          ],
+          "configuration_due": null,
+          "bus": null
+        },
+        {
+          "event": "reader_classified",
+          "cycle": 0,
+          "read_issue": 0,
+          "read_block": 0,
+          "private_due": [
+            1,
+            0
+          ],
+          "configuration_due": null,
+          "bus": null
+        },
+        {
+          "event": "bus_grant",
+          "cycle": 1,
+          "read_issue": 0,
+          "read_block": 0,
+          "private_due": null,
+          "configuration_due": null,
+          "bus": {
+            "kind": "miss",
+            "block": 0,
+            "issue": 0,
+            "end": 61
+          }
+        },
+        {
+          "event": "private_store_admit",
+          "cycle": 2,
+          "read_issue": 0,
+          "read_block": 0,
+          "private_due": null,
+          "configuration_due": null,
+          "bus": {
+            "kind": "miss",
+            "block": 0,
+            "issue": 0,
+            "end": 61
+          }
+        },
+        {
+          "event": "bus_grant",
+          "cycle": 61,
+          "read_issue": 0,
+          "read_block": 0,
+          "private_due": null,
+          "configuration_due": null,
+          "bus": {
+            "kind": "wu",
+            "block": 0,
+            "issue": 3,
+            "end": 71
+          }
+        },
+        {
+          "event": "private_store_admit",
+          "cycle": 71,
+          "read_issue": 0,
+          "read_block": 0,
+          "private_due": null,
+          "configuration_due": null,
+          "bus": null
+        },
+        {
+          "event": "bus_grant",
+          "cycle": 72,
+          "read_issue": 0,
+          "read_block": 0,
+          "private_due": null,
+          "configuration_due": null,
+          "bus": {
+            "kind": "wu",
+            "block": 0,
+            "issue": 72,
+            "end": 82
+          }
+        },
+        {
+          "event": "private_store_admit",
+          "cycle": 82,
+          "read_issue": 0,
+          "read_block": 0,
+          "private_due": null,
+          "configuration_due": null,
+          "bus": null
+        },
+        {
+          "event": "bus_grant",
+          "cycle": 83,
+          "read_issue": 0,
+          "read_block": 0,
+          "private_due": null,
+          "configuration_due": null,
+          "bus": {
+            "kind": "wu",
+            "block": 0,
+            "issue": 83,
+            "end": 93
+          }
+        },
+        {
+          "event": "private_store_admit",
+          "cycle": 93,
+          "read_issue": 0,
+          "read_block": 0,
+          "private_due": null,
+          "configuration_due": null,
+          "bus": null
+        }
+      ]
+    },
+    {
+      "case": "full_update_wait",
+      "operations": [
+        [
+          "phase",
+          0
+        ],
+        [
+          "read",
+          0
+        ],
+        [
+          "read",
+          1
+        ]
+      ],
+      "K": [
+        255,
+        255,
+        255
+      ],
+      "result": {
+        "K": [
+          255,
+          255,
+          255
+        ],
+        "phi": 0,
+        "reader_cycles": 131,
+        "reader_bound": 142,
+        "writer_cycles": 181,
+        "makespan": 181,
+        "updates": 6,
+        "deliveries": 6,
+        "actual_misses": 2,
+        "actual_hits": 0,
+        "analysis_hits": 0,
+        "analysis_unknown": 2,
+        "max_read_service": 70,
+        "max_update_service": 69,
+        "unsafe_hits": 0,
+        "config_wu_deferrals": 0,
+        "replacement_evictions": 0,
+        "trace": [
+          {
+            "t": 0,
+            "ip": 1,
+            "line": 0,
+            "actual_hit": false,
+            "predicted_hit": false,
+            "K": 255
+          },
+          {
+            "t": 61,
+            "ip": 2,
+            "line": 1,
+            "actual_hit": false,
+            "predicted_hit": false,
+            "K": 255
+          }
+        ]
+      },
+      "reads": [
+        {
+          "issue": 0,
+          "completion": 61,
+          "service": 61
+        },
+        {
+          "issue": 61,
+          "completion": 131,
+          "service": 70
+        }
+      ],
+      "events": [
+        {
+          "event": "private_store_admit",
+          "cycle": 0,
+          "read_issue": null,
+          "read_block": null,
+          "private_due": null,
+          "configuration_due": null,
+          "bus": null
+        },
+        {
+          "event": "reader_capture_issue",
+          "cycle": 0,
+          "read_issue": 0,
+          "read_block": 0,
+          "private_due": [
+            1,
+            0
+          ],
+          "configuration_due": null,
+          "bus": null
+        },
+        {
+          "event": "reader_classified",
+          "cycle": 0,
+          "read_issue": 0,
+          "read_block": 0,
+          "private_due": [
+            1,
+            0
+          ],
+          "configuration_due": null,
+          "bus": null
+        },
+        {
+          "event": "bus_grant",
+          "cycle": 1,
+          "read_issue": 0,
+          "read_block": 0,
+          "private_due": null,
+          "configuration_due": null,
+          "bus": {
+            "kind": "miss",
+            "block": 0,
+            "issue": 0,
+            "end": 61
+          }
+        },
+        {
+          "event": "private_store_admit",
+          "cycle": 2,
+          "read_issue": 0,
+          "read_block": 0,
+          "private_due": null,
+          "configuration_due": null,
+          "bus": {
+            "kind": "miss",
+            "block": 0,
+            "issue": 0,
+            "end": 61
+          }
+        },
+        {
+          "event": "reader_capture_issue",
+          "cycle": 61,
+          "read_issue": 61,
+          "read_block": 1,
+          "private_due": null,
+          "configuration_due": null,
+          "bus": null
+        },
+        {
+          "event": "reader_classified",
+          "cycle": 61,
+          "read_issue": 61,
+          "read_block": 1,
+          "private_due": null,
+          "configuration_due": null,
+          "bus": null
+        },
+        {
+          "event": "bus_grant",
+          "cycle": 61,
+          "read_issue": 61,
+          "read_block": 1,
+          "private_due": null,
+          "configuration_due": null,
+          "bus": {
+            "kind": "wu",
+            "block": 0,
+            "issue": 3,
+            "end": 71
+          }
+        },
+        {
+          "event": "bus_grant",
+          "cycle": 71,
+          "read_issue": 61,
+          "read_block": 1,
+          "private_due": null,
+          "configuration_due": null,
+          "bus": {
+            "kind": "miss",
+            "block": 1,
+            "issue": 61,
+            "end": 131
+          }
+        },
+        {
+          "event": "bus_grant",
+          "cycle": 131,
+          "read_issue": 61,
+          "read_block": 1,
+          "private_due": null,
+          "configuration_due": null,
+          "bus": {
+            "kind": "wu",
+            "block": 1,
+            "issue": 72,
+            "end": 141
+          }
+        },
+        {
+          "event": "bus_grant",
+          "cycle": 141,
+          "read_issue": 61,
+          "read_block": 1,
+          "private_due": null,
+          "configuration_due": null,
+          "bus": {
+            "kind": "wu",
+            "block": 0,
+            "issue": 141,
+            "end": 151
+          }
+        },
+        {
+          "event": "bus_grant",
+          "cycle": 151,
+          "read_issue": 61,
+          "read_block": 1,
+          "private_due": null,
+          "configuration_due": null,
+          "bus": {
+            "kind": "wu",
+            "block": 1,
+            "issue": 151,
+            "end": 161
+          }
+        },
+        {
+          "event": "bus_grant",
+          "cycle": 161,
+          "read_issue": 61,
+          "read_block": 1,
+          "private_due": null,
+          "configuration_due": null,
+          "bus": {
+            "kind": "wu",
+            "block": 0,
+            "issue": 161,
+            "end": 171
+          }
+        },
+        {
+          "event": "bus_grant",
+          "cycle": 171,
+          "read_issue": 61,
+          "read_block": 1,
+          "private_due": null,
+          "configuration_due": null,
+          "bus": {
+            "kind": "wu",
+            "block": 1,
+            "issue": 171,
+            "end": 181
+          }
+        }
+      ]
+    },
+    {
+      "case": "config_collision",
+      "operations": [
+        [
+          "phase",
+          0
+        ],
+        [
+          "read",
+          0
+        ],
+        [
+          "compute",
+          9
+        ],
+        [
+          "phase",
+          1
+        ],
+        [
+          "read",
+          1
+        ]
+      ],
+      "K": [
+        255,
+        254,
+        254
+      ],
+      "result": {
+        "K": [
+          255,
+          254,
+          254
+        ],
+        "phi": 0,
+        "reader_cycles": 132,
+        "reader_bound": 152,
+        "writer_cycles": 182,
+        "makespan": 182,
+        "updates": 6,
+        "deliveries": 6,
+        "actual_misses": 2,
+        "actual_hits": 0,
+        "analysis_hits": 0,
+        "analysis_unknown": 2,
+        "max_read_service": 61,
+        "max_update_service": 69,
+        "unsafe_hits": 0,
+        "config_wu_deferrals": 1,
+        "replacement_evictions": 0,
+        "trace": [
+          {
+            "t": 0,
+            "ip": 1,
+            "line": 0,
+            "actual_hit": false,
+            "predicted_hit": false,
+            "K": 255
+          },
+          {
+            "t": 71,
+            "ip": 4,
+            "line": 1,
+            "actual_hit": false,
+            "predicted_hit": false,
+            "K": 254
+          }
+        ]
+      },
+      "reads": [
+        {
+          "issue": 0,
+          "completion": 61,
+          "service": 61
+        },
+        {
+          "issue": 71,
+          "completion": 132,
+          "service": 61
+        }
+      ],
+      "events": [
+        {
+          "event": "private_store_admit",
+          "cycle": 0,
+          "read_issue": null,
+          "read_block": null,
+          "private_due": null,
+          "configuration_due": null,
+          "bus": null
+        },
+        {
+          "event": "reader_capture_issue",
+          "cycle": 0,
+          "read_issue": 0,
+          "read_block": 0,
+          "private_due": [
+            1,
+            0
+          ],
+          "configuration_due": null,
+          "bus": null
+        },
+        {
+          "event": "reader_classified",
+          "cycle": 0,
+          "read_issue": 0,
+          "read_block": 0,
+          "private_due": [
+            1,
+            0
+          ],
+          "configuration_due": null,
+          "bus": null
+        },
+        {
+          "event": "bus_grant",
+          "cycle": 1,
+          "read_issue": 0,
+          "read_block": 0,
+          "private_due": null,
+          "configuration_due": null,
+          "bus": {
+            "kind": "miss",
+            "block": 0,
+            "issue": 0,
+            "end": 61
+          }
+        },
+        {
+          "event": "private_store_admit",
+          "cycle": 2,
+          "read_issue": 0,
+          "read_block": 0,
+          "private_due": null,
+          "configuration_due": null,
+          "bus": {
+            "kind": "miss",
+            "block": 0,
+            "issue": 0,
+            "end": 61
+          }
+        },
+        {
+          "event": "bus_grant",
+          "cycle": 61,
+          "read_issue": 0,
+          "read_block": 9,
+          "private_due": null,
+          "configuration_due": null,
+          "bus": {
+            "kind": "wu",
+            "block": 0,
+            "issue": 3,
+            "end": 71
+          }
+        },
+        {
+          "event": "configuration_delays_finishing_WU",
+          "cycle": 71,
+          "read_issue": 0,
+          "read_block": 1,
+          "private_due": null,
+          "configuration_due": null,
+          "bus": {
+            "kind": "wu",
+            "block": 0,
+            "issue": 3,
+            "end": 71
+          }
+        },
+        {
+          "event": "reader_capture_issue",
+          "cycle": 71,
+          "read_issue": 71,
+          "read_block": 1,
+          "private_due": null,
+          "configuration_due": null,
+          "bus": {
+            "kind": "wu",
+            "block": 0,
+            "issue": 3,
+            "end": 72
+          }
+        },
+        {
+          "event": "reader_classified",
+          "cycle": 71,
+          "read_issue": 71,
+          "read_block": 1,
+          "private_due": null,
+          "configuration_due": null,
+          "bus": {
+            "kind": "wu",
+            "block": 0,
+            "issue": 3,
+            "end": 72
+          }
+        },
+        {
+          "event": "bus_grant",
+          "cycle": 72,
+          "read_issue": 71,
+          "read_block": 1,
+          "private_due": null,
+          "configuration_due": null,
+          "bus": {
+            "kind": "miss",
+            "block": 1,
+            "issue": 71,
+            "end": 132
+          }
+        },
+        {
+          "event": "bus_grant",
+          "cycle": 132,
+          "read_issue": 71,
+          "read_block": 1,
+          "private_due": null,
+          "configuration_due": null,
+          "bus": {
+            "kind": "wu",
+            "block": 1,
+            "issue": 73,
+            "end": 142
+          }
+        },
+        {
+          "event": "bus_grant",
+          "cycle": 142,
+          "read_issue": 71,
+          "read_block": 1,
+          "private_due": null,
+          "configuration_due": null,
+          "bus": {
+            "kind": "wu",
+            "block": 0,
+            "issue": 142,
+            "end": 152
+          }
+        },
+        {
+          "event": "bus_grant",
+          "cycle": 152,
+          "read_issue": 71,
+          "read_block": 1,
+          "private_due": null,
+          "configuration_due": null,
+          "bus": {
+            "kind": "wu",
+            "block": 1,
+            "issue": 152,
+            "end": 162
+          }
+        },
+        {
+          "event": "bus_grant",
+          "cycle": 162,
+          "read_issue": 71,
+          "read_block": 1,
+          "private_due": null,
+          "configuration_due": null,
+          "bus": {
+            "kind": "wu",
+            "block": 0,
+            "issue": 162,
+            "end": 172
+          }
+        },
+        {
+          "event": "bus_grant",
+          "cycle": 172,
+          "read_issue": 71,
+          "read_block": 1,
+          "private_due": null,
+          "configuration_due": null,
+          "bus": {
+            "kind": "wu",
+            "block": 1,
+            "issue": 172,
+            "end": 182
+          }
+        }
+      ]
+    }
+  ]
+}

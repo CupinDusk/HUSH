@@ -1,0 +1,279 @@
+{
+  "model_sha256": "6270a7fa1c79a81dab99f9712e170c60c1ded14dd5052f3b987ba421a1b99e10",
+  "fresh_trace_equals_frozen": true,
+  "ordinary_envelope_case_count": 22,
+  "ordinary_maximum": 71,
+  "configuration_envelope_case_count": 1,
+  "configuration_maximum": 61,
+  "combined_envelope_bound": 71,
+  "ordinary_envelope_rows": [
+    {
+      "old_private_remaining": 0,
+      "other_WU_wait": 0,
+      "configuration_residual": 0,
+      "miss_service": 60,
+      "completion_from_issue": 60
+    },
+    {
+      "old_private_remaining": 0,
+      "other_WU_wait": 1,
+      "configuration_residual": 0,
+      "miss_service": 60,
+      "completion_from_issue": 61
+    },
+    {
+      "old_private_remaining": 0,
+      "other_WU_wait": 2,
+      "configuration_residual": 0,
+      "miss_service": 60,
+      "completion_from_issue": 62
+    },
+    {
+      "old_private_remaining": 0,
+      "other_WU_wait": 3,
+      "configuration_residual": 0,
+      "miss_service": 60,
+      "completion_from_issue": 63
+    },
+    {
+      "old_private_remaining": 0,
+      "other_WU_wait": 4,
+      "configuration_residual": 0,
+      "miss_service": 60,
+      "completion_from_issue": 64
+    },
+    {
+      "old_private_remaining": 0,
+      "other_WU_wait": 5,
+      "configuration_residual": 0,
+      "miss_service": 60,
+      "completion_from_issue": 65
+    },
+    {
+      "old_private_remaining": 0,
+      "other_WU_wait": 6,
+      "configuration_residual": 0,
+      "miss_service": 60,
+      "completion_from_issue": 66
+    },
+    {
+      "old_private_remaining": 0,
+      "other_WU_wait": 7,
+      "configuration_residual": 0,
+      "miss_service": 60,
+      "completion_from_issue": 67
+    },
+    {
+      "old_private_remaining": 0,
+      "other_WU_wait": 8,
+      "configuration_residual": 0,
+      "miss_service": 60,
+      "completion_from_issue": 68
+    },
+    {
+      "old_private_remaining": 0,
+      "other_WU_wait": 9,
+      "configuration_residual": 0,
+      "miss_service": 60,
+      "completion_from_issue": 69
+    },
+    {
+      "old_private_remaining": 0,
+      "other_WU_wait": 10,
+      "configuration_residual": 0,
+      "miss_service": 60,
+      "completion_from_issue": 70
+    },
+    {
+      "old_private_remaining": 1,
+      "other_WU_wait": 0,
+      "configuration_residual": 0,
+      "miss_service": 60,
+      "completion_from_issue": 61
+    },
+    {
+      "old_private_remaining": 1,
+      "other_WU_wait": 1,
+      "configuration_residual": 0,
+      "miss_service": 60,
+      "completion_from_issue": 62
+    },
+    {
+      "old_private_remaining": 1,
+      "other_WU_wait": 2,
+      "configuration_residual": 0,
+      "miss_service": 60,
+      "completion_from_issue": 63
+    },
+    {
+      "old_private_remaining": 1,
+      "other_WU_wait": 3,
+      "configuration_residual": 0,
+      "miss_service": 60,
+      "completion_from_issue": 64
+    },
+    {
+      "old_private_remaining": 1,
+      "other_WU_wait": 4,
+      "configuration_residual": 0,
+      "miss_service": 60,
+      "completion_from_issue": 65
+    },
+    {
+      "old_private_remaining": 1,
+      "other_WU_wait": 5,
+      "configuration_residual": 0,
+      "miss_service": 60,
+      "completion_from_issue": 66
+    },
+    {
+      "old_private_remaining": 1,
+      "other_WU_wait": 6,
+      "configuration_residual": 0,
+      "miss_service": 60,
+      "completion_from_issue": 67
+    },
+    {
+      "old_private_remaining": 1,
+      "other_WU_wait": 7,
+      "configuration_residual": 0,
+      "miss_service": 60,
+      "completion_from_issue": 68
+    },
+    {
+      "old_private_remaining": 1,
+      "other_WU_wait": 8,
+      "configuration_residual": 0,
+      "miss_service": 60,
+      "completion_from_issue": 69
+    },
+    {
+      "old_private_remaining": 1,
+      "other_WU_wait": 9,
+      "configuration_residual": 0,
+      "miss_service": 60,
+      "completion_from_issue": 70
+    },
+    {
+      "old_private_remaining": 1,
+      "other_WU_wait": 10,
+      "configuration_residual": 0,
+      "miss_service": 60,
+      "completion_from_issue": 71
+    }
+  ],
+  "configuration_envelope_rows": [
+    {
+      "old_private_remaining": 0,
+      "other_WU_wait": 0,
+      "configuration_residual": 1,
+      "miss_service": 60,
+      "completion_from_issue": 61
+    }
+  ],
+  "concrete_cases": [
+    {
+      "case": "private_admission",
+      "operations": [
+        [
+          "phase",
+          0
+        ],
+        [
+          "read",
+          0
+        ]
+      ],
+      "K": [
+        255,
+        255,
+        255
+      ],
+      "reads": [
+        {
+          "issue": 0,
+          "completion": 61,
+          "service": 61
+        }
+      ]
+    },
+    {
+      "case": "full_update_wait",
+      "operations": [
+        [
+          "phase",
+          0
+        ],
+        [
+          "read",
+          0
+        ],
+        [
+          "read",
+          1
+        ]
+      ],
+      "K": [
+        255,
+        255,
+        255
+      ],
+      "reads": [
+        {
+          "issue": 0,
+          "completion": 61,
+          "service": 61
+        },
+        {
+          "issue": 61,
+          "completion": 131,
+          "service": 70
+        }
+      ]
+    },
+    {
+      "case": "config_collision",
+      "operations": [
+        [
+          "phase",
+          0
+        ],
+        [
+          "read",
+          0
+        ],
+        [
+          "compute",
+          9
+        ],
+        [
+          "phase",
+          1
+        ],
+        [
+          "read",
+          1
+        ]
+      ],
+      "K": [
+        255,
+        254,
+        254
+      ],
+      "reads": [
+        {
+          "issue": 0,
+          "completion": 61,
+          "service": 61
+        },
+        {
+          "issue": 71,
+          "completion": 132,
+          "service": 61
+        }
+      ]
+    }
+  ],
+  "no_double_count_reason": "The single writer cannot have an admitted private store and a WU in flight simultaneously. A configuration collision extends only a WU finishing at miss issue, by one remaining cycle, not by another full ten-cycle WU. No configuration is issued during the outstanding read.",
+  "scope": "Finite arithmetic envelopes are a case check under the stated model gates, not an exhaustive reachable-state proof. Concrete traces attain 61/70/61; no claim that the conservative bound71 is attained."
+}
