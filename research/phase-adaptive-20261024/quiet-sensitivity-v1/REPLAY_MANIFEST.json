@@ -1,0 +1,49 @@
+{
+  "scope": "Portable-copy and independent ZIP-extraction execution, not independent simulator implementation or native/application validation",
+  "files": [
+    {
+      "path": "expected_results.json",
+      "sha256": "5e0952a261e1f6328f20c0f4c4fb6b2dff49f357f3093d93224838e4d9bb830d",
+      "bytes": 214637
+    },
+    {
+      "path": "interlocked_closed_loop_protocol.json",
+      "sha256": "b18b014ad1f9ea7c6ef6b4cde2c5e11abd765b8c64014f75ab628235fa165362",
+      "bytes": 2275
+    },
+    {
+      "path": "interlocked_model.py",
+      "sha256": "13e359f66a7f5b2a33cc3d3bc8bc9e84252f17b0795ca5fc74b21f56e8ad013d",
+      "bytes": 10395
+    },
+    {
+      "path": "r10_quiet_protocol.json",
+      "sha256": "0a0b3bf3c6882c35fdd8749b69a3c619bb126467b2ac88a45ee4325cf6632a40",
+      "bytes": 2192
+    },
+    {
+      "path": "r10_quiet_study.py",
+      "sha256": "56a48572d30eb1bf57802fbefcfebb00c62ba045851f88a7e1596f3a4ade65f1",
+      "bytes": 3951
+    },
+    {
+      "path": "README.md",
+      "sha256": "f52db6df1458c02edd61f126cc328668363d4c004753a019fae1e8d3534fa0a1",
+      "bytes": 1947
+    }
+  ],
+  "zip_sha256": "74b18ece9a0efe9db6e693a939fa509751b1f8a14f2d72847e6645de52891b93",
+  "zip_bytes": 13389,
+  "summary_and_all_rows_match_original": true,
+  "extracted_replay_summary_and_all_rows_match": true,
+  "summary": {
+    "selection_comparisons": 48,
+    "validation_comparisons": 96,
+    "wins": 28,
+    "ties": 68,
+    "losses": 0,
+    "all_reader_budgets_met": true,
+    "unsafe_hits": 0,
+    "reference_reproduced": true
+  }
+}
