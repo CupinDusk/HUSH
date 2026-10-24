@@ -1,0 +1,434 @@
+[
+  {
+    "case": {
+      "id": "32-n32-p0-fixed3",
+      "P": 128,
+      "cost": 8,
+      "cache": "32KiB",
+      "phi": 0,
+      "kind": "fixed",
+      "K": [
+        3,
+        3,
+        3
+      ]
+    },
+    "J": 2230986.0,
+    "instructions": 1859714.0,
+    "WU": 2139.0,
+    "misses": 4298.0,
+    "hits": 2751170.0,
+    "replacements": 777.0,
+    "timeout_writes": 0,
+    "requested_timeout_writes": 0,
+    "suppressed_timeout_writes": 0
+  },
+  {
+    "case": {
+      "id": "32-n32-p0-phase-apply",
+      "P": 128,
+      "cost": 8,
+      "cache": "32KiB",
+      "phi": 0,
+      "kind": "phase",
+      "K": [
+        1,
+        128,
+        1
+      ]
+    },
+    "J": 2233223.0,
+    "instructions": 1859730.0,
+    "WU": 1941.0,
+    "misses": 4104.0,
+    "hits": 2751393.0,
+    "replacements": 800.0,
+    "timeout_writes": 8,
+    "requested_timeout_writes": 8,
+    "suppressed_timeout_writes": 0
+  },
+  {
+    "case": {
+      "id": "32-n32-p0-phase-suppress",
+      "P": 128,
+      "cost": 8,
+      "cache": "32KiB",
+      "phi": 0,
+      "kind": "suppress",
+      "K": [
+        1,
+        128,
+        1
+      ]
+    },
+    "J": 2234531.0,
+    "instructions": 1859730.0,
+    "WU": 505.0,
+    "misses": 2745.0,
+    "hits": 2752752.0,
+    "replacements": 783.0,
+    "timeout_writes": 0,
+    "requested_timeout_writes": 8,
+    "suppressed_timeout_writes": 8
+  },
+  {
+    "case": {
+      "id": "32-n32-p127-fixed3",
+      "P": 128,
+      "cost": 8,
+      "cache": "32KiB",
+      "phi": 127,
+      "kind": "fixed",
+      "K": [
+        3,
+        3,
+        3
+      ]
+    },
+    "J": 2230753.0,
+    "instructions": 1859714.0,
+    "WU": 2158.0,
+    "misses": 4311.0,
+    "hits": 2751157.0,
+    "replacements": 777.0,
+    "timeout_writes": 0,
+    "requested_timeout_writes": 0,
+    "suppressed_timeout_writes": 0
+  },
+  {
+    "case": {
+      "id": "32-n32-p127-phase-apply",
+      "P": 128,
+      "cost": 8,
+      "cache": "32KiB",
+      "phi": 127,
+      "kind": "phase",
+      "K": [
+        1,
+        128,
+        1
+      ]
+    },
+    "J": 2233223.0,
+    "instructions": 1859730.0,
+    "WU": 1941.0,
+    "misses": 4104.0,
+    "hits": 2751393.0,
+    "replacements": 800.0,
+    "timeout_writes": 8,
+    "requested_timeout_writes": 8,
+    "suppressed_timeout_writes": 0
+  },
+  {
+    "case": {
+      "id": "32-n32-p127-phase-suppress",
+      "P": 128,
+      "cost": 8,
+      "cache": "32KiB",
+      "phi": 127,
+      "kind": "suppress",
+      "K": [
+        1,
+        128,
+        1
+      ]
+    },
+    "J": 2234531.0,
+    "instructions": 1859730.0,
+    "WU": 505.0,
+    "misses": 2745.0,
+    "hits": 2752752.0,
+    "replacements": 783.0,
+    "timeout_writes": 0,
+    "requested_timeout_writes": 8,
+    "suppressed_timeout_writes": 8
+  },
+  {
+    "case": {
+      "id": "32-n32-p64-fixed3",
+      "P": 128,
+      "cost": 8,
+      "cache": "32KiB",
+      "phi": 64,
+      "kind": "fixed",
+      "K": [
+        3,
+        3,
+        3
+      ]
+    },
+    "J": 2233539.0,
+    "instructions": 1859714.0,
+    "WU": 2098.0,
+    "misses": 4295.0,
+    "hits": 2751173.0,
+    "replacements": 794.0,
+    "timeout_writes": 0,
+    "requested_timeout_writes": 0,
+    "suppressed_timeout_writes": 0
+  },
+  {
+    "case": {
+      "id": "32-n32-p64-phase-apply",
+      "P": 128,
+      "cost": 8,
+      "cache": "32KiB",
+      "phi": 64,
+      "kind": "phase",
+      "K": [
+        1,
+        128,
+        1
+      ]
+    },
+    "J": 2233223.0,
+    "instructions": 1859730.0,
+    "WU": 1941.0,
+    "misses": 4104.0,
+    "hits": 2751393.0,
+    "replacements": 800.0,
+    "timeout_writes": 8,
+    "requested_timeout_writes": 8,
+    "suppressed_timeout_writes": 0
+  },
+  {
+    "case": {
+      "id": "32-n32-p64-phase-suppress",
+      "P": 128,
+      "cost": 8,
+      "cache": "32KiB",
+      "phi": 64,
+      "kind": "suppress",
+      "K": [
+        1,
+        128,
+        1
+      ]
+    },
+    "J": 2234303.0,
+    "instructions": 1859730.0,
+    "WU": 508.0,
+    "misses": 2749.0,
+    "hits": 2752748.0,
+    "replacements": 783.0,
+    "timeout_writes": 0,
+    "requested_timeout_writes": 8,
+    "suppressed_timeout_writes": 8
+  },
+  {
+    "case": {
+      "id": "64-n32-p0-fixed106",
+      "P": 128,
+      "cost": 8,
+      "cache": "64KiB",
+      "phi": 0,
+      "kind": "fixed",
+      "K": [
+        106,
+        106,
+        106
+      ]
+    },
+    "J": 2214520.0,
+    "instructions": 1859714.0,
+    "WU": 2309.0,
+    "misses": 4104.0,
+    "hits": 2751364.0,
+    "replacements": 148.0,
+    "timeout_writes": 0,
+    "requested_timeout_writes": 0,
+    "suppressed_timeout_writes": 0
+  },
+  {
+    "case": {
+      "id": "64-n32-p0-phase-apply",
+      "P": 128,
+      "cost": 8,
+      "cache": "64KiB",
+      "phi": 0,
+      "kind": "phase",
+      "K": [
+        1,
+        128,
+        128
+      ]
+    },
+    "J": 2214497.0,
+    "instructions": 1859722.0,
+    "WU": 2196.0,
+    "misses": 3992.0,
+    "hits": 2751491.0,
+    "replacements": 150.0,
+    "timeout_writes": 4,
+    "requested_timeout_writes": 4,
+    "suppressed_timeout_writes": 0
+  },
+  {
+    "case": {
+      "id": "64-n32-p0-phase-suppress",
+      "P": 128,
+      "cost": 8,
+      "cache": "64KiB",
+      "phi": 0,
+      "kind": "suppress",
+      "K": [
+        1,
+        128,
+        128
+      ]
+    },
+    "J": 2215672.0,
+    "instructions": 1859722.0,
+    "WU": 503.0,
+    "misses": 2383.0,
+    "hits": 2753100.0,
+    "replacements": 140.0,
+    "timeout_writes": 0,
+    "requested_timeout_writes": 4,
+    "suppressed_timeout_writes": 4
+  },
+  {
+    "case": {
+      "id": "64-n32-p127-fixed106",
+      "P": 128,
+      "cost": 8,
+      "cache": "64KiB",
+      "phi": 127,
+      "kind": "fixed",
+      "K": [
+        106,
+        106,
+        106
+      ]
+    },
+    "J": 2214520.0,
+    "instructions": 1859714.0,
+    "WU": 2309.0,
+    "misses": 4104.0,
+    "hits": 2751364.0,
+    "replacements": 148.0,
+    "timeout_writes": 0,
+    "requested_timeout_writes": 0,
+    "suppressed_timeout_writes": 0
+  },
+  {
+    "case": {
+      "id": "64-n32-p127-phase-apply",
+      "P": 128,
+      "cost": 8,
+      "cache": "64KiB",
+      "phi": 127,
+      "kind": "phase",
+      "K": [
+        1,
+        128,
+        128
+      ]
+    },
+    "J": 2214497.0,
+    "instructions": 1859722.0,
+    "WU": 2196.0,
+    "misses": 3992.0,
+    "hits": 2751491.0,
+    "replacements": 150.0,
+    "timeout_writes": 4,
+    "requested_timeout_writes": 4,
+    "suppressed_timeout_writes": 0
+  },
+  {
+    "case": {
+      "id": "64-n32-p127-phase-suppress",
+      "P": 128,
+      "cost": 8,
+      "cache": "64KiB",
+      "phi": 127,
+      "kind": "suppress",
+      "K": [
+        1,
+        128,
+        128
+      ]
+    },
+    "J": 2215672.0,
+    "instructions": 1859722.0,
+    "WU": 503.0,
+    "misses": 2383.0,
+    "hits": 2753100.0,
+    "replacements": 140.0,
+    "timeout_writes": 0,
+    "requested_timeout_writes": 4,
+    "suppressed_timeout_writes": 4
+  },
+  {
+    "case": {
+      "id": "64-n32-p64-fixed106",
+      "P": 128,
+      "cost": 8,
+      "cache": "64KiB",
+      "phi": 64,
+      "kind": "fixed",
+      "K": [
+        106,
+        106,
+        106
+      ]
+    },
+    "J": 2214520.0,
+    "instructions": 1859714.0,
+    "WU": 2309.0,
+    "misses": 4104.0,
+    "hits": 2751364.0,
+    "replacements": 148.0,
+    "timeout_writes": 0,
+    "requested_timeout_writes": 0,
+    "suppressed_timeout_writes": 0
+  },
+  {
+    "case": {
+      "id": "64-n32-p64-phase-apply",
+      "P": 128,
+      "cost": 8,
+      "cache": "64KiB",
+      "phi": 64,
+      "kind": "phase",
+      "K": [
+        1,
+        128,
+        128
+      ]
+    },
+    "J": 2214497.0,
+    "instructions": 1859722.0,
+    "WU": 2196.0,
+    "misses": 3992.0,
+    "hits": 2751491.0,
+    "replacements": 150.0,
+    "timeout_writes": 4,
+    "requested_timeout_writes": 4,
+    "suppressed_timeout_writes": 0
+  },
+  {
+    "case": {
+      "id": "64-n32-p64-phase-suppress",
+      "P": 128,
+      "cost": 8,
+      "cache": "64KiB",
+      "phi": 64,
+      "kind": "suppress",
+      "K": [
+        1,
+        128,
+        128
+      ]
+    },
+    "J": 2215689.0,
+    "instructions": 1859722.0,
+    "WU": 502.0,
+    "misses": 2376.0,
+    "hits": 2753107.0,
+    "replacements": 140.0,
+    "timeout_writes": 0,
+    "requested_timeout_writes": 4,
+    "suppressed_timeout_writes": 4
+  }
+]

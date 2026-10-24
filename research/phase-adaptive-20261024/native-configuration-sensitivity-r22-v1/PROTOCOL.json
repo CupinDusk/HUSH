@@ -1,0 +1,81 @@
+{
+  "created_utc": "2026-10-24T18:51:26.202775+00:00",
+  "status": "preregistered before any R22 sensitivity run",
+  "new_cases": 72,
+  "settings_P_cost": [
+    [
+      64,
+      8
+    ],
+    [
+      256,
+      8
+    ],
+    [
+      128,
+      0
+    ],
+    [
+      128,
+      16
+    ]
+  ],
+  "phi": "0,P//2,P-1",
+  "N": 32,
+  "cache": [
+    "32KiB",
+    "64KiB"
+  ],
+  "fixed_K": {
+    "32KiB": [
+      3,
+      3,
+      3
+    ],
+    "64KiB": [
+      106,
+      106,
+      106
+    ]
+  },
+  "phase_K": {
+    "32KiB": [
+      1,
+      128,
+      1
+    ],
+    "64KiB": [
+      1,
+      128,
+      128
+    ]
+  },
+  "selection": "Frozen R20 training choices. No retuning, no new search or deployment change; 64KiB phase remains undeployed diagnostic. All outcomes retained.",
+  "control": "Suppression keeps identical phase guest options, phase boundaries and helper quiesce cycles while suppressing timeout API writes.",
+  "cost_semantics": "Existing guest m5_quiesce_cycle(COST) at noninitial changed stage; not a service gate change, hardware timing measurement or WCET bound. Fixed schedule has no changed-stage helper.",
+  "period_semantics": "Existing config --timer-period, schedule K*P, tick-phase; immutable binary supports arbitrary positive P. Copied R20 harness P==128 assertion widened only to listed settings.",
+  "workers": 4,
+  "max_ticks": 20000000000,
+  "metrics": "J=roi_ticks/1000; total whole-system WU, misses,hits,replacements,instructions; four cumulative epochs differenced and sums checked; checksum TEST PASSED; invariants and markers checked. Paired same-cache/P/cost/phi phase vs fixed and phase vs suppression; per-condition maxima over three phi separately.",
+  "analysis": "Deterministic sensitivity conditions, no stochastic CI. Compare period rows to immutable existing P128/cost8 baseline and cost rows to same; retain sign reversals; do not call three offsets worst-case or assert WCET.",
+  "input_hashes": {
+    "review-revision-r20\\native-quantized\\native_driver.py": "26d6d6353436f78c3c1a6dea7bcd912b3256852a4a9f7a8349b68a94de102c8d",
+    "review-revision-r20\\native-quantized\\FROZEN_SELECTION.json": "baf8444914451efd5174aa8f0f9b6b474a4ace292aad0ea984a9df73e8dcbf36",
+    "review-revision-r20\\native-quantized\\PROTOCOL.json": "98c920d60eb825b9a23002f3a9beece223fe02e674419048a426fbc3539ba8ca",
+    "review-revision-r20\\native-quantized-implementation\\config_quantized.py": "7349b98e8a0bd3ee17a26c38b9c770ab75396693cce0a0333fc4a658547ef0b9",
+    "review-revision-r20\\public-native-quantized-v1\\fir_pipeline_v3.c": "ba5235c13df956dd5c02de195de169271738d4176c1dd09a98951c25d263042c",
+    "review-revision-r20\\native-quantized-implementation\\FINAL_BUILD_BINDING.json": "8b9a4190f59f24f46b66fc2bed727802e3f85abc88108ca45dd92d0b80660eb9",
+    "review-revision-r14\\native\\relay.py": "9413936950215a774be4a4e8f19d27d59b0200737ef3401ef6044e5ee89dd9c9"
+  },
+  "expected_remote_hashes": {
+    "binary": "08271cdc2858f14731698e18463d4c53dc60ac9b7091183c3aa9bae34c4ddf6a",
+    "config": "7349b98e8a0bd3ee17a26c38b9c770ab75396693cce0a0333fc4a658547ef0b9",
+    "ELF": "2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096"
+  },
+  "r22_driver_sha256": "64652aa050638ad9b47a33f1b867ed63670721fd580495e03233fc737299efee",
+  "manifest_sha256": "e993ff5c8f604252f76bfa534e32e407fd0b07607ea7917de70553f500fd9de2",
+  "relay_sha256": "9413936950215a774be4a4e8f19d27d59b0200737ef3401ef6044e5ee89dd9c9",
+  "original_preregistered_protocol_sha256": "2718943d6397dd378219596ae2e55d6d58293b837f1391bf80b4addca13d6306",
+  "redactions": "Removed generic remote workspace policy field; no address, account, authentication or absolute host path is included.",
+  "transfer_interpretation": "P64/P256 deliberately test frozen K outside original P128 profile; no retuning or deployment authorization. Cost0/16 modify only existing guest helper stall; no service-gate changes."
+}

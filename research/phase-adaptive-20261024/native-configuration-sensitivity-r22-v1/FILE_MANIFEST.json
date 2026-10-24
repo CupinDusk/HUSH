@@ -1,0 +1,75 @@
+{
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": "AGGREGATES.csv",
+      "bytes": 1375,
+      "sha256": "e7e63043e5a562e507a3109154ed2f95b169f638390208bc41feb3e3628e674a"
+    },
+    {
+      "path": "BASELINE_MEASUREMENTS.json",
+      "bytes": 8235,
+      "sha256": "9550ec9db695b9f7fc8d3474f82e9b3c8c4fb836b0a0e69bd2e603c5735f6ca0"
+    },
+    {
+      "path": "EPOCHS.csv",
+      "bytes": 22156,
+      "sha256": "284afb6850cdc6b1fdbe21c44c05cdc52311f2d28fa73ee6f1c9a6209dbdb2c7"
+    },
+    {
+      "path": "EXPECTED.json",
+      "bytes": 5895,
+      "sha256": "3e63e05dbf330ee9e928c3a3e4a1e9ac860884f8f673872180d2fcae49d2cdc6"
+    },
+    {
+      "path": "FROZEN_NATIVE_PLANS.json",
+      "bytes": 747,
+      "sha256": "ec5eca5ad46fead85ac2be933632b202eb766330b34987c5f178eef54f7d2509"
+    },
+    {
+      "path": "MANIFEST.json",
+      "bytes": 26484,
+      "sha256": "e993ff5c8f604252f76bfa534e32e407fd0b07607ea7917de70553f500fd9de2"
+    },
+    {
+      "path": "MEASUREMENTS.json.gz.b64",
+      "bytes": 62459,
+      "sha256": "71cf43b0610c9b5284e82f5d995baeee694ea20cbe7926736f783b06df4b724e"
+    },
+    {
+      "path": "PAIRED.csv",
+      "bytes": 3234,
+      "sha256": "b7bde706c4eb0b9b99544956be823fd80e03532e8855ec5cc96da79dcbebc5dd"
+    },
+    {
+      "path": "plan_loader.py",
+      "bytes": 3161,
+      "sha256": "93f0c5bd3f2178c2589d4378732d7d2ccb4370f9596855ef6e2f6e5965d16c6e"
+    },
+    {
+      "path": "PLAN_PROFILE_CHECK.json",
+      "bytes": 3972,
+      "sha256": "a1fda32aad3ddeb419552e8c54ccf123dc49ae65c3691d08542fac16e40be6dc"
+    },
+    {
+      "path": "PROTOCOL.json",
+      "bytes": 3904,
+      "sha256": "d1fe4e1ae9f317db3e8bea0a3526c39fb9ff2bb8e2377480ce0fb9279a5c7ea9"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2481,
+      "sha256": "d273c568717e3a2f80a181ecd1e61698e2622c48a1500e9cb9ed9ca20e7d225b"
+    },
+    {
+      "path": "replay.py",
+      "bytes": 3138,
+      "sha256": "925cc01a34f9100d5cbfeab6bab78bc3ba76a0affa572b9f74b73f9e23199e03"
+    }
+  ],
+  "decoded_measurements_sha256": "1a53419bb91be0c8882d1660f749a5b616ab38c1c3a0c6c20edf01cb167346c2"
+}

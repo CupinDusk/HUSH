@@ -1,0 +1,166 @@
+{
+  "cases": [
+    {
+      "cache": "32KiB",
+      "kind": "exact_profile",
+      "accepted": true,
+      "args": [
+        "--mode",
+        "hush",
+        "--timer-period",
+        "128",
+        "--cache-size",
+        "32KiB",
+        "--schedule",
+        "128,16384,128"
+      ]
+    },
+    {
+      "cache": "32KiB",
+      "kind": "mismatch",
+      "field": "P",
+      "value": 64,
+      "accepted": false,
+      "reason": "profile mismatch; offline reselection required: P"
+    },
+    {
+      "cache": "32KiB",
+      "kind": "mismatch",
+      "field": "P",
+      "value": 256,
+      "accepted": false,
+      "reason": "profile mismatch; offline reselection required: P"
+    },
+    {
+      "cache": "32KiB",
+      "kind": "mismatch",
+      "field": "extra_cycles_per_change",
+      "value": 0,
+      "accepted": false,
+      "reason": "profile mismatch; offline reselection required: extra_cycles_per_change"
+    },
+    {
+      "cache": "32KiB",
+      "kind": "mismatch",
+      "field": "extra_cycles_per_change",
+      "value": 16,
+      "accepted": false,
+      "reason": "profile mismatch; offline reselection required: extra_cycles_per_change"
+    },
+    {
+      "cache": "32KiB",
+      "kind": "mismatch",
+      "field": "ways",
+      "value": 4,
+      "accepted": false,
+      "reason": "profile mismatch; offline reselection required: ways"
+    },
+    {
+      "cache": "32KiB",
+      "kind": "mismatch",
+      "field": "gates",
+      "value": [
+        4,
+        20,
+        50
+      ],
+      "accepted": false,
+      "reason": "profile mismatch; offline reselection required: gates"
+    },
+    {
+      "cache": "32KiB",
+      "kind": "invalid_load",
+      "value": 0,
+      "accepted": false
+    },
+    {
+      "cache": "32KiB",
+      "kind": "invalid_load",
+      "value": 256,
+      "accepted": false
+    },
+    {
+      "cache": "64KiB",
+      "kind": "exact_profile",
+      "accepted": true,
+      "args": [
+        "--mode",
+        "hush",
+        "--timer-period",
+        "128",
+        "--cache-size",
+        "64KiB",
+        "--schedule",
+        "13568,13568,13568"
+      ]
+    },
+    {
+      "cache": "64KiB",
+      "kind": "mismatch",
+      "field": "P",
+      "value": 64,
+      "accepted": false,
+      "reason": "profile mismatch; offline reselection required: P"
+    },
+    {
+      "cache": "64KiB",
+      "kind": "mismatch",
+      "field": "P",
+      "value": 256,
+      "accepted": false,
+      "reason": "profile mismatch; offline reselection required: P"
+    },
+    {
+      "cache": "64KiB",
+      "kind": "mismatch",
+      "field": "extra_cycles_per_change",
+      "value": 0,
+      "accepted": false,
+      "reason": "profile mismatch; offline reselection required: extra_cycles_per_change"
+    },
+    {
+      "cache": "64KiB",
+      "kind": "mismatch",
+      "field": "extra_cycles_per_change",
+      "value": 16,
+      "accepted": false,
+      "reason": "profile mismatch; offline reselection required: extra_cycles_per_change"
+    },
+    {
+      "cache": "64KiB",
+      "kind": "mismatch",
+      "field": "ways",
+      "value": 4,
+      "accepted": false,
+      "reason": "profile mismatch; offline reselection required: ways"
+    },
+    {
+      "cache": "64KiB",
+      "kind": "mismatch",
+      "field": "gates",
+      "value": [
+        4,
+        20,
+        50
+      ],
+      "accepted": false,
+      "reason": "profile mismatch; offline reselection required: gates"
+    },
+    {
+      "cache": "64KiB",
+      "kind": "invalid_load",
+      "value": 0,
+      "accepted": false
+    },
+    {
+      "cache": "64KiB",
+      "kind": "invalid_load",
+      "value": 256,
+      "accepted": false
+    }
+  ],
+  "count": 18,
+  "all_expected_outcomes_pass": true,
+  "native_simulations_launched": 0,
+  "scope": "preload profile and encoding guard; not a WCET certificate"
+}

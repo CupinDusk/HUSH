@@ -1,0 +1,46 @@
+[
+  {
+    "evidence_kind": "empirical-native",
+    "profile": {
+      "P": 128,
+      "ways": 2,
+      "line_bytes": 64,
+      "cores": 4,
+      "clock_Hz": 1000000000,
+      "extra_cycles_per_change": 8,
+      "gates": [
+        4,
+        10,
+        50
+      ],
+      "cache": "32KiB"
+    },
+    "loads": [
+      1,
+      128,
+      1
+    ]
+  },
+  {
+    "evidence_kind": "empirical-native",
+    "profile": {
+      "P": 128,
+      "ways": 2,
+      "line_bytes": 64,
+      "cores": 4,
+      "clock_Hz": 1000000000,
+      "extra_cycles_per_change": 8,
+      "gates": [
+        4,
+        10,
+        50
+      ],
+      "cache": "64KiB"
+    },
+    "loads": [
+      106,
+      106,
+      106
+    ]
+  }
+]
