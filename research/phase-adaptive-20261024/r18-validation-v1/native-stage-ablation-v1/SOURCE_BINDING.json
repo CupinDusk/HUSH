@@ -1,0 +1,8 @@
+{
+  "recorded_native_ELF_sha256": "2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096",
+  "recorded_gem5_binary_sha256": "9765649c8c8336e1d784ff7fbe239b643c37c068cc936cc9b70e80d02ec75fbd",
+  "recorded_config_LF_sha256": "44c05c6607a2b8ed8291491f2ce526128df2785e4276d1e2aa5897dda16e4a63",
+  "public_benchmark_source_LF_sha256": "ba5235c13df956dd5c02de195de169271738d4176c1dd09a98951c25d263042c",
+  "driver_note": "Portable path configuration adaptation; original driver and measured simulator were not edited. This driver is not claimed to have generated the retained data byte for byte.",
+  "public_driver_LF_sha256": "5d1ca3af9003d9aac9693ed304c8742d8ac76d6437b15a5e6bbe32c953e081b0"
+}
