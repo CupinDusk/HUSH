@@ -1,0 +1,7 @@
+# R24 native tolerance and store normalization
+
+Author-side evidence. Run `python -B -X utf8 replay.py --out replay-output` using Python3 stdlib. Three input JSONs are stored losslessly as gzip/base64; bound_inputs.py validates encoded bytes/SHA256, strict base64, then decoded bytes/SHA256 before use. It does not execute or write decoded data. All original decoded hashes are preserved in the loader and external receipt. The standalone replay produces ten CSV/audit outputs.
+
+Inputs: all original255fixed+24phase N16 candidates per cache, six R23 post-selection suppression cases,72 selected-policy measurements and read-only retrieved committed per-core counters/stdout checks, and nine new preregistered posthoc transfer diagnostics. Source and immutable ELF disassembly establish the finite producer loop and its placement inside the measured ROI. The guest source was already public; private simulator implementation, binaries, config, server identity, relay and credentials are excluded. No source rebuild or process stop occurred.
+
+The tolerance exploration is retrospective. Suppression was not an original selection candidate. Original R23 deployment/PDF/publication remain unchanged. Nine transfer inputs were previously seen under other policies and are not sealed heldout tests. Whole-system WU/frame-store ratios match one ROI but do not attribute every WU to frame addresses or isolate polling. Full signed results, denominator proof, critical intervals and limitations appear in RESULTS.md and generated CSVs.

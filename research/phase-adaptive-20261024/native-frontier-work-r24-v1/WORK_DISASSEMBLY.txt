@@ -1,0 +1,230 @@
+Immutable ELF SHA256 2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096
+0000000000402020 <work>:
+  402020:	f3 0f 1e fa          	endbr64 
+  402024:	41 57                	push   %r15
+  402026:	41 56                	push   %r14
+  402028:	41 55                	push   %r13
+  40202a:	41 54                	push   %r12
+  40202c:	55                   	push   %rbp
+  40202d:	48 89 fd             	mov    %rdi,%rbp
+  402030:	bf 60 a4 4f 00       	mov    $0x4fa460,%edi
+  402035:	53                   	push   %rbx
+  402036:	48 83 ec 38          	sub    $0x38,%rsp
+  40203a:	64 48 8b 04 25 28 00 	mov    %fs:0x28,%rax
+  402041:	00 00 
+  402043:	48 89 44 24 28       	mov    %rax,0x28(%rsp)
+  402048:	31 c0                	xor    %eax,%eax
+  40204a:	e8 e1 b1 01 00       	call   41d230 <___pthread_barrier_wait>
+  40204f:	85 ed                	test   %ebp,%ebp
+  402051:	0f 84 86 02 00 00    	je     4022dd <work+0x2bd>
+  402057:	bf 60 a4 4f 00       	mov    $0x4fa460,%edi
+  40205c:	e8 cf b1 01 00       	call   41d230 <___pthread_barrier_wait>
+  402061:	83 fd 03             	cmp    $0x3,%ebp
+  402064:	0f 84 ac 01 00 00    	je     402216 <work+0x1f6>
+  40206a:	44 8b 0d 37 84 0f 00 	mov    0xf8437(%rip),%r9d        # 4fa4a8 <N>
+  402071:	4c 8b 15 08 84 0f 00 	mov    0xf8408(%rip),%r10        # 4fa480 <frame>
+  402078:	31 c0                	xor    %eax,%eax
+  40207a:	31 d2                	xor    %edx,%edx
+  40207c:	45 0f af c9          	imul   %r9d,%r9d
+  402080:	45 85 c9             	test   %r9d,%r9d
+  402083:	74 14                	je     402099 <work+0x79>
+  402085:	0f 1f 00             	nopl   (%rax)
+  402088:	89 c1                	mov    %eax,%ecx
+  40208a:	83 c0 01             	add    $0x1,%eax
+  40208d:	49 8b 0c ca          	mov    (%r10,%rcx,8),%rcx
+  402091:	48 01 ca             	add    %rcx,%rdx
+  402094:	44 39 c8             	cmp    %r9d,%eax
+  402097:	72 ef                	jb     402088 <work+0x68>
+  402099:	89 e8                	mov    %ebp,%eax
+  40209b:	bf 40 a4 4f 00       	mov    $0x4fa440,%edi
+  4020a0:	48 89 44 24 08       	mov    %rax,0x8(%rsp)
+  4020a5:	48 c1 e0 06          	shl    $0x6,%rax
+  4020a9:	48 89 90 88 a3 4f 00 	mov    %rdx,0x4fa388(%rax)
+  4020b0:	e8 7b b1 01 00       	call   41d230 <___pthread_barrier_wait>
+  4020b5:	85 ed                	test   %ebp,%ebp
+  4020b7:	0f 84 73 02 00 00    	je     402330 <work+0x310>
+  4020bd:	bf 40 a4 4f 00       	mov    $0x4fa440,%edi
+  4020c2:	e8 69 b1 01 00       	call   41d230 <___pthread_barrier_wait>
+  4020c7:	8b 1d db 83 0f 00    	mov    0xf83db(%rip),%ebx        # 4fa4a8 <N>
+  4020cd:	be 08 00 00 00       	mov    $0x8,%esi
+  4020d2:	44 8d 73 fe          	lea    -0x2(%rbx),%r14d
+  4020d6:	45 89 f4             	mov    %r14d,%r12d
+  4020d9:	45 0f af e6          	imul   %r14d,%r12d
+  4020dd:	44 89 e7             	mov    %r12d,%edi
+  4020e0:	e8 eb 4f 02 00       	call   4270d0 <__calloc>
+  4020e5:	49 89 c5             	mov    %rax,%r13
+  4020e8:	48 85 c0             	test   %rax,%rax
+  4020eb:	0f 84 54 f0 ff ff    	je     401145 <work.cold>
+  4020f1:	48 b8 01 00 00 00 02 	movabs $0x200000001,%rax
+  4020f8:	00 00 00 
+  4020fb:	c7 44 24 24 01 00 00 	movl   $0x1,0x24(%rsp)
+  402102:	00 
+  402103:	48 89 44 24 1c       	mov    %rax,0x1c(%rsp)
+  402108:	45 85 f6             	test   %r14d,%r14d
+  40210b:	0f 84 8a 00 00 00    	je     40219b <work+0x17b>
+  402111:	44 8b 0d 90 83 0f 00 	mov    0xf8390(%rip),%r9d        # 4fa4a8 <N>
+  402118:	4c 8b 15 61 83 0f 00 	mov    0xf8361(%rip),%r10        # 4fa480 <frame>
+  40211f:	45 31 db             	xor    %r11d,%r11d
+  402122:	31 ff                	xor    %edi,%edi
+  402124:	45 8d 71 fe          	lea    -0x2(%r9),%r14d
+  402128:	0f 1f 84 00 00 00 00 	nopl   0x0(%rax,%rax,1)
+  40212f:	00 
+  402130:	44 89 f0             	mov    %r14d,%eax
+  402133:	31 c9                	xor    %ecx,%ecx
+  402135:	41 0f af c3          	imul   %r11d,%eax
+  402139:	01 f8                	add    %edi,%eax
+  40213b:	89 c0                	mov    %eax,%eax
+  40213d:	49 8d 74 c5 00       	lea    0x0(%r13,%rax,8),%rsi
+  402142:	45 8d 04 0b          	lea    (%r11,%rcx,1),%r8d
+  402146:	31 d2                	xor    %edx,%edx
+  402148:	41 0f af d8          	imul   %r8d,%ebx
+  40214c:	01 fb                	add    %edi,%ebx
+  40214e:	8d 04 13             	lea    (%rbx,%rdx,1),%eax
+  402151:	44 89 cb             	mov    %r9d,%ebx
+  402154:	4d 8b 3c c2          	mov    (%r10,%rax,8),%r15
+  402158:	8b 44 8c 1c          	mov    0x1c(%rsp,%rcx,4),%eax
+  40215c:	49 0f af c7          	imul   %r15,%rax
+  402160:	44 8b 7c 94 1c       	mov    0x1c(%rsp,%rdx,4),%r15d
+  402165:	48 83 c2 01          	add    $0x1,%rdx
+  402169:	49 0f af c7          	imul   %r15,%rax
+  40216d:	48 01 06             	add    %rax,(%rsi)
+  402170:	48 83 fa 03          	cmp    $0x3,%rdx
+  402174:	75 d2                	jne    402148 <work+0x128>
+  402176:	48 83 c1 01          	add    $0x1,%rcx
+  40217a:	48 83 f9 03          	cmp    $0x3,%rcx
+  40217e:	75 c2                	jne    402142 <work+0x122>
+  402180:	83 c7 01             	add    $0x1,%edi
+  402183:	41 39 fe             	cmp    %edi,%r14d
+  402186:	77 a8                	ja     402130 <work+0x110>
+  402188:	41 83 c3 01          	add    $0x1,%r11d
+  40218c:	45 39 de             	cmp    %r11d,%r14d
+  40218f:	76 0a                	jbe    40219b <work+0x17b>
+  402191:	41 83 f9 02          	cmp    $0x2,%r9d
+  402195:	74 04                	je     40219b <work+0x17b>
+  402197:	31 ff                	xor    %edi,%edi
+  402199:	eb 95                	jmp    402130 <work+0x110>
+  40219b:	bf 40 a4 4f 00       	mov    $0x4fa440,%edi
+  4021a0:	e8 8b b0 01 00       	call   41d230 <___pthread_barrier_wait>
+  4021a5:	85 ed                	test   %ebp,%ebp
+  4021a7:	0f 84 48 01 00 00    	je     4022f5 <work+0x2d5>
+  4021ad:	bf 40 a4 4f 00       	mov    $0x4fa440,%edi
+  4021b2:	e8 79 b0 01 00       	call   41d230 <___pthread_barrier_wait>
+  4021b7:	48 8b 05 c2 82 0f 00 	mov    0xf82c2(%rip),%rax        # 4fa480 <frame>
+  4021be:	44 89 e6             	mov    %r12d,%esi
+  4021c1:	4c 89 ef             	mov    %r13,%rdi
+  4021c4:	48 8b 10             	mov    (%rax),%rdx
+  4021c7:	e8 74 fd ff ff       	call   401f40 <features>
+  4021cc:	4c 89 ef             	mov    %r13,%rdi
+  4021cf:	49 89 c0             	mov    %rax,%r8
+  4021d2:	48 8b 44 24 08       	mov    0x8(%rsp),%rax
+  4021d7:	48 c1 e0 06          	shl    $0x6,%rax
+  4021db:	4c 89 80 80 a3 4f 00 	mov    %r8,0x4fa380(%rax)
+  4021e2:	e8 d9 3d 02 00       	call   425fc0 <__free>
+  4021e7:	8d 7d 0a             	lea    0xa(%rbp),%edi
+  4021ea:	31 f6                	xor    %esi,%esi
+  4021ec:	e8 fd 01 00 00       	call   4023ee <m5_work_begin>
+  4021f1:	48 8b 44 24 28       	mov    0x28(%rsp),%rax
+  4021f6:	64 48 2b 04 25 28 00 	sub    %fs:0x28,%rax
+  4021fd:	00 00 
+  4021ff:	0f 85 76 01 00 00    	jne    40237b <work+0x35b>
+  402205:	48 83 c4 38          	add    $0x38,%rsp
+  402209:	31 c0                	xor    %eax,%eax
+  40220b:	5b                   	pop    %rbx
+  40220c:	5d                   	pop    %rbp
+  40220d:	41 5c                	pop    %r12
+  40220f:	41 5d                	pop    %r13
+  402211:	41 5e                	pop    %r14
+  402213:	41 5f                	pop    %r15
+  402215:	c3                   	ret    
+  402216:	8b 3d 8c 82 0f 00    	mov    0xf828c(%rip),%edi        # 4fa4a8 <N>
+  40221c:	44 8b 1d 7d 82 0f 00 	mov    0xf827d(%rip),%r11d        # 4fa4a0 <STORES>
+  402223:	0f af ff             	imul   %edi,%edi
+  402226:	45 85 db             	test   %r11d,%r11d
+  402229:	0f 84 9d 00 00 00    	je     4022cc <work+0x2ac>
+  40222f:	44 8d 47 07          	lea    0x7(%rdi),%r8d
+  402233:	31 f6                	xor    %esi,%esi
+  402235:	b9 01 00 00 00       	mov    $0x1,%ecx
+  40223a:	41 b9 cb 6b 28 af    	mov    $0xaf286bcb,%r9d
+  402240:	41 c1 e8 03          	shr    $0x3,%r8d
+  402244:	44 8b 15 49 82 0f 00 	mov    0xf8249(%rip),%r10d        # 4fa494 <PATTERN>
+  40224b:	89 f0                	mov    %esi,%eax
+  40224d:	31 d2                	xor    %edx,%edx
+  40224f:	45 85 d2             	test   %r10d,%r10d
+  402252:	0f 84 18 01 00 00    	je     402370 <work+0x350>
+  402258:	f7 f7                	div    %edi
+  40225a:	89 d0                	mov    %edx,%eax
+  40225c:	41 89 d3             	mov    %edx,%r11d
+  40225f:	c1 e0 04             	shl    $0x4,%eax
+  402262:	8d 54 02 03          	lea    0x3(%rdx,%rax,1),%edx
+  402266:	49 89 d2             	mov    %rdx,%r10
+  402269:	49 0f af d1          	imul   %r9,%rdx
+  40226d:	44 89 d0             	mov    %r10d,%eax
+  402270:	48 c1 ea 20          	shr    $0x20,%rdx
+  402274:	29 d0                	sub    %edx,%eax
+  402276:	d1 e8                	shr    %eax
+  402278:	01 d0                	add    %edx,%eax
+  40227a:	c1 e8 04             	shr    $0x4,%eax
+  40227d:	8d 14 c0             	lea    (%rax,%rax,8),%edx
+  402280:	8d 04 50             	lea    (%rax,%rdx,2),%eax
+  402283:	41 29 c2             	sub    %eax,%r10d
+  402286:	48 8b 05 f3 81 0f 00 	mov    0xf81f3(%rip),%rax        # 4fa480 <frame>
+  40228d:	41 8d 52 01          	lea    0x1(%r10),%edx
+  402291:	4a 89 14 d8          	mov    %rdx,(%rax,%r11,8)
+  402295:	8b 15 01 82 0f 00    	mov    0xf8201(%rip),%edx        # 4fa49c <GAP>
+  40229b:	85 d2                	test   %edx,%edx
+  40229d:	74 1e                	je     4022bd <work+0x29d>
+  40229f:	31 c0                	xor    %eax,%eax
+  4022a1:	0f 1f 80 00 00 00 00 	nopl   0x0(%rax)
+  4022a8:	48 69 c9 0d 66 19 00 	imul   $0x19660d,%rcx,%rcx
+  4022af:	48 81 c1 5f f3 6e 3c 	add    $0x3c6ef35f,%rcx
+  4022b6:	83 c0 01             	add    $0x1,%eax
+  4022b9:	39 d0                	cmp    %edx,%eax
+  4022bb:	75 eb                	jne    4022a8 <work+0x288>
+  4022bd:	83 c6 01             	add    $0x1,%esi
+  4022c0:	39 35 da 81 0f 00    	cmp    %esi,0xf81da(%rip)        # 4fa4a0 <STORES>
+  4022c6:	0f 87 78 ff ff ff    	ja     402244 <work+0x224>
+  4022cc:	31 f6                	xor    %esi,%esi
+  4022ce:	bf 0d 00 00 00       	mov    $0xd,%edi
+  4022d3:	e8 16 01 00 00       	call   4023ee <m5_work_begin>
+  4022d8:	e9 14 ff ff ff       	jmp    4021f1 <work+0x1d1>
+  4022dd:	31 ff                	xor    %edi,%edi
+  4022df:	31 f6                	xor    %esi,%esi
+  4022e1:	e8 08 01 00 00       	call   4023ee <m5_work_begin>
+  4022e6:	bf 60 a4 4f 00       	mov    $0x4fa460,%edi
+  4022eb:	e8 40 af 01 00       	call   41d230 <___pthread_barrier_wait>
+  4022f0:	e9 75 fd ff ff       	jmp    40206a <work+0x4a>
+  4022f5:	31 f6                	xor    %esi,%esi
+  4022f7:	bf 02 00 00 00       	mov    $0x2,%edi
+  4022fc:	e8 ed 00 00 00       	call   4023ee <m5_work_begin>
+  402301:	8b 05 85 81 0f 00    	mov    0xf8185(%rip),%eax        # 4fa48c <stage_loads+0x4>
+  402307:	39 05 83 81 0f 00    	cmp    %eax,0xf8183(%rip)        # 4fa490 <stage_loads+0x8>
+  40230d:	0f 84 9a fe ff ff    	je     4021ad <work+0x18d>
+  402313:	8b 05 7f 81 0f 00    	mov    0xf817f(%rip),%eax        # 4fa498 <COST>
+  402319:	85 c0                	test   %eax,%eax
+  40231b:	0f 84 8c fe ff ff    	je     4021ad <work+0x18d>
+  402321:	89 c7                	mov    %eax,%edi
+  402323:	e8 67 00 00 00       	call   40238f <m5_quiesce_cycle>
+  402328:	e9 80 fe ff ff       	jmp    4021ad <work+0x18d>
+  40232d:	0f 1f 00             	nopl   (%rax)
+  402330:	31 f6                	xor    %esi,%esi
+  402332:	bf 01 00 00 00       	mov    $0x1,%edi
+  402337:	e8 b2 00 00 00       	call   4023ee <m5_work_begin>
+  40233c:	8b 05 46 81 0f 00    	mov    0xf8146(%rip),%eax        # 4fa488 <stage_loads>
+  402342:	39 05 44 81 0f 00    	cmp    %eax,0xf8144(%rip)        # 4fa48c <stage_loads+0x4>
+  402348:	0f 84 6f fd ff ff    	je     4020bd <work+0x9d>
+  40234e:	8b 05 44 81 0f 00    	mov    0xf8144(%rip),%eax        # 4fa498 <COST>
+  402354:	85 c0                	test   %eax,%eax
+  402356:	0f 84 61 fd ff ff    	je     4020bd <work+0x9d>
+  40235c:	89 c7                	mov    %eax,%edi
+  40235e:	e8 2c 00 00 00       	call   40238f <m5_quiesce_cycle>
+  402363:	e9 55 fd ff ff       	jmp    4020bd <work+0x9d>
+  402368:	0f 1f 84 00 00 00 00 	nopl   0x0(%rax,%rax,1)
+  40236f:	00 
+  402370:	41 f7 f0             	div    %r8d
+  402373:	c1 e2 03             	shl    $0x3,%edx
+  402376:	e9 df fe ff ff       	jmp    40225a <work+0x23a>
+  40237b:	e8 30 48 05 00       	call   456bb0 <__stack_chk_fail>
+
+Disassembly of section __libc_freeres_fn:
+
+Disassembly of section .fini:

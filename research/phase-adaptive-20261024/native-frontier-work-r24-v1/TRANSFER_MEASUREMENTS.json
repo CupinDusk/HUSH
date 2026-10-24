@@ -1,0 +1,733 @@
+{
+  "identity": "Explicit posthoc transfer diagnostic selected retrospectively from original N16 training at zero tolerance. Inputs N32/36/40 were seen under other policies. Never sealed heldout, original deployment unchanged. No reselection after these results.",
+  "selection": "frozen before these nine new results; original policies unchanged",
+  "protocol_sha256": "bce1197a36e455238331e6fb465a10de58eda848f24c40c02ebdfb57ce7b6798",
+  "source_hashes_before_after_equal": true,
+  "hashes_after": {
+    "binary": "08271cdc2858f14731698e18463d4c53dc60ac9b7091183c3aa9bae34c4ddf6a",
+    "config": "7349b98e8a0bd3ee17a26c38b9c770ab75396693cce0a0333fc4a658547ef0b9",
+    "ELF": "2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096"
+  },
+  "rows": [
+    {
+      "id": "32-n32-p0-zero-cap-posthoc-phase",
+      "N": 32,
+      "cache": "32KiB",
+      "phi": 0,
+      "K": [
+        128,
+        16,
+        1
+      ],
+      "J": 2233331.0,
+      "instructions": 1859730.0,
+      "WU": 2059.0,
+      "misses": 4241.0,
+      "hits": 2751256.0,
+      "stdout_checksum": "5812969091072",
+      "source_record_sha256": "90b5533de51971b02053949c254e90996546b88a2693666044a49c23e2b7d778",
+      "epochs": [
+        {
+          "epoch": "validation",
+          "tick": 2801180000,
+          "instructions": 27248.0,
+          "WU": 140.0,
+          "misses": 540.0,
+          "hits": 39701.0
+        },
+        {
+          "epoch": "fir",
+          "tick": 3422557000,
+          "instructions": 553116.0,
+          "WU": 1954.0,
+          "misses": 3521.0,
+          "hits": 810648.0
+        },
+        {
+          "epoch": "features",
+          "tick": 4982607000,
+          "instructions": 1857851.0,
+          "WU": 2059.0,
+          "misses": 4142.0,
+          "hits": 2748186.0
+        },
+        {
+          "epoch": "join",
+          "tick": 4993562000,
+          "instructions": 1859730.0,
+          "WU": 2059.0,
+          "misses": 4241.0,
+          "hits": 2751256.0
+        }
+      ],
+      "roi_start_tick": 2760231000,
+      "roi_end_tick": 4993562000,
+      "frozen_fixed": {
+        "K": [
+          3,
+          3,
+          3
+        ],
+        "J": 2230986.0,
+        "instructions": 1859714.0,
+        "WU": 2139.0,
+        "misses": 4298.0,
+        "hits": 2751170.0,
+        "replacements": 777.0
+      },
+      "frozen_fastest": {
+        "K": [
+          253,
+          253,
+          253
+        ],
+        "J": 2229675.0,
+        "instructions": 1859714.0,
+        "WU": 2283.0,
+        "misses": 4427.0,
+        "hits": 2751041.0,
+        "replacements": 823.0
+      }
+    },
+    {
+      "id": "32-n32-p64-zero-cap-posthoc-phase",
+      "N": 32,
+      "cache": "32KiB",
+      "phi": 64,
+      "K": [
+        128,
+        16,
+        1
+      ],
+      "J": 2233331.0,
+      "instructions": 1859730.0,
+      "WU": 2059.0,
+      "misses": 4241.0,
+      "hits": 2751256.0,
+      "stdout_checksum": "5812969091072",
+      "source_record_sha256": "e1e367031da270183cd91564b8341c6295f270889ab404849d9930da6b5adbe4",
+      "epochs": [
+        {
+          "epoch": "validation",
+          "tick": 2801180000,
+          "instructions": 27248.0,
+          "WU": 140.0,
+          "misses": 540.0,
+          "hits": 39701.0
+        },
+        {
+          "epoch": "fir",
+          "tick": 3422557000,
+          "instructions": 553116.0,
+          "WU": 1954.0,
+          "misses": 3521.0,
+          "hits": 810648.0
+        },
+        {
+          "epoch": "features",
+          "tick": 4982607000,
+          "instructions": 1857851.0,
+          "WU": 2059.0,
+          "misses": 4142.0,
+          "hits": 2748186.0
+        },
+        {
+          "epoch": "join",
+          "tick": 4993562000,
+          "instructions": 1859730.0,
+          "WU": 2059.0,
+          "misses": 4241.0,
+          "hits": 2751256.0
+        }
+      ],
+      "roi_start_tick": 2760231000,
+      "roi_end_tick": 4993562000,
+      "frozen_fixed": {
+        "K": [
+          3,
+          3,
+          3
+        ],
+        "J": 2233539.0,
+        "instructions": 1859714.0,
+        "WU": 2098.0,
+        "misses": 4295.0,
+        "hits": 2751173.0,
+        "replacements": 794.0
+      },
+      "frozen_fastest": {
+        "K": [
+          253,
+          253,
+          253
+        ],
+        "J": 2229675.0,
+        "instructions": 1859714.0,
+        "WU": 2283.0,
+        "misses": 4427.0,
+        "hits": 2751041.0,
+        "replacements": 823.0
+      }
+    },
+    {
+      "id": "32-n32-p127-zero-cap-posthoc-phase",
+      "N": 32,
+      "cache": "32KiB",
+      "phi": 127,
+      "K": [
+        128,
+        16,
+        1
+      ],
+      "J": 2233331.0,
+      "instructions": 1859730.0,
+      "WU": 2059.0,
+      "misses": 4241.0,
+      "hits": 2751256.0,
+      "stdout_checksum": "5812969091072",
+      "source_record_sha256": "f8684dac108b6c3cc046b223afea1b84496ed96f582550a1cd7adc1e7db9a588",
+      "epochs": [
+        {
+          "epoch": "validation",
+          "tick": 2801180000,
+          "instructions": 27248.0,
+          "WU": 140.0,
+          "misses": 540.0,
+          "hits": 39701.0
+        },
+        {
+          "epoch": "fir",
+          "tick": 3422557000,
+          "instructions": 553116.0,
+          "WU": 1954.0,
+          "misses": 3521.0,
+          "hits": 810648.0
+        },
+        {
+          "epoch": "features",
+          "tick": 4982607000,
+          "instructions": 1857851.0,
+          "WU": 2059.0,
+          "misses": 4142.0,
+          "hits": 2748186.0
+        },
+        {
+          "epoch": "join",
+          "tick": 4993562000,
+          "instructions": 1859730.0,
+          "WU": 2059.0,
+          "misses": 4241.0,
+          "hits": 2751256.0
+        }
+      ],
+      "roi_start_tick": 2760231000,
+      "roi_end_tick": 4993562000,
+      "frozen_fixed": {
+        "K": [
+          3,
+          3,
+          3
+        ],
+        "J": 2230753.0,
+        "instructions": 1859714.0,
+        "WU": 2158.0,
+        "misses": 4311.0,
+        "hits": 2751157.0,
+        "replacements": 777.0
+      },
+      "frozen_fastest": {
+        "K": [
+          253,
+          253,
+          253
+        ],
+        "J": 2229675.0,
+        "instructions": 1859714.0,
+        "WU": 2283.0,
+        "misses": 4427.0,
+        "hits": 2751041.0,
+        "replacements": 823.0
+      }
+    },
+    {
+      "id": "32-n36-p0-zero-cap-posthoc-phase",
+      "N": 36,
+      "cache": "32KiB",
+      "phi": 0,
+      "K": [
+        128,
+        16,
+        1
+      ],
+      "J": 2880129.0,
+      "instructions": 2387959.0,
+      "WU": 2546.0,
+      "misses": 5392.0,
+      "hits": 3533219.0,
+      "stdout_checksum": "7552942227456",
+      "source_record_sha256": "cd059389d7864b015fb861ffd7287f1869e8858e6a66cbd315b11799d2a591a9",
+      "epochs": [
+        {
+          "epoch": "validation",
+          "tick": 3547456000,
+          "instructions": 34293.0,
+          "WU": 176.0,
+          "misses": 678.0,
+          "hits": 49971.0
+        },
+        {
+          "epoch": "fir",
+          "tick": 4329860000,
+          "instructions": 705348.0,
+          "WU": 2415.0,
+          "misses": 4237.0,
+          "hits": 1034034.0
+        },
+        {
+          "epoch": "features",
+          "tick": 6367110000,
+          "instructions": 2386943.0,
+          "WU": 2546.0,
+          "misses": 5337.0,
+          "hits": 3531549.0
+        },
+        {
+          "epoch": "join",
+          "tick": 6376525000,
+          "instructions": 2387959.0,
+          "WU": 2546.0,
+          "misses": 5392.0,
+          "hits": 3533219.0
+        }
+      ],
+      "roi_start_tick": 3496396000,
+      "roi_end_tick": 6376525000,
+      "frozen_fixed": {
+        "K": [
+          3,
+          3,
+          3
+        ],
+        "J": 2879881.0,
+        "instructions": 2387943.0,
+        "WU": 2705.0,
+        "misses": 5557.0,
+        "hits": 3533025.0,
+        "replacements": 1230.0
+      },
+      "frozen_fastest": {
+        "K": [
+          253,
+          253,
+          253
+        ],
+        "J": 2879417.0,
+        "instructions": 2387943.0,
+        "WU": 2832.0,
+        "misses": 5661.0,
+        "hits": 3532921.0,
+        "replacements": 1283.0
+      }
+    },
+    {
+      "id": "32-n36-p64-zero-cap-posthoc-phase",
+      "N": 36,
+      "cache": "32KiB",
+      "phi": 64,
+      "K": [
+        128,
+        16,
+        1
+      ],
+      "J": 2880080.0,
+      "instructions": 2387959.0,
+      "WU": 2546.0,
+      "misses": 5391.0,
+      "hits": 3533220.0,
+      "stdout_checksum": "7552942227456",
+      "source_record_sha256": "e89777ab30e2c0590429ec125e5075048ae29fb5565453e6cca140b8af95e455",
+      "epochs": [
+        {
+          "epoch": "validation",
+          "tick": 3547456000,
+          "instructions": 34293.0,
+          "WU": 176.0,
+          "misses": 678.0,
+          "hits": 49971.0
+        },
+        {
+          "epoch": "fir",
+          "tick": 4329818000,
+          "instructions": 705338.0,
+          "WU": 2415.0,
+          "misses": 4236.0,
+          "hits": 1034021.0
+        },
+        {
+          "epoch": "features",
+          "tick": 6367061000,
+          "instructions": 2386943.0,
+          "WU": 2546.0,
+          "misses": 5336.0,
+          "hits": 3531550.0
+        },
+        {
+          "epoch": "join",
+          "tick": 6376476000,
+          "instructions": 2387959.0,
+          "WU": 2546.0,
+          "misses": 5391.0,
+          "hits": 3533220.0
+        }
+      ],
+      "roi_start_tick": 3496396000,
+      "roi_end_tick": 6376476000,
+      "frozen_fixed": {
+        "K": [
+          3,
+          3,
+          3
+        ],
+        "J": 2879700.0,
+        "instructions": 2387943.0,
+        "WU": 2668.0,
+        "misses": 5518.0,
+        "hits": 3533064.0,
+        "replacements": 1230.0
+      },
+      "frozen_fastest": {
+        "K": [
+          253,
+          253,
+          253
+        ],
+        "J": 2879417.0,
+        "instructions": 2387943.0,
+        "WU": 2832.0,
+        "misses": 5661.0,
+        "hits": 3532921.0,
+        "replacements": 1283.0
+      }
+    },
+    {
+      "id": "32-n36-p127-zero-cap-posthoc-phase",
+      "N": 36,
+      "cache": "32KiB",
+      "phi": 127,
+      "K": [
+        128,
+        16,
+        1
+      ],
+      "J": 2880129.0,
+      "instructions": 2387959.0,
+      "WU": 2546.0,
+      "misses": 5392.0,
+      "hits": 3533219.0,
+      "stdout_checksum": "7552942227456",
+      "source_record_sha256": "effb13c0bee6bcc447ff86d6df22ce531c6d5fa0fafa2ccf9bed93fd15b29e54",
+      "epochs": [
+        {
+          "epoch": "validation",
+          "tick": 3547456000,
+          "instructions": 34293.0,
+          "WU": 176.0,
+          "misses": 678.0,
+          "hits": 49971.0
+        },
+        {
+          "epoch": "fir",
+          "tick": 4329860000,
+          "instructions": 705348.0,
+          "WU": 2415.0,
+          "misses": 4237.0,
+          "hits": 1034034.0
+        },
+        {
+          "epoch": "features",
+          "tick": 6367110000,
+          "instructions": 2386943.0,
+          "WU": 2546.0,
+          "misses": 5337.0,
+          "hits": 3531549.0
+        },
+        {
+          "epoch": "join",
+          "tick": 6376525000,
+          "instructions": 2387959.0,
+          "WU": 2546.0,
+          "misses": 5392.0,
+          "hits": 3533219.0
+        }
+      ],
+      "roi_start_tick": 3496396000,
+      "roi_end_tick": 6376525000,
+      "frozen_fixed": {
+        "K": [
+          3,
+          3,
+          3
+        ],
+        "J": 2879785.0,
+        "instructions": 2387943.0,
+        "WU": 2693.0,
+        "misses": 5543.0,
+        "hits": 3533039.0,
+        "replacements": 1232.0
+      },
+      "frozen_fastest": {
+        "K": [
+          253,
+          253,
+          253
+        ],
+        "J": 2879417.0,
+        "instructions": 2387943.0,
+        "WU": 2832.0,
+        "misses": 5661.0,
+        "hits": 3532921.0,
+        "replacements": 1283.0
+      }
+    },
+    {
+      "id": "32-n40-p0-zero-cap-posthoc-phase",
+      "N": 40,
+      "cache": "32KiB",
+      "phi": 0,
+      "K": [
+        128,
+        16,
+        1
+      ],
+      "J": 3600187.0,
+      "instructions": 2981190.0,
+      "WU": 3104.0,
+      "misses": 6835.0,
+      "hits": 4411276.0,
+      "stdout_checksum": "9476822401024",
+      "source_record_sha256": "f7ca20e2bb7ca2813d488edc2f51b6227ce7799afc34271c067357cf98b0509d",
+      "epochs": [
+        {
+          "epoch": "validation",
+          "tick": 4401708000,
+          "instructions": 42450.0,
+          "WU": 221.0,
+          "misses": 848.0,
+          "hits": 61830.0
+        },
+        {
+          "epoch": "fir",
+          "tick": 5378341000,
+          "instructions": 879566.0,
+          "WU": 2946.0,
+          "misses": 5270.0,
+          "hits": 1289314.0
+        },
+        {
+          "epoch": "features",
+          "tick": 7927590000,
+          "instructions": 2979311.0,
+          "WU": 3103.0,
+          "misses": 6745.0,
+          "hits": 4408197.0
+        },
+        {
+          "epoch": "join",
+          "tick": 7938081000,
+          "instructions": 2981190.0,
+          "WU": 3104.0,
+          "misses": 6835.0,
+          "hits": 4411276.0
+        }
+      ],
+      "roi_start_tick": 4337894000,
+      "roi_end_tick": 7938081000,
+      "frozen_fixed": {
+        "K": [
+          3,
+          3,
+          3
+        ],
+        "J": 3600095.0,
+        "instructions": 2981174.0,
+        "WU": 3253.0,
+        "misses": 6990.0,
+        "hits": 4411092.0,
+        "replacements": 1764.0
+      },
+      "frozen_fastest": {
+        "K": [
+          253,
+          253,
+          253
+        ],
+        "J": 3599885.0,
+        "instructions": 2981174.0,
+        "WU": 3420.0,
+        "misses": 7116.0,
+        "hits": 4410966.0,
+        "replacements": 1819.0
+      }
+    },
+    {
+      "id": "32-n40-p64-zero-cap-posthoc-phase",
+      "N": 40,
+      "cache": "32KiB",
+      "phi": 64,
+      "K": [
+        128,
+        16,
+        1
+      ],
+      "J": 3600187.0,
+      "instructions": 2981190.0,
+      "WU": 3104.0,
+      "misses": 6835.0,
+      "hits": 4411276.0,
+      "stdout_checksum": "9476822401024",
+      "source_record_sha256": "480eb2c62af7371fdbe4e2d3042cfe6187662e7493dab4b395203452d88f9d02",
+      "epochs": [
+        {
+          "epoch": "validation",
+          "tick": 4401708000,
+          "instructions": 42450.0,
+          "WU": 221.0,
+          "misses": 848.0,
+          "hits": 61830.0
+        },
+        {
+          "epoch": "fir",
+          "tick": 5378341000,
+          "instructions": 879566.0,
+          "WU": 2946.0,
+          "misses": 5270.0,
+          "hits": 1289314.0
+        },
+        {
+          "epoch": "features",
+          "tick": 7927590000,
+          "instructions": 2979311.0,
+          "WU": 3103.0,
+          "misses": 6745.0,
+          "hits": 4408197.0
+        },
+        {
+          "epoch": "join",
+          "tick": 7938081000,
+          "instructions": 2981190.0,
+          "WU": 3104.0,
+          "misses": 6835.0,
+          "hits": 4411276.0
+        }
+      ],
+      "roi_start_tick": 4337894000,
+      "roi_end_tick": 7938081000,
+      "frozen_fixed": {
+        "K": [
+          3,
+          3,
+          3
+        ],
+        "J": 3600441.0,
+        "instructions": 2981174.0,
+        "WU": 3114.0,
+        "misses": 6844.0,
+        "hits": 4411238.0,
+        "replacements": 1762.0
+      },
+      "frozen_fastest": {
+        "K": [
+          253,
+          253,
+          253
+        ],
+        "J": 3599885.0,
+        "instructions": 2981174.0,
+        "WU": 3420.0,
+        "misses": 7116.0,
+        "hits": 4410966.0,
+        "replacements": 1819.0
+      }
+    },
+    {
+      "id": "32-n40-p127-zero-cap-posthoc-phase",
+      "N": 40,
+      "cache": "32KiB",
+      "phi": 127,
+      "K": [
+        128,
+        16,
+        1
+      ],
+      "J": 3600187.0,
+      "instructions": 2981190.0,
+      "WU": 3104.0,
+      "misses": 6835.0,
+      "hits": 4411276.0,
+      "stdout_checksum": "9476822401024",
+      "source_record_sha256": "d1477b50fb62569e096833d30e0637fcf29f2e3aa91dc7721d2c8322ed8fbe5b",
+      "epochs": [
+        {
+          "epoch": "validation",
+          "tick": 4401708000,
+          "instructions": 42450.0,
+          "WU": 221.0,
+          "misses": 848.0,
+          "hits": 61830.0
+        },
+        {
+          "epoch": "fir",
+          "tick": 5378341000,
+          "instructions": 879566.0,
+          "WU": 2946.0,
+          "misses": 5270.0,
+          "hits": 1289314.0
+        },
+        {
+          "epoch": "features",
+          "tick": 7927590000,
+          "instructions": 2979311.0,
+          "WU": 3103.0,
+          "misses": 6745.0,
+          "hits": 4408197.0
+        },
+        {
+          "epoch": "join",
+          "tick": 7938081000,
+          "instructions": 2981190.0,
+          "WU": 3104.0,
+          "misses": 6835.0,
+          "hits": 4411276.0
+        }
+      ],
+      "roi_start_tick": 4337894000,
+      "roi_end_tick": 7938081000,
+      "frozen_fixed": {
+        "K": [
+          3,
+          3,
+          3
+        ],
+        "J": 3599950.0,
+        "instructions": 2981193.0,
+        "WU": 3223.0,
+        "misses": 6965.0,
+        "hits": 4411148.0,
+        "replacements": 1770.0
+      },
+      "frozen_fastest": {
+        "K": [
+          253,
+          253,
+          253
+        ],
+        "J": 3599885.0,
+        "instructions": 2981174.0,
+        "WU": 3420.0,
+        "misses": 7116.0,
+        "hits": 4410966.0,
+        "replacements": 1819.0
+      }
+    }
+  ]
+}

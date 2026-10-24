@@ -1,0 +1,239 @@
+{
+  "selection": [
+    {
+      "cache": "32KiB",
+      "fixed": {
+        "kind": "fixed",
+        "K": [
+          3,
+          3,
+          3
+        ],
+        "max_J": 478142.0,
+        "max_WU": 638.0,
+        "by_phi": [
+          {
+            "phi": 0,
+            "J": 477932.0,
+            "WU": 619.0
+          },
+          {
+            "phi": 64,
+            "J": 478142.0,
+            "WU": 638.0
+          },
+          {
+            "phi": 127,
+            "J": 477983.0,
+            "WU": 625.0
+          }
+        ]
+      },
+      "fastest_fixed": {
+        "kind": "fixed",
+        "K": [
+          253,
+          253,
+          253
+        ],
+        "max_J": 477727.0,
+        "max_WU": 660.0,
+        "by_phi": [
+          {
+            "phi": 0,
+            "J": 477727.0,
+            "WU": 660.0
+          },
+          {
+            "phi": 64,
+            "J": 477727.0,
+            "WU": 660.0
+          },
+          {
+            "phi": 127,
+            "J": 477727.0,
+            "WU": 660.0
+          }
+        ]
+      },
+      "eligible_fixed_candidates": 205,
+      "phase": {
+        "kind": "phase",
+        "K": [
+          1,
+          128,
+          1
+        ],
+        "max_J": 477808.0,
+        "max_WU": 550.0,
+        "by_phi": [
+          {
+            "phi": 0,
+            "J": 477808.0,
+            "WU": 550.0
+          },
+          {
+            "phi": 64,
+            "J": 477808.0,
+            "WU": 550.0
+          },
+          {
+            "phi": 127,
+            "J": 477808.0,
+            "WU": 550.0
+          }
+        ]
+      },
+      "eligible_phase_candidates": 14,
+      "strict_joint_phase": {
+        "kind": "phase",
+        "K": [
+          128,
+          128,
+          1
+        ],
+        "max_J": 477583.0,
+        "max_WU": 591.0,
+        "by_phi": [
+          {
+            "phi": 0,
+            "J": 477583.0,
+            "WU": 591.0
+          },
+          {
+            "phi": 64,
+            "J": 477583.0,
+            "WU": 591.0
+          },
+          {
+            "phi": 127,
+            "J": 477583.0,
+            "WU": 591.0
+          }
+        ]
+      },
+      "strict_joint_deployed": "phase",
+      "deployed_mode": "phase",
+      "heldout_seen": false
+    },
+    {
+      "cache": "64KiB",
+      "fixed": {
+        "kind": "fixed",
+        "K": [
+          106,
+          106,
+          106
+        ],
+        "max_J": 475396.0,
+        "max_WU": 663.0,
+        "by_phi": [
+          {
+            "phi": 0,
+            "J": 475396.0,
+            "WU": 663.0
+          },
+          {
+            "phi": 64,
+            "J": 475396.0,
+            "WU": 663.0
+          },
+          {
+            "phi": 127,
+            "J": 475396.0,
+            "WU": 663.0
+          }
+        ]
+      },
+      "fastest_fixed": {
+        "kind": "fixed",
+        "K": [
+          253,
+          253,
+          253
+        ],
+        "max_J": 474942.0,
+        "max_WU": 665.0,
+        "by_phi": [
+          {
+            "phi": 0,
+            "J": 474942.0,
+            "WU": 665.0
+          },
+          {
+            "phi": 64,
+            "J": 474942.0,
+            "WU": 665.0
+          },
+          {
+            "phi": 127,
+            "J": 474942.0,
+            "WU": 665.0
+          }
+        ]
+      },
+      "eligible_fixed_candidates": 149,
+      "phase": {
+        "kind": "phase",
+        "K": [
+          1,
+          128,
+          128
+        ],
+        "max_J": 475486.0,
+        "max_WU": 629.0,
+        "by_phi": [
+          {
+            "phi": 0,
+            "J": 475486.0,
+            "WU": 629.0
+          },
+          {
+            "phi": 64,
+            "J": 475486.0,
+            "WU": 629.0
+          },
+          {
+            "phi": 127,
+            "J": 475486.0,
+            "WU": 629.0
+          }
+        ]
+      },
+      "eligible_phase_candidates": 0,
+      "strict_joint_phase": {
+        "kind": "phase",
+        "K": [
+          1,
+          128,
+          128
+        ],
+        "max_J": 475486.0,
+        "max_WU": 629.0,
+        "by_phi": [
+          {
+            "phi": 0,
+            "J": 475486.0,
+            "WU": 629.0
+          },
+          {
+            "phi": 64,
+            "J": 475486.0,
+            "WU": 629.0
+          },
+          {
+            "phi": 127,
+            "J": 475486.0,
+            "WU": 629.0
+          }
+        ]
+      },
+      "strict_joint_deployed": "fixed",
+      "deployed_mode": "fixed",
+      "heldout_seen": false
+    }
+  ],
+  "heldout_rows_seen": 0,
+  "protocol_sha256": "98c920d60eb825b9a23002f3a9beece223fe02e674419048a426fbc3539ba8ca",
+  "selection_created_utc": "2026-10-24T17:59:35.015037+00:00"
+}
