@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "archive": "analysis-inputs.zip",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+      "git_blob_sha1": "fa1385d99a319b43c06f5309d1aae9fdd3adea46"
+    },
+    {
+      "path": "analysis-inputs.zip",
+      "bytes": 335404,
+      "sha256": "13fb512a4ed5d1b7c8dd9efef8492747be8179751c67c74b7f3020d5d7ad7fa5",
+      "git_blob_sha1": "6d75ce286372a8cfd78d4517bce7918b23fe6f00"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4299,
+      "sha256": "e5f27e23adeaa14cb23d2575d8cb70f87c2927e09a599f3e942789201ab60a15",
+      "git_blob_sha1": "12a744a445df8e4c813d05421b8248a47ae32a71"
+    },
+    {
+      "path": "replay.py",
+      "bytes": 1319,
+      "sha256": "ab0aca1127af01ffa4054ac1bd0c9d6135d691a2dd3d9dc6058f21b0ce3e2256",
+      "git_blob_sha1": "283d747198dec5da65a4e73ef305bc6d353b1afd"
+    }
+  ]
+}
