@@ -1,0 +1,54 @@
+{
+  "period": 256,
+  "period_representation": "9-bit constant, external tick model; no new receiver RTL state",
+  "offset_bits": 8,
+  "all_offsets": "0..255",
+  "counter_bits": 8,
+  "finite_K": "1..254;255 infinity",
+  "distance_bits": 16,
+  "max_reachable_distance": 65023,
+  "tool": "Yosys 0.70+190 (git sha1 485b63564, Release, GNU /usr/bin/x86_64-w64-mingw32-g++ 15.2.1)",
+  "method": "read_verilog -formal -sv FILE; prep -top timer_step_induction -flatten; chformal -lower; sat -set-assumes -prove-asserts -verify",
+  "cases": [
+    {
+      "case": "step_correct_p256.v",
+      "source_sha256": "89e9abe0977e7a8cc499687c28e3e694d9f50455fc28b7ecea477c67e82f2add",
+      "proof_succeeded": true,
+      "expected_success": true,
+      "returncode": 0,
+      "log_sha256": "2a96d557cfd76207e91f12ead63ca8f2f1ae7148111637b451e181eac8471a78"
+    },
+    {
+      "case": "step_drop_wu_rearm_p256.v",
+      "source_sha256": "f4be0a5aac49723f8990deaf77c51838919a75679a10817fb50afbfa5458cf1c",
+      "proof_succeeded": false,
+      "expected_success": false,
+      "returncode": 1,
+      "log_sha256": "93bef59370b6ef577d46a55cf6cd20b5b952a4e2d1697bc5af0dc06656cf4433"
+    },
+    {
+      "case": "step_keep_timer_on_read_p256.v",
+      "source_sha256": "38aeb7f047c420f79a4d65461c6fd454acd758397ff9d6a23a381fe678927156",
+      "proof_succeeded": false,
+      "expected_success": false,
+      "returncode": 1,
+      "log_sha256": "e7592e6d3c96025a610e0f9701410842f4390c0f5761993144d854fb0c890fc0"
+    },
+    {
+      "case": "step_retime_existing_p256.v",
+      "source_sha256": "3bb7021115251e42c40f994a80bfebde02d34b226c93ad927ffedaa30e62993f",
+      "proof_succeeded": false,
+      "expected_success": false,
+      "returncode": 1,
+      "log_sha256": "df124044bbf16f97b88a2b09d601b8c51aac6dbd6acfe788c1843f99b817f273"
+    }
+  ],
+  "base_case": "valid=enabled=count=0 satisfies invariant; config_k starts1",
+  "scope": "Accepted-WU timer/capture relation; original ready-mask refinement unchanged, not coherence/arbitration or native service proof",
+  "original_input_sha256": {
+    "step_correct.v": "ae23480137ef195caa1bcc86471290d1a0715dcd5a4be1403ee778096c0c7d44",
+    "step_drop_wu_rearm.v": "5f9d999754824957fcd99abbe98f0c6379bf43db1fd1c7ddc270af8f500c922a",
+    "step_keep_timer_on_read.v": "bf1f30ca7d75a4e6831446e09cbf6839bcef911f1d9628c8d5d1feba8baa3ec7",
+    "step_retime_existing.v": "8ae477e17c977e248000addf185f8dd96fecde031620b2c4e79d297711888133"
+  }
+}

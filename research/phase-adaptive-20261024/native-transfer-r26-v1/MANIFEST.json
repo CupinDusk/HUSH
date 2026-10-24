@@ -1,0 +1,53 @@
+{
+  "native_cases": 294,
+  "valid": 294,
+  "epochs": 1176,
+  "native_input_files": 60,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992",
+      "bytes": 9
+    },
+    {
+      "path": "native-inputs.zip",
+      "sha256": "de6be6af5c8a1c13ba6939d483e30232a145acdb504129295192e4dcafa71b9f",
+      "bytes": 343880
+    },
+    {
+      "path": "period256/PROOF_RECEIPT.json",
+      "sha256": "6ce0d3712d4f13cbc494e17f9af6af17cc57bd99be71394363ab151203d0f177",
+      "bytes": 2518
+    },
+    {
+      "path": "period256/step_correct_p256.v",
+      "sha256": "89e9abe0977e7a8cc499687c28e3e694d9f50455fc28b7ecea477c67e82f2add",
+      "bytes": 2067
+    },
+    {
+      "path": "period256/step_drop_wu_rearm_p256.v",
+      "sha256": "f4be0a5aac49723f8990deaf77c51838919a75679a10817fb50afbfa5458cf1c",
+      "bytes": 2081
+    },
+    {
+      "path": "period256/step_keep_timer_on_read_p256.v",
+      "sha256": "38aeb7f047c420f79a4d65461c6fd454acd758397ff9d6a23a381fe678927156",
+      "bytes": 2041
+    },
+    {
+      "path": "period256/step_retime_existing_p256.v",
+      "sha256": "3bb7021115251e42c40f994a80bfebde02d34b226c93ad927ffedaa30e62993f",
+      "bytes": 2107
+    },
+    {
+      "path": "README.md",
+      "sha256": "b1803ae36240606ea9ff81719c2b334eb0500e95c2837f79df7a96733ed281c7",
+      "bytes": 1462
+    },
+    {
+      "path": "replay.py",
+      "sha256": "9be38ef0d3295d4740dc9f94ad1beeb44b737b9ce7eeb39478211f0f55e34014",
+      "bytes": 1826
+    }
+  ]
+}
