@@ -1,0 +1,23 @@
+{
+  "N32_native_timing_seen": false,
+  "training_rows_sha256": "f6f49f174c4e9e722575b0dbe729f203870aa25c3a93d032cdef4ca1dbdd79e8",
+  "fixed_K": [
+    128,
+    128,
+    128
+  ],
+  "phase_K": [
+    16384,
+    16384,
+    2048
+  ],
+  "fixed_J": 483039.0,
+  "phase_J": 483157.0,
+  "mode": "fixed",
+  "phase_nominal_common_P": 128,
+  "phase_K_encoding": [
+    128,
+    128,
+    16
+  ]
+}

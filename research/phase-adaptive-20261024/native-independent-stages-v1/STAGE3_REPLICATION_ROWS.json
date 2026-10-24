@@ -1,0 +1,2776 @@
+[
+  {
+    "case": {
+      "N": 36,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n36-s3-fixed1024",
+      "kind": "fixed",
+      "K": [
+        1024,
+        1024,
+        1024
+      ]
+    },
+    "valid": true,
+    "returncode": 0,
+    "roi_ticks": 2911955000,
+    "roi_cycles": 2911955.0,
+    "register_writes": 0,
+    "phase_events": [
+      {
+        "id": 0,
+        "tick": 3530476000
+      },
+      {
+        "id": 1,
+        "tick": 3585335000
+      },
+      {
+        "id": 2,
+        "tick": 4380893000
+      },
+      {
+        "id": 13,
+        "tick": 5878419000,
+        "completed_task": 3
+      },
+      {
+        "id": 10,
+        "tick": 6409879000,
+        "completed_task": 0
+      },
+      {
+        "id": 12,
+        "tick": 6417217000,
+        "completed_task": 2
+      },
+      {
+        "id": 11,
+        "tick": 6430195000,
+        "completed_task": 1
+      },
+      {
+        "id": 99,
+        "tick": 6442431000
+      }
+    ],
+    "terminal": {
+      "cause": "exiting with last active thread context",
+      "code": 0,
+      "tick": 6498064000
+    },
+    "marker_errors": [],
+    "instructions": 2387862.0,
+    "updates": 2468.0,
+    "replacements": 2264.0,
+    "misses": 6048.0,
+    "invariant_failures": {},
+    "stdout_tail": "56\nHUSH_APPLICATION={\"kind\": \"native_cpu_application_pilot\", \"mode\": \"hush\", \"schedule_cycles\": [1024, 1024, 1024], \"configuration_stall_cycles\": 8, \"command\": [\"fir-pipeline-v3\", \"36\", \"64\", \"64\", \"4\", \"8\", \"1\"], \"binary_sha256\": \"2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096\", \"architecture\": \"four TimingSimple x86 cores, private unified16KiB 2way caches, continuous expiry, common4-client HUSH service\", \"roi_start_tick\": 3530476000, \"roi_end_tick\": 6442431000, \"roi_ticks\": 2911955000, \"phase_events\": [{\"id\": 0, \"tick\": 3530476000}, {\"id\": 1, \"tick\": 3585335000}, {\"id\": 2, \"tick\": 4380893000}, {\"id\": 13, \"tick\": 5878419000, \"completed_task\": 3}, {\"id\": 10, \"tick\": 6409879000, \"completed_task\": 0}, {\"id\": 12, \"tick\": 6417217000, \"completed_task\": 2}, {\"id\": 11, \"tick\": 6430195000, \"completed_task\": 1}, {\"id\": 99, \"tick\": 6442431000}], \"timeout_register_writes\": 0, \"terminal\": {\"cause\": \"exiting with last active thread context\", \"code\": 0, \"tick\": 6498064000}, \"final_tick\": 6498064000, \"marker_errors\": [], \"roi_stats_block\": 1, \"scope\": \"source-marker-guided prospective API, not quantized RTL/WCET proof or production CSR; exact configuration-cost model recorded\"}\n",
+    "stderr_tail": "",
+    "config_sha256": "3278efb3b24a90bd2f56caa299480b0a6a1b4eff04f5fce27ee3abb639791fe9",
+    "benchmark_sha256": "2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096",
+    "result_sha256": "70b3245455de2994b39bbce4e650b33b1880147f733fe6bd887d9d221aeae1c7"
+  },
+  {
+    "case": {
+      "N": 36,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n36-s3-fixed128",
+      "kind": "fixed",
+      "K": [
+        128,
+        128,
+        128
+      ]
+    },
+    "valid": true,
+    "returncode": 0,
+    "roi_ticks": 2912231000,
+    "roi_cycles": 2912231.0,
+    "register_writes": 0,
+    "phase_events": [
+      {
+        "id": 0,
+        "tick": 3530476000
+      },
+      {
+        "id": 1,
+        "tick": 3584657000
+      },
+      {
+        "id": 2,
+        "tick": 4381198000
+      },
+      {
+        "id": 13,
+        "tick": 5857688000,
+        "completed_task": 3
+      },
+      {
+        "id": 10,
+        "tick": 6410155000,
+        "completed_task": 0
+      },
+      {
+        "id": 12,
+        "tick": 6417493000,
+        "completed_task": 2
+      },
+      {
+        "id": 11,
+        "tick": 6430471000,
+        "completed_task": 1
+      },
+      {
+        "id": 99,
+        "tick": 6442707000
+      }
+    ],
+    "terminal": {
+      "cause": "exiting with last active thread context",
+      "code": 0,
+      "tick": 6498340000
+    },
+    "marker_errors": [],
+    "instructions": 2387862.0,
+    "updates": 539.0,
+    "replacements": 2239.0,
+    "misses": 4168.0,
+    "invariant_failures": {},
+    "stdout_tail": "27456\nHUSH_APPLICATION={\"kind\": \"native_cpu_application_pilot\", \"mode\": \"hush\", \"schedule_cycles\": [128, 128, 128], \"configuration_stall_cycles\": 8, \"command\": [\"fir-pipeline-v3\", \"36\", \"64\", \"64\", \"4\", \"8\", \"1\"], \"binary_sha256\": \"2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096\", \"architecture\": \"four TimingSimple x86 cores, private unified16KiB 2way caches, continuous expiry, common4-client HUSH service\", \"roi_start_tick\": 3530476000, \"roi_end_tick\": 6442707000, \"roi_ticks\": 2912231000, \"phase_events\": [{\"id\": 0, \"tick\": 3530476000}, {\"id\": 1, \"tick\": 3584657000}, {\"id\": 2, \"tick\": 4381198000}, {\"id\": 13, \"tick\": 5857688000, \"completed_task\": 3}, {\"id\": 10, \"tick\": 6410155000, \"completed_task\": 0}, {\"id\": 12, \"tick\": 6417493000, \"completed_task\": 2}, {\"id\": 11, \"tick\": 6430471000, \"completed_task\": 1}, {\"id\": 99, \"tick\": 6442707000}], \"timeout_register_writes\": 0, \"terminal\": {\"cause\": \"exiting with last active thread context\", \"code\": 0, \"tick\": 6498340000}, \"final_tick\": 6498340000, \"marker_errors\": [], \"roi_stats_block\": 1, \"scope\": \"source-marker-guided prospective API, not quantized RTL/WCET proof or production CSR; exact configuration-cost model recorded\"}\n",
+    "stderr_tail": "",
+    "config_sha256": "3278efb3b24a90bd2f56caa299480b0a6a1b4eff04f5fce27ee3abb639791fe9",
+    "benchmark_sha256": "2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096",
+    "result_sha256": "f402840a98842b38cd1de0737fa327656df6ec7dd65960f51e4c58e1020a5968"
+  },
+  {
+    "case": {
+      "N": 36,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n36-s3-fixed1536",
+      "kind": "fixed",
+      "K": [
+        1536,
+        1536,
+        1536
+      ]
+    },
+    "valid": true,
+    "returncode": 0,
+    "roi_ticks": 2912031000,
+    "roi_cycles": 2912031.0,
+    "register_writes": 0,
+    "phase_events": [
+      {
+        "id": 0,
+        "tick": 3530476000
+      },
+      {
+        "id": 1,
+        "tick": 3585335000
+      },
+      {
+        "id": 2,
+        "tick": 4380895000
+      },
+      {
+        "id": 13,
+        "tick": 5878454000,
+        "completed_task": 3
+      },
+      {
+        "id": 10,
+        "tick": 6409955000,
+        "completed_task": 0
+      },
+      {
+        "id": 12,
+        "tick": 6417293000,
+        "completed_task": 2
+      },
+      {
+        "id": 11,
+        "tick": 6430271000,
+        "completed_task": 1
+      },
+      {
+        "id": 99,
+        "tick": 6442507000
+      }
+    ],
+    "terminal": {
+      "cause": "exiting with last active thread context",
+      "code": 0,
+      "tick": 6498140000
+    },
+    "marker_errors": [],
+    "instructions": 2387862.0,
+    "updates": 2468.0,
+    "replacements": 2265.0,
+    "misses": 6047.0,
+    "invariant_failures": {},
+    "stdout_tail": "56\nHUSH_APPLICATION={\"kind\": \"native_cpu_application_pilot\", \"mode\": \"hush\", \"schedule_cycles\": [1536, 1536, 1536], \"configuration_stall_cycles\": 8, \"command\": [\"fir-pipeline-v3\", \"36\", \"64\", \"64\", \"4\", \"8\", \"1\"], \"binary_sha256\": \"2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096\", \"architecture\": \"four TimingSimple x86 cores, private unified16KiB 2way caches, continuous expiry, common4-client HUSH service\", \"roi_start_tick\": 3530476000, \"roi_end_tick\": 6442507000, \"roi_ticks\": 2912031000, \"phase_events\": [{\"id\": 0, \"tick\": 3530476000}, {\"id\": 1, \"tick\": 3585335000}, {\"id\": 2, \"tick\": 4380895000}, {\"id\": 13, \"tick\": 5878454000, \"completed_task\": 3}, {\"id\": 10, \"tick\": 6409955000, \"completed_task\": 0}, {\"id\": 12, \"tick\": 6417293000, \"completed_task\": 2}, {\"id\": 11, \"tick\": 6430271000, \"completed_task\": 1}, {\"id\": 99, \"tick\": 6442507000}], \"timeout_register_writes\": 0, \"terminal\": {\"cause\": \"exiting with last active thread context\", \"code\": 0, \"tick\": 6498140000}, \"final_tick\": 6498140000, \"marker_errors\": [], \"roi_stats_block\": 1, \"scope\": \"source-marker-guided prospective API, not quantized RTL/WCET proof or production CSR; exact configuration-cost model recorded\"}\n",
+    "stderr_tail": "",
+    "config_sha256": "3278efb3b24a90bd2f56caa299480b0a6a1b4eff04f5fce27ee3abb639791fe9",
+    "benchmark_sha256": "2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096",
+    "result_sha256": "76fe60250a7860bbb238d6dafc117e72209b10025cf1283aec51bc71a9c07a99"
+  },
+  {
+    "case": {
+      "N": 36,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n36-s3-fixed16384",
+      "kind": "fixed",
+      "K": [
+        16384,
+        16384,
+        16384
+      ]
+    },
+    "valid": true,
+    "returncode": 0,
+    "roi_ticks": 2910741000,
+    "roi_cycles": 2910741.0,
+    "register_writes": 0,
+    "phase_events": [
+      {
+        "id": 0,
+        "tick": 3529422000
+      },
+      {
+        "id": 1,
+        "tick": 3584281000
+      },
+      {
+        "id": 2,
+        "tick": 4379104000
+      },
+      {
+        "id": 13,
+        "tick": 5877540000,
+        "completed_task": 3
+      },
+      {
+        "id": 10,
+        "tick": 6407810000,
+        "completed_task": 0
+      },
+      {
+        "id": 12,
+        "tick": 6414734000,
+        "completed_task": 2
+      },
+      {
+        "id": 11,
+        "tick": 6427983000,
+        "completed_task": 1
+      },
+      {
+        "id": 99,
+        "tick": 6440163000
+      }
+    ],
+    "terminal": {
+      "cause": "exiting with last active thread context",
+      "code": 0,
+      "tick": 6495796000
+    },
+    "marker_errors": [],
+    "instructions": 2387862.0,
+    "updates": 2463.0,
+    "replacements": 2318.0,
+    "misses": 6012.0,
+    "invariant_failures": {},
+    "stdout_tail": "HUSH_APPLICATION={\"kind\": \"native_cpu_application_pilot\", \"mode\": \"hush\", \"schedule_cycles\": [16384, 16384, 16384], \"configuration_stall_cycles\": 8, \"command\": [\"fir-pipeline-v3\", \"36\", \"64\", \"64\", \"4\", \"8\", \"1\"], \"binary_sha256\": \"2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096\", \"architecture\": \"four TimingSimple x86 cores, private unified16KiB 2way caches, continuous expiry, common4-client HUSH service\", \"roi_start_tick\": 3529422000, \"roi_end_tick\": 6440163000, \"roi_ticks\": 2910741000, \"phase_events\": [{\"id\": 0, \"tick\": 3529422000}, {\"id\": 1, \"tick\": 3584281000}, {\"id\": 2, \"tick\": 4379104000}, {\"id\": 13, \"tick\": 5877540000, \"completed_task\": 3}, {\"id\": 10, \"tick\": 6407810000, \"completed_task\": 0}, {\"id\": 12, \"tick\": 6414734000, \"completed_task\": 2}, {\"id\": 11, \"tick\": 6427983000, \"completed_task\": 1}, {\"id\": 99, \"tick\": 6440163000}], \"timeout_register_writes\": 0, \"terminal\": {\"cause\": \"exiting with last active thread context\", \"code\": 0, \"tick\": 6495796000}, \"final_tick\": 6495796000, \"marker_errors\": [], \"roi_stats_block\": 1, \"scope\": \"source-marker-guided prospective API, not quantized RTL/WCET proof or production CSR; exact configuration-cost model recorded\"}\n",
+    "stderr_tail": "",
+    "config_sha256": "3278efb3b24a90bd2f56caa299480b0a6a1b4eff04f5fce27ee3abb639791fe9",
+    "benchmark_sha256": "2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096",
+    "result_sha256": "d2bb9ad07b50836484fc56a42553bee5f76518370ae29b1ee216abf13731583e"
+  },
+  {
+    "case": {
+      "N": 36,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n36-s3-fixed2048",
+      "kind": "fixed",
+      "K": [
+        2048,
+        2048,
+        2048
+      ]
+    },
+    "valid": true,
+    "returncode": 0,
+    "roi_ticks": 2912031000,
+    "roi_cycles": 2912031.0,
+    "register_writes": 0,
+    "phase_events": [
+      {
+        "id": 0,
+        "tick": 3530476000
+      },
+      {
+        "id": 1,
+        "tick": 3585335000
+      },
+      {
+        "id": 2,
+        "tick": 4380895000
+      },
+      {
+        "id": 13,
+        "tick": 5878454000,
+        "completed_task": 3
+      },
+      {
+        "id": 10,
+        "tick": 6409955000,
+        "completed_task": 0
+      },
+      {
+        "id": 12,
+        "tick": 6417293000,
+        "completed_task": 2
+      },
+      {
+        "id": 11,
+        "tick": 6430271000,
+        "completed_task": 1
+      },
+      {
+        "id": 99,
+        "tick": 6442507000
+      }
+    ],
+    "terminal": {
+      "cause": "exiting with last active thread context",
+      "code": 0,
+      "tick": 6498140000
+    },
+    "marker_errors": [],
+    "instructions": 2387862.0,
+    "updates": 2468.0,
+    "replacements": 2270.0,
+    "misses": 6047.0,
+    "invariant_failures": {},
+    "stdout_tail": "56\nHUSH_APPLICATION={\"kind\": \"native_cpu_application_pilot\", \"mode\": \"hush\", \"schedule_cycles\": [2048, 2048, 2048], \"configuration_stall_cycles\": 8, \"command\": [\"fir-pipeline-v3\", \"36\", \"64\", \"64\", \"4\", \"8\", \"1\"], \"binary_sha256\": \"2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096\", \"architecture\": \"four TimingSimple x86 cores, private unified16KiB 2way caches, continuous expiry, common4-client HUSH service\", \"roi_start_tick\": 3530476000, \"roi_end_tick\": 6442507000, \"roi_ticks\": 2912031000, \"phase_events\": [{\"id\": 0, \"tick\": 3530476000}, {\"id\": 1, \"tick\": 3585335000}, {\"id\": 2, \"tick\": 4380895000}, {\"id\": 13, \"tick\": 5878454000, \"completed_task\": 3}, {\"id\": 10, \"tick\": 6409955000, \"completed_task\": 0}, {\"id\": 12, \"tick\": 6417293000, \"completed_task\": 2}, {\"id\": 11, \"tick\": 6430271000, \"completed_task\": 1}, {\"id\": 99, \"tick\": 6442507000}], \"timeout_register_writes\": 0, \"terminal\": {\"cause\": \"exiting with last active thread context\", \"code\": 0, \"tick\": 6498140000}, \"final_tick\": 6498140000, \"marker_errors\": [], \"roi_stats_block\": 1, \"scope\": \"source-marker-guided prospective API, not quantized RTL/WCET proof or production CSR; exact configuration-cost model recorded\"}\n",
+    "stderr_tail": "",
+    "config_sha256": "3278efb3b24a90bd2f56caa299480b0a6a1b4eff04f5fce27ee3abb639791fe9",
+    "benchmark_sha256": "2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096",
+    "result_sha256": "c3a6e69c049f92d3057e71225773f8692dbfd4a22970f3a12bb00dcc9d451564"
+  },
+  {
+    "case": {
+      "N": 36,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n36-s3-fixed256",
+      "kind": "fixed",
+      "K": [
+        256,
+        256,
+        256
+      ]
+    },
+    "valid": true,
+    "returncode": 0,
+    "roi_ticks": 2911208000,
+    "roi_cycles": 2911208.0,
+    "register_writes": 0,
+    "phase_events": [
+      {
+        "id": 0,
+        "tick": 3530476000
+      },
+      {
+        "id": 1,
+        "tick": 3584657000
+      },
+      {
+        "id": 2,
+        "tick": 4380149000
+      },
+      {
+        "id": 13,
+        "tick": 5870996000,
+        "completed_task": 3
+      },
+      {
+        "id": 10,
+        "tick": 6409132000,
+        "completed_task": 0
+      },
+      {
+        "id": 12,
+        "tick": 6416470000,
+        "completed_task": 2
+      },
+      {
+        "id": 11,
+        "tick": 6429448000,
+        "completed_task": 1
+      },
+      {
+        "id": 99,
+        "tick": 6441684000
+      }
+    ],
+    "terminal": {
+      "cause": "exiting with last active thread context",
+      "code": 0,
+      "tick": 6497317000
+    },
+    "marker_errors": [],
+    "instructions": 2387862.0,
+    "updates": 1747.0,
+    "replacements": 2248.0,
+    "misses": 5330.0,
+    "invariant_failures": {},
+    "stdout_tail": "27456\nHUSH_APPLICATION={\"kind\": \"native_cpu_application_pilot\", \"mode\": \"hush\", \"schedule_cycles\": [256, 256, 256], \"configuration_stall_cycles\": 8, \"command\": [\"fir-pipeline-v3\", \"36\", \"64\", \"64\", \"4\", \"8\", \"1\"], \"binary_sha256\": \"2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096\", \"architecture\": \"four TimingSimple x86 cores, private unified16KiB 2way caches, continuous expiry, common4-client HUSH service\", \"roi_start_tick\": 3530476000, \"roi_end_tick\": 6441684000, \"roi_ticks\": 2911208000, \"phase_events\": [{\"id\": 0, \"tick\": 3530476000}, {\"id\": 1, \"tick\": 3584657000}, {\"id\": 2, \"tick\": 4380149000}, {\"id\": 13, \"tick\": 5870996000, \"completed_task\": 3}, {\"id\": 10, \"tick\": 6409132000, \"completed_task\": 0}, {\"id\": 12, \"tick\": 6416470000, \"completed_task\": 2}, {\"id\": 11, \"tick\": 6429448000, \"completed_task\": 1}, {\"id\": 99, \"tick\": 6441684000}], \"timeout_register_writes\": 0, \"terminal\": {\"cause\": \"exiting with last active thread context\", \"code\": 0, \"tick\": 6497317000}, \"final_tick\": 6497317000, \"marker_errors\": [], \"roi_stats_block\": 1, \"scope\": \"source-marker-guided prospective API, not quantized RTL/WCET proof or production CSR; exact configuration-cost model recorded\"}\n",
+    "stderr_tail": "",
+    "config_sha256": "3278efb3b24a90bd2f56caa299480b0a6a1b4eff04f5fce27ee3abb639791fe9",
+    "benchmark_sha256": "2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096",
+    "result_sha256": "a1ae49d0920540ef5ea9d48d70263fa55904c2343173c5b8678eff294cc371e1"
+  },
+  {
+    "case": {
+      "N": 36,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n36-s3-fixed3072",
+      "kind": "fixed",
+      "K": [
+        3072,
+        3072,
+        3072
+      ]
+    },
+    "valid": true,
+    "returncode": 0,
+    "roi_ticks": 2911918000,
+    "roi_cycles": 2911918.0,
+    "register_writes": 0,
+    "phase_events": [
+      {
+        "id": 0,
+        "tick": 3530476000
+      },
+      {
+        "id": 1,
+        "tick": 3585335000
+      },
+      {
+        "id": 2,
+        "tick": 4380836000
+      },
+      {
+        "id": 13,
+        "tick": 5878449000,
+        "completed_task": 3
+      },
+      {
+        "id": 10,
+        "tick": 6409842000,
+        "completed_task": 0
+      },
+      {
+        "id": 12,
+        "tick": 6417180000,
+        "completed_task": 2
+      },
+      {
+        "id": 11,
+        "tick": 6430158000,
+        "completed_task": 1
+      },
+      {
+        "id": 99,
+        "tick": 6442394000
+      }
+    ],
+    "terminal": {
+      "cause": "exiting with last active thread context",
+      "code": 0,
+      "tick": 6498027000
+    },
+    "marker_errors": [],
+    "instructions": 2387862.0,
+    "updates": 2468.0,
+    "replacements": 2273.0,
+    "misses": 6046.0,
+    "invariant_failures": {},
+    "stdout_tail": "56\nHUSH_APPLICATION={\"kind\": \"native_cpu_application_pilot\", \"mode\": \"hush\", \"schedule_cycles\": [3072, 3072, 3072], \"configuration_stall_cycles\": 8, \"command\": [\"fir-pipeline-v3\", \"36\", \"64\", \"64\", \"4\", \"8\", \"1\"], \"binary_sha256\": \"2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096\", \"architecture\": \"four TimingSimple x86 cores, private unified16KiB 2way caches, continuous expiry, common4-client HUSH service\", \"roi_start_tick\": 3530476000, \"roi_end_tick\": 6442394000, \"roi_ticks\": 2911918000, \"phase_events\": [{\"id\": 0, \"tick\": 3530476000}, {\"id\": 1, \"tick\": 3585335000}, {\"id\": 2, \"tick\": 4380836000}, {\"id\": 13, \"tick\": 5878449000, \"completed_task\": 3}, {\"id\": 10, \"tick\": 6409842000, \"completed_task\": 0}, {\"id\": 12, \"tick\": 6417180000, \"completed_task\": 2}, {\"id\": 11, \"tick\": 6430158000, \"completed_task\": 1}, {\"id\": 99, \"tick\": 6442394000}], \"timeout_register_writes\": 0, \"terminal\": {\"cause\": \"exiting with last active thread context\", \"code\": 0, \"tick\": 6498027000}, \"final_tick\": 6498027000, \"marker_errors\": [], \"roi_stats_block\": 1, \"scope\": \"source-marker-guided prospective API, not quantized RTL/WCET proof or production CSR; exact configuration-cost model recorded\"}\n",
+    "stderr_tail": "",
+    "config_sha256": "3278efb3b24a90bd2f56caa299480b0a6a1b4eff04f5fce27ee3abb639791fe9",
+    "benchmark_sha256": "2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096",
+    "result_sha256": "7a6227913c5ad48e8c8ccdb5d03964864e9765ddc8b926c2062929ac9ffaa18d"
+  },
+  {
+    "case": {
+      "N": 36,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n36-s3-fixed32768",
+      "kind": "fixed",
+      "K": [
+        32768,
+        32768,
+        32768
+      ]
+    },
+    "valid": true,
+    "returncode": 0,
+    "roi_ticks": 2910738000,
+    "roi_cycles": 2910738.0,
+    "register_writes": 0,
+    "phase_events": [
+      {
+        "id": 0,
+        "tick": 3529422000
+      },
+      {
+        "id": 1,
+        "tick": 3584281000
+      },
+      {
+        "id": 2,
+        "tick": 4379101000
+      },
+      {
+        "id": 13,
+        "tick": 5877537000,
+        "completed_task": 3
+      },
+      {
+        "id": 10,
+        "tick": 6407807000,
+        "completed_task": 0
+      },
+      {
+        "id": 12,
+        "tick": 6414731000,
+        "completed_task": 2
+      },
+      {
+        "id": 11,
+        "tick": 6427980000,
+        "completed_task": 1
+      },
+      {
+        "id": 99,
+        "tick": 6440160000
+      }
+    ],
+    "terminal": {
+      "cause": "exiting with last active thread context",
+      "code": 0,
+      "tick": 6495793000
+    },
+    "marker_errors": [],
+    "instructions": 2387862.0,
+    "updates": 2463.0,
+    "replacements": 2378.0,
+    "misses": 6012.0,
+    "invariant_failures": {},
+    "stdout_tail": "HUSH_APPLICATION={\"kind\": \"native_cpu_application_pilot\", \"mode\": \"hush\", \"schedule_cycles\": [32768, 32768, 32768], \"configuration_stall_cycles\": 8, \"command\": [\"fir-pipeline-v3\", \"36\", \"64\", \"64\", \"4\", \"8\", \"1\"], \"binary_sha256\": \"2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096\", \"architecture\": \"four TimingSimple x86 cores, private unified16KiB 2way caches, continuous expiry, common4-client HUSH service\", \"roi_start_tick\": 3529422000, \"roi_end_tick\": 6440160000, \"roi_ticks\": 2910738000, \"phase_events\": [{\"id\": 0, \"tick\": 3529422000}, {\"id\": 1, \"tick\": 3584281000}, {\"id\": 2, \"tick\": 4379101000}, {\"id\": 13, \"tick\": 5877537000, \"completed_task\": 3}, {\"id\": 10, \"tick\": 6407807000, \"completed_task\": 0}, {\"id\": 12, \"tick\": 6414731000, \"completed_task\": 2}, {\"id\": 11, \"tick\": 6427980000, \"completed_task\": 1}, {\"id\": 99, \"tick\": 6440160000}], \"timeout_register_writes\": 0, \"terminal\": {\"cause\": \"exiting with last active thread context\", \"code\": 0, \"tick\": 6495793000}, \"final_tick\": 6495793000, \"marker_errors\": [], \"roi_stats_block\": 1, \"scope\": \"source-marker-guided prospective API, not quantized RTL/WCET proof or production CSR; exact configuration-cost model recorded\"}\n",
+    "stderr_tail": "",
+    "config_sha256": "3278efb3b24a90bd2f56caa299480b0a6a1b4eff04f5fce27ee3abb639791fe9",
+    "benchmark_sha256": "2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096",
+    "result_sha256": "a67d25cade08d1ebdeb1e401de844271b31b342e5fa86397b0cdd40698298909"
+  },
+  {
+    "case": {
+      "N": 36,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n36-s3-fixed4096",
+      "kind": "fixed",
+      "K": [
+        4096,
+        4096,
+        4096
+      ]
+    },
+    "valid": true,
+    "returncode": 0,
+    "roi_ticks": 2911913000,
+    "roi_cycles": 2911913.0,
+    "register_writes": 0,
+    "phase_events": [
+      {
+        "id": 0,
+        "tick": 3530476000
+      },
+      {
+        "id": 1,
+        "tick": 3585335000
+      },
+      {
+        "id": 2,
+        "tick": 4380831000
+      },
+      {
+        "id": 13,
+        "tick": 5878444000,
+        "completed_task": 3
+      },
+      {
+        "id": 10,
+        "tick": 6409837000,
+        "completed_task": 0
+      },
+      {
+        "id": 12,
+        "tick": 6417175000,
+        "completed_task": 2
+      },
+      {
+        "id": 11,
+        "tick": 6430153000,
+        "completed_task": 1
+      },
+      {
+        "id": 99,
+        "tick": 6442389000
+      }
+    ],
+    "terminal": {
+      "cause": "exiting with last active thread context",
+      "code": 0,
+      "tick": 6498022000
+    },
+    "marker_errors": [],
+    "instructions": 2387862.0,
+    "updates": 2468.0,
+    "replacements": 2276.0,
+    "misses": 6044.0,
+    "invariant_failures": {},
+    "stdout_tail": "56\nHUSH_APPLICATION={\"kind\": \"native_cpu_application_pilot\", \"mode\": \"hush\", \"schedule_cycles\": [4096, 4096, 4096], \"configuration_stall_cycles\": 8, \"command\": [\"fir-pipeline-v3\", \"36\", \"64\", \"64\", \"4\", \"8\", \"1\"], \"binary_sha256\": \"2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096\", \"architecture\": \"four TimingSimple x86 cores, private unified16KiB 2way caches, continuous expiry, common4-client HUSH service\", \"roi_start_tick\": 3530476000, \"roi_end_tick\": 6442389000, \"roi_ticks\": 2911913000, \"phase_events\": [{\"id\": 0, \"tick\": 3530476000}, {\"id\": 1, \"tick\": 3585335000}, {\"id\": 2, \"tick\": 4380831000}, {\"id\": 13, \"tick\": 5878444000, \"completed_task\": 3}, {\"id\": 10, \"tick\": 6409837000, \"completed_task\": 0}, {\"id\": 12, \"tick\": 6417175000, \"completed_task\": 2}, {\"id\": 11, \"tick\": 6430153000, \"completed_task\": 1}, {\"id\": 99, \"tick\": 6442389000}], \"timeout_register_writes\": 0, \"terminal\": {\"cause\": \"exiting with last active thread context\", \"code\": 0, \"tick\": 6498022000}, \"final_tick\": 6498022000, \"marker_errors\": [], \"roi_stats_block\": 1, \"scope\": \"source-marker-guided prospective API, not quantized RTL/WCET proof or production CSR; exact configuration-cost model recorded\"}\n",
+    "stderr_tail": "",
+    "config_sha256": "3278efb3b24a90bd2f56caa299480b0a6a1b4eff04f5fce27ee3abb639791fe9",
+    "benchmark_sha256": "2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096",
+    "result_sha256": "711fb801b3c614969e44e29a50a6b583e1f85ff6b539bf10a6806c6fbd873f2a"
+  },
+  {
+    "case": {
+      "N": 36,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n36-s3-fixed512",
+      "kind": "fixed",
+      "K": [
+        512,
+        512,
+        512
+      ]
+    },
+    "valid": true,
+    "returncode": 0,
+    "roi_ticks": 2911771000,
+    "roi_cycles": 2911771.0,
+    "register_writes": 0,
+    "phase_events": [
+      {
+        "id": 0,
+        "tick": 3530476000
+      },
+      {
+        "id": 1,
+        "tick": 3585335000
+      },
+      {
+        "id": 2,
+        "tick": 4380643000
+      },
+      {
+        "id": 13,
+        "tick": 5878573000,
+        "completed_task": 3
+      },
+      {
+        "id": 10,
+        "tick": 6409695000,
+        "completed_task": 0
+      },
+      {
+        "id": 12,
+        "tick": 6417033000,
+        "completed_task": 2
+      },
+      {
+        "id": 11,
+        "tick": 6430011000,
+        "completed_task": 1
+      },
+      {
+        "id": 99,
+        "tick": 6442247000
+      }
+    ],
+    "terminal": {
+      "cause": "exiting with last active thread context",
+      "code": 0,
+      "tick": 6497880000
+    },
+    "marker_errors": [],
+    "instructions": 2387862.0,
+    "updates": 2463.0,
+    "replacements": 2263.0,
+    "misses": 6045.0,
+    "invariant_failures": {},
+    "stdout_tail": "27456\nHUSH_APPLICATION={\"kind\": \"native_cpu_application_pilot\", \"mode\": \"hush\", \"schedule_cycles\": [512, 512, 512], \"configuration_stall_cycles\": 8, \"command\": [\"fir-pipeline-v3\", \"36\", \"64\", \"64\", \"4\", \"8\", \"1\"], \"binary_sha256\": \"2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096\", \"architecture\": \"four TimingSimple x86 cores, private unified16KiB 2way caches, continuous expiry, common4-client HUSH service\", \"roi_start_tick\": 3530476000, \"roi_end_tick\": 6442247000, \"roi_ticks\": 2911771000, \"phase_events\": [{\"id\": 0, \"tick\": 3530476000}, {\"id\": 1, \"tick\": 3585335000}, {\"id\": 2, \"tick\": 4380643000}, {\"id\": 13, \"tick\": 5878573000, \"completed_task\": 3}, {\"id\": 10, \"tick\": 6409695000, \"completed_task\": 0}, {\"id\": 12, \"tick\": 6417033000, \"completed_task\": 2}, {\"id\": 11, \"tick\": 6430011000, \"completed_task\": 1}, {\"id\": 99, \"tick\": 6442247000}], \"timeout_register_writes\": 0, \"terminal\": {\"cause\": \"exiting with last active thread context\", \"code\": 0, \"tick\": 6497880000}, \"final_tick\": 6497880000, \"marker_errors\": [], \"roi_stats_block\": 1, \"scope\": \"source-marker-guided prospective API, not quantized RTL/WCET proof or production CSR; exact configuration-cost model recorded\"}\n",
+    "stderr_tail": "",
+    "config_sha256": "3278efb3b24a90bd2f56caa299480b0a6a1b4eff04f5fce27ee3abb639791fe9",
+    "benchmark_sha256": "2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096",
+    "result_sha256": "70e73f9c9c890ea363c2d356d04390208ac068bec80b0152b14ae01ef3594dd0"
+  },
+  {
+    "case": {
+      "N": 36,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n36-s3-fixed64",
+      "kind": "fixed",
+      "K": [
+        64,
+        64,
+        64
+      ]
+    },
+    "valid": true,
+    "returncode": 0,
+    "roi_ticks": 2912159000,
+    "roi_cycles": 2912159.0,
+    "register_writes": 0,
+    "phase_events": [
+      {
+        "id": 0,
+        "tick": 3530581000
+      },
+      {
+        "id": 1,
+        "tick": 3584762000
+      },
+      {
+        "id": 2,
+        "tick": 4381220000
+      },
+      {
+        "id": 13,
+        "tick": 5857822000,
+        "completed_task": 3
+      },
+      {
+        "id": 10,
+        "tick": 6410188000,
+        "completed_task": 0
+      },
+      {
+        "id": 12,
+        "tick": 6417526000,
+        "completed_task": 2
+      },
+      {
+        "id": 11,
+        "tick": 6430504000,
+        "completed_task": 1
+      },
+      {
+        "id": 99,
+        "tick": 6442740000
+      }
+    ],
+    "terminal": {
+      "cause": "exiting with last active thread context",
+      "code": 0,
+      "tick": 6498373000
+    },
+    "marker_errors": [],
+    "instructions": 2387862.0,
+    "updates": 540.0,
+    "replacements": 2239.0,
+    "misses": 4171.0,
+    "invariant_failures": {},
+    "stdout_tail": "42227456\nHUSH_APPLICATION={\"kind\": \"native_cpu_application_pilot\", \"mode\": \"hush\", \"schedule_cycles\": [64, 64, 64], \"configuration_stall_cycles\": 8, \"command\": [\"fir-pipeline-v3\", \"36\", \"64\", \"64\", \"4\", \"8\", \"1\"], \"binary_sha256\": \"2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096\", \"architecture\": \"four TimingSimple x86 cores, private unified16KiB 2way caches, continuous expiry, common4-client HUSH service\", \"roi_start_tick\": 3530581000, \"roi_end_tick\": 6442740000, \"roi_ticks\": 2912159000, \"phase_events\": [{\"id\": 0, \"tick\": 3530581000}, {\"id\": 1, \"tick\": 3584762000}, {\"id\": 2, \"tick\": 4381220000}, {\"id\": 13, \"tick\": 5857822000, \"completed_task\": 3}, {\"id\": 10, \"tick\": 6410188000, \"completed_task\": 0}, {\"id\": 12, \"tick\": 6417526000, \"completed_task\": 2}, {\"id\": 11, \"tick\": 6430504000, \"completed_task\": 1}, {\"id\": 99, \"tick\": 6442740000}], \"timeout_register_writes\": 0, \"terminal\": {\"cause\": \"exiting with last active thread context\", \"code\": 0, \"tick\": 6498373000}, \"final_tick\": 6498373000, \"marker_errors\": [], \"roi_stats_block\": 1, \"scope\": \"source-marker-guided prospective API, not quantized RTL/WCET proof or production CSR; exact configuration-cost model recorded\"}\n",
+    "stderr_tail": "",
+    "config_sha256": "3278efb3b24a90bd2f56caa299480b0a6a1b4eff04f5fce27ee3abb639791fe9",
+    "benchmark_sha256": "2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096",
+    "result_sha256": "7a7b36297fbf27a453cc31139ef127401b7c95d94699c3b5d5a534f45e817197"
+  },
+  {
+    "case": {
+      "N": 36,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n36-s3-fixed65536",
+      "kind": "fixed",
+      "K": [
+        65536,
+        65536,
+        65536
+      ]
+    },
+    "valid": true,
+    "returncode": 0,
+    "roi_ticks": 2904249000,
+    "roi_cycles": 2904249.0,
+    "register_writes": 0,
+    "phase_events": [
+      {
+        "id": 0,
+        "tick": 3529422000
+      },
+      {
+        "id": 1,
+        "tick": 3584281000
+      },
+      {
+        "id": 2,
+        "tick": 4379101000
+      },
+      {
+        "id": 13,
+        "tick": 5877409000,
+        "completed_task": 3
+      },
+      {
+        "id": 10,
+        "tick": 6409621000,
+        "completed_task": 0
+      },
+      {
+        "id": 12,
+        "tick": 6410031000,
+        "completed_task": 2
+      },
+      {
+        "id": 11,
+        "tick": 6421281000,
+        "completed_task": 1
+      },
+      {
+        "id": 99,
+        "tick": 6433671000
+      }
+    ],
+    "terminal": {
+      "cause": "exiting with last active thread context",
+      "code": 0,
+      "tick": 6489504000
+    },
+    "marker_errors": [],
+    "instructions": 2387862.0,
+    "updates": 2453.0,
+    "replacements": 2354.0,
+    "misses": 5876.0,
+    "invariant_failures": {},
+    "stdout_tail": "HUSH_APPLICATION={\"kind\": \"native_cpu_application_pilot\", \"mode\": \"hush\", \"schedule_cycles\": [65536, 65536, 65536], \"configuration_stall_cycles\": 8, \"command\": [\"fir-pipeline-v3\", \"36\", \"64\", \"64\", \"4\", \"8\", \"1\"], \"binary_sha256\": \"2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096\", \"architecture\": \"four TimingSimple x86 cores, private unified16KiB 2way caches, continuous expiry, common4-client HUSH service\", \"roi_start_tick\": 3529422000, \"roi_end_tick\": 6433671000, \"roi_ticks\": 2904249000, \"phase_events\": [{\"id\": 0, \"tick\": 3529422000}, {\"id\": 1, \"tick\": 3584281000}, {\"id\": 2, \"tick\": 4379101000}, {\"id\": 13, \"tick\": 5877409000, \"completed_task\": 3}, {\"id\": 10, \"tick\": 6409621000, \"completed_task\": 0}, {\"id\": 12, \"tick\": 6410031000, \"completed_task\": 2}, {\"id\": 11, \"tick\": 6421281000, \"completed_task\": 1}, {\"id\": 99, \"tick\": 6433671000}], \"timeout_register_writes\": 0, \"terminal\": {\"cause\": \"exiting with last active thread context\", \"code\": 0, \"tick\": 6489504000}, \"final_tick\": 6489504000, \"marker_errors\": [], \"roi_stats_block\": 1, \"scope\": \"source-marker-guided prospective API, not quantized RTL/WCET proof or production CSR; exact configuration-cost model recorded\"}\n",
+    "stderr_tail": "",
+    "config_sha256": "3278efb3b24a90bd2f56caa299480b0a6a1b4eff04f5fce27ee3abb639791fe9",
+    "benchmark_sha256": "2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096",
+    "result_sha256": "83c06f9886abba591dd721d3ee013446d84e442d4f05755c8c6b898cb17d1df1"
+  },
+  {
+    "case": {
+      "N": 36,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n36-s3-fixed768",
+      "kind": "fixed",
+      "K": [
+        768,
+        768,
+        768
+      ]
+    },
+    "valid": true,
+    "returncode": 0,
+    "roi_ticks": 2911617000,
+    "roi_cycles": 2911617.0,
+    "register_writes": 0,
+    "phase_events": [
+      {
+        "id": 0,
+        "tick": 3530476000
+      },
+      {
+        "id": 1,
+        "tick": 3585335000
+      },
+      {
+        "id": 2,
+        "tick": 4380945000
+      },
+      {
+        "id": 13,
+        "tick": 5878444000,
+        "completed_task": 3
+      },
+      {
+        "id": 10,
+        "tick": 6409424000,
+        "completed_task": 0
+      },
+      {
+        "id": 12,
+        "tick": 6416529000,
+        "completed_task": 2
+      },
+      {
+        "id": 11,
+        "tick": 6429857000,
+        "completed_task": 1
+      },
+      {
+        "id": 99,
+        "tick": 6442093000
+      }
+    ],
+    "terminal": {
+      "cause": "exiting with last active thread context",
+      "code": 0,
+      "tick": 6497726000
+    },
+    "marker_errors": [],
+    "instructions": 2387862.0,
+    "updates": 2468.0,
+    "replacements": 2264.0,
+    "misses": 6050.0,
+    "invariant_failures": {},
+    "stdout_tail": "27456\nHUSH_APPLICATION={\"kind\": \"native_cpu_application_pilot\", \"mode\": \"hush\", \"schedule_cycles\": [768, 768, 768], \"configuration_stall_cycles\": 8, \"command\": [\"fir-pipeline-v3\", \"36\", \"64\", \"64\", \"4\", \"8\", \"1\"], \"binary_sha256\": \"2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096\", \"architecture\": \"four TimingSimple x86 cores, private unified16KiB 2way caches, continuous expiry, common4-client HUSH service\", \"roi_start_tick\": 3530476000, \"roi_end_tick\": 6442093000, \"roi_ticks\": 2911617000, \"phase_events\": [{\"id\": 0, \"tick\": 3530476000}, {\"id\": 1, \"tick\": 3585335000}, {\"id\": 2, \"tick\": 4380945000}, {\"id\": 13, \"tick\": 5878444000, \"completed_task\": 3}, {\"id\": 10, \"tick\": 6409424000, \"completed_task\": 0}, {\"id\": 12, \"tick\": 6416529000, \"completed_task\": 2}, {\"id\": 11, \"tick\": 6429857000, \"completed_task\": 1}, {\"id\": 99, \"tick\": 6442093000}], \"timeout_register_writes\": 0, \"terminal\": {\"cause\": \"exiting with last active thread context\", \"code\": 0, \"tick\": 6497726000}, \"final_tick\": 6497726000, \"marker_errors\": [], \"roi_stats_block\": 1, \"scope\": \"source-marker-guided prospective API, not quantized RTL/WCET proof or production CSR; exact configuration-cost model recorded\"}\n",
+    "stderr_tail": "",
+    "config_sha256": "3278efb3b24a90bd2f56caa299480b0a6a1b4eff04f5fce27ee3abb639791fe9",
+    "benchmark_sha256": "2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096",
+    "result_sha256": "77f42dbf137f0562aaa7e3271775ea66e02ce75968185e74f21137669a18a656"
+  },
+  {
+    "case": {
+      "N": 36,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n36-s3-fixed8",
+      "kind": "fixed",
+      "K": [
+        8,
+        8,
+        8
+      ]
+    },
+    "valid": true,
+    "returncode": 0,
+    "roi_ticks": 2912423000,
+    "roi_cycles": 2912423.0,
+    "register_writes": 0,
+    "phase_events": [
+      {
+        "id": 0,
+        "tick": 3530581000
+      },
+      {
+        "id": 1,
+        "tick": 3584762000
+      },
+      {
+        "id": 2,
+        "tick": 4381479000
+      },
+      {
+        "id": 13,
+        "tick": 5857824000,
+        "completed_task": 3
+      },
+      {
+        "id": 10,
+        "tick": 6410452000,
+        "completed_task": 0
+      },
+      {
+        "id": 12,
+        "tick": 6417790000,
+        "completed_task": 2
+      },
+      {
+        "id": 11,
+        "tick": 6430768000,
+        "completed_task": 1
+      },
+      {
+        "id": 99,
+        "tick": 6443004000
+      }
+    ],
+    "terminal": {
+      "cause": "exiting with last active thread context",
+      "code": 0,
+      "tick": 6498637000
+    },
+    "marker_errors": [],
+    "instructions": 2387862.0,
+    "updates": 541.0,
+    "replacements": 2239.0,
+    "misses": 4193.0,
+    "invariant_failures": {},
+    "stdout_tail": "52942227456\nHUSH_APPLICATION={\"kind\": \"native_cpu_application_pilot\", \"mode\": \"hush\", \"schedule_cycles\": [8, 8, 8], \"configuration_stall_cycles\": 8, \"command\": [\"fir-pipeline-v3\", \"36\", \"64\", \"64\", \"4\", \"8\", \"1\"], \"binary_sha256\": \"2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096\", \"architecture\": \"four TimingSimple x86 cores, private unified16KiB 2way caches, continuous expiry, common4-client HUSH service\", \"roi_start_tick\": 3530581000, \"roi_end_tick\": 6443004000, \"roi_ticks\": 2912423000, \"phase_events\": [{\"id\": 0, \"tick\": 3530581000}, {\"id\": 1, \"tick\": 3584762000}, {\"id\": 2, \"tick\": 4381479000}, {\"id\": 13, \"tick\": 5857824000, \"completed_task\": 3}, {\"id\": 10, \"tick\": 6410452000, \"completed_task\": 0}, {\"id\": 12, \"tick\": 6417790000, \"completed_task\": 2}, {\"id\": 11, \"tick\": 6430768000, \"completed_task\": 1}, {\"id\": 99, \"tick\": 6443004000}], \"timeout_register_writes\": 0, \"terminal\": {\"cause\": \"exiting with last active thread context\", \"code\": 0, \"tick\": 6498637000}, \"final_tick\": 6498637000, \"marker_errors\": [], \"roi_stats_block\": 1, \"scope\": \"source-marker-guided prospective API, not quantized RTL/WCET proof or production CSR; exact configuration-cost model recorded\"}\n",
+    "stderr_tail": "",
+    "config_sha256": "3278efb3b24a90bd2f56caa299480b0a6a1b4eff04f5fce27ee3abb639791fe9",
+    "benchmark_sha256": "2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096",
+    "result_sha256": "fa73e45fc5b8fce3c14a24f10aced0735c0f7da6ee29a04b04a856312be6ebbc"
+  },
+  {
+    "case": {
+      "N": 36,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n36-s3-fixed8192",
+      "kind": "fixed",
+      "K": [
+        8192,
+        8192,
+        8192
+      ]
+    },
+    "valid": true,
+    "returncode": 0,
+    "roi_ticks": 2910812000,
+    "roi_cycles": 2910812.0,
+    "register_writes": 0,
+    "phase_events": [
+      {
+        "id": 0,
+        "tick": 3530476000
+      },
+      {
+        "id": 1,
+        "tick": 3585335000
+      },
+      {
+        "id": 2,
+        "tick": 4380467000
+      },
+      {
+        "id": 13,
+        "tick": 5878605000,
+        "completed_task": 3
+      },
+      {
+        "id": 10,
+        "tick": 6408931000,
+        "completed_task": 0
+      },
+      {
+        "id": 12,
+        "tick": 6416092000,
+        "completed_task": 2
+      },
+      {
+        "id": 11,
+        "tick": 6429108000,
+        "completed_task": 1
+      },
+      {
+        "id": 99,
+        "tick": 6441288000
+      }
+    ],
+    "terminal": {
+      "cause": "exiting with last active thread context",
+      "code": 0,
+      "tick": 6496921000
+    },
+    "marker_errors": [],
+    "instructions": 2387862.0,
+    "updates": 2463.0,
+    "replacements": 2286.0,
+    "misses": 6028.0,
+    "invariant_failures": {},
+    "stdout_tail": "56\nHUSH_APPLICATION={\"kind\": \"native_cpu_application_pilot\", \"mode\": \"hush\", \"schedule_cycles\": [8192, 8192, 8192], \"configuration_stall_cycles\": 8, \"command\": [\"fir-pipeline-v3\", \"36\", \"64\", \"64\", \"4\", \"8\", \"1\"], \"binary_sha256\": \"2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096\", \"architecture\": \"four TimingSimple x86 cores, private unified16KiB 2way caches, continuous expiry, common4-client HUSH service\", \"roi_start_tick\": 3530476000, \"roi_end_tick\": 6441288000, \"roi_ticks\": 2910812000, \"phase_events\": [{\"id\": 0, \"tick\": 3530476000}, {\"id\": 1, \"tick\": 3585335000}, {\"id\": 2, \"tick\": 4380467000}, {\"id\": 13, \"tick\": 5878605000, \"completed_task\": 3}, {\"id\": 10, \"tick\": 6408931000, \"completed_task\": 0}, {\"id\": 12, \"tick\": 6416092000, \"completed_task\": 2}, {\"id\": 11, \"tick\": 6429108000, \"completed_task\": 1}, {\"id\": 99, \"tick\": 6441288000}], \"timeout_register_writes\": 0, \"terminal\": {\"cause\": \"exiting with last active thread context\", \"code\": 0, \"tick\": 6496921000}, \"final_tick\": 6496921000, \"marker_errors\": [], \"roi_stats_block\": 1, \"scope\": \"source-marker-guided prospective API, not quantized RTL/WCET proof or production CSR; exact configuration-cost model recorded\"}\n",
+    "stderr_tail": "",
+    "config_sha256": "3278efb3b24a90bd2f56caa299480b0a6a1b4eff04f5fce27ee3abb639791fe9",
+    "benchmark_sha256": "2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096",
+    "result_sha256": "0a5e75545948994d3d7497722c1fecb7b6b4cc0ab6f0d468f3e53df2b32b8e3b"
+  },
+  {
+    "case": {
+      "N": 36,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n36-s3-phase",
+      "kind": "selected-phase",
+      "K": [
+        16384,
+        16384,
+        2048
+      ]
+    },
+    "valid": true,
+    "returncode": 0,
+    "roi_ticks": 2910932000,
+    "roi_cycles": 2910932.0,
+    "register_writes": 4,
+    "phase_events": [
+      {
+        "id": 0,
+        "tick": 3530120000
+      },
+      {
+        "id": 1,
+        "tick": 3584979000
+      },
+      {
+        "id": 2,
+        "tick": 4379802000,
+        "applied_T_cycles": 2048
+      },
+      {
+        "id": 13,
+        "tick": 5878239000,
+        "completed_task": 3
+      },
+      {
+        "id": 10,
+        "tick": 6408645000,
+        "completed_task": 0
+      },
+      {
+        "id": 12,
+        "tick": 6415569000,
+        "completed_task": 2
+      },
+      {
+        "id": 11,
+        "tick": 6428818000,
+        "completed_task": 1
+      },
+      {
+        "id": 99,
+        "tick": 6441052000
+      }
+    ],
+    "terminal": {
+      "cause": "exiting with last active thread context",
+      "code": 0,
+      "tick": 6496685000
+    },
+    "marker_errors": [],
+    "instructions": 2387870.0,
+    "updates": 2463.0,
+    "replacements": 2291.0,
+    "misses": 6014.0,
+    "invariant_failures": {},
+    "stdout_tail": " \"native_cpu_application_pilot\", \"mode\": \"hush\", \"schedule_cycles\": [16384, 16384, 2048], \"configuration_stall_cycles\": 8, \"command\": [\"fir-pipeline-v3\", \"36\", \"64\", \"64\", \"4\", \"8\", \"1\"], \"binary_sha256\": \"2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096\", \"architecture\": \"four TimingSimple x86 cores, private unified16KiB 2way caches, continuous expiry, common4-client HUSH service\", \"roi_start_tick\": 3530120000, \"roi_end_tick\": 6441052000, \"roi_ticks\": 2910932000, \"phase_events\": [{\"id\": 0, \"tick\": 3530120000}, {\"id\": 1, \"tick\": 3584979000}, {\"id\": 2, \"tick\": 4379802000, \"applied_T_cycles\": 2048}, {\"id\": 13, \"tick\": 5878239000, \"completed_task\": 3}, {\"id\": 10, \"tick\": 6408645000, \"completed_task\": 0}, {\"id\": 12, \"tick\": 6415569000, \"completed_task\": 2}, {\"id\": 11, \"tick\": 6428818000, \"completed_task\": 1}, {\"id\": 99, \"tick\": 6441052000}], \"timeout_register_writes\": 4, \"terminal\": {\"cause\": \"exiting with last active thread context\", \"code\": 0, \"tick\": 6496685000}, \"final_tick\": 6496685000, \"marker_errors\": [], \"roi_stats_block\": 1, \"scope\": \"source-marker-guided prospective API, not quantized RTL/WCET proof or production CSR; exact configuration-cost model recorded\"}\n",
+    "stderr_tail": "",
+    "config_sha256": "3278efb3b24a90bd2f56caa299480b0a6a1b4eff04f5fce27ee3abb639791fe9",
+    "benchmark_sha256": "2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096",
+    "result_sha256": "26715d55c95710841e080a35856dc03ea7c1252742357f6d1129c3d2706f601a"
+  },
+  {
+    "case": {
+      "N": 36,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "predictable-wi",
+      "cost": 0,
+      "id": "n36-s3-predictable-wi",
+      "kind": "control",
+      "K": [
+        512,
+        512,
+        512
+      ]
+    },
+    "valid": true,
+    "returncode": 0,
+    "roi_ticks": 3253366000,
+    "roi_cycles": 3253366.0,
+    "register_writes": 0,
+    "phase_events": [
+      {
+        "id": 0,
+        "tick": 3532204000
+      },
+      {
+        "id": 1,
+        "tick": 3586173000
+      },
+      {
+        "id": 2,
+        "tick": 4386570000
+      },
+      {
+        "id": 13,
+        "tick": 5855146000,
+        "completed_task": 3
+      },
+      {
+        "id": 10,
+        "tick": 6415487000,
+        "completed_task": 0
+      },
+      {
+        "id": 12,
+        "tick": 6769766000,
+        "completed_task": 2
+      },
+      {
+        "id": 11,
+        "tick": 6770237000,
+        "completed_task": 1
+      },
+      {
+        "id": 99,
+        "tick": 6785570000
+      }
+    ],
+    "terminal": {
+      "cause": "exiting with last active thread context",
+      "code": 0,
+      "tick": 6841603000
+    },
+    "marker_errors": [],
+    "instructions": 2387838.0,
+    "updates": 0.0,
+    "replacements": 8871.0,
+    "misses": 10424.0,
+    "invariant_failures": {},
+    "stdout_tail": "_APPLICATION={\"kind\": \"native_cpu_application_pilot\", \"mode\": \"predictable-wi\", \"schedule_cycles\": [512, 512, 512], \"configuration_stall_cycles\": 0, \"command\": [\"fir-pipeline-v3\", \"36\", \"64\", \"64\", \"4\", \"0\", \"1\"], \"binary_sha256\": \"2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096\", \"architecture\": \"four TimingSimple x86 cores, private unified16KiB 2way caches, continuous expiry, common4-client HUSH service\", \"roi_start_tick\": 3532204000, \"roi_end_tick\": 6785570000, \"roi_ticks\": 3253366000, \"phase_events\": [{\"id\": 0, \"tick\": 3532204000}, {\"id\": 1, \"tick\": 3586173000}, {\"id\": 2, \"tick\": 4386570000}, {\"id\": 13, \"tick\": 5855146000, \"completed_task\": 3}, {\"id\": 10, \"tick\": 6415487000, \"completed_task\": 0}, {\"id\": 12, \"tick\": 6769766000, \"completed_task\": 2}, {\"id\": 11, \"tick\": 6770237000, \"completed_task\": 1}, {\"id\": 99, \"tick\": 6785570000}], \"timeout_register_writes\": 0, \"terminal\": {\"cause\": \"exiting with last active thread context\", \"code\": 0, \"tick\": 6841603000}, \"final_tick\": 6841603000, \"marker_errors\": [], \"roi_stats_block\": 1, \"scope\": \"source-marker-guided prospective API, not quantized RTL/WCET proof or production CSR; exact configuration-cost model recorded\"}\n",
+    "stderr_tail": "",
+    "config_sha256": "3278efb3b24a90bd2f56caa299480b0a6a1b4eff04f5fce27ee3abb639791fe9",
+    "benchmark_sha256": "2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096",
+    "result_sha256": "b69483f5b3c2c1b5e786ff688776b5a2d056d53e3249896ab53a02995fa6838a"
+  },
+  {
+    "case": {
+      "N": 36,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "wu-of",
+      "cost": 0,
+      "id": "n36-s3-wu-of",
+      "kind": "control",
+      "K": [
+        512,
+        512,
+        512
+      ]
+    },
+    "valid": true,
+    "returncode": 0,
+    "roi_ticks": 2942669000,
+    "roi_cycles": 2942669.0,
+    "register_writes": 0,
+    "phase_events": [
+      {
+        "id": 0,
+        "tick": 3530651000
+      },
+      {
+        "id": 1,
+        "tick": 3585510000
+      },
+      {
+        "id": 2,
+        "tick": 4378190000
+      },
+      {
+        "id": 13,
+        "tick": 5933395000,
+        "completed_task": 3
+      },
+      {
+        "id": 10,
+        "tick": 6407798000,
+        "completed_task": 0
+      },
+      {
+        "id": 11,
+        "tick": 6460370000,
+        "completed_task": 1
+      },
+      {
+        "id": 12,
+        "tick": 6461252000,
+        "completed_task": 2
+      },
+      {
+        "id": 99,
+        "tick": 6473320000
+      }
+    ],
+    "terminal": {
+      "cause": "exiting with last active thread context",
+      "code": 0,
+      "tick": 6528884000
+    },
+    "marker_errors": [],
+    "instructions": 2387862.0,
+    "updates": 7433.0,
+    "replacements": 3626.0,
+    "misses": 11677.0,
+    "invariant_failures": {},
+    "stdout_tail": "7456\nHUSH_APPLICATION={\"kind\": \"native_cpu_application_pilot\", \"mode\": \"wu-of\", \"schedule_cycles\": [512, 512, 512], \"configuration_stall_cycles\": 0, \"command\": [\"fir-pipeline-v3\", \"36\", \"64\", \"64\", \"4\", \"0\", \"1\"], \"binary_sha256\": \"2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096\", \"architecture\": \"four TimingSimple x86 cores, private unified16KiB 2way caches, continuous expiry, common4-client HUSH service\", \"roi_start_tick\": 3530651000, \"roi_end_tick\": 6473320000, \"roi_ticks\": 2942669000, \"phase_events\": [{\"id\": 0, \"tick\": 3530651000}, {\"id\": 1, \"tick\": 3585510000}, {\"id\": 2, \"tick\": 4378190000}, {\"id\": 13, \"tick\": 5933395000, \"completed_task\": 3}, {\"id\": 10, \"tick\": 6407798000, \"completed_task\": 0}, {\"id\": 11, \"tick\": 6460370000, \"completed_task\": 1}, {\"id\": 12, \"tick\": 6461252000, \"completed_task\": 2}, {\"id\": 99, \"tick\": 6473320000}], \"timeout_register_writes\": 0, \"terminal\": {\"cause\": \"exiting with last active thread context\", \"code\": 0, \"tick\": 6528884000}, \"final_tick\": 6528884000, \"marker_errors\": [], \"roi_stats_block\": 1, \"scope\": \"source-marker-guided prospective API, not quantized RTL/WCET proof or production CSR; exact configuration-cost model recorded\"}\n",
+    "stderr_tail": "",
+    "config_sha256": "3278efb3b24a90bd2f56caa299480b0a6a1b4eff04f5fce27ee3abb639791fe9",
+    "benchmark_sha256": "2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096",
+    "result_sha256": "05cb664069e0d9df86bfc97a1a8fd98f0672c95d35d9d0be51bf9065a98b50e7"
+  },
+  {
+    "case": {
+      "N": 40,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n40-s3-fixed1024",
+      "kind": "fixed",
+      "K": [
+        1024,
+        1024,
+        1024
+      ]
+    },
+    "valid": true,
+    "returncode": 0,
+    "roi_ticks": 4090805000,
+    "roi_cycles": 4090805.0,
+    "register_writes": 0,
+    "phase_events": [
+      {
+        "id": 0,
+        "tick": 4382711000
+      },
+      {
+        "id": 1,
+        "tick": 4450005000
+      },
+      {
+        "id": 2,
+        "tick": 5439310000
+      },
+      {
+        "id": 13,
+        "tick": 7285542000,
+        "completed_task": 3
+      },
+      {
+        "id": 10,
+        "tick": 8008703000,
+        "completed_task": 0
+      },
+      {
+        "id": 12,
+        "tick": 8449733000,
+        "completed_task": 2
+      },
+      {
+        "id": 11,
+        "tick": 8461026000,
+        "completed_task": 1
+      },
+      {
+        "id": 99,
+        "tick": 8473516000
+      }
+    ],
+    "terminal": {
+      "cause": "exiting with last active thread context",
+      "code": 0,
+      "tick": 8529039000
+    },
+    "marker_errors": [],
+    "instructions": 2981174.0,
+    "updates": 2905.0,
+    "replacements": 11955.0,
+    "misses": 16279.0,
+    "invariant_failures": {},
+    "stdout_tail": "24\nHUSH_APPLICATION={\"kind\": \"native_cpu_application_pilot\", \"mode\": \"hush\", \"schedule_cycles\": [1024, 1024, 1024], \"configuration_stall_cycles\": 8, \"command\": [\"fir-pipeline-v3\", \"40\", \"64\", \"64\", \"4\", \"8\", \"1\"], \"binary_sha256\": \"2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096\", \"architecture\": \"four TimingSimple x86 cores, private unified16KiB 2way caches, continuous expiry, common4-client HUSH service\", \"roi_start_tick\": 4382711000, \"roi_end_tick\": 8473516000, \"roi_ticks\": 4090805000, \"phase_events\": [{\"id\": 0, \"tick\": 4382711000}, {\"id\": 1, \"tick\": 4450005000}, {\"id\": 2, \"tick\": 5439310000}, {\"id\": 13, \"tick\": 7285542000, \"completed_task\": 3}, {\"id\": 10, \"tick\": 8008703000, \"completed_task\": 0}, {\"id\": 12, \"tick\": 8449733000, \"completed_task\": 2}, {\"id\": 11, \"tick\": 8461026000, \"completed_task\": 1}, {\"id\": 99, \"tick\": 8473516000}], \"timeout_register_writes\": 0, \"terminal\": {\"cause\": \"exiting with last active thread context\", \"code\": 0, \"tick\": 8529039000}, \"final_tick\": 8529039000, \"marker_errors\": [], \"roi_stats_block\": 1, \"scope\": \"source-marker-guided prospective API, not quantized RTL/WCET proof or production CSR; exact configuration-cost model recorded\"}\n",
+    "stderr_tail": "",
+    "config_sha256": "3278efb3b24a90bd2f56caa299480b0a6a1b4eff04f5fce27ee3abb639791fe9",
+    "benchmark_sha256": "2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096",
+    "result_sha256": "98cda0b18659fb59cee6ac951e8984dac43f22092d338ce359dedbc4ac449ee9"
+  },
+  {
+    "case": {
+      "N": 40,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n40-s3-fixed128",
+      "kind": "fixed",
+      "K": [
+        128,
+        128,
+        128
+      ]
+    },
+    "valid": true,
+    "returncode": 0,
+    "roi_ticks": 4088926000,
+    "roi_cycles": 4088926.0,
+    "register_writes": 0,
+    "phase_events": [
+      {
+        "id": 0,
+        "tick": 4382711000
+      },
+      {
+        "id": 1,
+        "tick": 4449161000
+      },
+      {
+        "id": 2,
+        "tick": 5438879000
+      },
+      {
+        "id": 13,
+        "tick": 7261160000,
+        "completed_task": 3
+      },
+      {
+        "id": 10,
+        "tick": 8008598000,
+        "completed_task": 0
+      },
+      {
+        "id": 11,
+        "tick": 8449867000,
+        "completed_task": 1
+      },
+      {
+        "id": 12,
+        "tick": 8461502000,
+        "completed_task": 2
+      },
+      {
+        "id": 99,
+        "tick": 8471637000
+      }
+    ],
+    "terminal": {
+      "cause": "exiting with last active thread context",
+      "code": 0,
+      "tick": 8526960000
+    },
+    "marker_errors": [],
+    "instructions": 2981255.0,
+    "updates": 624.0,
+    "replacements": 11898.0,
+    "misses": 14034.0,
+    "invariant_failures": {},
+    "stdout_tail": "01024\nHUSH_APPLICATION={\"kind\": \"native_cpu_application_pilot\", \"mode\": \"hush\", \"schedule_cycles\": [128, 128, 128], \"configuration_stall_cycles\": 8, \"command\": [\"fir-pipeline-v3\", \"40\", \"64\", \"64\", \"4\", \"8\", \"1\"], \"binary_sha256\": \"2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096\", \"architecture\": \"four TimingSimple x86 cores, private unified16KiB 2way caches, continuous expiry, common4-client HUSH service\", \"roi_start_tick\": 4382711000, \"roi_end_tick\": 8471637000, \"roi_ticks\": 4088926000, \"phase_events\": [{\"id\": 0, \"tick\": 4382711000}, {\"id\": 1, \"tick\": 4449161000}, {\"id\": 2, \"tick\": 5438879000}, {\"id\": 13, \"tick\": 7261160000, \"completed_task\": 3}, {\"id\": 10, \"tick\": 8008598000, \"completed_task\": 0}, {\"id\": 11, \"tick\": 8449867000, \"completed_task\": 1}, {\"id\": 12, \"tick\": 8461502000, \"completed_task\": 2}, {\"id\": 99, \"tick\": 8471637000}], \"timeout_register_writes\": 0, \"terminal\": {\"cause\": \"exiting with last active thread context\", \"code\": 0, \"tick\": 8526960000}, \"final_tick\": 8526960000, \"marker_errors\": [], \"roi_stats_block\": 1, \"scope\": \"source-marker-guided prospective API, not quantized RTL/WCET proof or production CSR; exact configuration-cost model recorded\"}\n",
+    "stderr_tail": "",
+    "config_sha256": "3278efb3b24a90bd2f56caa299480b0a6a1b4eff04f5fce27ee3abb639791fe9",
+    "benchmark_sha256": "2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096",
+    "result_sha256": "8094d81c3a7a5e024b28008965047a623b20b6bcf464937b53fa6d24fabf8322"
+  },
+  {
+    "case": {
+      "N": 40,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n40-s3-fixed1536",
+      "kind": "fixed",
+      "K": [
+        1536,
+        1536,
+        1536
+      ]
+    },
+    "valid": true,
+    "returncode": 0,
+    "roi_ticks": 4090848000,
+    "roi_cycles": 4090848.0,
+    "register_writes": 0,
+    "phase_events": [
+      {
+        "id": 0,
+        "tick": 4382711000
+      },
+      {
+        "id": 1,
+        "tick": 4450005000
+      },
+      {
+        "id": 2,
+        "tick": 5439353000
+      },
+      {
+        "id": 13,
+        "tick": 7285585000,
+        "completed_task": 3
+      },
+      {
+        "id": 10,
+        "tick": 8008746000,
+        "completed_task": 0
+      },
+      {
+        "id": 12,
+        "tick": 8449776000,
+        "completed_task": 2
+      },
+      {
+        "id": 11,
+        "tick": 8461069000,
+        "completed_task": 1
+      },
+      {
+        "id": 99,
+        "tick": 8473559000
+      }
+    ],
+    "terminal": {
+      "cause": "exiting with last active thread context",
+      "code": 0,
+      "tick": 8529082000
+    },
+    "marker_errors": [],
+    "instructions": 2981174.0,
+    "updates": 2906.0,
+    "replacements": 11956.0,
+    "misses": 16279.0,
+    "invariant_failures": {},
+    "stdout_tail": "24\nHUSH_APPLICATION={\"kind\": \"native_cpu_application_pilot\", \"mode\": \"hush\", \"schedule_cycles\": [1536, 1536, 1536], \"configuration_stall_cycles\": 8, \"command\": [\"fir-pipeline-v3\", \"40\", \"64\", \"64\", \"4\", \"8\", \"1\"], \"binary_sha256\": \"2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096\", \"architecture\": \"four TimingSimple x86 cores, private unified16KiB 2way caches, continuous expiry, common4-client HUSH service\", \"roi_start_tick\": 4382711000, \"roi_end_tick\": 8473559000, \"roi_ticks\": 4090848000, \"phase_events\": [{\"id\": 0, \"tick\": 4382711000}, {\"id\": 1, \"tick\": 4450005000}, {\"id\": 2, \"tick\": 5439353000}, {\"id\": 13, \"tick\": 7285585000, \"completed_task\": 3}, {\"id\": 10, \"tick\": 8008746000, \"completed_task\": 0}, {\"id\": 12, \"tick\": 8449776000, \"completed_task\": 2}, {\"id\": 11, \"tick\": 8461069000, \"completed_task\": 1}, {\"id\": 99, \"tick\": 8473559000}], \"timeout_register_writes\": 0, \"terminal\": {\"cause\": \"exiting with last active thread context\", \"code\": 0, \"tick\": 8529082000}, \"final_tick\": 8529082000, \"marker_errors\": [], \"roi_stats_block\": 1, \"scope\": \"source-marker-guided prospective API, not quantized RTL/WCET proof or production CSR; exact configuration-cost model recorded\"}\n",
+    "stderr_tail": "",
+    "config_sha256": "3278efb3b24a90bd2f56caa299480b0a6a1b4eff04f5fce27ee3abb639791fe9",
+    "benchmark_sha256": "2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096",
+    "result_sha256": "e42520f425e4c8881287a63a0840dd1c58096a3c1697296e7491e5709b8ae4fb"
+  },
+  {
+    "case": {
+      "N": 40,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n40-s3-fixed16384",
+      "kind": "fixed",
+      "K": [
+        16384,
+        16384,
+        16384
+      ]
+    },
+    "valid": true,
+    "returncode": 0,
+    "roi_ticks": 4090983000,
+    "roi_cycles": 4090983.0,
+    "register_writes": 0,
+    "phase_events": [
+      {
+        "id": 0,
+        "tick": 4381655000
+      },
+      {
+        "id": 1,
+        "tick": 4448949000
+      },
+      {
+        "id": 2,
+        "tick": 5438420000
+      },
+      {
+        "id": 13,
+        "tick": 7284323000,
+        "completed_task": 3
+      },
+      {
+        "id": 10,
+        "tick": 8008407000,
+        "completed_task": 0
+      },
+      {
+        "id": 12,
+        "tick": 8448674000,
+        "completed_task": 2
+      },
+      {
+        "id": 11,
+        "tick": 8460202000,
+        "completed_task": 1
+      },
+      {
+        "id": 99,
+        "tick": 8472638000
+      }
+    ],
+    "terminal": {
+      "cause": "exiting with last active thread context",
+      "code": 0,
+      "tick": 8528111000
+    },
+    "marker_errors": [],
+    "instructions": 2981174.0,
+    "updates": 2907.0,
+    "replacements": 12030.0,
+    "misses": 16266.0,
+    "invariant_failures": {},
+    "stdout_tail": "HUSH_APPLICATION={\"kind\": \"native_cpu_application_pilot\", \"mode\": \"hush\", \"schedule_cycles\": [16384, 16384, 16384], \"configuration_stall_cycles\": 8, \"command\": [\"fir-pipeline-v3\", \"40\", \"64\", \"64\", \"4\", \"8\", \"1\"], \"binary_sha256\": \"2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096\", \"architecture\": \"four TimingSimple x86 cores, private unified16KiB 2way caches, continuous expiry, common4-client HUSH service\", \"roi_start_tick\": 4381655000, \"roi_end_tick\": 8472638000, \"roi_ticks\": 4090983000, \"phase_events\": [{\"id\": 0, \"tick\": 4381655000}, {\"id\": 1, \"tick\": 4448949000}, {\"id\": 2, \"tick\": 5438420000}, {\"id\": 13, \"tick\": 7284323000, \"completed_task\": 3}, {\"id\": 10, \"tick\": 8008407000, \"completed_task\": 0}, {\"id\": 12, \"tick\": 8448674000, \"completed_task\": 2}, {\"id\": 11, \"tick\": 8460202000, \"completed_task\": 1}, {\"id\": 99, \"tick\": 8472638000}], \"timeout_register_writes\": 0, \"terminal\": {\"cause\": \"exiting with last active thread context\", \"code\": 0, \"tick\": 8528111000}, \"final_tick\": 8528111000, \"marker_errors\": [], \"roi_stats_block\": 1, \"scope\": \"source-marker-guided prospective API, not quantized RTL/WCET proof or production CSR; exact configuration-cost model recorded\"}\n",
+    "stderr_tail": "",
+    "config_sha256": "3278efb3b24a90bd2f56caa299480b0a6a1b4eff04f5fce27ee3abb639791fe9",
+    "benchmark_sha256": "2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096",
+    "result_sha256": "992f7aab5cdf2b47d38cc4a342dfd2ad899ac045176f55672d2cfb46eb2eb65d"
+  },
+  {
+    "case": {
+      "N": 40,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n40-s3-fixed2048",
+      "kind": "fixed",
+      "K": [
+        2048,
+        2048,
+        2048
+      ]
+    },
+    "valid": true,
+    "returncode": 0,
+    "roi_ticks": 4090929000,
+    "roi_cycles": 4090929.0,
+    "register_writes": 0,
+    "phase_events": [
+      {
+        "id": 0,
+        "tick": 4382711000
+      },
+      {
+        "id": 1,
+        "tick": 4450005000
+      },
+      {
+        "id": 2,
+        "tick": 5439462000
+      },
+      {
+        "id": 13,
+        "tick": 7285519000,
+        "completed_task": 3
+      },
+      {
+        "id": 10,
+        "tick": 8008874000,
+        "completed_task": 0
+      },
+      {
+        "id": 12,
+        "tick": 8450221000,
+        "completed_task": 2
+      },
+      {
+        "id": 11,
+        "tick": 8461150000,
+        "completed_task": 1
+      },
+      {
+        "id": 99,
+        "tick": 8473640000
+      }
+    ],
+    "terminal": {
+      "cause": "exiting with last active thread context",
+      "code": 0,
+      "tick": 8529163000
+    },
+    "marker_errors": [],
+    "instructions": 2981174.0,
+    "updates": 2906.0,
+    "replacements": 11961.0,
+    "misses": 16281.0,
+    "invariant_failures": {},
+    "stdout_tail": "24\nHUSH_APPLICATION={\"kind\": \"native_cpu_application_pilot\", \"mode\": \"hush\", \"schedule_cycles\": [2048, 2048, 2048], \"configuration_stall_cycles\": 8, \"command\": [\"fir-pipeline-v3\", \"40\", \"64\", \"64\", \"4\", \"8\", \"1\"], \"binary_sha256\": \"2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096\", \"architecture\": \"four TimingSimple x86 cores, private unified16KiB 2way caches, continuous expiry, common4-client HUSH service\", \"roi_start_tick\": 4382711000, \"roi_end_tick\": 8473640000, \"roi_ticks\": 4090929000, \"phase_events\": [{\"id\": 0, \"tick\": 4382711000}, {\"id\": 1, \"tick\": 4450005000}, {\"id\": 2, \"tick\": 5439462000}, {\"id\": 13, \"tick\": 7285519000, \"completed_task\": 3}, {\"id\": 10, \"tick\": 8008874000, \"completed_task\": 0}, {\"id\": 12, \"tick\": 8450221000, \"completed_task\": 2}, {\"id\": 11, \"tick\": 8461150000, \"completed_task\": 1}, {\"id\": 99, \"tick\": 8473640000}], \"timeout_register_writes\": 0, \"terminal\": {\"cause\": \"exiting with last active thread context\", \"code\": 0, \"tick\": 8529163000}, \"final_tick\": 8529163000, \"marker_errors\": [], \"roi_stats_block\": 1, \"scope\": \"source-marker-guided prospective API, not quantized RTL/WCET proof or production CSR; exact configuration-cost model recorded\"}\n",
+    "stderr_tail": "",
+    "config_sha256": "3278efb3b24a90bd2f56caa299480b0a6a1b4eff04f5fce27ee3abb639791fe9",
+    "benchmark_sha256": "2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096",
+    "result_sha256": "f524f5814d8d7e5a236b32af1ef8381bd57e33f239fe3007bf2b5b6f28dabaf4"
+  },
+  {
+    "case": {
+      "N": 40,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n40-s3-fixed256",
+      "kind": "fixed",
+      "K": [
+        256,
+        256,
+        256
+      ]
+    },
+    "valid": true,
+    "returncode": 0,
+    "roi_ticks": 4087458000,
+    "roi_cycles": 4087458.0,
+    "register_writes": 0,
+    "phase_events": [
+      {
+        "id": 0,
+        "tick": 4382711000
+      },
+      {
+        "id": 1,
+        "tick": 4449161000
+      },
+      {
+        "id": 2,
+        "tick": 5438293000
+      },
+      {
+        "id": 13,
+        "tick": 7276780000,
+        "completed_task": 3
+      },
+      {
+        "id": 10,
+        "tick": 8007812000,
+        "completed_task": 0
+      },
+      {
+        "id": 11,
+        "tick": 8448399000,
+        "completed_task": 1
+      },
+      {
+        "id": 12,
+        "tick": 8460034000,
+        "completed_task": 2
+      },
+      {
+        "id": 99,
+        "tick": 8470169000
+      }
+    ],
+    "terminal": {
+      "cause": "exiting with last active thread context",
+      "code": 0,
+      "tick": 8525492000
+    },
+    "marker_errors": [],
+    "instructions": 2981255.0,
+    "updates": 2030.0,
+    "replacements": 11924.0,
+    "misses": 15405.0,
+    "invariant_failures": {},
+    "stdout_tail": "01024\nHUSH_APPLICATION={\"kind\": \"native_cpu_application_pilot\", \"mode\": \"hush\", \"schedule_cycles\": [256, 256, 256], \"configuration_stall_cycles\": 8, \"command\": [\"fir-pipeline-v3\", \"40\", \"64\", \"64\", \"4\", \"8\", \"1\"], \"binary_sha256\": \"2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096\", \"architecture\": \"four TimingSimple x86 cores, private unified16KiB 2way caches, continuous expiry, common4-client HUSH service\", \"roi_start_tick\": 4382711000, \"roi_end_tick\": 8470169000, \"roi_ticks\": 4087458000, \"phase_events\": [{\"id\": 0, \"tick\": 4382711000}, {\"id\": 1, \"tick\": 4449161000}, {\"id\": 2, \"tick\": 5438293000}, {\"id\": 13, \"tick\": 7276780000, \"completed_task\": 3}, {\"id\": 10, \"tick\": 8007812000, \"completed_task\": 0}, {\"id\": 11, \"tick\": 8448399000, \"completed_task\": 1}, {\"id\": 12, \"tick\": 8460034000, \"completed_task\": 2}, {\"id\": 99, \"tick\": 8470169000}], \"timeout_register_writes\": 0, \"terminal\": {\"cause\": \"exiting with last active thread context\", \"code\": 0, \"tick\": 8525492000}, \"final_tick\": 8525492000, \"marker_errors\": [], \"roi_stats_block\": 1, \"scope\": \"source-marker-guided prospective API, not quantized RTL/WCET proof or production CSR; exact configuration-cost model recorded\"}\n",
+    "stderr_tail": "",
+    "config_sha256": "3278efb3b24a90bd2f56caa299480b0a6a1b4eff04f5fce27ee3abb639791fe9",
+    "benchmark_sha256": "2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096",
+    "result_sha256": "528d97040657ca537492cb0995bcbcea578adaf9bfb7155804ee89131d6292e6"
+  },
+  {
+    "case": {
+      "N": 40,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n40-s3-fixed3072",
+      "kind": "fixed",
+      "K": [
+        3072,
+        3072,
+        3072
+      ]
+    },
+    "valid": true,
+    "returncode": 0,
+    "roi_ticks": 4090896000,
+    "roi_cycles": 4090896.0,
+    "register_writes": 0,
+    "phase_events": [
+      {
+        "id": 0,
+        "tick": 4382711000
+      },
+      {
+        "id": 1,
+        "tick": 4450005000
+      },
+      {
+        "id": 2,
+        "tick": 5439373000
+      },
+      {
+        "id": 13,
+        "tick": 7285238000,
+        "completed_task": 3
+      },
+      {
+        "id": 10,
+        "tick": 8009322000,
+        "completed_task": 0
+      },
+      {
+        "id": 12,
+        "tick": 8449589000,
+        "completed_task": 2
+      },
+      {
+        "id": 11,
+        "tick": 8461117000,
+        "completed_task": 1
+      },
+      {
+        "id": 99,
+        "tick": 8473607000
+      }
+    ],
+    "terminal": {
+      "cause": "exiting with last active thread context",
+      "code": 0,
+      "tick": 8529080000
+    },
+    "marker_errors": [],
+    "instructions": 2981174.0,
+    "updates": 2903.0,
+    "replacements": 11965.0,
+    "misses": 16275.0,
+    "invariant_failures": {},
+    "stdout_tail": "24\nHUSH_APPLICATION={\"kind\": \"native_cpu_application_pilot\", \"mode\": \"hush\", \"schedule_cycles\": [3072, 3072, 3072], \"configuration_stall_cycles\": 8, \"command\": [\"fir-pipeline-v3\", \"40\", \"64\", \"64\", \"4\", \"8\", \"1\"], \"binary_sha256\": \"2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096\", \"architecture\": \"four TimingSimple x86 cores, private unified16KiB 2way caches, continuous expiry, common4-client HUSH service\", \"roi_start_tick\": 4382711000, \"roi_end_tick\": 8473607000, \"roi_ticks\": 4090896000, \"phase_events\": [{\"id\": 0, \"tick\": 4382711000}, {\"id\": 1, \"tick\": 4450005000}, {\"id\": 2, \"tick\": 5439373000}, {\"id\": 13, \"tick\": 7285238000, \"completed_task\": 3}, {\"id\": 10, \"tick\": 8009322000, \"completed_task\": 0}, {\"id\": 12, \"tick\": 8449589000, \"completed_task\": 2}, {\"id\": 11, \"tick\": 8461117000, \"completed_task\": 1}, {\"id\": 99, \"tick\": 8473607000}], \"timeout_register_writes\": 0, \"terminal\": {\"cause\": \"exiting with last active thread context\", \"code\": 0, \"tick\": 8529080000}, \"final_tick\": 8529080000, \"marker_errors\": [], \"roi_stats_block\": 1, \"scope\": \"source-marker-guided prospective API, not quantized RTL/WCET proof or production CSR; exact configuration-cost model recorded\"}\n",
+    "stderr_tail": "",
+    "config_sha256": "3278efb3b24a90bd2f56caa299480b0a6a1b4eff04f5fce27ee3abb639791fe9",
+    "benchmark_sha256": "2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096",
+    "result_sha256": "d8b5c0e2a0bc08232d7b9d1f431a5cc7d830bb950019cdfaa6e6374af0b9814c"
+  },
+  {
+    "case": {
+      "N": 40,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n40-s3-fixed32768",
+      "kind": "fixed",
+      "K": [
+        32768,
+        32768,
+        32768
+      ]
+    },
+    "valid": true,
+    "returncode": 0,
+    "roi_ticks": 4091114000,
+    "roi_cycles": 4091114.0,
+    "register_writes": 0,
+    "phase_events": [
+      {
+        "id": 0,
+        "tick": 4381655000
+      },
+      {
+        "id": 1,
+        "tick": 4448949000
+      },
+      {
+        "id": 2,
+        "tick": 5438798000
+      },
+      {
+        "id": 13,
+        "tick": 7284542000,
+        "completed_task": 3
+      },
+      {
+        "id": 10,
+        "tick": 8009705000,
+        "completed_task": 0
+      },
+      {
+        "id": 12,
+        "tick": 8448687000,
+        "completed_task": 2
+      },
+      {
+        "id": 11,
+        "tick": 8460333000,
+        "completed_task": 1
+      },
+      {
+        "id": 99,
+        "tick": 8472769000
+      }
+    ],
+    "terminal": {
+      "cause": "exiting with last active thread context",
+      "code": 0,
+      "tick": 8528290000
+    },
+    "marker_errors": [],
+    "instructions": 2981174.0,
+    "updates": 2907.0,
+    "replacements": 12095.0,
+    "misses": 16282.0,
+    "invariant_failures": {},
+    "stdout_tail": "HUSH_APPLICATION={\"kind\": \"native_cpu_application_pilot\", \"mode\": \"hush\", \"schedule_cycles\": [32768, 32768, 32768], \"configuration_stall_cycles\": 8, \"command\": [\"fir-pipeline-v3\", \"40\", \"64\", \"64\", \"4\", \"8\", \"1\"], \"binary_sha256\": \"2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096\", \"architecture\": \"four TimingSimple x86 cores, private unified16KiB 2way caches, continuous expiry, common4-client HUSH service\", \"roi_start_tick\": 4381655000, \"roi_end_tick\": 8472769000, \"roi_ticks\": 4091114000, \"phase_events\": [{\"id\": 0, \"tick\": 4381655000}, {\"id\": 1, \"tick\": 4448949000}, {\"id\": 2, \"tick\": 5438798000}, {\"id\": 13, \"tick\": 7284542000, \"completed_task\": 3}, {\"id\": 10, \"tick\": 8009705000, \"completed_task\": 0}, {\"id\": 12, \"tick\": 8448687000, \"completed_task\": 2}, {\"id\": 11, \"tick\": 8460333000, \"completed_task\": 1}, {\"id\": 99, \"tick\": 8472769000}], \"timeout_register_writes\": 0, \"terminal\": {\"cause\": \"exiting with last active thread context\", \"code\": 0, \"tick\": 8528290000}, \"final_tick\": 8528290000, \"marker_errors\": [], \"roi_stats_block\": 1, \"scope\": \"source-marker-guided prospective API, not quantized RTL/WCET proof or production CSR; exact configuration-cost model recorded\"}\n",
+    "stderr_tail": "",
+    "config_sha256": "3278efb3b24a90bd2f56caa299480b0a6a1b4eff04f5fce27ee3abb639791fe9",
+    "benchmark_sha256": "2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096",
+    "result_sha256": "bdec8474f2874c956898c9294c5bbe047ec85f7cd983bc801616de93d6967327"
+  },
+  {
+    "case": {
+      "N": 40,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n40-s3-fixed4096",
+      "kind": "fixed",
+      "K": [
+        4096,
+        4096,
+        4096
+      ]
+    },
+    "valid": true,
+    "returncode": 0,
+    "roi_ticks": 4090795000,
+    "roi_cycles": 4090795.0,
+    "register_writes": 0,
+    "phase_events": [
+      {
+        "id": 0,
+        "tick": 4382711000
+      },
+      {
+        "id": 1,
+        "tick": 4450005000
+      },
+      {
+        "id": 2,
+        "tick": 5439328000
+      },
+      {
+        "id": 13,
+        "tick": 7285385000,
+        "completed_task": 3
+      },
+      {
+        "id": 10,
+        "tick": 8008740000,
+        "completed_task": 0
+      },
+      {
+        "id": 12,
+        "tick": 8450087000,
+        "completed_task": 2
+      },
+      {
+        "id": 11,
+        "tick": 8461016000,
+        "completed_task": 1
+      },
+      {
+        "id": 99,
+        "tick": 8473506000
+      }
+    ],
+    "terminal": {
+      "cause": "exiting with last active thread context",
+      "code": 0,
+      "tick": 8529029000
+    },
+    "marker_errors": [],
+    "instructions": 2981174.0,
+    "updates": 2903.0,
+    "replacements": 11968.0,
+    "misses": 16276.0,
+    "invariant_failures": {},
+    "stdout_tail": "24\nHUSH_APPLICATION={\"kind\": \"native_cpu_application_pilot\", \"mode\": \"hush\", \"schedule_cycles\": [4096, 4096, 4096], \"configuration_stall_cycles\": 8, \"command\": [\"fir-pipeline-v3\", \"40\", \"64\", \"64\", \"4\", \"8\", \"1\"], \"binary_sha256\": \"2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096\", \"architecture\": \"four TimingSimple x86 cores, private unified16KiB 2way caches, continuous expiry, common4-client HUSH service\", \"roi_start_tick\": 4382711000, \"roi_end_tick\": 8473506000, \"roi_ticks\": 4090795000, \"phase_events\": [{\"id\": 0, \"tick\": 4382711000}, {\"id\": 1, \"tick\": 4450005000}, {\"id\": 2, \"tick\": 5439328000}, {\"id\": 13, \"tick\": 7285385000, \"completed_task\": 3}, {\"id\": 10, \"tick\": 8008740000, \"completed_task\": 0}, {\"id\": 12, \"tick\": 8450087000, \"completed_task\": 2}, {\"id\": 11, \"tick\": 8461016000, \"completed_task\": 1}, {\"id\": 99, \"tick\": 8473506000}], \"timeout_register_writes\": 0, \"terminal\": {\"cause\": \"exiting with last active thread context\", \"code\": 0, \"tick\": 8529029000}, \"final_tick\": 8529029000, \"marker_errors\": [], \"roi_stats_block\": 1, \"scope\": \"source-marker-guided prospective API, not quantized RTL/WCET proof or production CSR; exact configuration-cost model recorded\"}\n",
+    "stderr_tail": "",
+    "config_sha256": "3278efb3b24a90bd2f56caa299480b0a6a1b4eff04f5fce27ee3abb639791fe9",
+    "benchmark_sha256": "2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096",
+    "result_sha256": "4e8f31af7a2cce94452373a66782ba821d6540bbe8ec60dcc8254457968955bb"
+  },
+  {
+    "case": {
+      "N": 40,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n40-s3-fixed512",
+      "kind": "fixed",
+      "K": [
+        512,
+        512,
+        512
+      ]
+    },
+    "valid": true,
+    "returncode": 0,
+    "roi_ticks": 4090508000,
+    "roi_cycles": 4090508.0,
+    "register_writes": 0,
+    "phase_events": [
+      {
+        "id": 0,
+        "tick": 4382711000
+      },
+      {
+        "id": 1,
+        "tick": 4450005000
+      },
+      {
+        "id": 2,
+        "tick": 5438898000
+      },
+      {
+        "id": 13,
+        "tick": 7285474000,
+        "completed_task": 3
+      },
+      {
+        "id": 10,
+        "tick": 8008772000,
+        "completed_task": 0
+      },
+      {
+        "id": 12,
+        "tick": 8449436000,
+        "completed_task": 2
+      },
+      {
+        "id": 11,
+        "tick": 8460729000,
+        "completed_task": 1
+      },
+      {
+        "id": 99,
+        "tick": 8473219000
+      }
+    ],
+    "terminal": {
+      "cause": "exiting with last active thread context",
+      "code": 0,
+      "tick": 8528742000
+    },
+    "marker_errors": [],
+    "instructions": 2981174.0,
+    "updates": 2905.0,
+    "replacements": 11953.0,
+    "misses": 16280.0,
+    "invariant_failures": {},
+    "stdout_tail": "01024\nHUSH_APPLICATION={\"kind\": \"native_cpu_application_pilot\", \"mode\": \"hush\", \"schedule_cycles\": [512, 512, 512], \"configuration_stall_cycles\": 8, \"command\": [\"fir-pipeline-v3\", \"40\", \"64\", \"64\", \"4\", \"8\", \"1\"], \"binary_sha256\": \"2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096\", \"architecture\": \"four TimingSimple x86 cores, private unified16KiB 2way caches, continuous expiry, common4-client HUSH service\", \"roi_start_tick\": 4382711000, \"roi_end_tick\": 8473219000, \"roi_ticks\": 4090508000, \"phase_events\": [{\"id\": 0, \"tick\": 4382711000}, {\"id\": 1, \"tick\": 4450005000}, {\"id\": 2, \"tick\": 5438898000}, {\"id\": 13, \"tick\": 7285474000, \"completed_task\": 3}, {\"id\": 10, \"tick\": 8008772000, \"completed_task\": 0}, {\"id\": 12, \"tick\": 8449436000, \"completed_task\": 2}, {\"id\": 11, \"tick\": 8460729000, \"completed_task\": 1}, {\"id\": 99, \"tick\": 8473219000}], \"timeout_register_writes\": 0, \"terminal\": {\"cause\": \"exiting with last active thread context\", \"code\": 0, \"tick\": 8528742000}, \"final_tick\": 8528742000, \"marker_errors\": [], \"roi_stats_block\": 1, \"scope\": \"source-marker-guided prospective API, not quantized RTL/WCET proof or production CSR; exact configuration-cost model recorded\"}\n",
+    "stderr_tail": "",
+    "config_sha256": "3278efb3b24a90bd2f56caa299480b0a6a1b4eff04f5fce27ee3abb639791fe9",
+    "benchmark_sha256": "2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096",
+    "result_sha256": "2c0f69e38c10a0535aca6781c4712e939be7ae55bd5b4df250d82c0036eaee89"
+  },
+  {
+    "case": {
+      "N": 40,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n40-s3-fixed64",
+      "kind": "fixed",
+      "K": [
+        64,
+        64,
+        64
+      ]
+    },
+    "valid": true,
+    "returncode": 0,
+    "roi_ticks": 4088268000,
+    "roi_cycles": 4088268.0,
+    "register_writes": 0,
+    "phase_events": [
+      {
+        "id": 0,
+        "tick": 4382816000
+      },
+      {
+        "id": 1,
+        "tick": 4449266000
+      },
+      {
+        "id": 2,
+        "tick": 5439042000
+      },
+      {
+        "id": 13,
+        "tick": 7261184000,
+        "completed_task": 3
+      },
+      {
+        "id": 10,
+        "tick": 8008124000,
+        "completed_task": 0
+      },
+      {
+        "id": 11,
+        "tick": 8449474000,
+        "completed_task": 1
+      },
+      {
+        "id": 12,
+        "tick": 8460949000,
+        "completed_task": 2
+      },
+      {
+        "id": 99,
+        "tick": 8471084000
+      }
+    ],
+    "terminal": {
+      "cause": "exiting with last active thread context",
+      "code": 0,
+      "tick": 8526407000
+    },
+    "marker_errors": [],
+    "instructions": 2981255.0,
+    "updates": 622.0,
+    "replacements": 11898.0,
+    "misses": 14033.0,
+    "invariant_failures": {},
+    "stdout_tail": "22401024\nHUSH_APPLICATION={\"kind\": \"native_cpu_application_pilot\", \"mode\": \"hush\", \"schedule_cycles\": [64, 64, 64], \"configuration_stall_cycles\": 8, \"command\": [\"fir-pipeline-v3\", \"40\", \"64\", \"64\", \"4\", \"8\", \"1\"], \"binary_sha256\": \"2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096\", \"architecture\": \"four TimingSimple x86 cores, private unified16KiB 2way caches, continuous expiry, common4-client HUSH service\", \"roi_start_tick\": 4382816000, \"roi_end_tick\": 8471084000, \"roi_ticks\": 4088268000, \"phase_events\": [{\"id\": 0, \"tick\": 4382816000}, {\"id\": 1, \"tick\": 4449266000}, {\"id\": 2, \"tick\": 5439042000}, {\"id\": 13, \"tick\": 7261184000, \"completed_task\": 3}, {\"id\": 10, \"tick\": 8008124000, \"completed_task\": 0}, {\"id\": 11, \"tick\": 8449474000, \"completed_task\": 1}, {\"id\": 12, \"tick\": 8460949000, \"completed_task\": 2}, {\"id\": 99, \"tick\": 8471084000}], \"timeout_register_writes\": 0, \"terminal\": {\"cause\": \"exiting with last active thread context\", \"code\": 0, \"tick\": 8526407000}, \"final_tick\": 8526407000, \"marker_errors\": [], \"roi_stats_block\": 1, \"scope\": \"source-marker-guided prospective API, not quantized RTL/WCET proof or production CSR; exact configuration-cost model recorded\"}\n",
+    "stderr_tail": "",
+    "config_sha256": "3278efb3b24a90bd2f56caa299480b0a6a1b4eff04f5fce27ee3abb639791fe9",
+    "benchmark_sha256": "2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096",
+    "result_sha256": "a136863f5be83f293f622cc768f14beaacc6918439d9445751b01da57d736145"
+  },
+  {
+    "case": {
+      "N": 40,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n40-s3-fixed65536",
+      "kind": "fixed",
+      "K": [
+        65536,
+        65536,
+        65536
+      ]
+    },
+    "valid": true,
+    "returncode": 0,
+    "roi_ticks": 4091375000,
+    "roi_cycles": 4091375.0,
+    "register_writes": 0,
+    "phase_events": [
+      {
+        "id": 0,
+        "tick": 4381655000
+      },
+      {
+        "id": 1,
+        "tick": 4448949000
+      },
+      {
+        "id": 2,
+        "tick": 5439122000
+      },
+      {
+        "id": 13,
+        "tick": 7284619000,
+        "completed_task": 3
+      },
+      {
+        "id": 10,
+        "tick": 8009982000,
+        "completed_task": 0
+      },
+      {
+        "id": 12,
+        "tick": 8449290000,
+        "completed_task": 2
+      },
+      {
+        "id": 11,
+        "tick": 8460644000,
+        "completed_task": 1
+      },
+      {
+        "id": 99,
+        "tick": 8473030000
+      }
+    ],
+    "terminal": {
+      "cause": "exiting with last active thread context",
+      "code": 0,
+      "tick": 8528501000
+    },
+    "marker_errors": [],
+    "instructions": 2981174.0,
+    "updates": 2907.0,
+    "replacements": 12239.0,
+    "misses": 16310.0,
+    "invariant_failures": {},
+    "stdout_tail": "HUSH_APPLICATION={\"kind\": \"native_cpu_application_pilot\", \"mode\": \"hush\", \"schedule_cycles\": [65536, 65536, 65536], \"configuration_stall_cycles\": 8, \"command\": [\"fir-pipeline-v3\", \"40\", \"64\", \"64\", \"4\", \"8\", \"1\"], \"binary_sha256\": \"2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096\", \"architecture\": \"four TimingSimple x86 cores, private unified16KiB 2way caches, continuous expiry, common4-client HUSH service\", \"roi_start_tick\": 4381655000, \"roi_end_tick\": 8473030000, \"roi_ticks\": 4091375000, \"phase_events\": [{\"id\": 0, \"tick\": 4381655000}, {\"id\": 1, \"tick\": 4448949000}, {\"id\": 2, \"tick\": 5439122000}, {\"id\": 13, \"tick\": 7284619000, \"completed_task\": 3}, {\"id\": 10, \"tick\": 8009982000, \"completed_task\": 0}, {\"id\": 12, \"tick\": 8449290000, \"completed_task\": 2}, {\"id\": 11, \"tick\": 8460644000, \"completed_task\": 1}, {\"id\": 99, \"tick\": 8473030000}], \"timeout_register_writes\": 0, \"terminal\": {\"cause\": \"exiting with last active thread context\", \"code\": 0, \"tick\": 8528501000}, \"final_tick\": 8528501000, \"marker_errors\": [], \"roi_stats_block\": 1, \"scope\": \"source-marker-guided prospective API, not quantized RTL/WCET proof or production CSR; exact configuration-cost model recorded\"}\n",
+    "stderr_tail": "",
+    "config_sha256": "3278efb3b24a90bd2f56caa299480b0a6a1b4eff04f5fce27ee3abb639791fe9",
+    "benchmark_sha256": "2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096",
+    "result_sha256": "ba9e181e123b116be7065c9fc6deea2fb3268e63467cea78aa813863dab40329"
+  },
+  {
+    "case": {
+      "N": 40,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n40-s3-fixed768",
+      "kind": "fixed",
+      "K": [
+        768,
+        768,
+        768
+      ]
+    },
+    "valid": true,
+    "returncode": 0,
+    "roi_ticks": 4090794000,
+    "roi_cycles": 4090794.0,
+    "register_writes": 0,
+    "phase_events": [
+      {
+        "id": 0,
+        "tick": 4382711000
+      },
+      {
+        "id": 1,
+        "tick": 4450005000
+      },
+      {
+        "id": 2,
+        "tick": 5439189000
+      },
+      {
+        "id": 13,
+        "tick": 7285531000,
+        "completed_task": 3
+      },
+      {
+        "id": 10,
+        "tick": 8008692000,
+        "completed_task": 0
+      },
+      {
+        "id": 12,
+        "tick": 8449722000,
+        "completed_task": 2
+      },
+      {
+        "id": 11,
+        "tick": 8461015000,
+        "completed_task": 1
+      },
+      {
+        "id": 99,
+        "tick": 8473505000
+      }
+    ],
+    "terminal": {
+      "cause": "exiting with last active thread context",
+      "code": 0,
+      "tick": 8529028000
+    },
+    "marker_errors": [],
+    "instructions": 2981162.0,
+    "updates": 2905.0,
+    "replacements": 11955.0,
+    "misses": 16281.0,
+    "invariant_failures": {},
+    "stdout_tail": "01024\nHUSH_APPLICATION={\"kind\": \"native_cpu_application_pilot\", \"mode\": \"hush\", \"schedule_cycles\": [768, 768, 768], \"configuration_stall_cycles\": 8, \"command\": [\"fir-pipeline-v3\", \"40\", \"64\", \"64\", \"4\", \"8\", \"1\"], \"binary_sha256\": \"2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096\", \"architecture\": \"four TimingSimple x86 cores, private unified16KiB 2way caches, continuous expiry, common4-client HUSH service\", \"roi_start_tick\": 4382711000, \"roi_end_tick\": 8473505000, \"roi_ticks\": 4090794000, \"phase_events\": [{\"id\": 0, \"tick\": 4382711000}, {\"id\": 1, \"tick\": 4450005000}, {\"id\": 2, \"tick\": 5439189000}, {\"id\": 13, \"tick\": 7285531000, \"completed_task\": 3}, {\"id\": 10, \"tick\": 8008692000, \"completed_task\": 0}, {\"id\": 12, \"tick\": 8449722000, \"completed_task\": 2}, {\"id\": 11, \"tick\": 8461015000, \"completed_task\": 1}, {\"id\": 99, \"tick\": 8473505000}], \"timeout_register_writes\": 0, \"terminal\": {\"cause\": \"exiting with last active thread context\", \"code\": 0, \"tick\": 8529028000}, \"final_tick\": 8529028000, \"marker_errors\": [], \"roi_stats_block\": 1, \"scope\": \"source-marker-guided prospective API, not quantized RTL/WCET proof or production CSR; exact configuration-cost model recorded\"}\n",
+    "stderr_tail": "",
+    "config_sha256": "3278efb3b24a90bd2f56caa299480b0a6a1b4eff04f5fce27ee3abb639791fe9",
+    "benchmark_sha256": "2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096",
+    "result_sha256": "dbc905186f612853f48bbd9847e6707451bf21de13d09789449b7f147512977e"
+  },
+  {
+    "case": {
+      "N": 40,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n40-s3-fixed8",
+      "kind": "fixed",
+      "K": [
+        8,
+        8,
+        8
+      ]
+    },
+    "valid": true,
+    "returncode": 0,
+    "roi_ticks": 4088228000,
+    "roi_cycles": 4088228.0,
+    "register_writes": 0,
+    "phase_events": [
+      {
+        "id": 0,
+        "tick": 4382816000
+      },
+      {
+        "id": 1,
+        "tick": 4449266000
+      },
+      {
+        "id": 2,
+        "tick": 5439170000
+      },
+      {
+        "id": 13,
+        "tick": 7261199000,
+        "completed_task": 3
+      },
+      {
+        "id": 10,
+        "tick": 8008404000,
+        "completed_task": 0
+      },
+      {
+        "id": 11,
+        "tick": 8449434000,
+        "completed_task": 1
+      },
+      {
+        "id": 12,
+        "tick": 8460909000,
+        "completed_task": 2
+      },
+      {
+        "id": 99,
+        "tick": 8471044000
+      }
+    ],
+    "terminal": {
+      "cause": "exiting with last active thread context",
+      "code": 0,
+      "tick": 8526367000
+    },
+    "marker_errors": [],
+    "instructions": 2981255.0,
+    "updates": 622.0,
+    "replacements": 11898.0,
+    "misses": 14050.0,
+    "invariant_failures": {},
+    "stdout_tail": "76822401024\nHUSH_APPLICATION={\"kind\": \"native_cpu_application_pilot\", \"mode\": \"hush\", \"schedule_cycles\": [8, 8, 8], \"configuration_stall_cycles\": 8, \"command\": [\"fir-pipeline-v3\", \"40\", \"64\", \"64\", \"4\", \"8\", \"1\"], \"binary_sha256\": \"2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096\", \"architecture\": \"four TimingSimple x86 cores, private unified16KiB 2way caches, continuous expiry, common4-client HUSH service\", \"roi_start_tick\": 4382816000, \"roi_end_tick\": 8471044000, \"roi_ticks\": 4088228000, \"phase_events\": [{\"id\": 0, \"tick\": 4382816000}, {\"id\": 1, \"tick\": 4449266000}, {\"id\": 2, \"tick\": 5439170000}, {\"id\": 13, \"tick\": 7261199000, \"completed_task\": 3}, {\"id\": 10, \"tick\": 8008404000, \"completed_task\": 0}, {\"id\": 11, \"tick\": 8449434000, \"completed_task\": 1}, {\"id\": 12, \"tick\": 8460909000, \"completed_task\": 2}, {\"id\": 99, \"tick\": 8471044000}], \"timeout_register_writes\": 0, \"terminal\": {\"cause\": \"exiting with last active thread context\", \"code\": 0, \"tick\": 8526367000}, \"final_tick\": 8526367000, \"marker_errors\": [], \"roi_stats_block\": 1, \"scope\": \"source-marker-guided prospective API, not quantized RTL/WCET proof or production CSR; exact configuration-cost model recorded\"}\n",
+    "stderr_tail": "",
+    "config_sha256": "3278efb3b24a90bd2f56caa299480b0a6a1b4eff04f5fce27ee3abb639791fe9",
+    "benchmark_sha256": "2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096",
+    "result_sha256": "87bc39f23b6ddf613e923a9326a923db5bcdefed22f17b84ca8b98f246958ca6"
+  },
+  {
+    "case": {
+      "N": 40,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n40-s3-fixed8192",
+      "kind": "fixed",
+      "K": [
+        8192,
+        8192,
+        8192
+      ]
+    },
+    "valid": true,
+    "returncode": 0,
+    "roi_ticks": 4091007000,
+    "roi_cycles": 4091007.0,
+    "register_writes": 0,
+    "phase_events": [
+      {
+        "id": 0,
+        "tick": 4382711000
+      },
+      {
+        "id": 1,
+        "tick": 4450005000
+      },
+      {
+        "id": 2,
+        "tick": 5439464000
+      },
+      {
+        "id": 13,
+        "tick": 7285403000,
+        "completed_task": 3
+      },
+      {
+        "id": 10,
+        "tick": 8009487000,
+        "completed_task": 0
+      },
+      {
+        "id": 12,
+        "tick": 8449754000,
+        "completed_task": 2
+      },
+      {
+        "id": 11,
+        "tick": 8461282000,
+        "completed_task": 1
+      },
+      {
+        "id": 99,
+        "tick": 8473718000
+      }
+    ],
+    "terminal": {
+      "cause": "exiting with last active thread context",
+      "code": 0,
+      "tick": 8529191000
+    },
+    "marker_errors": [],
+    "instructions": 2981174.0,
+    "updates": 2906.0,
+    "replacements": 11989.0,
+    "misses": 16273.0,
+    "invariant_failures": {},
+    "stdout_tail": "24\nHUSH_APPLICATION={\"kind\": \"native_cpu_application_pilot\", \"mode\": \"hush\", \"schedule_cycles\": [8192, 8192, 8192], \"configuration_stall_cycles\": 8, \"command\": [\"fir-pipeline-v3\", \"40\", \"64\", \"64\", \"4\", \"8\", \"1\"], \"binary_sha256\": \"2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096\", \"architecture\": \"four TimingSimple x86 cores, private unified16KiB 2way caches, continuous expiry, common4-client HUSH service\", \"roi_start_tick\": 4382711000, \"roi_end_tick\": 8473718000, \"roi_ticks\": 4091007000, \"phase_events\": [{\"id\": 0, \"tick\": 4382711000}, {\"id\": 1, \"tick\": 4450005000}, {\"id\": 2, \"tick\": 5439464000}, {\"id\": 13, \"tick\": 7285403000, \"completed_task\": 3}, {\"id\": 10, \"tick\": 8009487000, \"completed_task\": 0}, {\"id\": 12, \"tick\": 8449754000, \"completed_task\": 2}, {\"id\": 11, \"tick\": 8461282000, \"completed_task\": 1}, {\"id\": 99, \"tick\": 8473718000}], \"timeout_register_writes\": 0, \"terminal\": {\"cause\": \"exiting with last active thread context\", \"code\": 0, \"tick\": 8529191000}, \"final_tick\": 8529191000, \"marker_errors\": [], \"roi_stats_block\": 1, \"scope\": \"source-marker-guided prospective API, not quantized RTL/WCET proof or production CSR; exact configuration-cost model recorded\"}\n",
+    "stderr_tail": "",
+    "config_sha256": "3278efb3b24a90bd2f56caa299480b0a6a1b4eff04f5fce27ee3abb639791fe9",
+    "benchmark_sha256": "2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096",
+    "result_sha256": "c52fb98626b50f84e1c8f7c572623ae0e2d833cce2bc729c70ea86e0918deb77"
+  },
+  {
+    "case": {
+      "N": 40,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n40-s3-phase",
+      "kind": "selected-phase",
+      "K": [
+        16384,
+        16384,
+        2048
+      ]
+    },
+    "valid": true,
+    "returncode": 0,
+    "roi_ticks": 4091278000,
+    "roi_cycles": 4091278.0,
+    "register_writes": 4,
+    "phase_events": [
+      {
+        "id": 0,
+        "tick": 4382355000
+      },
+      {
+        "id": 1,
+        "tick": 4449649000
+      },
+      {
+        "id": 2,
+        "tick": 5439120000,
+        "applied_T_cycles": 2048
+      },
+      {
+        "id": 13,
+        "tick": 7285313000,
+        "completed_task": 3
+      },
+      {
+        "id": 10,
+        "tick": 8008820000,
+        "completed_task": 0
+      },
+      {
+        "id": 12,
+        "tick": 8449850000,
+        "completed_task": 2
+      },
+      {
+        "id": 11,
+        "tick": 8461143000,
+        "completed_task": 1
+      },
+      {
+        "id": 99,
+        "tick": 8473633000
+      }
+    ],
+    "terminal": {
+      "cause": "exiting with last active thread context",
+      "code": 0,
+      "tick": 8529156000
+    },
+    "marker_errors": [],
+    "instructions": 2981182.0,
+    "updates": 2907.0,
+    "replacements": 12010.0,
+    "misses": 16268.0,
+    "invariant_failures": {},
+    "stdout_tail": " \"native_cpu_application_pilot\", \"mode\": \"hush\", \"schedule_cycles\": [16384, 16384, 2048], \"configuration_stall_cycles\": 8, \"command\": [\"fir-pipeline-v3\", \"40\", \"64\", \"64\", \"4\", \"8\", \"1\"], \"binary_sha256\": \"2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096\", \"architecture\": \"four TimingSimple x86 cores, private unified16KiB 2way caches, continuous expiry, common4-client HUSH service\", \"roi_start_tick\": 4382355000, \"roi_end_tick\": 8473633000, \"roi_ticks\": 4091278000, \"phase_events\": [{\"id\": 0, \"tick\": 4382355000}, {\"id\": 1, \"tick\": 4449649000}, {\"id\": 2, \"tick\": 5439120000, \"applied_T_cycles\": 2048}, {\"id\": 13, \"tick\": 7285313000, \"completed_task\": 3}, {\"id\": 10, \"tick\": 8008820000, \"completed_task\": 0}, {\"id\": 12, \"tick\": 8449850000, \"completed_task\": 2}, {\"id\": 11, \"tick\": 8461143000, \"completed_task\": 1}, {\"id\": 99, \"tick\": 8473633000}], \"timeout_register_writes\": 4, \"terminal\": {\"cause\": \"exiting with last active thread context\", \"code\": 0, \"tick\": 8529156000}, \"final_tick\": 8529156000, \"marker_errors\": [], \"roi_stats_block\": 1, \"scope\": \"source-marker-guided prospective API, not quantized RTL/WCET proof or production CSR; exact configuration-cost model recorded\"}\n",
+    "stderr_tail": "",
+    "config_sha256": "3278efb3b24a90bd2f56caa299480b0a6a1b4eff04f5fce27ee3abb639791fe9",
+    "benchmark_sha256": "2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096",
+    "result_sha256": "6beef22c45a0dfebef06b938cd9eea0be3bedfd00da3a4dd61d9f5090065882c"
+  },
+  {
+    "case": {
+      "N": 40,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "predictable-wi",
+      "cost": 0,
+      "id": "n40-s3-predictable-wi",
+      "kind": "control",
+      "K": [
+        512,
+        512,
+        512
+      ]
+    },
+    "valid": true,
+    "returncode": 0,
+    "roi_ticks": 4695771000,
+    "roi_cycles": 4695771.0,
+    "register_writes": 0,
+    "phase_events": [
+      {
+        "id": 0,
+        "tick": 4384354000
+      },
+      {
+        "id": 1,
+        "tick": 4450461000
+      },
+      {
+        "id": 2,
+        "tick": 5446793000
+      },
+      {
+        "id": 13,
+        "tick": 7258494000,
+        "completed_task": 3
+      },
+      {
+        "id": 10,
+        "tick": 8021658000,
+        "completed_task": 0
+      },
+      {
+        "id": 11,
+        "tick": 9065646000,
+        "completed_task": 1
+      },
+      {
+        "id": 12,
+        "tick": 9066236000,
+        "completed_task": 2
+      },
+      {
+        "id": 99,
+        "tick": 9080125000
+      }
+    ],
+    "terminal": {
+      "cause": "exiting with last active thread context",
+      "code": 0,
+      "tick": 9136048000
+    },
+    "marker_errors": [],
+    "instructions": 2981131.0,
+    "updates": 0.0,
+    "replacements": 23479.0,
+    "misses": 25231.0,
+    "invariant_failures": {},
+    "stdout_tail": "_APPLICATION={\"kind\": \"native_cpu_application_pilot\", \"mode\": \"predictable-wi\", \"schedule_cycles\": [512, 512, 512], \"configuration_stall_cycles\": 0, \"command\": [\"fir-pipeline-v3\", \"40\", \"64\", \"64\", \"4\", \"0\", \"1\"], \"binary_sha256\": \"2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096\", \"architecture\": \"four TimingSimple x86 cores, private unified16KiB 2way caches, continuous expiry, common4-client HUSH service\", \"roi_start_tick\": 4384354000, \"roi_end_tick\": 9080125000, \"roi_ticks\": 4695771000, \"phase_events\": [{\"id\": 0, \"tick\": 4384354000}, {\"id\": 1, \"tick\": 4450461000}, {\"id\": 2, \"tick\": 5446793000}, {\"id\": 13, \"tick\": 7258494000, \"completed_task\": 3}, {\"id\": 10, \"tick\": 8021658000, \"completed_task\": 0}, {\"id\": 11, \"tick\": 9065646000, \"completed_task\": 1}, {\"id\": 12, \"tick\": 9066236000, \"completed_task\": 2}, {\"id\": 99, \"tick\": 9080125000}], \"timeout_register_writes\": 0, \"terminal\": {\"cause\": \"exiting with last active thread context\", \"code\": 0, \"tick\": 9136048000}, \"final_tick\": 9136048000, \"marker_errors\": [], \"roi_stats_block\": 1, \"scope\": \"source-marker-guided prospective API, not quantized RTL/WCET proof or production CSR; exact configuration-cost model recorded\"}\n",
+    "stderr_tail": "",
+    "config_sha256": "3278efb3b24a90bd2f56caa299480b0a6a1b4eff04f5fce27ee3abb639791fe9",
+    "benchmark_sha256": "2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096",
+    "result_sha256": "62147b647d1aab935f5f2efcfebf3a596eb2cc7db9ea2e26b9ef65c26ff85acf"
+  },
+  {
+    "case": {
+      "N": 40,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "wu-of",
+      "cost": 0,
+      "id": "n40-s3-wu-of",
+      "kind": "control",
+      "K": [
+        512,
+        512,
+        512
+      ]
+    },
+    "valid": true,
+    "returncode": 0,
+    "roi_ticks": 4091992000,
+    "roi_cycles": 4091992.0,
+    "register_writes": 0,
+    "phase_events": [
+      {
+        "id": 0,
+        "tick": 4382886000
+      },
+      {
+        "id": 1,
+        "tick": 4450180000
+      },
+      {
+        "id": 2,
+        "tick": 5438744000
+      },
+      {
+        "id": 13,
+        "tick": 7330508000,
+        "completed_task": 3
+      },
+      {
+        "id": 10,
+        "tick": 8009524000,
+        "completed_task": 0
+      },
+      {
+        "id": 12,
+        "tick": 8449031000,
+        "completed_task": 2
+      },
+      {
+        "id": 11,
+        "tick": 8462492000,
+        "completed_task": 1
+      },
+      {
+        "id": 99,
+        "tick": 8474878000
+      }
+    ],
+    "terminal": {
+      "cause": "exiting with last active thread context",
+      "code": 0,
+      "tick": 8530399000
+    },
+    "marker_errors": [],
+    "instructions": 2981174.0,
+    "updates": 6965.0,
+    "replacements": 12725.0,
+    "misses": 20323.0,
+    "invariant_failures": {},
+    "stdout_tail": "1024\nHUSH_APPLICATION={\"kind\": \"native_cpu_application_pilot\", \"mode\": \"wu-of\", \"schedule_cycles\": [512, 512, 512], \"configuration_stall_cycles\": 0, \"command\": [\"fir-pipeline-v3\", \"40\", \"64\", \"64\", \"4\", \"0\", \"1\"], \"binary_sha256\": \"2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096\", \"architecture\": \"four TimingSimple x86 cores, private unified16KiB 2way caches, continuous expiry, common4-client HUSH service\", \"roi_start_tick\": 4382886000, \"roi_end_tick\": 8474878000, \"roi_ticks\": 4091992000, \"phase_events\": [{\"id\": 0, \"tick\": 4382886000}, {\"id\": 1, \"tick\": 4450180000}, {\"id\": 2, \"tick\": 5438744000}, {\"id\": 13, \"tick\": 7330508000, \"completed_task\": 3}, {\"id\": 10, \"tick\": 8009524000, \"completed_task\": 0}, {\"id\": 12, \"tick\": 8449031000, \"completed_task\": 2}, {\"id\": 11, \"tick\": 8462492000, \"completed_task\": 1}, {\"id\": 99, \"tick\": 8474878000}], \"timeout_register_writes\": 0, \"terminal\": {\"cause\": \"exiting with last active thread context\", \"code\": 0, \"tick\": 8530399000}, \"final_tick\": 8530399000, \"marker_errors\": [], \"roi_stats_block\": 1, \"scope\": \"source-marker-guided prospective API, not quantized RTL/WCET proof or production CSR; exact configuration-cost model recorded\"}\n",
+    "stderr_tail": "",
+    "config_sha256": "3278efb3b24a90bd2f56caa299480b0a6a1b4eff04f5fce27ee3abb639791fe9",
+    "benchmark_sha256": "2240805a3edaceb2741e7b0285f9dd1cdd07188395705322a8ca088206300096",
+    "result_sha256": "049f129b16648431797dd5ca60bb9c8e64d02a9617680bda516ace6689869518"
+  }
+]

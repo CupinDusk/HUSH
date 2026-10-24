@@ -1,0 +1,293 @@
+{
+  "round": "independent-stage-validation-v1",
+  "cases": [
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n32-s3-fixed8",
+      "kind": "fixed",
+      "K": [
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n32-s3-fixed64",
+      "kind": "fixed",
+      "K": [
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n32-s3-fixed128",
+      "kind": "fixed",
+      "K": [
+        128,
+        128,
+        128
+      ]
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n32-s3-fixed256",
+      "kind": "fixed",
+      "K": [
+        256,
+        256,
+        256
+      ]
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n32-s3-fixed512",
+      "kind": "fixed",
+      "K": [
+        512,
+        512,
+        512
+      ]
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n32-s3-fixed768",
+      "kind": "fixed",
+      "K": [
+        768,
+        768,
+        768
+      ]
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n32-s3-fixed1024",
+      "kind": "fixed",
+      "K": [
+        1024,
+        1024,
+        1024
+      ]
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n32-s3-fixed1536",
+      "kind": "fixed",
+      "K": [
+        1536,
+        1536,
+        1536
+      ]
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n32-s3-fixed2048",
+      "kind": "fixed",
+      "K": [
+        2048,
+        2048,
+        2048
+      ]
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n32-s3-fixed3072",
+      "kind": "fixed",
+      "K": [
+        3072,
+        3072,
+        3072
+      ]
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n32-s3-fixed4096",
+      "kind": "fixed",
+      "K": [
+        4096,
+        4096,
+        4096
+      ]
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n32-s3-fixed8192",
+      "kind": "fixed",
+      "K": [
+        8192,
+        8192,
+        8192
+      ]
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n32-s3-fixed16384",
+      "kind": "fixed",
+      "K": [
+        16384,
+        16384,
+        16384
+      ]
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n32-s3-fixed32768",
+      "kind": "fixed",
+      "K": [
+        32768,
+        32768,
+        32768
+      ]
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n32-s3-fixed65536",
+      "kind": "fixed",
+      "K": [
+        65536,
+        65536,
+        65536
+      ]
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "hush",
+      "cost": 8,
+      "id": "n32-s3-phase",
+      "kind": "selected-phase",
+      "K": [
+        16384,
+        16384,
+        2048
+      ]
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "predictable-wi",
+      "cost": 0,
+      "id": "n32-s3-predictable-wi",
+      "kind": "control",
+      "K": [
+        512,
+        512,
+        512
+      ]
+    },
+    {
+      "N": 32,
+      "lags": 64,
+      "cache": "16KiB",
+      "perline": 64,
+      "pattern": 1,
+      "mode": "wu-of",
+      "cost": 0,
+      "id": "n32-s3-wu-of",
+      "kind": "control",
+      "K": [
+        512,
+        512,
+        512
+      ]
+    }
+  ]
+}

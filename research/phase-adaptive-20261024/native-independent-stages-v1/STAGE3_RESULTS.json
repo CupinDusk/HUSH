@@ -1,0 +1,100 @@
+{
+  "training_cases": 41,
+  "first_validation_cases": 18,
+  "followup_replication_cases": 36,
+  "total_cases": 95,
+  "all_valid": true,
+  "all_phase_values_encodable_at_P128": true,
+  "phase_K_encoding": [
+    128,
+    128,
+    16
+  ],
+  "training_mode_selection": "fixed",
+  "phase_family_forced_comparison": true,
+  "replication_declared_after_N32": true,
+  "rows": [
+    {
+      "N": 32,
+      "phase_K": [
+        16384,
+        16384,
+        2048
+      ],
+      "phase_J": 2251538.0,
+      "best15_fixed_K": [
+        32768,
+        32768,
+        32768
+      ],
+      "best15_fixed_J": 2267082.0,
+      "phase_reduction_percent": 0.6856390726052256,
+      "common_P128_finite_fixed_K": [
+        256,
+        256,
+        256
+      ],
+      "common_P128_finite_fixed_J": 2267094.0,
+      "phase_vs_encodable_fixed_reduction_percent": 0.6861647554093478,
+      "phase_updates": 2048.0,
+      "fixed_updates": 2056.0,
+      "phase_misses": 4760.0,
+      "fixed_misses": 4979.0
+    },
+    {
+      "N": 36,
+      "phase_K": [
+        16384,
+        16384,
+        2048
+      ],
+      "phase_J": 2910932.0,
+      "best15_fixed_K": [
+        65536,
+        65536,
+        65536
+      ],
+      "best15_fixed_J": 2904249.0,
+      "phase_reduction_percent": -0.23011112339196813,
+      "common_P128_finite_fixed_K": [
+        16384,
+        16384,
+        16384
+      ],
+      "common_P128_finite_fixed_J": 2910741.0,
+      "phase_vs_encodable_fixed_reduction_percent": -0.00656190296560223,
+      "phase_updates": 2463.0,
+      "fixed_updates": 2453.0,
+      "phase_misses": 6014.0,
+      "fixed_misses": 5876.0
+    },
+    {
+      "N": 40,
+      "phase_K": [
+        16384,
+        16384,
+        2048
+      ],
+      "phase_J": 4091278.0,
+      "best15_fixed_K": [
+        256,
+        256,
+        256
+      ],
+      "best15_fixed_J": 4087458.0,
+      "phase_reduction_percent": -0.09345661778053745,
+      "common_P128_finite_fixed_K": [
+        256,
+        256,
+        256
+      ],
+      "common_P128_finite_fixed_J": 4087458.0,
+      "phase_vs_encodable_fixed_reduction_percent": -0.09345661778053745,
+      "phase_updates": 2907.0,
+      "fixed_updates": 2030.0,
+      "phase_misses": 16268.0,
+      "fixed_misses": 15405.0
+    }
+  ],
+  "scope": "Exploratory nonconstant-phase candidate, frozen before native N32; no native WCET or full-pipeline cost-aware deployment proof."
+}
