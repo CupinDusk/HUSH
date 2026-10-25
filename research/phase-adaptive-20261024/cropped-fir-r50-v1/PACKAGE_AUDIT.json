@@ -1,0 +1,12 @@
+{
+  "status": "pass",
+  "archive_bytes": 4477530,
+  "archive_sha256": "5b7d22ccba47de57b2679fc5c787145ed1ba90a2d80fe65f50bc516026fbde9c",
+  "manifest_files": 652,
+  "included_traces": 291,
+  "independent_unzip_verify_returncode": 0,
+  "new_simulator_executions_from_packaging": 0,
+  "published": false,
+  "verify_stdout": "{\"status\": \"pass\", \"files_hash_verified\": 652, \"training_rows_reduced\": 9630, \"traces_replayed\": 291, \"returned_words_replayed\": 313116, \"commits_replayed\": 4767744, \"ablation_classifiers\": 82, \"simulator_executions\": 0, \"network_calls\": 0}\n",
+  "verify_stderr": ""
+}
