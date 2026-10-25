@@ -1,0 +1,26 @@
+{
+  "completed_utc": "2026-10-25T19:52:39.382141+00:00",
+  "status": "pass",
+  "zip": "hush-phase-reuse-matrix-r52-v1.zip",
+  "bytes": 5395449,
+  "sha256": "da77504343571dde368bb32e93e9162a8bcbc6141a7789551a359c94442cc2aa",
+  "files": 1245,
+  "independent_unzip_check": {
+    "status": "pass",
+    "files_sha_verified": 1244,
+    "functional_oracles": 4,
+    "static_training_and_holdout_cases_verified": 13176,
+    "all_frontier_plans_verified": 56,
+    "all_budget_queries_verified": 36,
+    "holdout_words_replayed": 213840,
+    "holdout_commits_replayed": 5505024,
+    "nominal_frontier_words_replayed": 35640,
+    "nominal_frontier_commits_replayed": 917504,
+    "phase_diagnostic_rows_verified": 168,
+    "original_CSVs_byte_reconstructed": true,
+    "new_timing_executions": 0,
+    "source_total_timing_executions": 13179
+  },
+  "new_scientific_executions_in_packaging": 0,
+  "publication_performed": false
+}
