@@ -1,0 +1,16 @@
+{
+  "status": "pass",
+  "zip": "hush-budget-envelopes-r53-v1.zip",
+  "zip_sha256": "75ef7035e91be4f5e2978fb0f6b0aac66294c7f2de151ed0daa11da6e47b3316",
+  "zip_bytes": 528422,
+  "independent_unzip_verification": {
+    "status": "pass",
+    "hash_bound_inputs": 14,
+    "recomputed_rows": 20223,
+    "all_seven_settings": true,
+    "all_catalogue_selections_match": true,
+    "all_outputs_byte_identical": true,
+    "new_timing_runs": 0
+  },
+  "completed_utc": "2026-10-25T20:30:27.388705+00:00"
+}

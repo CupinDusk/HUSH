@@ -1,0 +1,15 @@
+{
+  "status": "pass",
+  "completed_utc": "2026-10-25T20:22:50.589566+00:00",
+  "archive_sha256": "cd67050bb782d254d556f3fede38dcb832904d465455c12f4333d171533daa4a",
+  "result": {
+    "status": "pass",
+    "CSV_bytes_recomputed_identically": true,
+    "source_binding_bytes_identical": true,
+    "all_frontier_plans": 41,
+    "all_phase_rows": 123,
+    "all_budget_phase_rows": 81,
+    "new_timing_executions": 0
+  },
+  "new_timing_executions": 0
+}
