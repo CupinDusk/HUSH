@@ -1,0 +1,29 @@
+{
+  "status": "pass",
+  "scientific_status": "NOT_VALIDATED",
+  "archive": "hush-last-use-comparison-r48-v1-public.zip",
+  "archive_sha256": "3a73efaad12a4ee2f55fc60eb1c70b7bfea3fc6ec606c5e2567b11a36d9dfe80",
+  "archive_bytes": 10067455,
+  "member_count": 2151,
+  "full_independent_zip_replay": {
+    "status": "pass",
+    "study_status": "NOT_VALIDATED",
+    "actual_simulator_attempts_preserved": 2088,
+    "valid_outputs_markers_raw_counter_excerpts_checked": 2087,
+    "invalid_or_undispatched_preserved": 1,
+    "release_pairs_preserved": 1044,
+    "complete_pairs": 1043,
+    "missing_or_failed_pairs": 1,
+    "source_hashes_verified": true,
+    "inputs_modified": false,
+    "new_scientific_runs": 0,
+    "new_gem5": 0,
+    "new_RTL_or_builds_or_synthesis_STA_formal": 0
+  },
+  "privacy_scan_passed": true,
+  "all_failures_and_signed_pairs_retained": true,
+  "no_publication_performed": true,
+  "new_scientific_runs": 0,
+  "new_builds": 0,
+  "created_utc": "2026-10-25T15:26:34.909595+00:00"
+}

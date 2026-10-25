@@ -1,0 +1,72 @@
+{
+  "status": "pass",
+  "research_zip": {
+    "file": "hush-phase-analysis-checks-r48-v1.zip",
+    "bytes": 17926,
+    "sha256": "b64af6b156dec71a93474545f19b923f67d5f0b14621036db91cc94b6fa48895",
+    "members": 11
+  },
+  "all_archive_members_match_delivery_bytes": true,
+  "archive_members": {
+    "check_analysis.py": {
+      "sha256": "5a86dd6a722bb899338a8756ed7e63b412a81e77f1ae9b2181fcd20b7767c85d",
+      "bytes": 6016
+    },
+    "PLAN.md": {
+      "sha256": "304bfb264c030abefde21ed8263079cf99f62a11443201a8070c801c72258d0d",
+      "bytes": 2090
+    },
+    "SUMMARY.json": {
+      "sha256": "6b5b8f4507faf59ed62f5027e5e6cce476845de297870f737cf6b6f842caacb7",
+      "bytes": 2157
+    },
+    "capacity-worked-trace.csv": {
+      "sha256": "1efd834c41a10f27d154fabfe690c2e73a1866b601185214b255537fe096bfb8",
+      "bytes": 470
+    },
+    "tail-pair.csv": {
+      "sha256": "8ffe9c52e975e2b6d56f98cef95063c8b62c3fc63d42808591e64ac9586a90b4",
+      "bytes": 243
+    },
+    "timer-aggregates.csv": {
+      "sha256": "1ad7718beb56fbaa9dbfe7bc13a1a1a6a77ddf1e08225cd26cc52b2f59e6320a",
+      "bytes": 52154
+    },
+    "timer-witnesses.csv": {
+      "sha256": "302973c5a9614253e6fc9e7e98fbc88f2f3f73224577d8fc465db92bcbde9420",
+      "bytes": 24739
+    },
+    "README.md": {
+      "sha256": "65ff5b9fa5cdf5c5d8e718633580bfd749ebea53db69f4026cd166680fc99fb9",
+      "bytes": 3554
+    },
+    "SOURCE_COST_AUDIT.md": {
+      "sha256": "0d6eacbea0fbba570ab9d6ae82cc794610c3ace9f03f7f6f653744b3cd923101",
+      "bytes": 5523
+    },
+    "verify_replay.py": {
+      "sha256": "2ffcbb84d7c307f582cbdff258e95a54ffc97cad108ef5bd766917b4a553a092",
+      "bytes": 4244
+    },
+    "INPUT_MANIFEST.json": {
+      "sha256": "5acde05b5ca7f0f0c6bb4502a3fb8dc56526f4cc8ab642a15e62d16adcce8839",
+      "bytes": 1565
+    }
+  },
+  "VERIFY_REPLAY.json": {
+    "sha256": "fefa90c2f332da3b745f5f8abbdd888f1070e3e50516ff0e332163be471ccb74",
+    "bytes": 1985
+  },
+  "scientific_execution_count": 1,
+  "separate_verification_execution_count": 1,
+  "original_scientific_file_hashes": {
+    "check_analysis.py": "5a86dd6a722bb899338a8756ed7e63b412a81e77f1ae9b2181fcd20b7767c85d",
+    "PLAN.md": "304bfb264c030abefde21ed8263079cf99f62a11443201a8070c801c72258d0d",
+    "SUMMARY.json": "6b5b8f4507faf59ed62f5027e5e6cce476845de297870f737cf6b6f842caacb7",
+    "capacity-worked-trace.csv": "1efd834c41a10f27d154fabfe690c2e73a1866b601185214b255537fe096bfb8",
+    "tail-pair.csv": "8ffe9c52e975e2b6d56f98cef95063c8b62c3fc63d42808591e64ac9586a90b4",
+    "timer-aggregates.csv": "1ad7718beb56fbaa9dbfe7bc13a1a1a6a77ddf1e08225cd26cc52b2f59e6320a",
+    "timer-witnesses.csv": "302973c5a9614253e6fc9e7e98fbc88f2f3f73224577d8fc465db92bcbde9420"
+  },
+  "new_gem5_or_RTL_or_hardware_tool_executions": 0
+}

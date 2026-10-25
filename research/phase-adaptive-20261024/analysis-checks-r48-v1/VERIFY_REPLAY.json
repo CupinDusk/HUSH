@@ -1,0 +1,43 @@
+{
+  "status": "pass",
+  "verified_utc": "2026-10-25T14:59:54.071686+00:00",
+  "verification_kind": "Independent temporary ZIP extraction followed by exactly one model verification replay",
+  "original_scientific_model_executions_preserved": 1,
+  "additional_verification_model_executions": 1,
+  "new_scientific_experimental_runs": 0,
+  "new_gem5_runs": 0,
+  "new_rtl_runs": 0,
+  "new_synthesis_sta_formal": 0,
+  "source_and_original_results_modified": false,
+  "all_seven_scientific_inputs_byte_exact_after_replay": {
+    "check_analysis.py": true,
+    "PLAN.md": true,
+    "SUMMARY.json": true,
+    "capacity-worked-trace.csv": true,
+    "tail-pair.csv": true,
+    "timer-aggregates.csv": true,
+    "timer-witnesses.csv": true
+  },
+  "four_original_csvs_byte_exact": {
+    "capacity-worked-trace.csv": true,
+    "tail-pair.csv": true,
+    "timer-aggregates.csv": true,
+    "timer-witnesses.csv": true
+  },
+  "summary_byte_exact": true,
+  "timer_scope": {
+    "groups": 960,
+    "single_line_timer_trajectories": 192000,
+    "independent_read_probes_per_trajectory": 40,
+    "total_independent_read_probes": 7680000,
+    "LRU_state_space_enumeration": false,
+    "capacity_evidence": "one separate two-way three-address seven-step worked trace",
+    "tail_evidence": "one separate paired reference-model example; not measured application timing"
+  },
+  "original_summary_sha256": "6b5b8f4507faf59ed62f5027e5e6cce476845de297870f737cf6b6f842caacb7",
+  "source_sha256": "5a86dd6a722bb899338a8756ed7e63b412a81e77f1ae9b2181fcd20b7767c85d",
+  "registered_plan_sha256": "304bfb264c030abefde21ed8263079cf99f62a11443201a8070c801c72258d0d",
+  "replay_stdout_sha256": "b4736e4eb7cec3119a0a4c2a5db29e38e4142441c69c84e11cc3737aab851608",
+  "python_version": "3.12.14",
+  "calibration": "Deterministic self-replay and source audit; not independent algorithm implementation, general proof, RTL refinement, benchmark experiment or statistical validation."
+}
