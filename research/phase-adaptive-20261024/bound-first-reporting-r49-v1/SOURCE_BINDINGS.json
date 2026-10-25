@@ -1,0 +1,21 @@
+{
+  "original_sources": {
+    "matched-rtl-execution-r44-v1/extension/PUBLIC/SUMMARY.json": {
+      "sha256": "8e5a1426dff49caa2b03f875881bb71e1da1a696fcc31a4f2e21f19570060263",
+      "bytes": 3099010
+    },
+    "phase-sensitivity-r45-v1/attempt-01/TRAINING.csv": {
+      "sha256": "724eb2befa77e698fb51007788744bec362d66c928bd840270ee3c17bc046074",
+      "bytes": 1283012
+    },
+    "compute-density-r45-v1/PUBLIC/results/TRAINING.csv": {
+      "sha256": "9fee94fb30c5cbd59102e8cab7e964b55fe4aac3429ac0bab73796faadeeba16",
+      "bytes": 643760
+    }
+  },
+  "new_experiments": 0,
+  "reporting_inputs": {
+    "inputs/nominal.csv": "8920e75f6478806505ef2bb620417e912d995f69bfedbcf363dc02177b2fc0f8",
+    "inputs/variants.csv": "0d54eddf727c434426ed58d8a5925e09da1fd0079bfbb251e929ebfd69f3e09b"
+  }
+}

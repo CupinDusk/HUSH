@@ -1,0 +1,14 @@
+{
+  "status": "pass",
+  "nominal_rows": 2190,
+  "variant_rows": 9864,
+  "frontier_points": 17,
+  "matched_pairs": 585,
+  "cap_WU_less_equal_more": [
+    356,
+    208,
+    21
+  ],
+  "new_experimental_samples": 0,
+  "scope": "Independent reanalysis of recorded deterministic catalogue, not new simulation, timing validation or static traffic bound"
+}

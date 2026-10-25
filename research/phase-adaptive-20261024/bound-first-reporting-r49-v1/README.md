@@ -1,0 +1,7 @@
+# Bound-first retention reporting
+
+This package reanalyzes the complete saved DSP receiver catalogues: 2190 nominal candidates and 9864 candidates from six parameter studies. Run `python -B -X utf8 verify_reporting.py` with Python 3.12+. No dependency installation, simulator, RTL build, proof engine or network is used. It checks the complete M–observed-WU frontier, all min-M ties through uniform M/WU/J/K/flush ranking, every matched Future/Cap pair, and all six variant minima against the included expected tables.
+
+M=H+80U is the conditional shared-service bound; W=C+M+phase events. WU/J/R are recorded execution metrics. The nominal common min M is7156; least-WU Fixed/Future/Cap have944/829/819 WU and66715/66723/66723 W. All585 Future/Cap pairs have equal H/U/M/W; cap WU is less/equal/more in356/208/21 pairs. The full frontier includes its crossover. Five of six parameter studies save observed WU at equal M; the short 32-line/4-lag setting increases WU. Parameter studies vary the same DSP path, and each uses1644 candidates with a smaller dynamic menu than the nominal2190. Neither is the full255^3 dynamic parameter space.
+
+These are retrospective selections over old nominal executions. They are not newly frozen holdout plans, new scientific samples, CPU speedup results, or static traffic/bandwidth certificates. The full earlier implementation, service relation, original experiments and compiled-system outcomes remain in the parent research collection, including failed gates. This reporting package contains no manuscript or third-party papers.
