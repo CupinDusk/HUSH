@@ -1,0 +1,1227 @@
+{
+  "schema": "hush-r38-portable-v1",
+  "archive": "reporting-inputs.zip",
+  "components": [
+    "receiver-endpoint",
+    "sentinel-frontier",
+    "paired-boot",
+    "deployment-region"
+  ],
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+      "git_blob_sha1": "fa1385d99a319b43c06f5309d1aae9fdd3adea46"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5652,
+      "sha256": "4c31a05a3fcfa973d7495c54d22c7a3ee980b0065c7c887cff030ad37ad7cb29",
+      "git_blob_sha1": "a025e1bf78b30c2e89b186d8237bd58e88a1df8b"
+    },
+    {
+      "path": "replay.py",
+      "bytes": 2758,
+      "sha256": "c7aabb29a5c556aa79ec52319973b31a9a47036099e34cce5b7318de25c8d348",
+      "git_blob_sha1": "11f0a65dcd0a67fd79c6ea3d012647cdf60b7aa3"
+    },
+    {
+      "path": "reporting-inputs.zip",
+      "bytes": 2987232,
+      "sha256": "65e6d5d176a11de11932a4e017590ec8ed6c596c74e3c3ef0d67aae84e9bd28f",
+      "git_blob_sha1": "032864540e3868aa3d770a45500892cd7a5625b4"
+    }
+  ],
+  "archive_members": [
+    {
+      "path": "receiver-endpoint/check.py",
+      "bytes": 8380,
+      "sha256": "36949a1e4712212860b3aecd08fae653879f622c27af68b4b1801f0bf52916f6"
+    },
+    {
+      "path": "receiver-endpoint/COMPILE_RECEIPT.json",
+      "bytes": 3754,
+      "sha256": "23b227f7dfc6dcce27c9e9b6b2d65bbb8822704d33249e639174dc88bd87ddd7"
+    },
+    {
+      "path": "receiver-endpoint/config_quantized.py",
+      "bytes": 8235,
+      "sha256": "7349b98e8a0bd3ee17a26c38b9c770ab75396693cce0a0333fc4a658547ef0b9"
+    },
+    {
+      "path": "receiver-endpoint/COUNTER_DEFINITION.json",
+      "bytes": 1094,
+      "sha256": "14c42b86ae63f2793c82e7715c12743840c2eaabf3c5a00911b144f777f6d4e3"
+    },
+    {
+      "path": "receiver-endpoint/endpoint.py",
+      "bytes": 483,
+      "sha256": "f8d2bf73e2393a857d637dfba63a59489ad2e774efef738ccba5c2cd177354b6"
+    },
+    {
+      "path": "receiver-endpoint/expected_outputs.h",
+      "bytes": 12221,
+      "sha256": "3194316c23e904d75941e63385de0f9997e1b9314771ecf614c923f74b9625e4"
+    },
+    {
+      "path": "receiver-endpoint/FROZEN_SELECTION.json",
+      "bytes": 2884,
+      "sha256": "4aca04658969ef2591babf3a64d529d52b9b0707cb80c11be218691fed4d194c"
+    },
+    {
+      "path": "receiver-endpoint/inputs/R37_PUBLIC_MANIFEST.json",
+      "bytes": 6415,
+      "sha256": "376864ccfbb26742ddda42403f993b83824d8237e31bc0e9a072fd3bac162646"
+    },
+    {
+      "path": "receiver-endpoint/inputs/R37_RESULTS.json",
+      "bytes": 28231441,
+      "sha256": "f88c30ee1e166e009ff44108d430b3e10d3d72065bfd7c635fa40d0a423ad8e8"
+    },
+    {
+      "path": "receiver-endpoint/kernel_suite.c",
+      "bytes": 5438,
+      "sha256": "228c652ef3b1f42ea6b79247eb0229684ca5d5fd837da966a753f62f8b841f7f"
+    },
+    {
+      "path": "receiver-endpoint/LAUNCH_BINDING.json",
+      "bytes": 682,
+      "sha256": "069cb4125086ec370e35f8dc7bcb704d6bd7213c2ce9824f4acc832756a027c6"
+    },
+    {
+      "path": "receiver-endpoint/MANIFEST.json",
+      "bytes": 5707,
+      "sha256": "49025f38c822b72e592b1b9753044e843ad9fdd66c5b9c5dcaeabf9deea5d32a"
+    },
+    {
+      "path": "receiver-endpoint/NEW108_ALL_TIMINGS.csv",
+      "bytes": 10108,
+      "sha256": "ff67f9ce89672d651ef20bf27d5afc2a8452e9e345161598e78091071132e9e2"
+    },
+    {
+      "path": "receiver-endpoint/NEW108_OPERATION_COSTS.csv",
+      "bytes": 9536,
+      "sha256": "52e4fe859eca8bdc387b4d3d170428d58db625207965c76b1230ca1edb31cd1f"
+    },
+    {
+      "path": "receiver-endpoint/NEW18_POLICY_ENVELOPES.csv",
+      "bytes": 865,
+      "sha256": "b8f5579882ec9f28896a8b37e4c17579553eb1882e60985c960318f75ab6c377"
+    },
+    {
+      "path": "receiver-endpoint/NEW18_SIGNED_PAIRS.csv",
+      "bytes": 2348,
+      "sha256": "5b1b4d8cede9e2e947df2b7226cd70cbb3bbec484c30d18e15c260068ac74f5e"
+    },
+    {
+      "path": "receiver-endpoint/NEW_MANIFEST.json",
+      "bytes": 26899,
+      "sha256": "72eb0c05b4e2798628bc5e583933d68a035e786761ef71d6441f2e684f2b5093"
+    },
+    {
+      "path": "receiver-endpoint/OLD_TRAINING_CANDIDATES_BY_R.json",
+      "bytes": 274754,
+      "sha256": "987752e8b69da18a916bedac2b022acd5ceac18e47e2e7e52c29e73d89cf46ef"
+    },
+    {
+      "path": "receiver-endpoint/oracle.py",
+      "bytes": 1395,
+      "sha256": "5635d520551049891e99597e694b85a22561715b4821b301804e4d27eb08a22e"
+    },
+    {
+      "path": "receiver-endpoint/ORACLES.json",
+      "bytes": 74912,
+      "sha256": "8eaa3e12c2b3a421fc24023359bf5fe082701dab7d89a6f198a39a2cf5572379"
+    },
+    {
+      "path": "receiver-endpoint/PROTOCOL.json",
+      "bytes": 8809,
+      "sha256": "b1469fb04aafbd57e09ac13bc5948e17e62544e4706dac97af1c370b52d67b95"
+    },
+    {
+      "path": "receiver-endpoint/README.md",
+      "bytes": 3478,
+      "sha256": "b21955e1a0c09c525d9054febe23a1df7f262fc4464ac1069d49428a1a11e4e2"
+    },
+    {
+      "path": "receiver-endpoint/REGISTRATION.json",
+      "bytes": 1297,
+      "sha256": "8b768711620867d903f77cb98118e31a7a0a67f71f208819c7a9d8c43e89057e"
+    },
+    {
+      "path": "receiver-endpoint/RESULTS.json",
+      "bytes": 1698419,
+      "sha256": "6f1be08aec66c9dc3021d3fba6b84c75b05164cf9369b8d891eb638e17c499f4"
+    },
+    {
+      "path": "receiver-endpoint/RETROSPECTIVE_R37_ALL1800.csv",
+      "bytes": 201784,
+      "sha256": "c21458070624763b7bc04e8a4a9a37611db0adaf98fc513fcc0e0a35e476044d"
+    },
+    {
+      "path": "receiver-endpoint/RETROSPECTIVE_ROWS.json",
+      "bytes": 565426,
+      "sha256": "78c4a31df426f2423ab04c30c425137099959a9910cbc9663d70f2b4f19269a7"
+    },
+    {
+      "path": "receiver-endpoint/RETROSPECTIVE_TRAINING_CANDIDATES_BY_R.csv",
+      "bytes": 83936,
+      "sha256": "6f28c27471d9eb0d409245f904b59bebc3b2c355f6a60de2c7a0b8924ae015b1"
+    },
+    {
+      "path": "receiver-endpoint/run_new.py",
+      "bytes": 5824,
+      "sha256": "08e531321646f7ad3648bec082cbcdf1ac24761e40ef687c6b3bf52c30723569"
+    },
+    {
+      "path": "receiver-endpoint/select_from_old.py",
+      "bytes": 3409,
+      "sha256": "8b79a8a650722c9a868c8b6dbed8939477e4585b6ef6a89621d2b36b20976f3d"
+    },
+    {
+      "path": "receiver-endpoint/SEMANTICS_CORRECTION.json",
+      "bytes": 2238,
+      "sha256": "fc0fe3d4a0f425e28acd1600f4fe4b5c4ebb1c2a8ec257c0d0298fdcdd597550"
+    },
+    {
+      "path": "receiver-endpoint/SIMULATOR_BINDING.json",
+      "bytes": 767,
+      "sha256": "0c18e9c0647358053b6a445d485a65509d5aef4a9a87558bc8478532620ce7e2"
+    },
+    {
+      "path": "receiver-endpoint/source-reference/SOURCE_PROVENANCE.json",
+      "bytes": 3169,
+      "sha256": "33558a84b98d496e101813087579b3c284cc1dd138445f758d2452b68e7a1e4a"
+    },
+    {
+      "path": "receiver-endpoint/source-reference/upstream/bench/kernel/complex_updates/complex_updates.c",
+      "bytes": 2988,
+      "sha256": "81176182997abd6ee1107fc671252b7c32a15750e4b01b509817706206d1b88a"
+    },
+    {
+      "path": "receiver-endpoint/source-reference/upstream/bench/kernel/iir/iir.c",
+      "bytes": 3450,
+      "sha256": "adefb1d3556ff4d3d1d8421220677119d668c7feb987ec05b18d5a5e0cb13b59"
+    },
+    {
+      "path": "receiver-endpoint/source-reference/upstream/bench/kernel/matrix1/matrix1.c",
+      "bytes": 3806,
+      "sha256": "de07299ca342c626454bc655a4ba4425935571f36643383e51e5bfc27d46654d"
+    },
+    {
+      "path": "receiver-endpoint/source-reference/upstream/README.md",
+      "bytes": 1895,
+      "sha256": "8f22df12352dc377bd5d9b13b19bfbc83243d04f2b1bf842cc347321768020fe"
+    },
+    {
+      "path": "receiver-endpoint/STATUS.json",
+      "bytes": 105,
+      "sha256": "69f76416b4ab03cbd59aaabfa162ffafbdb0686d00c72b7f5a7e45f5be1999fc"
+    },
+    {
+      "path": "receiver-endpoint/SUMMARY.json",
+      "bytes": 18717,
+      "sha256": "ca5ed0d8b5421ba612b522de28264c93bbe45343b5e313e86129659ded364200"
+    },
+    {
+      "path": "sentinel-frontier/ALL144_NEW_VALIDATION.csv",
+      "bytes": 14050,
+      "sha256": "d2180f79a90f6f8d1762aeae70b54b9d2561640ccaaac794a7c5edce010e1fd5"
+    },
+    {
+      "path": "sentinel-frontier/ALL144_OPERATION_COSTS.csv",
+      "bytes": 12717,
+      "sha256": "743ffba670b1d5f2df27ec05f584339317eef0f27709e7e75134546adb22cfeb"
+    },
+    {
+      "path": "sentinel-frontier/ALL18_CONTROL_WINNERS.csv",
+      "bytes": 473,
+      "sha256": "fb4f5a151615934c78ea36899d5a2c3c3b5b89d43c7eac80eb09e092b085281b"
+    },
+    {
+      "path": "sentinel-frontier/ALL1908_TRAINING_ROWS.csv",
+      "bytes": 194409,
+      "sha256": "e1957cf0fb5d29cfdb84d02685165bf3a31ef2b35541bf43e3fbbd706cef5060"
+    },
+    {
+      "path": "sentinel-frontier/ALL24_LABEL_ENVELOPES.csv",
+      "bytes": 1159,
+      "sha256": "b20281ebe4c4d213c985e236aa4fef1dea1ac88ec6578c5b257a280ba229ead2"
+    },
+    {
+      "path": "sentinel-frontier/ALL36_DUAL_OBJECTIVE_SIGNED_PAIRS.csv",
+      "bytes": 5685,
+      "sha256": "09745d3c2b922591ed3207e80af518397ea21499fdd50730f1f6798fcbdf6d6b"
+    },
+    {
+      "path": "sentinel-frontier/ALL954_TRAINING_CANDIDATES.csv",
+      "bytes": 65685,
+      "sha256": "68dbf4fc3502a31b82e0f31c126b995fc6534d31fdfe5c9c5cb8b2f3b0fa9828"
+    },
+    {
+      "path": "sentinel-frontier/ALL_TRAINING_AGGREGATES.json",
+      "bytes": 237466,
+      "sha256": "239cd33a9c5561acd1680bd996638b041bbdf06609e20b8f6ca47808e6c1912a"
+    },
+    {
+      "path": "sentinel-frontier/CAMPAIGN_START.json",
+      "bytes": 69,
+      "sha256": "88f50231f1973e5769f8e0a3a28785686e83f9f79922268df1651f4902207eae"
+    },
+    {
+      "path": "sentinel-frontier/check.py",
+      "bytes": 10687,
+      "sha256": "445486cea49427520444ea7f7fed1ed68b9bfdadd127302b286b0272aa755149"
+    },
+    {
+      "path": "sentinel-frontier/CHECKER_FREEZE.json",
+      "bytes": 272,
+      "sha256": "d3df35446464345d04730736b51b333fc67a7811f144080e3f5dd089625b46b7"
+    },
+    {
+      "path": "sentinel-frontier/COMPILE_RECEIPT.json",
+      "bytes": 3754,
+      "sha256": "23b227f7dfc6dcce27c9e9b6b2d65bbb8822704d33249e639174dc88bd87ddd7"
+    },
+    {
+      "path": "sentinel-frontier/config_quantized.py",
+      "bytes": 8235,
+      "sha256": "7349b98e8a0bd3ee17a26c38b9c770ab75396693cce0a0333fc4a658547ef0b9"
+    },
+    {
+      "path": "sentinel-frontier/COUNTER_DEFINITION.json",
+      "bytes": 1094,
+      "sha256": "14c42b86ae63f2793c82e7715c12743840c2eaabf3c5a00911b144f777f6d4e3"
+    },
+    {
+      "path": "sentinel-frontier/endpoint.py",
+      "bytes": 483,
+      "sha256": "f8d2bf73e2393a857d637dfba63a59489ad2e774efef738ccba5c2cd177354b6"
+    },
+    {
+      "path": "sentinel-frontier/expected_outputs.h",
+      "bytes": 12221,
+      "sha256": "3194316c23e904d75941e63385de0f9997e1b9314771ecf614c923f74b9625e4"
+    },
+    {
+      "path": "sentinel-frontier/export_paper.py",
+      "bytes": 2557,
+      "sha256": "4576dcfc4789290f374e3490a99d057e9ecc8224aa995932d36b20012a5c3ec2"
+    },
+    {
+      "path": "sentinel-frontier/FROZEN_SELECTION.json",
+      "bytes": 4636,
+      "sha256": "049408a65ddb711a9cd30f1491c16927844130d6fe2f8136aac63be8abc58f15"
+    },
+    {
+      "path": "sentinel-frontier/FULL_TRAINING_PARETO.csv",
+      "bytes": 2287,
+      "sha256": "9804cff8cca3684ace757b12bdee931173da6dc8e010c8b3888ba04ac8942592"
+    },
+    {
+      "path": "sentinel-frontier/inputs/R37_RESULTS.json",
+      "bytes": 28231441,
+      "sha256": "f88c30ee1e166e009ff44108d430b3e10d3d72065bfd7c635fa40d0a423ad8e8"
+    },
+    {
+      "path": "sentinel-frontier/inputs/R38_FINITE_MENU_SUMMARY.json",
+      "bytes": 18717,
+      "sha256": "ca5ed0d8b5421ba612b522de28264c93bbe45343b5e313e86129659ded364200"
+    },
+    {
+      "path": "sentinel-frontier/kernel_suite.c",
+      "bytes": 5438,
+      "sha256": "228c652ef3b1f42ea6b79247eb0229684ca5d5fd837da966a753f62f8b841f7f"
+    },
+    {
+      "path": "sentinel-frontier/MANIFEST.json",
+      "bytes": 7948,
+      "sha256": "dc1c7e7bb6ede49e955ede3149143431970c9f7d5d8b726ee6d001bcf302a9e2"
+    },
+    {
+      "path": "sentinel-frontier/oracle.py",
+      "bytes": 1395,
+      "sha256": "5635d520551049891e99597e694b85a22561715b4821b301804e4d27eb08a22e"
+    },
+    {
+      "path": "sentinel-frontier/ORACLES.json",
+      "bytes": 74912,
+      "sha256": "8eaa3e12c2b3a421fc24023359bf5fe082701dab7d89a6f198a39a2cf5572379"
+    },
+    {
+      "path": "sentinel-frontier/PAPER_ALL24_LABEL_RATIOS.csv",
+      "bytes": 2702,
+      "sha256": "b714657cb83032af6fddcc180108112057f4e43e09434c45d171e683299c8e58"
+    },
+    {
+      "path": "sentinel-frontier/PAPER_SIX_ROW_TABLE.csv",
+      "bytes": 1481,
+      "sha256": "cef535d4469a455e603147c391e4eb5a44e4540f28f5e735d299b085706e5ab1"
+    },
+    {
+      "path": "sentinel-frontier/PAPER_SUMMARY.json",
+      "bytes": 37992,
+      "sha256": "ab6d29aad4ca697175aa44cb0fbc669c42d396e8139aa9ebb763e2163ddb9198"
+    },
+    {
+      "path": "sentinel-frontier/PROTOCOL.json",
+      "bytes": 13639,
+      "sha256": "6e95e60b3efb8d8f6342a2a33f2ef8b4186d1d13d764fbef6b207e7eb4b2e0d3"
+    },
+    {
+      "path": "sentinel-frontier/README.md",
+      "bytes": 3881,
+      "sha256": "cb656f178e347a3ac7d9ec8797040fb10e044641a20bcdb32cd9a925ed912c44"
+    },
+    {
+      "path": "sentinel-frontier/REGISTRATION.json",
+      "bytes": 1023,
+      "sha256": "eb5c2fc330d5c7b8a6d73bdd8dbe5c3bf9bbfcc5227490834a39af293c574413"
+    },
+    {
+      "path": "sentinel-frontier/REPORTING_SCHEMA_FREEZE.json",
+      "bytes": 453,
+      "sha256": "2c0fdb538ab5a1c265af93ddfa32c68cf1ae22973efb08b43e2ee988818a323b"
+    },
+    {
+      "path": "sentinel-frontier/run_stage.py",
+      "bytes": 6321,
+      "sha256": "7a2feb9716f100479d102e293d07a9d96550b455030366d9174358481d13f792"
+    },
+    {
+      "path": "sentinel-frontier/select_dual.py",
+      "bytes": 3812,
+      "sha256": "d97cf99033fe2e5905517a38e696dd70c6a7f856708ef122b5828dd88a6c761b"
+    },
+    {
+      "path": "sentinel-frontier/SEMANTICS_CORRECTION.json",
+      "bytes": 2238,
+      "sha256": "fc0fe3d4a0f425e28acd1600f4fe4b5c4ebb1c2a8ec257c0d0298fdcdd597550"
+    },
+    {
+      "path": "sentinel-frontier/SIMULATOR_BINDING.json",
+      "bytes": 767,
+      "sha256": "0c18e9c0647358053b6a445d485a65509d5aef4a9a87558bc8478532620ce7e2"
+    },
+    {
+      "path": "sentinel-frontier/source-reference/SOURCE_PROVENANCE.json",
+      "bytes": 3169,
+      "sha256": "33558a84b98d496e101813087579b3c284cc1dd138445f758d2452b68e7a1e4a"
+    },
+    {
+      "path": "sentinel-frontier/source-reference/upstream/bench/kernel/complex_updates/complex_updates.c",
+      "bytes": 2988,
+      "sha256": "81176182997abd6ee1107fc671252b7c32a15750e4b01b509817706206d1b88a"
+    },
+    {
+      "path": "sentinel-frontier/source-reference/upstream/bench/kernel/iir/iir.c",
+      "bytes": 3450,
+      "sha256": "adefb1d3556ff4d3d1d8421220677119d668c7feb987ec05b18d5a5e0cb13b59"
+    },
+    {
+      "path": "sentinel-frontier/source-reference/upstream/bench/kernel/matrix1/matrix1.c",
+      "bytes": 3806,
+      "sha256": "de07299ca342c626454bc655a4ba4425935571f36643383e51e5bfc27d46654d"
+    },
+    {
+      "path": "sentinel-frontier/source-reference/upstream/README.md",
+      "bytes": 1895,
+      "sha256": "8f22df12352dc377bd5d9b13b19bfbc83243d04f2b1bf842cc347321768020fe"
+    },
+    {
+      "path": "sentinel-frontier/SUMMARY.json",
+      "bytes": 46828,
+      "sha256": "8f46d2e4b2caec6624b5ca7464556f5e74d6002920cac87f204a9916adf5da63"
+    },
+    {
+      "path": "sentinel-frontier/TRAIN_LAUNCH_BINDING.json",
+      "bytes": 616,
+      "sha256": "a27a29bc363a3c1179ee23d35af68d0e3ac2afc77d8d09e07a2ed86e93462ef1"
+    },
+    {
+      "path": "sentinel-frontier/TRAIN_MANIFEST.json",
+      "bytes": 58712,
+      "sha256": "47a7525753d0b3fa1fcf0ddfed82b47957068dd1bb61ef3da4b3354358a2755a"
+    },
+    {
+      "path": "sentinel-frontier/TRAIN_RESULTS.json",
+      "bytes": 3434906,
+      "sha256": "eae68e0f4eccbf422d7da08b44ffd44a3029219df376a822ee9215136fd3fbba"
+    },
+    {
+      "path": "sentinel-frontier/TRAIN_STATUS.json",
+      "bytes": 107,
+      "sha256": "4d19342b27a24c55b7416fedc29ec222ac2bcf16e0a3700a6796d51b6921211d"
+    },
+    {
+      "path": "sentinel-frontier/TRAINING_AUDIT.json",
+      "bytes": 13161,
+      "sha256": "86bfcfd9bc61696b2d5e7716121ac778eaf051affa77d1eb1a1225d39d62819b"
+    },
+    {
+      "path": "sentinel-frontier/TRAINING_PARETO.json",
+      "bytes": 8547,
+      "sha256": "1da453c94221d877dac54ee57a369284c50bab6e0a1e17a5227fb43d52dc2d02"
+    },
+    {
+      "path": "sentinel-frontier/VALIDATION_LAUNCH_BINDING.json",
+      "bytes": 678,
+      "sha256": "8140c6a7767cab0b09296b746731f9b9d08dd3eddc9b62d35f9349ebe4c6738c"
+    },
+    {
+      "path": "sentinel-frontier/VALIDATION_MANIFEST.json",
+      "bytes": 36427,
+      "sha256": "008396595c315cc41b6a24bb8a0782c0fa58412c5c51bff421b6eadc81c4ddad"
+    },
+    {
+      "path": "sentinel-frontier/VALIDATION_RESULTS.json",
+      "bytes": 2264993,
+      "sha256": "71f69830f995afd3fdbf86e08316da8848a7df7370f5971a0ad2c86b6b95b949"
+    },
+    {
+      "path": "sentinel-frontier/VALIDATION_STATUS.json",
+      "bytes": 107,
+      "sha256": "50f54b2a46b8ac8fd3bf526b814153bf7a5f4660256b5cc47a3641a95d9c04ce"
+    },
+    {
+      "path": "sentinel-frontier/verify_all.py",
+      "bytes": 792,
+      "sha256": "f789a29f13ca0e1d0839a08ea8661df44ef6e804c4957943b40f290f3b76475c"
+    },
+    {
+      "path": "paired-boot/audit_r37_paths.py",
+      "bytes": 2702,
+      "sha256": "144d2fcf6a5ce0dfb63e1ce2e17c15ca9b1f86516a3f8e48916019f8d960897e"
+    },
+    {
+      "path": "paired-boot/audit_trace.py",
+      "bytes": 3707,
+      "sha256": "66d65a30239569ca4460e640341512a40d654756afa6fa4ea60d734f727d823d"
+    },
+    {
+      "path": "paired-boot/check.py",
+      "bytes": 4180,
+      "sha256": "5a076f45d68fbc3f70e53f563b75e098b5b92ed6656d3ef99bc9c49763e76809"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v2-run-1/n16-k1/compile.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v2-run-1/n16-k1/execution.log",
+      "bytes": 25,
+      "sha256": "61720fcade97badc88bd8af8a2e57002cc43114d29ecda1eb7a3e2c39f9ca530"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v2-run-1/n16-k1/generation.log",
+      "bytes": 494430,
+      "sha256": "42cb83bd4128aa09239916030f365fd428f428167acdb4f3f9c4d2c55c4fb5d0"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v2-run-1/n16-k1/model.cc",
+      "bytes": 708202,
+      "sha256": "acd896dd4109275c8b8d011316e005e355218a9fa4764cc6986953e69ebf575b"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v2-run-1/n16-k1/trace.csv",
+      "bytes": 446,
+      "sha256": "108125cd37f21ee9ef027c90a73cd1ca542f905eaf9a14917bdf62c9e40ce8e1"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v2-run-1/n16-k255/compile.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v2-run-1/n16-k255/execution.log",
+      "bytes": 25,
+      "sha256": "61720fcade97badc88bd8af8a2e57002cc43114d29ecda1eb7a3e2c39f9ca530"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v2-run-1/n16-k255/generation.log",
+      "bytes": 494430,
+      "sha256": "42cb83bd4128aa09239916030f365fd428f428167acdb4f3f9c4d2c55c4fb5d0"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v2-run-1/n16-k255/model.cc",
+      "bytes": 708202,
+      "sha256": "f366b5d8ff199d7f3eaa04fa1b0948df74f93a290a27c99cbb9d751f2e531e04"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v2-run-1/n16-k255/trace.csv",
+      "bytes": 448,
+      "sha256": "f163cdff15f9177fe73aa6b43ece28019b5fd3fbe14372d67565ba8f46132627"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v2-run-1/n16-k4/compile.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v2-run-1/n16-k4/execution.log",
+      "bytes": 25,
+      "sha256": "61720fcade97badc88bd8af8a2e57002cc43114d29ecda1eb7a3e2c39f9ca530"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v2-run-1/n16-k4/generation.log",
+      "bytes": 494430,
+      "sha256": "42cb83bd4128aa09239916030f365fd428f428167acdb4f3f9c4d2c55c4fb5d0"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v2-run-1/n16-k4/model.cc",
+      "bytes": 708202,
+      "sha256": "a97dcf8ed208a2c791422d285ce4f5fc9e4f50ef45b05c2699c0a21de9cda7f0"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v2-run-1/n16-k4/trace.csv",
+      "bytes": 446,
+      "sha256": "6fd05a9197938be64fa7dca839b648b45b7034e45d4950163b49dd9da6e8988d"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v2-run-1/n4-k1/compile.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v2-run-1/n4-k1/execution.log",
+      "bytes": 25,
+      "sha256": "61720fcade97badc88bd8af8a2e57002cc43114d29ecda1eb7a3e2c39f9ca530"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v2-run-1/n4-k1/generation.log",
+      "bytes": 352471,
+      "sha256": "2490028caba20618773fbf2c05db66b4d013ee35edc196455c0ccb7cfdea6b5b"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v2-run-1/n4-k1/model.cc",
+      "bytes": 400914,
+      "sha256": "bcd3a53215c65008eedddef9a4308550b28bff21d8154a2a4c67c782cdae7f6f"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v2-run-1/n4-k1/trace.csv",
+      "bytes": 446,
+      "sha256": "108125cd37f21ee9ef027c90a73cd1ca542f905eaf9a14917bdf62c9e40ce8e1"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v2-run-1/n4-k255/compile.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v2-run-1/n4-k255/execution.log",
+      "bytes": 25,
+      "sha256": "61720fcade97badc88bd8af8a2e57002cc43114d29ecda1eb7a3e2c39f9ca530"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v2-run-1/n4-k255/generation.log",
+      "bytes": 352471,
+      "sha256": "2490028caba20618773fbf2c05db66b4d013ee35edc196455c0ccb7cfdea6b5b"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v2-run-1/n4-k255/model.cc",
+      "bytes": 400914,
+      "sha256": "bdb4668a8fd5bdd7c0568a530ae20c07994da5147e4f052342db98e0ad8553a5"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v2-run-1/n4-k255/trace.csv",
+      "bytes": 448,
+      "sha256": "f163cdff15f9177fe73aa6b43ece28019b5fd3fbe14372d67565ba8f46132627"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v2-run-1/n4-k4/compile.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v2-run-1/n4-k4/execution.log",
+      "bytes": 25,
+      "sha256": "61720fcade97badc88bd8af8a2e57002cc43114d29ecda1eb7a3e2c39f9ca530"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v2-run-1/n4-k4/generation.log",
+      "bytes": 352471,
+      "sha256": "2490028caba20618773fbf2c05db66b4d013ee35edc196455c0ccb7cfdea6b5b"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v2-run-1/n4-k4/model.cc",
+      "bytes": 400914,
+      "sha256": "41b1c35b19d03e7ba33bbc715529c9210dab1fa2a2a3027c75a9ecd0b05dc965"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v2-run-1/n4-k4/trace.csv",
+      "bytes": 446,
+      "sha256": "6fd05a9197938be64fa7dca839b648b45b7034e45d4950163b49dd9da6e8988d"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v2-run-1/RESULT.json",
+      "bytes": 7383,
+      "sha256": "41fd1e7a3cab8c0cdc9ba477dd2dfb4ca864cc38d8a65e6435762e7ff671937b"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v3-run-1/n16-k1/compile.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v3-run-1/n16-k1/execution.log",
+      "bytes": 93,
+      "sha256": "c42cc7e710c96a18930e0fd4d707a6122fec88db3174b2bd58d7bfcfae3217df"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v3-run-1/n16-k1/generation.log",
+      "bytes": 494430,
+      "sha256": "42cb83bd4128aa09239916030f365fd428f428167acdb4f3f9c4d2c55c4fb5d0"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v3-run-1/n16-k1/model.cc",
+      "bytes": 708202,
+      "sha256": "acd896dd4109275c8b8d011316e005e355218a9fa4764cc6986953e69ebf575b"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v3-run-1/n16-k1/trace.csv",
+      "bytes": 263028,
+      "sha256": "d10b06ba7ba6a061dd9ad19330f638c6bc7ffbccbcbeacb0f6a942738a0e196c"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v3-run-1/n16-k255/compile.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v3-run-1/n16-k255/execution.log",
+      "bytes": 93,
+      "sha256": "9ecc1a5339a2c24ed7cf935f34ddfc7101374d791fbcc2721386c7df523680ad"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v3-run-1/n16-k255/generation.log",
+      "bytes": 494430,
+      "sha256": "42cb83bd4128aa09239916030f365fd428f428167acdb4f3f9c4d2c55c4fb5d0"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v3-run-1/n16-k255/model.cc",
+      "bytes": 708202,
+      "sha256": "f366b5d8ff199d7f3eaa04fa1b0948df74f93a290a27c99cbb9d751f2e531e04"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v3-run-1/n16-k255/trace.csv",
+      "bytes": 264917,
+      "sha256": "523fbc23148473a2b8c3898f5d8d46694af086537e9574dce19719781645274a"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v3-run-1/n16-k4/compile.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v3-run-1/n16-k4/execution.log",
+      "bytes": 93,
+      "sha256": "988e93eb5ac6aaadb999306714d9fb733afeaebbf8503e8d3976721abfc1f99a"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v3-run-1/n16-k4/generation.log",
+      "bytes": 494430,
+      "sha256": "42cb83bd4128aa09239916030f365fd428f428167acdb4f3f9c4d2c55c4fb5d0"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v3-run-1/n16-k4/model.cc",
+      "bytes": 708202,
+      "sha256": "a97dcf8ed208a2c791422d285ce4f5fc9e4f50ef45b05c2699c0a21de9cda7f0"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v3-run-1/n16-k4/trace.csv",
+      "bytes": 263148,
+      "sha256": "a107061e393e0c869f32ebe708a320b92b362bd1a524ab2e38d7cc19f88a262b"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v3-run-1/n4-k1/compile.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v3-run-1/n4-k1/execution.log",
+      "bytes": 93,
+      "sha256": "72289dbca26547acdb2d4966a81b20775328843ece9704a21cfa481ae751425d"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v3-run-1/n4-k1/generation.log",
+      "bytes": 352471,
+      "sha256": "2490028caba20618773fbf2c05db66b4d013ee35edc196455c0ccb7cfdea6b5b"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v3-run-1/n4-k1/model.cc",
+      "bytes": 400914,
+      "sha256": "bcd3a53215c65008eedddef9a4308550b28bff21d8154a2a4c67c782cdae7f6f"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v3-run-1/n4-k1/trace.csv",
+      "bytes": 261909,
+      "sha256": "624feddbd0f7b513f17af86a4def6fc83e7b284adaee0906bb96300346d27dda"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v3-run-1/n4-k255/compile.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v3-run-1/n4-k255/execution.log",
+      "bytes": 93,
+      "sha256": "f493763d58007646a65a781bd9d619fb2075bd82359ed7ce5ae9fd5af6d22e80"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v3-run-1/n4-k255/generation.log",
+      "bytes": 352471,
+      "sha256": "2490028caba20618773fbf2c05db66b4d013ee35edc196455c0ccb7cfdea6b5b"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v3-run-1/n4-k255/model.cc",
+      "bytes": 400914,
+      "sha256": "bdb4668a8fd5bdd7c0568a530ae20c07994da5147e4f052342db98e0ad8553a5"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v3-run-1/n4-k255/trace.csv",
+      "bytes": 263305,
+      "sha256": "d1b6e0b6dd4ad42ec23db882b713959e1693b7fb58c589e75cf4fd55f070c0d4"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v3-run-1/n4-k4/compile.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v3-run-1/n4-k4/execution.log",
+      "bytes": 93,
+      "sha256": "988e93eb5ac6aaadb999306714d9fb733afeaebbf8503e8d3976721abfc1f99a"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v3-run-1/n4-k4/generation.log",
+      "bytes": 352471,
+      "sha256": "2490028caba20618773fbf2c05db66b4d013ee35edc196455c0ccb7cfdea6b5b"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v3-run-1/n4-k4/model.cc",
+      "bytes": 400914,
+      "sha256": "41b1c35b19d03e7ba33bbc715529c9210dab1fa2a2a3027c75a9ecd0b05dc965"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v3-run-1/n4-k4/trace.csv",
+      "bytes": 261909,
+      "sha256": "8ab22906ba359484f56e0154d19147ec32f8f4ac0304fe33861f946d023e8ba9"
+    },
+    {
+      "path": "paired-boot/cxxrtl-driver-v3-run-1/RESULT.json",
+      "bytes": 12660,
+      "sha256": "baf8047097546e0127a816016870d55d9d2a04ddd4339743643ba0cdda43aeb1"
+    },
+    {
+      "path": "paired-boot/cxxrtl-run-1/n16-k1/compile.log",
+      "bytes": 400973,
+      "sha256": "acf939d145432f35422cd160dbb3901d6b1fb8b0f620794cb50edadf256a15cb"
+    },
+    {
+      "path": "paired-boot/cxxrtl-run-1/n16-k1/generation.log",
+      "bytes": 494430,
+      "sha256": "42cb83bd4128aa09239916030f365fd428f428167acdb4f3f9c4d2c55c4fb5d0"
+    },
+    {
+      "path": "paired-boot/cxxrtl-run-1/n16-k1/model.cc",
+      "bytes": 708202,
+      "sha256": "acd896dd4109275c8b8d011316e005e355218a9fa4764cc6986953e69ebf575b"
+    },
+    {
+      "path": "paired-boot/cxxrtl-run-1/n16-k255/compile.log",
+      "bytes": 400973,
+      "sha256": "acf939d145432f35422cd160dbb3901d6b1fb8b0f620794cb50edadf256a15cb"
+    },
+    {
+      "path": "paired-boot/cxxrtl-run-1/n16-k255/generation.log",
+      "bytes": 494430,
+      "sha256": "42cb83bd4128aa09239916030f365fd428f428167acdb4f3f9c4d2c55c4fb5d0"
+    },
+    {
+      "path": "paired-boot/cxxrtl-run-1/n16-k255/model.cc",
+      "bytes": 708202,
+      "sha256": "f366b5d8ff199d7f3eaa04fa1b0948df74f93a290a27c99cbb9d751f2e531e04"
+    },
+    {
+      "path": "paired-boot/cxxrtl-run-1/n16-k4/compile.log",
+      "bytes": 400973,
+      "sha256": "acf939d145432f35422cd160dbb3901d6b1fb8b0f620794cb50edadf256a15cb"
+    },
+    {
+      "path": "paired-boot/cxxrtl-run-1/n16-k4/generation.log",
+      "bytes": 494430,
+      "sha256": "42cb83bd4128aa09239916030f365fd428f428167acdb4f3f9c4d2c55c4fb5d0"
+    },
+    {
+      "path": "paired-boot/cxxrtl-run-1/n16-k4/model.cc",
+      "bytes": 708202,
+      "sha256": "a97dcf8ed208a2c791422d285ce4f5fc9e4f50ef45b05c2699c0a21de9cda7f0"
+    },
+    {
+      "path": "paired-boot/cxxrtl-run-1/n4-k1/compile.log",
+      "bytes": 286988,
+      "sha256": "0646e0c9f5d601e95b04fd65a620d95f32de6aac77781fe55756232a05a0ba6c"
+    },
+    {
+      "path": "paired-boot/cxxrtl-run-1/n4-k1/generation.log",
+      "bytes": 352471,
+      "sha256": "2490028caba20618773fbf2c05db66b4d013ee35edc196455c0ccb7cfdea6b5b"
+    },
+    {
+      "path": "paired-boot/cxxrtl-run-1/n4-k1/model.cc",
+      "bytes": 400914,
+      "sha256": "bcd3a53215c65008eedddef9a4308550b28bff21d8154a2a4c67c782cdae7f6f"
+    },
+    {
+      "path": "paired-boot/cxxrtl-run-1/n4-k255/compile.log",
+      "bytes": 286988,
+      "sha256": "0646e0c9f5d601e95b04fd65a620d95f32de6aac77781fe55756232a05a0ba6c"
+    },
+    {
+      "path": "paired-boot/cxxrtl-run-1/n4-k255/generation.log",
+      "bytes": 352471,
+      "sha256": "2490028caba20618773fbf2c05db66b4d013ee35edc196455c0ccb7cfdea6b5b"
+    },
+    {
+      "path": "paired-boot/cxxrtl-run-1/n4-k255/model.cc",
+      "bytes": 400914,
+      "sha256": "bdb4668a8fd5bdd7c0568a530ae20c07994da5147e4f052342db98e0ad8553a5"
+    },
+    {
+      "path": "paired-boot/cxxrtl-run-1/n4-k4/compile.log",
+      "bytes": 286988,
+      "sha256": "0646e0c9f5d601e95b04fd65a620d95f32de6aac77781fe55756232a05a0ba6c"
+    },
+    {
+      "path": "paired-boot/cxxrtl-run-1/n4-k4/generation.log",
+      "bytes": 352471,
+      "sha256": "2490028caba20618773fbf2c05db66b4d013ee35edc196455c0ccb7cfdea6b5b"
+    },
+    {
+      "path": "paired-boot/cxxrtl-run-1/n4-k4/model.cc",
+      "bytes": 400914,
+      "sha256": "41b1c35b19d03e7ba33bbc715529c9210dab1fa2a2a3027c75a9ecd0b05dc965"
+    },
+    {
+      "path": "paired-boot/cxxrtl-run-1/RESULT.json",
+      "bytes": 5584,
+      "sha256": "b2799a2a6c2e8459446078838e295c0c3ad5c2cbfe54c9d22576bbd80fe2fe46"
+    },
+    {
+      "path": "paired-boot/driver-v2.cpp",
+      "bytes": 2224,
+      "sha256": "9bc3ffe3227ba80c826896ea957e9029bc15c028437a32caf17a56c90b8fdec9"
+    },
+    {
+      "path": "paired-boot/driver-v3.cpp",
+      "bytes": 2224,
+      "sha256": "28084502c31e7c50cb1d2ab4d69fc044934fef388535518a9db8e42ec599752a"
+    },
+    {
+      "path": "paired-boot/driver.cpp",
+      "bytes": 2169,
+      "sha256": "1fc8a51d2b61a3d15dc77d0430327445e254973bb97a1f8980694a4d97525dd9"
+    },
+    {
+      "path": "paired-boot/DRIVER_V2.diff",
+      "bytes": 294,
+      "sha256": "98f7ca0087c226072c21dd78fa268001ae61b71756c3ca0f09da01fe419bb417"
+    },
+    {
+      "path": "paired-boot/DRIVER_V2_ADDENDUM.json",
+      "bytes": 1641,
+      "sha256": "94a49eaf9e676ab0027acd379f585b7a7270ef65b8286525228b96b0d3e2bb3e"
+    },
+    {
+      "path": "paired-boot/DRIVER_V2_FREEZE.json",
+      "bytes": 2609,
+      "sha256": "9bb15352916469d0b45e9d523e8d6eefd79018c30ff2320086a7700f05b7805b"
+    },
+    {
+      "path": "paired-boot/DRIVER_V3.diff",
+      "bytes": 918,
+      "sha256": "07351668cb081b56f387d0780bf95e5433cd463d4065551076a7cc009cd66cf8"
+    },
+    {
+      "path": "paired-boot/DRIVER_V3_ADDENDUM.json",
+      "bytes": 1753,
+      "sha256": "f34da1add4293b3cda94505143dbcbddf1cc9a6ea5303417b0ff2c01e07a582c"
+    },
+    {
+      "path": "paired-boot/DRIVER_V3_FREEZE.json",
+      "bytes": 4330,
+      "sha256": "639fa79dea617dea135c2eceb6efd3fa199ef44c591a89ecfd9de9dcfab0e72d"
+    },
+    {
+      "path": "paired-boot/DRIVER_V3_STATIC_METADATA_CHECK.json",
+      "bytes": 2503,
+      "sha256": "558b5fcac37544a6842dd56af38d29a128437fafaafab521614709a91973cfb1"
+    },
+    {
+      "path": "paired-boot/IMPLEMENTATION_FREEZE.json",
+      "bytes": 2327,
+      "sha256": "de15c417975a06a779958c1dae1ca37fadd103d727a5f0a0ec81c26186e7b0c6"
+    },
+    {
+      "path": "paired-boot/observer-tests/n16-k1.v",
+      "bytes": 5792,
+      "sha256": "a5d26599555976685c2179d218a7f2ed7bb0401ebaf965ca31c5732f4f68949e"
+    },
+    {
+      "path": "paired-boot/observer-tests/n16-k255.v",
+      "bytes": 5794,
+      "sha256": "6410ad89dc04a7a93ddab3269a30e7ae23455da16de5554826eae65d2af02481"
+    },
+    {
+      "path": "paired-boot/observer-tests/n16-k4.v",
+      "bytes": 5792,
+      "sha256": "814d14e26c39d0e7aad8bbe851b124995fa0758a217a1f32bbad4e76e25839ba"
+    },
+    {
+      "path": "paired-boot/observer-tests/n4-k1.v",
+      "bytes": 5791,
+      "sha256": "ddf5a64e1a97dbbedebbdc2f8ef74e32a23b39f82a088fd45df616d7fe6691c5"
+    },
+    {
+      "path": "paired-boot/observer-tests/n4-k255.v",
+      "bytes": 5793,
+      "sha256": "d73e2c9037e5694b559630dfd5bfe381bc69e5fae1ce0af041c7cdc90d026c22"
+    },
+    {
+      "path": "paired-boot/observer-tests/n4-k4.v",
+      "bytes": 5791,
+      "sha256": "47aca8dd175cc0c24d76b0e8f4a5137e34900102c91042699a0f780645403c17"
+    },
+    {
+      "path": "paired-boot/OBSERVER_BINDING.json",
+      "bytes": 11624,
+      "sha256": "c7cc8d1587b1c0084a8931799c00b54efd92b32236d9745165a929305cd86c9b"
+    },
+    {
+      "path": "paired-boot/original-tests/n16-k1.v",
+      "bytes": 3866,
+      "sha256": "cc3c7fdc87559e4123ea288ad719defdafd81947de1c79eafb6e411891280716"
+    },
+    {
+      "path": "paired-boot/original-tests/n16-k255.v",
+      "bytes": 3868,
+      "sha256": "4dfd6c40b25dad592026467b1878059b9ac0eb3aa109960b9f2beb0629894c08"
+    },
+    {
+      "path": "paired-boot/original-tests/n16-k4.v",
+      "bytes": 3866,
+      "sha256": "5e2318408bf835c05fa5c85b17550d6b416f9e5407cc821009af28659489f2a8"
+    },
+    {
+      "path": "paired-boot/original-tests/n4-k1.v",
+      "bytes": 3865,
+      "sha256": "79e7041495be8f9f55e86aea9ef62de759319338a41f3978c3d52c46c002e503"
+    },
+    {
+      "path": "paired-boot/original-tests/n4-k255.v",
+      "bytes": 3867,
+      "sha256": "2d0f466e0386e2f5f1bcded5b9f06ec6e955ec9b86fb428acb674a0df6ac3c13"
+    },
+    {
+      "path": "paired-boot/original-tests/n4-k4.v",
+      "bytes": 3865,
+      "sha256": "0f31c6f28c666f0336188cd474e89638a82321c673366a3df1ecd7cccf8f9a9e"
+    },
+    {
+      "path": "paired-boot/prepare.py",
+      "bytes": 5838,
+      "sha256": "d86d08c5963f7c938723422ee75f29e543e5966ca3f62770f7080805f4fecb73"
+    },
+    {
+      "path": "paired-boot/prepare_driver_v2.py",
+      "bytes": 2842,
+      "sha256": "49570d910c07d1d0ff5cd2d8c1095b697478fda186a9178b7ab4d4fee5e02bd7"
+    },
+    {
+      "path": "paired-boot/prepare_driver_v3.py",
+      "bytes": 3748,
+      "sha256": "29d6750470511135a7f456a2cbecbb04657c912700ec035dd98c9e8766cfe11a"
+    },
+    {
+      "path": "paired-boot/PROTOCOL.json",
+      "bytes": 3946,
+      "sha256": "6c57d4780e75977e04ed2858c2ff6678b35efcf8b650f0634430108a80e43dc9"
+    },
+    {
+      "path": "paired-boot/PUBLIC_LABEL_CORRECTION.json",
+      "bytes": 1413,
+      "sha256": "fcd66688062c423a79386de870fd29b75eafc82b33f0d0a71a7f544bee311254"
+    },
+    {
+      "path": "paired-boot/PUBLIC_MANIFEST.json",
+      "bytes": 14313,
+      "sha256": "4c2523a2b89a1500690d09b0fbef7d7858bb70c4146ad3f1101c29eab6216167"
+    },
+    {
+      "path": "paired-boot/PUBLIC_SANITIZATION.json",
+      "bytes": 995,
+      "sha256": "24060bffea0de69d80fad3b4f8a07e1ce1bcec393fd345b912a9e86b3cde6a04"
+    },
+    {
+      "path": "paired-boot/PUBLIC_SOURCE_MANIFEST.json",
+      "bytes": 1820,
+      "sha256": "d8c1b52c62369156983a566345716f3edfef02d913132cacc372e74848ff2dba"
+    },
+    {
+      "path": "paired-boot/R37_ORIGINAL_EQUIVALENCE_RESULT.json",
+      "bytes": 5555,
+      "sha256": "c0cedb69a4645999340aa50737e929aeac516a4a321b80b24813aa049dc97bcc"
+    },
+    {
+      "path": "paired-boot/R37_PATH_BINDING.json",
+      "bytes": 10222,
+      "sha256": "1eddf593d096f3873470427c8e46cbc2a4a021a05cdeb64ce41dccde60566182"
+    },
+    {
+      "path": "paired-boot/README.md",
+      "bytes": 6310,
+      "sha256": "9499e192fc04a22d6d9800f5a1a161c57c44a5024c11bbdbda2d73da844d9fba"
+    },
+    {
+      "path": "paired-boot/reduce_results.py",
+      "bytes": 1401,
+      "sha256": "c7e8e29c70bcf789b0be1fb4d346734236803aef8c3292c59f877e6e8827abde"
+    },
+    {
+      "path": "paired-boot/rerun_public.py",
+      "bytes": 960,
+      "sha256": "d23d27dbc5e76381c1a1a5b1b82a75766751e2ae7a935b81df56c201c3f2e18b"
+    },
+    {
+      "path": "paired-boot/RESULT_SUMMARY.csv",
+      "bytes": 555,
+      "sha256": "9f518d03cba3255fb8c4d3be39d653a02f03137c93b1d0e5b469e67302e7e380"
+    },
+    {
+      "path": "paired-boot/rtl/clean_read_data.v",
+      "bytes": 5178,
+      "sha256": "5fa2ce1bb20ff7ad76a324a0fc90325f65c21e3a8e315f8c41a241e0f097c923"
+    },
+    {
+      "path": "paired-boot/rtl/full_receiver.v",
+      "bytes": 4656,
+      "sha256": "43a2b96ac3c50aefd7cfecca2a1c296e65295c07923d933a5b0b1c7f5eda2067"
+    },
+    {
+      "path": "paired-boot/rtl/hush_transport.v",
+      "bytes": 4406,
+      "sha256": "37dc1f30d3756c9253c44b4c4f058bdeef3cc480b5a7e77c6705512ba4a8703e"
+    },
+    {
+      "path": "paired-boot/rtl/phase_sequencer.v",
+      "bytes": 5283,
+      "sha256": "6273b626b78ea217f2396afcef9b7a3a3e283df90db3660b6dda7f822b127a79"
+    },
+    {
+      "path": "paired-boot/run_cases.py",
+      "bytes": 3857,
+      "sha256": "201d1d2871f55b461756f56336cb7e6e0c99ac6e41aa2cbe0c1548706005f60d"
+    },
+    {
+      "path": "paired-boot/run_cases_v2.py",
+      "bytes": 4073,
+      "sha256": "396fb84ab2ac6d0fe87a01a9d271d414605a25316c1beef6951763864ec38664"
+    },
+    {
+      "path": "paired-boot/run_cases_v3.py",
+      "bytes": 4176,
+      "sha256": "6dcf233a5ec531ef5dfef6fe2f3c8a85f0fa631affdb344a2253a9aad48234a4"
+    },
+    {
+      "path": "paired-boot/SUMMARY.json",
+      "bytes": 664,
+      "sha256": "90ed0752a73d09eb2a50c0b56e6f8755ee69fffcb265794f1de867f46f983b37"
+    },
+    {
+      "path": "paired-boot/TOOLCHAIN_HASHES.json",
+      "bytes": 1191,
+      "sha256": "be8dbc4b2843c91e70801701cf08bb57e2cb62c5a1c4d87ad03da291bca41490"
+    },
+    {
+      "path": "deployment-region/check.py",
+      "bytes": 3844,
+      "sha256": "a5132f32f5fc513174d9400cf55aa2e7864d27f9eaf5e759ad2f60a59900fab3"
+    },
+    {
+      "path": "deployment-region/MANIFEST.json",
+      "bytes": 974,
+      "sha256": "4bb7cf6ba4c817e79592bcba9e1724b9e8f02d93d64eba471f64be73042cde82"
+    },
+    {
+      "path": "deployment-region/r38-all48-heldout-regions.csv",
+      "bytes": 2261,
+      "sha256": "b74c016b4b374e26132004e1b99730b00e2affe92d403c13101d7cae0338232d"
+    },
+    {
+      "path": "deployment-region/r38-deployment-all768.csv",
+      "bytes": 241996,
+      "sha256": "dd9cf3cf06a82dc4654745370c27f73b4acf37e475617994ab8fdb8aa70218fd"
+    },
+    {
+      "path": "deployment-region/r38-deployment-regions.csv",
+      "bytes": 708,
+      "sha256": "068436a4586305e54643c88d4ce2bcd4949a433b0c3b09b2de7cfb06f6df21fd"
+    },
+    {
+      "path": "deployment-region/README.md",
+      "bytes": 826,
+      "sha256": "b37312acf538aa67d53bed2e3e2f20908380473ebb2e5d28070fa952e6fda134"
+    },
+    {
+      "path": "deployment-region/SUMMARY.json",
+      "bytes": 19283,
+      "sha256": "c3b035b2e02f3f177a1801f033b1a66fb1e7408b8d74ccc2f8f0e7e1db52662e"
+    }
+  ],
+  "component_snapshots": {
+    "receiver-endpoint": {
+      "member_count": 38,
+      "sha256_of_inventory": "ccb83a7b6a7de8540002944ef5e3858c538a5a67152b5d7aa5c66b69ad0644ff"
+    },
+    "sentinel-frontier": {
+      "member_count": 53,
+      "sha256_of_inventory": "97332b8d39927f9c4d3a31b6741907e2a2ef0623ea1a53c99947ecafa811071c"
+    },
+    "paired-boot": {
+      "member_count": 131,
+      "sha256_of_inventory": "6c8bb2759dfef3168e013f0334081f31517eb79a8f1d6c4162e4aefafe3b9469"
+    },
+    "deployment-region": {
+      "member_count": 7,
+      "sha256_of_inventory": "8d14ff0dc4e7658eca74130709599b8b8317bb9176f5b500ab2e75d2759725d1"
+    }
+  },
+  "completed_execution_gate": {
+    "ready": true,
+    "receiver_native_executions": 108,
+    "sentinel_stages": [
+      {
+        "stage": "TRAIN",
+        "actual_native_executions": 216,
+        "valid": 216
+      },
+      {
+        "stage": "VALIDATION",
+        "actual_native_executions": 144,
+        "valid": 144
+      }
+    ],
+    "new_native_executions_recorded": 468,
+    "historical_native_total": 6108,
+    "native_cumulative_total": 6576,
+    "boot_simulation_cases": 6,
+    "new_scientific_calls": 0
+  },
+  "new_native_executions_recorded": 468,
+  "historical_native_total": 6108,
+  "native_cumulative_total": 6576,
+  "earlier_index_commit": "dadbfe86e1450d7cb0add4eab786bda8cb32eef8",
+  "public_prefix": "research/phase-adaptive-20261024/revised-story-r38-v1"
+}
