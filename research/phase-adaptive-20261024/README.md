@@ -71,3 +71,8 @@ prespecified new workload or a measured deadline.
 
 The earlier normalized-cost study and its failures are retained locally as
 research history; they are not pooled with these cycle-level results.
+
+
+## Ordered phase-call sensitivity (R62)
+
+The [24-case frozen-plan caller sweep](r62/README.md) extends the positioned-caller study through 128 cycles per call. Its standalone archive checks all source hashes and replays every result byte for byte. This is independent event-model evidence, separate from the RTL and quantized gem5 series.
