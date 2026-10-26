@@ -1,3 +1,15 @@
+# HUSH: predictable coherence with phase-adaptive retention
+
+HUSH is a time-bounded write-update protocol that combines read capture with silent expiry of idle cache copies. Phase-adaptive retention selects sharing windows from program reuse, supported by timer/LRU analysis and gem5 experiments.
+
+**Research code, experiment data and reproducibility:** [open the HUSH collection](https://github.com/CupinDusk/HUSH/tree/4ffe8430718540d1f30f35e67aad1ba37b850fd2/research/phase-adaptive-20261024).
+
+The pinned collection indexes the FIR and matrix receiver studies, static-analysis checks, complete budget tables, finite-cache sensitivity, native gem5 application runs and phase-call experiments. Each collection provides its own configurations and replay instructions. The [research branch](https://github.com/CupinDusk/HUSH/tree/codex/hush-phase-adaptive-20261024/research/phase-adaptive-20261024) retains subsequent updates.
+
+The simulator source and upstream build documentation follow below.
+
+---
+
 # The gem5 Simulator
 
 This is the repository for the gem5 simulator. It contains the full source code
