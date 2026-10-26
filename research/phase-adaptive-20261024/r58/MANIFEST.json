@@ -10,13 +10,27 @@
       "file": "hush-cache-private-time-model-r58-v1.zip",
       "sha256": "5a86cf80d8df96e942ecd91fe44c53574ae5c13bb15cbe2e1c68a6881e81518f",
       "bytes": 2569860
+    },
+    {
+      "file": "hush-quantized-native-r58-new-applications-v1.zip",
+      "bytes": 1366246,
+      "sha256": "765606654370cc2275e3662686728ded0abf40795b8373747cc7f38635ec77ba"
     }
   ],
   "new_parameterized_model_runs": 288,
   "new_model_observer_replays": 288,
   "revalidated_prior_native_directed_fixtures": 24,
   "revalidated_prior_native_application_labels": 72,
-  "new_native_gem5_runs": 0,
+  "new_native_gem5_runs": 26,
   "new_RTL_runs": 0,
-  "physical_PPA_claims": false
+  "physical_PPA_claims": false,
+  "new_native_directed_fixtures": 12,
+  "new_directed_assertions": 53,
+  "new_native_application_cases": 14,
+  "new_builds": 0,
+  "new_native_runtime_invariant_failures": 0,
+  "new_native_functional_self_tests_pass": true,
+  "native_four_core_static_certificate": false,
+  "retained_component_diagnostic_nonzero_rows": 6,
+  "retained_component_diagnostic_sum": 8
 }
