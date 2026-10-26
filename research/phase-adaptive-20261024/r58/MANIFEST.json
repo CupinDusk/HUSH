@@ -1,0 +1,22 @@
+{
+  "revision": "R58",
+  "packages": [
+    {
+      "file": "hush-quantized-native-r58-revalidation-v1.zip",
+      "sha256": "ad3c126ce195f8e6206a129227e0a84e91d4aca260f64f9086ecad017907623b",
+      "bytes": 20236343
+    },
+    {
+      "file": "hush-cache-private-time-model-r58-v1.zip",
+      "sha256": "5a86cf80d8df96e942ecd91fe44c53574ae5c13bb15cbe2e1c68a6881e81518f",
+      "bytes": 2569860
+    }
+  ],
+  "new_parameterized_model_runs": 288,
+  "new_model_observer_replays": 288,
+  "revalidated_prior_native_directed_fixtures": 24,
+  "revalidated_prior_native_application_labels": 72,
+  "new_native_gem5_runs": 0,
+  "new_RTL_runs": 0,
+  "physical_PPA_claims": false
+}
