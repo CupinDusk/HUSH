@@ -1,4 +1,30 @@
-# Phase-adaptive HUSH research prototype
+# HUSH: phase-adaptive retention and reproducibility
+
+HUSH is a time-bounded write-update coherence protocol for predictable shared-memory access. Its receiver timers retain useful copies and silently expire idle sharers. The phase-adaptive extension selects retention windows from the program's reuse pattern and carries timer and LRU facts across phase boundaries.
+
+## Research collections
+
+The links below separate the receiver model, static analysis, and native gem5 experiments. Each collection retains its inputs, numerical outcomes, source bindings, and replay checks. Start with the collection matching the experiment of interest.
+
+| Question | Collection | Replay entry point |
+|---|---|---|
+| Phase-varying FIR reuse, timing bounds and update traffic | [Cropped FIR](cropped-fir-r50-v1/README.md) | Extract the collection and run `python -B -X utf8 VERIFY.py` |
+| Matrix reuse intervals and carried timer bounds | [Matrix operand reuse](matrix-reuse-r52-v1/README.md) | Extract the collection and run `python -B -X utf8 VERIFY.py` |
+| Complete budget sweeps | [Budget envelopes](budget-envelopes-r53-v1/) | Use the included verification script and protocols |
+| Phase transitions and retention diagnostics | [Phase diagnostics](phase-diagnostics-r53-v1/) | Use the included verification script and protocols |
+| Ordered timer/LRU transfer and native application integration | [Ordered analysis and applications](r55/README.md) | Follow the independent archive instructions |
+| Finite-cache capacity, private-reference timing and quantized gem5 results | [Current cache and quantized native collections](r58/README.md) | Follow the three archive-specific replay instructions |
+| Positioned phase-call computation | [24-case caller sweep](r62/README.md) | Extract the archive and run its verifier |
+
+The collection READMEs identify the relevant simulator, service contract, benchmark port, and scope. Offline replay checks recompute the published tables or validate retained traces; a new gem5 simulation requires the documented simulator build and configuration. Earlier and current implementations are retained separately so that the original result provenance remains inspectable.
+
+## gem5 implementation
+
+The [HUSH repository](https://github.com/CupinDusk/HUSH) includes the simulator source. Native phase-adaptive runs, application sources, model changes and sanitized receipts are indexed in [R58](r58/README.md), with earlier prospective-retention application experiments in [R55](r55/README.md). The original HUSH core-protocol experiments and the phase-adaptive receiver study have distinct configurations, as recorded in their protocols.
+
+## Initial prototype (historical)
+
+The following instructions describe the initial dedicated-slot receiver prototype. The collections indexed above contain the subsequent finite-cache analysis and native gem5 work.
 
 This package contains newly written receiver-timer RTL, a cycle-level
 single-writer two-core HUSH subset, a conservative program-bound analyzer,
