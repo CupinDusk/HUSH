@@ -1,3 +1,17 @@
+# HUSH: Predictable Write-Update Coherence
+
+This branch provides the public HUSH research implementation and reproducibility materials.
+The phase-adaptive study contains protocol sources, bounded-reference analyses,
+all reported outcome collections, and replay/check scripts.
+
+Start with the [HUSH research guide](research/phase-adaptive-20261024/README.md).
+The study directories under that guide contain their own source bindings,
+configuration files and reproduction instructions.
+
+The upstream gem5 documentation is preserved below.
+
+---
+
 # The gem5 Simulator
 
 This is the repository for the gem5 simulator. It contains the full source code
